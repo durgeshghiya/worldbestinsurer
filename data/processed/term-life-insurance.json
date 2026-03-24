@@ -1,0 +1,342 @@
+{
+  "category": "term-life",
+  "lastUpdated": "2026-03-24",
+  "disclaimer": "Data collected from publicly available sources for educational and informational purposes only. Premium figures are illustrative. Zura does not sell insurance. Verify all details with the insurer before making any decision.",
+  "products": [
+    {
+      "id": "hdfc-click2protect-life",
+      "insurerName": "HDFC Life Insurance Co. Ltd.",
+      "insurerSlug": "hdfc-life",
+      "productName": "Click 2 Protect Life",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "N/A - term plan"
+      },
+      "sumInsured": {
+        "min": 2500000,
+        "max": 100000000,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 6000,
+        "illustrativeMax": 18000,
+        "assumptions": "Male, 30 years, non-smoker, 1 Cr cover, 30-year term, annual pay. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "N/A",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Death benefit (lump sum / monthly income / increasing income options)",
+        "Terminal illness benefit",
+        "Option to increase cover at life events",
+        "Return of premium variant available",
+        "Whole life option available"
+      ],
+      "keyExclusions": [
+        "Suicide within first 12 months",
+        "Misrepresentation of material facts"
+      ],
+      "claimSettlement": {
+        "ratio": 98.5,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified"
+      },
+      "networkHospitals": null,
+      "riders": [
+        "Accidental death benefit rider",
+        "Critical illness rider",
+        "Waiver of premium rider",
+        "Income benefit on accidental disability"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 40,
+        "options": []
+      },
+      "renewability": "Not applicable — term plan",
+      "specialFeatures": [
+        "Multiple payout options (lump sum, monthly, increasing)",
+        "Life stage benefit — increase cover at marriage, child birth",
+        "Whole Life option till age 99",
+        "Return of premium variant",
+        "Tax benefit under Section 80C and 10(10D)"
+      ],
+      "sourceUrl": "https://www.hdfclife.com/term-insurance-plans/click-2-protect-life",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Premium illustrative."
+    },
+    {
+      "id": "icici-pru-iprotect-smart",
+      "insurerName": "ICICI Prudential Life Insurance Co. Ltd.",
+      "insurerSlug": "icici-prudential",
+      "productName": "iProtect Smart",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 60,
+        "renewableUpTo": "N/A"
+      },
+      "sumInsured": {
+        "min": 5000000,
+        "max": 250000000,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 6500,
+        "illustrativeMax": 20000,
+        "assumptions": "Male, 30 years, non-smoker, 1 Cr cover, 30-year term. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "N/A",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Death benefit (lump sum or monthly income)",
+        "Terminal illness benefit",
+        "Accidental death benefit (built-in)",
+        "Return of premium option"
+      ],
+      "keyExclusions": [
+        "Suicide within first 12 months",
+        "Misrepresentation of material facts"
+      ],
+      "claimSettlement": {
+        "ratio": 97.8,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified"
+      },
+      "networkHospitals": null,
+      "riders": [
+        "Accidental death and disability rider",
+        "Critical illness rider",
+        "Waiver of premium"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 40,
+        "options": []
+      },
+      "renewability": "Not applicable — term plan",
+      "specialFeatures": [
+        "Cover up to 25 Crore",
+        "Flexible payout options",
+        "In-built accidental death benefit in some variants",
+        "Terminal illness cover",
+        "Tax benefit under 80C and 10(10D)"
+      ],
+      "sourceUrl": "https://www.iciciprulife.com/term-insurance/iprotect-smart.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page."
+    },
+    {
+      "id": "max-life-smart-secure-plus",
+      "insurerName": "Max Life Insurance Co. Ltd.",
+      "insurerSlug": "max-life",
+      "productName": "Smart Secure Plus Plan",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 60,
+        "renewableUpTo": "N/A"
+      },
+      "sumInsured": {
+        "min": 2500000,
+        "max": 100000000,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 5800,
+        "illustrativeMax": 17000,
+        "assumptions": "Male, 30 years, non-smoker, 1 Cr cover, 30-year term. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "N/A",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Multiple payout options",
+        "Increasing cover option"
+      ],
+      "keyExclusions": [
+        "Suicide within first 12 months",
+        "Misrepresentation"
+      ],
+      "claimSettlement": {
+        "ratio": 99.2,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified"
+      },
+      "networkHospitals": null,
+      "riders": [
+        "Accidental death benefit rider",
+        "Critical illness rider",
+        "Waiver of premium rider",
+        "Comprehensive accident rider"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 40,
+        "options": []
+      },
+      "renewability": "Not applicable — term plan",
+      "specialFeatures": [
+        "Highest claim settlement ratio among private insurers",
+        "Flexible payout — lump sum + monthly income",
+        "Increasing cover to hedge inflation",
+        "Tax benefit 80C and 10(10D)"
+      ],
+      "sourceUrl": "https://www.maxlifeinsurance.com/term-insurance-plans/smart-secure-plus-plan",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page."
+    },
+    {
+      "id": "tata-aia-sampoorna-raksha",
+      "insurerName": "Tata AIA Life Insurance Co. Ltd.",
+      "insurerSlug": "tata-aia",
+      "productName": "Sampoorna Raksha Supreme",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "N/A"
+      },
+      "sumInsured": {
+        "min": 2500000,
+        "max": 100000000,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 6200,
+        "illustrativeMax": 19000,
+        "assumptions": "Male, 30 years, non-smoker, 1 Cr cover, 30-year term. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "N/A",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Multiple payout options"
+      ],
+      "keyExclusions": [
+        "Suicide within first 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 98.6,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified"
+      },
+      "networkHospitals": null,
+      "riders": [
+        "Accidental death benefit",
+        "Critical illness",
+        "Waiver of premium"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 40,
+        "options": []
+      },
+      "renewability": "N/A",
+      "specialFeatures": [
+        "Flexible cover options",
+        "Whole life variant available",
+        "Return of premium variant",
+        "Tax benefit"
+      ],
+      "sourceUrl": "https://www.tataaia.com/life-insurance/term-plans/sampoorna-raksha-supreme.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page."
+    },
+    {
+      "id": "sbi-life-eshield-next",
+      "insurerName": "SBI Life Insurance Co. Ltd.",
+      "insurerSlug": "sbi-life",
+      "productName": "eShield Next",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "N/A"
+      },
+      "sumInsured": {
+        "min": 2500000,
+        "max": 100000000,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 5500,
+        "illustrativeMax": 16000,
+        "assumptions": "Male, 30 years, non-smoker, 1 Cr cover, 30-year term. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "N/A",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Flexible payout"
+      ],
+      "keyExclusions": [
+        "Suicide within first 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 96.4,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified"
+      },
+      "networkHospitals": null,
+      "riders": [
+        "Accidental death benefit",
+        "Accelerated critical illness"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 40,
+        "options": []
+      },
+      "renewability": "N/A",
+      "specialFeatures": [
+        "Competitive premiums",
+        "SBI brand trust",
+        "Online purchase available",
+        "Tax benefit"
+      ],
+      "sourceUrl": "https://www.sbilife.co.in/en/individual-life-insurance/eshield-next",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page."
+    }
+  ]
+}

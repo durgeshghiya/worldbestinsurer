@@ -1,0 +1,1065 @@
+{
+  "category": "health",
+  "lastUpdated": "2026-03-24",
+  "disclaimer": "Data collected from publicly available sources for educational purposes only. In the UK, healthcare is primarily provided by the NHS. Private Medical Insurance (PMI) supplements NHS care. Premium figures are illustrative and vary by age, medical history, and coverage level. Zura does not sell insurance. Verify with insurer.",
+  "products": [
+    {
+      "id": "bupa-comprehensive",
+      "insurerName": "Bupa",
+      "insurerSlug": "bupa",
+      "productName": "Bupa Comprehensive Health Insurance",
+      "category": "health",
+      "subCategory": "pmi-comprehensive",
+      "countryCode": "uk",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": null,
+        "renewableUpTo": "Lifetime"
+      },
+      "sumInsured": {
+        "min": 0,
+        "max": null,
+        "currency": "GBP",
+        "note": "No annual limit on most treatment costs (full outpatient cover)"
+      },
+      "premiumRange": {
+        "illustrativeMin": 80,
+        "illustrativeMax": 250,
+        "assumptions": "Individual, age 30, non-smoker, monthly. Varies by excess and options chosen.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None for new conditions",
+        "preExisting": "Moratorium — 2 years clear required or Full Medical Underwriting",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "In-patient and day-patient treatment",
+        "Out-patient treatment (consultations, diagnostics, therapies)",
+        "Cancer cover (diagnosis, treatment, aftercare)",
+        "Mental health cover",
+        "MRI, CT, and PET scans",
+        "Physiotherapy",
+        "Private GP consultations via Bupa",
+        "Hospital at home"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions (unless declared and accepted at underwriting)",
+        "Cosmetic surgery",
+        "GP services beyond Bupa GP",
+        "Fertility treatment",
+        "Dental and optical (separate plans)",
+        "Chronic condition management (ongoing)"
+      ],
+      "claimSettlement": null,
+      "networkHospitals": {
+        "count": 500,
+        "source": "Bupa recognized hospital and clinic network (approximate)"
+      },
+      "riders": [
+        "Dental and optical cover",
+        "Therapies (physio, osteopathy, chiropractic) extended",
+        "Psychiatric cover extension",
+        "Overseas emergency cover",
+        "Travel option"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": ["Annual"]
+      },
+      "renewability": "Annual — lifetime renewability",
+      "specialFeatures": [
+        "No annual treatment limit on comprehensive plan",
+        "Direct access to specialists without GP referral",
+        "Bupa health assessment included",
+        "Digital GP app — Blua by Bupa",
+        "Cancer care including experimental drugs",
+        "Mental health cover included"
+      ],
+      "sourceUrl": "https://www.bupa.co.uk/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Bupa is the UK's leading PMI provider. Comprehensive is their top-tier product."
+    },
+    {
+      "id": "bupa-treatment-and-care",
+      "insurerName": "Bupa",
+      "insurerSlug": "bupa",
+      "productName": "Bupa Treatment and Care",
+      "category": "health",
+      "subCategory": "pmi-mid-range",
+      "countryCode": "uk",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": null,
+        "renewableUpTo": "Lifetime"
+      },
+      "sumInsured": {
+        "min": 0,
+        "max": null,
+        "currency": "GBP",
+        "note": "No annual limit on in-patient treatment"
+      },
+      "premiumRange": {
+        "illustrativeMin": 50,
+        "illustrativeMax": 180,
+        "assumptions": "Individual, age 30, non-smoker, monthly.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None for new conditions",
+        "preExisting": "Moratorium or FMU",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "In-patient and day-patient treatment",
+        "Cancer cover",
+        "Diagnostic scans (MRI, CT)",
+        "Mental health cover",
+        "Hospital at home"
+      ],
+      "keyExclusions": [
+        "Outpatient consultations and diagnostics (limited)",
+        "Pre-existing conditions under moratorium",
+        "Cosmetic surgery",
+        "Fertility treatment",
+        "Chronic disease management"
+      ],
+      "claimSettlement": null,
+      "networkHospitals": null,
+      "riders": [
+        "Outpatient cover add-on",
+        "Dental and optical",
+        "Therapies extension"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": ["Annual"]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Lower cost than Comprehensive",
+        "In-patient focused with optional outpatient",
+        "Fast access to treatment — bypass NHS waiting lists"
+      ],
+      "sourceUrl": "https://www.bupa.co.uk/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Mid-tier Bupa plan. In-patient focused. Good value entry to PMI."
+    },
+    {
+      "id": "bupa-by-you",
+      "insurerName": "Bupa",
+      "insurerSlug": "bupa",
+      "productName": "Bupa By You",
+      "category": "health",
+      "subCategory": "pmi-flexible",
+      "countryCode": "uk",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": null,
+        "renewableUpTo": "Lifetime"
+      },
+      "sumInsured": {
+        "min": 0,
+        "max": null,
+        "currency": "GBP",
+        "note": "Depends on cover level selected"
+      },
+      "premiumRange": {
+        "illustrativeMin": 35,
+        "illustrativeMax": 200,
+        "assumptions": "Individual, age 30, non-smoker, monthly. Varies widely by options.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None for new conditions",
+        "preExisting": "Moratorium or FMU",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Customizable — choose your cover level",
+        "In-patient treatment (all levels)",
+        "Cancer cover (all levels)",
+        "Optional outpatient, mental health, therapies"
+      ],
+      "keyExclusions": [
+        "Components not selected",
+        "Pre-existing conditions under moratorium",
+        "Cosmetic surgery",
+        "Fertility treatment"
+      ],
+      "claimSettlement": null,
+      "networkHospitals": null,
+      "riders": [
+        "Outpatient cover",
+        "Mental health",
+        "Therapies",
+        "Dental and optical",
+        "Overseas cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": ["Annual"]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Build your own plan — modular",
+        "Start basic and add as needed",
+        "Choose hospital list (extended, standard, local)",
+        "Excess options to manage premium"
+      ],
+      "sourceUrl": "https://www.bupa.co.uk/health-insurance/bupa-by-you",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Flexible modular plan. Popular for customizing to budget."
+    },
+    {
+      "id": "axa-health-personal-health",
+      "insurerName": "AXA Health",
+      "insurerSlug": "axa-health",
+      "productName": "AXA Health Personal Health Plan",
+      "category": "health",
+      "subCategory": "pmi-comprehensive",
+      "countryCode": "uk",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": null,
+        "renewableUpTo": "Lifetime"
+      },
+      "sumInsured": {
+        "min": 0,
+        "max": null,
+        "currency": "GBP",
+        "note": "No annual limit on in-patient at top tier"
+      },
+      "premiumRange": {
+        "illustrativeMin": 60,
+        "illustrativeMax": 220,
+        "assumptions": "Individual, age 30, non-smoker, monthly.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "Moratorium or FMU",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "In-patient and day-patient treatment",
+        "Outpatient cover (consultations, tests, therapy)",
+        "Cancer treatment",
+        "Mental health",
+        "Physiotherapy and osteopathy",
+        "MRI, CT scans",
+        "Private ambulance"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions under moratorium",
+        "Cosmetic surgery",
+        "Fertility treatment",
+        "Dental and optical",
+        "Chronic disease management"
+      ],
+      "claimSettlement": null,
+      "networkHospitals": {
+        "count": 400,
+        "source": "AXA Health recognized providers (approximate)"
+      },
+      "riders": [
+        "Dental and optical cover",
+        "Therapies extension",
+        "Travel cover",
+        "Personal accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": ["Annual"]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Doctor@Hand virtual GP service",
+        "Mind health support",
+        "AXA Health app with digital claims",
+        "Choice of excess to lower premium",
+        "NHS cashback option"
+      ],
+      "sourceUrl": "https://www.axahealth.co.uk/health-insurance/personal-health/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "AXA Health is a major UK PMI provider. Part of AXA Group."
+    },
+    {
+      "id": "axa-health-plan",
+      "insurerName": "AXA Health",
+      "insurerSlug": "axa-health",
+      "productName": "AXA Health Plan",
+      "category": "health",
+      "subCategory": "pmi-budget",
+      "countryCode": "uk",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": null,
+        "renewableUpTo": "Lifetime"
+      },
+      "sumInsured": {
+        "min": 0,
+        "max": 75000,
+        "currency": "GBP",
+        "note": "Annual benefit limit"
+      },
+      "premiumRange": {
+        "illustrativeMin": 30,
+        "illustrativeMax": 120,
+        "assumptions": "Individual, age 30, non-smoker, monthly.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "Moratorium",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "In-patient and day-patient treatment",
+        "Cancer cover",
+        "Diagnostic scans",
+        "Virtual GP",
+        "Mental health (limited)"
+      ],
+      "keyExclusions": [
+        "Outpatient cover",
+        "Therapies",
+        "Pre-existing conditions",
+        "Cosmetic surgery",
+        "Dental and optical"
+      ],
+      "claimSettlement": null,
+      "networkHospitals": null,
+      "riders": [
+        "Outpatient add-on",
+        "Dental cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": ["Annual"]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Budget-friendly PMI entry point",
+        "Doctor@Hand virtual GP",
+        "6-week NHS wait option for lower premium"
+      ],
+      "sourceUrl": "https://www.axahealth.co.uk/health-insurance/health-plan/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Entry-level plan with annual benefit cap."
+    },
+    {
+      "id": "aviva-health-insurance",
+      "insurerName": "Aviva plc",
+      "insurerSlug": "aviva",
+      "productName": "Aviva Health Insurance",
+      "category": "health",
+      "subCategory": "pmi-comprehensive",
+      "countryCode": "uk",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": null,
+        "renewableUpTo": "Lifetime"
+      },
+      "sumInsured": {
+        "min": 0,
+        "max": null,
+        "currency": "GBP",
+        "note": "Unlimited in-patient cover on top plan"
+      },
+      "premiumRange": {
+        "illustrativeMin": 55,
+        "illustrativeMax": 200,
+        "assumptions": "Individual, age 30, non-smoker, monthly.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "Moratorium or FMU",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "In-patient and day-patient treatment",
+        "Outpatient cover (consultations, diagnostics)",
+        "Cancer treatment",
+        "Mental health cover",
+        "MRI, CT, PET scans",
+        "Physiotherapy",
+        "Private GP access via Digital GP"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions under moratorium",
+        "Cosmetic surgery",
+        "Fertility treatment",
+        "Chronic disease management (long-term)",
+        "Dental and optical"
+      ],
+      "claimSettlement": null,
+      "networkHospitals": {
+        "count": 350,
+        "source": "Aviva recognized hospitals (approximate)"
+      },
+      "riders": [
+        "Dental and optical cover",
+        "Therapies extension",
+        "Travel cover",
+        "Personal accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": ["Annual"]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Digital GP — unlimited video consultations",
+        "Mental health first support",
+        "Choice of 4 cover levels",
+        "NHS cashback option",
+        "MyAviva app for claims and policy management"
+      ],
+      "sourceUrl": "https://www.aviva.co.uk/health/health-insurance/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Aviva is the UK's largest insurer. Comprehensive PMI offering."
+    },
+    {
+      "id": "aviva-optimum",
+      "insurerName": "Aviva plc",
+      "insurerSlug": "aviva",
+      "productName": "Aviva Optimum Health Insurance",
+      "category": "health",
+      "subCategory": "pmi-mid-range",
+      "countryCode": "uk",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": null,
+        "renewableUpTo": "Lifetime"
+      },
+      "sumInsured": {
+        "min": 0,
+        "max": 100000,
+        "currency": "GBP",
+        "note": "Annual benefit limit"
+      },
+      "premiumRange": {
+        "illustrativeMin": 35,
+        "illustrativeMax": 130,
+        "assumptions": "Individual, age 30, non-smoker, monthly.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "Moratorium",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "In-patient and day-patient treatment",
+        "Cancer cover",
+        "Diagnostic scans",
+        "Digital GP",
+        "Mental health (limited)"
+      ],
+      "keyExclusions": [
+        "Outpatient consultations (unless added)",
+        "Pre-existing conditions",
+        "Cosmetic surgery",
+        "Dental and optical"
+      ],
+      "claimSettlement": null,
+      "networkHospitals": null,
+      "riders": [
+        "Outpatient cover",
+        "Therapies",
+        "Dental and optical"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": ["Annual"]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Budget-friendly with essential cover",
+        "Digital GP included",
+        "6-week NHS wait option"
+      ],
+      "sourceUrl": "https://www.aviva.co.uk/health/health-insurance/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Mid-range option with annual cap. Good value PMI."
+    },
+    {
+      "id": "vitality-health-insurance",
+      "insurerName": "VitalityHealth",
+      "insurerSlug": "vitality-health",
+      "productName": "VitalityHealth Core Cover",
+      "category": "health",
+      "subCategory": "pmi-comprehensive",
+      "countryCode": "uk",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": null,
+        "renewableUpTo": "Lifetime"
+      },
+      "sumInsured": {
+        "min": 0,
+        "max": null,
+        "currency": "GBP",
+        "note": "No in-patient limit on comprehensive tiers"
+      },
+      "premiumRange": {
+        "illustrativeMin": 55,
+        "illustrativeMax": 220,
+        "assumptions": "Individual, age 30, non-smoker, monthly. Can reduce with Vitality programme.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "Moratorium or FMU",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "In-patient and day-patient treatment",
+        "Cancer cover",
+        "Mental health",
+        "Out-patient treatment",
+        "Diagnostic scans",
+        "Therapies",
+        "Virtual GP"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions under moratorium",
+        "Cosmetic surgery",
+        "Fertility treatment",
+        "Chronic disease management",
+        "Dental and optical (unless added)"
+      ],
+      "claimSettlement": null,
+      "networkHospitals": {
+        "count": 350,
+        "source": "Vitality partner hospital network (approximate)"
+      },
+      "riders": [
+        "Dental and optical",
+        "Travel cover",
+        "Therapies extension",
+        "Personal accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": ["Annual"]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Vitality Programme — earn rewards for healthy living",
+        "Up to 25% premium discount for active members",
+        "Apple Watch / fitness tracker discounts",
+        "Cinema tickets, coffee rewards for healthy activity",
+        "Mental health support built in",
+        "GP 24/7 via app"
+      ],
+      "sourceUrl": "https://www.vitality.co.uk/health-insurance/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Vitality's unique wellness-linked insurance. Premiums can reduce with healthy behaviour."
+    },
+    {
+      "id": "vitality-health-plan",
+      "insurerName": "VitalityHealth",
+      "insurerSlug": "vitality-health",
+      "productName": "VitalityHealth Health Insurance Plan",
+      "category": "health",
+      "subCategory": "pmi-mid-range",
+      "countryCode": "uk",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": null,
+        "renewableUpTo": "Lifetime"
+      },
+      "sumInsured": {
+        "min": 0,
+        "max": 100000,
+        "currency": "GBP",
+        "note": "Annual treatment limit on standard tier"
+      },
+      "premiumRange": {
+        "illustrativeMin": 40,
+        "illustrativeMax": 160,
+        "assumptions": "Individual, age 30, non-smoker, monthly.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "Moratorium",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "In-patient and day-patient",
+        "Cancer cover",
+        "Diagnostic scans",
+        "Virtual GP",
+        "Mental health (limited)"
+      ],
+      "keyExclusions": [
+        "Full outpatient cover",
+        "Pre-existing conditions",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": null,
+      "networkHospitals": null,
+      "riders": [
+        "Outpatient cover",
+        "Dental and optical",
+        "Therapies"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": ["Annual"]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Vitality Programme rewards",
+        "Lower entry price",
+        "Wellness incentives"
+      ],
+      "sourceUrl": "https://www.vitality.co.uk/health-insurance/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Mid-tier plan with Vitality wellness integration."
+    },
+    {
+      "id": "wpa-health-insurance",
+      "insurerName": "WPA (Western Provident Association)",
+      "insurerSlug": "wpa",
+      "productName": "WPA Health Insurance",
+      "category": "health",
+      "subCategory": "pmi-comprehensive",
+      "countryCode": "uk",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": null,
+        "renewableUpTo": "Lifetime"
+      },
+      "sumInsured": {
+        "min": 0,
+        "max": null,
+        "currency": "GBP",
+        "note": "No annual limit on Elite plan"
+      },
+      "premiumRange": {
+        "illustrativeMin": 70,
+        "illustrativeMax": 250,
+        "assumptions": "Individual, age 30, non-smoker, monthly.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "Moratorium or FMU",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "In-patient and day-patient",
+        "Outpatient consultations and diagnostics",
+        "Cancer cover with no sub-limits",
+        "Mental health",
+        "MRI, CT scans",
+        "Physiotherapy",
+        "Specialist consultations"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions under moratorium",
+        "Cosmetic surgery",
+        "Fertility treatment",
+        "Chronic disease management"
+      ],
+      "claimSettlement": null,
+      "networkHospitals": {
+        "count": 400,
+        "source": "WPA provider network (approximate)"
+      },
+      "riders": [
+        "Dental and optical",
+        "Travel cover",
+        "Therapies extension"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": ["Annual"]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Not-for-profit organisation",
+        "No shareholders — focus on customer service",
+        "Consistently high customer satisfaction",
+        "Specialist cancer care",
+        "Personal service approach"
+      ],
+      "sourceUrl": "https://www.wpa.org.uk/health-insurance/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "WPA is a not-for-profit health insurer known for service quality."
+    },
+    {
+      "id": "cigna-uk-health",
+      "insurerName": "Cigna Healthcare UK",
+      "insurerSlug": "cigna-uk",
+      "productName": "Cigna UK Health Insurance",
+      "category": "health",
+      "subCategory": "pmi-comprehensive",
+      "countryCode": "uk",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": null,
+        "renewableUpTo": "Lifetime"
+      },
+      "sumInsured": {
+        "min": 0,
+        "max": null,
+        "currency": "GBP",
+        "note": "No limit on in-patient on top tier"
+      },
+      "premiumRange": {
+        "illustrativeMin": 60,
+        "illustrativeMax": 210,
+        "assumptions": "Individual, age 30, non-smoker, monthly.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "Moratorium or FMU",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "In-patient and day-patient",
+        "Cancer treatment",
+        "Out-patient diagnostics and consultations",
+        "Mental health",
+        "Therapies",
+        "MRI and CT scans"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions under moratorium",
+        "Cosmetic surgery",
+        "Fertility treatment",
+        "Dental and optical"
+      ],
+      "claimSettlement": null,
+      "networkHospitals": null,
+      "riders": [
+        "Dental and optical",
+        "International cover",
+        "Travel insurance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": ["Annual"]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Global Cigna network for expats and international workers",
+        "Telehealth consultations",
+        "Employee Assistance Programme (EAP)",
+        "Wellbeing support"
+      ],
+      "sourceUrl": "https://www.cigna.co.uk/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Cigna UK strong in corporate PMI and international health."
+    },
+    {
+      "id": "freedom-health-insurance",
+      "insurerName": "Freedom Health Insurance",
+      "insurerSlug": "freedom-health",
+      "productName": "Freedom Elite Health Insurance",
+      "category": "health",
+      "subCategory": "pmi-comprehensive",
+      "countryCode": "uk",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": null,
+        "renewableUpTo": "Lifetime"
+      },
+      "sumInsured": {
+        "min": 0,
+        "max": null,
+        "currency": "GBP",
+        "note": "No annual limit on Elite"
+      },
+      "premiumRange": {
+        "illustrativeMin": 45,
+        "illustrativeMax": 170,
+        "assumptions": "Individual, age 30, non-smoker, monthly.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "Moratorium or FMU",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "In-patient and day-patient",
+        "Out-patient treatment",
+        "Cancer cover",
+        "Mental health",
+        "Diagnostics and scans",
+        "Therapies"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions under moratorium",
+        "Cosmetic surgery",
+        "Fertility treatment",
+        "Dental and optical"
+      ],
+      "claimSettlement": null,
+      "networkHospitals": null,
+      "riders": [
+        "Dental and optical",
+        "Overseas cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": ["Annual"]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Competitive pricing vs Big 4 PMI providers",
+        "Personal service",
+        "Part of National Friendly",
+        "Good Defaqto ratings"
+      ],
+      "sourceUrl": "https://www.freedomhealthinsurance.co.uk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Smaller PMI provider known for competitive pricing."
+    },
+    {
+      "id": "bupa-cash-plan",
+      "insurerName": "Bupa",
+      "insurerSlug": "bupa",
+      "productName": "Bupa Health Cash Plan",
+      "category": "health",
+      "subCategory": "health-cash-plan",
+      "countryCode": "uk",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": null,
+        "renewableUpTo": "Lifetime"
+      },
+      "sumInsured": {
+        "min": 0,
+        "max": 3000,
+        "currency": "GBP",
+        "note": "Annual claim limits per benefit type"
+      },
+      "premiumRange": {
+        "illustrativeMin": 10,
+        "illustrativeMax": 50,
+        "assumptions": "Individual, monthly. Covers everyday health costs.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "3 months for some benefits",
+        "preExisting": "N/A — covers everyday costs, not conditions",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Dental checkups and treatment cashback",
+        "Optical — glasses and contact lenses cashback",
+        "Physiotherapy cashback",
+        "Chiropractor and osteopath cashback",
+        "Health screening cashback",
+        "Prescription cashback"
+      ],
+      "keyExclusions": [
+        "Hospital treatment (this is a cashback plan)",
+        "Cancer treatment",
+        "Specialist consultations",
+        "Major surgery"
+      ],
+      "claimSettlement": null,
+      "networkHospitals": null,
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": ["Annual"]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Cash back for everyday health costs",
+        "No medical underwriting required",
+        "Very affordable entry point",
+        "Supplements NHS care"
+      ],
+      "sourceUrl": "https://www.bupa.co.uk/health/health-cash-plan",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Health Cash Plan — not PMI. Pays cash back for everyday health costs."
+    },
+    {
+      "id": "axa-health-pmi-business",
+      "insurerName": "AXA Health",
+      "insurerSlug": "axa-health",
+      "productName": "AXA Health Business Health Insurance",
+      "category": "health",
+      "subCategory": "pmi-business",
+      "countryCode": "uk",
+      "eligibility": {
+        "minAge": 16,
+        "maxAge": 65,
+        "renewableUpTo": "Lifetime"
+      },
+      "sumInsured": {
+        "min": 0,
+        "max": null,
+        "currency": "GBP",
+        "note": "No annual limit on comprehensive business plan"
+      },
+      "premiumRange": {
+        "illustrativeMin": 50,
+        "illustrativeMax": 200,
+        "assumptions": "Per employee, monthly. Group rates depend on company size.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "Moratorium or FMU or CME",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "In-patient and day-patient",
+        "Out-patient (optional)",
+        "Cancer cover",
+        "Mental health",
+        "EAP (Employee Assistance Programme)",
+        "Virtual GP"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions (depending on underwriting)",
+        "Cosmetic surgery",
+        "Fertility treatment"
+      ],
+      "claimSettlement": null,
+      "networkHospitals": null,
+      "riders": [
+        "Dental and optical",
+        "Travel",
+        "Therapies extension"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": ["Annual"]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Group scheme for employers",
+        "Employee wellbeing services",
+        "EAP included",
+        "Corporate health assessments"
+      ],
+      "sourceUrl": "https://www.axahealth.co.uk/business-health-insurance/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Business/employer PMI scheme. Group rates available."
+    },
+    {
+      "id": "aviva-business-health",
+      "insurerName": "Aviva plc",
+      "insurerSlug": "aviva",
+      "productName": "Aviva Business Health Insurance",
+      "category": "health",
+      "subCategory": "pmi-business",
+      "countryCode": "uk",
+      "eligibility": {
+        "minAge": 16,
+        "maxAge": 65,
+        "renewableUpTo": "Lifetime"
+      },
+      "sumInsured": {
+        "min": 0,
+        "max": null,
+        "currency": "GBP",
+        "note": "Depends on plan level"
+      },
+      "premiumRange": {
+        "illustrativeMin": 45,
+        "illustrativeMax": 180,
+        "assumptions": "Per employee, monthly. Group rates.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "CME or FMU",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "In-patient and day-patient",
+        "Cancer cover",
+        "Mental health support",
+        "EAP",
+        "Digital GP",
+        "Diagnostic scans"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions (varies by underwriting)",
+        "Cosmetic surgery",
+        "Dental and optical (unless added)"
+      ],
+      "claimSettlement": null,
+      "networkHospitals": null,
+      "riders": [
+        "Outpatient cover",
+        "Dental and optical",
+        "Travel cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": ["Annual"]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Flexible group scheme",
+        "DigiCare+ Workplace app",
+        "Mental health first aid",
+        "Line manager support"
+      ],
+      "sourceUrl": "https://www.aviva.co.uk/business/health-protection/health-insurance/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Aviva group health scheme for employers."
+    }
+  ]
+}

@@ -1,0 +1,3206 @@
+{
+  "category": "health",
+  "lastUpdated": "2026-03-24",
+  "disclaimer": "Data collected from publicly available sources for educational and informational purposes only. Premium figures are illustrative and sourced from public insurer calculators/brochures. Actual premiums may vary. Claim settlement ratios are approximate figures from IRDAI Annual Reports and may not reflect the latest data. Zura does not sell insurance. Please verify all details with the insurer directly before making any decision.",
+  "products": [
+    {
+      "id": "star-comprehensive",
+      "insurerName": "Star Health and Allied Insurance Co. Ltd.",
+      "insurerSlug": "star-health",
+      "productName": "Star Comprehensive Insurance Policy",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 10000000,
+        "options": [500000, 1000000, 1500000, 2000000, 2500000, 5000000, 10000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 6500,
+        "illustrativeMax": 45000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (60/180 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Domiciliary hospitalization",
+        "Annual health check-up",
+        "Automatic restoration of sum insured",
+        "No claim bonus"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic/plastic surgery (unless medically necessary)",
+        "Dental treatment (unless due to accident)",
+        "War and nuclear perils",
+        "Self-inflicted injuries",
+        "Maternity (unless specifically covered variant)"
+      ],
+      "claimSettlement": {
+        "ratio": 65.47,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 14000,
+        "source": "Star Health website (approximate)"
+      },
+      "riders": [
+        "Optional critical illness rider",
+        "Personal accident cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Automatic 100% restoration of sum insured",
+        "No claim bonus up to 100%",
+        "AYUSH treatment covered",
+        "Covers modern treatments"
+      ],
+      "sourceUrl": "https://www.starhealth.in/health-insurance/comprehensive-insurance-plan",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Premium figures are illustrative. Verify directly with Star Health for exact terms."
+    },
+    {
+      "id": "star-family-health-optima",
+      "insurerName": "Star Health and Allied Insurance Co. Ltd.",
+      "insurerSlug": "star-health",
+      "productName": "Family Health Optima Insurance Plan",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 25000000,
+        "options": [500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000, 15000000, 25000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 10000,
+        "illustrativeMax": 65000,
+        "assumptions": "Family of 4, eldest member 35 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization for entire family",
+        "Pre and post hospitalization (60/180 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Newborn baby cover from day 1",
+        "Automatic restoration of sum insured",
+        "No claim bonus up to 100%",
+        "Annual health check-up"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic/plastic surgery",
+        "Dental treatment (unless accident)",
+        "War and nuclear perils",
+        "Self-inflicted injuries",
+        "Obesity treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 65.47,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 14000,
+        "source": "Star Health website (approximate)"
+      },
+      "riders": [
+        "Maternity benefit rider",
+        "Outpatient cover rider",
+        "Critical illness rider"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Family floater covering spouse, children and parents",
+        "Automatic 100% restoration of sum insured",
+        "Newborn baby covered from day 1",
+        "Covers modern treatment methods",
+        "No claim bonus up to 100%"
+      ],
+      "sourceUrl": "https://www.starhealth.in/health-insurance/family-health-optima",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Premium figures are illustrative. Verify directly with Star Health."
+    },
+    {
+      "id": "star-senior-citizens-red-carpet",
+      "insurerName": "Star Health and Allied Insurance Co. Ltd.",
+      "insurerSlug": "star-health",
+      "productName": "Senior Citizens Red Carpet Health Insurance",
+      "category": "health",
+      "subCategory": "senior-citizen",
+      "eligibility": {
+        "minAge": 60,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 2500000,
+        "options": [100000, 200000, 300000, 400000, 500000, 1000000, 1500000, 2000000, 2500000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 15000,
+        "illustrativeMax": 65000,
+        "assumptions": "Individual, 65 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "12 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (30/60 days)",
+        "Day care procedures",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Cataract treatment",
+        "Domiciliary hospitalization",
+        "Automatic restoration of sum insured",
+        "Annual health check-up"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental treatment (unless accident)",
+        "Self-inflicted injuries",
+        "War and nuclear perils",
+        "Joint replacement (first 24 months)"
+      ],
+      "claimSettlement": {
+        "ratio": 65.47,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 14000,
+        "source": "Star Health website (approximate)"
+      },
+      "riders": [
+        "None — comprehensive base coverage for seniors"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Entry age up to 75 years",
+        "Reduced PED waiting period of 12 months",
+        "No pre-insurance medical screening up to certain SI",
+        "Cataract treatment covered",
+        "Automatic restoration of sum insured"
+      ],
+      "sourceUrl": "https://www.starhealth.in/health-insurance/senior-citizens-red-carpet",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. One of the most popular senior citizen plans in India. Verify directly with Star Health."
+    },
+    {
+      "id": "star-young-star",
+      "insurerName": "Star Health and Allied Insurance Co. Ltd.",
+      "insurerSlug": "star-health",
+      "productName": "Young Star Insurance Policy",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 40,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 10000000,
+        "options": [500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 5000,
+        "illustrativeMax": 30000,
+        "assumptions": "Individual, 25 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (60/180 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Outpatient consultation cover",
+        "Wellness and preventive benefits",
+        "No claim bonus up to 100%",
+        "Annual health check-up"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental treatment (unless accident)",
+        "War and nuclear perils",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 65.47,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 14000,
+        "source": "Star Health website (approximate)"
+      },
+      "riders": [
+        "Critical illness rider",
+        "Personal accident rider"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Designed for young adults aged 18-40",
+        "Wellness and fitness rewards",
+        "Outpatient consultation benefit",
+        "Lower premiums for young policyholders"
+      ],
+      "sourceUrl": "https://www.starhealth.in/health-insurance/young-star",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Targeted at younger demographic. Verify directly with Star Health."
+    },
+    {
+      "id": "star-women-care",
+      "insurerName": "Star Health and Allied Insurance Co. Ltd.",
+      "insurerSlug": "star-health",
+      "productName": "Star Women Care Insurance Policy",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 10000000,
+        "options": [500000, 1000000, 1500000, 2000000, 5000000, 10000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 6000,
+        "illustrativeMax": 40000,
+        "assumptions": "Individual female, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (60/180 days)",
+        "Day care procedures",
+        "Maternity benefit including C-section",
+        "Newborn baby cover",
+        "Female-specific cancer cover",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Annual health check-up",
+        "Organ donor expenses"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental treatment (unless accident)",
+        "War and nuclear perils",
+        "Self-inflicted injuries",
+        "Infertility treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 65.47,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 14000,
+        "source": "Star Health website (approximate)"
+      },
+      "riders": [
+        "Personal accident rider"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Designed exclusively for women",
+        "Built-in maternity and newborn cover",
+        "Female-specific cancer lump sum benefit",
+        "Oophorectomy and mastectomy coverage",
+        "Wellness benefits for women"
+      ],
+      "sourceUrl": "https://www.starhealth.in/health-insurance/star-women-care",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Women-only plan with maternity. Verify directly with Star Health."
+    },
+    {
+      "id": "care-supreme",
+      "insurerName": "Care Health Insurance Ltd.",
+      "insurerSlug": "care-health",
+      "productName": "Care Supreme",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 60000000,
+        "options": [500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000, 20000000, 30000000, 60000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 7000,
+        "illustrativeMax": 50000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "36 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (30/60 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges up to 2500",
+        "Domiciliary hospitalization",
+        "Annual health check-up",
+        "No claim bonus",
+        "Air ambulance",
+        "Unlimited automatic restoration"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic/plastic surgery",
+        "Dental treatment (unless accident)",
+        "War and nuclear perils",
+        "Self-inflicted injuries",
+        "Obesity treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 77.5,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 22000,
+        "source": "Care Health website (approximate)"
+      },
+      "riders": [
+        "Cancer shield",
+        "Personal accident cover",
+        "Critical illness cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Unlimited automatic restoration",
+        "36-month PED waiting (shorter than many)",
+        "Air ambulance cover",
+        "No room rent capping on higher variants",
+        "Sum insured up to 6 Crore"
+      ],
+      "sourceUrl": "https://www.careinsurance.com/health-insurance/care-supreme",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Premium figures are illustrative. Verify directly with Care Health for exact terms."
+    },
+    {
+      "id": "care-advantage",
+      "insurerName": "Care Health Insurance Ltd.",
+      "insurerSlug": "care-health",
+      "productName": "Care Advantage",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 6000000,
+        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 6000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 4500,
+        "illustrativeMax": 30000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "36 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (30/60 days)",
+        "Day care procedures",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Annual health check-up",
+        "No claim bonus up to 50%",
+        "Automatic restoration of sum insured"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental treatment (unless accident)",
+        "War and nuclear perils",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 77.5,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 22000,
+        "source": "Care Health website (approximate)"
+      },
+      "riders": [
+        "Personal accident cover",
+        "Critical illness rider"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Affordable entry-level plan from Care Health",
+        "36-month PED waiting period",
+        "Automatic restoration of sum insured",
+        "Tax benefit under Section 80D"
+      ],
+      "sourceUrl": "https://www.careinsurance.com/health-insurance/care-advantage",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Budget-friendly option. Verify directly with Care Health."
+    },
+    {
+      "id": "care-heart",
+      "insurerName": "Care Health Insurance Ltd.",
+      "insurerSlug": "care-health",
+      "productName": "Care Heart",
+      "category": "health",
+      "subCategory": "critical-illness",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 5000000,
+        "options": [500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 4000,
+        "illustrativeMax": 25000,
+        "assumptions": "Individual, 30 years, no pre-existing cardiac conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "Heart-related hospitalization",
+        "Cardiac surgeries including bypass and angioplasty",
+        "Pre and post hospitalization",
+        "Day care cardiac procedures",
+        "Ambulance charges",
+        "Cardiac health check-up",
+        "Second opinion from cardiologist",
+        "Modern cardiac treatments"
+      ],
+      "keyExclusions": [
+        "Pre-existing cardiac conditions during waiting period",
+        "Cosmetic surgery",
+        "Dental treatment",
+        "War and nuclear perils",
+        "Self-inflicted injuries",
+        "Congenital heart conditions"
+      ],
+      "claimSettlement": {
+        "ratio": 77.5,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 22000,
+        "source": "Care Health website (approximate)"
+      },
+      "riders": [
+        "None — focused cardiac coverage"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Specialized plan for cardiac patients",
+        "Covers existing cardiac conditions after waiting period",
+        "Cardiac wellness program included",
+        "Second medical opinion for cardiac conditions"
+      ],
+      "sourceUrl": "https://www.careinsurance.com/health-insurance/care-heart",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Specialized cardiac plan. Verify directly with Care Health."
+    },
+    {
+      "id": "care-freedom",
+      "insurerName": "Care Health Insurance Ltd.",
+      "insurerSlug": "care-health",
+      "productName": "Care Freedom",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 10000000,
+        "options": [500000, 1000000, 2000000, 3000000, 5000000, 10000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 5500,
+        "illustrativeMax": 35000,
+        "assumptions": "Individual, 30 years, with pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "36 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (30/60 days)",
+        "Day care procedures",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Cover for diabetes, hypertension, cardiac conditions",
+        "Annual health check-up",
+        "Modern treatment methods"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery",
+        "Dental treatment (unless accident)",
+        "War and nuclear perils",
+        "Self-inflicted injuries",
+        "HIV/AIDS related treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 77.5,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 22000,
+        "source": "Care Health website (approximate)"
+      },
+      "riders": [
+        "Personal accident cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Designed for people with pre-existing conditions",
+        "Covers diabetes, hypertension and cardiac conditions",
+        "Shorter PED waiting period of 36 months",
+        "Wellness management program included"
+      ],
+      "sourceUrl": "https://www.careinsurance.com/health-insurance/care-freedom",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Specifically designed for those with pre-existing conditions. Verify directly with Care Health."
+    },
+    {
+      "id": "care-senior",
+      "insurerName": "Care Health Insurance Ltd.",
+      "insurerSlug": "care-health",
+      "productName": "Care Senior",
+      "category": "health",
+      "subCategory": "senior-citizen",
+      "eligibility": {
+        "minAge": 60,
+        "maxAge": 79,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 5000000,
+        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 18000,
+        "illustrativeMax": 75000,
+        "assumptions": "Individual, 65 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "24 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (30/60 days)",
+        "Day care procedures",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Domiciliary hospitalization",
+        "Cataract treatment",
+        "Annual health check-up",
+        "No claim bonus"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental treatment (unless accident)",
+        "War and nuclear perils",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 77.5,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 22000,
+        "source": "Care Health website (approximate)"
+      },
+      "riders": [
+        "None — comprehensive senior coverage"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Entry age up to 79 years",
+        "Reduced PED waiting period of 24 months",
+        "No pre-insurance medical screening for select SI",
+        "Cataract and age-related coverage"
+      ],
+      "sourceUrl": "https://www.careinsurance.com/health-insurance/care-senior",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Dedicated senior citizen plan. Verify directly with Care Health."
+    },
+    {
+      "id": "niva-bupa-reassure-2",
+      "insurerName": "Niva Bupa Health Insurance Company Ltd.",
+      "insurerSlug": "niva-bupa",
+      "productName": "ReAssure 2.0",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 15000000,
+        "options": [300000, 500000, 700000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000, 15000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 5500,
+        "illustrativeMax": 40000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "36 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (60/180 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Annual health check-up",
+        "No claim bonus up to 150%",
+        "Consumables cover",
+        "Modern treatment methods"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War and nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 56.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 10000,
+        "source": "Niva Bupa website (approximate)"
+      },
+      "riders": [
+        "Maternity cover",
+        "Personal accident",
+        "OPD cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "36-month PED waiting period",
+        "Up to 150% No Claim Bonus",
+        "Consumables covered",
+        "OPD add-on available",
+        "Maternity rider available"
+      ],
+      "sourceUrl": "https://www.nivabupa.com/health-insurance-plans/reassure-2.0.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Verify directly with Niva Bupa."
+    },
+    {
+      "id": "niva-bupa-aspire",
+      "insurerName": "Niva Bupa Health Insurance Company Ltd.",
+      "insurerSlug": "niva-bupa",
+      "productName": "Aspire",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 1000000,
+        "max": 30000000,
+        "options": [1000000, 2000000, 3000000, 5000000, 10000000, 20000000, 30000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 9000,
+        "illustrativeMax": 60000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "36 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (90/180 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Consumables cover",
+        "No claim bonus up to 200%",
+        "Worldwide emergency cover",
+        "Annual health check-up",
+        "Modern treatment methods"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War and nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 56.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 10000,
+        "source": "Niva Bupa website (approximate)"
+      },
+      "riders": [
+        "Maternity cover",
+        "OPD cover",
+        "International second opinion"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Premium plan with worldwide emergency cover",
+        "No claim bonus up to 200%",
+        "No room rent restrictions",
+        "Up to 3 Crore sum insured",
+        "90-day pre-hospitalization cover"
+      ],
+      "sourceUrl": "https://www.nivabupa.com/health-insurance-plans/aspire.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Premium tier plan from Niva Bupa. Verify directly with insurer."
+    },
+    {
+      "id": "niva-bupa-health-companion",
+      "insurerName": "Niva Bupa Health Insurance Company Ltd.",
+      "insurerSlug": "niva-bupa",
+      "productName": "Health Companion",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 10000000,
+        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 8000,
+        "illustrativeMax": 45000,
+        "assumptions": "Family of 4, eldest member 35 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization for family",
+        "Pre and post hospitalization (60/180 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Annual health check-up",
+        "No claim bonus",
+        "Maternity cover (optional)"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War and nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 56.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 10000,
+        "source": "Niva Bupa website (approximate)"
+      },
+      "riders": [
+        "Maternity cover",
+        "OPD cover",
+        "Personal accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Family floater plan covering entire family",
+        "Optional maternity and newborn cover",
+        "Flexible sum insured options",
+        "Cumulative bonus for claim-free years"
+      ],
+      "sourceUrl": "https://www.nivabupa.com/health-insurance-plans/health-companion.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Family-focused plan. Verify directly with Niva Bupa."
+    },
+    {
+      "id": "niva-bupa-senior-first",
+      "insurerName": "Niva Bupa Health Insurance Company Ltd.",
+      "insurerSlug": "niva-bupa",
+      "productName": "Senior First",
+      "category": "health",
+      "subCategory": "senior-citizen",
+      "eligibility": {
+        "minAge": 61,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 5000000,
+        "options": [500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 20000,
+        "illustrativeMax": 80000,
+        "assumptions": "Individual, 65 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "24 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (60/90 days)",
+        "Day care procedures",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Cataract surgery",
+        "Joint replacement after waiting period",
+        "Domiciliary hospitalization",
+        "Annual health check-up"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War and nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 56.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 10000,
+        "source": "Niva Bupa website (approximate)"
+      },
+      "riders": [
+        "None — comprehensive senior coverage"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Dedicated plan for senior citizens 61+",
+        "Reduced PED waiting period of 24 months",
+        "Cataract and joint replacement covered",
+        "No medical test up to certain SI levels"
+      ],
+      "sourceUrl": "https://www.nivabupa.com/health-insurance-plans/senior-first.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Senior citizen plan. Verify directly with Niva Bupa."
+    },
+    {
+      "id": "hdfc-ergo-optima-secure",
+      "insurerName": "HDFC ERGO General Insurance Company Ltd.",
+      "insurerSlug": "hdfc-ergo",
+      "productName": "Optima Secure",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 50000000,
+        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000, 15000000, 20000000, 50000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 6000,
+        "illustrativeMax": 55000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (60/180 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Annual health check-up",
+        "No claim bonus",
+        "Restore benefit",
+        "Multiplier benefit",
+        "Modern treatments"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War and nuclear perils",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 71.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 13000,
+        "source": "HDFC ERGO website (approximate)"
+      },
+      "riders": [
+        "Critical illness cover",
+        "Personal accident cover",
+        "Hospital cash"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Multiplier benefit doubles sum insured in claim-free years",
+        "Restore benefit for unlimited restoration",
+        "Coverage up to 5 Crore",
+        "Modern treatment procedures covered",
+        "PED management program"
+      ],
+      "sourceUrl": "https://www.hdfcergo.com/health-insurance/optima-secure-plan",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Verify directly with HDFC ERGO."
+    },
+    {
+      "id": "hdfc-ergo-optima-restore",
+      "insurerName": "HDFC ERGO General Insurance Company Ltd.",
+      "insurerSlug": "hdfc-ergo",
+      "productName": "Optima Restore",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 50000000,
+        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000, 50000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 9000,
+        "illustrativeMax": 60000,
+        "assumptions": "Family of 4, eldest member 35 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization for family",
+        "Pre and post hospitalization (60/180 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "100% restore of sum insured",
+        "No claim bonus",
+        "Multiplier benefit",
+        "Modern treatments",
+        "Annual health check-up"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War and nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 71.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 13000,
+        "source": "HDFC ERGO website (approximate)"
+      },
+      "riders": [
+        "Critical illness cover",
+        "Personal accident cover",
+        "Hospital cash"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "100% restore of sum insured after a claim",
+        "Multiplier benefit — SI grows each year without claims",
+        "Family floater with flexible member options",
+        "No room rent capping on higher SI",
+        "Covers modern treatment methods"
+      ],
+      "sourceUrl": "https://www.hdfcergo.com/health-insurance/optima-restore-plan",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Popular family plan with restore benefit. Verify directly with HDFC ERGO."
+    },
+    {
+      "id": "hdfc-ergo-my-health-suraksha",
+      "insurerName": "HDFC ERGO General Insurance Company Ltd.",
+      "insurerSlug": "hdfc-ergo",
+      "productName": "My Health Suraksha",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 7500000,
+        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000, 7500000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 5000,
+        "illustrativeMax": 35000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (30/60 days)",
+        "Day care procedures",
+        "Ambulance charges",
+        "Domiciliary hospitalization",
+        "AYUSH treatments",
+        "Annual health check-up",
+        "Cumulative bonus"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War and nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 71.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 13000,
+        "source": "HDFC ERGO website (approximate)"
+      },
+      "riders": [
+        "Hospital cash daily allowance",
+        "Personal accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Affordable plan with essential coverage",
+        "Cumulative bonus for claim-free years",
+        "Tax benefit under Section 80D",
+        "Cashless treatment at network hospitals"
+      ],
+      "sourceUrl": "https://www.hdfcergo.com/health-insurance/my-health-suraksha",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Budget-friendly option from HDFC ERGO. Verify directly with insurer."
+    },
+    {
+      "id": "hdfc-ergo-energy-gold",
+      "insurerName": "HDFC ERGO General Insurance Company Ltd.",
+      "insurerSlug": "hdfc-ergo",
+      "productName": "Energy Gold",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 5000000,
+        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 4500,
+        "illustrativeMax": 30000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (30/60 days)",
+        "Day care procedures",
+        "Ambulance charges",
+        "Annual health check-up",
+        "Cumulative bonus",
+        "AYUSH treatments"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War and nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 71.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 13000,
+        "source": "HDFC ERGO website (approximate)"
+      },
+      "riders": [
+        "Hospital cash",
+        "Personal accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Affordable entry-level health plan",
+        "Cumulative bonus up to 50%",
+        "Tax benefit under Section 80D",
+        "Cashless claim at network hospitals"
+      ],
+      "sourceUrl": "https://www.hdfcergo.com/health-insurance/energy-gold",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Entry-level plan. Verify directly with HDFC ERGO."
+    },
+    {
+      "id": "icici-lombard-elevate",
+      "insurerName": "ICICI Lombard General Insurance Company Ltd.",
+      "insurerSlug": "icici-lombard",
+      "productName": "ICICI Lombard Elevate",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 50000000,
+        "options": [300000, 500000, 750000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000, 25000000, 50000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 6500,
+        "illustrativeMax": 55000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (60/180 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Health check-up",
+        "No claim bonus",
+        "Restoration of sum insured",
+        "Consumables cover",
+        "Modern treatments"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 83.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 18000,
+        "source": "ICICI Lombard website (approximate)"
+      },
+      "riders": [
+        "Super NCB",
+        "Deductible waiver",
+        "Room rent waiver"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Flexible sum insured up to 5 Crore",
+        "Consumables covered from day 1",
+        "Built-in wellness program",
+        "No room rent cap on certain variants"
+      ],
+      "sourceUrl": "https://www.icicilombard.com/health-insurance/elevate-plan",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Verify directly with ICICI Lombard."
+    },
+    {
+      "id": "icici-lombard-complete-health",
+      "insurerName": "ICICI Lombard General Insurance Company Ltd.",
+      "insurerSlug": "icici-lombard",
+      "productName": "Complete Health Insurance",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 200000,
+        "max": 5000000,
+        "options": [200000, 300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 7000,
+        "illustrativeMax": 40000,
+        "assumptions": "Family of 4, eldest member 35 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization for family",
+        "Pre and post hospitalization (30/60 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "Ambulance charges",
+        "Domiciliary hospitalization",
+        "Health check-up",
+        "Cumulative bonus",
+        "AYUSH treatments"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 83.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 18000,
+        "source": "ICICI Lombard website (approximate)"
+      },
+      "riders": [
+        "Critical illness cover",
+        "Personal accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Comprehensive family floater plan",
+        "Cumulative bonus for claim-free years",
+        "Wide network hospital coverage",
+        "Tax benefit under Section 80D"
+      ],
+      "sourceUrl": "https://www.icicilombard.com/health-insurance/complete-health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Family floater plan. Verify directly with ICICI Lombard."
+    },
+    {
+      "id": "icici-lombard-health-booster",
+      "insurerName": "ICICI Lombard General Insurance Company Ltd.",
+      "insurerSlug": "icici-lombard",
+      "productName": "Health Booster (Super Top-Up)",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 50000000,
+        "options": [500000, 1000000, 2000000, 3000000, 5000000, 10000000, 25000000, 50000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 2500,
+        "illustrativeMax": 18000,
+        "assumptions": "Individual, 30 years, deductible 3L, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization (above deductible)",
+        "Pre and post hospitalization",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Modern treatments",
+        "No claim bonus"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils",
+        "Claims below deductible threshold"
+      ],
+      "claimSettlement": {
+        "ratio": 83.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 18000,
+        "source": "ICICI Lombard website (approximate)"
+      },
+      "riders": [
+        "None — standalone super top-up"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Super top-up on existing base policy",
+        "Very affordable premiums for high coverage",
+        "Flexible deductible options",
+        "Covers up to 5 Crore above deductible"
+      ],
+      "sourceUrl": "https://www.icicilombard.com/health-insurance/health-booster-policy",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Super top-up plan — works above a deductible. Verify directly with ICICI Lombard."
+    },
+    {
+      "id": "bajaj-allianz-health-guard",
+      "insurerName": "Bajaj Allianz General Insurance Co. Ltd.",
+      "insurerSlug": "bajaj-allianz",
+      "productName": "Health Guard",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 200000,
+        "max": 5000000,
+        "options": [200000, 300000, 400000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 4500,
+        "illustrativeMax": 35000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (30/60 days)",
+        "Day care procedures",
+        "Ambulance charges",
+        "Domiciliary hospitalization",
+        "Health check-up",
+        "Cumulative bonus"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 78.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 12500,
+        "source": "Bajaj Allianz website (approximate)"
+      },
+      "riders": [
+        "Hospital cash",
+        "Critical illness rider",
+        "Personal accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Cumulative bonus up to 50%",
+        "Tax benefit under Section 80D",
+        "Cashless at network hospitals"
+      ],
+      "sourceUrl": "https://www.bajajallianz.com/health-insurance-plans/health-guard.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Verify directly with Bajaj Allianz."
+    },
+    {
+      "id": "bajaj-allianz-global-health-secure",
+      "insurerName": "Bajaj Allianz General Insurance Co. Ltd.",
+      "insurerSlug": "bajaj-allianz",
+      "productName": "Global Health Secure",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 1000000,
+        "max": 20000000,
+        "options": [1000000, 2000000, 3000000, 5000000, 10000000, 15000000, 20000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 12000,
+        "illustrativeMax": 75000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization worldwide",
+        "Pre and post hospitalization (60/180 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Air ambulance",
+        "Worldwide emergency hospitalization",
+        "Second medical opinion",
+        "Annual health check-up",
+        "No claim bonus"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 78.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 12500,
+        "source": "Bajaj Allianz website (approximate, India only)"
+      },
+      "riders": [
+        "Maternity cover",
+        "OPD cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Worldwide coverage including planned treatment abroad",
+        "Air ambulance cover",
+        "No room rent or disease-wise sub-limits",
+        "Second medical opinion benefit",
+        "Sum insured up to 2 Crore"
+      ],
+      "sourceUrl": "https://www.bajajallianz.com/health-insurance-plans/global-health-secure.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Global coverage plan. Verify directly with Bajaj Allianz."
+    },
+    {
+      "id": "bajaj-allianz-health-infinity",
+      "insurerName": "Bajaj Allianz General Insurance Co. Ltd.",
+      "insurerSlug": "bajaj-allianz",
+      "productName": "Health Infinity",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 1000000,
+        "max": 100000000,
+        "options": [1000000, 2000000, 5000000, 10000000, 50000000, 100000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 3000,
+        "illustrativeMax": 25000,
+        "assumptions": "Individual, 30 years, deductible 5L, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization (above deductible)",
+        "Pre and post hospitalization",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "No sub-limits",
+        "No room rent restrictions"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils",
+        "Claims below deductible"
+      ],
+      "claimSettlement": {
+        "ratio": 78.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 12500,
+        "source": "Bajaj Allianz website (approximate)"
+      },
+      "riders": [
+        "None — standalone super top-up"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Coverage up to 10 Crore",
+        "No room rent or disease-wise capping",
+        "Very affordable premiums for massive coverage",
+        "Flexible deductible options"
+      ],
+      "sourceUrl": "https://www.bajajallianz.com/health-insurance-plans/health-infinity.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Super top-up with very high SI. Verify directly with Bajaj Allianz."
+    },
+    {
+      "id": "tata-aig-medicare",
+      "insurerName": "Tata AIG General Insurance Company Ltd.",
+      "insurerSlug": "tata-aig",
+      "productName": "Medicare",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 10000000,
+        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 5500,
+        "illustrativeMax": 40000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (30/60 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Annual health check-up",
+        "No claim bonus",
+        "Consumables cover"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 72.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 10000,
+        "source": "Tata AIG website (approximate)"
+      },
+      "riders": [
+        "Critical illness rider",
+        "Personal accident rider",
+        "Hospital cash"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Comprehensive individual and family plan",
+        "Consumables covered",
+        "No claim bonus up to 100%",
+        "Tax benefit under Section 80D"
+      ],
+      "sourceUrl": "https://www.tataaig.com/health-insurance/medicare-plan",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Verify directly with Tata AIG."
+    },
+    {
+      "id": "tata-aig-mediprime",
+      "insurerName": "Tata AIG General Insurance Company Ltd.",
+      "insurerSlug": "tata-aig",
+      "productName": "MediPrime",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 1000000,
+        "max": 20000000,
+        "options": [1000000, 2000000, 3000000, 5000000, 10000000, 15000000, 20000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 10000,
+        "illustrativeMax": 65000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (60/180 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Air ambulance",
+        "Worldwide emergency cover",
+        "Consumables cover",
+        "No claim bonus",
+        "Modern treatments"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 72.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 10000,
+        "source": "Tata AIG website (approximate)"
+      },
+      "riders": [
+        "Maternity cover",
+        "OPD cover",
+        "International second opinion"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Premium plan with global emergency cover",
+        "Air ambulance benefit",
+        "No room rent or sub-limits",
+        "Up to 2 Crore sum insured",
+        "Wellness and preventive benefits"
+      ],
+      "sourceUrl": "https://www.tataaig.com/health-insurance/mediprime-plan",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Premium tier plan from Tata AIG. Verify directly with insurer."
+    },
+    {
+      "id": "tata-aig-wellsurance",
+      "insurerName": "Tata AIG General Insurance Company Ltd.",
+      "insurerSlug": "tata-aig",
+      "productName": "Wellsurance",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 10000000,
+        "options": [500000, 1000000, 2000000, 3000000, 5000000, 10000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 6000,
+        "illustrativeMax": 35000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (30/60 days)",
+        "Day care procedures",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Wellness rewards and discounts",
+        "Annual health check-up",
+        "No claim bonus",
+        "Modern treatments"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 72.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 10000,
+        "source": "Tata AIG website (approximate)"
+      },
+      "riders": [
+        "Critical illness rider",
+        "Personal accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Wellness-focused health insurance plan",
+        "Rewards for maintaining healthy lifestyle",
+        "Premium discounts linked to fitness activities",
+        "Covers modern treatment methods"
+      ],
+      "sourceUrl": "https://www.tataaig.com/health-insurance/wellsurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Wellness-oriented plan. Verify directly with Tata AIG."
+    },
+    {
+      "id": "new-india-assurance-mediclaim",
+      "insurerName": "The New India Assurance Co. Ltd.",
+      "insurerSlug": "new-india-assurance",
+      "productName": "Mediclaim Policy",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1500000,
+        "options": [100000, 200000, 300000, 400000, 500000, 750000, 1000000, 1500000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 3500,
+        "illustrativeMax": 25000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (30/60 days)",
+        "Day care procedures",
+        "Ambulance charges up to 2000",
+        "Domiciliary hospitalization",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Cumulative bonus"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental treatment (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils",
+        "Congenital diseases"
+      ],
+      "claimSettlement": {
+        "ratio": 92.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 8000,
+        "source": "New India Assurance website (approximate)"
+      },
+      "riders": [
+        "None — standard mediclaim"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [1]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Government-owned insurer — high trust factor",
+        "Very high claim settlement ratio",
+        "Affordable premiums for basic coverage",
+        "Widely available across India"
+      ],
+      "sourceUrl": "https://www.newindia.co.in/mediclaim-policy",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. PSU insurer with high claim settlement ratio. Verify directly with New India Assurance."
+    },
+    {
+      "id": "aditya-birla-activ-health-platinum",
+      "insurerName": "Aditya Birla Health Insurance Co. Ltd.",
+      "insurerSlug": "aditya-birla-health",
+      "productName": "Activ Health Platinum Enhanced",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 200000,
+        "max": 20000000,
+        "options": [200000, 300000, 500000, 1000000, 1500000, 2000000, 5000000, 10000000, 20000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 7000,
+        "illustrativeMax": 55000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (60/180 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Annual health check-up",
+        "Chronic disease management",
+        "No claim bonus up to 100%",
+        "Modern treatments",
+        "HealthReturns (premium cashback for healthy lifestyle)"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 58.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 10500,
+        "source": "Aditya Birla Health website (approximate)"
+      },
+      "riders": [
+        "OPD cover",
+        "Maternity cover",
+        "Personal accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "HealthReturns — earn up to 30% premium back for healthy behavior",
+        "Chronic disease management program",
+        "Day 1 cover for asthma, BP, cholesterol, diabetes",
+        "Wellness coaching and rewards",
+        "Up to 2 Crore coverage"
+      ],
+      "sourceUrl": "https://www.adityabirlahealthinsurance.com/health-insurance-plans/activ-health-platinum-enhanced",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Known for wellness integration. Verify directly with Aditya Birla Health."
+    },
+    {
+      "id": "aditya-birla-activ-fit",
+      "insurerName": "Aditya Birla Health Insurance Co. Ltd.",
+      "insurerSlug": "aditya-birla-health",
+      "productName": "Activ Fit",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 7500000,
+        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000, 7500000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 4500,
+        "illustrativeMax": 30000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (30/60 days)",
+        "Day care procedures",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Annual health check-up",
+        "No claim bonus",
+        "Fitness linked discount on renewal"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 58.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 10500,
+        "source": "Aditya Birla Health website (approximate)"
+      },
+      "riders": [
+        "Personal accident rider",
+        "Hospital cash"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Fitness tracking linked to premium discounts",
+        "Active lifestyle rewards",
+        "Affordable wellness-oriented plan",
+        "Daily fitness incentives on renewal"
+      ],
+      "sourceUrl": "https://www.adityabirlahealthinsurance.com/health-insurance-plans/activ-fit",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Fitness-oriented budget plan. Verify directly with Aditya Birla Health."
+    },
+    {
+      "id": "manipalcigna-lifetime-health",
+      "insurerName": "ManipalCigna Health Insurance Company Ltd.",
+      "insurerSlug": "manipalcigna",
+      "productName": "Lifetime Health",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 30000000,
+        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000, 20000000, 30000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 6000,
+        "illustrativeMax": 50000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "36 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (60/180 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Consumables cover",
+        "Annual health check-up",
+        "No claim bonus",
+        "Modern treatments"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 62.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 8500,
+        "source": "ManipalCigna website (approximate)"
+      },
+      "riders": [
+        "Maternity cover",
+        "OPD cover",
+        "International coverage"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "36-month PED waiting period",
+        "Up to 3 Crore sum insured",
+        "Consumables covered",
+        "Worldwide emergency cover on higher variants",
+        "Backed by Cigna global healthcare expertise"
+      ],
+      "sourceUrl": "https://www.manipalcigna.com/lifetime-health",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Backed by global Cigna expertise. Verify directly with ManipalCigna."
+    },
+    {
+      "id": "manipalcigna-prohealth-plus",
+      "insurerName": "ManipalCigna Health Insurance Company Ltd.",
+      "insurerSlug": "manipalcigna",
+      "productName": "ProHealth Plus",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 30000000,
+        "options": [500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000, 20000000, 30000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 10000,
+        "illustrativeMax": 60000,
+        "assumptions": "Family of 4, eldest member 35 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "36 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization for family",
+        "Pre and post hospitalization (60/180 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Consumables cover",
+        "No claim bonus",
+        "Modern treatments",
+        "Annual health check-up"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 62.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 8500,
+        "source": "ManipalCigna website (approximate)"
+      },
+      "riders": [
+        "Maternity cover",
+        "OPD cover",
+        "Personal accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Comprehensive family floater plan",
+        "36-month PED waiting period",
+        "Consumables and modern treatments covered",
+        "Up to 3 Crore coverage",
+        "Wellness benefits and health coaching"
+      ],
+      "sourceUrl": "https://www.manipalcigna.com/prohealth-plus",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Family floater plan. Verify directly with ManipalCigna."
+    },
+    {
+      "id": "go-digit-health-insurance",
+      "insurerName": "Go Digit General Insurance Ltd.",
+      "insurerSlug": "go-digit",
+      "productName": "Digit Health Insurance",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 5000000,
+        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 4000,
+        "illustrativeMax": 25000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (30/60 days)",
+        "Day care procedures",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Annual health check-up",
+        "No claim bonus",
+        "Consumables cover"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 68.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 10500,
+        "source": "Go Digit website (approximate)"
+      },
+      "riders": [
+        "Personal accident",
+        "Hospital cash"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Simple and transparent digital-first insurance",
+        "Paperless claim process",
+        "Consumables covered from day 1",
+        "Quick online purchase and renewal"
+      ],
+      "sourceUrl": "https://www.godigit.com/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Digital-first insurer. Verify directly with Go Digit."
+    },
+    {
+      "id": "acko-platinum-health-plan",
+      "insurerName": "Acko General Insurance Ltd.",
+      "insurerSlug": "acko",
+      "productName": "Platinum Health Plan",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 10000000,
+        "options": [500000, 1000000, 2000000, 3000000, 5000000, 10000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 5000,
+        "illustrativeMax": 35000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (60/180 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Consumables cover",
+        "No claim bonus",
+        "Modern treatments",
+        "No room rent capping"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 74.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 9000,
+        "source": "Acko website (approximate)"
+      },
+      "riders": [
+        "OPD cover",
+        "Personal accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "100% digital — buy and claim online",
+        "No room rent capping on any variant",
+        "Zero paperwork claims",
+        "Transparent pricing with no hidden charges",
+        "Consumables covered"
+      ],
+      "sourceUrl": "https://www.acko.com/health-insurance/platinum-health-plan",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Digital-only insurer with transparent pricing. Verify directly with Acko."
+    },
+    {
+      "id": "reliance-health-infinity",
+      "insurerName": "Reliance General Insurance Company Ltd.",
+      "insurerSlug": "reliance-general",
+      "productName": "Health Infinity",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 10000000,
+        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 5500,
+        "illustrativeMax": 40000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (30/60 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Annual health check-up",
+        "Cumulative bonus",
+        "Restoration of sum insured"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 80.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 10000,
+        "source": "Reliance General website (approximate)"
+      },
+      "riders": [
+        "Critical illness rider",
+        "Personal accident",
+        "Hospital cash"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Restoration of sum insured up to 100%",
+        "Cumulative bonus for claim-free years",
+        "Coverage up to 1 Crore",
+        "AYUSH and modern treatments covered"
+      ],
+      "sourceUrl": "https://www.reliancegeneral.co.in/insurance/health-insurance/health-infinity.aspx",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Verify directly with Reliance General Insurance."
+    },
+    {
+      "id": "reliance-health-wise",
+      "insurerName": "Reliance General Insurance Company Ltd.",
+      "insurerSlug": "reliance-general",
+      "productName": "Health Wise",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 200000,
+        "max": 5000000,
+        "options": [200000, 300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 3500,
+        "illustrativeMax": 25000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (30/60 days)",
+        "Day care procedures",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Annual health check-up",
+        "Cumulative bonus"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 80.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 10000,
+        "source": "Reliance General website (approximate)"
+      },
+      "riders": [
+        "Hospital cash",
+        "Personal accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Affordable entry-level health plan",
+        "Cumulative bonus up to 50%",
+        "Tax benefit under Section 80D",
+        "Cashless at network hospitals"
+      ],
+      "sourceUrl": "https://www.reliancegeneral.co.in/insurance/health-insurance/health-wise.aspx",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Budget plan from Reliance General. Verify directly with insurer."
+    },
+    {
+      "id": "cholamandalam-healthline",
+      "insurerName": "Cholamandalam MS General Insurance Company Ltd.",
+      "insurerSlug": "cholamandalam-ms",
+      "productName": "Healthline",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 200000,
+        "max": 5000000,
+        "options": [200000, 300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 4000,
+        "illustrativeMax": 30000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (30/60 days)",
+        "Day care procedures",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Annual health check-up",
+        "Cumulative bonus",
+        "Domiciliary hospitalization"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 75.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 8000,
+        "source": "Cholamandalam MS website (approximate)"
+      },
+      "riders": [
+        "Hospital cash rider",
+        "Critical illness rider",
+        "Personal accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Part of the Murugappa Group",
+        "Cumulative bonus up to 50%",
+        "Cashless at network hospitals",
+        "Tax benefit under Section 80D"
+      ],
+      "sourceUrl": "https://www.cholainsurance.com/health-insurance/healthline",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Backed by Murugappa Group. Verify directly with Cholamandalam MS."
+    },
+    {
+      "id": "sbi-general-arogya-supreme",
+      "insurerName": "SBI General Insurance Company Ltd.",
+      "insurerSlug": "sbi-general",
+      "productName": "Arogya Supreme",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 50000000,
+        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000, 25000000, 50000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 5500,
+        "illustrativeMax": 45000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (60/180 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Annual health check-up",
+        "No claim bonus",
+        "Restoration of sum insured",
+        "Modern treatments",
+        "Consumables cover"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 85.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 10000,
+        "source": "SBI General website (approximate)"
+      },
+      "riders": [
+        "Critical illness cover",
+        "Personal accident",
+        "Maternity cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "SBI brand trust and wide accessibility",
+        "Up to 5 Crore sum insured",
+        "Restoration of sum insured benefit",
+        "Consumables and modern treatments covered",
+        "No room rent restrictions on higher SI"
+      ],
+      "sourceUrl": "https://www.sbigeneral.in/health-insurance/arogya-supreme",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Backed by SBI. Verify directly with SBI General."
+    },
+    {
+      "id": "sbi-general-arogya-sanjeevani",
+      "insurerName": "SBI General Insurance Company Ltd.",
+      "insurerSlug": "sbi-general",
+      "productName": "Arogya Sanjeevani",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 500000,
+        "options": [100000, 150000, 200000, 250000, 300000, 400000, 500000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 2500,
+        "illustrativeMax": 12000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (30/60 days)",
+        "Day care procedures",
+        "AYUSH treatments (up to SI limit)",
+        "Ambulance charges up to 2000",
+        "Cataract treatment up to 40000",
+        "Domiciliary hospitalization"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils",
+        "Room rent above 2% of SI"
+      ],
+      "claimSettlement": {
+        "ratio": 85.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 10000,
+        "source": "SBI General website (approximate)"
+      },
+      "riders": [
+        "None — standardized product by IRDAI"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [1]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "IRDAI-mandated standard health product",
+        "Available from all general/health insurers",
+        "Affordable and basic coverage",
+        "Uniform terms across all insurers"
+      ],
+      "sourceUrl": "https://www.sbigeneral.in/health-insurance/arogya-sanjeevani",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "IRDAI-mandated standard product. Available from all health/general insurers with same terms. Verify directly with SBI General."
+    },
+    {
+      "id": "kotak-health-secure",
+      "insurerName": "Kotak Mahindra General Insurance Company Ltd.",
+      "insurerSlug": "kotak-general",
+      "productName": "Health Secure",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 200000,
+        "max": 5000000,
+        "options": [200000, 300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 4500,
+        "illustrativeMax": 30000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (30/60 days)",
+        "Day care procedures",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Annual health check-up",
+        "No claim bonus",
+        "Domiciliary hospitalization"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 70.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 8000,
+        "source": "Kotak General website (approximate)"
+      },
+      "riders": [
+        "Hospital cash rider",
+        "Personal accident",
+        "Critical illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Backed by Kotak Mahindra Group",
+        "No claim bonus for claim-free years",
+        "Cashless at wide network hospitals",
+        "Tax benefit under Section 80D"
+      ],
+      "sourceUrl": "https://www.kotakgeneralinsurance.com/health-insurance/health-secure",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Kotak Group insurer. Verify directly with Kotak General."
+    },
+    {
+      "id": "kotak-health-premier",
+      "insurerName": "Kotak Mahindra General Insurance Company Ltd.",
+      "insurerSlug": "kotak-general",
+      "productName": "Health Premier",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 20000000,
+        "options": [500000, 1000000, 2000000, 3000000, 5000000, 10000000, 15000000, 20000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 8000,
+        "illustrativeMax": 55000,
+        "assumptions": "Individual, 30 years, no pre-existing conditions, 1 year tenure. Indicative only.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre and post hospitalization (60/180 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Consumables cover",
+        "No claim bonus",
+        "Modern treatments",
+        "Annual health check-up",
+        "Restoration of sum insured"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery",
+        "Dental (unless accident)",
+        "Self-inflicted injuries",
+        "War/nuclear perils"
+      ],
+      "claimSettlement": {
+        "ratio": 70.0,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 8000,
+        "source": "Kotak General website (approximate)"
+      },
+      "riders": [
+        "Maternity cover",
+        "OPD cover",
+        "Personal accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Premium plan with up to 2 Crore SI",
+        "Restoration of sum insured benefit",
+        "Consumables and modern treatments covered",
+        "No room rent capping on higher variants",
+        "Wellness benefits included"
+      ],
+      "sourceUrl": "https://www.kotakgeneralinsurance.com/health-insurance/health-premier",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-24",
+      "confidenceScore": "medium",
+      "notes": "Data compiled from public product page. Premium tier plan from Kotak. Verify directly with Kotak General."
+    }
+  ]
+}

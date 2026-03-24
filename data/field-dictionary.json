@@ -1,0 +1,142 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-03-24",
+  "fields": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the product (slug format)",
+      "example": "star-health-comprehensive"
+    },
+    "insurerName": {
+      "type": "string",
+      "description": "Full legal name of the insurance company",
+      "example": "Star Health and Allied Insurance Co. Ltd."
+    },
+    "insurerSlug": {
+      "type": "string",
+      "description": "URL-friendly slug for the insurer",
+      "example": "star-health"
+    },
+    "productName": {
+      "type": "string",
+      "description": "Official product/plan name",
+      "example": "Star Comprehensive Insurance Policy"
+    },
+    "category": {
+      "type": "enum",
+      "values": ["health", "term-life", "motor", "travel"],
+      "description": "Primary insurance category"
+    },
+    "subCategory": {
+      "type": "string",
+      "description": "Sub-category within the main category",
+      "examples": ["individual", "family-floater", "senior-citizen", "critical-illness", "two-wheeler", "four-wheeler", "domestic", "international"]
+    },
+    "eligibility": {
+      "type": "object",
+      "description": "Eligibility criteria",
+      "fields": {
+        "minAge": { "type": "number", "description": "Minimum entry age in years" },
+        "maxAge": { "type": "number", "description": "Maximum entry age in years" },
+        "renewableUpTo": { "type": "number|string", "description": "Maximum renewal age or 'lifetime'" }
+      }
+    },
+    "sumInsured": {
+      "type": "object",
+      "description": "Sum insured range",
+      "fields": {
+        "min": { "type": "number", "description": "Minimum sum insured in INR" },
+        "max": { "type": "number", "description": "Maximum sum insured in INR" },
+        "options": { "type": "array", "description": "Available sum insured options if discrete" }
+      }
+    },
+    "premiumRange": {
+      "type": "object",
+      "description": "Indicative premium range — MUST be sourced from public data and marked as illustrative",
+      "fields": {
+        "illustrativeMin": { "type": "number", "description": "Lowest publicly available premium example in INR" },
+        "illustrativeMax": { "type": "number", "description": "Highest publicly available premium example in INR" },
+        "assumptions": { "type": "string", "description": "Assumptions for premium examples" },
+        "isVerified": { "type": "boolean", "description": "Whether premium data is verified from official source" }
+      }
+    },
+    "waitingPeriod": {
+      "type": "object",
+      "description": "Waiting period details",
+      "fields": {
+        "initial": { "type": "string", "description": "Initial waiting period e.g. '30 days'" },
+        "preExisting": { "type": "string", "description": "Pre-existing disease waiting period e.g. '48 months'" },
+        "specific": { "type": "string", "description": "Specific disease waiting period e.g. '24 months'" }
+      }
+    },
+    "keyInclusions": {
+      "type": "array",
+      "description": "List of key covered benefits/inclusions"
+    },
+    "keyExclusions": {
+      "type": "array",
+      "description": "List of key exclusions"
+    },
+    "claimSettlement": {
+      "type": "object",
+      "description": "Claim settlement information if publicly available",
+      "fields": {
+        "ratio": { "type": "number", "description": "Claim settlement ratio as percentage" },
+        "year": { "type": "string", "description": "FY for which ratio is reported" },
+        "source": { "type": "string", "description": "Source of claim settlement data" }
+      }
+    },
+    "networkHospitals": {
+      "type": "object",
+      "description": "Network hospital information",
+      "fields": {
+        "count": { "type": "number", "description": "Approximate number of network hospitals" },
+        "source": { "type": "string", "description": "Source of this data" }
+      }
+    },
+    "riders": {
+      "type": "array",
+      "description": "Available riders/add-ons"
+    },
+    "policyTenure": {
+      "type": "object",
+      "description": "Policy tenure options",
+      "fields": {
+        "min": { "type": "number", "description": "Minimum tenure in years" },
+        "max": { "type": "number", "description": "Maximum tenure in years" },
+        "options": { "type": "array", "description": "Available tenure options" }
+      }
+    },
+    "renewability": {
+      "type": "string",
+      "description": "Renewability terms e.g. 'Lifelong', 'Up to 65 years'"
+    },
+    "specialFeatures": {
+      "type": "array",
+      "description": "Notable/unique features of this product"
+    },
+    "sourceUrl": {
+      "type": "string",
+      "description": "Primary public source URL"
+    },
+    "sourceType": {
+      "type": "enum",
+      "values": ["official-website", "policy-wording", "brochure", "irdai-publication", "public-brochure"],
+      "description": "Type of source"
+    },
+    "lastVerified": {
+      "type": "string",
+      "format": "YYYY-MM-DD",
+      "description": "Date when data was last verified against source"
+    },
+    "confidenceScore": {
+      "type": "enum",
+      "values": ["high", "medium", "low"],
+      "description": "Data quality confidence — high: verified from official source, medium: from reliable secondary source, low: unverified/aggregated"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Any assumptions, caveats, or notes about this data"
+    }
+  }
+}

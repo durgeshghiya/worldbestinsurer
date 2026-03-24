@@ -1,0 +1,9 @@
+{
+  "sourceId": "hdfc-ergo-health",
+  "lastChecked": "2026-03-24T06:31:47.480Z",
+  "lastSuccess": "2026-03-24T06:31:47.480Z",
+  "consecutiveFailures": 0,
+  "isHealthy": true,
+  "lastContentHash": "55cbe33b76748751",
+  "lastHttpStatus": 200
+}

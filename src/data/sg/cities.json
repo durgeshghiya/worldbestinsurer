@@ -1,0 +1,33 @@
+{
+  "lastUpdated": "2026-03-24",
+  "countryCode": "sg",
+  "cities": [
+    { "name": "Central Area", "slug": "central-area", "region": "Central", "isMajor": true },
+    { "name": "Bedok", "slug": "bedok", "region": "East", "isMajor": true },
+    { "name": "Tampines", "slug": "tampines", "region": "East", "isMajor": true },
+    { "name": "Jurong East", "slug": "jurong-east", "region": "West", "isMajor": true },
+    { "name": "Jurong West", "slug": "jurong-west", "region": "West", "isMajor": true },
+    { "name": "Woodlands", "slug": "woodlands", "region": "North", "isMajor": true },
+    { "name": "Yishun", "slug": "yishun", "region": "North", "isMajor": true },
+    { "name": "Ang Mo Kio", "slug": "ang-mo-kio", "region": "Central", "isMajor": true },
+    { "name": "Toa Payoh", "slug": "toa-payoh", "region": "Central", "isMajor": true },
+    { "name": "Bishan", "slug": "bishan", "region": "Central", "isMajor": true },
+    { "name": "Hougang", "slug": "hougang", "region": "North-East", "isMajor": true },
+    { "name": "Sengkang", "slug": "sengkang", "region": "North-East", "isMajor": true },
+    { "name": "Punggol", "slug": "punggol", "region": "North-East", "isMajor": true },
+    { "name": "Pasir Ris", "slug": "pasir-ris", "region": "East", "isMajor": true },
+    { "name": "Clementi", "slug": "clementi", "region": "West", "isMajor": true },
+    { "name": "Bukit Batok", "slug": "bukit-batok", "region": "West", "isMajor": true },
+    { "name": "Bukit Panjang", "slug": "bukit-panjang", "region": "West", "isMajor": true },
+    { "name": "Choa Chu Kang", "slug": "choa-chu-kang", "region": "West", "isMajor": true },
+    { "name": "Serangoon", "slug": "serangoon", "region": "North-East", "isMajor": true },
+    { "name": "Queenstown", "slug": "queenstown", "region": "Central", "isMajor": false },
+    { "name": "Bukit Merah", "slug": "bukit-merah", "region": "Central", "isMajor": false },
+    { "name": "Geylang", "slug": "geylang", "region": "Central", "isMajor": false },
+    { "name": "Kallang", "slug": "kallang", "region": "Central", "isMajor": false },
+    { "name": "Marine Parade", "slug": "marine-parade", "region": "Central", "isMajor": false },
+    { "name": "Sembawang", "slug": "sembawang", "region": "North", "isMajor": false },
+    { "name": "Bukit Timah", "slug": "bukit-timah", "region": "Central", "isMajor": false },
+    { "name": "Tengah", "slug": "tengah", "region": "West", "isMajor": false }
+  ]
+}
