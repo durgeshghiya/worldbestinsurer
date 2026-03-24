@@ -5,8 +5,11 @@ import { ArrowLeft, Check, X, ExternalLink, AlertCircle } from "lucide-react";
 import { generateVSPairs, getVSPairBySlug } from "@/lib/generators";
 import { formatCompact, freshnessLabel, cn } from "@/lib/utils";
 
+export const dynamicParams = true;
+
 export async function generateStaticParams() {
-  return generateVSPairs().map((p) => ({ slug: p.slug }));
+  // Pre-build top 50 VS pairs. Rest rendered on-demand.
+  return generateVSPairs().slice(0, 50).map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {

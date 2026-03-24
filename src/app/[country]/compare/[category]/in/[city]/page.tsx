@@ -13,9 +13,23 @@ const categoryNames: Record<string, string> = {
   motor: "Motor Insurance", travel: "Travel Insurance",
 };
 
+export const dynamicParams = true;
+
 export async function generateStaticParams() {
-  // generateCityParams() with no arg loops all countries
-  return generateCityParams().filter((p) => p.country && p.category && p.city);
+  // Only pre-build tier-1 cities to stay within Vercel limits. Rest rendered on-demand.
+  const { getCities } = await import("@/lib/generators");
+  const { VALID_COUNTRY_CODES } = await import("@/lib/countries");
+  const cats = ["health", "term-life", "motor", "travel"];
+  const params: { country: string; category: string; city: string }[] = [];
+  for (const cc of VALID_COUNTRY_CODES) {
+    const cities = getCities(cc).filter((c) => c.tier === 1).slice(0, 8);
+    for (const cat of cats) {
+      for (const city of cities) {
+        params.push({ country: cc, category: cat, city: city.slug });
+      }
+    }
+  }
+  return params;
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ country: string; category: string; city: string }> }): Promise<Metadata> {

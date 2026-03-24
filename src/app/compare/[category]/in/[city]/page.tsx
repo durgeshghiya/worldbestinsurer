@@ -15,9 +15,14 @@ const categoryNames: Record<string, string> = {
   travel: "Travel Insurance",
 };
 
+export const dynamicParams = true;
+
 export async function generateStaticParams() {
-  // Legacy India-only city params (backward compat)
-  return generateCityParams("in").map((p) => ({ category: p.category, city: p.city }));
+  // Only pre-build tier-1 Indian cities. Rest rendered on-demand.
+  const { getCities } = await import("@/lib/generators");
+  const cats = ["health", "term-life", "motor", "travel"];
+  const tier1 = getCities("in").filter((c) => c.tier === 1).slice(0, 8);
+  return tier1.flatMap((city) => cats.map((cat) => ({ category: cat, city: city.slug })));
 }
 
 export async function generateMetadata({

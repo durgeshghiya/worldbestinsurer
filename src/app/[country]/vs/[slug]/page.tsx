@@ -6,10 +6,13 @@ import { generateVSPairs, getVSPairBySlug } from "@/lib/generators";
 import { getCountryByCode, VALID_COUNTRY_CODES } from "@/lib/countries";
 import { formatCompact } from "@/lib/utils";
 
+export const dynamicParams = true;
+
 export async function generateStaticParams() {
+  // Only pre-build top 50 VS pairs per country. Rest rendered on-demand.
   const params: { country: string; slug: string }[] = [];
   for (const cc of VALID_COUNTRY_CODES) {
-    for (const p of generateVSPairs(cc)) {
+    for (const p of generateVSPairs(cc).slice(0, 50)) {
       params.push({ country: cc, slug: p.slug });
     }
   }
