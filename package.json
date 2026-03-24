@@ -17,7 +17,14 @@
     "seo:audit": "tsx scripts/seo/cli.ts audit",
     "seo:content": "tsx scripts/seo/cli.ts content",
     "seo:links": "tsx scripts/seo/cli.ts links",
-    "seo:keywords": "tsx scripts/seo/cli.ts keywords"
+    "seo:keywords": "tsx scripts/seo/cli.ts keywords",
+    "ai": "tsx scripts/ai-agent/cli.ts",
+    "ai:update": "tsx scripts/ai-agent/cli.ts update",
+    "ai:update-all": "tsx scripts/ai-agent/cli.ts update-all",
+    "ai:report": "tsx scripts/ai-agent/cli.ts report",
+    "ai:verify": "tsx scripts/ai-agent/cli.ts verify",
+    "ai:push": "tsx scripts/ai-agent/cli.ts push",
+    "ai:schedule": "tsx scripts/ai-agent/cli.ts schedule"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
