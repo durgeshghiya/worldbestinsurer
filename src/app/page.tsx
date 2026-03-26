@@ -34,6 +34,7 @@ import QuestJourney from "@/components/immersive/QuestJourney";
 import RewardBadges from "@/components/immersive/RewardBadges";
 import ScrollReveal from "@/components/immersive/ScrollReveal";
 import CounterAnimation from "@/components/immersive/CounterAnimation";
+import InsuranceMiniGames from "@/components/immersive/InsuranceMiniGames";
 
 /* ─── category helpers ─── */
 const categoryIcons: Record<string, typeof Heart> = {
@@ -612,6 +613,34 @@ export default function HomePage() {
               </ScrollReveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ================================================================= */}
+      {/*  SECTION 7.5: MINI GAMES — "Learn While You Play"                 */}
+      {/* ================================================================= */}
+      <section className="relative py-20 sm:py-28 bg-[var(--surface-dark)] overflow-hidden">
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-20 left-1/4 w-64 h-64 bg-[var(--accent)] rounded-full blur-[120px]" />
+          <div className="absolute bottom-20 right-1/4 w-64 h-64 bg-[var(--health)] rounded-full blur-[120px]" />
+        </div>
+        <div className="relative z-10 mx-auto max-w-[1280px] px-5 lg:px-8">
+          <ScrollReveal direction="up">
+            <div className="text-center mb-12">
+              <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs font-medium text-white/60 mb-4">
+                🎮 Interactive Games
+              </span>
+              <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">
+                Learn While You <span className="text-[var(--accent)]">Play</span>
+              </h2>
+              <p className="mt-3 text-white/40 max-w-lg mx-auto text-sm">
+                Test your insurance knowledge, calculate your ideal coverage, or solve premium math challenges.
+              </p>
+            </div>
+          </ScrollReveal>
+          <ScrollReveal direction="up" delay={0.2}>
+            <InsuranceMiniGames />
+          </ScrollReveal>
         </div>
       </section>
 
