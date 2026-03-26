@@ -28,7 +28,15 @@
     "index": "tsx scripts/seo/auto-index.ts",
     "index:all": "tsx scripts/seo/auto-index.ts --all",
     "index:new": "tsx scripts/seo/auto-index.ts --new",
-    "index:status": "tsx scripts/seo/auto-index.ts --status"
+    "index:status": "tsx scripts/seo/auto-index.ts --status",
+    "rank": "tsx scripts/seo/ranking-agent.ts",
+    "rank:index": "tsx scripts/seo/ranking-agent.ts --index",
+    "rank:content": "tsx scripts/seo/ranking-agent.ts --content",
+    "rank:social": "tsx scripts/seo/ranking-agent.ts --social",
+    "rank:backlinks": "tsx scripts/seo/ranking-agent.ts --backlinks",
+    "rank:qa": "tsx scripts/seo/ranking-agent.ts --qa",
+    "rank:status": "tsx scripts/seo/ranking-agent.ts --status",
+    "rank:schedule": "tsx scripts/seo/ranking-agent.ts --schedule"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
