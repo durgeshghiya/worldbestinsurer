@@ -27,6 +27,7 @@ import {
 } from "@/components/StructuredData";
 import { getArticles } from "@/lib/generators";
 
+import HeroSearch from "@/components/HeroSearch";
 import FloatingParticles from "@/components/immersive/FloatingParticles";
 import InsuranceLands from "@/components/immersive/InsuranceLands";
 import QuestJourney from "@/components/immersive/QuestJourney";
@@ -154,10 +155,15 @@ export default function HomePage() {
             countries.
           </p>
 
+          {/* ── Hero Search Bar ── */}
+          <div className="animate-slide-up mb-14" style={{ animationDelay: "0.15s" }}>
+            <HeroSearch />
+          </div>
+
           {/* 4 glowing category buttons */}
           <div
             className="flex items-center justify-center gap-4 flex-wrap mb-16 animate-slide-up"
-            style={{ animationDelay: "0.2s" }}
+            style={{ animationDelay: "0.25s" }}
           >
             {categories.map((cat) => {
               const Icon = categoryIcons[cat.slug] ?? Shield;
