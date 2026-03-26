@@ -10,20 +10,30 @@ import {
 import { cn } from "@/lib/utils";
 
 /* ── Types ── */
-interface SearchItem {
-  id: string;
-  title: string;
-  subtitle: string;
-  href: string;
-  type: "product" | "insurer" | "article" | "country" | "category";
-  icon: typeof Heart;
-  color: string;
-  meta?: string;
+import type { SearchItemData } from "@/lib/search-index";
+
+interface SearchModalProps {
+  items: SearchItemData[];
 }
 
-/* ── Static search index (built at render time from props) ── */
-interface SearchModalProps {
-  items: SearchItem[];
+/* Map types/categories to icons client-side */
+const typeIcons: Record<string, typeof Heart> = {
+  product: Heart,
+  insurer: Building2,
+  article: BookOpen,
+  country: Globe,
+  category: Heart,
+};
+const catIcons: Record<string, typeof Heart> = {
+  health: Heart,
+  "term-life": Shield,
+  motor: Car,
+  travel: Plane,
+};
+
+function getItemIcon(item: SearchItemData): typeof Heart {
+  if (item.categorySlug && catIcons[item.categorySlug]) return catIcons[item.categorySlug];
+  return typeIcons[item.type] || Heart;
 }
 
 const typeLabels: Record<string, string> = {
@@ -196,7 +206,7 @@ export default function SearchModal({ items }: SearchModalProps) {
                         onMouseEnter={() => setSelectedIndex(i)}
                       >
                         <div className={cn("w-8 h-8 rounded-lg flex items-center justify-center shrink-0", typeColors[item.type] || "bg-surface-sunken text-text-secondary")}>
-                          <item.icon className="w-4 h-4" />
+                          {(() => { const Icon = getItemIcon(item); return <Icon className="w-4 h-4" />; })()}
                         </div>
                         <div className="flex-1 min-w-0">
                           <p className="text-[13px] font-medium text-text-primary truncate">
@@ -241,111 +251,3 @@ export default function SearchModal({ items }: SearchModalProps) {
   );
 }
 
-/* ── Helper to build search index from data ── */
-export function buildSearchIndex(
-  products: { id: string; productName: string; insurerName: string; category: string; countryCode?: string }[],
-  insurers: { slug: string; shortName: string; name: string; type?: string }[],
-  articles: { slug: string; title: string; category: string; excerpt: string }[],
-): SearchItem[] {
-  const catIcons: Record<string, typeof Heart> = {
-    health: Heart,
-    "term-life": Shield,
-    motor: Car,
-    travel: Plane,
-  };
-  const catColors: Record<string, string> = {
-    health: "text-health",
-    "term-life": "text-term",
-    motor: "text-motor",
-    travel: "text-travel",
-  };
-
-  const items: SearchItem[] = [];
-
-  // Products
-  for (const p of products.slice(0, 200)) {
-    items.push({
-      id: `p-${p.id}`,
-      title: p.productName,
-      subtitle: `${p.insurerName} · ${p.category.replace("-", " ")}`,
-      href: `/product/${p.id}`,
-      type: "product",
-      icon: catIcons[p.category] || Heart,
-      color: catColors[p.category] || "text-primary",
-    });
-  }
-
-  // Insurers
-  for (const ins of insurers.slice(0, 50)) {
-    items.push({
-      id: `i-${ins.slug}`,
-      title: ins.shortName,
-      subtitle: ins.name,
-      href: `/insurer/${ins.slug}`,
-      type: "insurer",
-      icon: Building2,
-      color: "text-accent",
-    });
-  }
-
-  // Articles
-  for (const a of articles.slice(0, 100)) {
-    items.push({
-      id: `a-${a.slug}`,
-      title: a.title,
-      subtitle: a.category,
-      href: `/learn/${a.slug}`,
-      type: "article",
-      icon: BookOpen,
-      color: "text-info",
-    });
-  }
-
-  // Countries
-  const countryList = [
-    { code: "in", name: "India", flag: "🇮🇳" },
-    { code: "us", name: "United States", flag: "🇺🇸" },
-    { code: "uk", name: "United Kingdom", flag: "🇬🇧" },
-    { code: "ae", name: "UAE", flag: "🇦🇪" },
-    { code: "sg", name: "Singapore", flag: "🇸🇬" },
-    { code: "ca", name: "Canada", flag: "🇨🇦" },
-    { code: "au", name: "Australia", flag: "🇦🇺" },
-    { code: "de", name: "Germany", flag: "🇩🇪" },
-    { code: "sa", name: "Saudi Arabia", flag: "🇸🇦" },
-    { code: "jp", name: "Japan", flag: "🇯🇵" },
-    { code: "kr", name: "South Korea", flag: "🇰🇷" },
-    { code: "hk", name: "Hong Kong", flag: "🇭🇰" },
-  ];
-  for (const c of countryList) {
-    items.push({
-      id: `c-${c.code}`,
-      title: `${c.flag} ${c.name}`,
-      subtitle: `Insurance market`,
-      href: `/${c.code}`,
-      type: "country",
-      icon: Globe,
-      color: "text-success",
-    });
-  }
-
-  // Categories
-  const cats = [
-    { name: "Health Insurance", href: "/compare/health", icon: Heart },
-    { name: "Term Life Insurance", href: "/compare/term-life", icon: Shield },
-    { name: "Motor Insurance", href: "/compare/motor", icon: Car },
-    { name: "Travel Insurance", href: "/compare/travel", icon: Plane },
-  ];
-  for (const c of cats) {
-    items.push({
-      id: `cat-${c.href}`,
-      title: c.name,
-      subtitle: "Compare plans",
-      href: c.href,
-      type: "category",
-      icon: c.icon,
-      color: "text-primary",
-    });
-  }
-
-  return items;
-}
