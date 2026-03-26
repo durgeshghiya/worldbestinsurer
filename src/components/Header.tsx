@@ -4,18 +4,18 @@ import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 import {
   Menu, X, ChevronDown, Heart, Shield, Car, Plane,
-  ArrowRight, Sparkles, Globe, ChevronRight,
+  ArrowRight, Sparkles, Globe, ArrowUpRight,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const categories = [
-  { name: "Health Insurance", href: "/compare/health", icon: Heart, color: "text-health", bg: "bg-health-light", glow: "group-hover/item:shadow-[0_0_20px_rgba(244,63,94,0.15)]", desc: "Compare health plans across top insurers" },
-  { name: "Term Life Insurance", href: "/compare/term-life", icon: Shield, color: "text-term", bg: "bg-term-light", glow: "group-hover/item:shadow-[0_0_20px_rgba(99,102,241,0.15)]", desc: "Evaluate coverage, riders, and claim ratios" },
-  { name: "Motor Insurance", href: "/compare/motor", icon: Car, color: "text-motor", bg: "bg-motor-light", glow: "group-hover/item:shadow-[0_0_20px_rgba(6,214,160,0.15)]", desc: "Check add-ons, garages, and NCB benefits" },
-  { name: "Travel Insurance", href: "/compare/travel", icon: Plane, color: "text-travel", bg: "bg-travel-light", glow: "group-hover/item:shadow-[0_0_20px_rgba(245,158,11,0.15)]", desc: "Medical cover, trip cancellation, and more" },
+  { name: "Health", href: "/compare/health", icon: Heart, color: "text-health", bg: "bg-health-light", desc: "Medical & hospitalization" },
+  { name: "Term Life", href: "/compare/term-life", icon: Shield, color: "text-term", bg: "bg-term-light", desc: "Life cover & protection" },
+  { name: "Motor", href: "/compare/motor", icon: Car, color: "text-motor", bg: "bg-motor-light", desc: "Car & bike insurance" },
+  { name: "Travel", href: "/compare/travel", icon: Plane, color: "text-travel", bg: "bg-travel-light", desc: "Trip & medical abroad" },
 ];
 
-const allCountries = [
+const countries = [
   { code: "in", name: "India", flag: "🇮🇳" },
   { code: "us", name: "United States", flag: "🇺🇸" },
   { code: "uk", name: "United Kingdom", flag: "🇬🇧" },
@@ -30,102 +30,91 @@ const allCountries = [
   { code: "hk", name: "Hong Kong", flag: "🇭🇰" },
 ];
 
-const navLinks = [
-  { name: "Insurers", href: "/insurers" },
-  { name: "Learn", href: "/learn" },
-  { name: "About", href: "/about" },
-];
-
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [compareOpen, setCompareOpen] = useState(false);
   const [countryOpen, setCountryOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const countryRef = useRef<HTMLDivElement>(null);
+  const compareRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const handler = () => setScrolled(window.scrollY > 8);
-    window.addEventListener("scroll", handler, { passive: true });
-    return () => window.removeEventListener("scroll", handler);
+    const h = () => setScrolled(window.scrollY > 12);
+    window.addEventListener("scroll", h, { passive: true });
+    return () => window.removeEventListener("scroll", h);
   }, []);
 
   useEffect(() => {
-    const handler = (e: MouseEvent) => {
-      if (countryRef.current && !countryRef.current.contains(e.target as Node)) {
-        setCountryOpen(false);
-      }
+    const h = (e: MouseEvent) => {
+      if (countryRef.current && !countryRef.current.contains(e.target as Node)) setCountryOpen(false);
+      if (compareRef.current && !compareRef.current.contains(e.target as Node)) setCompareOpen(false);
     };
-    document.addEventListener("mousedown", handler);
-    return () => document.removeEventListener("mousedown", handler);
+    document.addEventListener("mousedown", h);
+    return () => document.removeEventListener("mousedown", h);
   }, []);
 
   return (
     <header
       className={cn(
-        "sticky top-0 z-50 transition-all duration-500",
+        "sticky top-0 z-50 transition-all duration-700",
         scrolled
-          ? "glass border-b border-border/60 shadow-[0_1px_3px_rgba(0,0,0,0.04)]"
+          ? "glass border-b border-border/50 shadow-sm"
           : "bg-transparent"
       )}
     >
-      <nav className="mx-auto max-w-[1320px] px-5 lg:px-8">
-        <div className="flex h-[68px] items-center justify-between">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-2.5 group">
-            <div className="relative w-9 h-9">
-              <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary via-[#7c3aed] to-accent opacity-90 group-hover:opacity-100 transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(79,70,229,0.3)]" />
-              <span className="relative flex items-center justify-center w-full h-full text-white font-bold text-[11px] tracking-tight">
+      <nav className="mx-auto max-w-[1280px] px-5 lg:px-8">
+        <div className="flex h-16 items-center justify-between">
+          {/* ── Logo ── */}
+          <Link href="/" className="flex items-center gap-3 group">
+            <div className="relative w-8 h-8 rounded-lg overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-[#1a1a2e] via-primary to-[#1a1a2e] group-hover:from-primary group-hover:via-accent group-hover:to-primary transition-all duration-700" />
+              <span className="relative flex items-center justify-center w-full h-full text-white font-black text-[10px] tracking-[0.05em]">
                 WBI
               </span>
             </div>
-            <div className="flex flex-col">
-              <span className="text-[18px] sm:text-[20px] font-bold tracking-[-0.03em] text-text-primary leading-none">
+            <div className="hidden sm:block">
+              <span className="text-[15px] font-bold tracking-[-0.03em] text-text-primary leading-none">
                 World Best Insurer
-              </span>
-              <span className="text-[9px] font-medium text-text-tertiary tracking-[0.12em] uppercase leading-none mt-0.5">
-                Global Insurance Comparison
               </span>
             </div>
           </Link>
 
-          {/* Desktop nav */}
-          <div className="hidden lg:flex items-center gap-0.5">
-            {/* Country Selector */}
+          {/* ── Desktop Nav ── */}
+          <div className="hidden lg:flex items-center gap-1">
+            {/* Country */}
             <div className="relative" ref={countryRef}>
               <button
                 onClick={() => { setCountryOpen(!countryOpen); setCompareOpen(false); }}
                 className={cn(
-                  "flex items-center gap-1.5 px-3.5 py-2 text-[13.5px] font-medium rounded-xl transition-all duration-200",
+                  "flex items-center gap-1.5 px-3 py-1.5 text-[13px] font-medium rounded-lg transition-all duration-200",
                   countryOpen
                     ? "text-primary bg-primary-light"
                     : "text-text-secondary hover:text-text-primary hover:bg-surface-sunken"
                 )}
               >
                 <Globe className="w-3.5 h-3.5" />
-                Country
-                <ChevronDown className={cn("w-3.5 h-3.5 transition-transform duration-300", countryOpen && "rotate-180")} />
+                <span>Country</span>
+                <ChevronDown className={cn("w-3 h-3 transition-transform duration-300", countryOpen && "rotate-180")} />
               </button>
 
               {countryOpen && (
-                <div className="absolute top-full left-0 pt-3 w-[400px]">
-                  <div className="bg-surface rounded-2xl border border-border shadow-2xl p-3 animate-scale-in">
-                    <p className="px-2 py-1.5 text-[10px] font-bold text-text-tertiary uppercase tracking-[0.12em]">
-                      Select a country
+                <div className="absolute top-full left-0 pt-2.5 w-[380px] animate-scale-in" style={{ transformOrigin: "top left" }}>
+                  <div className="bg-surface rounded-xl border border-border shadow-xl p-2">
+                    <p className="px-3 py-2 text-[10px] font-bold text-text-tertiary uppercase tracking-[0.15em]">
+                      Select market
                     </p>
-                    <div className="grid grid-cols-2 gap-1 mt-1.5 max-h-[380px] overflow-y-auto">
-                      {allCountries.map((c) => (
+                    <div className="grid grid-cols-2 gap-0.5 max-h-[360px] overflow-y-auto">
+                      {countries.map((c) => (
                         <Link
                           key={c.code}
                           href={`/${c.code}`}
                           onClick={() => setCountryOpen(false)}
-                          className="flex items-center gap-2.5 px-3 py-2.5 rounded-xl hover:bg-surface-sunken transition-all duration-200 group/c"
+                          className="flex items-center gap-2.5 px-3 py-2 rounded-lg hover:bg-surface-sunken transition-all group/c"
                         >
-                          <span className="text-[20px]">{c.flag}</span>
-                          <div>
-                            <p className="text-[13px] font-semibold text-text-primary group-hover/c:text-primary transition-colors">
-                              {c.name}
-                            </p>
-                          </div>
+                          <span className="text-[18px] group-hover/c:scale-110 transition-transform">{c.flag}</span>
+                          <span className="text-[13px] font-medium text-text-primary group-hover/c:text-primary transition-colors">
+                            {c.name}
+                          </span>
                         </Link>
                       ))}
                     </div>
@@ -134,60 +123,52 @@ export default function Header() {
               )}
             </div>
 
-            {/* Compare dropdown */}
-            <div
-              className="relative"
-              onMouseEnter={() => { setCompareOpen(true); setCountryOpen(false); }}
-              onMouseLeave={() => setCompareOpen(false)}
-            >
+            {/* Compare */}
+            <div className="relative" ref={compareRef}>
               <button
+                onClick={() => { setCompareOpen(!compareOpen); setCountryOpen(false); }}
                 className={cn(
-                  "flex items-center gap-1 px-4 py-2 text-[13.5px] font-medium rounded-xl transition-all duration-200",
+                  "flex items-center gap-1.5 px-3 py-1.5 text-[13px] font-medium rounded-lg transition-all duration-200",
                   compareOpen
                     ? "text-primary bg-primary-light"
                     : "text-text-secondary hover:text-text-primary hover:bg-surface-sunken"
                 )}
               >
-                Compare
-                <ChevronDown
-                  className={cn(
-                    "w-3.5 h-3.5 transition-transform duration-300",
-                    compareOpen && "rotate-180"
-                  )}
-                />
+                <span>Compare</span>
+                <ChevronDown className={cn("w-3 h-3 transition-transform duration-300", compareOpen && "rotate-180")} />
               </button>
 
               {compareOpen && (
-                <div className="absolute top-full left-1/2 -translate-x-1/2 pt-3 w-[560px]">
-                  <div className="bg-surface rounded-2xl border border-border shadow-2xl p-3 animate-scale-in">
-                    <div className="grid grid-cols-2 gap-1.5">
+                <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2.5 w-[480px] animate-scale-in" style={{ transformOrigin: "top center" }}>
+                  <div className="bg-surface rounded-xl border border-border shadow-xl p-2">
+                    <div className="grid grid-cols-2 gap-1">
                       {categories.map((cat) => (
                         <Link
                           key={cat.href}
                           href={cat.href}
-                          className={cn("flex items-start gap-3 p-3.5 rounded-xl hover:bg-surface-sunken transition-all duration-200 group/item", cat.glow)}
+                          onClick={() => setCompareOpen(false)}
+                          className="flex items-center gap-3 p-3 rounded-lg hover:bg-surface-sunken transition-all group/item"
                         >
-                          <div className={cn("w-10 h-10 rounded-xl flex items-center justify-center shrink-0 transition-all duration-200", cat.bg)}>
-                            <cat.icon className={cn("w-5 h-5", cat.color)} />
+                          <div className={cn("w-9 h-9 rounded-lg flex items-center justify-center shrink-0 transition-all", cat.bg)}>
+                            <cat.icon className={cn("w-4 h-4", cat.color)} />
                           </div>
                           <div>
-                            <p className="text-[13.5px] font-semibold text-text-primary group-hover/item:text-primary transition-colors">
+                            <p className="text-[13px] font-semibold text-text-primary group-hover/item:text-primary transition-colors">
                               {cat.name}
                             </p>
-                            <p className="text-[11.5px] text-text-tertiary leading-snug mt-0.5">
-                              {cat.desc}
-                            </p>
+                            <p className="text-[11px] text-text-tertiary mt-0.5">{cat.desc}</p>
                           </div>
                         </Link>
                       ))}
                     </div>
-                    <div className="mt-2 pt-2.5 border-t border-border-light">
+                    <div className="mt-1.5 pt-2 border-t border-border-light">
                       <Link
                         href="/methodology"
-                        className="flex items-center gap-2 px-3.5 py-2.5 text-[12px] font-medium text-text-tertiary hover:text-primary transition-colors rounded-xl hover:bg-primary-light"
+                        onClick={() => setCompareOpen(false)}
+                        className="flex items-center gap-2 px-3 py-2 text-[11.5px] font-medium text-text-tertiary hover:text-primary transition-colors rounded-lg hover:bg-primary-light"
                       >
-                        <Sparkles className="w-3.5 h-3.5" />
-                        How we collect &amp; verify data
+                        <Sparkles className="w-3 h-3" />
+                        Our data methodology
                         <ArrowRight className="w-3 h-3 ml-auto" />
                       </Link>
                     </div>
@@ -196,37 +177,37 @@ export default function Header() {
               )}
             </div>
 
-            {navLinks.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className="px-4 py-2 text-[13.5px] font-medium text-text-secondary hover:text-text-primary hover:bg-surface-sunken rounded-xl transition-all duration-200"
-              >
-                {item.name}
-              </Link>
-            ))}
+            <Link href="/insurers" className="px-3 py-1.5 text-[13px] font-medium text-text-secondary hover:text-text-primary hover:bg-surface-sunken rounded-lg transition-all">
+              Insurers
+            </Link>
+            <Link href="/learn" className="px-3 py-1.5 text-[13px] font-medium text-text-secondary hover:text-text-primary hover:bg-surface-sunken rounded-lg transition-all">
+              Learn
+            </Link>
+            <Link href="/about" className="px-3 py-1.5 text-[13px] font-medium text-text-secondary hover:text-text-primary hover:bg-surface-sunken rounded-lg transition-all">
+              About
+            </Link>
           </div>
 
-          {/* Desktop CTA */}
-          <div className="hidden lg:flex items-center gap-3">
+          {/* ── Desktop CTA ── */}
+          <div className="hidden lg:flex items-center gap-2">
             <Link
               href="/contact"
-              className="px-4 py-2 text-[13px] font-medium text-text-secondary hover:text-text-primary transition-colors"
+              className="px-3 py-1.5 text-[13px] font-medium text-text-secondary hover:text-text-primary transition-colors"
             >
               Contact
             </Link>
             <Link
               href="/waitlist"
-              className="btn-glow inline-flex items-center gap-2 px-5 py-2.5 text-[13px] font-semibold text-white bg-gradient-to-r from-primary to-[#7c3aed] rounded-xl transition-all duration-300 shadow-md hover:shadow-lg hover:scale-[1.02]"
+              className="btn-glow inline-flex items-center gap-2 px-4 py-2 text-[12.5px] font-semibold text-white bg-[#1a1a2e] rounded-lg transition-all duration-300 hover:shadow-lg"
             >
-              Join Waitlist
-              <ArrowRight className="w-3.5 h-3.5" />
+              Get Early Access
+              <ArrowRight className="w-3 h-3" />
             </Link>
           </div>
 
-          {/* Mobile toggle */}
+          {/* ── Mobile toggle ── */}
           <button
-            className="lg:hidden p-2 -mr-2 text-text-secondary hover:text-text-primary rounded-xl transition-colors"
+            className="lg:hidden p-2 -mr-2 text-text-secondary hover:text-text-primary rounded-lg"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle navigation"
           >
@@ -234,69 +215,69 @@ export default function Header() {
           </button>
         </div>
 
-        {/* Mobile menu */}
+        {/* ── Mobile menu ── */}
         {mobileOpen && (
-          <div className="lg:hidden py-4 border-t border-border-light animate-slide-up">
-            {/* Country selector - mobile */}
-            <div className="mb-4">
-              <p className="px-3 py-1.5 text-[10px] font-bold text-text-tertiary uppercase tracking-[0.12em]">
-                🌍 Select Country
-              </p>
-              <div className="grid grid-cols-3 gap-1.5 mt-1">
-                {allCountries.map((c) => (
-                  <Link
-                    key={c.code}
-                    href={`/${c.code}`}
-                    className="flex items-center gap-2 px-3 py-2.5 rounded-xl hover:bg-surface-sunken transition-colors text-center"
-                    onClick={() => setMobileOpen(false)}
-                  >
-                    <span className="text-[18px]">{c.flag}</span>
-                    <span className="text-[12px] font-medium text-text-primary truncate">{c.name}</span>
-                  </Link>
-                ))}
-              </div>
+          <div className="lg:hidden py-4 border-t border-border-light animate-fade-in">
+            <p className="px-3 py-2 text-[10px] font-bold text-text-tertiary uppercase tracking-[0.15em]">Markets</p>
+            <div className="grid grid-cols-3 gap-1 mb-3">
+              {countries.map((c) => (
+                <Link
+                  key={c.code}
+                  href={`/${c.code}`}
+                  className="flex items-center gap-1.5 px-2.5 py-2 rounded-lg hover:bg-surface-sunken transition-colors"
+                  onClick={() => setMobileOpen(false)}
+                >
+                  <span className="text-[16px]">{c.flag}</span>
+                  <span className="text-[11px] font-medium text-text-primary truncate">{c.name}</span>
+                </Link>
+              ))}
             </div>
 
-            <div className="space-y-1 mb-4 pt-3 border-t border-border-light">
-              <p className="px-3 py-1.5 text-[10px] font-bold text-text-tertiary uppercase tracking-[0.12em]">
-                Compare Insurance
-              </p>
+            <div className="pt-3 border-t border-border-light">
+              <p className="px-3 py-2 text-[10px] font-bold text-text-tertiary uppercase tracking-[0.15em]">Compare</p>
               {categories.map((cat) => (
                 <Link
                   key={cat.href}
                   href={cat.href}
-                  className="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-surface-sunken transition-colors"
+                  className="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-surface-sunken transition-colors"
                   onClick={() => setMobileOpen(false)}
                 >
-                  <div className={cn("w-10 h-10 rounded-xl flex items-center justify-center", cat.bg)}>
-                    <cat.icon className={cn("w-5 h-5", cat.color)} />
+                  <div className={cn("w-8 h-8 rounded-lg flex items-center justify-center", cat.bg)}>
+                    <cat.icon className={cn("w-4 h-4", cat.color)} />
                   </div>
                   <div>
-                    <span className="text-[14px] font-semibold text-text-primary">{cat.name}</span>
-                    <p className="text-[11px] text-text-tertiary">{cat.desc}</p>
+                    <span className="text-[13px] font-semibold text-text-primary">{cat.name}</span>
+                    <p className="text-[10.5px] text-text-tertiary">{cat.desc}</p>
                   </div>
                 </Link>
               ))}
             </div>
-            <div className="space-y-1 mb-4 pt-3 border-t border-border-light">
-              {navLinks.map((item) => (
+
+            <div className="space-y-0.5 pt-3 border-t border-border-light mt-3">
+              {[
+                { name: "Insurers", href: "/insurers" },
+                { name: "Learn", href: "/learn" },
+                { name: "About", href: "/about" },
+                { name: "Contact", href: "/contact" },
+              ].map((item) => (
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="block px-3 py-3 text-[14px] font-medium text-text-secondary hover:text-text-primary rounded-xl hover:bg-surface-sunken"
+                  className="block px-3 py-2.5 text-[13px] font-medium text-text-secondary hover:text-text-primary rounded-lg hover:bg-surface-sunken"
                   onClick={() => setMobileOpen(false)}
                 >
                   {item.name}
                 </Link>
               ))}
             </div>
-            <div className="pt-3 border-t border-border-light px-3">
+
+            <div className="pt-4 px-3 border-t border-border-light mt-3">
               <Link
                 href="/waitlist"
-                className="flex items-center justify-center gap-2 w-full py-3 text-[14px] font-semibold text-white bg-gradient-to-r from-primary to-[#7c3aed] rounded-xl"
+                className="flex items-center justify-center gap-2 w-full py-2.5 text-[13px] font-semibold text-white bg-[#1a1a2e] rounded-lg"
                 onClick={() => setMobileOpen(false)}
               >
-                Join Waitlist <ArrowRight className="w-4 h-4" />
+                Get Early Access <ArrowRight className="w-3.5 h-3.5" />
               </Link>
             </div>
           </div>

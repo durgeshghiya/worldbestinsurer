@@ -22,9 +22,9 @@ const sections = [
   {
     title: "Company",
     links: [
-      { name: "About World Best Insurer", href: "/about" },
+      { name: "About", href: "/about" },
       { name: "Contact", href: "/contact" },
-      { name: "Join Waitlist", href: "/waitlist" },
+      { name: "Early Access", href: "/waitlist" },
     ],
   },
   {
@@ -37,42 +37,66 @@ const sections = [
   },
 ];
 
+const markets = [
+  { code: "in", flag: "🇮🇳" }, { code: "us", flag: "🇺🇸" }, { code: "uk", flag: "🇬🇧" },
+  { code: "ae", flag: "🇦🇪" }, { code: "sg", flag: "🇸🇬" }, { code: "ca", flag: "🇨🇦" },
+  { code: "au", flag: "🇦🇺" }, { code: "de", flag: "🇩🇪" }, { code: "sa", flag: "🇸🇦" },
+  { code: "jp", flag: "🇯🇵" }, { code: "kr", flag: "🇰🇷" }, { code: "hk", flag: "🇭🇰" },
+];
+
 export default function Footer() {
   return (
-    <footer className="bg-surface-dark text-white relative overflow-hidden">
-      <div className="absolute inset-0 bg-grid opacity-[0.02]" />
-      <div className="relative mx-auto max-w-[1320px] px-5 lg:px-8">
-        <div className="py-16 grid grid-cols-2 md:grid-cols-5 gap-8 lg:gap-12">
-          <div className="col-span-2 md:col-span-1">
-            <Link href="/" className="flex items-center gap-2.5 mb-4">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary via-[#7c3aed] to-accent flex items-center justify-center">
-                <span className="text-white font-bold text-[16px]">WBI</span>
+    <footer className="bg-[#0f0f1a] text-white relative overflow-hidden">
+      {/* Subtle texture */}
+      <div className="absolute inset-0 bg-grid opacity-[0.015]" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[1px] bg-gradient-to-r from-transparent via-accent/20 to-transparent" />
+
+      <div className="relative mx-auto max-w-[1280px] px-5 lg:px-8">
+        {/* ── Main grid ── */}
+        <div className="py-14 grid grid-cols-2 md:grid-cols-6 gap-8 lg:gap-10">
+          {/* Brand column */}
+          <div className="col-span-2">
+            <Link href="/" className="flex items-center gap-2.5 mb-5">
+              <div className="w-7 h-7 rounded-md bg-gradient-to-br from-white/10 to-white/5 border border-white/10 flex items-center justify-center">
+                <span className="text-white font-black text-[9px] tracking-[0.05em]">WBI</span>
               </div>
-              <div>
-                <span className="text-[18px] font-bold tracking-[-0.03em] text-white leading-none block">World Best Insurer</span>
-                <span className="text-[8px] font-medium text-white/30 tracking-[0.12em] uppercase">Insurance</span>
-              </div>
-            </Link>
-            <p className="text-[12.5px] text-white/35 leading-relaxed max-w-[200px]">
-              The world&apos;s insurance comparison platform. 12 countries, verified data, zero sales pressure.
-            </p>
-            <div className="flex items-center gap-2 mt-4">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75" />
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-accent" />
+              <span className="text-[14px] font-bold tracking-[-0.02em] text-white/90">
+                World Best Insurer
               </span>
-              <span className="text-[11px] text-white/30 font-medium">Data updated daily</span>
+            </Link>
+            <p className="text-[12px] text-white/30 leading-[1.7] max-w-[260px] mb-5">
+              The world&apos;s insurance comparison platform. Transparent data across 12 markets, zero sales pressure.
+            </p>
+            {/* Market flags */}
+            <div className="flex flex-wrap gap-1.5">
+              {markets.map((m) => (
+                <Link
+                  key={m.code}
+                  href={`/${m.code}`}
+                  className="text-[14px] hover:scale-125 transition-transform duration-200"
+                  title={m.code.toUpperCase()}
+                >
+                  {m.flag}
+                </Link>
+              ))}
             </div>
           </div>
+
+          {/* Link columns */}
           {sections.map((section) => (
             <div key={section.title}>
-              <h4 className="text-[11px] font-bold text-white/25 uppercase tracking-[0.15em] mb-4">{section.title}</h4>
-              <ul className="space-y-2.5">
+              <h4 className="text-[10px] font-bold text-white/20 uppercase tracking-[0.18em] mb-4">
+                {section.title}
+              </h4>
+              <ul className="space-y-2">
                 {section.links.map((link) => (
                   <li key={link.name}>
-                    <Link href={link.href} className="text-[13px] text-white/45 hover:text-white transition-colors duration-200 inline-flex items-center gap-1 group">
+                    <Link
+                      href={link.href}
+                      className="text-[12.5px] text-white/40 hover:text-white/80 transition-colors duration-200 inline-flex items-center gap-1 group"
+                    >
                       {link.name}
-                      <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                      <ArrowUpRight className="w-2.5 h-2.5 opacity-0 group-hover:opacity-100 transition-all duration-200 -translate-y-0.5 group-hover:translate-y-0" />
                     </Link>
                   </li>
                 ))}
@@ -80,14 +104,26 @@ export default function Footer() {
             </div>
           ))}
         </div>
-        <div className="py-6 border-t border-white/[0.06]">
-          <p className="text-[11px] text-white/20 leading-[1.8] max-w-3xl">
-            <strong className="text-white/30">Regulatory Notice:</strong> World Best Insurer is an informational and educational platform. We do not sell, distribute, or advise on insurance products. All data is sourced from publicly available information and is provided for comparison purposes only. World Best Insurer is not registered as an insurance broker, web aggregator, or intermediary with any regulatory authority. Verify all information with respective insurers.
+
+        {/* ── Regulatory notice ── */}
+        <div className="py-5 border-t border-white/[0.04]">
+          <p className="text-[10.5px] text-white/15 leading-[1.8] max-w-3xl">
+            <span className="text-white/25 font-medium">Regulatory Notice</span> — World Best Insurer is an informational platform. We do not sell, distribute, or advise on insurance products. All data is sourced from publicly available information for comparison purposes only. We are not registered as an insurance broker, web aggregator, or intermediary. Verify all information with respective insurers.
           </p>
         </div>
-        <div className="py-5 border-t border-white/[0.04] flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-[11px] text-white/20">&copy; {new Date().getFullYear()} World Best Insurer. All rights reserved.</p>
-          <p className="text-[11px] text-white/15">Data for educational purposes only</p>
+
+        {/* ── Bottom bar ── */}
+        <div className="py-4 border-t border-white/[0.03] flex flex-col sm:flex-row items-center justify-between gap-2">
+          <p className="text-[10.5px] text-white/15">
+            &copy; {new Date().getFullYear()} World Best Insurer
+          </p>
+          <div className="flex items-center gap-1.5">
+            <span className="relative flex h-1.5 w-1.5">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-60" />
+              <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-accent" />
+            </span>
+            <span className="text-[10px] text-white/20">Data refreshed daily</span>
+          </div>
         </div>
       </div>
     </footer>
