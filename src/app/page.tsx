@@ -35,6 +35,7 @@ import RewardBadges from "@/components/immersive/RewardBadges";
 import ScrollReveal from "@/components/immersive/ScrollReveal";
 import CounterAnimation from "@/components/immersive/CounterAnimation";
 import InsuranceMiniGames from "@/components/immersive/InsuranceMiniGames";
+import GameLauncher from "@/components/immersive/GameLauncher";
 
 /* ─── category helpers ─── */
 const categoryIcons: Record<string, typeof Heart> = {
@@ -741,6 +742,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Floating game launcher */}
+      <GameLauncher />
     </div>
   );
 }
