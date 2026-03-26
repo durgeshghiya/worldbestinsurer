@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 import {
   Menu, X, ChevronDown, Heart, Shield, Car, Plane,
-  ArrowRight, Sparkles, Globe, ArrowUpRight,
+  ArrowRight, Sparkles, Globe, ArrowUpRight, Search,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -190,6 +190,15 @@ export default function Header() {
 
           {/* ── Desktop CTA ── */}
           <div className="hidden lg:flex items-center gap-2">
+            {/* Search trigger — opens Cmd+K modal */}
+            <button
+              onClick={() => window.dispatchEvent(new KeyboardEvent("keydown", { key: "k", metaKey: true }))}
+              className="flex items-center gap-2 px-3 py-1.5 text-[12px] text-text-tertiary bg-surface-sunken border border-border rounded-lg hover:border-border-strong hover:text-text-secondary transition-all"
+            >
+              <Search className="w-3.5 h-3.5" />
+              <span>Search</span>
+              <kbd className="inline-flex items-center gap-0.5 px-1.5 py-0.5 text-[9px] font-medium bg-surface border border-border rounded text-text-tertiary">⌘K</kbd>
+            </button>
             <Link
               href="/contact"
               className="px-3 py-1.5 text-[13px] font-medium text-text-secondary hover:text-text-primary transition-colors"
