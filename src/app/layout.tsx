@@ -83,6 +83,13 @@ export default function RootLayout({
       <head>
         <meta name="theme-color" content="#6366f1" />
         <link rel="alternate" hrefLang="en" href="https://worldbestinsurer.com" />
+        {/* Google Analytics GA4 */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WT3ZV5K9PK" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-WT3ZV5K9PK');`,
+          }}
+        />
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground antialiased">
         <OrganizationSchema />

@@ -5,6 +5,7 @@ import { ArrowRight, Heart, Shield, Car, Plane, ChevronRight, Globe2, TrendingUp
 import { getCountryByCode, getActiveCountries, VALID_COUNTRY_CODES } from "@/lib/countries";
 import { getAllProducts, getAllInsurers, getCategories } from "@/lib/data";
 import WaitlistForm from "@/components/WaitlistForm";
+import { FAQSchema, BreadcrumbSchema } from "@/components/StructuredData";
 
 export async function generateStaticParams() {
   return VALID_COUNTRY_CODES.map((country) => ({ country }));
@@ -36,8 +37,21 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
   const cats = getCategories(country);
   const hasData = products.length > 0;
 
+  const faqs = [
+    { q: `What types of insurance can I compare in ${c.name}?`, a: `World Best Insurer lets you compare health insurance, term life insurance, motor insurance, and travel insurance plans from leading insurers in ${c.name}.` },
+    { q: `Is the insurance data for ${c.name} verified?`, a: `Our data is sourced from official insurer websites and public documents. All data carries a confidence score and last-verified date. We recommend verifying with insurers directly before purchasing.` },
+    { q: `Does World Best Insurer sell insurance in ${c.name}?`, a: `No. World Best Insurer is an educational comparison platform. We do not sell insurance, collect premiums, or act as an intermediary. We help you compare and make informed decisions.` },
+    { q: `How often is the ${c.name} insurance data updated?`, a: `We use AI-powered agents to monitor insurer websites and update product data regularly. Each product listing shows when it was last verified.` },
+    { q: `Which insurers are covered for ${c.name}?`, a: `We cover ${insurers.length}+ major insurers in ${c.name} across health, life, motor, and travel insurance categories.` },
+  ];
+
   return (
     <div>
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://worldbestinsurer.com" },
+        { name: c.name, url: `https://worldbestinsurer.com/${country}` },
+      ]} />
+      <FAQSchema questions={faqs} />
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-grid opacity-30" />
