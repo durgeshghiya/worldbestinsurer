@@ -4,31 +4,20 @@ import {
   BarChart3,
   BookOpen,
   Shield,
-  TrendingUp,
-  Eye,
-  RefreshCw,
-  Database,
-  Lock,
-  Zap,
   Heart,
   Car,
   Plane,
+  ChevronDown,
   ChevronRight,
-  Star,
-  Globe,
-  Users,
   Clock,
+  Globe,
+  Coins,
+  Cpu,
   FileText,
-  Search,
-  Award,
+  Database,
 } from "lucide-react";
 import WaitlistForm from "@/components/WaitlistForm";
-import {
-  categories,
-  getAllProducts,
-  getAllInsurers,
-  getProductsByCategory,
-} from "@/lib/data";
+import { categories, getAllProducts, getProductsByCategory } from "@/lib/data";
 import { countries as allCountries, getActiveCountries } from "@/lib/countries";
 import {
   FAQSchema,
@@ -37,8 +26,15 @@ import {
   WebsiteSchema,
 } from "@/components/StructuredData";
 import { getArticles } from "@/lib/generators";
-import { generateVSPairs } from "@/lib/generators";
 
+import FloatingParticles from "@/components/immersive/FloatingParticles";
+import InsuranceLands from "@/components/immersive/InsuranceLands";
+import QuestJourney from "@/components/immersive/QuestJourney";
+import RewardBadges from "@/components/immersive/RewardBadges";
+import ScrollReveal from "@/components/immersive/ScrollReveal";
+import CounterAnimation from "@/components/immersive/CounterAnimation";
+
+/* ─── category helpers ─── */
 const categoryIcons: Record<string, typeof Heart> = {
   health: Heart,
   "term-life": Shield,
@@ -46,79 +42,61 @@ const categoryIcons: Record<string, typeof Heart> = {
   travel: Plane,
 };
 
-const categoryGradients: Record<string, string> = {
-  health: "from-rose-500 to-pink-600",
-  "term-life": "from-indigo-500 to-violet-600",
-  motor: "from-emerald-500 to-teal-600",
-  travel: "from-amber-500 to-orange-600",
+const categoryGlowColors: Record<string, string> = {
+  health: "#c44058",
+  "term-life": "#2d3a8c",
+  motor: "#2d8f6f",
+  travel: "#c47d2e",
 };
 
-const categoryGlows: Record<string, string> = {
-  health: "group-hover:shadow-[0_8px_40px_rgba(244,63,94,0.2)]",
-  "term-life": "group-hover:shadow-[0_8px_40px_rgba(99,102,241,0.2)]",
-  motor: "group-hover:shadow-[0_8px_40px_rgba(6,214,160,0.2)]",
-  travel: "group-hover:shadow-[0_8px_40px_rgba(245,158,11,0.2)]",
+const categoryGradients: Record<string, string> = {
+  health: "from-[#c44058] to-[#e8607a]",
+  "term-life": "from-[#2d3a8c] to-[#4f5cbf]",
+  motor: "from-[#2d8f6f] to-[#3bb88e]",
+  travel: "from-[#c47d2e] to-[#e09a4a]",
 };
 
 const categoryColors: Record<string, string> = {
-  health: "bg-rose-50 text-rose-600 border-rose-200",
-  "term-life": "bg-indigo-50 text-indigo-600 border-indigo-200",
-  motor: "bg-emerald-50 text-emerald-600 border-emerald-200",
-  travel: "bg-amber-50 text-amber-600 border-amber-200",
-  Health: "bg-rose-50 text-rose-600 border-rose-200",
-  "Term Life": "bg-indigo-50 text-indigo-600 border-indigo-200",
-  Motor: "bg-emerald-50 text-emerald-600 border-emerald-200",
-  Travel: "bg-amber-50 text-amber-600 border-amber-200",
-  General: "bg-gray-50 text-gray-600 border-gray-200",
+  Health: "bg-[#c44058]",
+  "Term Life": "bg-[#2d3a8c]",
+  Motor: "bg-[#2d8f6f]",
+  Travel: "bg-[#c47d2e]",
+  General: "bg-gray-500",
 };
 
+/* ─── FAQ data ─── */
+const homeFAQs = [
+  {
+    q: "What is World Best Insurer and how does it help compare insurance?",
+    a: "World Best Insurer is a global insurance comparison platform covering 12 countries. It allows you to compare health, life, motor, and travel insurance plans side-by-side using verified data from official insurer sources. World Best Insurer does not sell insurance \u2014 it provides transparent, educational comparison data.",
+  },
+  {
+    q: "Is World Best Insurer free to use for comparing insurance plans?",
+    a: "Yes, World Best Insurer is completely free to use. You can compare insurance plans, read detailed product information, and access educational guides without any cost or registration required.",
+  },
+  {
+    q: "How does World Best Insurer verify insurance plan data?",
+    a: "World Best Insurer sources data from official insurer websites, policy brochures, and public regulatory documents. Each data point receives a confidence score (high, medium, or low) based on the verification level. All sources are transparently linked.",
+  },
+  {
+    q: "Which types of insurance can I compare on World Best Insurer?",
+    a: "World Best Insurer supports four insurance categories: Health Insurance, Term Life Insurance, Motor Insurance, and Travel Insurance \u2014 across 12 countries including India, US, UK, UAE, Singapore, Canada, Australia, Germany, Saudi Arabia, Japan, South Korea, and Hong Kong.",
+  },
+  {
+    q: "Does World Best Insurer sell insurance policies or earn commissions?",
+    a: "No. World Best Insurer is purely an informational and educational platform. It does not sell insurance, distribute policies, or earn commissions from insurers. There are no hidden rankings or pay-to-play listings.",
+  },
+];
+
+/* ─── page component ─── */
 export default function HomePage() {
   const totalProducts = getAllProducts().length;
-  const totalInsurers = getAllInsurers().length;
   const activeCountries = getActiveCountries();
   const articles = getArticles().slice(0, 6);
 
-  // Build popular VS comparisons from actual data
-  const allVSPairs: { nameA: string; nameB: string; category: string; countryCode: string; slug: string }[] = [];
-  for (const c of allCountries) {
-    const pairs = generateVSPairs(c.code);
-    for (const pair of pairs.slice(0, 2)) {
-      allVSPairs.push({
-        nameA: pair.productA.productName,
-        nameB: pair.productB.productName,
-        category: pair.category,
-        countryCode: pair.countryCode,
-        slug: pair.slug,
-      });
-    }
-  }
-  const popularComparisons = allVSPairs.slice(0, 8);
-
-  const homeFAQs = [
-    {
-      q: "What is World Best Insurer and how does it help compare insurance?",
-      a: "World Best Insurer is a global insurance comparison platform covering 12 countries. It allows you to compare health, life, motor, and travel insurance plans side-by-side using verified data from official insurer sources. World Best Insurer does not sell insurance \u2014 it provides transparent, educational comparison data.",
-    },
-    {
-      q: "Is World Best Insurer free to use for comparing insurance plans?",
-      a: "Yes, World Best Insurer is completely free to use. You can compare insurance plans, read detailed product information, and access educational guides without any cost or registration required.",
-    },
-    {
-      q: "How does World Best Insurer verify insurance plan data?",
-      a: "World Best Insurer sources data from official insurer websites, policy brochures, and public regulatory documents. Each data point receives a confidence score (high, medium, or low) based on the verification level. All sources are transparently linked.",
-    },
-    {
-      q: "Which types of insurance can I compare on World Best Insurer?",
-      a: "World Best Insurer supports four insurance categories: Health Insurance, Term Life Insurance, Motor Insurance, and Travel Insurance \u2014 across 12 countries including India, US, UK, UAE, Singapore, Canada, Australia, Germany, Saudi Arabia, Japan, South Korea, and Hong Kong.",
-    },
-    {
-      q: "Does World Best Insurer sell insurance policies or earn commissions?",
-      a: "No. World Best Insurer is purely an informational and educational platform. It does not sell insurance, distribute policies, or earn commissions from insurers. There are no hidden rankings or pay-to-play listings.",
-    },
-  ];
-
   return (
     <div className="overflow-hidden">
+      {/* Structured Data */}
       <BreadcrumbSchema
         items={[{ name: "Home", url: "https://worldbestinsurer.com" }]}
       />
@@ -127,415 +105,410 @@ export default function HomePage() {
       <WebsiteSchema />
 
       {/* ================================================================= */}
-      {/*  HERO SECTION                                                     */}
+      {/*  SECTION 1: HERO — "Welcome to Insurance Wonderland"              */}
       {/* ================================================================= */}
-      <section className="relative min-h-[95vh] flex items-center">
-        {/* Background mesh */}
-        <div className="absolute inset-0 bg-grid opacity-40" />
-        <div className="absolute top-[-20%] left-[10%] w-[600px] h-[600px] blob bg-primary/10" />
-        <div className="absolute bottom-[-10%] right-[5%] w-[500px] h-[500px] blob bg-accent/10" />
-        <div className="absolute top-[20%] right-[20%] w-[300px] h-[300px] blob bg-[#7c3aed]/8" />
+      <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
+        {/* Dark gradient background */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[var(--surface-dark,#0f1129)] via-[#141836] to-[var(--primary,#2d3a8c)]" />
 
-        <div className="relative mx-auto max-w-[1320px] px-5 lg:px-8 pt-16 sm:pt-20 pb-20 w-full">
-          {/* Top badge */}
-          <div className="text-center mb-6 animate-fade-in">
-            <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full badge-premium text-[12px] font-medium text-text-secondary">
-              <span className="flex items-center gap-1.5">
-                <span className="relative flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75" />
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-accent" />
-                </span>
-                Tracking {totalProducts}+ plans across 12 countries
+        {/* Radial glow accents */}
+        <div className="absolute top-[15%] left-[20%] w-[500px] h-[500px] rounded-full bg-[#2d3a8c]/20 blur-[120px]" />
+        <div className="absolute bottom-[20%] right-[15%] w-[400px] h-[400px] rounded-full bg-[#c47d2e]/15 blur-[100px]" />
+        <div className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#7c3aed]/10 blur-[140px]" />
+
+        {/* Floating particles background */}
+        <FloatingParticles className="absolute inset-0 z-0" />
+
+        <div className="relative z-10 mx-auto max-w-[1320px] px-5 lg:px-8 text-center py-20">
+          {/* Sparkle badge */}
+          <div className="mb-8 animate-fade-in">
+            <span className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-white/[0.06] border border-white/[0.1] text-[12px] font-medium text-white/70 backdrop-blur-sm">
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#c47d2e] opacity-75" />
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-[#c47d2e]" />
               </span>
+              Welcome to Insurance Wonderland
+            </span>
+          </div>
+
+          {/* Massive headline with text-gradient animation */}
+          <h1 className="text-[48px] sm:text-[64px] lg:text-[84px] font-extrabold tracking-[-0.04em] leading-[1.0] mb-6 animate-slide-up">
+            <span
+              className="inline-block bg-clip-text text-transparent animate-gradient-shift"
+              style={{
+                backgroundImage:
+                  "linear-gradient(135deg, #ffffff 0%, #c47d2e 25%, #ffffff 50%, #2d8f6f 75%, #ffffff 100%)",
+                backgroundSize: "300% 300%",
+              }}
+            >
+              Insurance, Reimagined.
+            </span>
+          </h1>
+
+          {/* Subline */}
+          <p
+            className="text-[17px] sm:text-[20px] text-white/60 leading-relaxed max-w-[640px] mx-auto mb-12 animate-slide-up"
+            style={{ animationDelay: "0.1s" }}
+          >
+            Explore, compare, and discover the perfect coverage across 12
+            countries.
+          </p>
+
+          {/* 4 glowing category buttons */}
+          <div
+            className="flex items-center justify-center gap-4 flex-wrap mb-16 animate-slide-up"
+            style={{ animationDelay: "0.2s" }}
+          >
+            {categories.map((cat) => {
+              const Icon = categoryIcons[cat.slug] ?? Shield;
+              const glowColor = categoryGlowColors[cat.slug] ?? "#2d3a8c";
+              return (
+                <Link
+                  key={cat.slug}
+                  href={`/compare/${cat.slug}`}
+                  className="group relative inline-flex items-center gap-3 px-7 py-3.5 rounded-2xl bg-white/[0.06] border border-white/[0.1] backdrop-blur-sm hover:bg-white/[0.12] transition-all duration-300"
+                  style={{
+                    boxShadow: `0 0 0px ${glowColor}00`,
+                  }}
+                >
+                  {/* Animated glow ring */}
+                  <span
+                    className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 animate-pulse-slow"
+                    style={{
+                      boxShadow: `0 0 30px ${glowColor}40, inset 0 0 30px ${glowColor}10`,
+                    }}
+                  />
+                  <span
+                    className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-br shadow-lg"
+                    style={{
+                      backgroundImage: `linear-gradient(135deg, ${glowColor}, ${glowColor}cc)`,
+                    }}
+                  >
+                    <Icon className="w-5 h-5 text-white" />
+                  </span>
+                  <span className="relative text-[14px] sm:text-[15px] font-bold text-white group-hover:text-white transition-colors">
+                    {cat.shortName}
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+
+          {/* Trust stat row */}
+          <div
+            className="flex items-center justify-center gap-8 sm:gap-12 animate-fade-in"
+            style={{ animationDelay: "0.35s" }}
+          >
+            {[
+              { value: `${totalProducts}+`, label: "Plans" },
+              { value: "200+", label: "Insurers" },
+              { value: "12", label: "Countries" },
+              { value: "24/7", label: "AI Updates" },
+            ].map((s) => (
+              <div key={s.label} className="text-center">
+                <p className="text-[22px] sm:text-[28px] font-extrabold text-white tracking-tight leading-none">
+                  {s.value}
+                </p>
+                <p className="text-[10px] sm:text-[11px] text-white/40 font-semibold tracking-widest uppercase mt-1">
+                  {s.label}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Animated scroll indicator — bouncing chevron */}
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce">
+          <div className="flex flex-col items-center gap-1">
+            <span className="text-[10px] text-white/30 font-medium uppercase tracking-widest">
+              Scroll
+            </span>
+            <ChevronDown className="w-5 h-5 text-white/40" />
+          </div>
+        </div>
+
+        {/* Bottom gradient fade */}
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[var(--background,#ffffff)] to-transparent z-10" />
+      </section>
+
+      {/* ================================================================= */}
+      {/*  SECTION 2: INSURANCE LANDS — "Explore Our Worlds"                */}
+      {/* ================================================================= */}
+      <section className="py-20 sm:py-28">
+        <div className="mx-auto max-w-[1320px] px-5 lg:px-8">
+          <ScrollReveal>
+            <div className="text-center mb-14">
+              <span className="inline-block text-[11px] font-bold text-[var(--primary,#2d3a8c)] uppercase tracking-[0.15em] mb-3">
+                Explore Our Worlds
+              </span>
+              <h2 className="text-[32px] sm:text-[44px] font-extrabold text-text-primary tracking-[-0.03em]">
+                Choose Your Adventure{" "}
+                <span className="inline-block animate-pulse-slow">&#10024;</span>
+              </h2>
+              <p className="mt-3 text-[15px] text-text-secondary max-w-lg mx-auto">
+                Four realms of protection await. Each land offers a unique
+                world of coverage options to explore.
+              </p>
             </div>
-          </div>
+          </ScrollReveal>
+          <ScrollReveal>
+            <InsuranceLands />
+          </ScrollReveal>
+        </div>
+      </section>
 
-          {/* Headline */}
-          <div className="text-center max-w-4xl mx-auto animate-slide-up">
-            <h1 className="text-[40px] sm:text-[52px] lg:text-[64px] font-extrabold text-text-primary tracking-[-0.04em] leading-[1.05]">
-              Compare Insurance Plans
-              <br />
-              <span className="text-gradient">Worldwide</span>
-            </h1>
-            <p className="mt-5 text-[16px] sm:text-[18px] text-text-secondary leading-[1.6] max-w-[640px] mx-auto animate-slide-up" style={{ animationDelay: "0.1s" }}>
-              Find the best insurance plans across 12 countries. Transparent, unbiased, AI-powered.
-            </p>
-          </div>
+      {/* ================================================================= */}
+      {/*  SECTION 3: LIVE STATS — "The Numbers Speak"                      */}
+      {/* ================================================================= */}
+      <section className="relative py-20 sm:py-28 bg-[var(--surface-dark,#0f1129)] overflow-hidden">
+        {/* Floating particles */}
+        <FloatingParticles className="absolute inset-0 z-0 opacity-40" />
 
-          {/* Quick Category Tabs */}
-          <div className="mt-10 max-w-2xl mx-auto animate-slide-up" style={{ animationDelay: "0.15s" }}>
-            <div className="flex items-center justify-center gap-3 flex-wrap">
-              {categories.map((cat) => {
-                const Icon = categoryIcons[cat.slug] ?? Shield;
+        <div className="relative z-10 mx-auto max-w-[1320px] px-5 lg:px-8">
+          <ScrollReveal>
+            <div className="text-center mb-16">
+              <span className="inline-block text-[11px] font-bold text-[var(--accent,#c47d2e)] uppercase tracking-[0.15em] mb-3">
+                Live Stats
+              </span>
+              <h2 className="text-[32px] sm:text-[44px] font-extrabold text-white tracking-[-0.03em]">
+                The Numbers Speak
+              </h2>
+              <p className="mt-3 text-[15px] text-white/50 max-w-md mx-auto">
+                Real-time data powering the world&apos;s most comprehensive
+                insurance comparison engine
+              </p>
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 max-w-5xl mx-auto">
+              {[
+                { value: 500, suffix: "+", label: "Plans Compared", delay: 0 },
+                {
+                  value: 200,
+                  suffix: "+",
+                  label: "Insurers Tracked",
+                  delay: 0.1,
+                },
+                { value: 12, suffix: "", label: "Countries Covered", delay: 0.2 },
+                {
+                  value: 24,
+                  suffix: "/7",
+                  label: "AI-Powered Updates",
+                  delay: 0.3,
+                },
+              ].map((stat) => (
+                <div key={stat.label} className="text-center group">
+                  <div className="mb-3">
+                    <CounterAnimation
+                      target={stat.value}
+                      suffix={stat.suffix}
+                      className="text-[42px] sm:text-[56px] font-extrabold text-white tracking-tight leading-none"
+                    />
+                  </div>
+                  {/* Glowing underline */}
+                  <div className="w-12 h-1 rounded-full bg-gradient-to-r from-[var(--accent,#c47d2e)] to-[#e09a4a] mx-auto mb-3 group-hover:w-20 transition-all duration-500" />
+                  <p className="text-[12px] sm:text-[13px] text-white/50 font-semibold uppercase tracking-wider">
+                    {stat.label}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      {/* ================================================================= */}
+      {/*  SECTION 4: QUEST — "Begin Your Quest"                            */}
+      {/* ================================================================= */}
+      <section className="relative py-20 sm:py-28 overflow-hidden">
+        {/* Background gradient with subtle pattern */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[var(--background,#ffffff)] via-[#f8f6f3] to-[var(--background,#ffffff)]" />
+        <div className="absolute inset-0 bg-grid opacity-[0.03]" />
+
+        <div className="relative z-10 mx-auto max-w-[1320px] px-5 lg:px-8">
+          <ScrollReveal>
+            <div className="text-center mb-14">
+              <span className="inline-block text-[11px] font-bold text-[var(--primary,#2d3a8c)] uppercase tracking-[0.15em] mb-3">
+                Begin Your Quest
+              </span>
+              <h2 className="text-[32px] sm:text-[44px] font-extrabold text-text-primary tracking-[-0.03em]">
+                Find Your Perfect Shield{" "}
+                <span className="inline-block">&#128737;&#65039;</span>
+              </h2>
+              <p className="mt-3 text-[15px] text-text-secondary max-w-lg mx-auto">
+                Answer a few questions and we&apos;ll guide you to the ideal
+                coverage for your journey ahead.
+              </p>
+            </div>
+          </ScrollReveal>
+          <ScrollReveal>
+            <QuestJourney />
+          </ScrollReveal>
+        </div>
+      </section>
+
+      {/* ================================================================= */}
+      {/*  SECTION 5: COUNTRY CAROUSEL — "Travel the Globe"                 */}
+      {/* ================================================================= */}
+      <section className="py-20 sm:py-28 overflow-hidden">
+        <div className="mx-auto max-w-[1320px] px-5 lg:px-8">
+          <ScrollReveal>
+            <div className="text-center mb-14">
+              <span className="inline-block text-[11px] font-bold text-[var(--primary,#2d3a8c)] uppercase tracking-[0.15em] mb-3">
+                Global Coverage
+              </span>
+              <h2 className="text-[32px] sm:text-[44px] font-extrabold text-text-primary tracking-[-0.03em]">
+                Travel the Globe{" "}
+                <span className="inline-block">&#127758;</span>
+              </h2>
+              <p className="mt-3 text-[15px] text-text-secondary max-w-md mx-auto">
+                Insurance insights from 12 major markets around the world
+              </p>
+            </div>
+          </ScrollReveal>
+        </div>
+
+        {/* Marquee container — full width */}
+        <ScrollReveal>
+          <div className="relative">
+            {/* Fade edges */}
+            <div className="absolute left-0 top-0 bottom-0 w-20 sm:w-32 bg-gradient-to-r from-[var(--background,#ffffff)] to-transparent z-10 pointer-events-none" />
+            <div className="absolute right-0 top-0 bottom-0 w-20 sm:w-32 bg-gradient-to-l from-[var(--background,#ffffff)] to-transparent z-10 pointer-events-none" />
+
+            {/* Auto-scrolling marquee */}
+            <div className="flex animate-marquee whitespace-nowrap">
+              {[...allCountries, ...allCountries].map((c, i) => {
+                const countryProducts = getAllProducts(c.code).length;
                 return (
                   <Link
-                    key={cat.slug}
-                    href={`/compare/${cat.slug}`}
-                    className="group inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-surface border border-border hover:border-primary/30 hover:shadow-md transition-all duration-200"
+                    key={`${c.code}-${i}`}
+                    href={`/${c.code}/compare/health/`}
+                    className="group inline-flex flex-col items-center gap-3 mx-3 sm:mx-4 px-6 sm:px-8 py-6 sm:py-8 rounded-2xl bg-surface border border-border hover:border-[var(--primary,#2d3a8c)]/30 hover:shadow-xl transition-all duration-300 min-w-[160px] sm:min-w-[200px] whitespace-normal"
+                    style={{
+                      transform: "perspective(800px) rotateY(0deg)",
+                    }}
                   >
-                    <Icon className="w-4 h-4 text-text-tertiary group-hover:text-primary transition-colors" />
-                    <span className="text-[13px] font-semibold text-text-primary group-hover:text-primary transition-colors">
-                      {cat.shortName}
+                    <span className="text-[48px] sm:text-[56px] group-hover:scale-110 transition-transform duration-300">
+                      {c.flag}
+                    </span>
+                    <h3 className="text-[14px] sm:text-[15px] font-bold text-text-primary group-hover:text-[var(--primary,#2d3a8c)] transition-colors text-center">
+                      {c.name}
+                    </h3>
+                    <p className="text-[11px] text-text-tertiary">
+                      {countryProducts > 0
+                        ? `${countryProducts} plans`
+                        : "Coming soon"}
+                    </p>
+                    <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-[var(--primary,#2d3a8c)] opacity-0 group-hover:opacity-100 transition-opacity">
+                      Explore <ArrowRight className="w-3 h-3" />
                     </span>
                   </Link>
                 );
               })}
             </div>
           </div>
-
-          {/* Mini Inline Form */}
-          <div className="mt-8 max-w-xl mx-auto animate-slide-up" style={{ animationDelay: "0.2s" }}>
-            <div className="flex items-center gap-2 p-1.5 rounded-2xl bg-surface border border-border shadow-sm">
-              <div className="flex items-center gap-2 flex-1 px-3">
-                <Users className="w-4 h-4 text-text-tertiary shrink-0" />
-                <input
-                  type="number"
-                  placeholder="Age"
-                  className="w-16 py-2.5 text-[14px] bg-transparent outline-none text-text-primary placeholder:text-text-tertiary"
-                  min={0}
-                  max={100}
-                />
-              </div>
-              <div className="w-px h-8 bg-border" />
-              <div className="flex items-center gap-2 flex-1 px-3">
-                <Shield className="w-4 h-4 text-text-tertiary shrink-0" />
-                <input
-                  type="text"
-                  placeholder="Cover amount"
-                  className="w-full py-2.5 text-[14px] bg-transparent outline-none text-text-primary placeholder:text-text-tertiary"
-                />
-              </div>
-              <Link
-                href="/compare/health"
-                className="shrink-0 inline-flex items-center gap-2 px-6 py-2.5 text-[13px] font-semibold rounded-xl bg-gradient-to-r from-primary to-[#7c3aed] text-white hover:shadow-md hover:scale-[1.02] transition-all duration-200"
-              >
-                <Search className="w-3.5 h-3.5" />
-                Compare Now
-              </Link>
-            </div>
-          </div>
-
-          {/* Trust Stats Row */}
-          <div className="mt-12 flex items-center justify-center gap-6 sm:gap-10 animate-fade-in" style={{ animationDelay: "0.3s" }}>
-            {[
-              { value: `${totalProducts}+`, label: "Plans" },
-              { value: `${totalInsurers}+`, label: "Insurers" },
-              { value: "12", label: "Countries" },
-              { value: "Daily", label: "Updated" },
-            ].map((s) => (
-              <div key={s.label} className="flex items-center gap-2">
-                <p className="text-[18px] sm:text-[22px] font-extrabold text-text-primary tracking-tight leading-none">
-                  {s.value}
-                </p>
-                <p className="text-[11px] sm:text-[12px] text-text-tertiary font-medium tracking-wide uppercase">{s.label}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
+        </ScrollReveal>
       </section>
 
       {/* ================================================================= */}
-      {/*  COUNTRY SELECTOR SECTION                                         */}
-      {/* ================================================================= */}
-      <section className="py-20 sm:py-28">
-        <div className="mx-auto max-w-[1320px] px-5 lg:px-8">
-          <div className="text-center mb-12">
-            <span className="inline-block text-[11px] font-bold text-primary uppercase tracking-[0.15em] mb-3">
-              Global Coverage
-            </span>
-            <h2 className="text-[32px] sm:text-[40px] font-extrabold text-text-primary tracking-[-0.03em]">
-              Choose Your Country
-            </h2>
-            <p className="mt-3 text-[15px] text-text-secondary max-w-md mx-auto">
-              Explore insurance plans from 12 major markets around the world
-            </p>
-          </div>
-
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 max-w-5xl mx-auto stagger-children">
-            {allCountries.map((c, i) => {
-              const countryProducts = getAllProducts(c.code).length;
-              return (
-                <Link
-                  key={c.code}
-                  href={`/${c.code}/compare/health/`}
-                  className="group card-premium bg-surface rounded-2xl border border-border p-5 hover:border-primary/20 hover:shadow-lg transition-all duration-300 relative overflow-hidden"
-                  style={{ animationDelay: `${0.05 + i * 0.03}s` }}
-                >
-                  <div className="flex items-start gap-3">
-                    <span className="text-[36px] sm:text-[40px] group-hover:scale-110 transition-transform duration-300">
-                      {c.flag}
-                    </span>
-                    <div className="min-w-0">
-                      <h3 className="text-[14px] sm:text-[15px] font-bold text-text-primary group-hover:text-primary transition-colors leading-tight truncate">
-                        {c.name}
-                      </h3>
-                      <p className="text-[11px] text-text-tertiary mt-0.5">
-                        {countryProducts > 0 ? `${countryProducts} plans` : c.currency.code}
-                      </p>
-                      <p className="text-[10px] text-text-tertiary mt-0.5">
-                        Regulator: {c.regulator}
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-center justify-between mt-3 pt-3 border-t border-border-light">
-                    <span className="text-[10px] text-text-tertiary font-medium">
-                      {c.insuranceCategories.length} categories
-                    </span>
-                    <span className="inline-flex items-center gap-0.5 text-[11px] font-semibold text-primary opacity-0 group-hover:opacity-100 transition-all">
-                      Explore <ChevronRight className="w-3 h-3" />
-                    </span>
-                  </div>
-                  {c.isActive && countryProducts > 0 && (
-                    <div className="absolute top-2 right-2">
-                      <span className="flex h-2 w-2">
-                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75" />
-                        <span className="relative inline-flex rounded-full h-2 w-2 bg-accent" />
-                      </span>
-                    </div>
-                  )}
-                </Link>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* ================================================================= */}
-      {/*  POPULAR COMPARISONS SECTION                                      */}
-      {/* ================================================================= */}
-      {popularComparisons.length > 0 && (
-        <section className="py-20 sm:py-28 bg-surface-sunken/30">
-          <div className="mx-auto max-w-[1320px] px-5 lg:px-8">
-            <div className="text-center mb-12">
-              <span className="inline-block text-[11px] font-bold text-primary uppercase tracking-[0.15em] mb-3">
-                Head to Head
-              </span>
-              <h2 className="text-[32px] sm:text-[40px] font-extrabold text-text-primary tracking-[-0.03em]">
-                Popular Comparisons
-              </h2>
-              <p className="mt-3 text-[15px] text-text-secondary max-w-md mx-auto">
-                See how top insurance plans stack up against each other
-              </p>
-            </div>
-
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-6xl mx-auto stagger-children">
-              {popularComparisons.map((comp) => (
-                <Link
-                  key={comp.slug}
-                  href={`/${comp.countryCode}/vs/${comp.slug}`}
-                  className="group card-premium bg-surface rounded-2xl border border-border p-5 hover:border-primary/20 hover:shadow-lg transition-all duration-300"
-                >
-                  <div className="flex items-center gap-2 mb-3">
-                    <span className={`px-2 py-0.5 text-[10px] font-semibold rounded-full uppercase ${categoryColors[comp.category] ?? "bg-gray-50 text-gray-600"}`}>
-                      {comp.category.replace("-", " ")}
-                    </span>
-                  </div>
-                  <div className="space-y-2">
-                    <p className="text-[13px] font-semibold text-text-primary leading-tight truncate">{comp.nameA}</p>
-                    <div className="flex items-center gap-2">
-                      <div className="flex-1 h-px bg-border" />
-                      <span className="text-[10px] font-bold text-primary bg-primary-light px-2 py-0.5 rounded-full">VS</span>
-                      <div className="flex-1 h-px bg-border" />
-                    </div>
-                    <p className="text-[13px] font-semibold text-text-primary leading-tight truncate">{comp.nameB}</p>
-                  </div>
-                  <div className="mt-4 flex items-center justify-end">
-                    <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-primary group-hover:gap-2 transition-all">
-                      Compare <ArrowRight className="w-3 h-3" />
-                    </span>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* ================================================================= */}
-      {/*  HOW IT WORKS                                                     */}
-      {/* ================================================================= */}
-      <section className="py-20 sm:py-28">
-        <div className="mx-auto max-w-[1320px] px-5 lg:px-8">
-          <div className="text-center mb-16">
-            <span className="inline-block text-[11px] font-bold text-primary uppercase tracking-[0.15em] mb-3">
-              How it works
-            </span>
-            <h2 className="text-[32px] sm:text-[40px] font-extrabold text-text-primary tracking-[-0.03em]">
-              Three steps to clarity
-            </h2>
-            <p className="mt-3 text-[15px] text-text-secondary max-w-md mx-auto">
-              A transparent, methodology-led approach to understanding insurance
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-0 max-w-5xl mx-auto relative">
-            {/* Connector line (desktop) */}
-            <div className="hidden md:block absolute top-[56px] left-[16%] right-[16%] h-px bg-gradient-to-r from-indigo-300 via-emerald-300 to-amber-300" />
-
-            {[
-              {
-                step: "01",
-                icon: Globe,
-                gradient: "from-indigo-500 to-violet-600",
-                title: "Select Country",
-                desc: "Choose from 12 countries. Each market has localized insurance data, regulation info, and currency-specific comparisons.",
-              },
-              {
-                step: "02",
-                icon: BarChart3,
-                gradient: "from-emerald-500 to-teal-600",
-                title: "Compare Plans",
-                desc: "Side-by-side comparisons with verified data. Every field shows confidence scores and links to official sources.",
-              },
-              {
-                step: "03",
-                icon: Award,
-                gradient: "from-amber-500 to-orange-600",
-                title: "Get Expert Advice",
-                desc: "Read our in-depth guides, understand exclusions and waiting periods, and make an informed decision.",
-              },
-            ].map((item) => (
-              <div key={item.step} className="relative text-center px-6 py-8">
-                <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${item.gradient} flex items-center justify-center shadow-lg mx-auto mb-5 relative z-10`}>
-                  <item.icon className="w-7 h-7 text-white" />
-                </div>
-                <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-surface border-2 border-primary text-[11px] font-bold text-primary mb-3">
-                  {item.step.replace("0", "")}
-                </span>
-                <h3 className="text-[17px] font-bold text-text-primary mb-2">
-                  {item.title}
-                </h3>
-                <p className="text-[13.5px] text-text-tertiary leading-relaxed max-w-[280px] mx-auto">
-                  {item.desc}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ================================================================= */}
-      {/*  FEATURED CATEGORIES                                              */}
-      {/* ================================================================= */}
-      <section className="py-20 sm:py-28 bg-surface-sunken/30">
-        <div className="mx-auto max-w-[1320px] px-5 lg:px-8">
-          <div className="text-center mb-12">
-            <span className="inline-block text-[11px] font-bold text-primary uppercase tracking-[0.15em] mb-3">
-              Browse by category
-            </span>
-            <h2 className="text-[32px] sm:text-[40px] font-extrabold text-text-primary tracking-[-0.03em]">
-              What would you like to compare?
-            </h2>
-          </div>
-
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-5xl mx-auto stagger-children">
-            {categories.map((cat) => {
-              const Icon = categoryIcons[cat.slug] ?? Shield;
-              // Count products across all countries for this category
-              const globalCount = getProductsByCategory(cat.slug).length;
-              const countriesWithData = allCountries.filter(
-                (c) => getProductsByCategory(cat.slug, c.code).length > 0
-              ).length;
-
-              return (
-                <Link
-                  key={cat.slug}
-                  href={`/compare/${cat.slug}`}
-                  className={`group card-premium bg-surface rounded-2xl border border-border p-6 text-center relative overflow-hidden ${categoryGlows[cat.slug]}`}
-                >
-                  {/* Gradient border top */}
-                  <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${categoryGradients[cat.slug]}`} />
-
-                  <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${categoryGradients[cat.slug]} flex items-center justify-center shadow-lg mx-auto mb-4 group-hover:scale-110 transition-transform duration-300`}>
-                    <Icon className="w-8 h-8 text-white" />
-                  </div>
-                  <h3 className="text-[15px] font-bold text-text-primary mb-1">{cat.name}</h3>
-                  <p className="text-[12px] text-text-tertiary mb-1">{globalCount} plans compared</p>
-                  {countriesWithData > 0 && (
-                    <p className="text-[10px] text-text-tertiary mb-4">across {countriesWithData} {countriesWithData === 1 ? "country" : "countries"}</p>
-                  )}
-                  {countriesWithData === 0 && <p className="text-[10px] text-text-tertiary mb-4">across 12 countries</p>}
-                  <span className="inline-flex items-center gap-1 text-[12px] font-semibold text-primary group-hover:gap-2 transition-all">
-                    Compare now <ChevronRight className="w-3.5 h-3.5" />
-                  </span>
-                </Link>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* ================================================================= */}
-      {/*  LATEST ARTICLES / INSURANCE GUIDES                               */}
+      {/*  SECTION 6: FEATURED ARTICLES — "Knowledge is Power"              */}
       {/* ================================================================= */}
       {articles.length > 0 && (
-        <section className="py-20 sm:py-28">
+        <section className="py-20 sm:py-28 bg-surface-sunken/30">
           <div className="mx-auto max-w-[1320px] px-5 lg:px-8">
-            <div className="flex items-end justify-between mb-12">
-              <div>
-                <span className="inline-block text-[11px] font-bold text-primary uppercase tracking-[0.15em] mb-3">
-                  Learn
-                </span>
-                <h2 className="text-[32px] sm:text-[40px] font-extrabold text-text-primary tracking-[-0.03em]">
-                  Insurance Guides
-                </h2>
-                <p className="mt-3 text-[15px] text-text-secondary max-w-md">
-                  Expert articles to help you understand insurance before you compare
-                </p>
-              </div>
-              <Link
-                href="/learn"
-                className="hidden sm:inline-flex items-center gap-1.5 text-[13px] font-semibold text-primary hover:gap-2.5 transition-all"
-              >
-                View all guides <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
-
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 stagger-children">
-              {articles.map((article) => (
+            <ScrollReveal>
+              <div className="flex flex-col sm:flex-row items-start sm:items-end justify-between mb-14 gap-4">
+                <div>
+                  <span className="inline-block text-[11px] font-bold text-[var(--primary,#2d3a8c)] uppercase tracking-[0.15em] mb-3">
+                    Learn
+                  </span>
+                  <h2 className="text-[32px] sm:text-[44px] font-extrabold text-text-primary tracking-[-0.03em]">
+                    Knowledge is Power{" "}
+                    <span className="inline-block">&#128218;</span>
+                  </h2>
+                  <p className="mt-3 text-[15px] text-text-secondary max-w-md">
+                    Expert guides to help you navigate the insurance landscape
+                  </p>
+                </div>
                 <Link
-                  key={article.slug}
-                  href={`/learn/${article.slug}`}
-                  className="group card-premium bg-surface rounded-2xl border border-border overflow-hidden hover:shadow-lg hover:border-primary/10 transition-all duration-300"
+                  href="/learn"
+                  className="hidden sm:inline-flex items-center gap-1.5 text-[13px] font-semibold text-[var(--primary,#2d3a8c)] hover:gap-2.5 transition-all"
                 >
-                  {/* Category color stripe */}
-                  <div className={`h-1 ${
-                    article.category === "Health" ? "bg-gradient-to-r from-rose-500 to-pink-500" :
-                    article.category === "Term Life" ? "bg-gradient-to-r from-indigo-500 to-violet-500" :
-                    article.category === "Motor" ? "bg-gradient-to-r from-emerald-500 to-teal-500" :
-                    article.category === "Travel" ? "bg-gradient-to-r from-amber-500 to-orange-500" :
-                    "bg-gradient-to-r from-gray-400 to-gray-500"
-                  }`} />
-                  <div className="p-5">
-                    <div className="flex items-center gap-2 mb-3">
-                      <span className={`px-2 py-0.5 text-[10px] font-semibold rounded-full border ${categoryColors[article.category] ?? "bg-gray-50 text-gray-600 border-gray-200"}`}>
-                        {article.category}
-                      </span>
-                      <span className="flex items-center gap-1 text-[10px] text-text-tertiary">
-                        <Clock className="w-3 h-3" />
-                        {article.readTime}
+                  View all guides <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+            </ScrollReveal>
+
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {articles.map((article, idx) => (
+                <ScrollReveal key={article.slug}>
+                  <Link
+                    href={`/learn/${article.slug}`}
+                    className="group block bg-surface rounded-2xl border border-border overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300 relative"
+                    style={{ animationDelay: `${idx * 0.05}s` }}
+                  >
+                    {/* Gradient border on hover */}
+                    <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
+                      style={{
+                        background: "linear-gradient(135deg, var(--primary,#2d3a8c), var(--accent,#c47d2e)) padding-box, linear-gradient(135deg, var(--primary,#2d3a8c), var(--accent,#c47d2e)) border-box",
+                        mask: "linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)",
+                        WebkitMask: "linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)",
+                        WebkitMaskComposite: "xor",
+                        maskComposite: "exclude",
+                        padding: "2px",
+                      }}
+                    />
+
+                    {/* Category color stripe */}
+                    <div
+                      className={`h-1 ${
+                        categoryColors[article.category] ?? "bg-gray-500"
+                      }`}
+                    />
+                    <div className="p-5 sm:p-6">
+                      <div className="flex items-center gap-2 mb-3">
+                        <span
+                          className="px-2.5 py-0.5 text-[10px] font-semibold rounded-full text-white"
+                          style={{
+                            backgroundColor:
+                              article.category === "Health"
+                                ? "#c44058"
+                                : article.category === "Term Life"
+                                ? "#2d3a8c"
+                                : article.category === "Motor"
+                                ? "#2d8f6f"
+                                : article.category === "Travel"
+                                ? "#c47d2e"
+                                : "#6b7280",
+                          }}
+                        >
+                          {article.category}
+                        </span>
+                        <span className="flex items-center gap-1 text-[10px] text-text-tertiary">
+                          <Clock className="w-3 h-3" />
+                          {article.readTime}
+                        </span>
+                      </div>
+                      <h3 className="text-[15px] font-bold text-text-primary group-hover:text-[var(--primary,#2d3a8c)] transition-colors leading-snug mb-2 line-clamp-2">
+                        {article.title}
+                      </h3>
+                      <p className="text-[12.5px] text-text-tertiary leading-relaxed line-clamp-2 mb-4">
+                        {article.excerpt}
+                      </p>
+                      <span className="inline-flex items-center gap-1 text-[12px] font-semibold text-[var(--primary,#2d3a8c)] group-hover:gap-2 transition-all">
+                        Read Guide <ArrowRight className="w-3.5 h-3.5" />
                       </span>
                     </div>
-                    <h3 className="text-[15px] font-bold text-text-primary group-hover:text-primary transition-colors leading-snug mb-2 line-clamp-2">
-                      {article.title}
-                    </h3>
-                    <p className="text-[12.5px] text-text-tertiary leading-relaxed line-clamp-2 mb-4">
-                      {article.excerpt}
-                    </p>
-                    <span className="inline-flex items-center gap-1 text-[12px] font-semibold text-primary group-hover:gap-2 transition-all">
-                      Read guide <ArrowRight className="w-3.5 h-3.5" />
-                    </span>
-                  </div>
-                </Link>
+                  </Link>
+                </ScrollReveal>
               ))}
             </div>
 
             <div className="sm:hidden mt-8 text-center">
               <Link
                 href="/learn"
-                className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-primary"
+                className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-[var(--primary,#2d3a8c)]"
               >
                 View all guides <ArrowRight className="w-4 h-4" />
               </Link>
@@ -545,109 +518,145 @@ export default function HomePage() {
       )}
 
       {/* ================================================================= */}
-      {/*  INSURER MARQUEE                                                  */}
-      {/* ================================================================= */}
-      <section className="py-12 border-y border-border-light bg-surface-sunken/50">
-        <div className="text-center mb-6">
-          <p className="text-[11px] font-bold text-text-tertiary uppercase tracking-[0.15em]">
-            Covering the world&apos;s leading insurers
-          </p>
-        </div>
-        <div className="relative overflow-hidden">
-          <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-surface-sunken/50 to-transparent z-10" />
-          <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-surface-sunken/50 to-transparent z-10" />
-          <div className="flex animate-marquee whitespace-nowrap">
-            {[...getAllInsurers(), ...getAllInsurers()].map((ins, i) => (
-              <span key={`${ins.slug}-${i}`} className="mx-6 text-[14px] font-semibold text-text-tertiary/60 hover:text-text-secondary transition-colors cursor-default">
-                {ins.shortName}
-              </span>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ================================================================= */}
-      {/*  TRUST PILLARS                                                    */}
-      {/* ================================================================= */}
-      <section className="py-20 sm:py-28 bg-surface-dark relative overflow-hidden">
-        <div className="absolute inset-0 bg-grid opacity-[0.03]" />
-        <div className="absolute top-0 left-1/3 w-[500px] h-[500px] blob bg-primary/5" />
-        <div className="absolute bottom-0 right-1/4 w-[400px] h-[400px] blob bg-accent/5" />
-
-        <div className="relative mx-auto max-w-[1320px] px-5 lg:px-8">
-          <div className="text-center mb-16">
-            <span className="inline-block text-[11px] font-bold text-accent uppercase tracking-[0.15em] mb-3">
-              Why World Best Insurer
-            </span>
-            <h2 className="text-[32px] sm:text-[40px] font-extrabold text-white tracking-[-0.03em]">
-              Built on trust
-            </h2>
-            <p className="mt-3 text-[15px] text-white/50 max-w-md mx-auto">
-              Every design choice is guided by transparency and data integrity
-            </p>
-          </div>
-
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 stagger-children">
-            {[
-              { icon: Eye, title: "Source transparency", desc: "Every data point links to its official source. See exactly where information comes from.", accent: "text-blue-400" },
-              { icon: TrendingUp, title: "Confidence scores", desc: "Each product has a confidence score based on verification level. High, medium, and low \u2014 clearly marked.", accent: "text-violet-400" },
-              { icon: RefreshCw, title: "Fresh data", desc: "Automated monitoring detects policy changes across insurers in 12 countries. Stale records are flagged.", accent: "text-emerald-400" },
-              { icon: Lock, title: "Compliance first", desc: "Clear disclaimers. No false claims. No best policy guarantees. Built with regulatory compliance per market.", accent: "text-amber-400" },
-              { icon: Zap, title: "No hidden agenda", desc: "No commissions influencing rankings. No pay-to-play listings. Just structured comparison data.", accent: "text-rose-400" },
-              { icon: BookOpen, title: "Education led", desc: "Guides and articles help you understand insurance before comparing. Knowledge-first approach.", accent: "text-cyan-400" },
-            ].map((item) => (
-              <div
-                key={item.title}
-                className="group p-6 rounded-2xl bg-white/[0.04] border border-white/[0.06] hover:bg-white/[0.07] hover:border-white/[0.1] transition-all duration-300"
-              >
-                <item.icon className={`w-5 h-5 ${item.accent} mb-4`} />
-                <h3 className="text-[15px] font-semibold text-white mb-2">
-                  {item.title}
-                </h3>
-                <p className="text-[13px] text-white/40 leading-relaxed group-hover:text-white/55 transition-colors">
-                  {item.desc}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ================================================================= */}
-      {/*  NEWSLETTER / WAITLIST                                            */}
+      {/*  SECTION 7: WHY US — "Why Adventurers Choose Us"                  */}
       {/* ================================================================= */}
       <section className="py-20 sm:py-28">
         <div className="mx-auto max-w-[1320px] px-5 lg:px-8">
-          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary via-[#7c3aed] to-[#6d28d9] p-10 sm:p-16">
-            <div className="absolute inset-0 bg-grid opacity-[0.06]" />
-            <div className="absolute top-0 right-0 w-[500px] h-[500px] blob bg-accent/15" />
-            <div className="absolute bottom-0 left-0 w-[400px] h-[400px] blob bg-white/5" />
-
-            <div className="relative text-center max-w-lg mx-auto">
-              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/10 text-[11px] font-medium text-white/70 mb-6">
-                <Star className="w-3 h-3 text-amber-300" /> Stay Updated
-              </div>
-              <h2 className="text-[28px] sm:text-[36px] font-extrabold text-white tracking-[-0.03em] mb-4">
-                Stay Updated
+          <ScrollReveal>
+            <div className="text-center mb-16">
+              <span className="inline-block text-[11px] font-bold text-[var(--primary,#2d3a8c)] uppercase tracking-[0.15em] mb-3">
+                Why Us
+              </span>
+              <h2 className="text-[32px] sm:text-[44px] font-extrabold text-text-primary tracking-[-0.03em]">
+                Why Adventurers Choose Us{" "}
+                <span className="inline-block">&#9889;</span>
               </h2>
-              <p className="text-[15px] text-white/55 mb-3 leading-relaxed">
-                Get weekly insurance insights and comparison updates delivered to your inbox.
+              <p className="mt-3 text-[15px] text-text-secondary max-w-md mx-auto">
+                Every design choice is guided by transparency, trust, and
+                putting you first
               </p>
-              <p className="text-[12px] text-white/35 mb-8">
-                No spam. Unsubscribe anytime.
-              </p>
-              <WaitlistForm variant="dark" />
             </div>
+          </ScrollReveal>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto">
+            {[
+              {
+                icon: Shield,
+                title: "100% Transparent",
+                desc: "Every data point links to its official source. See exactly where information comes from with confidence scores.",
+                color: "#2d3a8c",
+                delay: 0,
+              },
+              {
+                icon: Coins,
+                title: "Zero Commissions",
+                desc: "No commissions influencing rankings. No pay-to-play listings. Just structured, unbiased comparison data.",
+                color: "#c47d2e",
+                delay: 0.05,
+              },
+              {
+                icon: Cpu,
+                title: "AI-Powered",
+                desc: "Automated monitoring detects policy changes across insurers in 12 countries. Stale records are flagged instantly.",
+                color: "#7c3aed",
+                delay: 0.1,
+              },
+              {
+                icon: Globe,
+                title: "12 Countries",
+                desc: "From India to the US, UK to UAE. Localized insurance data, regulation info, and currency-specific comparisons.",
+                color: "#2d8f6f",
+                delay: 0.15,
+              },
+              {
+                icon: BookOpen,
+                title: "Expert Content",
+                desc: "In-depth guides help you understand insurance before comparing. A knowledge-first approach to protection.",
+                color: "#c44058",
+                delay: 0.2,
+              },
+              {
+                icon: BarChart3,
+                title: "Data-Backed",
+                desc: "Side-by-side comparisons with verified data. Every field shows confidence scores and links to official sources.",
+                color: "#0891b2",
+                delay: 0.25,
+              },
+            ].map((item) => (
+              <ScrollReveal key={item.title}>
+                <div className="group p-6 rounded-2xl bg-surface border border-border hover:border-[var(--primary,#2d3a8c)]/20 hover:shadow-lg transition-all duration-300 h-full">
+                  <div
+                    className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300"
+                    style={{
+                      backgroundColor: `${item.color}15`,
+                    }}
+                  >
+                    <item.icon
+                      className="w-6 h-6"
+                      style={{ color: item.color }}
+                    />
+                  </div>
+                  <h3 className="text-[15px] font-bold text-text-primary mb-2">
+                    {item.title}
+                  </h3>
+                  <p className="text-[13px] text-text-tertiary leading-relaxed">
+                    {item.desc}
+                  </p>
+                </div>
+              </ScrollReveal>
+            ))}
           </div>
         </div>
       </section>
 
       {/* ================================================================= */}
-      {/*  TRUST SECTION / PARTNER LOGOS                                    */}
+      {/*  SECTION 8: CTA — "Join the Adventure"                            */}
       {/* ================================================================= */}
-      <section className="py-12 border-t border-border">
+      <section className="relative py-20 sm:py-28 overflow-hidden">
+        {/* Full-width dark background with animated gradient mesh */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[var(--primary,#2d3a8c)] via-[#3d2a7c] to-[#1a1145]" />
+        <div className="absolute inset-0 bg-grid opacity-[0.04]" />
+
+        {/* Animated gradient blobs */}
+        <div className="absolute top-0 right-[10%] w-[500px] h-[500px] rounded-full bg-[#c47d2e]/15 blur-[120px] animate-pulse-slow" />
+        <div className="absolute bottom-0 left-[10%] w-[400px] h-[400px] rounded-full bg-[#2d8f6f]/10 blur-[100px] animate-pulse-slow" style={{ animationDelay: "1s" }} />
+
+        <div className="relative z-10 mx-auto max-w-[1320px] px-5 lg:px-8">
+          <ScrollReveal>
+            <div className="text-center max-w-xl mx-auto">
+              <h2 className="text-[32px] sm:text-[44px] font-extrabold text-white tracking-[-0.03em] mb-4">
+                Ready to find your perfect coverage?
+              </h2>
+              <p className="text-[16px] text-white/50 mb-10 leading-relaxed">
+                Join thousands of smart explorers who compare before they
+                commit. Start your quest today.
+              </p>
+
+              {/* Waitlist form with glow */}
+              <div className="relative max-w-md mx-auto">
+                {/* Glow behind form */}
+                <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-[#c47d2e] to-[#2d8f6f] opacity-30 blur-lg" />
+                <div className="relative">
+                  <WaitlistForm variant="dark" />
+                </div>
+              </div>
+
+              {/* Trust note */}
+              <p className="mt-6 text-[12px] text-white/30 flex items-center justify-center gap-2">
+                <Shield className="w-3 h-3" />
+                Join 10,000+ explorers. No spam, ever.
+              </p>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      {/* ================================================================= */}
+      {/*  SECTION 9: FOOTER TRUST BAR                                      */}
+      {/* ================================================================= */}
+      <section className="py-8 border-t border-border">
         <div className="mx-auto max-w-[1320px] px-5 lg:px-8">
-          <div className="text-center space-y-4">
+          <div className="text-center space-y-3">
             <div className="flex items-center justify-center gap-2 text-text-tertiary">
               <Database className="w-4 h-4" />
               <p className="text-[12px] font-medium">
@@ -655,38 +664,46 @@ export default function HomePage() {
               </p>
             </div>
             <div className="flex items-center justify-center gap-4 text-[11px] text-text-tertiary">
-              <Link href="/methodology" className="underline hover:text-text-secondary transition-colors flex items-center gap-1">
+              <Link
+                href="/methodology"
+                className="underline hover:text-text-secondary transition-colors flex items-center gap-1"
+              >
                 <FileText className="w-3 h-3" /> Methodology
               </Link>
               <span>&middot;</span>
-              <Link href="/disclaimer" className="underline hover:text-text-secondary transition-colors">
+              <Link
+                href="/disclaimer"
+                className="underline hover:text-text-secondary transition-colors"
+              >
                 Disclaimer
               </Link>
               <span>&middot;</span>
-              <Link href="/privacy" className="underline hover:text-text-secondary transition-colors">
+              <Link
+                href="/privacy"
+                className="underline hover:text-text-secondary transition-colors"
+              >
                 Privacy
               </Link>
             </div>
+            <p className="text-[11px] text-text-tertiary leading-[1.8] max-w-3xl mx-auto pt-2">
+              World Best Insurer is an informational platform. We do not sell or
+              distribute insurance. All data is from public sources for
+              educational comparison.{" "}
+              <Link
+                href="/disclaimer"
+                className="underline hover:text-text-secondary transition-colors"
+              >
+                Disclaimer
+              </Link>
+              {" "}&middot;{" "}
+              <Link
+                href="/methodology"
+                className="underline hover:text-text-secondary transition-colors"
+              >
+                Methodology
+              </Link>
+            </p>
           </div>
-        </div>
-      </section>
-
-      {/* ================================================================= */}
-      {/*  BOTTOM DISCLAIMER                                                */}
-      {/* ================================================================= */}
-      <section className="border-t border-border py-8">
-        <div className="mx-auto max-w-[1320px] px-5 lg:px-8">
-          <p className="text-[11px] text-center text-text-tertiary leading-[1.8] max-w-3xl mx-auto">
-            World Best Insurer is an informational platform. We do not sell or distribute insurance.
-            All data is from public sources for educational comparison.{" "}
-            <Link href="/disclaimer" className="underline hover:text-text-secondary transition-colors">
-              Disclaimer
-            </Link>
-            {" "}&middot;{" "}
-            <Link href="/methodology" className="underline hover:text-text-secondary transition-colors">
-              Methodology
-            </Link>
-          </p>
         </div>
       </section>
     </div>
