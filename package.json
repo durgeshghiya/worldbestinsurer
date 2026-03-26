@@ -24,7 +24,11 @@
     "ai:report": "tsx scripts/ai-agent/cli.ts report",
     "ai:verify": "tsx scripts/ai-agent/cli.ts verify",
     "ai:push": "tsx scripts/ai-agent/cli.ts push",
-    "ai:schedule": "tsx scripts/ai-agent/cli.ts schedule"
+    "ai:schedule": "tsx scripts/ai-agent/cli.ts schedule",
+    "index": "tsx scripts/seo/auto-index.ts",
+    "index:all": "tsx scripts/seo/auto-index.ts --all",
+    "index:new": "tsx scripts/seo/auto-index.ts --new",
+    "index:status": "tsx scripts/seo/auto-index.ts --status"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
