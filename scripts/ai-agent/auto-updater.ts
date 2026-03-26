@@ -6,7 +6,7 @@ import * as fs from "fs";
 import * as path from "path";
 import { execSync } from "child_process";
 import { researchInsurer, researchCategory, researchCountry } from "./product-researcher";
-import { rateLimitedCall } from "./gemini";
+import { callGemini } from "./gemini";
 
 const ROOT = path.resolve(__dirname, "../../");
 const DATA_DIR = path.join(ROOT, "src/data");
@@ -126,7 +126,7 @@ Return a JSON array matching this exact schema for each:
   "notes": "AI-researched. Verify with official sources."
 }`;
 
-    const fullData = await rateLimitedCall(prompt);
+    const fullData = await callGemini(prompt);
     if (fullData.success) {
       try {
         let products = JSON.parse(fullData.text);
@@ -209,7 +209,7 @@ Include:
 
 Keep it concise — 200-300 words. Focus on factual, verifiable information.`;
 
-  const result = await rateLimitedCall(prompt, {
+  const result = await callGemini(prompt, {
     temperature: 0.3,
     maxTokens: 2048,
   });

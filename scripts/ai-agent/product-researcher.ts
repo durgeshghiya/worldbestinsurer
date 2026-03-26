@@ -72,10 +72,6 @@ ONLY real products. JSON array only, no explanation.`;
     maxTokens: 8192,
   });
 
-  console.log("  API response success:", result.success);
-  console.log("  Response text (first 300):", result.text?.substring(0, 300));
-  console.log("  Error:", result.error);
-
   if (!result.success) {
     return {
       countryCode,
@@ -119,9 +115,6 @@ ONLY real products. JSON array only, no explanation.`;
 
     const parsed = tryParse(result.text);
     if (!parsed) {
-      // Last resort: log and try lenient parse
-      console.log("  Full response text length:", result.text.length);
-      console.log("  Last 200 chars:", result.text.substring(result.text.length - 200));
       throw new Error("Could not parse JSON from response");
     }
     products = parsed;
