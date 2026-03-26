@@ -89,8 +89,8 @@ export default function ComparisonTable({ products, category }: Props) {
               </tr>
             </thead>
             <tbody className="divide-y divide-border-light">
-              <Row label="Cover range" values={compared.map((p) => `${formatCompact(p.sumInsured.min)} – ${formatCompact(p.sumInsured.max)}`)} />
-              <Row label="Premium*" values={compared.map((p) => `${formatCompact(p.premiumRange.illustrativeMin)} – ${formatCompact(p.premiumRange.illustrativeMax)}/yr`)} />
+              <Row label="Cover range" values={compared.map((p) => `${formatCompact(p.sumInsured.min, p.countryCode)} – ${formatCompact(p.sumInsured.max, p.countryCode)}`)} />
+              <Row label="Premium*" values={compared.map((p) => `${formatCompact(p.premiumRange.illustrativeMin, p.countryCode)} – ${formatCompact(p.premiumRange.illustrativeMax, p.countryCode)}/yr`)} />
               <Row label="Entry age" values={compared.map((p) => `${p.eligibility.minAge} – ${p.eligibility.maxAge ?? "N/A"} yrs`)} />
               <Row label="Claim ratio" values={compared.map((p) => p.claimSettlement?.ratio ? `${p.claimSettlement.ratio}%` : "—")} />
               <Row label="Renewability" values={compared.map((p) => p.renewability)} />

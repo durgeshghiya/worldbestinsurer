@@ -45,13 +45,13 @@ export default function ProductCard({ product }: { product: InsuranceProduct }) 
           <div className="bg-surface-sunken rounded-xl p-3">
             <p className="text-[10px] text-text-tertiary font-medium uppercase tracking-wider">Cover</p>
             <p className="text-[14px] font-bold text-text-primary mt-0.5">
-              {formatCompact(p.sumInsured.min)} – {formatCompact(p.sumInsured.max)}
+              {formatCompact(p.sumInsured.min, p.countryCode)} – {formatCompact(p.sumInsured.max, p.countryCode)}
             </p>
           </div>
           <div className="bg-surface-sunken rounded-xl p-3">
             <p className="text-[10px] text-text-tertiary font-medium uppercase tracking-wider">Premium*</p>
             <p className="text-[14px] font-bold text-text-primary mt-0.5">
-              {formatCompact(p.premiumRange.illustrativeMin)}<span className="text-[11px] text-text-tertiary font-medium">/yr</span>
+              {formatCompact(p.premiumRange.illustrativeMin, p.countryCode)}<span className="text-[11px] text-text-tertiary font-medium">/yr</span>
             </p>
           </div>
         </div>
