@@ -83,6 +83,8 @@ export default function RootLayout({
       <head>
         <meta name="theme-color" content="#6366f1" />
         <link rel="alternate" hrefLang="en" href="https://worldbestinsurer.com" />
+        {/* Google AdSense */}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4984848270074853" crossOrigin="anonymous" />
         {/* Google Analytics GA4 */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-PGW5QZ146V" />
         <script
