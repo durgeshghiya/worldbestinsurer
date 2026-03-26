@@ -1,11 +1,30 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowLeft, Check, X, ExternalLink, AlertCircle, Clock, Shield } from "lucide-react";
-import { getAllProducts, getProductById } from "@/lib/data";
+import {
+  ArrowLeft,
+  Check,
+  ExternalLink,
+  AlertCircle,
+  Clock,
+  Shield,
+  DollarSign,
+  Users,
+  RefreshCw,
+  ChevronRight,
+  Phone,
+  Mail,
+  User,
+  Award,
+  Info,
+  Layers,
+  Lock,
+} from "lucide-react";
+import { getAllProducts, getProductById, getProductsByCategory } from "@/lib/data";
 import { getCountryByCode, VALID_COUNTRY_CODES } from "@/lib/countries";
 import { formatCompact, freshnessLabel, cn } from "@/lib/utils";
 import { ProductSchema, BreadcrumbSchema } from "@/components/StructuredData";
+import ProductTabs from "./ProductTabs";
 
 export async function generateStaticParams() {
   const params: { country: string; id: string }[] = [];
@@ -17,114 +36,384 @@ export async function generateStaticParams() {
   return params;
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ country: string; id: string }> }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ country: string; id: string }>;
+}): Promise<Metadata> {
   const { country, id } = await params;
   const product = getProductById(id, country);
   const c = getCountryByCode(country);
   if (!product || !c) return {};
   return {
-    title: `${product.productName} by ${product.insurerName} — ${c.name}`,
+    title: `${product.productName} by ${product.insurerName} \u2014 ${c.name}`,
     description: `Compare ${product.productName} features, coverage, premiums, and more. ${c.name} insurance comparison on World Best Insurer.`,
-    keywords: [product.productName, product.insurerName, product.category, c.name, "insurance comparison"],
+    keywords: [
+      product.productName,
+      product.insurerName,
+      product.category,
+      c.name,
+      "insurance comparison",
+    ],
   };
 }
 
-export default async function CountryProductPage({ params }: { params: Promise<{ country: string; id: string }> }) {
+export default async function CountryProductPage({
+  params,
+}: {
+  params: Promise<{ country: string; id: string }>;
+}) {
   const { country, id } = await params;
   const product = getProductById(id, country);
   const c = getCountryByCode(country);
   if (!product || !c) notFound();
+  const p = product; // alias for brevity
 
-  const currSym = c.currency.symbol;
-  const freshness = freshnessLabel(product.lastVerified);
+  const freshness = freshnessLabel(p.lastVerified);
+
+  // Get similar products from same category and country
+  const similarProducts = getProductsByCategory(p.category, p.countryCode)
+    .filter((sp) => sp.id !== p.id)
+    .slice(0, 4);
+
+  // Confidence badge config
+  const confidenceBadge = {
+    high: { label: "High Confidence", color: "bg-success/10 text-success border-success/20" },
+    medium: { label: "Medium Confidence", color: "bg-warning/10 text-warning border-warning/20" },
+    low: { label: "Low Confidence", color: "bg-error/10 text-error border-error/20" },
+  }[p.confidenceScore];
 
   return (
-    <div className="mx-auto max-w-[1080px] px-5 lg:px-8 py-10">
+    <div className="min-h-screen">
       <ProductSchema product={product} />
-      <BreadcrumbSchema items={[
-        { name: "Home", url: "https://worldbestinsurer.com" },
-        { name: c.name, url: `https://worldbestinsurer.com/${country}` },
-        { name: product.category.replace("-", " "), url: `https://worldbestinsurer.com/${country}/compare/${product.category}` },
-        { name: product.productName, url: `https://worldbestinsurer.com/${country}/product/${product.id}` },
-      ]} />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://worldbestinsurer.com" },
+          { name: c.name, url: `https://worldbestinsurer.com/${country}` },
+          {
+            name: p.category.replace("-", " "),
+            url: `https://worldbestinsurer.com/${country}/compare/${p.category}`,
+          },
+          {
+            name: p.productName,
+            url: `https://worldbestinsurer.com/${country}/product/${p.id}`,
+          },
+        ]}
+      />
 
-      <Link href={`/${country}/compare/${product.category}`} className="inline-flex items-center gap-1.5 text-[13px] text-text-tertiary hover:text-primary mb-6">
-        <ArrowLeft className="w-3.5 h-3.5" /> {c.flag} {product.category.replace("-", " ")} insurance in {c.name}
-      </Link>
+      {/* ================================================================= */}
+      {/*  BREADCRUMB                                                       */}
+      {/* ================================================================= */}
+      <div className="bg-surface-sunken/30 border-b border-border">
+        <div className="mx-auto max-w-[1200px] px-5 lg:px-8 py-3">
+          <nav className="flex items-center gap-1.5 text-[12px] text-text-tertiary flex-wrap">
+            <Link href="/" className="hover:text-primary transition-colors">Home</Link>
+            <ChevronRight className="w-3 h-3" />
+            <Link href={`/${country}`} className="hover:text-primary transition-colors">{c.flag} {c.name}</Link>
+            <ChevronRight className="w-3 h-3" />
+            <Link href={`/${country}/compare/${p.category}`} className="hover:text-primary transition-colors capitalize">
+              {p.category.replace("-", " ")} Insurance
+            </Link>
+            <ChevronRight className="w-3 h-3" />
+            <span className="text-text-secondary font-medium truncate max-w-[200px]">{p.productName}</span>
+          </nav>
+        </div>
+      </div>
 
-      <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-8">
-        <div>
-          <p className="text-[11px] font-bold text-primary uppercase tracking-[0.15em] mb-1">{product.insurerName}</p>
-          <h1 className="text-[28px] sm:text-[36px] font-bold text-text-primary tracking-[-0.02em]">{product.productName}</h1>
-          <div className="flex flex-wrap items-center gap-3 mt-3">
-            <span className="px-2.5 py-0.5 text-[11px] font-semibold rounded-full bg-primary-light text-primary uppercase">{product.category.replace("-", " ")}</span>
-            {product.subCategory && <span className="px-2.5 py-0.5 text-[11px] font-medium rounded-full bg-surface-sunken text-text-secondary">{product.subCategory.replace(/-/g, " ")}</span>}
-            <span className={cn("px-2.5 py-0.5 text-[11px] font-medium rounded-full", freshness.color === "green" ? "bg-success/10 text-success" : freshness.color === "amber" ? "bg-warning/10 text-warning" : "bg-error/10 text-error")}>
-              <Clock className="w-3 h-3 inline mr-1" />{freshness.label}
-            </span>
+      <div className="mx-auto max-w-[1200px] px-5 lg:px-8 py-8">
+        <div className="grid lg:grid-cols-[1fr_340px] gap-8">
+          {/* ============================================================= */}
+          {/*  MAIN CONTENT COLUMN                                          */}
+          {/* ============================================================= */}
+          <div className="min-w-0">
+            {/* Back link */}
+            <Link
+              href={`/${country}/compare/${p.category}`}
+              className="inline-flex items-center gap-1.5 text-[13px] text-text-tertiary hover:text-primary mb-6 transition-colors"
+            >
+              <ArrowLeft className="w-3.5 h-3.5" /> Back to {p.category.replace("-", " ")} insurance in {c.name}
+            </Link>
+
+            {/* =========================================================== */}
+            {/*  PRODUCT HEADER                                             */}
+            {/* =========================================================== */}
+            <div className="mb-8">
+              <p className="text-[12px] font-bold text-primary uppercase tracking-[0.15em] mb-2">
+                {p.insurerName}
+              </p>
+              <h1 className="text-[28px] sm:text-[38px] font-extrabold text-text-primary tracking-[-0.03em] leading-tight mb-4">
+                {p.productName}
+              </h1>
+              <div className="flex flex-wrap items-center gap-2.5">
+                {/* Category badge */}
+                <span className="px-3 py-1 text-[11px] font-semibold rounded-full bg-primary-light text-primary uppercase">
+                  {p.category.replace("-", " ")}
+                </span>
+                {/* Sub-category */}
+                {p.subCategory && (
+                  <span className="px-3 py-1 text-[11px] font-medium rounded-full bg-surface-sunken text-text-secondary">
+                    {p.subCategory.replace(/-/g, " ")}
+                  </span>
+                )}
+                {/* Confidence badge */}
+                <span className={cn("px-3 py-1 text-[11px] font-medium rounded-full border", confidenceBadge.color)}>
+                  <Award className="w-3 h-3 inline mr-1" />
+                  {confidenceBadge.label}
+                </span>
+                {/* Freshness badge */}
+                <span
+                  className={cn(
+                    "px-3 py-1 text-[11px] font-medium rounded-full",
+                    freshness.color === "green"
+                      ? "bg-success/10 text-success"
+                      : freshness.color === "amber"
+                        ? "bg-warning/10 text-warning"
+                        : "bg-error/10 text-error"
+                  )}
+                >
+                  <Clock className="w-3 h-3 inline mr-1" />
+                  {freshness.label}
+                </span>
+              </div>
+              {/* Visit insurer button */}
+              {p.sourceUrl && (
+                <div className="mt-5">
+                  <a
+                    href={p.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-5 py-2.5 text-[13px] font-semibold border-2 border-primary text-primary rounded-xl hover:bg-primary hover:text-white transition-all duration-200"
+                  >
+                    Visit Insurer Website <ExternalLink className="w-3.5 h-3.5" />
+                  </a>
+                </div>
+              )}
+            </div>
+
+            {/* =========================================================== */}
+            {/*  KEY METRICS ROW                                            */}
+            {/* =========================================================== */}
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+              <MetricCard
+                icon={<Shield className="w-5 h-5 text-indigo-500" />}
+                label="Cover Range"
+                value={`${formatCompact(p.sumInsured.min, p.countryCode)} \u2013 ${formatCompact(p.sumInsured.max, p.countryCode)}`}
+              />
+              <MetricCard
+                icon={<DollarSign className="w-5 h-5 text-emerald-500" />}
+                label="Starting Premium"
+                value={`${formatCompact(p.premiumRange.illustrativeMin, p.countryCode)} \u2013 ${formatCompact(p.premiumRange.illustrativeMax, p.countryCode)}/yr*`}
+              />
+              <MetricCard
+                icon={<Users className="w-5 h-5 text-amber-500" />}
+                label="Entry Age"
+                value={`${p.eligibility.minAge} \u2013 ${p.eligibility.maxAge ?? "N/A"} years`}
+              />
+              <MetricCard
+                icon={<RefreshCw className="w-5 h-5 text-teal-500" />}
+                label="Renewability"
+                value={p.renewability}
+              />
+            </div>
+
+            {/* =========================================================== */}
+            {/*  TABBED CONTENT                                             */}
+            {/* =========================================================== */}
+            <ProductTabs
+              product={p}
+              countryCode={p.countryCode}
+              similarProducts={similarProducts}
+            />
+
+            {/* =========================================================== */}
+            {/*  SIMILAR PRODUCTS                                           */}
+            {/* =========================================================== */}
+            {similarProducts.length > 0 && (
+              <div className="mt-12">
+                <h2 className="text-[20px] font-bold text-text-primary mb-6 flex items-center gap-2">
+                  <Layers className="w-5 h-5 text-primary" />
+                  You might also like
+                </h2>
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {similarProducts.slice(0, 3).map((sp) => (
+                    <Link
+                      key={sp.id}
+                      href={`/${sp.countryCode}/product/${sp.id}`}
+                      className="group card-premium bg-surface rounded-2xl border border-border p-5 hover:border-primary/20 hover:shadow-lg transition-all duration-300"
+                    >
+                      <p className="text-[10px] font-bold text-primary uppercase tracking-wider mb-1">
+                        {sp.insurerName}
+                      </p>
+                      <h3 className="text-[14px] font-bold text-text-primary group-hover:text-primary transition-colors mb-2 leading-tight">
+                        {sp.productName}
+                      </h3>
+                      <div className="space-y-1.5 mb-3">
+                        <div className="flex items-center justify-between text-[11px]">
+                          <span className="text-text-tertiary">Cover</span>
+                          <span className="font-medium text-text-secondary">
+                            {formatCompact(sp.sumInsured.min, sp.countryCode)} \u2013 {formatCompact(sp.sumInsured.max, sp.countryCode)}
+                          </span>
+                        </div>
+                        <div className="flex items-center justify-between text-[11px]">
+                          <span className="text-text-tertiary">Premium</span>
+                          <span className="font-medium text-text-secondary">
+                            from {formatCompact(sp.premiumRange.illustrativeMin, sp.countryCode)}/yr
+                          </span>
+                        </div>
+                      </div>
+                      <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-primary group-hover:gap-2 transition-all">
+                        View details <ChevronRight className="w-3 h-3" />
+                      </span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* ============================================================= */}
+          {/*  SIDEBAR (desktop) / BOTTOM (mobile)                          */}
+          {/* ============================================================= */}
+          <div className="lg:sticky lg:top-24 lg:self-start space-y-6">
+            {/* Interested card */}
+            <div className="bg-surface rounded-2xl border border-border p-6 shadow-sm">
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-8 h-8 rounded-lg bg-primary-light flex items-center justify-center">
+                  <Phone className="w-4 h-4 text-primary" />
+                </div>
+                <h3 className="text-[16px] font-bold text-text-primary">
+                  Interested in this plan?
+                </h3>
+              </div>
+              <p className="text-[12.5px] text-text-tertiary mb-5 leading-relaxed">
+                Get a free quote and personalized advice from our insurance experts.
+              </p>
+              <form className="space-y-3">
+                <div className="relative">
+                  <User className="w-4 h-4 text-text-tertiary absolute left-3 top-1/2 -translate-y-1/2" />
+                  <input
+                    type="text"
+                    placeholder="Your name"
+                    className="w-full pl-10 pr-4 py-2.5 text-[13px] bg-surface-sunken border border-border rounded-xl outline-none focus:border-primary/30 transition-colors text-text-primary placeholder:text-text-tertiary"
+                  />
+                </div>
+                <div className="relative">
+                  <Mail className="w-4 h-4 text-text-tertiary absolute left-3 top-1/2 -translate-y-1/2" />
+                  <input
+                    type="email"
+                    placeholder="Email address"
+                    className="w-full pl-10 pr-4 py-2.5 text-[13px] bg-surface-sunken border border-border rounded-xl outline-none focus:border-primary/30 transition-colors text-text-primary placeholder:text-text-tertiary"
+                  />
+                </div>
+                <div className="relative">
+                  <Phone className="w-4 h-4 text-text-tertiary absolute left-3 top-1/2 -translate-y-1/2" />
+                  <input
+                    type="tel"
+                    placeholder="Phone number"
+                    className="w-full pl-10 pr-4 py-2.5 text-[13px] bg-surface-sunken border border-border rounded-xl outline-none focus:border-primary/30 transition-colors text-text-primary placeholder:text-text-tertiary"
+                  />
+                </div>
+                <button
+                  type="button"
+                  className="w-full py-3 text-[13px] font-semibold rounded-xl bg-gradient-to-r from-primary to-[#7c3aed] text-white hover:shadow-md hover:scale-[1.01] transition-all duration-200"
+                >
+                  Get Free Quote
+                </button>
+              </form>
+              <div className="mt-4 text-center">
+                <p className="text-[11px] text-text-tertiary">
+                  Or call us at{" "}
+                  <span className="font-semibold text-text-secondary">+1 (800) 000-0000</span>
+                </p>
+              </div>
+              {/* Trust badges */}
+              <div className="mt-5 pt-5 border-t border-border-light">
+                <div className="flex items-center justify-center gap-4">
+                  {[
+                    { icon: Shield, label: "Secure" },
+                    { icon: Lock, label: "Private" },
+                    { icon: Check, label: "Free" },
+                  ].map((badge) => (
+                    <div key={badge.label} className="flex items-center gap-1 text-[10px] text-text-tertiary">
+                      <badge.icon className="w-3 h-3 text-success" />
+                      {badge.label}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Quick info card */}
+            <div className="bg-surface rounded-2xl border border-border p-5">
+              <h4 className="text-[13px] font-bold text-text-primary mb-3 flex items-center gap-1.5">
+                <Info className="w-4 h-4 text-primary" /> Quick Info
+              </h4>
+              <div className="space-y-2.5">
+                <InfoRow label="Insurer" value={p.insurerName} />
+                <InfoRow label="Category" value={p.category.replace("-", " ")} />
+                <InfoRow label="Country" value={`${c.flag} ${c.name}`} />
+                <InfoRow label="Confidence" value={p.confidenceScore} />
+                <InfoRow label="Last Verified" value={p.lastVerified} />
+                {p.claimSettlement?.ratio && (
+                  <InfoRow label="Claim Ratio" value={`${p.claimSettlement.ratio}%`} />
+                )}
+                {p.networkHospitals?.count && (
+                  <InfoRow label="Network Hospitals" value={`${p.networkHospitals.count.toLocaleString()}`} />
+                )}
+              </div>
+            </div>
           </div>
         </div>
-        {product.sourceUrl && (
-          <a href={product.sourceUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 px-4 py-2 text-[13px] font-medium border border-border rounded-lg hover:bg-surface-sunken transition-colors shrink-0">
-            Official source <ExternalLink className="w-3.5 h-3.5" />
-          </a>
-        )}
-      </div>
 
-      {/* Key metrics */}
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-        <MetricCard label="Sum Insured Range" value={`${formatCompact(product.sumInsured.min, country)} – ${formatCompact(product.sumInsured.max, country)}`} />
-        <MetricCard label="Illustrative Premium" value={`${formatCompact(product.premiumRange.illustrativeMin, country)} – ${formatCompact(product.premiumRange.illustrativeMax, country)}/yr*`} />
-        <MetricCard label="Entry Age" value={`${product.eligibility.minAge} – ${product.eligibility.maxAge ?? "N/A"} years`} />
-        <MetricCard label="Renewability" value={product.renewability} />
-      </div>
-
-      {/* Details grid */}
-      <div className="grid lg:grid-cols-2 gap-6 mb-8">
-        {product.keyInclusions.length > 0 && (
-          <div className="bg-surface rounded-2xl border border-border p-6">
-            <h2 className="text-[15px] font-bold text-text-primary mb-4 flex items-center gap-2"><Check className="w-4 h-4 text-success" /> Key Inclusions</h2>
-            <ul className="space-y-2">{product.keyInclusions.map((item) => (<li key={item} className="flex items-start gap-2 text-[13px] text-text-secondary"><Check className="w-3.5 h-3.5 text-success mt-0.5 shrink-0" />{item}</li>))}</ul>
+        {/* ================================================================= */}
+        {/*  DISCLAIMER FOOTER                                               */}
+        {/* ================================================================= */}
+        <div className="mt-12 p-5 bg-warning-light rounded-xl flex items-start gap-3 max-w-[1200px]">
+          <AlertCircle className="w-5 h-5 text-warning mt-0.5 shrink-0" />
+          <div>
+            <p className="text-[12px] font-semibold text-warning mb-1">Important Disclaimer</p>
+            <p className="text-[11.5px] text-warning/80 leading-relaxed">
+              *Data is sourced from publicly available information and may not reflect the latest changes.
+              World Best Insurer does not sell insurance. Verify all details with {p.insurerName} directly.
+              Confidence: {p.confidenceScore}. Last verified: {p.lastVerified}.
+              Premium figures are illustrative based on {p.premiumRange.assumptions || "standard assumptions"}.
+            </p>
           </div>
-        )}
-        {product.keyExclusions.length > 0 && (
-          <div className="bg-surface rounded-2xl border border-border p-6">
-            <h2 className="text-[15px] font-bold text-text-primary mb-4 flex items-center gap-2"><X className="w-4 h-4 text-error" /> Key Exclusions</h2>
-            <ul className="space-y-2">{product.keyExclusions.map((item) => (<li key={item} className="flex items-start gap-2 text-[13px] text-text-secondary"><X className="w-3.5 h-3.5 text-error mt-0.5 shrink-0" />{item}</li>))}</ul>
-          </div>
-        )}
-        {product.specialFeatures.length > 0 && (
-          <div className="bg-surface rounded-2xl border border-border p-6">
-            <h2 className="text-[15px] font-bold text-text-primary mb-4 flex items-center gap-2"><Shield className="w-4 h-4 text-primary" /> Special Features</h2>
-            <ul className="space-y-2">{product.specialFeatures.map((f) => (<li key={f} className="flex items-start gap-2 text-[13px] text-text-secondary"><Check className="w-3.5 h-3.5 text-primary mt-0.5 shrink-0" />{f}</li>))}</ul>
-          </div>
-        )}
-        {product.riders.length > 0 && (
-          <div className="bg-surface rounded-2xl border border-border p-6">
-            <h2 className="text-[15px] font-bold text-text-primary mb-4">Riders / Add-ons</h2>
-            <ul className="space-y-2">{product.riders.map((r) => (<li key={r} className="flex items-start gap-2 text-[13px] text-text-secondary"><Check className="w-3.5 h-3.5 text-accent mt-0.5 shrink-0" />{r}</li>))}</ul>
-          </div>
-        )}
-      </div>
-
-      {/* Disclaimer */}
-      <div className="p-4 bg-warning-light rounded-xl flex items-start gap-2.5">
-        <AlertCircle className="w-4 h-4 text-warning mt-0.5 shrink-0" />
-        <p className="text-[11.5px] text-warning leading-relaxed">
-          *Data is sourced from publicly available information and may not reflect the latest changes.
-          World Best Insurer does not sell insurance. Verify all details with {product.insurerName} directly.
-          Confidence: {product.confidenceScore}. Last verified: {product.lastVerified}.
-        </p>
+        </div>
       </div>
     </div>
   );
 }
 
-function MetricCard({ label, value }: { label: string; value: string }) {
+/* ---------- Sub-components ---------- */
+
+function MetricCard({
+  icon,
+  label,
+  value,
+}: {
+  icon: React.ReactNode;
+  label: string;
+  value: string;
+}) {
   return (
-    <div className="bg-surface rounded-xl border border-border p-5">
-      <p className="text-[11px] text-text-tertiary mb-1">{label}</p>
-      <p className="text-[15px] font-semibold text-text-primary">{value}</p>
+    <div className="bg-surface rounded-2xl border border-border p-5 hover:shadow-sm transition-shadow">
+      <div className="flex items-center gap-2 mb-2">
+        {icon}
+        <p className="text-[11px] font-medium text-text-tertiary uppercase tracking-wide">{label}</p>
+      </div>
+      <p className="text-[15px] font-bold text-text-primary leading-snug">{value}</p>
     </div>
   );
 }
+
+function InfoRow({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="flex items-center justify-between text-[12px]">
+      <span className="text-text-tertiary">{label}</span>
+      <span className="font-medium text-text-secondary capitalize">{value}</span>
+    </div>
+  );
+}
+
+// Trust badge uses Check icon from lucide-react (imported at top)
