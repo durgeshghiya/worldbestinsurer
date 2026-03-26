@@ -1,153 +1,136 @@
 /**
- * Gemini API client for insurance data extraction and analysis.
+ * Gemini REST API client for insurance data research.
+ * Uses the v1beta generateContent endpoint directly via fetch.
  */
 import * as fs from "fs";
 import * as path from "path";
 
-const API_BASE = "https://generativelanguage.googleapis.com/v1beta";
-
-function getApiKey(): string {
-  const key = process.env.GEMINI_API_KEY;
-  if (!key) {
-    throw new Error(
-      "GEMINI_API_KEY not set. Get one free at https://aistudio.google.com/apikey\n" +
-      "Set it: set GEMINI_API_KEY=your_key_here (Windows)\n" +
-      "Or: export GEMINI_API_KEY=your_key_here (Mac/Linux)"
-    );
+// Load .env from project root
+const envPath = path.resolve(__dirname, "../../.env");
+if (fs.existsSync(envPath)) {
+  const envContent = fs.readFileSync(envPath, "utf-8");
+  for (const line of envContent.split("\n")) {
+    const match = line.match(/^([^=]+)=(.*)$/);
+    if (match) process.env[match[1].trim()] = match[2].trim();
   }
-  return key;
-}
-
-export interface GeminiMessage {
-  role: "user" | "model";
-  parts: { text: string }[];
 }
 
 export interface GeminiResponse {
   text: string;
-  tokensUsed: number;
   success: boolean;
   error?: string;
 }
 
+const API_KEY = () => process.env.GEMINI_API_KEY ?? "";
+const MODEL = "gemini-2.5-flash";
+const BASE_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`;
+
+async function sleep(ms: number) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
 /**
- * Call Gemini API with a prompt.
+ * Call Gemini API with a prompt. Returns text response.
  */
 export async function callGemini(
   prompt: string,
   options: {
     model?: string;
-    temperature?: number;
-    maxTokens?: number;
     systemInstruction?: string;
+    maxTokens?: number;
   } = {}
 ): Promise<GeminiResponse> {
-  const apiKey = getApiKey();
-  const model = options.model ?? "gemini-2.0-flash";
-  const url = `${API_BASE}/models/${model}:generateContent?key=${apiKey}`;
+  const key = API_KEY();
+  if (!key) {
+    return { text: "", success: false, error: "GEMINI_API_KEY not set" };
+  }
+
+  const model = options.model ?? MODEL;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`;
 
   const body: Record<string, unknown> = {
-    contents: [{ role: "user", parts: [{ text: prompt }] }],
+    contents: [
+      {
+        parts: [
+          {
+            text: options.systemInstruction
+              ? `${options.systemInstruction}\n\n${prompt}\n\nRespond with ONLY valid JSON, no markdown code fences.`
+              : `${prompt}\n\nRespond with ONLY valid JSON, no markdown code fences.`,
+          },
+        ],
+      },
+    ],
     generationConfig: {
-      temperature: options.temperature ?? 0.1,
+      temperature: 0.2,
       maxOutputTokens: options.maxTokens ?? 8192,
-      responseMimeType: "application/json",
     },
   };
 
-  if (options.systemInstruction) {
-    body.systemInstruction = {
-      parts: [{ text: options.systemInstruction }],
-    };
-  }
+  // Retry logic with exponential backoff
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const resp = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
 
-  try {
-    const res = await fetch(url, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(body),
-    });
+      if (resp.status === 429) {
+        const waitSec = 45 * (attempt + 1);
+        console.log(`  ⏳ Rate limited. Waiting ${waitSec}s before retry ${attempt + 1}/3...`);
+        await sleep(waitSec * 1000);
+        continue;
+      }
 
-    if (!res.ok) {
-      const err = await res.text();
-      return { text: "", tokensUsed: 0, success: false, error: `API error ${res.status}: ${err}` };
+      if (!resp.ok) {
+        const errText = await resp.text();
+        return { text: "", success: false, error: `API error ${resp.status}: ${errText}` };
+      }
+
+      const data = await resp.json() as {
+        candidates?: Array<{ content?: { parts?: Array<{ text?: string }> } }>;
+      };
+
+      const text = data?.candidates?.[0]?.content?.parts?.[0]?.text ?? "";
+      if (!text) {
+        return { text: "", success: false, error: "Empty response from Gemini" };
+      }
+
+      // Strip markdown code fences if present
+      let cleaned = text.trim();
+      if (cleaned.startsWith("```json")) cleaned = cleaned.slice(7);
+      else if (cleaned.startsWith("```")) cleaned = cleaned.slice(3);
+      if (cleaned.endsWith("```")) cleaned = cleaned.slice(0, -3);
+      cleaned = cleaned.trim();
+
+      return { text: cleaned, success: true };
+    } catch (err) {
+      if (attempt === 2) {
+        return { text: "", success: false, error: `Fetch error: ${err}` };
+      }
+      await sleep(5000);
     }
-
-    const data = await res.json();
-    const text = data.candidates?.[0]?.content?.parts?.[0]?.text ?? "";
-    const tokens = data.usageMetadata?.totalTokenCount ?? 0;
-
-    return { text, tokensUsed: tokens, success: true };
-  } catch (err) {
-    return { text: "", tokensUsed: 0, success: false, error: String(err) };
   }
+
+  return { text: "", success: false, error: "All retries failed" };
 }
 
 /**
- * Call Gemini with plain text response (no JSON mode).
+ * Parse JSON from Gemini response, handling common formatting issues.
  */
-export async function callGeminiText(
-  prompt: string,
-  options: {
-    model?: string;
-    temperature?: number;
-    maxTokens?: number;
-    systemInstruction?: string;
-  } = {}
-): Promise<GeminiResponse> {
-  const apiKey = getApiKey();
-  const model = options.model ?? "gemini-2.0-flash";
-  const url = `${API_BASE}/models/${model}:generateContent?key=${apiKey}`;
-
-  const body: Record<string, unknown> = {
-    contents: [{ role: "user", parts: [{ text: prompt }] }],
-    generationConfig: {
-      temperature: options.temperature ?? 0.3,
-      maxOutputTokens: options.maxTokens ?? 4096,
-    },
-  };
-
-  if (options.systemInstruction) {
-    body.systemInstruction = {
-      parts: [{ text: options.systemInstruction }],
-    };
-  }
-
+export function parseGeminiJSON<T>(text: string): T | null {
   try {
-    const res = await fetch(url, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(body),
-    });
-
-    if (!res.ok) {
-      const err = await res.text();
-      return { text: "", tokensUsed: 0, success: false, error: `API error ${res.status}: ${err}` };
+    return JSON.parse(text) as T;
+  } catch {
+    // Try to extract JSON array or object
+    const arrMatch = text.match(/\[[\s\S]*\]/);
+    if (arrMatch) {
+      try { return JSON.parse(arrMatch[0]) as T; } catch {}
     }
-
-    const data = await res.json();
-    const text = data.candidates?.[0]?.content?.parts?.[0]?.text ?? "";
-    const tokens = data.usageMetadata?.totalTokenCount ?? 0;
-
-    return { text, tokensUsed: tokens, success: true };
-  } catch (err) {
-    return { text: "", tokensUsed: 0, success: false, error: String(err) };
+    const objMatch = text.match(/\{[\s\S]*\}/);
+    if (objMatch) {
+      try { return JSON.parse(objMatch[0]) as T; } catch {}
+    }
+    return null;
   }
-}
-
-/**
- * Rate limiter — 15 requests per minute for free tier.
- */
-let lastCallTime = 0;
-const MIN_INTERVAL = 4200; // ~14 calls/min to stay safe
-
-export async function rateLimitedCall(
-  prompt: string,
-  options?: Parameters<typeof callGemini>[1]
-): Promise<GeminiResponse> {
-  const now = Date.now();
-  const wait = MIN_INTERVAL - (now - lastCallTime);
-  if (wait > 0) await new Promise((r) => setTimeout(r, wait));
-  lastCallTime = Date.now();
-  return callGemini(prompt, options);
 }

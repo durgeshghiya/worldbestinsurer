@@ -4,7 +4,7 @@
  */
 import * as fs from "fs";
 import * as path from "path";
-import { rateLimitedCall, callGeminiText } from "./gemini";
+import { callGemini, parseGeminiJSON } from "./gemini";
 
 const ROOT = path.resolve(__dirname, "../../");
 const DATA_DIR = path.join(ROOT, "src/data");
@@ -60,48 +60,21 @@ export async function researchInsurer(
   const existing = loadExistingProducts(countryCode, category);
   const existingNames = existing.map((p: Record<string, unknown>) => p.productName);
 
-  const prompt = `You are an insurance product data researcher. Research the current ${category} insurance products offered by ${insurerName} in country code "${countryCode}".
+  const today = new Date().toISOString().split("T")[0];
+  const prompt = `List all current ${category} insurance products by ${insurerName} (country: ${countryCode}).
+For each product return: id (slug), productName, subCategory, minAge, maxAge, sumInsuredMin, sumInsuredMax, currency, premiumMin, premiumMax, features (3 max), renewability.
+Known products: ${existingNames.join(", ") || "none"}.
+Return a JSON array like: [{"id":"x","productName":"X","subCategory":"individual","minAge":18,"maxAge":65,"sumInsuredMin":100000,"sumInsuredMax":10000000,"currency":"INR","premiumMin":5000,"premiumMax":25000,"features":["a","b"],"renewability":"lifelong"}]
+ONLY real products. JSON array only, no explanation.`;
 
-Return a JSON array of products. For each product include:
-{
-  "id": "slug-format-id",
-  "insurerName": "${insurerName}",
-  "insurerSlug": "slug-format",
-  "productName": "Official Product Name",
-  "category": "${category}",
-  "subCategory": "individual|family-floater|senior-citizen|comprehensive|third-party|etc",
-  "countryCode": "${countryCode}",
-  "eligibility": { "minAge": 18, "maxAge": 65 },
-  "sumInsured": { "min": 0, "max": 0, "currency": "INR|USD|GBP|etc" },
-  "premiumRange": { "illustrativeMin": 0, "illustrativeMax": 0, "assumptions": "description", "isVerified": false },
-  "keyInclusions": ["feature1", "feature2"],
-  "keyExclusions": ["exclusion1"],
-  "specialFeatures": ["feature1"],
-  "riders": ["rider1"],
-  "renewability": "lifelong|annual|till-age-X",
-  "policyTenure": { "min": 1, "max": 30 },
-  "sourceUrl": "https://official-url",
-  "sourceType": "ai-researched",
-  "lastVerified": "${new Date().toISOString().split("T")[0]}",
-  "confidenceScore": "medium",
-  "notes": "AI-researched data. Verify with official sources."
-}
-
-IMPORTANT:
-- Only include products you are confident actually exist
-- Use realistic premium ranges in local currency
-- Mark confidence as "medium" since this is AI-researched
-- Include the official product page URL if known
-- If unsure about a field, use null
-
-Currently known products for this insurer: ${existingNames.join(", ") || "none"}
-
-Return ONLY the JSON array, no explanation.`;
-
-  const result = await rateLimitedCall(prompt, {
+  const result = await callGemini(prompt, {
     systemInstruction: "You are an expert insurance market researcher. Return accurate, factual data only. Never invent products that don't exist. Use real product names from real insurers.",
     maxTokens: 8192,
   });
+
+  console.log("  API response success:", result.success);
+  console.log("  Response text (first 300):", result.text?.substring(0, 300));
+  console.log("  Error:", result.error);
 
   if (!result.success) {
     return {
@@ -112,25 +85,74 @@ Return ONLY the JSON array, no explanation.`;
       updatedProducts: [],
       retiredProducts: [],
       errors: [result.error ?? "Unknown error"],
-      tokensUsed: result.tokensUsed,
+      tokensUsed: 0,
     };
   }
 
   try {
     let products: Record<string, unknown>[];
-    try {
-      products = JSON.parse(result.text);
-    } catch {
-      // Try to extract JSON array from response
-      const match = result.text.match(/\[[\s\S]*\]/);
-      if (match) {
-        products = JSON.parse(match[0]);
-      } else {
-        throw new Error("Could not parse JSON from response");
+
+    // Try multiple JSON parsing strategies
+    const tryParse = (text: string): Record<string, unknown>[] | null => {
+      // Strategy 1: Direct parse
+      try { return JSON.parse(text); } catch {}
+      // Strategy 2: Extract JSON array
+      const arrMatch = text.match(/\[[\s\S]*\]/);
+      if (arrMatch) { try { return JSON.parse(arrMatch[0]); } catch {} }
+      // Strategy 3: Fix common JSON issues and retry
+      if (arrMatch) {
+        let fixed = arrMatch[0]
+          .replace(/,\s*\]/g, ']')           // trailing commas in arrays
+          .replace(/,\s*\}/g, '}')           // trailing commas in objects
+          .replace(/[\x00-\x1F]/g, ' ')       // control characters
+          .replace(/"\s*\n\s*"/g, '", "');    // broken strings
+        try { return JSON.parse(fixed); } catch {}
+        // Strategy 4: Truncate to last complete object
+        const lastBracket = fixed.lastIndexOf('}');
+        if (lastBracket > 0) {
+          fixed = fixed.substring(0, lastBracket + 1) + ']';
+          try { return JSON.parse(fixed); } catch {}
+        }
       }
+      return null;
+    };
+
+    const parsed = tryParse(result.text);
+    if (!parsed) {
+      // Last resort: log and try lenient parse
+      console.log("  Full response text length:", result.text.length);
+      console.log("  Last 200 chars:", result.text.substring(result.text.length - 200));
+      throw new Error("Could not parse JSON from response");
     }
+    products = parsed;
 
     if (!Array.isArray(products)) products = [products];
+
+    // Expand simplified format to full product objects
+    products = products.map((p) => ({
+      id: p.id ?? `${insurerName.toLowerCase().replace(/\s+/g, "-")}-${(p.productName as string ?? "").toLowerCase().replace(/\s+/g, "-")}`,
+      insurerName,
+      insurerSlug: insurerName.toLowerCase().replace(/\s+/g, "-"),
+      productName: p.productName,
+      category,
+      subCategory: p.subCategory ?? "individual",
+      countryCode,
+      eligibility: { minAge: p.minAge ?? 18, maxAge: p.maxAge ?? 65 },
+      sumInsured: { min: p.sumInsuredMin ?? 0, max: p.sumInsuredMax ?? 0, currency: p.currency ?? "INR" },
+      premiumRange: { illustrativeMin: p.premiumMin ?? 0, illustrativeMax: p.premiumMax ?? 0, assumptions: "AI-researched", isVerified: false },
+      keyInclusions: p.features ?? [],
+      keyExclusions: [],
+      specialFeatures: p.features ?? [],
+      riders: [],
+      renewability: p.renewability ?? "annual",
+      policyTenure: { min: 1, max: 3 },
+      sourceUrl: "",
+      sourceType: "ai-researched",
+      lastVerified: today,
+      confidenceScore: "medium",
+      notes: "AI-researched via Gemini. Verify with official sources.",
+      ...p,
+    }));
 
     const newProducts: string[] = [];
     const updatedProducts: ProductUpdate[] = [];
@@ -178,7 +200,7 @@ Return ONLY the JSON array, no explanation.`;
       updatedProducts,
       retiredProducts: [],
       errors: [],
-      tokensUsed: result.tokensUsed,
+      tokensUsed: 0,
     };
   } catch (err) {
     return {
@@ -189,7 +211,7 @@ Return ONLY the JSON array, no explanation.`;
       updatedProducts: [],
       retiredProducts: [],
       errors: [`Parse error: ${err}`],
-      tokensUsed: result.tokensUsed,
+      tokensUsed: 0,
     };
   }
 }
@@ -206,7 +228,7 @@ export async function researchCategory(
 Return a JSON array of objects: [{"name": "Company Name", "slug": "company-slug"}]
 Only include real, currently operating insurance companies. Return ONLY the JSON array.`;
 
-  const insurerResult = await rateLimitedCall(insurerPrompt);
+  const insurerResult = await callGemini(insurerPrompt);
 
   if (!insurerResult.success) {
     return {
@@ -217,7 +239,7 @@ Only include real, currently operating insurance companies. Return ONLY the JSON
       updatedProducts: [],
       retiredProducts: [],
       errors: [insurerResult.error ?? "Failed to get insurers"],
-      tokensUsed: insurerResult.tokensUsed,
+      tokensUsed: 0,
     };
   }
 
@@ -239,7 +261,7 @@ Only include real, currently operating insurance companies. Return ONLY the JSON
     updatedProducts: [],
     retiredProducts: [],
     errors: [],
-    tokensUsed: insurerResult.tokensUsed,
+    tokensUsed: 0,
   };
 
   // Research each insurer
@@ -250,7 +272,7 @@ Only include real, currently operating insurance companies. Return ONLY the JSON
     allResults.newProducts.push(...result.newProducts);
     allResults.updatedProducts.push(...result.updatedProducts);
     allResults.errors.push(...result.errors);
-    allResults.tokensUsed += result.tokensUsed;
+    allResults.tokensUsed += 0;
   }
 
   return allResults;
