@@ -120,7 +120,7 @@ export default async function CompareCategoryPage({
                 </div>
 
                 <div className="mt-4 flex items-center gap-3 text-[11px] text-text-tertiary">
-                  <span className="px-2 py-0.5 rounded-md bg-surface-sunken">{country.currency}</span>
+                  <span className="px-2 py-0.5 rounded-md bg-surface-sunken">{country.currency.code}</span>
                   <span className="px-2 py-0.5 rounded-md bg-surface-sunken">{country.regulator}</span>
                 </div>
               </div>
