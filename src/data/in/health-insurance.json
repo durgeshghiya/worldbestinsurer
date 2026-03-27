@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-03-24",
+  "lastUpdated": "2026-03-28",
   "disclaimer": "Data collected from publicly available sources for educational and informational purposes only. Premium figures are illustrative and sourced from public insurer calculators/brochures. Actual premiums may vary. Claim settlement ratios are approximate figures from IRDAI Annual Reports and may not reflect the latest data. Zura does not sell insurance. Please verify all details with the insurer directly before making any decision.",
   "products": [
     {
@@ -3201,6 +3201,84 @@
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
       "notes": "Data compiled from public product page. Premium tier plan from Kotak. Verify directly with Kotak General."
+    },
+    {
+      "id": "star-super-star",
+      "insurerName": "Star Health and Allied Insurance Co. Ltd.",
+      "insurerSlug": "star-health",
+      "productName": "Star Health Super Star policy",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 10000000,
+        "currency": "INR",
+        "options": [500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000]
+      },
+      "premiumRange": {
+        "illustrativeMin": 8000,
+        "illustrativeMax": 25000,
+        "assumptions": "30yr, 5L cover",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Unlimited restoration of sum insured",
+        "OPD cover",
+        "No room rent limit",
+        "Pre and post hospitalization (60/180 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic/plastic surgery (unless medically necessary)",
+        "Dental treatment (unless due to accident)",
+        "War and nuclear perils",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 65.47,
+        "year": "FY2023-24",
+        "source": "IRDAI Annual Report — unverified, check latest"
+      },
+      "networkHospitals": {
+        "count": 14000,
+        "source": "Star Health website (approximate)"
+      },
+      "riders": [
+        "Optional critical illness rider",
+        "Personal accident cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [1, 2, 3]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Unlimited restoration of sum insured",
+        "OPD consultation and treatments covered",
+        "No capping on room rent for hospital stays",
+        "Designed for modern health needs"
+      ],
+      "sourceUrl": "https://www.starhealth.in/health-insurance/super-star-policy",
+      "sourceType": "official-website",
+      "lastVerified": "2026-03-28",
+      "confidenceScore": "medium",
+      "notes": "Added via AI Agent. New plan with unlimited restore and OPD cover. Premium figures are illustrative."
     }
   ]
 }
