@@ -28,7 +28,7 @@ if "%COUNTRY%"=="all" (
         for %%t in (health term-life motor travel) do (
             echo.
             echo --- Updating %%c/%%t ---
-            gemini -p "Read the file src/data/%%c/%%t-insurance.json, research the latest insurance products for this country and category, update the JSON with any new products or changes you find, and write the updated file back. Follow the schema in GEMINI.md. Only use real products."
+            gemini --yolo -p "Read the file src/data/%%c/%%t-insurance.json, research the latest insurance products for this country and category, update the JSON with any new products or changes you find, and write the updated file back. Follow the schema in GEMINI.md. Only use real products."
             timeout /t 10 /nobreak > nul
         )
     )
@@ -37,12 +37,12 @@ if "%COUNTRY%"=="all" (
     for %%t in (health term-life motor travel) do (
         echo.
         echo --- Updating %COUNTRY%/%%t ---
-        gemini -p "Read the file src/data/%COUNTRY%/%%t-insurance.json, research the latest insurance products for this country and category, update the JSON with any new products or changes you find, and write the updated file back. Follow the schema in GEMINI.md. Only use real products."
+        gemini --yolo -p "Read the file src/data/%COUNTRY%/%%t-insurance.json, research the latest insurance products for this country and category, update the JSON with any new products or changes you find, and write the updated file back. Follow the schema in GEMINI.md. Only use real products."
         timeout /t 10 /nobreak > nul
     )
 ) else (
     echo Updating %COUNTRY%/%CATEGORY%...
-    gemini -p "Read the file src/data/%COUNTRY%/%CATEGORY%-insurance.json, research the latest insurance products for this country and category, update the JSON with any new products or changes you find, and write the updated file back. Follow the schema in GEMINI.md. Only use real products."
+    gemini --yolo -p "Read the file src/data/%COUNTRY%/%CATEGORY%-insurance.json, research the latest insurance products for this country and category, update the JSON with any new products or changes you find, and write the updated file back. Follow the schema in GEMINI.md. Only use real products."
 )
 
 echo.
