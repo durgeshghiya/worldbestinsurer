@@ -1,0 +1,35 @@
+name: Daily Google Indexing
+
+on:
+  schedule:
+    - cron: "0 4 * * *"  # Every day at 4am UTC (9:30am IST)
+  workflow_dispatch:       # Allow manual trigger from GitHub UI
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Write service account key
+        run: echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT }}' > service-account.json
+
+      - name: Submit 200 URLs to Google Indexing API
+        run: npx tsx scripts/seo/indexing.ts submit --key ./service-account.json --limit 200
+
+      - name: Run IndexNow for Bing/Yandex
+        run: npx tsx scripts/seo/auto-index.ts --all
+
+      - name: Clean up key
+        if: always()
+        run: rm -f service-account.json
