@@ -42,8 +42,14 @@ export async function POST(req: NextRequest) {
       systemInstruction: SYSTEM_PROMPT,
     });
 
-    // Build history (all messages except the last one)
-    const history = messages.slice(0, -1).map((m: { role: string; content: string }) => ({
+    // Build history — only user/model pairs, must start with user
+    const allButLast = messages.slice(0, -1).filter(
+      (m: { role: string; content: string }) => m.role === "user" || m.role === "assistant"
+    );
+    // Drop leading assistant messages so history always starts with user
+    const firstUserIdx = allButLast.findIndex((m: { role: string }) => m.role === "user");
+    const trimmed = firstUserIdx >= 0 ? allButLast.slice(firstUserIdx) : [];
+    const history = trimmed.map((m: { role: string; content: string }) => ({
       role: m.role === "user" ? "user" : "model",
       parts: [{ text: m.content }],
     }));
