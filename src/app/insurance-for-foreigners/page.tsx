@@ -35,10 +35,10 @@ export const metadata: Metadata = {
     title: "Insurance for Foreigners — Compare International Plans",
     description:
       "The best insurance comparison site for foreigners, expats, students, and visitors in 12 countries.",
-    url: "https://worldbestinsurer.com/insurance-for-foreigners",
+    url: "https://worldbestinsurer.com/insurance-for-foreigners/",
   },
   alternates: {
-    canonical: "https://worldbestinsurer.com/insurance-for-foreigners",
+    canonical: "https://worldbestinsurer.com/insurance-for-foreigners/",
   },
 };
 
