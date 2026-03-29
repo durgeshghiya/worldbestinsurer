@@ -40,6 +40,7 @@
     "rank:schedule": "tsx scripts/seo/ranking-agent.ts --schedule"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "cheerio": "^1.2.0",
     "clsx": "^2.1.1",
     "framer-motion": "^12.38.0",
