@@ -5,7 +5,9 @@ import { useMotionValue } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 const PARTICLE_ICONS = ["🛡️", "❤️", "☂️", "✨"];
-const PARTICLE_COUNT = 35;
+// Reduce particles on mobile for better performance
+const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
+const PARTICLE_COUNT = isMobile ? 8 : 20;
 
 interface Particle {
   x: number;

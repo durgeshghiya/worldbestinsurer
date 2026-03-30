@@ -84,13 +84,10 @@ export default function RootLayout({
       <head>
         <meta name="theme-color" content="#6366f1" />
         <link rel="alternate" hrefLang="en" href="https://worldbestinsurer.com" />
-        {/* Google AdSense */}
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4984848270074853" crossOrigin="anonymous" />
-        {/* Google Analytics GA4 */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PGW5QZ146V" />
+        {/* Defer AdSense + GA4 until after page loads — improves LCP */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-PGW5QZ146V');`,
+            __html: `window.addEventListener('load',function(){setTimeout(function(){var a=document.createElement('script');a.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4984848270074853';a.async=true;a.crossOrigin='anonymous';document.head.appendChild(a);var g=document.createElement('script');g.src='https://www.googletagmanager.com/gtag/js?id=G-PGW5QZ146V';g.async=true;document.head.appendChild(g);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-PGW5QZ146V');},2000)});`,
           }}
         />
       </head>

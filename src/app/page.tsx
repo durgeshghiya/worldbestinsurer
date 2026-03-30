@@ -114,10 +114,10 @@ export default function HomePage() {
         {/* Dark gradient background */}
         <div className="absolute inset-0 bg-gradient-to-b from-[var(--surface-dark,#0f1129)] via-[#141836] to-[var(--primary,#2d3a8c)]" />
 
-        {/* Radial glow accents */}
-        <div className="absolute top-[15%] left-[20%] w-[500px] h-[500px] rounded-full bg-[#2d3a8c]/20 blur-[120px]" />
-        <div className="absolute bottom-[20%] right-[15%] w-[400px] h-[400px] rounded-full bg-[#c47d2e]/15 blur-[100px]" />
-        <div className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#7c3aed]/10 blur-[140px]" />
+        {/* Radial glow accents — hidden on mobile for LCP performance */}
+        <div className="hidden md:block absolute top-[15%] left-[20%] w-[500px] h-[500px] rounded-full bg-[#2d3a8c]/20 blur-[120px]" />
+        <div className="hidden md:block absolute bottom-[20%] right-[15%] w-[400px] h-[400px] rounded-full bg-[#c47d2e]/15 blur-[100px]" />
+        <div className="hidden md:block absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#7c3aed]/10 blur-[140px]" />
 
         {/* Floating particles background */}
         <FloatingParticles className="absolute inset-0 z-0" />

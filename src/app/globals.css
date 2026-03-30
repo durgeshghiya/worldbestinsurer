@@ -638,6 +638,23 @@ hr {
   /* Future dark mode support — architecture ready */
 }
 
+/* ── Mobile performance: disable expensive animations ── */
+@media (max-width: 768px) {
+  .animate-float, .animate-orbit, .animate-shimmer, .animate-pulse-glow {
+    animation: none !important;
+  }
+  .animate-gradient-shift {
+    animation: none !important;
+    background-position: 0% 50% !important;
+  }
+  .blob {
+    display: none !important;
+  }
+  [style*="blur"] {
+    filter: none !important;
+  }
+}
+
 /* ── Print styles ── */
 @media print {
   .glass, .glass-dark { backdrop-filter: none; background: white; }
