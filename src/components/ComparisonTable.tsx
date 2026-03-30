@@ -148,22 +148,34 @@ export default function ComparisonTable({ products, category }: Props) {
                 <td className="p-3" />
                 {compared.map((p) => (
                   <td key={p.id} className="p-3">
-                    <div className="flex gap-1.5">
-                      <Link
-                        href={`/product/${p.id}`}
-                        className="text-[11.5px] px-3 py-1.5 font-medium bg-primary text-white rounded-lg hover:bg-primary-hover transition-colors flex items-center gap-1"
-                      >
-                        Details <ArrowUpRight className="w-3 h-3" />
-                      </Link>
-                      <a
-                        href={p.sourceUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-[11.5px] px-2.5 py-1.5 border border-border rounded-lg hover:bg-surface-sunken transition-colors"
-                        title="Source"
-                      >
-                        <ExternalLink className="w-3 h-3" />
-                      </a>
+                    <div className="flex flex-col gap-1.5">
+                      {(p as any).quoteUrl && (
+                        <a
+                          href={(p as any).quoteUrl as string}
+                          target="_blank"
+                          rel="noopener noreferrer nofollow"
+                          className="text-[11.5px] px-3 py-1.5 font-semibold bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors flex items-center justify-center gap-1"
+                        >
+                          Get Quote <ExternalLink className="w-3 h-3" />
+                        </a>
+                      )}
+                      <div className="flex gap-1.5">
+                        <Link
+                          href={`/product/${p.id}`}
+                          className="text-[11.5px] px-3 py-1.5 font-medium bg-primary text-white rounded-lg hover:bg-primary-hover transition-colors flex items-center gap-1"
+                        >
+                          Details <ArrowUpRight className="w-3 h-3" />
+                        </Link>
+                        <a
+                          href={p.sourceUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[11.5px] px-2.5 py-1.5 border border-border rounded-lg hover:bg-surface-sunken transition-colors"
+                          title="Source"
+                        >
+                          <ExternalLink className="w-3 h-3" />
+                        </a>
+                      </div>
                     </div>
                   </td>
                 ))}

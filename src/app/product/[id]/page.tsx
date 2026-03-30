@@ -35,16 +35,16 @@ export async function generateMetadata({
     travel: "Travel Insurance",
   };
   const catLabel = categoryLabels[product.category] ?? product.category;
-  const insurerShort = product.insurerName.split(" ").slice(0, 2).join(" ");
+  const insurerShortMeta = product.insurerName.split(" ").slice(0, 2).join(" ");
 
   return {
-    title: `${product.productName} by ${insurerShort}`,
+    title: `${product.productName} by ${insurerShortMeta}`,
     description: `Compare ${product.productName} by ${product.insurerName} — a ${catLabel} plan. Coverage from ${product.sumInsured.min ?? "N/A"} to ${product.sumInsured.max ?? "N/A"}. ${product.specialFeatures.slice(0, 2).join(". ")}. Verified data on World Best Insurer.`,
     keywords: [
       product.productName,
       product.insurerName,
       catLabel,
-      `${insurerShort} insurance`,
+      `${insurerShortMeta} insurance`,
       `${product.subCategory} insurance India`,
       "insurance comparison India",
     ],
@@ -66,6 +66,10 @@ export default async function ProductPage({
     notFound();
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const quoteUrl: string | undefined = (product as any).quoteUrl;
+  const insurerShort = product.insurerName.split(" ").slice(0, 2).join(" ");
+
   const categoryLabels: Record<string, string> = {
     health: "Health Insurance",
     "term-life": "Term Life Insurance",
@@ -74,6 +78,7 @@ export default async function ProductPage({
   };
 
   return (
+    <>
     <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-10">
       <ProductSchema product={product} />
       <BreadcrumbSchema
@@ -126,6 +131,29 @@ export default async function ProductPage({
           </span>
         </div>
       </div>
+
+      {/* Get Quote CTA */}
+      {quoteUrl && (
+        <div className="mb-8 flex flex-col sm:flex-row gap-3">
+          <a
+            href={quoteUrl as string}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-xl transition-colors text-sm shadow-md"
+          >
+            <ExternalLink className="w-4 h-4" />
+            Get Quote from {insurerShort}
+          </a>
+          <a
+            href={quoteUrl as string}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-green-600 text-green-700 hover:bg-green-50 font-medium rounded-xl transition-colors text-sm"
+          >
+            Buy Online
+          </a>
+        </div>
+      )}
 
       {/* Disclaimer */}
       <div className="mb-8 p-4 bg-amber-50 border border-amber-200 rounded-xl flex items-start gap-3">
@@ -321,7 +349,7 @@ export default async function ProductPage({
               Interested in this plan?
             </h3>
             <p className="text-xs text-muted mb-3">
-              Verify details directly with {product.insurerName.split(" ").slice(0, 2).join(" ")}. World Best Insurer currently provides comparison information only.
+              Verify details directly with {insurerShort}. World Best Insurer currently provides comparison information only.
             </p>
             <a
               href={product.sourceUrl}
@@ -341,5 +369,21 @@ export default async function ProductPage({
         </div>
       </div>
     </div>
+
+      {/* Sticky mobile CTA */}
+      {quoteUrl && (
+        <div className="fixed bottom-0 left-0 right-0 z-40 p-3 bg-white/95 backdrop-blur border-t border-gray-200 md:hidden">
+          <a
+            href={quoteUrl as string}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            className="flex items-center justify-center gap-2 w-full py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-xl text-sm shadow-lg"
+          >
+            <ExternalLink className="w-4 h-4" />
+            Get Quote — {insurerShort}
+          </a>
+        </div>
+      )}
+    </>
   );
 }

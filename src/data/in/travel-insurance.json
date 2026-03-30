@@ -19,7 +19,12 @@
         "min": 50000,
         "max": 500000,
         "currency": "USD",
-        "options": [50000, 100000, 250000, 500000]
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 800,
@@ -55,7 +60,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip or annual",
       "specialFeatures": [
@@ -68,7 +76,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page."
+      "notes": "Data compiled from public product page.",
+      "quoteUrl": "https://www.bajajallianz.com/travel-insurance.html?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "bajaj-allianz-travel-companion",
@@ -86,7 +95,12 @@
         "min": 25000,
         "max": 250000,
         "currency": "USD",
-        "options": [25000, 50000, 100000, 250000]
+        "options": [
+          25000,
+          50000,
+          100000,
+          250000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 500,
@@ -118,7 +132,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip or annual",
       "specialFeatures": [
@@ -131,7 +148,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Budget variant of Bajaj Allianz travel plans. Data compiled from public sources."
+      "notes": "Budget variant of Bajaj Allianz travel plans. Data compiled from public sources.",
+      "quoteUrl": "https://www.bajajallianz.com/travel-insurance.html?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "hdfc-ergo-travel-overseas",
@@ -149,7 +167,12 @@
         "min": 50000,
         "max": 500000,
         "currency": "USD",
-        "options": [50000, 100000, 250000, 500000]
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 700,
@@ -183,7 +206,11 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip", "Student"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip",
+          "Student"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -196,7 +223,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page."
+      "notes": "Data compiled from public product page.",
+      "quoteUrl": "https://www.hdfcergo.com/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "hdfc-ergo-travel-domestic",
@@ -214,7 +242,12 @@
         "min": 100000,
         "max": 1000000,
         "currency": "INR",
-        "options": [100000, 250000, 500000, 1000000]
+        "options": [
+          100000,
+          250000,
+          500000,
+          1000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 200,
@@ -244,7 +277,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -257,7 +293,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Domestic travel product. Data compiled from public sources."
+      "notes": "Domestic travel product. Data compiled from public sources.",
+      "quoteUrl": "https://www.hdfcergo.com/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "tata-aig-travel-guard-international",
@@ -275,7 +312,13 @@
         "min": 50000,
         "max": 1000000,
         "currency": "USD",
-        "options": [50000, 100000, 250000, 500000, 1000000]
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000,
+          1000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 900,
@@ -308,7 +351,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -321,7 +367,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page."
+      "notes": "Data compiled from public product page.",
+      "quoteUrl": "https://www.tataaig.com/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "tata-aig-travel-guard-student",
@@ -339,7 +386,11 @@
         "min": 100000,
         "max": 500000,
         "currency": "USD",
-        "options": [100000, 250000, 500000]
+        "options": [
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 5000,
@@ -373,7 +424,9 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip"]
+        "options": [
+          "Single trip"
+        ]
       },
       "renewability": "Per academic year",
       "specialFeatures": [
@@ -386,7 +439,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Student-specific travel plan. Data compiled from public sources."
+      "notes": "Student-specific travel plan. Data compiled from public sources.",
+      "quoteUrl": "https://www.tataaig.com/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "icici-lombard-travel-international",
@@ -404,7 +458,12 @@
         "min": 50000,
         "max": 500000,
         "currency": "USD",
-        "options": [50000, 100000, 250000, 500000]
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 700,
@@ -438,7 +497,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -451,7 +513,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public sources."
+      "notes": "Data compiled from public sources.",
+      "quoteUrl": "https://www.icicilombard.com/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "icici-lombard-travel-domestic",
@@ -469,7 +532,11 @@
         "min": 100000,
         "max": 500000,
         "currency": "INR",
-        "options": [100000, 250000, 500000]
+        "options": [
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 150,
@@ -499,7 +566,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -512,7 +582,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Domestic travel product. Data compiled from public sources."
+      "notes": "Domestic travel product. Data compiled from public sources.",
+      "quoteUrl": "https://www.icicilombard.com/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "digit-international-travel",
@@ -530,7 +601,12 @@
         "min": 50000,
         "max": 500000,
         "currency": "USD",
-        "options": [50000, 100000, 250000, 500000]
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 600,
@@ -563,7 +639,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -576,7 +655,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public sources."
+      "notes": "Data compiled from public sources.",
+      "quoteUrl": "https://www.godigit.com/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "care-health-travel",
@@ -594,7 +674,13 @@
         "min": 25000,
         "max": 500000,
         "currency": "USD",
-        "options": [25000, 50000, 100000, 250000, 500000]
+        "options": [
+          25000,
+          50000,
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 600,
@@ -628,7 +714,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -641,7 +730,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public sources."
+      "notes": "Data compiled from public sources.",
+      "quoteUrl": "https://www.careinsurance.com/buy-health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "reliance-general-travel",
@@ -659,7 +749,12 @@
         "min": 50000,
         "max": 500000,
         "currency": "USD",
-        "options": [50000, 100000, 250000, 500000]
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 600,
@@ -691,7 +786,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -704,7 +802,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public sources."
+      "notes": "Data compiled from public sources.",
+      "quoteUrl": "https://www.reliancegeneral.co.in/Insurance/Travel-Insurance.aspx?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "sbi-general-travel",
@@ -722,7 +821,12 @@
         "min": 50000,
         "max": 500000,
         "currency": "USD",
-        "options": [50000, 100000, 250000, 500000]
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 650,
@@ -755,7 +859,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -768,7 +875,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public sources."
+      "notes": "Data compiled from public sources.",
+      "quoteUrl": "https://www.sbigeneral.in/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "new-india-overseas-mediclaim",
@@ -786,7 +894,12 @@
         "min": 50000,
         "max": 500000,
         "currency": "USD",
-        "options": [50000, 100000, 250000, 500000]
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 700,
@@ -815,7 +928,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -828,7 +944,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "PSU insurer. Widely accepted for visa applications. Data compiled from public sources."
+      "notes": "PSU insurer. Widely accepted for visa applications. Data compiled from public sources.",
+      "quoteUrl": "https://www.newindia.co.in/portal/mediclaim?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "royal-sundaram-travel",
@@ -846,7 +963,12 @@
         "min": 50000,
         "max": 500000,
         "currency": "USD",
-        "options": [50000, 100000, 250000, 500000]
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 650,
@@ -879,7 +1001,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -892,7 +1017,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public sources."
+      "notes": "Data compiled from public sources.",
+      "quoteUrl": "https://www.royalsundaram.in/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "bajaj-allianz-travel-domestic",
@@ -910,7 +1036,11 @@
         "min": 100000,
         "max": 500000,
         "currency": "INR",
-        "options": [100000, 250000, 500000]
+        "options": [
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 150,
@@ -940,7 +1070,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -953,7 +1086,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Domestic variant. Data compiled from public sources."
+      "notes": "Domestic variant. Data compiled from public sources.",
+      "quoteUrl": "https://www.bajajallianz.com/travel-insurance.html?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "tata-aig-travel-domestic",
@@ -971,7 +1105,12 @@
         "min": 100000,
         "max": 1000000,
         "currency": "INR",
-        "options": [100000, 250000, 500000, 1000000]
+        "options": [
+          100000,
+          250000,
+          500000,
+          1000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 200,
@@ -1002,7 +1141,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -1015,7 +1157,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Domestic variant. Data compiled from public sources."
+      "notes": "Domestic variant. Data compiled from public sources.",
+      "quoteUrl": "https://www.tataaig.com/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     }
   ]
 }

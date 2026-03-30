@@ -18,7 +18,15 @@
       "sumInsured": {
         "min": 500000,
         "max": 10000000,
-        "options": [500000, 1000000, 1500000, 2000000, 2500000, 5000000, 10000000]
+        "options": [
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          2500000,
+          5000000,
+          10000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 6500,
@@ -67,7 +75,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -80,7 +92,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Premium figures are illustrative. Verify directly with Star Health for exact terms."
+      "notes": "Data compiled from public product page. Premium figures are illustrative. Verify directly with Star Health for exact terms.",
+      "quoteUrl": "https://www.starhealth.in/buy-online?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "star-family-health-optima",
@@ -97,7 +110,17 @@
       "sumInsured": {
         "min": 500000,
         "max": 25000000,
-        "options": [500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000, 15000000, 25000000]
+        "options": [
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000,
+          10000000,
+          15000000,
+          25000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 10000,
@@ -147,7 +170,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -161,7 +188,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Premium figures are illustrative. Verify directly with Star Health."
+      "notes": "Data compiled from public product page. Premium figures are illustrative. Verify directly with Star Health.",
+      "quoteUrl": "https://www.starhealth.in/buy-online?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "star-senior-citizens-red-carpet",
@@ -178,7 +206,17 @@
       "sumInsured": {
         "min": 100000,
         "max": 2500000,
-        "options": [100000, 200000, 300000, 400000, 500000, 1000000, 1500000, 2000000, 2500000]
+        "options": [
+          100000,
+          200000,
+          300000,
+          400000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          2500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 15000,
@@ -225,7 +263,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -239,7 +281,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. One of the most popular senior citizen plans in India. Verify directly with Star Health."
+      "notes": "Data compiled from public product page. One of the most popular senior citizen plans in India. Verify directly with Star Health.",
+      "quoteUrl": "https://www.starhealth.in/buy-online?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "star-young-star",
@@ -256,7 +299,15 @@
       "sumInsured": {
         "min": 500000,
         "max": 10000000,
-        "options": [500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000]
+        "options": [
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000,
+          10000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 5000,
@@ -304,7 +355,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -317,7 +372,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Targeted at younger demographic. Verify directly with Star Health."
+      "notes": "Data compiled from public product page. Targeted at younger demographic. Verify directly with Star Health.",
+      "quoteUrl": "https://www.starhealth.in/buy-online?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "star-women-care",
@@ -334,7 +390,14 @@
       "sumInsured": {
         "min": 500000,
         "max": 10000000,
-        "options": [500000, 1000000, 1500000, 2000000, 5000000, 10000000]
+        "options": [
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          5000000,
+          10000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 6000,
@@ -382,7 +445,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -396,7 +463,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Women-only plan with maternity. Verify directly with Star Health."
+      "notes": "Data compiled from public product page. Women-only plan with maternity. Verify directly with Star Health.",
+      "quoteUrl": "https://www.starhealth.in/buy-online?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "care-supreme",
@@ -413,7 +481,18 @@
       "sumInsured": {
         "min": 500000,
         "max": 60000000,
-        "options": [500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000, 20000000, 30000000, 60000000]
+        "options": [
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000,
+          10000000,
+          20000000,
+          30000000,
+          60000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 7000,
@@ -464,7 +543,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -478,7 +561,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Premium figures are illustrative. Verify directly with Care Health for exact terms."
+      "notes": "Data compiled from public product page. Premium figures are illustrative. Verify directly with Care Health for exact terms.",
+      "quoteUrl": "https://www.careinsurance.com/buy-health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "care-advantage",
@@ -495,7 +579,15 @@
       "sumInsured": {
         "min": 300000,
         "max": 6000000,
-        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 6000000]
+        "options": [
+          300000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          6000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 4500,
@@ -541,7 +633,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -554,7 +650,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Budget-friendly option. Verify directly with Care Health."
+      "notes": "Data compiled from public product page. Budget-friendly option. Verify directly with Care Health.",
+      "quoteUrl": "https://www.careinsurance.com/buy-health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "care-heart",
@@ -571,7 +668,14 @@
       "sumInsured": {
         "min": 500000,
         "max": 5000000,
-        "options": [500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+        "options": [
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 4000,
@@ -617,7 +721,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -630,7 +738,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Specialized cardiac plan. Verify directly with Care Health."
+      "notes": "Data compiled from public product page. Specialized cardiac plan. Verify directly with Care Health.",
+      "quoteUrl": "https://www.careinsurance.com/buy-health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "care-freedom",
@@ -647,7 +756,14 @@
       "sumInsured": {
         "min": 500000,
         "max": 10000000,
-        "options": [500000, 1000000, 2000000, 3000000, 5000000, 10000000]
+        "options": [
+          500000,
+          1000000,
+          2000000,
+          3000000,
+          5000000,
+          10000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 5500,
@@ -692,7 +808,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -705,7 +825,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Specifically designed for those with pre-existing conditions. Verify directly with Care Health."
+      "notes": "Data compiled from public product page. Specifically designed for those with pre-existing conditions. Verify directly with Care Health.",
+      "quoteUrl": "https://www.careinsurance.com/buy-health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "care-senior",
@@ -722,7 +843,15 @@
       "sumInsured": {
         "min": 300000,
         "max": 5000000,
-        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+        "options": [
+          300000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 18000,
@@ -768,7 +897,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -781,7 +914,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Dedicated senior citizen plan. Verify directly with Care Health."
+      "notes": "Data compiled from public product page. Dedicated senior citizen plan. Verify directly with Care Health.",
+      "quoteUrl": "https://www.careinsurance.com/buy-health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "niva-bupa-reassure-2",
@@ -798,7 +932,18 @@
       "sumInsured": {
         "min": 300000,
         "max": 15000000,
-        "options": [300000, 500000, 700000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000, 15000000]
+        "options": [
+          300000,
+          500000,
+          700000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000,
+          10000000,
+          15000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 5500,
@@ -831,7 +976,7 @@
         "War and nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 56.0,
+        "ratio": 56,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -847,7 +992,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -861,7 +1010,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Verify directly with Niva Bupa."
+      "notes": "Data compiled from public product page. Verify directly with Niva Bupa.",
+      "quoteUrl": "https://www.nivabupa.com/buy-health-insurance-online.html?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "niva-bupa-aspire",
@@ -878,7 +1028,15 @@
       "sumInsured": {
         "min": 1000000,
         "max": 30000000,
-        "options": [1000000, 2000000, 3000000, 5000000, 10000000, 20000000, 30000000]
+        "options": [
+          1000000,
+          2000000,
+          3000000,
+          5000000,
+          10000000,
+          20000000,
+          30000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 9000,
@@ -912,7 +1070,7 @@
         "War and nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 56.0,
+        "ratio": 56,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -928,7 +1086,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -942,7 +1104,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Premium tier plan from Niva Bupa. Verify directly with insurer."
+      "notes": "Data compiled from public product page. Premium tier plan from Niva Bupa. Verify directly with insurer.",
+      "quoteUrl": "https://www.nivabupa.com/buy-health-insurance-online.html?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "niva-bupa-health-companion",
@@ -959,7 +1122,16 @@
       "sumInsured": {
         "min": 300000,
         "max": 10000000,
-        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000]
+        "options": [
+          300000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000,
+          10000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 8000,
@@ -991,7 +1163,7 @@
         "War and nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 56.0,
+        "ratio": 56,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -1007,7 +1179,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -1020,7 +1196,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Family-focused plan. Verify directly with Niva Bupa."
+      "notes": "Data compiled from public product page. Family-focused plan. Verify directly with Niva Bupa.",
+      "quoteUrl": "https://www.nivabupa.com/buy-health-insurance-online.html?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "niva-bupa-senior-first",
@@ -1037,7 +1214,14 @@
       "sumInsured": {
         "min": 500000,
         "max": 5000000,
-        "options": [500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+        "options": [
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 20000,
@@ -1069,7 +1253,7 @@
         "War and nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 56.0,
+        "ratio": 56,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -1083,7 +1267,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -1096,7 +1284,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Senior citizen plan. Verify directly with Niva Bupa."
+      "notes": "Data compiled from public product page. Senior citizen plan. Verify directly with Niva Bupa.",
+      "quoteUrl": "https://www.nivabupa.com/buy-health-insurance-online.html?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "hdfc-ergo-optima-secure",
@@ -1113,7 +1302,19 @@
       "sumInsured": {
         "min": 300000,
         "max": 50000000,
-        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000, 15000000, 20000000, 50000000]
+        "options": [
+          300000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000,
+          10000000,
+          15000000,
+          20000000,
+          50000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 6000,
@@ -1148,7 +1349,7 @@
         "Experimental treatments"
       ],
       "claimSettlement": {
-        "ratio": 71.0,
+        "ratio": 71,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -1164,7 +1365,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -1178,7 +1383,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Verify directly with HDFC ERGO."
+      "notes": "Data compiled from public product page. Verify directly with HDFC ERGO.",
+      "quoteUrl": "https://www.hdfcergo.com/health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "hdfc-ergo-optima-restore",
@@ -1195,7 +1401,17 @@
       "sumInsured": {
         "min": 300000,
         "max": 50000000,
-        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000, 50000000]
+        "options": [
+          300000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000,
+          10000000,
+          50000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 9000,
@@ -1229,7 +1445,7 @@
         "War and nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 71.0,
+        "ratio": 71,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -1245,7 +1461,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -1259,7 +1479,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Popular family plan with restore benefit. Verify directly with HDFC ERGO."
+      "notes": "Data compiled from public product page. Popular family plan with restore benefit. Verify directly with HDFC ERGO.",
+      "quoteUrl": "https://www.hdfcergo.com/health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "hdfc-ergo-my-health-suraksha",
@@ -1276,7 +1497,16 @@
       "sumInsured": {
         "min": 300000,
         "max": 7500000,
-        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000, 7500000]
+        "options": [
+          300000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000,
+          7500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 5000,
@@ -1307,7 +1537,7 @@
         "War and nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 71.0,
+        "ratio": 71,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -1322,7 +1552,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -1335,7 +1569,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Budget-friendly option from HDFC ERGO. Verify directly with insurer."
+      "notes": "Data compiled from public product page. Budget-friendly option from HDFC ERGO. Verify directly with insurer.",
+      "quoteUrl": "https://www.hdfcergo.com/health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "hdfc-ergo-energy-gold",
@@ -1352,7 +1587,15 @@
       "sumInsured": {
         "min": 300000,
         "max": 5000000,
-        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+        "options": [
+          300000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 4500,
@@ -1382,7 +1625,7 @@
         "War and nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 71.0,
+        "ratio": 71,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -1397,7 +1640,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -1410,7 +1657,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Entry-level plan. Verify directly with HDFC ERGO."
+      "notes": "Data compiled from public product page. Entry-level plan. Verify directly with HDFC ERGO.",
+      "quoteUrl": "https://www.hdfcergo.com/health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "icici-lombard-elevate",
@@ -1427,7 +1675,19 @@
       "sumInsured": {
         "min": 300000,
         "max": 50000000,
-        "options": [300000, 500000, 750000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000, 25000000, 50000000]
+        "options": [
+          300000,
+          500000,
+          750000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000,
+          10000000,
+          25000000,
+          50000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 6500,
@@ -1461,7 +1721,7 @@
         "War/nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 83.0,
+        "ratio": 83,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -1477,7 +1737,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -1490,7 +1754,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Verify directly with ICICI Lombard."
+      "notes": "Data compiled from public product page. Verify directly with ICICI Lombard.",
+      "quoteUrl": "https://www.icicilombard.com/health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "icici-lombard-complete-health",
@@ -1507,7 +1772,16 @@
       "sumInsured": {
         "min": 200000,
         "max": 5000000,
-        "options": [200000, 300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+        "options": [
+          200000,
+          300000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 7000,
@@ -1539,7 +1813,7 @@
         "War/nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 83.0,
+        "ratio": 83,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -1554,7 +1828,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -1567,7 +1845,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Family floater plan. Verify directly with ICICI Lombard."
+      "notes": "Data compiled from public product page. Family floater plan. Verify directly with ICICI Lombard.",
+      "quoteUrl": "https://www.icicilombard.com/health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "icici-lombard-health-booster",
@@ -1584,7 +1863,16 @@
       "sumInsured": {
         "min": 500000,
         "max": 50000000,
-        "options": [500000, 1000000, 2000000, 3000000, 5000000, 10000000, 25000000, 50000000]
+        "options": [
+          500000,
+          1000000,
+          2000000,
+          3000000,
+          5000000,
+          10000000,
+          25000000,
+          50000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 2500,
@@ -1616,7 +1904,7 @@
         "Claims below deductible threshold"
       ],
       "claimSettlement": {
-        "ratio": 83.0,
+        "ratio": 83,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -1630,7 +1918,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -1643,7 +1935,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Super top-up plan — works above a deductible. Verify directly with ICICI Lombard."
+      "notes": "Data compiled from public product page. Super top-up plan — works above a deductible. Verify directly with ICICI Lombard.",
+      "quoteUrl": "https://www.icicilombard.com/health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "bajaj-allianz-health-guard",
@@ -1660,7 +1953,17 @@
       "sumInsured": {
         "min": 200000,
         "max": 5000000,
-        "options": [200000, 300000, 400000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+        "options": [
+          200000,
+          300000,
+          400000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 4500,
@@ -1690,7 +1993,7 @@
         "War/nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 78.0,
+        "ratio": 78,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -1706,7 +2009,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -1718,7 +2025,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Verify directly with Bajaj Allianz."
+      "notes": "Data compiled from public product page. Verify directly with Bajaj Allianz.",
+      "quoteUrl": "https://www.bajajallianz.com/health-insurance.html?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "bajaj-allianz-global-health-secure",
@@ -1735,7 +2043,15 @@
       "sumInsured": {
         "min": 1000000,
         "max": 20000000,
-        "options": [1000000, 2000000, 3000000, 5000000, 10000000, 15000000, 20000000]
+        "options": [
+          1000000,
+          2000000,
+          3000000,
+          5000000,
+          10000000,
+          15000000,
+          20000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 12000,
@@ -1768,7 +2084,7 @@
         "War/nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 78.0,
+        "ratio": 78,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -1783,7 +2099,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -1797,7 +2117,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Global coverage plan. Verify directly with Bajaj Allianz."
+      "notes": "Data compiled from public product page. Global coverage plan. Verify directly with Bajaj Allianz.",
+      "quoteUrl": "https://www.bajajallianz.com/health-insurance.html?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "bajaj-allianz-health-infinity",
@@ -1814,7 +2135,14 @@
       "sumInsured": {
         "min": 1000000,
         "max": 100000000,
-        "options": [1000000, 2000000, 5000000, 10000000, 50000000, 100000000]
+        "options": [
+          1000000,
+          2000000,
+          5000000,
+          10000000,
+          50000000,
+          100000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 3000,
@@ -1846,7 +2174,7 @@
         "Claims below deductible"
       ],
       "claimSettlement": {
-        "ratio": 78.0,
+        "ratio": 78,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -1860,7 +2188,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -1873,7 +2205,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Super top-up with very high SI. Verify directly with Bajaj Allianz."
+      "notes": "Data compiled from public product page. Super top-up with very high SI. Verify directly with Bajaj Allianz.",
+      "quoteUrl": "https://www.bajajallianz.com/health-insurance.html?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "tata-aig-medicare",
@@ -1890,7 +2223,16 @@
       "sumInsured": {
         "min": 300000,
         "max": 10000000,
-        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000]
+        "options": [
+          300000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000,
+          10000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 5500,
@@ -1922,7 +2264,7 @@
         "War/nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 72.0,
+        "ratio": 72,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -1938,7 +2280,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -1951,7 +2297,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Verify directly with Tata AIG."
+      "notes": "Data compiled from public product page. Verify directly with Tata AIG.",
+      "quoteUrl": "https://www.tataaig.com/health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "tata-aig-mediprime",
@@ -1968,7 +2315,15 @@
       "sumInsured": {
         "min": 1000000,
         "max": 20000000,
-        "options": [1000000, 2000000, 3000000, 5000000, 10000000, 15000000, 20000000]
+        "options": [
+          1000000,
+          2000000,
+          3000000,
+          5000000,
+          10000000,
+          15000000,
+          20000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 10000,
@@ -2001,7 +2356,7 @@
         "War/nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 72.0,
+        "ratio": 72,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -2017,7 +2372,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -2031,7 +2390,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Premium tier plan from Tata AIG. Verify directly with insurer."
+      "notes": "Data compiled from public product page. Premium tier plan from Tata AIG. Verify directly with insurer.",
+      "quoteUrl": "https://www.tataaig.com/health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "tata-aig-wellsurance",
@@ -2048,7 +2408,14 @@
       "sumInsured": {
         "min": 500000,
         "max": 10000000,
-        "options": [500000, 1000000, 2000000, 3000000, 5000000, 10000000]
+        "options": [
+          500000,
+          1000000,
+          2000000,
+          3000000,
+          5000000,
+          10000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 6000,
@@ -2080,7 +2447,7 @@
         "War/nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 72.0,
+        "ratio": 72,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -2095,7 +2462,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -2108,7 +2479,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Wellness-oriented plan. Verify directly with Tata AIG."
+      "notes": "Data compiled from public product page. Wellness-oriented plan. Verify directly with Tata AIG.",
+      "quoteUrl": "https://www.tataaig.com/health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "new-india-assurance-mediclaim",
@@ -2125,7 +2497,16 @@
       "sumInsured": {
         "min": 100000,
         "max": 1500000,
-        "options": [100000, 200000, 300000, 400000, 500000, 750000, 1000000, 1500000]
+        "options": [
+          100000,
+          200000,
+          300000,
+          400000,
+          500000,
+          750000,
+          1000000,
+          1500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 3500,
@@ -2157,7 +2538,7 @@
         "Congenital diseases"
       ],
       "claimSettlement": {
-        "ratio": 92.0,
+        "ratio": 92,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -2171,7 +2552,9 @@
       "policyTenure": {
         "min": 1,
         "max": 1,
-        "options": [1]
+        "options": [
+          1
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -2184,7 +2567,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. PSU insurer with high claim settlement ratio. Verify directly with New India Assurance."
+      "notes": "Data compiled from public product page. PSU insurer with high claim settlement ratio. Verify directly with New India Assurance.",
+      "quoteUrl": "https://www.newindia.co.in/portal/mediclaim?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "aditya-birla-activ-health-platinum",
@@ -2201,7 +2585,17 @@
       "sumInsured": {
         "min": 200000,
         "max": 20000000,
-        "options": [200000, 300000, 500000, 1000000, 1500000, 2000000, 5000000, 10000000, 20000000]
+        "options": [
+          200000,
+          300000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          5000000,
+          10000000,
+          20000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 7000,
@@ -2235,7 +2629,7 @@
         "War/nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 58.0,
+        "ratio": 58,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -2251,7 +2645,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -2265,7 +2663,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Known for wellness integration. Verify directly with Aditya Birla Health."
+      "notes": "Data compiled from public product page. Known for wellness integration. Verify directly with Aditya Birla Health.",
+      "quoteUrl": "https://www.adityabirlahealthinsurance.com/health-insurance-plans?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "aditya-birla-activ-fit",
@@ -2282,7 +2681,16 @@
       "sumInsured": {
         "min": 300000,
         "max": 7500000,
-        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000, 7500000]
+        "options": [
+          300000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000,
+          7500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 4500,
@@ -2313,7 +2721,7 @@
         "War/nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 58.0,
+        "ratio": 58,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -2328,7 +2736,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -2341,7 +2753,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Fitness-oriented budget plan. Verify directly with Aditya Birla Health."
+      "notes": "Data compiled from public product page. Fitness-oriented budget plan. Verify directly with Aditya Birla Health.",
+      "quoteUrl": "https://www.adityabirlahealthinsurance.com/health-insurance-plans?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "manipalcigna-lifetime-health",
@@ -2358,7 +2771,18 @@
       "sumInsured": {
         "min": 300000,
         "max": 30000000,
-        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000, 20000000, 30000000]
+        "options": [
+          300000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000,
+          10000000,
+          20000000,
+          30000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 6000,
@@ -2391,7 +2815,7 @@
         "War/nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 62.0,
+        "ratio": 62,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -2407,7 +2831,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -2421,7 +2849,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Backed by global Cigna expertise. Verify directly with ManipalCigna."
+      "notes": "Data compiled from public product page. Backed by global Cigna expertise. Verify directly with ManipalCigna.",
+      "quoteUrl": "https://www.manipalcigna.com/health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "manipalcigna-prohealth-plus",
@@ -2438,7 +2867,17 @@
       "sumInsured": {
         "min": 500000,
         "max": 30000000,
-        "options": [500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000, 20000000, 30000000]
+        "options": [
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000,
+          10000000,
+          20000000,
+          30000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 10000,
@@ -2471,7 +2910,7 @@
         "War/nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 62.0,
+        "ratio": 62,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -2487,7 +2926,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -2501,7 +2944,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Family floater plan. Verify directly with ManipalCigna."
+      "notes": "Data compiled from public product page. Family floater plan. Verify directly with ManipalCigna.",
+      "quoteUrl": "https://www.manipalcigna.com/health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "go-digit-health-insurance",
@@ -2518,7 +2962,15 @@
       "sumInsured": {
         "min": 300000,
         "max": 5000000,
-        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+        "options": [
+          300000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 4000,
@@ -2549,7 +3001,7 @@
         "War/nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 68.0,
+        "ratio": 68,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -2564,7 +3016,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -2594,7 +3050,14 @@
       "sumInsured": {
         "min": 500000,
         "max": 10000000,
-        "options": [500000, 1000000, 2000000, 3000000, 5000000, 10000000]
+        "options": [
+          500000,
+          1000000,
+          2000000,
+          3000000,
+          5000000,
+          10000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 5000,
@@ -2627,7 +3090,7 @@
         "War/nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 74.0,
+        "ratio": 74,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -2642,7 +3105,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -2656,7 +3123,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Digital-only insurer with transparent pricing. Verify directly with Acko."
+      "notes": "Data compiled from public product page. Digital-only insurer with transparent pricing. Verify directly with Acko.",
+      "quoteUrl": "https://www.acko.com/health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "reliance-health-infinity",
@@ -2673,7 +3141,16 @@
       "sumInsured": {
         "min": 300000,
         "max": 10000000,
-        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000]
+        "options": [
+          300000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000,
+          10000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 5500,
@@ -2705,7 +3182,7 @@
         "War/nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 80.0,
+        "ratio": 80,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -2721,7 +3198,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -2734,7 +3215,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Verify directly with Reliance General Insurance."
+      "notes": "Data compiled from public product page. Verify directly with Reliance General Insurance.",
+      "quoteUrl": "https://www.reliancegeneral.co.in/Insurance/Health-Insurance.aspx?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "reliance-health-wise",
@@ -2751,7 +3233,16 @@
       "sumInsured": {
         "min": 200000,
         "max": 5000000,
-        "options": [200000, 300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+        "options": [
+          200000,
+          300000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 3500,
@@ -2781,7 +3272,7 @@
         "War/nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 80.0,
+        "ratio": 80,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -2796,7 +3287,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -2809,7 +3304,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Budget plan from Reliance General. Verify directly with insurer."
+      "notes": "Data compiled from public product page. Budget plan from Reliance General. Verify directly with insurer.",
+      "quoteUrl": "https://www.reliancegeneral.co.in/Insurance/Health-Insurance.aspx?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "cholamandalam-healthline",
@@ -2826,7 +3322,16 @@
       "sumInsured": {
         "min": 200000,
         "max": 5000000,
-        "options": [200000, 300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+        "options": [
+          200000,
+          300000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 4000,
@@ -2857,7 +3362,7 @@
         "War/nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 75.0,
+        "ratio": 75,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -2873,7 +3378,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -2886,7 +3395,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Backed by Murugappa Group. Verify directly with Cholamandalam MS."
+      "notes": "Data compiled from public product page. Backed by Murugappa Group. Verify directly with Cholamandalam MS.",
+      "quoteUrl": "https://www.cholainsurance.com/health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "sbi-general-arogya-supreme",
@@ -2903,7 +3413,18 @@
       "sumInsured": {
         "min": 300000,
         "max": 50000000,
-        "options": [300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000, 25000000, 50000000]
+        "options": [
+          300000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000,
+          10000000,
+          25000000,
+          50000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 5500,
@@ -2937,7 +3458,7 @@
         "War/nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 85.0,
+        "ratio": 85,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -2953,7 +3474,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -2967,7 +3492,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Backed by SBI. Verify directly with SBI General."
+      "notes": "Data compiled from public product page. Backed by SBI. Verify directly with SBI General.",
+      "quoteUrl": "https://www.sbigeneral.in/health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "sbi-general-arogya-sanjeevani",
@@ -2984,7 +3510,15 @@
       "sumInsured": {
         "min": 100000,
         "max": 500000,
-        "options": [100000, 150000, 200000, 250000, 300000, 400000, 500000]
+        "options": [
+          100000,
+          150000,
+          200000,
+          250000,
+          300000,
+          400000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 2500,
@@ -3015,7 +3549,7 @@
         "Room rent above 2% of SI"
       ],
       "claimSettlement": {
-        "ratio": 85.0,
+        "ratio": 85,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -3029,7 +3563,9 @@
       "policyTenure": {
         "min": 1,
         "max": 1,
-        "options": [1]
+        "options": [
+          1
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -3042,7 +3578,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "IRDAI-mandated standard product. Available from all health/general insurers with same terms. Verify directly with SBI General."
+      "notes": "IRDAI-mandated standard product. Available from all health/general insurers with same terms. Verify directly with SBI General.",
+      "quoteUrl": "https://www.sbigeneral.in/health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "kotak-health-secure",
@@ -3059,7 +3596,16 @@
       "sumInsured": {
         "min": 200000,
         "max": 5000000,
-        "options": [200000, 300000, 500000, 1000000, 1500000, 2000000, 3000000, 5000000]
+        "options": [
+          200000,
+          300000,
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 4500,
@@ -3090,7 +3636,7 @@
         "War/nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 70.0,
+        "ratio": 70,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -3106,7 +3652,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -3119,7 +3669,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Kotak Group insurer. Verify directly with Kotak General."
+      "notes": "Data compiled from public product page. Kotak Group insurer. Verify directly with Kotak General.",
+      "quoteUrl": "https://www.kotakgeneralinsurance.com/health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "kotak-health-premier",
@@ -3136,7 +3687,16 @@
       "sumInsured": {
         "min": 500000,
         "max": 20000000,
-        "options": [500000, 1000000, 2000000, 3000000, 5000000, 10000000, 15000000, 20000000]
+        "options": [
+          500000,
+          1000000,
+          2000000,
+          3000000,
+          5000000,
+          10000000,
+          15000000,
+          20000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 8000,
@@ -3170,7 +3730,7 @@
         "War/nuclear perils"
       ],
       "claimSettlement": {
-        "ratio": 70.0,
+        "ratio": 70,
         "year": "FY2023-24",
         "source": "IRDAI Annual Report — unverified, check latest"
       },
@@ -3186,7 +3746,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -3200,7 +3764,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-24",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page. Premium tier plan from Kotak. Verify directly with Kotak General."
+      "notes": "Data compiled from public product page. Premium tier plan from Kotak. Verify directly with Kotak General.",
+      "quoteUrl": "https://www.kotakgeneralinsurance.com/health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     },
     {
       "id": "star-super-star",
@@ -3218,7 +3783,15 @@
         "min": 500000,
         "max": 10000000,
         "currency": "INR",
-        "options": [500000, 1000000, 1500000, 2000000, 3000000, 5000000, 10000000]
+        "options": [
+          500000,
+          1000000,
+          1500000,
+          2000000,
+          3000000,
+          5000000,
+          10000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 8000,
@@ -3265,7 +3838,11 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 2, 3]
+        "options": [
+          1,
+          2,
+          3
+        ]
       },
       "renewability": "Lifelong",
       "specialFeatures": [
@@ -3278,7 +3855,8 @@
       "sourceType": "official-website",
       "lastVerified": "2026-03-28",
       "confidenceScore": "medium",
-      "notes": "Added via AI Agent. New plan with unlimited restore and OPD cover. Premium figures are illustrative."
+      "notes": "Added via AI Agent. New plan with unlimited restore and OPD cover. Premium figures are illustrative.",
+      "quoteUrl": "https://www.starhealth.in/buy-online?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
     }
   ]
 }
