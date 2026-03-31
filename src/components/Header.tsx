@@ -183,6 +183,9 @@ export default function Header() {
             <Link href="/learn" className="px-3 py-1.5 text-[13px] font-medium text-text-secondary hover:text-text-primary hover:bg-surface-sunken rounded-lg transition-all">
               Learn
             </Link>
+            <Link href="/insights" className="px-3 py-1.5 text-[13px] font-medium text-text-secondary hover:text-text-primary hover:bg-surface-sunken rounded-lg transition-all">
+              Insights
+            </Link>
             <Link href="/about" className="px-3 py-1.5 text-[13px] font-medium text-text-secondary hover:text-text-primary hover:bg-surface-sunken rounded-lg transition-all">
               About
             </Link>
@@ -266,6 +269,7 @@ export default function Header() {
               {[
                 { name: "Insurers", href: "/insurers" },
                 { name: "Learn", href: "/learn" },
+                { name: "Insights", href: "/insights" },
                 { name: "About", href: "/about" },
                 { name: "Contact", href: "/contact" },
               ].map((item) => (
