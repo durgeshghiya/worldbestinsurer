@@ -586,10 +586,337 @@ h1, h2, h3, h4, h5, h6 {
 .animate-pulse-slow { animation: pulse-slow 3s ease-in-out infinite; }
 
 /* ═══════════════════════════════════════
+   PLAYFUL ANIMATIONS — Bouncy & Fun
+   ═══════════════════════════════════════ */
+
+@keyframes bounce-in {
+  0% { opacity: 0; transform: scale(0.3); }
+  50% { opacity: 1; transform: scale(1.08); }
+  70% { transform: scale(0.96); }
+  100% { opacity: 1; transform: scale(1); }
+}
+.animate-bounce-in { animation: bounce-in 0.6s var(--ease-out-back) forwards; }
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  15% { transform: rotate(-6deg); }
+  30% { transform: rotate(4deg); }
+  45% { transform: rotate(-3deg); }
+  60% { transform: rotate(2deg); }
+  75% { transform: rotate(-1deg); }
+}
+.animate-wiggle { animation: wiggle 0.6s ease-in-out; }
+
+@keyframes pop {
+  0% { transform: scale(0); opacity: 0; }
+  60% { transform: scale(1.15); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.animate-pop { animation: pop 0.4s var(--ease-out-back) forwards; }
+
+@keyframes rubber-band {
+  0% { transform: scaleX(1); }
+  30% { transform: scaleX(1.15) scaleY(0.9); }
+  40% { transform: scaleX(0.9) scaleY(1.08); }
+  50% { transform: scaleX(1.05) scaleY(0.96); }
+  65% { transform: scaleX(0.98) scaleY(1.02); }
+  75% { transform: scaleX(1.02) scaleY(0.99); }
+  100% { transform: scaleX(1) scaleY(1); }
+}
+.animate-rubber-band { animation: rubber-band 0.8s ease; }
+
+@keyframes jello {
+  0%, 100% { transform: skewX(0deg) skewY(0deg); }
+  15% { transform: skewX(-8deg) skewY(-2deg); }
+  30% { transform: skewX(5deg) skewY(1deg); }
+  45% { transform: skewX(-3deg) skewY(-1deg); }
+  60% { transform: skewX(2deg) skewY(0.5deg); }
+  75% { transform: skewX(-1deg) skewY(-0.3deg); }
+}
+.animate-jello { animation: jello 0.9s ease; }
+
+@keyframes stamp {
+  0% { opacity: 0; transform: scale(2.5) rotate(-8deg); }
+  50% { opacity: 1; transform: scale(0.95) rotate(1deg); }
+  70% { transform: scale(1.03) rotate(-0.5deg); }
+  100% { opacity: 1; transform: scale(1) rotate(0); }
+}
+.animate-stamp { animation: stamp 0.5s var(--ease-out-expo) forwards; }
+
+@keyframes draw-check {
+  0% { stroke-dashoffset: 100; }
+  100% { stroke-dashoffset: 0; }
+}
+.animate-draw-check {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: draw-check 0.6s ease forwards 0.2s;
+}
+
+@keyframes sparkle-spin {
+  0% { transform: rotate(0deg) scale(0); opacity: 0; }
+  50% { transform: rotate(180deg) scale(1); opacity: 1; }
+  100% { transform: rotate(360deg) scale(0); opacity: 0; }
+}
+.animate-sparkle { animation: sparkle-spin 0.7s ease forwards; }
+
+@keyframes aurora {
+  0% { background-position: 0% 50%; }
+  25% { background-position: 50% 100%; }
+  50% { background-position: 100% 50%; }
+  75% { background-position: 50% 0%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ── Aurora background ── */
+.bg-aurora {
+  background: linear-gradient(
+    -45deg,
+    rgba(45, 58, 140, 0.08),
+    rgba(196, 125, 46, 0.06),
+    rgba(45, 143, 111, 0.06),
+    rgba(196, 64, 88, 0.05),
+    rgba(45, 58, 140, 0.08)
+  );
+  background-size: 400% 400%;
+  animation: aurora 15s ease infinite;
+}
+
+/* ── Mesh gradient background ── */
+.bg-mesh {
+  background:
+    radial-gradient(at 40% 20%, rgba(45, 58, 140, 0.08) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, rgba(196, 125, 46, 0.06) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, rgba(45, 143, 111, 0.05) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, rgba(196, 64, 88, 0.04) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, rgba(45, 58, 140, 0.06) 0px, transparent 50%);
+}
+
+/* ═══════════════════════════════════════
+   FORM INTERACTIONS — Alive & Responsive
+   ═══════════════════════════════════════ */
+
+.input-animated {
+  position: relative;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  transition: all 0.35s var(--ease-out-expo);
+}
+.input-animated:focus-within {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-glow), 0 4px 16px -4px rgba(45, 58, 140, 0.12);
+  transform: translateY(-1px);
+}
+
+/* Floating label */
+.input-label-float {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: var(--text-tertiary);
+  pointer-events: none;
+  transition: all 0.25s var(--ease-out-expo);
+  transform-origin: left center;
+}
+.input-animated:focus-within .input-label-float,
+.input-animated.has-value .input-label-float {
+  top: 6px;
+  transform: translateY(0) scale(0.75);
+  color: var(--primary);
+  font-weight: 600;
+}
+
+/* Shake for validation error */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  15% { transform: translateX(-6px); }
+  30% { transform: translateX(5px); }
+  45% { transform: translateX(-4px); }
+  60% { transform: translateX(3px); }
+  75% { transform: translateX(-2px); }
+}
+.input-error {
+  border-color: var(--danger) !important;
+  animation: shake 0.5s ease;
+  box-shadow: 0 0 0 3px rgba(196, 64, 64, 0.12) !important;
+}
+
+/* Expanding underline input variant */
+.input-underline {
+  border: none;
+  border-bottom: 2px solid var(--border);
+  border-radius: 0;
+  background: transparent;
+  padding: 12px 0;
+  transition: border-color 0.3s var(--ease-out-expo);
+}
+.input-underline::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--primary);
+  transition: all 0.3s var(--ease-out-expo);
+}
+.input-underline:focus-within {
+  border-bottom-color: var(--primary);
+}
+
+/* ═══════════════════════════════════════
+   BUTTON ENHANCEMENTS — Tactile & Fun
+   ═══════════════════════════════════════ */
+
+/* Bouncy press effect */
+.btn-bouncy {
+  transition: all 0.2s var(--ease-out-expo);
+}
+.btn-bouncy:hover {
+  transform: translateY(-2px);
+}
+.btn-bouncy:active {
+  transform: translateY(1px) scale(0.97);
+  transition-duration: 0.1s;
+}
+
+/* Magnetic hover area */
+.btn-magnetic {
+  transition: transform 0.3s var(--ease-out-expo);
+}
+
+/* Ripple container */
+.btn-ripple {
+  position: relative;
+  overflow: hidden;
+}
+.btn-ripple .ripple-effect {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+  transform: scale(0);
+  animation: ripple-expand 0.6s ease-out forwards;
+  pointer-events: none;
+}
+
+@keyframes ripple-expand {
+  to { transform: scale(4); opacity: 0; }
+}
+
+/* ═══════════════════════════════════════
+   3D CARD EFFECTS — Depth & Delight
+   ═══════════════════════════════════════ */
+
+.card-tilt {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transition: transform 0.3s var(--ease-out-expo), box-shadow 0.3s var(--ease-out-expo);
+}
+.card-tilt:hover {
+  box-shadow: var(--shadow-xl);
+}
+
+/* Spotlight gradient that follows cursor */
+.card-spotlight {
+  position: relative;
+  overflow: hidden;
+}
+.card-spotlight::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    rgba(45, 58, 140, 0.06),
+    transparent 40%
+  );
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+.card-spotlight:hover::before {
+  opacity: 1;
+}
+
+/* ═══════════════════════════════════════
+   SCROLL PROGRESS BAR
+   ═══════════════════════════════════════ */
+
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  z-index: 9999;
+  transform-origin: left;
+  transition: transform 0.1s linear;
+}
+
+/* ═══════════════════════════════════════
+   SECTION DIVIDERS — Playful Separators
+   ═══════════════════════════════════════ */
+
+.divider-wave {
+  position: relative;
+  height: 48px;
+  overflow: hidden;
+}
+.divider-wave svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 48px;
+}
+
+.divider-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 32px 0;
+}
+.divider-dots span {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--border-strong);
+}
+
+.divider-zigzag {
+  background-image: linear-gradient(135deg, var(--border-light) 25%, transparent 25%),
+    linear-gradient(225deg, var(--border-light) 25%, transparent 25%);
+  background-size: 20px 10px;
+  height: 10px;
+  margin: 32px 0;
+}
+
+/* ═══════════════════════════════════════
+   CONFETTI PARTICLES
+   ═══════════════════════════════════════ */
+
+@keyframes confetti-fall {
+  0% { transform: translateY(0) rotate(0deg) scale(1); opacity: 1; }
+  100% { transform: translateY(120px) rotate(720deg) scale(0.3); opacity: 0; }
+}
+
+.confetti-particle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 1px;
+  animation: confetti-fall 1s var(--ease-out-expo) forwards;
+  pointer-events: none;
+}
+
+/* ═══════════════════════════════════════
    INTERACTIVE DETAILS
    ═══════════════════════════════════════ */
 
-/* ── Link underline animation ── */
+/* ── Link underline animation (from center) ── */
 .link-underline {
   position: relative;
   text-decoration: none;
@@ -598,11 +925,12 @@ h1, h2, h3, h4, h5, h6 {
   content: "";
   position: absolute;
   bottom: -2px;
-  left: 0;
+  left: 50%;
   width: 0;
   height: 1.5px;
   background: currentColor;
-  transition: width 0.3s var(--ease-out-expo);
+  transition: all 0.3s var(--ease-out-expo);
+  transform: translateX(-50%);
 }
 .link-underline:hover::after {
   width: 100%;
@@ -619,6 +947,20 @@ hr {
   border: none;
   height: 1px;
   background: var(--border);
+}
+
+/* ── Animated tooltip ── */
+.tooltip-animated {
+  animation: pop 0.25s var(--ease-out-back) forwards;
+  transform-origin: center bottom;
+}
+
+/* ── Hover glow ring ── */
+.hover-glow {
+  transition: box-shadow 0.3s var(--ease-out-expo);
+}
+.hover-glow:hover {
+  box-shadow: 0 0 0 4px var(--primary-glow), var(--shadow-lg);
 }
 
 /* ═══════════════════════════════════════

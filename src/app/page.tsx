@@ -36,6 +36,9 @@ import ScrollReveal from "@/components/immersive/ScrollReveal";
 import CounterAnimation from "@/components/immersive/CounterAnimation";
 import InsuranceMiniGames from "@/components/immersive/InsuranceMiniGames";
 import GameLauncher from "@/components/immersive/GameLauncher";
+import TiltCard from "@/components/TiltCard";
+import SectionDivider from "@/components/SectionDivider";
+import AnimatedBackground from "@/components/AnimatedBackground";
 
 /* ─── category helpers ─── */
 const categoryIcons: Record<string, typeof Heart> = {
@@ -239,6 +242,8 @@ export default function HomePage() {
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[var(--background,#ffffff)] to-transparent z-10" />
       </section>
 
+      <SectionDivider variant="dots" />
+
       {/* ================================================================= */}
       {/*  SECTION 2: INSURANCE LANDS — "Explore Our Worlds"                */}
       {/* ================================================================= */}
@@ -326,12 +331,12 @@ export default function HomePage() {
         </div>
       </section>
 
+      <SectionDivider variant="gradient" />
+
       {/* ================================================================= */}
       {/*  SECTION 4: QUEST — "Begin Your Quest"                            */}
       {/* ================================================================= */}
-      <section className="relative py-20 sm:py-28 overflow-hidden">
-        {/* Background gradient with subtle pattern */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[var(--background,#ffffff)] via-[#f8f6f3] to-[var(--background,#ffffff)]" />
+      <AnimatedBackground variant="mesh" className="py-20 sm:py-28 overflow-hidden">
         <div className="absolute inset-0 bg-grid opacity-[0.03]" />
 
         <div className="relative z-10 mx-auto max-w-[1320px] px-5 lg:px-8">
@@ -354,7 +359,9 @@ export default function HomePage() {
             <QuestJourney />
           </ScrollReveal>
         </div>
-      </section>
+      </AnimatedBackground>
+
+      <SectionDivider variant="wave" />
 
       {/* ================================================================= */}
       {/*  SECTION 5: COUNTRY CAROUSEL — "Travel the Globe"                 */}
@@ -418,6 +425,8 @@ export default function HomePage() {
           </div>
         </ScrollReveal>
       </section>
+
+      <SectionDivider variant="dots" />
 
       {/* ================================================================= */}
       {/*  SECTION 6: FEATURED ARTICLES — "Knowledge is Power"              */}
@@ -592,25 +601,27 @@ export default function HomePage() {
               },
             ].map((item) => (
               <ScrollReveal key={item.title}>
-                <div className="group p-6 rounded-2xl bg-surface border border-border hover:border-[var(--primary,#2d3a8c)]/20 hover:shadow-lg transition-all duration-300 h-full">
-                  <div
-                    className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300"
-                    style={{
-                      backgroundColor: `${item.color}15`,
-                    }}
-                  >
-                    <item.icon
-                      className="w-6 h-6"
-                      style={{ color: item.color }}
-                    />
+                <TiltCard className="h-full rounded-2xl bg-surface border border-border hover:border-[var(--primary,#2d3a8c)]/20 transition-all duration-300">
+                  <div className="p-6 h-full">
+                    <div
+                      className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 transition-transform duration-300"
+                      style={{
+                        backgroundColor: `${item.color}15`,
+                      }}
+                    >
+                      <item.icon
+                        className="w-6 h-6"
+                        style={{ color: item.color }}
+                      />
+                    </div>
+                    <h3 className="text-[15px] font-bold text-text-primary mb-2">
+                      {item.title}
+                    </h3>
+                    <p className="text-[13px] text-text-tertiary leading-relaxed">
+                      {item.desc}
+                    </p>
                   </div>
-                  <h3 className="text-[15px] font-bold text-text-primary mb-2">
-                    {item.title}
-                  </h3>
-                  <p className="text-[13px] text-text-tertiary leading-relaxed">
-                    {item.desc}
-                  </p>
-                </div>
+                </TiltCard>
               </ScrollReveal>
             ))}
           </div>

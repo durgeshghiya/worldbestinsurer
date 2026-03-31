@@ -14,7 +14,7 @@ export default function ProductCard({ product }: { product: InsuranceProduct }) 
   const freshness = freshnessLabel(p.lastVerified);
 
   return (
-    <div className="group card-premium bg-surface rounded-2xl border border-border overflow-hidden">
+    <div className="group card-premium card-spotlight bg-surface rounded-2xl border border-border overflow-hidden">
       {/* Top bar with category color */}
       <div className={cn(
         "h-1",
