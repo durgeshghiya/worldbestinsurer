@@ -14,7 +14,6 @@
 
 import * as fs from "fs";
 import * as path from "path";
-import * as crypto from "crypto";
 
 const ROOT = path.resolve(__dirname, "../../");
 const DOMAIN = "https://worldbestinsurer.com";
@@ -22,8 +21,8 @@ const STATE_FILE = path.join(ROOT, "data/seo/indexing-state.json");
 const LOG_FILE = path.join(ROOT, "data/seo/indexing-log.jsonl");
 
 // ---- IndexNow (Bing, Yandex, Seznam, Naver) ----
-// Generate a key and place it at /public/<key>.txt
-const INDEXNOW_KEY = crypto.randomBytes(16).toString("hex");
+// Static key — matches the deployed file at /public/wbi-indexnow-2026.txt
+const INDEXNOW_KEY = "wbi-indexnow-2026";
 const INDEXNOW_KEY_FILE = path.join(ROOT, "public", `${INDEXNOW_KEY}.txt`);
 
 interface IndexingState {
@@ -71,7 +70,7 @@ function getAllURLs(): string[] {
 
   // Static pages
   urls.push("/");
-  urls.push("/about/", "/contact/", "/disclaimer/", "/methodology/", "/waitlist/", "/insurers/", "/learn/");
+  urls.push("/about/", "/contact/", "/disclaimer/", "/methodology/", "/waitlist/", "/insurers/", "/learn/", "/insights/");
 
   // Country pages
   for (const cc of countryCodes) {
@@ -151,12 +150,8 @@ async function submitIndexNow(urls: string[]): Promise<{ success: number; failed
     console.log(`  ⚠️  Push this file to GitHub for IndexNow to work\n`);
   }
 
-  // Read saved key from state or use file
-  let key = INDEXNOW_KEY;
-  const keyFiles = fs.readdirSync(path.join(ROOT, "public")).filter(f => f.endsWith(".txt") && f.length === 36);
-  if (keyFiles.length > 0) {
-    key = keyFiles[0].replace(".txt", "");
-  }
+  // Use static key (wbi-indexnow-2026) — already deployed to production
+  const key = INDEXNOW_KEY;
 
   const fullUrls = urls.map(u => `${DOMAIN}${u}`);
 
