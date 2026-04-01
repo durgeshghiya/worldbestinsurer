@@ -28,7 +28,7 @@ function getAllURLs(): { url: string; priority: number; tier: string }[] {
 
   // Tier 1: Homepage + core (priority 100)
   ["/", "/compare/health/", "/compare/term-life/", "/compare/motor/", "/compare/travel/",
-   "/insurers/", "/learn/", "/about/", "/contact/", "/methodology/", "/disclaimer/", "/waitlist/"
+   "/insurers/", "/learn/", "/about/", "/contact/", "/methodology/", "/disclaimer/", "/waitlist/", "/insights/"
   ].forEach(u => urls.push({ url: `${DOMAIN}${u}`, priority: 100, tier: "core" }));
 
   // Tier 2: Country pages (priority 90)
