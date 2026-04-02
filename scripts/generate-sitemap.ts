@@ -68,6 +68,7 @@ const coreEntries = [
   urlEntry("/disclaimer/", "0.4", "monthly"),
   urlEntry("/methodology/", "0.5", "monthly"),
   urlEntry("/waitlist/", "0.5", "monthly"),
+  urlEntry("/insights/", "0.8", "weekly"),
 ];
 // Country pages
 for (const cc of countryCodes) {
