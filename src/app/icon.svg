@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d3a8c"/>
+      <stop offset="100%" style="stop-color:#1e2b7a"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield shape -->
+  <path d="M256 22C256 22 60 80 60 80C60 80 60 260 60 300C60 410 256 490 256 490C256 490 452 410 452 300C452 260 452 80 452 80C452 80 256 22 256 22Z" fill="url(#bg)"/>
+  <!-- Inner shield border -->
+  <path d="M256 50C256 50 85 100 85 100C85 100 85 270 85 300C85 395 256 465 256 465C256 465 427 395 427 300C427 270 427 100 427 100C427 100 256 50 256 50Z" fill="none" stroke="#c47d2e" stroke-width="4" opacity="0.5"/>
+  <!-- WBI text -->
+  <text x="256" y="290" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="160" fill="white" text-anchor="middle" dominant-baseline="middle" letter-spacing="-5">WBI</text>
+  <!-- Small copper accent line -->
+  <line x1="160" y1="340" x2="352" y2="340" stroke="#c47d2e" stroke-width="8" stroke-linecap="round"/>
+</svg>
