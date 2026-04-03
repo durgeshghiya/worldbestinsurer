@@ -1,974 +1,247 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-03-24",
-  "disclaimer": "Data collected from publicly available sources. Auto insurance premiums vary dramatically by state, driving record, vehicle, age, credit score, and coverage levels. Figures are national averages and illustrative only. Zura does not sell insurance.",
+  "lastUpdated": "2026-04-03",
+  "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
       "id": "state-farm-auto",
-      "insurerName": "State Farm Mutual Automobile Insurance Company",
+      "insurerName": "State Farm",
       "insurerSlug": "state-farm",
       "productName": "State Farm Auto Insurance",
       "category": "motor",
-      "subCategory": "auto",
-      "countryCode": "us",
+      "subCategory": "comprehensive",
       "eligibility": {
-        "minAge": 16,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
         "min": null,
         "max": null,
-        "currency": "USD",
-        "note": "Liability limits from 25/50/25 to 250/500/250 or higher"
+        "options": []
       },
       "premiumRange": {
-        "illustrativeMin": 100,
-        "illustrativeMax": 250,
-        "assumptions": "Full coverage, 30-year-old, clean record, monthly. National average. Varies widely by state.",
+        "illustrativeMin": 1100,
+        "illustrativeMax": 1500,
+        "assumptions": "Annual, avg driver",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Bodily injury liability",
-        "Property damage liability",
-        "Collision coverage",
-        "Comprehensive coverage",
-        "Uninsured/underinsured motorist",
-        "Medical payments coverage",
-        "Rental car and travel expenses"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Intentional damage",
-        "Normal wear and tear",
-        "Mechanical breakdown",
-        "Commercial use (personal policy)",
-        "Racing or speed contests"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Rideshare coverage",
-        "Roadside assistance",
-        "Rental car reimbursement",
-        "Emergency road service",
-        "Car rental and travel expenses"
-      ],
+      "riders": [],
       "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["6-month", "12-month"]
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
       },
-      "renewability": "Semi-annual or annual",
+      "renewability": "Annual",
       "specialFeatures": [
-        "Largest auto insurer in the US by market share",
-        "Drive Safe & Save telematics discount",
-        "Steer Clear program for young drivers",
-        "Multi-policy discount with home insurance",
-        "Local agent network — 19,000+ agents",
-        "State Farm mobile app for claims and ID cards"
+        "#1 Market Share",
+        "19,000+ Agents",
+        "Drive Safe & Save Discount"
       ],
-      "sourceUrl": "https://www.statefarm.com/insurance/auto",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Largest US auto insurer. Agent-based model. Available in all 50 states."
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
     },
     {
       "id": "geico-auto",
-      "insurerName": "Government Employees Insurance Company (GEICO)",
+      "insurerName": "GEICO",
       "insurerSlug": "geico",
       "productName": "GEICO Auto Insurance",
       "category": "motor",
-      "subCategory": "auto",
-      "countryCode": "us",
+      "subCategory": "comprehensive",
       "eligibility": {
-        "minAge": 16,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
         "min": null,
         "max": null,
-        "currency": "USD",
-        "note": "Customizable liability limits"
+        "options": []
       },
       "premiumRange": {
-        "illustrativeMin": 80,
-        "illustrativeMax": 220,
-        "assumptions": "Full coverage, 30-year-old, clean record, monthly. National average.",
+        "illustrativeMin": 900,
+        "illustrativeMax": 1300,
+        "assumptions": "Annual, avg driver",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Bodily injury liability",
-        "Property damage liability",
-        "Collision coverage",
-        "Comprehensive coverage",
-        "Uninsured motorist coverage",
-        "Medical payments",
-        "Personal injury protection (where required)"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Intentional damage",
-        "Normal wear and tear",
-        "Mechanical breakdown",
-        "Commercial use",
-        "Racing"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Mechanical breakdown insurance",
-        "Roadside assistance",
-        "Rental car reimbursement",
-        "Rideshare coverage",
-        "Umbrella policy"
-      ],
+      "riders": [],
       "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["6-month", "12-month"]
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
       },
-      "renewability": "Semi-annual or annual",
+      "renewability": "Annual",
       "specialFeatures": [
-        "Often lower rates — direct-to-consumer model",
-        "DriveEasy telematics program",
-        "Mechanical breakdown insurance (unique offering)",
-        "GEICO mobile app with digital ID and claims",
-        "Berkshire Hathaway subsidiary",
-        "Military and federal employee discounts"
+        "Lowest Rates for Many",
+        "15 Minutes Could Save 15%",
+        "24/7 Claims"
       ],
-      "sourceUrl": "https://www.geico.com/auto-insurance/",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Second-largest US auto insurer. Direct model keeps costs low."
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
     },
     {
       "id": "progressive-auto",
-      "insurerName": "Progressive Corporation",
+      "insurerName": "Progressive",
       "insurerSlug": "progressive",
       "productName": "Progressive Auto Insurance",
       "category": "motor",
-      "subCategory": "auto",
-      "countryCode": "us",
+      "subCategory": "comprehensive",
       "eligibility": {
-        "minAge": 16,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
         "min": null,
         "max": null,
-        "currency": "USD",
-        "note": "Customizable liability limits"
+        "options": []
       },
       "premiumRange": {
-        "illustrativeMin": 90,
-        "illustrativeMax": 230,
-        "assumptions": "Full coverage, 30-year-old, clean record, monthly. National average.",
+        "illustrativeMin": 1000,
+        "illustrativeMax": 1400,
+        "assumptions": "Annual, avg driver",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Bodily injury liability",
-        "Property damage liability",
-        "Collision coverage",
-        "Comprehensive coverage",
-        "Uninsured/underinsured motorist",
-        "Medical payments",
-        "PIP (where required)"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Intentional damage",
-        "Normal wear and tear",
-        "Mechanical breakdown",
-        "Commercial use on personal policy",
-        "Racing"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Roadside assistance",
-        "Rental car reimbursement",
-        "Custom parts and equipment",
-        "Rideshare coverage",
-        "Pet injury coverage",
-        "Gap insurance"
-      ],
+      "riders": [],
       "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["6-month", "12-month"]
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
       },
-      "renewability": "Semi-annual or annual",
+      "renewability": "Annual",
       "specialFeatures": [
-        "Name Your Price tool",
-        "Snapshot telematics program for usage-based pricing",
-        "Comparison rates shown from competitors",
-        "Bundle with home via Progressive Home",
-        "24/7 claims support",
-        "Sign/Drive program for paperless experience"
+        "Name Your Price Tool",
+        "Snapshot Discount",
+        "Bundle Savings"
       ],
-      "sourceUrl": "https://www.progressive.com/auto/",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Third-largest US auto insurer. Known for Snapshot telematics."
-    },
-    {
-      "id": "allstate-auto",
-      "insurerName": "Allstate Insurance Company",
-      "insurerSlug": "allstate",
-      "productName": "Allstate Auto Insurance",
-      "category": "motor",
-      "subCategory": "auto",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 16,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "currency": "USD",
-        "note": "Customizable liability limits"
-      },
-      "premiumRange": {
-        "illustrativeMin": 120,
-        "illustrativeMax": 280,
-        "assumptions": "Full coverage, 30-year-old, clean record, monthly. National average.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Bodily injury liability",
-        "Property damage liability",
-        "Collision coverage",
-        "Comprehensive coverage",
-        "Uninsured/underinsured motorist",
-        "Medical payments"
-      ],
-      "keyExclusions": [
-        "Intentional damage",
-        "Wear and tear",
-        "Mechanical breakdown",
-        "Commercial use",
-        "Racing"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Roadside assistance",
-        "Rental car reimbursement",
-        "New car replacement",
-        "Deductible rewards",
-        "Sound system coverage",
-        "Rideshare coverage"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["6-month", "12-month"]
-      },
-      "renewability": "Semi-annual or annual",
-      "specialFeatures": [
-        "Drivewise telematics program",
-        "Claim-free rewards",
-        "Deductible rewards — $100 off per safe year",
-        "New car replacement up to 3 years",
-        "Accident forgiveness",
-        "Allstate mobile app"
-      ],
-      "sourceUrl": "https://www.allstate.com/auto-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Fourth-largest US auto insurer. Agent + direct model."
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
     },
     {
       "id": "usaa-auto",
-      "insurerName": "United Services Automobile Association (USAA)",
+      "insurerName": "USAA",
       "insurerSlug": "usaa",
       "productName": "USAA Auto Insurance",
       "category": "motor",
-      "subCategory": "auto",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 16,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use",
-        "note": "Military members, veterans, and eligible family members only"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "currency": "USD",
-        "note": "Customizable liability limits"
-      },
-      "premiumRange": {
-        "illustrativeMin": 80,
-        "illustrativeMax": 200,
-        "assumptions": "Full coverage, 30-year-old, clean record, monthly. Military member.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Bodily injury liability",
-        "Property damage liability",
-        "Collision coverage",
-        "Comprehensive coverage",
-        "Uninsured/underinsured motorist",
-        "Medical payments",
-        "Rental reimbursement"
-      ],
-      "keyExclusions": [
-        "Intentional damage",
-        "Wear and tear",
-        "Mechanical breakdown",
-        "Commercial use",
-        "Racing"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Roadside assistance",
-        "Rental car reimbursement",
-        "Accident forgiveness",
-        "Car replacement assistance",
-        "Glass coverage"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["6-month"]
-      },
-      "renewability": "Semi-annual",
-      "specialFeatures": [
-        "Consistently highest J.D. Power customer satisfaction",
-        "Military deployment discounts — storage rate",
-        "SafePilot telematics program",
-        "Low rates for military members",
-        "Dividend returns to members",
-        "AM Best A++ rating"
-      ],
-      "sourceUrl": "https://www.usaa.com/auto-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Restricted to military members, veterans, and eligible family. Top-rated for customer satisfaction."
-    },
-    {
-      "id": "liberty-mutual-auto",
-      "insurerName": "Liberty Mutual Insurance Company",
-      "insurerSlug": "liberty-mutual",
-      "productName": "Liberty Mutual Auto Insurance",
-      "category": "motor",
-      "subCategory": "auto",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 16,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "currency": "USD",
-        "note": "Customizable limits"
-      },
-      "premiumRange": {
-        "illustrativeMin": 110,
-        "illustrativeMax": 270,
-        "assumptions": "Full coverage, 30-year-old, clean record, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Bodily injury liability",
-        "Property damage liability",
-        "Collision coverage",
-        "Comprehensive coverage",
-        "Uninsured/underinsured motorist",
-        "Medical payments"
-      ],
-      "keyExclusions": [
-        "Intentional damage",
-        "Wear and tear",
-        "Mechanical breakdown",
-        "Commercial use"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "New car replacement",
-        "Better car replacement",
-        "Accident forgiveness",
-        "Roadside assistance",
-        "Rental car reimbursement",
-        "Gap coverage",
-        "Original parts replacement"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["6-month", "12-month"]
-      },
-      "renewability": "Semi-annual or annual",
-      "specialFeatures": [
-        "Better Car Replacement — model year newer if totaled",
-        "New car replacement within first year",
-        "RightTrack telematics program",
-        "Accident forgiveness after 5 clean years",
-        "Original parts replacement option"
-      ],
-      "sourceUrl": "https://www.libertymutual.com/auto-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Liberty Mutual known for unique replacement coverage options."
-    },
-    {
-      "id": "farmers-auto",
-      "insurerName": "Farmers Insurance Group",
-      "insurerSlug": "farmers",
-      "productName": "Farmers Auto Insurance",
-      "category": "motor",
-      "subCategory": "auto",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 16,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "currency": "USD",
-        "note": "Customizable limits"
-      },
-      "premiumRange": {
-        "illustrativeMin": 115,
-        "illustrativeMax": 275,
-        "assumptions": "Full coverage, 30-year-old, clean record, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Bodily injury liability",
-        "Property damage liability",
-        "Collision coverage",
-        "Comprehensive coverage",
-        "Uninsured/underinsured motorist",
-        "Medical payments"
-      ],
-      "keyExclusions": [
-        "Intentional damage",
-        "Wear and tear",
-        "Mechanical breakdown",
-        "Commercial use"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Roadside assistance",
-        "Rental car reimbursement",
-        "Rideshare coverage",
-        "Glass deductible buyback",
-        "Accident forgiveness"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["6-month", "12-month"]
-      },
-      "renewability": "Semi-annual or annual",
-      "specialFeatures": [
-        "Signal telematics program",
-        "Farmers Inner Circle rewards",
-        "Multi-policy discounts",
-        "48,000+ exclusive and independent agents",
-        "Subsidiary of Zurich Insurance Group"
-      ],
-      "sourceUrl": "https://www.farmers.com/auto/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Farmers is part of Zurich Insurance Group. Agent-based model."
-    },
-    {
-      "id": "nationwide-auto",
-      "insurerName": "Nationwide Mutual Insurance Company",
-      "insurerSlug": "nationwide",
-      "productName": "Nationwide Auto Insurance",
-      "category": "motor",
-      "subCategory": "auto",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 16,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "currency": "USD",
-        "note": "Customizable limits"
-      },
-      "premiumRange": {
-        "illustrativeMin": 100,
-        "illustrativeMax": 260,
-        "assumptions": "Full coverage, 30-year-old, clean record, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Bodily injury liability",
-        "Property damage liability",
-        "Collision coverage",
-        "Comprehensive coverage",
-        "Uninsured/underinsured motorist",
-        "Medical payments"
-      ],
-      "keyExclusions": [
-        "Intentional damage",
-        "Wear and tear",
-        "Mechanical breakdown",
-        "Commercial use"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Roadside assistance",
-        "Rental car reimbursement",
-        "Vanishing deductible",
-        "Accident forgiveness",
-        "Gap coverage",
-        "Total loss deductible waiver"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["6-month", "12-month"]
-      },
-      "renewability": "Semi-annual or annual",
-      "specialFeatures": [
-        "SmartRide telematics program — up to 40% discount",
-        "Vanishing deductible — $100 off per safe year",
-        "On Your Side claims service",
-        "Multi-policy and multi-car discounts",
-        "Accident forgiveness"
-      ],
-      "sourceUrl": "https://www.nationwide.com/personal/insurance/auto/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Nationwide is a mutual company. Strong in Midwest and East Coast."
-    },
-    {
-      "id": "travelers-auto",
-      "insurerName": "The Travelers Companies, Inc.",
-      "insurerSlug": "travelers",
-      "productName": "Travelers Auto Insurance",
-      "category": "motor",
-      "subCategory": "auto",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 16,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "currency": "USD",
-        "note": "Customizable limits"
-      },
-      "premiumRange": {
-        "illustrativeMin": 105,
-        "illustrativeMax": 260,
-        "assumptions": "Full coverage, 30-year-old, clean record, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Bodily injury liability",
-        "Property damage liability",
-        "Collision coverage",
-        "Comprehensive coverage",
-        "Uninsured/underinsured motorist",
-        "Medical payments"
-      ],
-      "keyExclusions": [
-        "Intentional damage",
-        "Wear and tear",
-        "Mechanical breakdown",
-        "Commercial use"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Roadside assistance",
-        "Rental car reimbursement",
-        "New car replacement",
-        "Accident forgiveness",
-        "Gap coverage"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["6-month", "12-month"]
-      },
-      "renewability": "Semi-annual or annual",
-      "specialFeatures": [
-        "IntelliDrive telematics program",
-        "New car replacement if totaled within 5 years",
-        "Responsible driver plan with accident forgiveness",
-        "Dow Jones component company",
-        "Strong independent agent network"
-      ],
-      "sourceUrl": "https://www.travelers.com/car-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Travelers is a Dow 30 company. Strong in independent agent channel."
-    },
-    {
-      "id": "erie-auto",
-      "insurerName": "Erie Indemnity Company",
-      "insurerSlug": "erie",
-      "productName": "Erie Auto Insurance",
-      "category": "motor",
-      "subCategory": "auto",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 16,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "currency": "USD",
-        "note": "Customizable limits"
-      },
-      "premiumRange": {
-        "illustrativeMin": 85,
-        "illustrativeMax": 210,
-        "assumptions": "Full coverage, 30-year-old, clean record, monthly. Available in 12 states + DC.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Bodily injury liability",
-        "Property damage liability",
-        "Collision coverage",
-        "Comprehensive coverage",
-        "Uninsured/underinsured motorist",
-        "First accident forgiveness (included free)"
-      ],
-      "keyExclusions": [
-        "Intentional damage",
-        "Wear and tear",
-        "Mechanical breakdown",
-        "Commercial use"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Roadside assistance",
-        "Rental car coverage",
-        "New car replacement",
-        "Pet injury coverage",
-        "Better car replacement",
-        "Diminishing deductible"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["12-month"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Rate Lock — rates only change if you change coverage",
-        "First accident forgiveness included free",
-        "Diminishing deductible for safe driving",
-        "Consistently top J.D. Power rankings",
-        "12-month policy (not 6-month) for rate stability"
-      ],
-      "sourceUrl": "https://www.erieinsurance.com/auto-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Erie available in 12 states + DC. Known for excellent customer satisfaction and rate stability."
-    },
-    {
-      "id": "american-family-auto",
-      "insurerName": "American Family Insurance Group",
-      "insurerSlug": "american-family",
-      "productName": "American Family Auto Insurance",
-      "category": "motor",
-      "subCategory": "auto",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 16,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "currency": "USD",
-        "note": "Customizable limits"
-      },
-      "premiumRange": {
-        "illustrativeMin": 95,
-        "illustrativeMax": 240,
-        "assumptions": "Full coverage, 30-year-old, clean record, monthly. Available in 19 states.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Bodily injury liability",
-        "Property damage liability",
-        "Collision coverage",
-        "Comprehensive coverage",
-        "Uninsured/underinsured motorist",
-        "Medical payments"
-      ],
-      "keyExclusions": [
-        "Intentional damage",
-        "Wear and tear",
-        "Mechanical breakdown",
-        "Commercial use"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Roadside assistance",
-        "Rental car coverage",
-        "Rideshare coverage",
-        "Gap coverage",
-        "Accident forgiveness"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["6-month", "12-month"]
-      },
-      "renewability": "Semi-annual or annual",
-      "specialFeatures": [
-        "KnowYourDrive telematics program",
-        "Teen Safe Driver program",
-        "DreamVault identity protection",
-        "Multi-policy discounts",
-        "Strong Midwest presence"
-      ],
-      "sourceUrl": "https://www.amfam.com/insurance/car",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "American Family operates in 19 states. Parent of Homesite Insurance."
-    },
-    {
-      "id": "hartford-auto-aarp",
-      "insurerName": "The Hartford Financial Services Group",
-      "insurerSlug": "the-hartford",
-      "productName": "The Hartford AARP Auto Insurance",
-      "category": "motor",
-      "subCategory": "auto",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 50,
-        "maxAge": null,
-        "renewableUpTo": "Lifetime",
-        "note": "AARP members (age 50+)"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "currency": "USD",
-        "note": "Customizable limits"
-      },
-      "premiumRange": {
-        "illustrativeMin": 90,
-        "illustrativeMax": 230,
-        "assumptions": "Full coverage, 55-year-old, clean record, monthly. AARP member.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Bodily injury liability",
-        "Property damage liability",
-        "Collision coverage",
-        "Comprehensive coverage",
-        "Uninsured/underinsured motorist",
-        "Medical payments"
-      ],
-      "keyExclusions": [
-        "Intentional damage",
-        "Wear and tear",
-        "Mechanical breakdown"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Roadside assistance",
-        "Rental car reimbursement",
-        "New car replacement",
-        "Accident forgiveness",
-        "RecoverCare (covers in-home help after accident)"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["12-month"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Exclusive AARP member benefit",
-        "RecoverCare — in-home assistance after accident",
-        "Lifetime renewability guarantee",
-        "Disappearing deductible",
-        "New car replacement within 15 months/15,000 miles",
-        "First accident forgiveness"
-      ],
-      "sourceUrl": "https://www.thehartford.com/aarp/car-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Exclusive to AARP members (50+). Known for mature driver features."
-    },
-    {
-      "id": "root-auto",
-      "insurerName": "Root, Inc.",
-      "insurerSlug": "root",
-      "productName": "Root Auto Insurance",
-      "category": "motor",
-      "subCategory": "auto",
-      "countryCode": "us",
+      "subCategory": "comprehensive",
       "eligibility": {
         "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
         "min": null,
         "max": null,
-        "currency": "USD",
-        "note": "Customizable limits"
+        "options": []
       },
       "premiumRange": {
-        "illustrativeMin": 70,
-        "illustrativeMax": 200,
-        "assumptions": "Full coverage, 30-year-old, clean record, monthly. Based on driving behavior.",
+        "illustrativeMin": 700,
+        "illustrativeMax": 1100,
+        "assumptions": "Annual, military members only",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Bodily injury liability",
-        "Property damage liability",
-        "Collision coverage",
-        "Comprehensive coverage",
-        "Uninsured/underinsured motorist",
-        "Medical payments"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Intentional damage",
-        "Wear and tear",
-        "Mechanical breakdown"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Roadside assistance",
-        "Rental car reimbursement"
-      ],
+      "riders": [],
       "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["6-month"]
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
       },
-      "renewability": "Semi-annual",
+      "renewability": "Annual",
       "specialFeatures": [
-        "Primarily based on driving behavior (telematics-first)",
-        "Mobile app test drive before quoting",
-        "100% mobile experience",
-        "Fair pricing — no credit score in most states",
-        "Insurtech — AI-driven underwriting"
+        "#1 Customer Satisfaction",
+        "Military Only",
+        "Lowest Average Premiums"
       ],
-      "sourceUrl": "https://www.joinroot.com/",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Insurtech company. Rates primarily based on driving behavior test via app."
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
     },
     {
-      "id": "lemonade-car",
-      "insurerName": "Lemonade, Inc.",
-      "insurerSlug": "lemonade",
-      "productName": "Lemonade Car Insurance",
+      "id": "allstate-auto",
+      "insurerName": "Allstate",
+      "insurerSlug": "allstate",
+      "productName": "Allstate Auto Insurance",
       "category": "motor",
-      "subCategory": "auto",
-      "countryCode": "us",
+      "subCategory": "comprehensive",
       "eligibility": {
-        "minAge": 16,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
         "min": null,
         "max": null,
-        "currency": "USD",
-        "note": "Customizable limits"
+        "options": []
       },
       "premiumRange": {
-        "illustrativeMin": 75,
-        "illustrativeMax": 220,
-        "assumptions": "Full coverage, 30-year-old, clean record, monthly. Limited state availability.",
+        "illustrativeMin": 1200,
+        "illustrativeMax": 1600,
+        "assumptions": "Annual, avg driver",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Bodily injury liability",
-        "Property damage liability",
-        "Collision coverage",
-        "Comprehensive coverage",
-        "Uninsured/underinsured motorist"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Intentional damage",
-        "Wear and tear",
-        "Mechanical breakdown",
-        "Commercial use"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Roadside assistance",
-        "Rental car coverage",
-        "Original parts replacement"
-      ],
+      "riders": [],
       "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["6-month"]
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
       },
-      "renewability": "Semi-annual",
+      "renewability": "Annual",
       "specialFeatures": [
-        "AI-powered instant claims (some paid in seconds)",
-        "B-Corp — unclaimed premiums donated to charity (Giveback)",
-        "Fully mobile app experience",
-        "Telematics built-in",
-        "Bundling with renters, home, pet, life"
+        "Drivewise Discount",
+        "Accident Forgiveness",
+        "New Car Replacement"
       ],
-      "sourceUrl": "https://www.lemonade.com/car",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Insurtech with AI-driven claims. Available in limited states for car insurance."
+      "notes": "",
+      "countryCode": "us"
     }
   ]
 }

@@ -1,361 +1,111 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-03-24",
-  "disclaimer": "Data collected from publicly available sources for educational and informational purposes only. Term life insurance in Germany is known as Risikolebensversicherung. Premium figures are illustrative and depend on age, health, smoking status, occupation, and sum insured. Zura does not sell insurance. Please verify all details with the insurer directly.",
+  "lastUpdated": "2026-04-03",
+  "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
-      "id": "allianz-rlv-de",
-      "insurerName": "Allianz Lebensversicherung",
+      "id": "allianz-risk-de",
+      "insurerName": "Allianz",
       "insurerSlug": "allianz-de",
-      "productName": "Allianz Risikolebensversicherung",
+      "productName": "Allianz RisikoLebensversicherung",
       "category": "term-life",
-      "subCategory": "standard",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 65, "renewableUpTo": "75" },
-      "sumInsured": { "min": 10000, "max": 5000000, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 5, "illustrativeMax": 50, "assumptions": "Monthly premium for non-smoker, aged 30, EUR 250,000 sum insured, 20-year term.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Death benefit payout to beneficiaries",
-        "Option for decreasing sum (mortgage protection)",
-        "Nachversicherungsgarantie (post-insurance guarantee for life events)",
-        "Worldwide coverage",
-        "Accidental death covered"
-      ],
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 10,
+        "illustrativeMax": 30,
+        "assumptions": "Monthly, EUR, 30yo, €500K",
+        "isVerified": false
+      },
+      "keyInclusions": [],
       "keyExclusions": [
-        "Suicide within first 3 years",
-        "Death from pre-existing undisclosed conditions",
-        "War and active military combat"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Unfall-Zusatzversicherung (accidental death benefit)", "Berufsunfaehigkeitszusatz (disability rider)"],
-      "policyTenure": { "min": 5, "max": 40, "options": ["5", "10", "15", "20", "25", "30", "35", "40 years"] },
-      "renewability": "non-renewable (fixed term)",
-      "specialFeatures": ["Flexible sum insured", "Decreasing or level sum options", "Premium locked for entire term"],
-      "sourceUrl": "https://www.allianz.de/vorsorge/risikolebensversicherung/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Allianz is Germany's largest life insurer. Risikolebensversicherung offers pure death protection without savings component."
-    },
-    {
-      "id": "hannoversche-rlv",
-      "insurerName": "Hannoversche Lebensversicherung",
-      "insurerSlug": "hannoversche",
-      "productName": "Hannoversche Risikolebensversicherung",
-      "category": "term-life",
-      "subCategory": "direct-insurer",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 65, "renewableUpTo": "75" },
-      "sumInsured": { "min": 10000, "max": 5000000, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 3, "illustrativeMax": 35, "assumptions": "Monthly premium for non-smoker, aged 30, EUR 250,000 sum insured, 20-year term. Hannoversche is known for very competitive rates.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Death benefit payout",
-        "Level or decreasing sum insured options",
-        "Nachversicherungsgarantie for life events (marriage, birth, mortgage)",
-        "Worldwide coverage"
-      ],
-      "keyExclusions": [
-        "Suicide within first 3 years",
-        "Fraudulent non-disclosure",
-        "War-related death"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
       "riders": [],
-      "policyTenure": { "min": 5, "max": 45, "options": ["5", "10", "15", "20", "25", "30", "35", "40", "45 years"] },
-      "renewability": "non-renewable (fixed term)",
-      "specialFeatures": ["Consistently rated best-value RLV", "Direct insurer (no agent commission)", "Simple online application"],
-      "sourceUrl": "https://www.hannoversche.de/risikolebensversicherung",
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Germany's Largest Insurer",
+        "Flexible Terms",
+        "Online Application"
+      ],
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Hannoversche is regularly the top-rated term life insurer in Germany by Stiftung Warentest/Finanztest for price-performance."
+      "notes": "",
+      "countryCode": "de"
     },
     {
-      "id": "huk-coburg-rlv",
-      "insurerName": "HUK-COBURG Lebensversicherung",
-      "insurerSlug": "huk-coburg",
-      "productName": "HUK-COBURG Risikolebensversicherung",
-      "category": "term-life",
-      "subCategory": "standard",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 60, "renewableUpTo": "70" },
-      "sumInsured": { "min": 15000, "max": 3000000, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 4, "illustrativeMax": 40, "assumptions": "Monthly premium for non-smoker, aged 30, EUR 250,000, 20-year term.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Death benefit payout",
-        "Constant or declining sum insured",
-        "Nachversicherungsgarantie",
-        "Worldwide coverage"
-      ],
-      "keyExclusions": [
-        "Suicide within first 3 years",
-        "Undisclosed pre-existing conditions",
-        "Active war zones"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Unfallzusatzversicherung"],
-      "policyTenure": { "min": 5, "max": 30, "options": ["5", "10", "15", "20", "25", "30 years"] },
-      "renewability": "non-renewable (fixed term)",
-      "specialFeatures": ["Low-cost direct insurer", "Simple health declaration", "Strong customer satisfaction ratings"],
-      "sourceUrl": "https://www.huk.de/leben/risikolebensversicherung/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "HUK-COBURG offers competitive RLV rates as a direct insurer without intermediary commissions."
-    },
-    {
-      "id": "cosmosdirekt-rlv",
+      "id": "cosmos-term-de",
       "insurerName": "CosmosDirekt",
       "insurerSlug": "cosmosdirekt",
-      "productName": "CosmosDirekt Risikolebensversicherung",
+      "productName": "CosmosDirekt Risikoleben",
       "category": "term-life",
-      "subCategory": "direct-insurer",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 65, "renewableUpTo": "75" },
-      "sumInsured": { "min": 5000, "max": 5000000, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 3, "illustrativeMax": 38, "assumptions": "Monthly premium for non-smoker, aged 30, EUR 250,000, 20-year term.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Death benefit payout",
-        "Level or decreasing sum insured",
-        "Nachversicherungsgarantie",
-        "Premium guarantee for full term",
-        "Worldwide coverage"
-      ],
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 8,
+        "illustrativeMax": 25,
+        "assumptions": "Monthly, EUR, 30yo",
+        "isVerified": false
+      },
+      "keyInclusions": [],
       "keyExclusions": [
-        "Suicide within first 3 years",
-        "Fraudulent application",
-        "War and terrorism (limited)"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Berufsunfaehigkeitszusatzversicherung (BUZ)"],
-      "policyTenure": { "min": 1, "max": 40, "options": ["1-40 years (flexible)"] },
-      "renewability": "non-renewable (fixed term)",
-      "specialFeatures": ["Germany's largest direct insurer", "Very competitive online rates", "Quick online application", "No agent required"],
-      "sourceUrl": "https://www.cosmosdirekt.de/risikolebensversicherung/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "CosmosDirekt (part of Generali Group) is Germany's largest direct insurer. Their RLV regularly ranks among the cheapest."
-    },
-    {
-      "id": "europa-rlv",
-      "insurerName": "EUROPA Lebensversicherung",
-      "insurerSlug": "europa",
-      "productName": "EUROPA Risikolebensversicherung E-RL",
-      "category": "term-life",
-      "subCategory": "value",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 60, "renewableUpTo": "70" },
-      "sumInsured": { "min": 10000, "max": 3000000, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 3, "illustrativeMax": 32, "assumptions": "Monthly premium for non-smoker, aged 30, EUR 250,000, 20-year term.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Death benefit payout",
-        "Level or annuity-declining sum insured",
-        "Nachversicherungsgarantie",
-        "Worldwide coverage"
-      ],
-      "keyExclusions": [
-        "Suicide within first 3 years",
-        "Material misrepresentation",
-        "War"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
       "riders": [],
-      "policyTenure": { "min": 5, "max": 40, "options": ["5-40 years"] },
-      "renewability": "non-renewable (fixed term)",
-      "specialFeatures": ["Focus insurer for RLV", "Frequently top-ranked by Stiftung Warentest", "Extremely lean cost structure"],
-      "sourceUrl": "https://www.europa.de/risikolebensversicherung/",
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Cheapest Online Provider",
+        "Direct Insurer",
+        "Simple Process"
+      ],
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "EUROPA (part of Continentale Group) is one of Germany's most cost-effective RLV providers."
-    },
-    {
-      "id": "debeka-rlv",
-      "insurerName": "Debeka Lebensversicherungsverein",
-      "insurerSlug": "debeka",
-      "productName": "Debeka Risikolebensversicherung",
-      "category": "term-life",
-      "subCategory": "standard",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 65, "renewableUpTo": "75" },
-      "sumInsured": { "min": 10000, "max": 5000000, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 5, "illustrativeMax": 45, "assumptions": "Monthly premium for non-smoker, aged 30, EUR 250,000, 20-year term.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Death benefit payout",
-        "Level or declining sum insured",
-        "Nachversicherungsgarantie",
-        "Profit participation (may reduce net premiums)",
-        "Worldwide coverage"
-      ],
-      "keyExclusions": [
-        "Suicide within first 3 years",
-        "Fraudulent non-disclosure",
-        "War-related death"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["BUZ (disability rider)"],
-      "policyTenure": { "min": 5, "max": 35, "options": ["5", "10", "15", "20", "25", "30", "35 years"] },
-      "renewability": "non-renewable (fixed term)",
-      "specialFeatures": ["Mutual insurer", "Profit sharing tradition", "Strong Beamte customer base"],
-      "sourceUrl": "https://www.debeka.de/produkte/lebensversicherung/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Debeka's RLV may include profit participation that can reduce net premiums over time."
-    },
-    {
-      "id": "ergo-rlv",
-      "insurerName": "ERGO Lebensversicherung",
-      "insurerSlug": "ergo",
-      "productName": "ERGO Risikolebensversicherung",
-      "category": "term-life",
-      "subCategory": "standard",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 65, "renewableUpTo": "75" },
-      "sumInsured": { "min": 10000, "max": 5000000, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 5, "illustrativeMax": 48, "assumptions": "Monthly premium for non-smoker, aged 30, EUR 250,000, 20-year term.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Death benefit payout",
-        "Level or decreasing sum insured",
-        "Nachversicherungsgarantie",
-        "Premium waiver in case of disability (optional)"
-      ],
-      "keyExclusions": [
-        "Suicide within first 3 years",
-        "Misrepresentation on application",
-        "War"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Berufsunfaehigkeitszusatzversicherung", "Unfallzusatzversicherung"],
-      "policyTenure": { "min": 5, "max": 35, "options": ["5-35 years"] },
-      "renewability": "non-renewable (fixed term)",
-      "specialFeatures": ["Munich Re group backing", "Comprehensive rider options", "Online application available"],
-      "sourceUrl": "https://www.ergo.de/risikolebensversicherung",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "ERGO is part of Munich Re group. Their RLV is a solid mid-range offering."
-    },
-    {
-      "id": "wgv-rlv",
-      "insurerName": "WGV Lebensversicherung",
-      "insurerSlug": "wgv",
-      "productName": "WGV Risikolebensversicherung",
-      "category": "term-life",
-      "subCategory": "value",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 60, "renewableUpTo": "70" },
-      "sumInsured": { "min": 10000, "max": 2000000, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 3, "illustrativeMax": 30, "assumptions": "Monthly premium for non-smoker, aged 30, EUR 250,000, 20-year term.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Death benefit payout",
-        "Level sum insured",
-        "Nachversicherungsgarantie",
-        "Worldwide coverage"
-      ],
-      "keyExclusions": [
-        "Suicide within first 3 years",
-        "Non-disclosure of health conditions",
-        "War"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [],
-      "policyTenure": { "min": 5, "max": 30, "options": ["5-30 years"] },
-      "renewability": "non-renewable (fixed term)",
-      "specialFeatures": ["Very low premiums", "Stuttgart-based regional insurer", "Simple product design"],
-      "sourceUrl": "https://www.wgv.de/lebensversicherung/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "WGV is a regional Baden-Wuerttemberg insurer known for extremely competitive RLV rates."
-    },
-    {
-      "id": "dialog-rlv",
-      "insurerName": "Dialog Lebensversicherung",
-      "insurerSlug": "dialog",
-      "productName": "Dialog Risikolebensversicherung RISK-vario",
-      "category": "term-life",
-      "subCategory": "flexible",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 65, "renewableUpTo": "80" },
-      "sumInsured": { "min": 10000, "max": 10000000, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 4, "illustrativeMax": 40, "assumptions": "Monthly premium for non-smoker, aged 30, EUR 250,000, 20-year term.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Death benefit payout",
-        "Flexible sum insured progression (level, declining, custom)",
-        "Nachversicherungsgarantie (generous life events list)",
-        "Premium guarantee for full term",
-        "Worldwide coverage"
-      ],
-      "keyExclusions": [
-        "Suicide within first 3 years",
-        "Material misrepresentation",
-        "War and civil unrest"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Berufsunfaehigkeitszusatzversicherung", "Pflegerentenzusatzversicherung"],
-      "policyTenure": { "min": 5, "max": 45, "options": ["5-45 years"] },
-      "renewability": "non-renewable (fixed term)",
-      "specialFeatures": ["Highly flexible sum insured design", "High maximum sum insured (EUR 10M)", "Part of Generali Group", "Popular among brokers"],
-      "sourceUrl": "https://www.dialog-leben.de/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Dialog (Generali group) is a specialist risk life insurer popular in the broker market for its flexible product design."
-    },
-    {
-      "id": "ruv-rlv",
-      "insurerName": "R+V Lebensversicherung",
-      "insurerSlug": "rv",
-      "productName": "R+V Risikolebensversicherung",
-      "category": "term-life",
-      "subCategory": "standard",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 60, "renewableUpTo": "70" },
-      "sumInsured": { "min": 10000, "max": 3000000, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 5, "illustrativeMax": 45, "assumptions": "Monthly premium for non-smoker, aged 30, EUR 250,000, 20-year term.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Death benefit payout",
-        "Level or declining sum insured",
-        "Nachversicherungsgarantie",
-        "Worldwide coverage"
-      ],
-      "keyExclusions": [
-        "Suicide within first 3 years",
-        "Fraudulent non-disclosure",
-        "War"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["BUZ (disability)", "Unfallzusatz"],
-      "policyTenure": { "min": 5, "max": 35, "options": ["5-35 years"] },
-      "renewability": "non-renewable (fixed term)",
-      "specialFeatures": ["Part of cooperative banking group (Volksbanken Raiffeisenbanken)", "Widely available through bank branches", "Solid financial ratings"],
-      "sourceUrl": "https://www.ruv.de/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "R+V is Germany's largest cooperative insurer, distributed through the Volksbanken Raiffeisenbanken network."
+      "notes": "",
+      "countryCode": "de"
     }
   ]
 }

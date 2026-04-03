@@ -1,323 +1,103 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-03-24",
-  "disclaimer": "Data collected from publicly available sources for educational and informational purposes only. Premium figures are illustrative and vary based on destination, duration, age, and coverage level. Zura does not sell insurance. Please verify all details with the insurer directly.",
+  "lastUpdated": "2026-04-03",
+  "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
-      "id": "axa-gulf-travel-smart",
-      "insurerName": "AXA Gulf (AXA – GIG Gulf)",
-      "insurerSlug": "axa-gulf",
-      "productName": "AXA SmartTraveller",
-      "category": "travel",
-      "subCategory": "single-trip",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 0, "maxAge": 80, "renewableUpTo": "per trip" },
-      "sumInsured": { "min": 100000, "max": 2000000, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 80, "illustrativeMax": 650, "assumptions": "Single trip, 7-14 days, Europe/Asia, age 30. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Overseas medical expenses",
-        "Emergency medical evacuation",
-        "Trip cancellation and curtailment",
-        "Baggage loss or delay",
-        "Personal accident",
-        "Travel delay compensation",
-        "Personal liability",
-        "Missed connection cover"
-      ],
-      "keyExclusions": [
-        "Pre-existing medical conditions",
-        "Extreme sports (unless add-on)",
-        "War zones and sanctioned countries",
-        "Alcohol/drug-related incidents",
-        "Travel against medical advice"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Winter sports cover", "Business equipment", "Golf cover", "Adventure sports"],
-      "policyTenure": { "min": 1, "max": 180, "options": ["single trip", "annual multi-trip"] },
-      "renewability": "per trip or annual",
-      "specialFeatures": ["Worldwide coverage", "24/7 emergency assistance", "Online purchase", "Schengen visa compliant"],
-      "sourceUrl": "https://www.axa-gulf.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "AXA travel insurance is accepted for Schengen visa applications from UAE."
-    },
-    {
-      "id": "axa-gulf-travel-annual",
-      "insurerName": "AXA Gulf (AXA – GIG Gulf)",
-      "insurerSlug": "axa-gulf",
-      "productName": "AXA Annual Multi-Trip Travel Insurance",
-      "category": "travel",
-      "subCategory": "annual-multi-trip",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 18, "maxAge": 70, "renewableUpTo": "annual" },
-      "sumInsured": { "min": 500000, "max": 3000000, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 800, "illustrativeMax": 3500, "assumptions": "Annual multi-trip, worldwide, age 30-40. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Unlimited trips in a year",
-        "Medical expenses overseas",
-        "Emergency evacuation and repatriation",
-        "Trip cancellation",
-        "Baggage loss and delay",
-        "Personal accident",
-        "Travel delay",
-        "Personal liability"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "Extreme sports (unless declared)",
-        "War and sanctions",
-        "Single trip exceeding 45/60/90 days (plan dependent)"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Sports cover", "Business travel extension", "Family cover"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "annual",
-      "specialFeatures": ["Unlimited trips", "Worldwide coverage", "Family option available"],
-      "sourceUrl": "https://www.axa-gulf.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Ideal for frequent travelers from UAE."
-    },
-    {
-      "id": "oman-insurance-travel-gold",
-      "insurerName": "Oman Insurance Company",
+      "id": "oman-travel-ae",
+      "insurerName": "Oman Insurance",
       "insurerSlug": "oman-insurance",
-      "productName": "Oman Insurance Travel Gold",
+      "productName": "Oman Travel Guard",
       "category": "travel",
-      "subCategory": "single-trip",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 0, "maxAge": 75, "renewableUpTo": "per trip" },
-      "sumInsured": { "min": 200000, "max": 1500000, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 100, "illustrativeMax": 500, "assumptions": "Single trip, 7-14 days, worldwide, age 30. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Emergency medical treatment abroad",
-        "Medical evacuation",
-        "Trip cancellation",
-        "Baggage loss/damage/delay",
-        "Personal accident",
-        "Travel delay",
-        "Passport loss assistance",
-        "Legal expenses abroad"
-      ],
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 100,
+        "illustrativeMax": 500,
+        "assumptions": "Per trip, AED",
+        "isVerified": false
+      },
+      "keyInclusions": [],
       "keyExclusions": [
-        "Pre-existing conditions",
-        "Adventure sports (unless declared)",
-        "War zones",
-        "Drug/alcohol-related incidents"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Adventure sports", "Business equipment cover"],
-      "policyTenure": { "min": 1, "max": 90, "options": ["single trip"] },
-      "renewability": "per trip",
-      "specialFeatures": ["Schengen compliant", "24/7 assistance", "Online claims"],
-      "sourceUrl": "https://www.omaninsurance.ae/",
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Comprehensive",
+        "Schengen Compliant",
+        "Emergency Assistance"
+      ],
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Widely used for Schengen visa applications from UAE."
+      "notes": "",
+      "countryCode": "ae"
     },
     {
-      "id": "orient-insurance-travel",
-      "insurerName": "Orient Insurance PJSC",
-      "insurerSlug": "orient-insurance",
-      "productName": "Orient Travel Guard",
+      "id": "axa-travel-ae",
+      "insurerName": "AXA Gulf",
+      "insurerSlug": "axa-gulf",
+      "productName": "AXA Travel Insurance",
       "category": "travel",
-      "subCategory": "single-trip",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 0, "maxAge": 70, "renewableUpTo": "per trip" },
-      "sumInsured": { "min": 100000, "max": 1000000, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 75, "illustrativeMax": 400, "assumptions": "Single trip, 7-14 days, age 30. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses abroad",
-        "Emergency evacuation",
-        "Trip cancellation/interruption",
-        "Baggage loss and delay",
-        "Personal accident",
-        "Travel delay benefits",
-        "Personal liability"
-      ],
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 120,
+        "illustrativeMax": 600,
+        "assumptions": "Per trip, AED",
+        "isVerified": false
+      },
+      "keyInclusions": [],
       "keyExclusions": [
-        "Pre-existing conditions",
-        "Extreme sports",
-        "War and sanctions",
-        "Self-inflicted injuries"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Sports extension", "Electronics cover"],
-      "policyTenure": { "min": 1, "max": 90, "options": ["single trip"] },
-      "renewability": "per trip",
-      "specialFeatures": ["Budget-friendly", "Online purchase", "Instant certificate"],
-      "sourceUrl": "https://www.orientinsurance.ae/",
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Worldwide Cover",
+        "Annual Plans",
+        "Adventure Sports"
+      ],
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Affordable travel insurance from Orient Insurance."
-    },
-    {
-      "id": "cigna-travel-global",
-      "insurerName": "Cigna Insurance Middle East",
-      "insurerSlug": "cigna",
-      "productName": "Cigna Global Travel Insurance",
-      "category": "travel",
-      "subCategory": "single-trip",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 0, "maxAge": 80, "renewableUpTo": "per trip" },
-      "sumInsured": { "min": 500000, "max": 5000000, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 120, "illustrativeMax": 800, "assumptions": "Single trip, 7-14 days, worldwide, age 30. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Emergency medical treatment worldwide",
-        "Medical evacuation and repatriation",
-        "Trip cancellation and curtailment",
-        "Baggage and personal effects",
-        "Personal accident",
-        "Travel delay and missed departure",
-        "Personal liability",
-        "Legal expenses"
-      ],
-      "keyExclusions": [
-        "Pre-existing medical conditions",
-        "Extreme/hazardous sports",
-        "War and terrorism",
-        "Pandemics (check policy wording)"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Adventure sports", "Pre-existing condition cover", "Business travel"],
-      "policyTenure": { "min": 1, "max": 180, "options": ["single trip", "annual multi-trip"] },
-      "renewability": "per trip or annual",
-      "specialFeatures": ["High medical cover limits", "Global assistance network", "Multi-language support"],
-      "sourceUrl": "https://www.cigna-me.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Cigna offers comprehensive travel cover with high medical limits."
-    },
-    {
-      "id": "daman-travel-insurance",
-      "insurerName": "National Health Insurance Company (Daman)",
-      "insurerSlug": "daman",
-      "productName": "Daman Travel Insurance",
-      "category": "travel",
-      "subCategory": "single-trip",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 0, "maxAge": 75, "renewableUpTo": "per trip" },
-      "sumInsured": { "min": 100000, "max": 1000000, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 60, "illustrativeMax": 350, "assumptions": "Single trip, 7-10 days, age 30. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses overseas",
-        "Emergency evacuation",
-        "Trip cancellation",
-        "Baggage cover",
-        "Personal accident",
-        "Travel delay"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "Extreme sports",
-        "War zones",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Sports cover", "Annual multi-trip upgrade"],
-      "policyTenure": { "min": 1, "max": 90, "options": ["single trip"] },
-      "renewability": "per trip",
-      "specialFeatures": ["Affordable rates", "Online purchase", "Schengen compliant"],
-      "sourceUrl": "https://www.damanhealth.ae/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Daman offers basic travel insurance alongside their health products."
-    },
-    {
-      "id": "metlife-travel-uae",
-      "insurerName": "MetLife (ALICO)",
-      "insurerSlug": "metlife",
-      "productName": "MetLife Travel Protection Plan",
-      "category": "travel",
-      "subCategory": "single-trip",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 0, "maxAge": 75, "renewableUpTo": "per trip" },
-      "sumInsured": { "min": 200000, "max": 2000000, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 90, "illustrativeMax": 550, "assumptions": "Single trip, 7-14 days, worldwide, age 30. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses overseas",
-        "Emergency evacuation and repatriation",
-        "Trip cancellation",
-        "Baggage loss/delay",
-        "Personal accident",
-        "Travel delay compensation",
-        "Personal liability"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "Extreme sports",
-        "War and sanctions",
-        "Alcohol-related incidents"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Sports and adventure", "Business travel"],
-      "policyTenure": { "min": 1, "max": 90, "options": ["single trip", "annual"] },
-      "renewability": "per trip or annual",
-      "specialFeatures": ["Worldwide coverage", "24/7 emergency hotline", "Family plans available"],
-      "sourceUrl": "https://www.metlife.ae/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "MetLife travel insurance available alongside life products."
-    },
-    {
-      "id": "adnic-travel-insurance",
-      "insurerName": "Abu Dhabi National Insurance Company (ADNIC)",
-      "insurerSlug": "adnic",
-      "productName": "ADNIC Travel Safe",
-      "category": "travel",
-      "subCategory": "single-trip",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 0, "maxAge": 70, "renewableUpTo": "per trip" },
-      "sumInsured": { "min": 100000, "max": 1500000, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 70, "illustrativeMax": 450, "assumptions": "Single trip, 7-14 days, age 30. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Emergency medical expenses",
-        "Medical evacuation",
-        "Trip cancellation",
-        "Lost baggage",
-        "Personal accident",
-        "Travel delay",
-        "Passport loss"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "Adventure sports",
-        "War and nuclear risks",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Annual multi-trip", "Sports cover"],
-      "policyTenure": { "min": 1, "max": 90, "options": ["single trip"] },
-      "renewability": "per trip",
-      "specialFeatures": ["Schengen visa compliant", "24/7 assistance", "Online claims"],
-      "sourceUrl": "https://www.adnic.ae/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "ADNIC travel insurance for Abu Dhabi residents."
+      "notes": "",
+      "countryCode": "ae"
     }
   ]
 }

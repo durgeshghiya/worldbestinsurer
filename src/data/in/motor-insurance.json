@@ -1,1390 +1,49 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-03-24",
-  "disclaimer": "Data collected from publicly available sources. Motor premium depends on vehicle make/model/RTO. Zura does not sell insurance.",
+  "lastUpdated": "2026-04-03",
+  "disclaimer": "Data collected from publicly available sources for educational and informational purposes only. Premium figures are illustrative and sourced from public insurer calculators/brochures. Actual premiums may vary. Please verify all details with the insurer directly before making any decision.",
   "products": [
     {
-      "id": "hdfc-ergo-car-comprehensive",
-      "insurerName": "HDFC ERGO General Insurance Company Ltd.",
+      "id": "hdfc-ergo-motor",
+      "insurerName": "HDFC ERGO General Insurance Co. Ltd.",
       "insurerSlug": "hdfc-ergo",
-      "productName": "HDFC ERGO Car Insurance",
+      "productName": "HDFC ERGO Motor Insurance",
       "category": "motor",
-      "subCategory": "four-wheeler",
+      "subCategory": "comprehensive",
       "eligibility": {
         "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
         "min": null,
         "max": null,
-        "options": [],
-        "note": "IDV based"
+        "options": []
       },
       "premiumRange": {
-        "illustrativeMin": 3000,
+        "illustrativeMin": 5000,
         "illustrativeMax": 25000,
-        "assumptions": "Comprehensive cover for mid-range hatchback, metro city. Third-party component is IRDAI-regulated.",
+        "assumptions": "Comprehensive, mid-size sedan, metro city. Indicative only.",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third-party liability (mandatory)",
-        "Personal accident cover for owner-driver",
-        "Theft and fire",
-        "Natural calamity damage",
-        "Man-made calamity damage"
-      ],
-      "keyExclusions": [
-        "Normal wear and tear",
-        "Mechanical/electrical breakdown",
-        "Damage due to DUI",
-        "Consequential loss",
-        "War/nuclear perils",
-        "Driving without valid license"
-      ],
-      "claimSettlement": {
-        "ratio": 71,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
-      "networkHospitals": null,
-      "riders": [
-        "Zero depreciation cover",
-        "Engine protect",
-        "Roadside assistance",
-        "Return to invoice",
-        "Consumables cover",
-        "Key replacement",
-        "Tyre protect"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 3,
-        "options": [
-          1,
-          3
-        ]
-      },
-      "renewability": "Annual renewal",
-      "specialFeatures": [
-        "Cashless garage network of 8000+",
-        "NCB transfer available",
-        "Flexible add-ons",
-        "Quick online purchase"
-      ],
-      "sourceUrl": "https://www.hdfcergo.com/motor-insurance/car-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Motor insurance premiums vary widely by vehicle. Data is representative only.",
-      "quoteUrl": "https://www.hdfcergo.com/motor-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "hdfc-ergo-two-wheeler",
-      "insurerName": "HDFC ERGO General Insurance Company Ltd.",
-      "insurerSlug": "hdfc-ergo",
-      "productName": "HDFC ERGO Two Wheeler Insurance",
-      "category": "motor",
-      "subCategory": "two-wheeler",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "options": [],
-        "note": "IDV based"
-      },
-      "premiumRange": {
-        "illustrativeMin": 800,
-        "illustrativeMax": 5000,
-        "assumptions": "Comprehensive cover for 150cc bike, metro city. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third-party liability",
-        "Personal accident cover for owner-driver",
-        "Theft and fire",
-        "Natural and man-made calamity"
-      ],
-      "keyExclusions": [
-        "Normal wear and tear",
-        "Mechanical/electrical breakdown",
-        "DUI-related damage",
-        "Driving without valid license",
-        "Consequential loss"
-      ],
-      "claimSettlement": {
-        "ratio": 71,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
-      "networkHospitals": null,
-      "riders": [
-        "Zero depreciation",
-        "Engine protect",
-        "Roadside assistance",
-        "Return to invoice",
-        "Consumables cover"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 5,
-        "options": [
-          1,
-          3,
-          5
-        ]
-      },
-      "renewability": "Annual renewal",
-      "specialFeatures": [
-        "Cashless garage network",
-        "Long-term policy discount",
-        "Online discount available",
-        "Quick claim settlement"
-      ],
-      "sourceUrl": "https://www.hdfcergo.com/motor-insurance/two-wheeler-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Two-wheeler premiums are significantly lower than four-wheeler. Data is representative.",
-      "quoteUrl": "https://www.hdfcergo.com/motor-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "icici-lombard-car",
-      "insurerName": "ICICI Lombard General Insurance Company Ltd.",
-      "insurerSlug": "icici-lombard",
-      "productName": "ICICI Lombard Car Insurance",
-      "category": "motor",
-      "subCategory": "four-wheeler",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "options": [],
-        "note": "IDV based"
-      },
-      "premiumRange": {
-        "illustrativeMin": 2800,
-        "illustrativeMax": 24000,
-        "assumptions": "Comprehensive, mid-range hatchback, metro city. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
       "keyInclusions": [
         "Own damage cover",
         "Third-party liability",
         "Personal accident cover",
-        "Theft and fire",
-        "Natural/man-made calamity"
-      ],
-      "keyExclusions": [
-        "Normal wear and tear",
-        "Mechanical breakdown",
-        "DUI-related damage",
-        "Driving without valid license",
-        "Consequential loss"
-      ],
-      "claimSettlement": {
-        "ratio": 83,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
-      "networkHospitals": null,
-      "riders": [
-        "Zero depreciation",
-        "Engine protect",
-        "Roadside assistance",
-        "Return to invoice",
-        "Consumables cover",
-        "NCB protect"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 3,
-        "options": [
-          1,
-          3
-        ]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Largest cashless garage network 9000+",
-        "Instant claim settlement for small claims",
-        "Strong digital experience",
-        "NCB protection add-on"
-      ],
-      "sourceUrl": "https://www.icicilombard.com/motor-insurance/car-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data representative. Verify with ICICI Lombard.",
-      "quoteUrl": "https://www.icicilombard.com/motor-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "icici-lombard-two-wheeler",
-      "insurerName": "ICICI Lombard General Insurance Company Ltd.",
-      "insurerSlug": "icici-lombard",
-      "productName": "ICICI Lombard Two Wheeler Insurance",
-      "category": "motor",
-      "subCategory": "two-wheeler",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "options": [],
-        "note": "IDV based"
-      },
-      "premiumRange": {
-        "illustrativeMin": 700,
-        "illustrativeMax": 4500,
-        "assumptions": "Comprehensive, 150cc bike, metro city. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third-party liability",
-        "Personal accident cover",
-        "Theft and fire",
-        "Natural/man-made calamity"
-      ],
-      "keyExclusions": [
-        "Normal wear and tear",
-        "Mechanical breakdown",
-        "DUI-related damage",
-        "Driving without valid license"
-      ],
-      "claimSettlement": {
-        "ratio": 83,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
-      "networkHospitals": null,
-      "riders": [
-        "Zero depreciation",
-        "Engine protect",
-        "Roadside assistance",
-        "Return to invoice"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 5,
-        "options": [
-          1,
-          3,
-          5
-        ]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "9000+ cashless garages",
-        "Long-term policy option",
-        "Online discount",
-        "Quick digital claim process"
-      ],
-      "sourceUrl": "https://www.icicilombard.com/motor-insurance/two-wheeler-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data representative. Verify with insurer.",
-      "quoteUrl": "https://www.icicilombard.com/motor-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "bajaj-allianz-car",
-      "insurerName": "Bajaj Allianz General Insurance Co. Ltd.",
-      "insurerSlug": "bajaj-allianz",
-      "productName": "Bajaj Allianz Car Insurance",
-      "category": "motor",
-      "subCategory": "four-wheeler",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "options": [],
-        "note": "IDV based"
-      },
-      "premiumRange": {
-        "illustrativeMin": 2500,
-        "illustrativeMax": 22000,
-        "assumptions": "Comprehensive, mid-range hatchback. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third-party liability",
-        "Personal accident cover",
-        "Theft and fire",
-        "Natural/man-made calamity"
-      ],
-      "keyExclusions": [
-        "Normal wear and tear",
-        "Mechanical breakdown",
-        "DUI-related damage",
-        "Driving without valid license"
-      ],
-      "claimSettlement": {
-        "ratio": 78,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
-      "networkHospitals": null,
-      "riders": [
-        "Zero depreciation",
-        "Engine protect",
-        "Roadside assistance",
-        "Return to invoice",
-        "NCB protect",
-        "Consumables cover"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 3,
-        "options": [
-          1,
-          3
-        ]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "5000+ cashless garages",
-        "Quick claim processing",
-        "Online discount",
-        "Drive Smart add-on with telematics"
-      ],
-      "sourceUrl": "https://www.bajajallianz.com/motor-insurance/car-insurance.html",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data representative.",
-      "quoteUrl": "https://www.bajajallianz.com/motor-insurance.html?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "bajaj-allianz-two-wheeler",
-      "insurerName": "Bajaj Allianz General Insurance Co. Ltd.",
-      "insurerSlug": "bajaj-allianz",
-      "productName": "Bajaj Allianz Two Wheeler Insurance",
-      "category": "motor",
-      "subCategory": "two-wheeler",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "options": [],
-        "note": "IDV based"
-      },
-      "premiumRange": {
-        "illustrativeMin": 600,
-        "illustrativeMax": 3500,
-        "assumptions": "Comprehensive, 125cc scooter. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third-party liability",
-        "Personal accident cover",
-        "Theft and fire",
-        "Natural/man-made calamity"
-      ],
-      "keyExclusions": [
-        "Normal wear and tear",
-        "Mechanical breakdown",
-        "DUI",
-        "Driving without valid license"
-      ],
-      "claimSettlement": {
-        "ratio": 78,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
-      "networkHospitals": null,
-      "riders": [
-        "Zero depreciation",
-        "Engine protect",
-        "Roadside assistance",
-        "Return to invoice"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 5,
-        "options": [
-          1,
-          3,
-          5
-        ]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "5000+ cashless garages",
-        "Long-term policy discount",
-        "Online discount"
-      ],
-      "sourceUrl": "https://www.bajajallianz.com/motor-insurance/two-wheeler-insurance.html",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data representative.",
-      "quoteUrl": "https://www.bajajallianz.com/motor-insurance.html?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "tata-aig-car",
-      "insurerName": "Tata AIG General Insurance Company Ltd.",
-      "insurerSlug": "tata-aig",
-      "productName": "Tata AIG Car Insurance",
-      "category": "motor",
-      "subCategory": "four-wheeler",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "options": [],
-        "note": "IDV based"
-      },
-      "premiumRange": {
-        "illustrativeMin": 2700,
-        "illustrativeMax": 23000,
-        "assumptions": "Comprehensive, mid-range hatchback, metro city. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third-party liability",
-        "Personal accident cover for owner-driver",
-        "Theft and fire",
-        "Natural/man-made calamity"
-      ],
-      "keyExclusions": [
-        "Normal wear and tear",
-        "Mechanical/electrical breakdown",
-        "DUI-related damage",
-        "Driving without valid license",
-        "War/nuclear perils"
-      ],
-      "claimSettlement": {
-        "ratio": 77,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
-      "networkHospitals": null,
-      "riders": [
-        "Zero depreciation",
-        "Engine protect",
-        "Roadside assistance 24x7",
-        "Return to invoice",
-        "Key and lock replacement",
-        "Consumables cover",
-        "Tyre protect"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 3,
-        "options": [
-          1,
-          3
-        ]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "7500+ cashless garages",
-        "Auto Secure — telematics-based add-on",
-        "Quick online renewal",
-        "NCB protection available"
-      ],
-      "sourceUrl": "https://www.tataaig.com/motor-insurance/car-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data representative. Verify with insurer.",
-      "quoteUrl": "https://www.tataaig.com/motor-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "tata-aig-two-wheeler",
-      "insurerName": "Tata AIG General Insurance Company Ltd.",
-      "insurerSlug": "tata-aig",
-      "productName": "Tata AIG Two Wheeler Insurance",
-      "category": "motor",
-      "subCategory": "two-wheeler",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "options": [],
-        "note": "IDV based"
-      },
-      "premiumRange": {
-        "illustrativeMin": 700,
-        "illustrativeMax": 4000,
-        "assumptions": "Comprehensive, 150cc bike, metro city. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third-party liability",
-        "Personal accident cover",
-        "Theft and fire",
-        "Natural/man-made calamity"
-      ],
-      "keyExclusions": [
-        "Normal wear and tear",
-        "Mechanical breakdown",
-        "DUI",
-        "Driving without valid license"
-      ],
-      "claimSettlement": {
-        "ratio": 77,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
-      "networkHospitals": null,
-      "riders": [
-        "Zero depreciation",
-        "Engine protect",
-        "Roadside assistance",
-        "Return to invoice",
-        "Consumables cover"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 5,
-        "options": [
-          1,
-          3,
-          5
-        ]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "7500+ cashless garages",
-        "Long-term policy option",
-        "Online discount"
-      ],
-      "sourceUrl": "https://www.tataaig.com/motor-insurance/two-wheeler-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data representative.",
-      "quoteUrl": "https://www.tataaig.com/motor-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "new-india-motor-package",
-      "insurerName": "The New India Assurance Co. Ltd.",
-      "insurerSlug": "new-india-assurance",
-      "productName": "New India Motor Vehicle Package Policy",
-      "category": "motor",
-      "subCategory": "four-wheeler",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "options": [],
-        "note": "IDV based"
-      },
-      "premiumRange": {
-        "illustrativeMin": 3000,
-        "illustrativeMax": 20000,
-        "assumptions": "Package policy for mid-range car. IRDAI-regulated tariff for TP component. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third-party liability",
-        "Personal accident cover for owner-driver",
-        "Fire and theft",
-        "Natural calamity",
-        "Man-made calamity",
-        "Transit by road, rail, waterway, lift, elevator"
-      ],
-      "keyExclusions": [
-        "Normal wear and tear",
-        "Mechanical/electrical breakdown",
-        "DUI-related damage",
-        "Consequential loss",
-        "Driving without valid license",
-        "War/nuclear risk"
-      ],
-      "claimSettlement": {
-        "ratio": 91,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
-      "networkHospitals": null,
-      "riders": [
-        "Zero depreciation",
-        "Roadside assistance",
-        "Engine protect",
-        "Return to invoice"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 3,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Government-owned insurer — largest general insurer in India",
-        "Wide branch and garage network across India",
-        "Strong rural and semi-urban presence",
-        "Competitive pricing on OD component"
-      ],
-      "sourceUrl": "https://www.newindia.co.in/portal/motor-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "PSU insurer. Premiums may differ from private insurers. Data representative.",
-      "quoteUrl": "https://www.newindia.co.in/portal/mediclaim?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "digit-car",
-      "insurerName": "Go Digit General Insurance Ltd.",
-      "insurerSlug": "digit",
-      "productName": "Digit Car Insurance",
-      "category": "motor",
-      "subCategory": "four-wheeler",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "options": [],
-        "note": "IDV based"
-      },
-      "premiumRange": {
-        "illustrativeMin": 2500,
-        "illustrativeMax": 20000,
-        "assumptions": "Comprehensive, mid-range hatchback. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third-party liability",
-        "Personal accident cover",
-        "Fire and theft",
-        "Natural/man-made calamity"
-      ],
-      "keyExclusions": [
-        "Normal wear and tear",
-        "Mechanical/electrical breakdown",
-        "DUI-related damage",
-        "Driving without valid license",
-        "Consequential loss"
-      ],
-      "claimSettlement": {
-        "ratio": 84,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
-      "networkHospitals": null,
-      "riders": [
-        "Zero depreciation",
-        "Engine protect",
-        "Return to invoice",
-        "Roadside assistance",
-        "Consumables cover",
-        "Tyre protect"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 3,
-        "options": [
-          1,
-          3
-        ]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Fully digital insurer — paperless process",
-        "Doorstep claim inspection via video",
-        "Flexible IDV choice",
-        "Quick claim turnaround"
-      ],
-      "sourceUrl": "https://www.godigit.com/motor-insurance/car-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Insurtech insurer known for digital-first approach. Data representative.",
-      "quoteUrl": "https://www.godigit.com/motor-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "digit-bike",
-      "insurerName": "Go Digit General Insurance Ltd.",
-      "insurerSlug": "digit",
-      "productName": "Digit Bike Insurance",
-      "category": "motor",
-      "subCategory": "two-wheeler",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "options": [],
-        "note": "IDV based"
-      },
-      "premiumRange": {
-        "illustrativeMin": 500,
-        "illustrativeMax": 3500,
-        "assumptions": "Comprehensive, 150cc bike. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third-party liability",
-        "Personal accident cover",
-        "Theft and fire",
-        "Natural/man-made calamity"
-      ],
-      "keyExclusions": [
-        "Normal wear and tear",
-        "Mechanical breakdown",
-        "DUI",
-        "Driving without valid license"
-      ],
-      "claimSettlement": {
-        "ratio": 84,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
-      "networkHospitals": null,
-      "riders": [
-        "Zero depreciation",
-        "Engine protect",
-        "Return to invoice",
+        "Cashless repairs",
         "Roadside assistance"
       ],
-      "policyTenure": {
-        "min": 1,
-        "max": 5,
-        "options": [
-          1,
-          3,
-          5
-        ]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Video-based claim inspection",
-        "Paperless and fully digital",
-        "Flexible IDV",
-        "Quick renewal online"
-      ],
-      "sourceUrl": "https://www.godigit.com/motor-insurance/two-wheeler-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data representative.",
-      "quoteUrl": "https://www.godigit.com/motor-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "acko-car",
-      "insurerName": "Acko General Insurance Ltd.",
-      "insurerSlug": "acko",
-      "productName": "Acko Car Insurance",
-      "category": "motor",
-      "subCategory": "four-wheeler",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "options": [],
-        "note": "IDV based"
-      },
-      "premiumRange": {
-        "illustrativeMin": 2000,
-        "illustrativeMax": 18000,
-        "assumptions": "Comprehensive, mid-range hatchback. Known for competitive pricing. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third-party liability",
-        "Personal accident cover",
-        "Theft and fire",
-        "Natural/man-made calamity"
-      ],
       "keyExclusions": [
-        "Normal wear and tear",
-        "Mechanical breakdown",
-        "DUI-related damage",
-        "Driving without valid license",
-        "Consequential loss"
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries"
       ],
       "claimSettlement": {
-        "ratio": 80,
+        "ratio": 99,
         "year": "FY2023-24",
-        "source": "Unverified"
+        "source": "IRDAI / Insurer website"
       },
-      "networkHospitals": null,
-      "riders": [
-        "Zero depreciation",
-        "Roadside assistance",
-        "Consumables cover",
-        "Return to invoice",
-        "Key replacement"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 3,
-        "options": [
-          1,
-          3
-        ]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Digital-only insurer — no intermediaries",
-        "Lower premiums due to direct model",
-        "60-second claim initiation",
-        "Garage network with doorstep support"
-      ],
-      "sourceUrl": "https://www.acko.com/car-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Direct-to-consumer insurer. Data representative.",
-      "quoteUrl": "https://www.acko.com/car-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "acko-bike",
-      "insurerName": "Acko General Insurance Ltd.",
-      "insurerSlug": "acko",
-      "productName": "Acko Bike Insurance",
-      "category": "motor",
-      "subCategory": "two-wheeler",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "options": [],
-        "note": "IDV based"
-      },
-      "premiumRange": {
-        "illustrativeMin": 400,
-        "illustrativeMax": 2500,
-        "assumptions": "Comprehensive, 125cc scooter/bike. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third-party liability",
-        "Personal accident cover",
-        "Theft and fire",
-        "Natural/man-made calamity"
-      ],
-      "keyExclusions": [
-        "Normal wear and tear",
-        "Mechanical breakdown",
-        "DUI",
-        "Driving without valid license"
-      ],
-      "claimSettlement": {
-        "ratio": 80,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
-      "networkHospitals": null,
-      "riders": [
-        "Zero depreciation",
-        "Roadside assistance",
-        "Return to invoice"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 5,
-        "options": [
-          1,
-          3,
-          5
-        ]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Digital-only — no agent commission",
-        "Competitive premiums",
-        "Quick online claim process"
-      ],
-      "sourceUrl": "https://www.acko.com/bike-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data representative.",
-      "quoteUrl": "https://www.acko.com/car-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "royal-sundaram-motor",
-      "insurerName": "Royal Sundaram General Insurance Co. Ltd.",
-      "insurerSlug": "royal-sundaram",
-      "productName": "Royal Sundaram Motor Insurance",
-      "category": "motor",
-      "subCategory": "four-wheeler",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "options": [],
-        "note": "IDV based"
-      },
-      "premiumRange": {
-        "illustrativeMin": 2600,
-        "illustrativeMax": 22000,
-        "assumptions": "Comprehensive, mid-range hatchback. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third-party liability",
-        "Personal accident cover",
-        "Theft and fire",
-        "Natural/man-made calamity"
-      ],
-      "keyExclusions": [
-        "Normal wear and tear",
-        "Mechanical breakdown",
-        "DUI-related damage",
-        "Driving without valid license"
-      ],
-      "claimSettlement": {
-        "ratio": 80,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
-      "networkHospitals": null,
-      "riders": [
-        "Zero depreciation",
-        "Engine protect",
-        "Roadside assistance",
-        "Return to invoice",
-        "Consumables cover",
-        "NCB protect"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 3,
-        "options": [
-          1,
-          3
-        ]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "3500+ cashless garages",
-        "Subsidiary of Sundaram Finance",
-        "Good claim servicing track record",
-        "Online discount"
-      ],
-      "sourceUrl": "https://www.royalsundaram.in/motor-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data representative.",
-      "quoteUrl": "https://www.royalsundaram.in/motor-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "reliance-general-motor",
-      "insurerName": "Reliance General Insurance Company Ltd.",
-      "insurerSlug": "reliance-general",
-      "productName": "Reliance Motor Insurance",
-      "category": "motor",
-      "subCategory": "four-wheeler",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "options": [],
-        "note": "IDV based"
-      },
-      "premiumRange": {
-        "illustrativeMin": 2400,
-        "illustrativeMax": 21000,
-        "assumptions": "Comprehensive, mid-range hatchback. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third-party liability",
-        "Personal accident cover",
-        "Theft and fire",
-        "Natural/man-made calamity"
-      ],
-      "keyExclusions": [
-        "Normal wear and tear",
-        "Mechanical breakdown",
-        "DUI",
-        "Driving without valid license"
-      ],
-      "claimSettlement": {
-        "ratio": 85,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
-      "networkHospitals": null,
-      "riders": [
-        "Zero depreciation",
-        "Engine protect",
-        "Roadside assistance",
-        "Return to invoice",
-        "Consumables cover"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 3,
-        "options": [
-          1,
-          3
-        ]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "3500+ cashless garages",
-        "Part of Reliance Group",
-        "Good digital platform",
-        "Quick claim settlement"
-      ],
-      "sourceUrl": "https://www.reliancegeneral.co.in/insurance/motor-insurance.aspx",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data representative.",
-      "quoteUrl": "https://www.reliancegeneral.co.in/Insurance/Motor-Insurance.aspx?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "sbi-general-motor",
-      "insurerName": "SBI General Insurance Company Ltd.",
-      "insurerSlug": "sbi-general",
-      "productName": "SBI General Motor Insurance",
-      "category": "motor",
-      "subCategory": "four-wheeler",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "options": [],
-        "note": "IDV based"
-      },
-      "premiumRange": {
-        "illustrativeMin": 2500,
-        "illustrativeMax": 21000,
-        "assumptions": "Comprehensive, mid-range hatchback. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third-party liability",
-        "Personal accident cover",
-        "Fire and theft",
-        "Natural/man-made calamity"
-      ],
-      "keyExclusions": [
-        "Normal wear and tear",
-        "Mechanical breakdown",
-        "DUI",
-        "Driving without valid license"
-      ],
-      "claimSettlement": {
-        "ratio": 82,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
-      "networkHospitals": null,
-      "riders": [
-        "Zero depreciation",
-        "Engine protect",
-        "Roadside assistance",
-        "Return to invoice",
-        "Key replacement"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 3,
-        "options": [
-          1,
-          3
-        ]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Backed by SBI — largest bank in India",
-        "Wide distribution via SBI branches",
-        "3000+ cashless garages",
-        "Online renewal"
-      ],
-      "sourceUrl": "https://www.sbigeneral.in/motor-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data representative.",
-      "quoteUrl": "https://www.sbigeneral.in/motor-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "kotak-general-motor",
-      "insurerName": "Kotak Mahindra General Insurance Company Ltd.",
-      "insurerSlug": "kotak-general",
-      "productName": "Kotak General Motor Insurance",
-      "category": "motor",
-      "subCategory": "four-wheeler",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "options": [],
-        "note": "IDV based"
-      },
-      "premiumRange": {
-        "illustrativeMin": 2500,
-        "illustrativeMax": 22000,
-        "assumptions": "Comprehensive, mid-range hatchback. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third-party liability",
-        "Personal accident cover",
-        "Fire and theft",
-        "Natural/man-made calamity"
-      ],
-      "keyExclusions": [
-        "Normal wear and tear",
-        "Mechanical breakdown",
-        "DUI",
-        "Driving without valid license"
-      ],
-      "claimSettlement": {
-        "ratio": 79,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
-      "networkHospitals": null,
-      "riders": [
-        "Zero depreciation",
-        "Engine protect",
-        "Roadside assistance",
-        "Return to invoice",
-        "Consumables cover"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 3,
-        "options": [
-          1,
-          3
-        ]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Part of Kotak Mahindra Group",
-        "3000+ cashless garages",
-        "Strong digital platform",
-        "Online discount available"
-      ],
-      "sourceUrl": "https://www.kotakgeneral.com/motor-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data representative.",
-      "quoteUrl": "https://www.kotakgeneralinsurance.com/motor-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "cholamandalam-motor",
-      "insurerName": "Cholamandalam MS General Insurance Company Ltd.",
-      "insurerSlug": "cholamandalam-ms",
-      "productName": "Cholamandalam MS Motor Insurance",
-      "category": "motor",
-      "subCategory": "four-wheeler",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "options": [],
-        "note": "IDV based"
-      },
-      "premiumRange": {
-        "illustrativeMin": 2600,
-        "illustrativeMax": 21000,
-        "assumptions": "Comprehensive, mid-range hatchback. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third-party liability",
-        "Personal accident cover",
-        "Fire and theft",
-        "Natural/man-made calamity"
-      ],
-      "keyExclusions": [
-        "Normal wear and tear",
-        "Mechanical breakdown",
-        "DUI",
-        "Driving without valid license"
-      ],
-      "claimSettlement": {
-        "ratio": 81,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
-      "networkHospitals": null,
-      "riders": [
-        "Zero depreciation",
-        "Engine protect",
-        "Roadside assistance",
-        "Return to invoice",
-        "NCB protect"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 3,
-        "options": [
-          1,
-          3
-        ]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "JV between Murugappa Group and Mitsui Sumitomo",
-        "Strong presence in South India",
-        "3000+ cashless garages",
-        "Good claim turnaround"
-      ],
-      "sourceUrl": "https://www.cholainsurance.com/motor-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data representative.",
-      "quoteUrl": "https://www.cholainsurance.com/motor-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "national-insurance-motor",
-      "insurerName": "National Insurance Company Ltd.",
-      "insurerSlug": "national-insurance",
-      "productName": "National Insurance Motor Policy",
-      "category": "motor",
-      "subCategory": "four-wheeler",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": null,
-        "renewableUpTo": "As long as vehicle is in use"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "options": [],
-        "note": "IDV based"
-      },
-      "premiumRange": {
-        "illustrativeMin": 2800,
-        "illustrativeMax": 20000,
-        "assumptions": "Package policy for mid-range car. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third-party liability",
-        "Personal accident cover for owner-driver",
-        "Fire and theft",
-        "Natural/man-made calamity",
-        "Transit cover"
-      ],
-      "keyExclusions": [
-        "Normal wear and tear",
-        "Mechanical/electrical breakdown",
-        "DUI-related damage",
-        "Driving without valid license",
-        "War/nuclear risk"
-      ],
-      "claimSettlement": {
-        "ratio": 88,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
-      "networkHospitals": null,
-      "riders": [
-        "Zero depreciation",
-        "Roadside assistance",
-        "Engine protect",
-        "Return to invoice"
-      ],
+      "riders": [],
       "policyTenure": {
         "min": 1,
         "max": 1,
@@ -1392,19 +51,379 @@
           1
         ]
       },
-      "renewability": "Annual",
+      "renewability": "Lifelong",
       "specialFeatures": [
-        "Government-owned PSU insurer",
-        "Wide branch network across India",
-        "Competitive pricing",
-        "Strong rural/semi-urban presence"
+        "12,200+ Cashless Garages",
+        "99% CSR",
+        "Digital Claims",
+        "Real-Time Policy Tracking"
       ],
-      "sourceUrl": "https://www.nationalinsurance.nic.co.in/en/motor-insurance",
+      "sourceUrl": "https://www.hdfcergo.com/motor-insurance",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "bajaj-allianz-motor",
+      "insurerName": "Bajaj Allianz General Insurance Co. Ltd.",
+      "insurerSlug": "bajaj-allianz",
+      "productName": "Bajaj Allianz Motor Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 4500,
+        "illustrativeMax": 22000,
+        "assumptions": "Comprehensive, mid-size sedan, metro city. Indicative only.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage cover",
+        "Third-party liability",
+        "Personal accident cover",
+        "Cashless repairs"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 98.5,
+        "year": "FY2023-24",
+        "source": "IRDAI / Insurer website"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "7,200+ Cashless Garages",
+        "Largest Private Network",
+        "Mobile App",
+        "98.5% CSR"
+      ],
+      "sourceUrl": "https://www.bajajallianz.com/motor-insurance.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "icici-lombard-motor",
+      "insurerName": "ICICI Lombard General Insurance Co. Ltd.",
+      "insurerSlug": "icici-lombard",
+      "productName": "ICICI Lombard Motor Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 5000,
+        "illustrativeMax": 23000,
+        "assumptions": "Comprehensive, mid-size sedan, metro city. Indicative only.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage cover",
+        "Third-party liability",
+        "Personal accident cover",
+        "Cashless repairs"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 96.75,
+        "year": "FY2023-24",
+        "source": "IRDAI / Insurer website"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "5,900+ Cashless Garages",
+        "Established Brand",
+        "Quick Claim Settlement"
+      ],
+      "sourceUrl": "https://www.icicilombard.com/motor-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "digit-motor",
+      "insurerName": "Go Digit General Insurance Ltd.",
+      "insurerSlug": "digit",
+      "productName": "Digit Motor Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 3500,
+        "illustrativeMax": 18000,
+        "assumptions": "Comprehensive, mid-size sedan. Indicative only.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage cover",
+        "Third-party liability",
+        "Personal accident cover"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 84,
+        "year": "FY2023-24",
+        "source": "IRDAI / Insurer website"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Digital-First",
+        "Paperless Claims",
+        "Affordable Premiums"
+      ],
+      "sourceUrl": "https://www.godigit.com/motor-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "PSU insurer. Data representative.",
-      "quoteUrl": "https://nationalinsurance.nic.co.in/en/motor-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "acko-car-insurance",
+      "insurerName": "Acko General Insurance Ltd.",
+      "insurerSlug": "acko",
+      "productName": "Acko Car Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 3000,
+        "illustrativeMax": 15000,
+        "assumptions": "Comprehensive, mid-size sedan. Indicative only.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage cover",
+        "Third-party liability",
+        "Personal accident cover"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 80,
+        "year": "FY2023-24",
+        "source": "IRDAI / Insurer website"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Zero-Commission Model",
+        "App-Based Claims",
+        "4,000+ Garages",
+        "Lowest Premiums"
+      ],
+      "sourceUrl": "https://www.acko.com/car-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "tata-aig-motor",
+      "insurerName": "Tata AIG General Insurance Co. Ltd.",
+      "insurerSlug": "tata-aig",
+      "productName": "Tata AIG Motor Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 4500,
+        "illustrativeMax": 20000,
+        "assumptions": "Comprehensive, mid-size sedan. Indicative only.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage cover",
+        "Third-party liability",
+        "Personal accident cover",
+        "Roadside assistance"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 77,
+        "year": "FY2023-24",
+        "source": "IRDAI / Insurer website"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "7,500+ Garages",
+        "Restoration Benefit",
+        "Roadside Assistance"
+      ],
+      "sourceUrl": "https://www.tataaig.com/motor-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "new-india-motor",
+      "insurerName": "The New India Assurance Co. Ltd.",
+      "insurerSlug": "new-india-assurance",
+      "productName": "New India Motor Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 4000,
+        "illustrativeMax": 18000,
+        "assumptions": "Comprehensive, mid-size sedan. Indicative only.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage cover",
+        "Third-party liability",
+        "Personal accident cover"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "FY2023-24",
+        "source": "IRDAI / Insurer website"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Government-Backed",
+        "91% CSR",
+        "8,000+ Garages",
+        "Oldest General Insurer"
+      ],
+      "sourceUrl": "https://www.newindia.co.in",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
     }
   ]
 }

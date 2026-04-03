@@ -1,474 +1,151 @@
 {
   "category": "health",
-  "lastUpdated": "2026-03-24",
-  "disclaimer": "Data collected from publicly available sources for educational and informational purposes only. Germany has a dual healthcare system: GKV (Gesetzliche Krankenversicherung / statutory public) and PKV (Private Krankenversicherung / private). Products listed here focus on PKV private plans. Premium figures are illustrative and based on publicly available rate information. Actual premiums depend on age, health status, chosen tariff, and deductible. Zura does not sell insurance. Please verify all details with the insurer directly.",
+  "lastUpdated": "2026-04-03",
+  "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
-      "id": "allianz-pkv-best-select",
-      "insurerName": "Allianz Private Krankenversicherung",
-      "insurerSlug": "allianz-de",
-      "productName": "Allianz BestSelect",
+      "id": "tk-health-de",
+      "insurerName": "Techniker Krankenkasse",
+      "insurerSlug": "tk",
+      "productName": "TK Gesetzliche Krankenversicherung",
       "category": "health",
-      "subCategory": "comprehensive-private",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 65, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 350, "illustrativeMax": 750, "assumptions": "Monthly premium, single adult aged 30-35, no pre-existing conditions, standard deductible. PKV premiums are individually rated.", "isVerified": false },
-      "waitingPeriod": { "initial": "3 months", "preExisting": "8 months", "specific": "Dental: 8 months" },
-      "keyInclusions": [
-        "Full inpatient hospitalization (private ward, chief physician treatment)",
-        "Outpatient consultations with specialists (no referral needed)",
-        "Dental treatment (80-100% depending on tariff)",
-        "Prescription medication",
-        "Psychotherapy",
-        "Alternative medicine (Heilpraktiker)",
-        "Overseas coverage worldwide",
-        "Free choice of doctor and hospital"
-      ],
+      "subCategory": "statutory",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 200,
+        "illustrativeMax": 400,
+        "assumptions": "Monthly, EUR, statutory contribution",
+        "isVerified": false
+      },
+      "keyInclusions": [],
       "keyExclusions": [
-        "Cosmetic surgery without medical necessity",
-        "Experimental treatments not approved in Germany",
-        "Self-inflicted injuries",
-        "Treatment for addiction (limited)"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Krankentagegeld (daily sickness benefit)", "Pflegetagegeld (nursing care benefit)", "Dental premium upgrade"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year (auto-renewing)"] },
-      "renewability": "annual",
-      "specialFeatures": ["Modular tariff system", "Chief physician treatment in hospital", "Single/double room", "No referral needed for specialists", "Worldwide coverage"],
-      "sourceUrl": "https://www.allianz.de/gesundheit/private-krankenversicherung/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Allianz is Germany's largest insurer. BestSelect is their modular PKV tariff allowing customization of benefits. PKV has no sum insured concept; all medically necessary treatments are covered per tariff."
-    },
-    {
-      "id": "dkv-bestmed",
-      "insurerName": "DKV Deutsche Krankenversicherung (ERGO Group)",
-      "insurerSlug": "dkv",
-      "productName": "DKV BestMed",
-      "category": "health",
-      "subCategory": "comprehensive-private",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 65, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 380, "illustrativeMax": 780, "assumptions": "Monthly premium, single adult aged 30-35, no pre-existing conditions.", "isVerified": false },
-      "waitingPeriod": { "initial": "3 months", "preExisting": "8 months", "specific": null },
-      "keyInclusions": [
-        "Full hospitalization with private ward and chief physician",
-        "100% outpatient treatment coverage",
-        "Dental prophylaxis and treatment (up to 100%)",
-        "Orthodontics for children",
-        "Prescription drugs",
-        "Heilpraktiker (alternative medicine)",
-        "Vision care (glasses/contacts)",
-        "Worldwide emergency coverage"
-      ],
-      "keyExclusions": [
-        "Cosmetic procedures",
-        "Experimental treatments",
-        "Non-medically necessary treatments abroad"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Krankentagegeld", "Auslandsreisekrankenversicherung (international travel top-up)", "Pflegezusatzversicherung"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year (auto-renewing)"] },
-      "renewability": "annual",
-      "specialFeatures": ["Part of ERGO Group (Munich Re)", "Strong dental coverage", "Comprehensive Heilpraktiker benefits"],
-      "sourceUrl": "https://www.dkv.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "DKV is Germany's largest private health insurer by number of insured. Backed by ERGO/Munich Re group."
-    },
-    {
-      "id": "axa-el-vital",
-      "insurerName": "AXA Krankenversicherung",
-      "insurerSlug": "axa-de",
-      "productName": "AXA EL Vital",
-      "category": "health",
-      "subCategory": "comprehensive-private",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 60, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 320, "illustrativeMax": 680, "assumptions": "Monthly premium, single adult aged 30-35, standard tariff.", "isVerified": false },
-      "waitingPeriod": { "initial": "3 months", "preExisting": "8 months", "specific": null },
-      "keyInclusions": [
-        "Hospital treatment in private/semi-private ward",
-        "Outpatient doctor and specialist visits",
-        "Dental treatment and dentures",
-        "Prescription medication",
-        "Psychotherapy sessions",
-        "Preventive check-ups",
-        "Alternative medicine treatments",
-        "Worldwide coverage for first 6 months"
-      ],
-      "keyExclusions": [
-        "Cosmetic surgery",
-        "Experimental treatments",
-        "Self-inflicted injuries",
-        "War and terrorism related injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Krankentagegeld", "Zahnzusatzversicherung (dental upgrade)"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year (auto-renewing)"] },
-      "renewability": "annual",
-      "specialFeatures": ["International AXA network", "Online claims portal", "Telemedicine services"],
-      "sourceUrl": "https://www.axa.de/krankenversicherung",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "AXA Germany offers various PKV tariffs. EL Vital is their entry-level comprehensive private plan."
-    },
-    {
-      "id": "debeka-pkv-n",
-      "insurerName": "Debeka Krankenversicherungsverein",
-      "insurerSlug": "debeka",
-      "productName": "Debeka PKV Tarif N",
-      "category": "health",
-      "subCategory": "comprehensive-private",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 65, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 300, "illustrativeMax": 650, "assumptions": "Monthly premium, single adult aged 30-35. Debeka is known for competitive PKV rates.", "isVerified": false },
-      "waitingPeriod": { "initial": "3 months", "preExisting": "8 months", "specific": null },
-      "keyInclusions": [
-        "Inpatient treatment in multi-bed room",
-        "Outpatient treatment by general practitioners and specialists",
-        "Dental treatment (70% dentures)",
-        "Prescription medicines",
-        "Preventive care and vaccinations",
-        "Psychotherapy",
-        "Medical aids (Hilfsmittel)"
-      ],
-      "keyExclusions": [
-        "Cosmetic procedures",
-        "Treatment by Heilpraktiker (available as upgrade)",
-        "Private ward (available as upgrade)",
-        "Experimental therapies"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Chefarztbehandlung (chief physician upgrade)", "Einbettzimmer (single room)", "Heilpraktiker coverage", "Krankentagegeld"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year (auto-renewing)"] },
-      "renewability": "annual",
-      "specialFeatures": ["Mutual insurance association (lower profit motive)", "Strong civil servant discounts (Beamte)", "Long track record of moderate premium increases"],
-      "sourceUrl": "https://www.debeka.de/produkte/krankenversicherung/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Debeka is Germany's largest PKV insurer by members. Particularly popular among civil servants (Beamte) due to Beihilfe-compatible tariffs."
-    },
-    {
-      "id": "signal-iduna-exklusiv",
-      "insurerName": "SIGNAL IDUNA Krankenversicherung",
-      "insurerSlug": "signal-iduna",
-      "productName": "SIGNAL IDUNA Exklusiv Plus",
-      "category": "health",
-      "subCategory": "premium-private",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 60, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 450, "illustrativeMax": 900, "assumptions": "Monthly premium, single adult aged 30-35, top-tier tariff.", "isVerified": false },
-      "waitingPeriod": { "initial": "3 months", "preExisting": "8 months", "specific": null },
-      "keyInclusions": [
-        "Single room hospitalization with chief physician",
-        "Unrestricted choice of doctors and specialists",
-        "100% dental including implants",
-        "Orthodontics",
-        "Heilpraktiker and alternative medicine",
-        "Full prescription drug coverage",
-        "Vision (glasses and contact lenses)",
-        "Worldwide coverage for 12 months",
-        "Preventive care and cancer screening"
-      ],
-      "keyExclusions": [
-        "Purely cosmetic treatments",
-        "Experimental therapies",
-        "Addiction-related treatment (limited)"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Krankentagegeld", "Pflegeversicherung (long-term care)"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year (auto-renewing)"] },
-      "renewability": "annual",
-      "specialFeatures": ["Premium tier with virtually no gaps", "100% implant coverage", "Generous alternative medicine benefits"],
-      "sourceUrl": "https://www.signal-iduna.de/krankenversicherung",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "SIGNAL IDUNA Group serves mainly self-employed and freelancers. Exklusiv Plus is their highest-tier PKV tariff."
-    },
-    {
-      "id": "huk-coburg-pkv-comfort",
-      "insurerName": "HUK-COBURG Krankenversicherung",
-      "insurerSlug": "huk-coburg",
-      "productName": "HUK-COBURG PKV Comfort",
-      "category": "health",
-      "subCategory": "value-private",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 65, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 280, "illustrativeMax": 580, "assumptions": "Monthly premium, single adult aged 30-35, value-oriented tariff.", "isVerified": false },
-      "waitingPeriod": { "initial": "3 months", "preExisting": "8 months", "specific": null },
-      "keyInclusions": [
-        "Inpatient hospital treatment (multi-bed ward)",
-        "Outpatient doctor visits",
-        "Dental treatment (60-75% for dentures)",
-        "Prescription medication",
-        "Preventive examinations",
-        "Psychotherapy (limited sessions)",
-        "Medical aids"
-      ],
-      "keyExclusions": [
-        "Private ward and chief physician (available as upgrade)",
-        "Heilpraktiker",
-        "Cosmetic surgery",
-        "Experimental treatments"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Stationaere Zusatzversicherung (hospital upgrade)", "Krankentagegeld", "Zahnzusatz (dental upgrade)"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year (auto-renewing)"] },
-      "renewability": "annual",
-      "specialFeatures": ["Known for stable premiums", "Direct insurer (no broker commissions)", "Strong Finanztest ratings"],
-      "sourceUrl": "https://www.huk.de/krankenversicherung/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "HUK-COBURG is known for good value PKV with historically moderate premium increases."
-    },
-    {
-      "id": "gothaer-medistart",
-      "insurerName": "Gothaer Krankenversicherung",
-      "insurerSlug": "gothaer",
-      "productName": "Gothaer MediStart",
-      "category": "health",
-      "subCategory": "starter-private",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 55, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 250, "illustrativeMax": 520, "assumptions": "Monthly premium, single adult aged 30-35, starter tariff with higher deductible.", "isVerified": false },
-      "waitingPeriod": { "initial": "3 months", "preExisting": "8 months", "specific": null },
-      "keyInclusions": [
-        "Hospital treatment",
-        "Outpatient medical care",
-        "Basic dental coverage",
-        "Prescription medication",
-        "Preventive care",
-        "Vision (partial)"
-      ],
-      "keyExclusions": [
-        "Private ward",
-        "Chief physician treatment",
-        "Heilpraktiker",
-        "Extensive dental prosthetics",
-        "Cosmetic procedures"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Hospital upgrade", "Dental premium", "Krankentagegeld"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year (auto-renewing)"] },
-      "renewability": "annual",
-      "specialFeatures": ["Affordable entry into PKV", "Annual deductible reduces premium", "Upgrade paths available"],
-      "sourceUrl": "https://www.gothaer.de/krankenversicherung/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Gothaer MediStart is designed for young professionals entering the PKV system for the first time."
-    },
-    {
-      "id": "barmenia-pkv-einsplus",
-      "insurerName": "Barmenia Krankenversicherung",
-      "insurerSlug": "barmenia",
-      "productName": "Barmenia einsA expert+",
-      "category": "health",
-      "subCategory": "premium-private",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 65, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 420, "illustrativeMax": 850, "assumptions": "Monthly premium, single adult aged 30-35, premium tariff.", "isVerified": false },
-      "waitingPeriod": { "initial": "3 months", "preExisting": "8 months", "specific": null },
-      "keyInclusions": [
-        "Single room with chief physician treatment",
-        "100% outpatient treatment",
-        "Dental including implants (90%)",
-        "Heilpraktiker and naturopathy",
-        "Prescription drugs without limit",
-        "Psychotherapy (50 sessions/year)",
-        "Worldwide coverage (6 months)",
-        "Preventive health programs"
-      ],
-      "keyExclusions": [
-        "Purely cosmetic treatments",
-        "Experimental unapproved therapies",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Krankentagegeld", "Pflegezusatzversicherung"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year (auto-renewing)"] },
-      "renewability": "annual",
-      "specialFeatures": ["Strong Stiftung Warentest ratings", "Generous naturopathy benefits", "Flexible deductible options"],
-      "sourceUrl": "https://www.barmenia.de/pkv/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Barmenia is a Wuppertal-based insurer known for comprehensive PKV products with good customer service."
-    },
-    {
-      "id": "hallesche-nk-brillant",
-      "insurerName": "Hallesche Krankenversicherung",
-      "insurerSlug": "hallesche",
-      "productName": "Hallesche NK.brillant",
-      "category": "health",
-      "subCategory": "premium-private",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 65, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 400, "illustrativeMax": 820, "assumptions": "Monthly premium, single adult aged 30-35, premium ambulant+stationaer tariff.", "isVerified": false },
-      "waitingPeriod": { "initial": "3 months", "preExisting": "8 months", "specific": null },
-      "keyInclusions": [
-        "Hospital single room with chief physician",
-        "Unrestricted outpatient specialist access",
-        "Dental (90% including implants)",
-        "Heilpraktiker (extensive)",
-        "Prescription drugs",
-        "Hearing aids and medical aids",
-        "Worldwide coverage",
-        "Preventive care and vaccinations"
-      ],
-      "keyExclusions": [
-        "Cosmetic surgery",
-        "Experimental treatments",
-        "Addiction treatment (limited)"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Krankentagegeld", "Pflegetagegeld"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year (auto-renewing)"] },
-      "renewability": "annual",
-      "specialFeatures": ["Part of ALH Group", "Strong ambulatory tariff", "No referral required for any specialist"],
-      "sourceUrl": "https://www.hallesche.de/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Hallesche (part of ALH Group/Alte Leipziger) is recognized for strong ambulatory PKV tariffs."
-    },
-    {
-      "id": "continentale-premium",
-      "insurerName": "Continentale Krankenversicherung",
-      "insurerSlug": "continentale",
-      "productName": "Continentale Premium",
-      "category": "health",
-      "subCategory": "comprehensive-private",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 65, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 360, "illustrativeMax": 740, "assumptions": "Monthly premium, single adult aged 30-35.", "isVerified": false },
-      "waitingPeriod": { "initial": "3 months", "preExisting": "8 months", "specific": null },
-      "keyInclusions": [
-        "Hospital treatment with private ward option",
-        "Full outpatient care",
-        "Dental treatment (80% dentures)",
-        "Orthodontics for children",
-        "Prescription medication",
-        "Psychotherapy",
-        "Heilpraktiker (limited)",
-        "Medical aids and appliances"
-      ],
-      "keyExclusions": [
-        "Cosmetic procedures",
-        "Experimental treatments",
-        "Non-medically necessary treatments"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Chefarztbehandlung upgrade", "Krankentagegeld", "Auslands-Reisekrankenversicherung"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year (auto-renewing)"] },
-      "renewability": "annual",
-      "specialFeatures": ["Mutual insurer (Versicherungsverein)", "Historically stable premiums", "Good Beamte tariffs"],
-      "sourceUrl": "https://www.continentale.de/krankenversicherung",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Continentale is a Dortmund-based mutual insurer. Their PKV tariffs are well-regarded for long-term premium stability."
-    },
-    {
-      "id": "allianz-pkv-aks",
-      "insurerName": "Allianz Private Krankenversicherung",
-      "insurerSlug": "allianz-de",
-      "productName": "Allianz AktiMed Select (AKS)",
-      "category": "health",
-      "subCategory": "value-private",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 65, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 260, "illustrativeMax": 550, "assumptions": "Monthly premium, single adult aged 30-35, entry-level PKV tariff with self-pay component.", "isVerified": false },
-      "waitingPeriod": { "initial": "3 months", "preExisting": "8 months", "specific": null },
-      "keyInclusions": [
-        "Inpatient hospital treatment (general ward)",
-        "Outpatient doctor visits (GP and specialist)",
-        "Basic dental care",
-        "Prescription medication",
-        "Preventive check-ups",
-        "Emergency worldwide coverage"
-      ],
-      "keyExclusions": [
-        "Private ward",
-        "Chief physician treatment",
-        "Heilpraktiker",
-        "Extensive dental prosthetics",
-        "Cosmetic procedures"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Hospital upgrade to single room", "Dental premium rider", "Krankentagegeld"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year (auto-renewing)"] },
-      "renewability": "annual",
-      "specialFeatures": ["Entry-level PKV", "Annual deductible options to reduce premium", "Upgrade pathway to BestSelect"],
-      "sourceUrl": "https://www.allianz.de/gesundheit/private-krankenversicherung/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Entry-level PKV tariff from Allianz with lower premiums but also more limited benefits. Suitable for young, healthy self-employed."
-    },
-    {
-      "id": "dkv-kompakt-med",
-      "insurerName": "DKV Deutsche Krankenversicherung (ERGO Group)",
-      "insurerSlug": "dkv",
-      "productName": "DKV KompaktMed",
-      "category": "health",
-      "subCategory": "supplementary",
-      "countryCode": "de",
-      "eligibility": { "minAge": 18, "maxAge": 65, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 30, "illustrativeMax": 120, "assumptions": "Monthly premium for GKV members, single adult aged 30-35. Supplementary coverage on top of statutory insurance.", "isVerified": false },
-      "waitingPeriod": { "initial": "3 months", "preExisting": "8 months", "specific": null },
-      "keyInclusions": [
-        "Hospital upgrade to two-bed room",
-        "Chief physician treatment in hospital",
-        "Free hospital choice across Germany",
-        "Daily hospital cash benefit"
-      ],
-      "keyExclusions": [
-        "Outpatient treatments (covered by GKV)",
-        "Dental (separate product needed)",
-        "Treatments not covered by GKV"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
       "riders": [],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year (auto-renewing)"] },
-      "renewability": "annual",
-      "specialFeatures": ["Top-up for GKV members", "Hospital comfort upgrade", "Affordable way to get private hospital treatment"],
-      "sourceUrl": "https://www.dkv.com/",
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Germany's Largest Health Fund",
+        "Digital Services",
+        "TK-App"
+      ],
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "allianz-pkv-de",
+      "insurerName": "Allianz",
+      "insurerSlug": "allianz-de",
+      "productName": "Allianz Private Health",
+      "category": "health",
+      "subCategory": "private",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 300,
+        "illustrativeMax": 600,
+        "assumptions": "Monthly, EUR, private",
+        "isVerified": false
+      },
+      "keyInclusions": [],
+      "keyExclusions": [
+        "Pre-existing conditions exclusions apply"
+      ],
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Comprehensive Private Cover",
+        "Specialist Access",
+        "Single Room"
+      ],
+      "sourceUrl": "",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "debeka-health-de",
+      "insurerName": "Debeka",
+      "insurerSlug": "debeka",
+      "productName": "Debeka Krankenversicherung",
+      "category": "health",
+      "subCategory": "private",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 280,
+        "illustrativeMax": 550,
+        "assumptions": "Monthly, EUR, private",
+        "isVerified": false
+      },
+      "keyInclusions": [],
+      "keyExclusions": [
+        "Pre-existing conditions exclusions apply"
+      ],
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Largest Private Health Insurer",
+        "Civil Servant Plans",
+        "Comprehensive"
+      ],
+      "sourceUrl": "",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Supplementary hospital insurance (Krankenhauszusatzversicherung) for GKV-insured members wanting private ward treatment."
+      "notes": "",
+      "countryCode": "de"
     }
   ]
 }

@@ -1,468 +1,151 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-03-24",
-  "disclaimer": "Data collected from publicly available sources for educational and informational purposes only. Motor insurance is mandatory in UAE. Premium figures are illustrative and vary based on vehicle type, driver profile, and emirate. Zura does not sell insurance. Please verify all details with the insurer directly.",
+  "lastUpdated": "2026-04-03",
+  "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
-      "id": "axa-gulf-motor-comprehensive",
-      "insurerName": "AXA Gulf (AXA – GIG Gulf)",
-      "insurerSlug": "axa-gulf",
-      "productName": "AXA Comprehensive Motor Insurance",
-      "category": "motor",
-      "subCategory": "comprehensive",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 18, "maxAge": 75, "renewableUpTo": "no limit" },
-      "sumInsured": { "min": 20000, "max": 2000000, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 1800, "illustrativeMax": 8000, "assumptions": "Sedan, 2022 model, driver age 30, no claims history. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Accidental damage to own vehicle",
-        "Third party liability (unlimited)",
-        "Fire and theft",
-        "Natural disaster damage",
-        "Personal accident cover for driver",
-        "Windscreen cover",
-        "Emergency roadside assistance",
-        "Agency repair for vehicles under 3 years"
-      ],
-      "keyExclusions": [
-        "Wear and tear",
-        "Mechanical/electrical breakdown",
-        "Driving under influence",
-        "Unlicensed driver",
-        "Racing or speed testing",
-        "Using vehicle for hire without declaration"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Agency repair extension", "GCC cover", "Roadside assistance premium", "Rent-a-car during repair"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "annual",
-      "specialFeatures": ["Online purchase available", "Immediate policy issuance", "24/7 claims hotline"],
-      "sourceUrl": "https://www.axa-gulf.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "AXA is one of the top motor insurers in UAE."
-    },
-    {
-      "id": "axa-gulf-motor-tpl",
-      "insurerName": "AXA Gulf (AXA – GIG Gulf)",
-      "insurerSlug": "axa-gulf",
-      "productName": "AXA Third Party Liability Motor",
-      "category": "motor",
-      "subCategory": "third-party",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 18, "maxAge": 75, "renewableUpTo": "no limit" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 650, "illustrativeMax": 1500, "assumptions": "Standard sedan, basic TPL cover. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Third party bodily injury (unlimited)",
-        "Third party property damage (up to AED 2,000,000)",
-        "Legal liability to third parties"
-      ],
-      "keyExclusions": [
-        "Own vehicle damage",
-        "Fire and theft of own vehicle",
-        "Personal accident for driver",
-        "Driving under influence",
-        "Unlicensed driver"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Personal accident cover", "Emergency towing"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "annual",
-      "specialFeatures": ["Minimum legal requirement in UAE", "Quick online issuance", "Low premium"],
-      "sourceUrl": "https://www.axa-gulf.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Third party liability is the minimum legal requirement for motor insurance in UAE."
-    },
-    {
-      "id": "rsa-motor-comprehensive",
-      "insurerName": "RSA Insurance (now part of Intact)",
-      "insurerSlug": "rsa",
-      "productName": "RSA Comprehensive Motor Insurance",
-      "category": "motor",
-      "subCategory": "comprehensive",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 18, "maxAge": 70, "renewableUpTo": "no limit" },
-      "sumInsured": { "min": 25000, "max": 1500000, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 1600, "illustrativeMax": 7000, "assumptions": "Sedan, 2021-2023 model, driver age 30. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Accidental damage to own vehicle",
-        "Third party liability",
-        "Fire and theft",
-        "Natural calamity cover",
-        "Personal accident for driver and passengers",
-        "Windscreen replacement",
-        "Towing and roadside assistance"
-      ],
-      "keyExclusions": [
-        "Wear and tear",
-        "Mechanical failure",
-        "Driving under influence",
-        "Using vehicle for commercial purposes (unless declared)",
-        "Racing or competitions"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Agency repair", "GCC extension", "Rent-a-car", "Off-road cover"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "annual",
-      "specialFeatures": ["Agency repair for new vehicles", "Fast claims settlement", "NCD (No Claims Discount) transfer"],
-      "sourceUrl": "https://www.rsagroup.ae/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "RSA is a well-known international insurer with strong UAE presence."
-    },
-    {
-      "id": "oman-insurance-motor-comprehensive",
-      "insurerName": "Oman Insurance Company",
-      "insurerSlug": "oman-insurance",
-      "productName": "Oman Insurance Comprehensive Motor",
-      "category": "motor",
-      "subCategory": "comprehensive",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 18, "maxAge": 70, "renewableUpTo": "no limit" },
-      "sumInsured": { "min": 20000, "max": 2000000, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 1700, "illustrativeMax": 8500, "assumptions": "Sedan, 2022 model, driver age 30, clean record. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third party liability",
-        "Fire and theft",
-        "Natural disaster coverage",
-        "Personal accident for driver",
-        "Windscreen cover",
-        "Roadside assistance",
-        "Agency repair (new vehicles)"
-      ],
-      "keyExclusions": [
-        "Normal wear and depreciation",
-        "Mechanical/electrical breakdown",
-        "Driving while intoxicated",
-        "Unlicensed driver",
-        "Off-road use (unless covered)"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Agency repair extension", "GCC cover", "Rent-a-car benefit", "Personal belongings cover"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "annual",
-      "specialFeatures": ["Large network of approved garages", "Online claims tracking", "NCD up to 50%"],
-      "sourceUrl": "https://www.omaninsurance.ae/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Oman Insurance is one of the largest motor insurers in UAE."
-    },
-    {
-      "id": "orient-insurance-motor-comprehensive",
-      "insurerName": "Orient Insurance PJSC",
+      "id": "orient-motor-ae",
+      "insurerName": "Orient Insurance",
       "insurerSlug": "orient-insurance",
-      "productName": "Orient Comprehensive Motor Insurance",
+      "productName": "Orient Motor Insurance",
       "category": "motor",
       "subCategory": "comprehensive",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 18, "maxAge": 70, "renewableUpTo": "no limit" },
-      "sumInsured": { "min": 20000, "max": 1500000, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 1500, "illustrativeMax": 7500, "assumptions": "Sedan, 2021-2023 model, driver age 30. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Accidental damage",
-        "Third party liability",
-        "Fire and theft",
-        "Personal accident cover",
-        "Windscreen damage",
-        "Roadside assistance",
-        "GCC cover (included)"
-      ],
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 1200,
+        "illustrativeMax": 4500,
+        "assumptions": "Annual, AED",
+        "isVerified": false
+      },
+      "keyInclusions": [],
       "keyExclusions": [
-        "Wear and tear",
-        "Mechanical failure",
-        "Driving under influence",
-        "Commercial use (unless declared)",
-        "Modifications not declared"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Agency repair", "Rent-a-car", "Personal accident upgrade", "Off-road cover"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "annual",
-      "specialFeatures": ["GCC cover included as standard", "Quick claim settlement", "Wide garage network"],
-      "sourceUrl": "https://www.orientinsurance.ae/",
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Established Provider",
+        "Wide Garage Network",
+        "Competitive"
+      ],
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Orient Insurance includes GCC cover as standard in comprehensive plans."
+      "notes": "",
+      "countryCode": "ae"
     },
     {
-      "id": "noor-takaful-motor-comprehensive",
-      "insurerName": "Noor Takaful Family PJSC",
-      "insurerSlug": "noor-takaful",
-      "productName": "Noor Takaful Motor Comprehensive",
-      "category": "motor",
-      "subCategory": "comprehensive-takaful",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 18, "maxAge": 70, "renewableUpTo": "no limit" },
-      "sumInsured": { "min": 20000, "max": 1000000, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 1400, "illustrativeMax": 6500, "assumptions": "Sedan, 2022 model, driver age 30. Takaful contribution. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage (Sharia-compliant)",
-        "Third party liability",
-        "Fire and theft",
-        "Personal accident cover",
-        "Windscreen damage",
-        "Roadside assistance"
-      ],
-      "keyExclusions": [
-        "Wear and tear",
-        "Mechanical breakdown",
-        "Driving under influence",
-        "Racing or speed testing",
-        "Unlicensed driver"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Agency repair", "GCC extension", "Rent-a-car"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "annual",
-      "specialFeatures": ["Sharia-compliant Takaful", "Surplus sharing", "Competitive pricing"],
-      "sourceUrl": "https://www.noortakaful.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Islamic motor insurance option in UAE."
-    },
-    {
-      "id": "dubai-islamic-motor-takaful",
-      "insurerName": "Dubai Islamic Insurance and Reinsurance Company (AMAN)",
-      "insurerSlug": "dubai-islamic-insurance",
-      "productName": "AMAN Motor Takaful Comprehensive",
-      "category": "motor",
-      "subCategory": "comprehensive-takaful",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 18, "maxAge": 70, "renewableUpTo": "no limit" },
-      "sumInsured": { "min": 20000, "max": 1500000, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 1500, "illustrativeMax": 7000, "assumptions": "Sedan, 2022 model, driver age 30. Takaful contribution. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third party liability",
-        "Fire and theft",
-        "Natural calamity",
-        "Personal accident cover",
-        "Windscreen replacement",
-        "Towing services"
-      ],
-      "keyExclusions": [
-        "Wear and tear",
-        "Mechanical failure",
-        "Alcohol/drug-related accidents",
-        "Unlicensed driving",
-        "Racing"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Agency repair", "GCC cover", "Rent-a-car", "Personal belongings"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "annual",
-      "specialFeatures": ["Sharia-compliant", "Surplus distribution", "Approved garages network"],
-      "sourceUrl": "https://www.aman-diic.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "AMAN is the oldest Islamic insurance company in UAE."
-    },
-    {
-      "id": "adamjee-motor-comprehensive",
-      "insurerName": "Adamjee Insurance (UAE Branch)",
-      "insurerSlug": "adamjee",
-      "productName": "Adamjee Comprehensive Motor Plan",
+      "id": "axa-motor-ae",
+      "insurerName": "AXA Gulf",
+      "insurerSlug": "axa-gulf",
+      "productName": "AXA Gulf Motor Insurance",
       "category": "motor",
       "subCategory": "comprehensive",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 18, "maxAge": 70, "renewableUpTo": "no limit" },
-      "sumInsured": { "min": 15000, "max": 1000000, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 1200, "illustrativeMax": 5500, "assumptions": "Sedan, 2021-2023, driver age 30. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third party liability",
-        "Fire and theft",
-        "Personal accident",
-        "Windscreen cover",
-        "Emergency towing"
-      ],
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 1500,
+        "illustrativeMax": 5500,
+        "assumptions": "Annual, AED",
+        "isVerified": false
+      },
+      "keyInclusions": [],
       "keyExclusions": [
-        "Wear and tear",
-        "Mechanical failure",
-        "Driving under influence",
-        "Commercial use (unless declared)",
-        "Racing"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Agency repair", "GCC cover", "Rent-a-car"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "annual",
-      "specialFeatures": ["Budget-friendly pricing", "Quick claims processing", "Online renewal"],
-      "sourceUrl": "https://www.adamjeeinsurance.ae/",
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Cashless Repairs",
+        "Personal Accident",
+        "Agency Repair"
+      ],
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Adamjee offers competitive motor insurance rates in UAE."
+      "notes": "",
+      "countryCode": "ae"
     },
     {
-      "id": "alliance-motor-comprehensive",
-      "insurerName": "Alliance Insurance PSC",
-      "insurerSlug": "alliance-insurance",
-      "productName": "Alliance Comprehensive Motor Cover",
-      "category": "motor",
-      "subCategory": "comprehensive",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 18, "maxAge": 70, "renewableUpTo": "no limit" },
-      "sumInsured": { "min": 20000, "max": 1200000, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 1400, "illustrativeMax": 6000, "assumptions": "Sedan, 2022 model, driver age 30. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Own damage cover",
-        "Third party liability",
-        "Fire and theft",
-        "Personal accident cover",
-        "Windscreen damage",
-        "Towing and roadside assistance"
-      ],
-      "keyExclusions": [
-        "Wear and depreciation",
-        "Mechanical breakdown",
-        "Driving under influence",
-        "Unlicensed driver",
-        "Use for hire"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Agency repair", "GCC extension", "Off-road cover"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "annual",
-      "specialFeatures": ["Competitive pricing", "Approved garage network", "Quick renewal"],
-      "sourceUrl": "https://www.allianceinsurance.ae/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Alliance Insurance is a publicly listed insurer in UAE."
-    },
-    {
-      "id": "rsa-motor-tpl",
-      "insurerName": "RSA Insurance (now part of Intact)",
-      "insurerSlug": "rsa",
-      "productName": "RSA Third Party Liability Motor",
-      "category": "motor",
-      "subCategory": "third-party",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 18, "maxAge": 70, "renewableUpTo": "no limit" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 600, "illustrativeMax": 1200, "assumptions": "Standard vehicle, basic TPL. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Third party bodily injury liability",
-        "Third party property damage",
-        "Legal defense costs"
-      ],
-      "keyExclusions": [
-        "Own vehicle damage",
-        "Theft of own vehicle",
-        "Personal accident for driver",
-        "Driving under influence"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Personal accident add-on", "Emergency towing"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "annual",
-      "specialFeatures": ["Minimum legal requirement", "Affordable premium", "Quick issuance"],
-      "sourceUrl": "https://www.rsagroup.ae/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Basic TPL cover meeting UAE mandatory requirements."
-    },
-    {
-      "id": "oman-insurance-motor-tpl",
-      "insurerName": "Oman Insurance Company",
+      "id": "oman-motor-ae",
+      "insurerName": "Oman Insurance",
       "insurerSlug": "oman-insurance",
-      "productName": "Oman Insurance Third Party Motor",
+      "productName": "Oman Motor Insurance",
       "category": "motor",
-      "subCategory": "third-party",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 18, "maxAge": 70, "renewableUpTo": "no limit" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 550, "illustrativeMax": 1100, "assumptions": "Standard sedan, basic TPL. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Third party bodily injury",
-        "Third party property damage",
-        "Legal liability costs"
-      ],
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 1800,
+        "illustrativeMax": 6000,
+        "assumptions": "Annual, AED",
+        "isVerified": false
+      },
+      "keyInclusions": [],
       "keyExclusions": [
-        "Own vehicle damage",
-        "Fire and theft of own vehicle",
-        "Personal accident",
-        "Driving under influence"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Personal accident", "Emergency assistance"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "annual",
-      "specialFeatures": ["Affordable basic cover", "Quick issuance", "Online purchase"],
-      "sourceUrl": "https://www.omaninsurance.ae/",
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Wide Network",
+        "Comprehensive Cover",
+        "Roadside Assist"
+      ],
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Meets mandatory motor insurance requirements in UAE."
-    },
-    {
-      "id": "orient-insurance-motor-tpl",
-      "insurerName": "Orient Insurance PJSC",
-      "insurerSlug": "orient-insurance",
-      "productName": "Orient Third Party Motor Insurance",
-      "category": "motor",
-      "subCategory": "third-party",
-      "countryCode": "ae",
-      "eligibility": { "minAge": 18, "maxAge": 70, "renewableUpTo": "no limit" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "AED" },
-      "premiumRange": { "illustrativeMin": 600, "illustrativeMax": 1300, "assumptions": "Standard vehicle, TPL only. Indicative only.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Third party bodily injury (unlimited)",
-        "Third party property damage",
-        "Legal defense costs"
-      ],
-      "keyExclusions": [
-        "Own vehicle damage",
-        "Theft of own vehicle",
-        "Personal injuries to driver",
-        "Driving under influence"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Personal accident cover"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "annual",
-      "specialFeatures": ["Budget-friendly", "Instant online issuance", "GCC extension available"],
-      "sourceUrl": "https://www.orientinsurance.ae/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Basic third party cover from Orient Insurance."
+      "notes": "",
+      "countryCode": "ae"
     }
   ]
 }

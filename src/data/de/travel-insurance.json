@@ -1,308 +1,103 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-03-24",
-  "disclaimer": "Data collected from publicly available sources for educational and informational purposes only. German travel insurance (Reiseversicherung) includes Auslandsreisekrankenversicherung (foreign health), Reiseruecktrittsversicherung (trip cancellation), and Reisegepaeckversicherung (luggage). Premium figures are illustrative. Zura does not sell insurance.",
+  "lastUpdated": "2026-04-03",
+  "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
-      "id": "allianz-reise-jahres",
-      "insurerName": "Allianz Reiseversicherung (Allianz Partners)",
-      "insurerSlug": "allianz-de",
-      "productName": "Allianz Jahres-Reisekrankenversicherung",
-      "category": "travel",
-      "subCategory": "annual-health",
-      "countryCode": "de",
-      "eligibility": { "minAge": 0, "maxAge": 70, "renewableUpTo": "74" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 10, "illustrativeMax": 50, "assumptions": "Annual premium for single adult under 65. Unlimited medical costs abroad.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Unlimited medical treatment costs abroad",
-        "Hospital inpatient and outpatient treatment",
-        "Emergency dental treatment",
-        "Medical repatriation to Germany",
-        "Search and rescue costs",
-        "Repatriation of remains",
-        "Trips up to 45 days each"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (acute flare-ups may be covered)",
-        "Planned treatments abroad",
-        "Pregnancy-related treatment after 36th week",
-        "Chronic condition ongoing treatment",
-        "Trips exceeding maximum single-trip duration"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Reiseruecktrittsversicherung", "Reisegepaeckversicherung"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year (annual multi-trip)"] },
-      "renewability": "annual",
-      "specialFeatures": ["Unlimited medical costs", "24/7 emergency hotline", "Global coverage", "Family tariffs available"],
-      "sourceUrl": "https://www.allianz-reiseversicherung.de/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Allianz Partners (formerly Allianz Global Assistance) is Germany's leading travel insurer. Annual policy covers unlimited trips."
-    },
-    {
-      "id": "ergo-reise-jahres",
-      "insurerName": "ERGO Reiseversicherung",
+      "id": "ergo-travel-de",
+      "insurerName": "ERGO",
       "insurerSlug": "ergo",
-      "productName": "ERGO Jahres-Auslandsreisekrankenversicherung",
+      "productName": "ERGO Reiseversicherung",
       "category": "travel",
-      "subCategory": "annual-health",
-      "countryCode": "de",
-      "eligibility": { "minAge": 0, "maxAge": 70, "renewableUpTo": "74" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 10, "illustrativeMax": 40, "assumptions": "Annual premium, single adult under 65.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Unlimited medical treatment abroad",
-        "Emergency hospitalization",
-        "Emergency dental treatment (up to EUR 500)",
-        "Medical repatriation",
-        "Search and rescue (up to EUR 5,000)",
-        "Repatriation of remains",
-        "Maximum 56 days per trip"
-      ],
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 10,
+        "illustrativeMax": 40,
+        "assumptions": "Per trip, EUR",
+        "isVerified": false
+      },
+      "keyInclusions": [],
       "keyExclusions": [
-        "Pre-existing conditions",
-        "Planned medical treatment",
-        "Pregnancy after 36th week",
-        "Cosmetic procedures"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Reiseruecktritt", "Reiseabbruch (trip curtailment)"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year (annual)"] },
-      "renewability": "annual",
-      "specialFeatures": ["56-day single trip maximum", "Family tariff available", "COVID-related illness covered", "Online claims"],
-      "sourceUrl": "https://www.ergo-reiseversicherung.de/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "ERGO Reiseversicherung (formerly ERV) is one of Germany's top travel insurers. Part of Munich Re group."
-    },
-    {
-      "id": "hansemerkur-jahresreise",
-      "insurerName": "HanseMerkur Reiseversicherung",
-      "insurerSlug": "hansemerkur",
-      "productName": "HanseMerkur Jahres-Auslandskrankenversicherung",
-      "category": "travel",
-      "subCategory": "annual-health",
-      "countryCode": "de",
-      "eligibility": { "minAge": 0, "maxAge": 65, "renewableUpTo": "74" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 8, "illustrativeMax": 35, "assumptions": "Annual premium, single adult under 65. Stiftung Warentest best-price winner.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Unlimited medical treatment abroad",
-        "Emergency hospitalization",
-        "Emergency dental",
-        "Medical evacuation and repatriation",
-        "Rescue costs",
-        "Repatriation of remains",
-        "Up to 56 days per single trip"
-      ],
-      "keyExclusions": [
-        "Known pre-existing conditions",
-        "Planned treatments",
-        "Pregnancy complications after 36th week",
-        "Alcohol/drug-related incidents"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Reiseruecktritt", "Reisegepaeck"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year (annual)"] },
-      "renewability": "annual",
-      "specialFeatures": ["Regularly rated best by Stiftung Warentest", "Very competitive pricing", "Hamburg-based insurer", "Simple online application"],
-      "sourceUrl": "https://www.hansemerkur.de/reiseversicherung",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "HanseMerkur has been the Stiftung Warentest/Finanztest winner for annual travel health insurance multiple years running."
-    },
-    {
-      "id": "axa-reise-single",
-      "insurerName": "AXA Reiseversicherung",
-      "insurerSlug": "axa-de",
-      "productName": "AXA Einzel-Reisekrankenversicherung",
-      "category": "travel",
-      "subCategory": "single-trip-health",
-      "countryCode": "de",
-      "eligibility": { "minAge": 0, "maxAge": 75, "renewableUpTo": "n/a" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 8, "illustrativeMax": 45, "assumptions": "Per-trip premium, single adult, Europe trip up to 14 days.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical treatment abroad",
-        "Emergency hospitalization",
-        "Emergency dental",
-        "Medical repatriation",
-        "Search and rescue"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "Planned treatment",
-        "Pregnancy after 36th week"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Trip cancellation", "Luggage protection", "Travel liability"],
-      "policyTenure": { "min": 0, "max": 0, "options": ["Single trip (up to 45 days)"] },
-      "renewability": "single-trip",
-      "specialFeatures": ["Per-trip pricing", "Easy online purchase", "AXA global network"],
-      "sourceUrl": "https://www.axa.de/reiseversicherung",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "AXA offers both single-trip and annual travel health policies. Single trip is suitable for infrequent travelers."
-    },
-    {
-      "id": "envivas-reise-jahres",
-      "insurerName": "Envivas Krankenversicherung (Techniker Krankenkasse partner)",
-      "insurerSlug": "envivas",
-      "productName": "Envivas TravelXN Jahresschutz",
-      "category": "travel",
-      "subCategory": "annual-health",
-      "countryCode": "de",
-      "eligibility": { "minAge": 0, "maxAge": 65, "renewableUpTo": "74" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 8, "illustrativeMax": 30, "assumptions": "Annual premium, single adult under 65. Competitive rates for TK members.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical treatment abroad",
-        "Hospital stays",
-        "Emergency dental",
-        "Medical transport and repatriation",
-        "Rescue costs",
-        "Trips up to 56 days"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "Planned medical tourism",
-        "Pregnancy after 36th week"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
       "riders": [],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year (annual)"] },
-      "renewability": "annual",
-      "specialFeatures": ["Partner of Techniker Krankenkasse (Germany's largest health fund)", "Good value for TK members", "Simple claims via TK app"],
-      "sourceUrl": "https://www.envivas.de/reiseversicherung/",
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Annual Plans",
+        "Family Cover",
+        "EU-Wide"
+      ],
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Envivas is the supplementary insurance partner of Techniker Krankenkasse. TravelXN is their annual travel health product."
+      "notes": "",
+      "countryCode": "de"
     },
     {
-      "id": "hansemerkur-reiseruecktritt",
-      "insurerName": "HanseMerkur Reiseversicherung",
+      "id": "hansemerkur-travel-de",
+      "insurerName": "HanseMerkur",
       "insurerSlug": "hansemerkur",
-      "productName": "HanseMerkur Reiseruecktrittsversicherung",
+      "productName": "HanseMerkur Reiseversicherung",
       "category": "travel",
-      "subCategory": "trip-cancellation",
-      "countryCode": "de",
-      "eligibility": { "minAge": 0, "maxAge": 99, "renewableUpTo": "n/a" },
-      "sumInsured": { "min": 500, "max": 20000, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 25, "illustrativeMax": 150, "assumptions": "Per-trip, based on trip cost of EUR 1,000-5,000.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Trip cancellation costs reimbursement",
-        "Trip curtailment (early return)",
-        "Covered reasons: illness, accident, death in family, job loss, pregnancy",
-        "COVID-19 illness as covered reason"
-      ],
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 12,
+        "illustrativeMax": 45,
+        "assumptions": "Per trip, EUR",
+        "isVerified": false
+      },
+      "keyInclusions": [],
       "keyExclusions": [
-        "Change of mind",
-        "Pre-existing conditions known at booking",
-        "Travel warnings (unless specific tariff)",
-        "Pandemic-related government restrictions (varies)"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Travel health insurance bundle"],
-      "policyTenure": { "min": 0, "max": 0, "options": ["Single trip"] },
-      "renewability": "single-trip",
-      "specialFeatures": ["COVID illness covered", "Auch ohne Selbstbehalt (no deductible option)", "Family coverage available"],
-      "sourceUrl": "https://www.hansemerkur.de/reiseversicherung",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Trip cancellation insurance covers the non-refundable costs if you must cancel before departure for covered reasons."
-    },
-    {
-      "id": "ergo-reise-komplett",
-      "insurerName": "ERGO Reiseversicherung",
-      "insurerSlug": "ergo",
-      "productName": "ERGO Reise-Komplettschutz",
-      "category": "travel",
-      "subCategory": "comprehensive-travel",
-      "countryCode": "de",
-      "eligibility": { "minAge": 0, "maxAge": 70, "renewableUpTo": "n/a" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 60, "illustrativeMax": 250, "assumptions": "Per-trip bundle, based on EUR 2,000 trip cost, single adult.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Auslandsreisekrankenversicherung (travel health)",
-        "Reiseruecktritt (trip cancellation)",
-        "Reiseabbruch (trip curtailment)",
-        "Reisegepaeck (luggage protection up to EUR 2,000)",
-        "24/7 emergency assistance"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "Cancellation without covered reason",
-        "Valuables over individual limits",
-        "Professional equipment"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
       "riders": [],
-      "policyTenure": { "min": 0, "max": 0, "options": ["Single trip bundle"] },
-      "renewability": "single-trip",
-      "specialFeatures": ["All-in-one travel protection", "Single premium for complete coverage", "24/7 ERGO assistance worldwide"],
-      "sourceUrl": "https://www.ergo-reiseversicherung.de/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Comprehensive single-trip bundle combining health, cancellation, curtailment, and luggage coverage."
-    },
-    {
-      "id": "allianz-reise-langzeit",
-      "insurerName": "Allianz Reiseversicherung",
-      "insurerSlug": "allianz-de",
-      "productName": "Allianz Langzeit-Reisekrankenversicherung",
-      "category": "travel",
-      "subCategory": "long-stay-health",
-      "countryCode": "de",
-      "eligibility": { "minAge": 0, "maxAge": 65, "renewableUpTo": "n/a" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "EUR" },
-      "premiumRange": { "illustrativeMin": 40, "illustrativeMax": 180, "assumptions": "Per month, single adult under 65, worldwide coverage.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical treatment abroad for stays over 45 days",
-        "Hospitalization",
-        "Emergency dental",
-        "Medical repatriation",
-        "Coverage for working holiday, sabbatical, study abroad"
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Comprehensive",
+        "Stiftung Warentest Recommended",
+        "Senior Plans"
       ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "Routine check-ups",
-        "Elective procedures",
-        "Pregnancy after certain week"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Luggage", "Liability abroad"],
-      "policyTenure": { "min": 0, "max": 0, "options": ["1-24 months"] },
-      "renewability": "non-renewable",
-      "specialFeatures": ["For long-term travel, study abroad, working holidays", "Covers stays up to 24 months", "Worldwide coverage"],
-      "sourceUrl": "https://www.allianz-reiseversicherung.de/",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Designed for expats, students abroad, and long-term travelers who exceed the 45-56 day limit of annual policies."
+      "notes": "",
+      "countryCode": "de"
     }
   ]
 }

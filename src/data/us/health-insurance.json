@@ -1,1331 +1,352 @@
 {
   "category": "health",
-  "lastUpdated": "2026-03-24",
-  "disclaimer": "Data collected from publicly available sources for educational and informational purposes only. Premium figures are illustrative and based on ACA marketplace averages. Actual premiums vary by state, age, tobacco use, and plan design. Zura does not sell insurance. Please verify all details with the insurer directly before making any decision.",
+  "lastUpdated": "2026-04-03",
+  "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
-      "id": "uhc-choice-plus-gold",
-      "insurerName": "UnitedHealthcare Insurance Company",
-      "insurerSlug": "unitedhealthcare",
-      "productName": "UHC Choice Plus Gold",
+      "id": "kaiser-gold",
+      "insurerName": "Kaiser Permanente",
+      "insurerSlug": "kaiser-permanente",
+      "productName": "Kaiser Gold HMO",
       "category": "health",
-      "subCategory": "ppo-gold",
-      "countryCode": "us",
+      "subCategory": "hmo",
       "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual (ACA guaranteed renewal)"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
-        "min": 0,
-        "max": 9450,
+        "min": 3000,
+        "max": 9100,
+        "options": [],
         "currency": "USD",
-        "note": "Out-of-pocket maximum for individual"
+        "note": "Out-of-pocket max"
       },
       "premiumRange": {
-        "illustrativeMin": 450,
-        "illustrativeMax": 850,
-        "assumptions": "Individual, age 30, non-tobacco, monthly premium. Varies significantly by state and rating area.",
+        "illustrativeMin": 400,
+        "illustrativeMax": 600,
+        "assumptions": "40yo, monthly premium before subsidies",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care at no cost",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs (4-tier formulary)",
-        "Mental health and substance abuse services",
-        "Maternity and newborn care",
-        "Pediatric services including dental and vision",
-        "Laboratory services",
-        "Rehabilitative services",
-        "Chronic disease management"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Cosmetic surgery",
-        "Long-term care",
-        "Non-emergency care outside network (limited coverage)",
-        "Experimental treatments not FDA-approved",
-        "Dental and vision for adults (separate plan required)"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": {
-        "count": 1300000,
-        "source": "UnitedHealthcare provider network (approximate providers and facilities)"
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "Insurer/Regulator"
       },
       "riders": [],
       "policyTenure": {
         "min": 1,
         "max": 1,
-        "options": ["Annual (Jan-Dec plan year)"]
+        "options": [
+          1
+        ]
       },
-      "renewability": "Annual — ACA guaranteed renewal",
+      "renewability": "Annual",
       "specialFeatures": [
-        "Large national PPO network",
-        "Out-of-network coverage available",
-        "24/7 virtual visits",
-        "UHC rewards wellness program",
-        "No referral needed for specialists"
+        "#1 Rated 6 Consecutive Years",
+        "Integrated Care Model",
+        "Low Deductibles",
+        "Telemedicine Included"
       ],
-      "sourceUrl": "https://www.uhc.com/individual-and-family/health-insurance-plans",
+      "sourceUrl": "https://healthy.kaiserpermanente.org",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data based on public information. ACA marketplace plan. Verify with insurer."
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
     },
     {
-      "id": "uhc-navigate-silver",
-      "insurerName": "UnitedHealthcare Insurance Company",
-      "insurerSlug": "unitedhealthcare",
-      "productName": "UHC Navigate Silver",
+      "id": "bcbs-ppo",
+      "insurerName": "Blue Cross Blue Shield",
+      "insurerSlug": "anthem",
+      "productName": "BCBS Preferred PPO",
       "category": "health",
-      "subCategory": "epo-silver",
-      "countryCode": "us",
+      "subCategory": "ppo",
       "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual (ACA guaranteed renewal)"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
-        "min": 0,
-        "max": 9450,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum for individual"
+        "min": null,
+        "max": null,
+        "options": []
       },
       "premiumRange": {
         "illustrativeMin": 350,
-        "illustrativeMax": 700,
-        "assumptions": "Individual, age 30, non-tobacco, monthly premium. Varies by state.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care at no cost",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs",
-        "Mental health services",
-        "Maternity and newborn care",
-        "Pediatric dental and vision",
-        "Lab services",
-        "Rehabilitative services"
-      ],
-      "keyExclusions": [
-        "Out-of-network care (except emergencies)",
-        "Cosmetic surgery",
-        "Long-term care",
-        "Experimental treatments",
-        "Adult dental and vision"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": ["Annual"]
-      },
-      "renewability": "Annual — ACA guaranteed renewal",
-      "specialFeatures": [
-        "Lower premiums than PPO plans",
-        "Focused local network",
-        "Virtual visit options",
-        "CSR eligible for qualifying incomes"
-      ],
-      "sourceUrl": "https://www.uhc.com/individual-and-family/health-insurance-plans",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data based on public information. EPO plan — no out-of-network except emergencies."
-    },
-    {
-      "id": "uhc-gold-value",
-      "insurerName": "UnitedHealthcare Insurance Company",
-      "insurerSlug": "unitedhealthcare",
-      "productName": "UHC Gold Value+ HMO",
-      "category": "health",
-      "subCategory": "hmo-gold",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": 0,
-        "max": 8700,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum"
-      },
-      "premiumRange": {
-        "illustrativeMin": 480,
-        "illustrativeMax": 900,
-        "assumptions": "Individual, age 30, non-tobacco, monthly. Varies by state.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs",
-        "Mental health services",
-        "Maternity care",
-        "Pediatric services",
-        "Lab and imaging"
-      ],
-      "keyExclusions": [
-        "Out-of-network non-emergency care",
-        "Cosmetic surgery",
-        "Long-term custodial care",
-        "Experimental treatments"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": ["Annual"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Lower out-of-pocket costs at Gold tier",
-        "PCP coordination of care",
-        "Copay-based cost sharing"
-      ],
-      "sourceUrl": "https://www.uhc.com/individual-and-family/health-insurance-plans",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "HMO plan requires PCP and referrals. Data from public sources."
-    },
-    {
-      "id": "anthem-bcbs-bronze",
-      "insurerName": "Anthem Blue Cross Blue Shield",
-      "insurerSlug": "anthem-bcbs",
-      "productName": "Anthem Bronze Pathway HMO",
-      "category": "health",
-      "subCategory": "hmo-bronze",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": 0,
-        "max": 9450,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum"
-      },
-      "premiumRange": {
-        "illustrativeMin": 250,
-        "illustrativeMax": 500,
-        "assumptions": "Individual, age 30, non-tobacco, monthly. Bronze = lowest premium, highest cost-sharing.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care at no cost",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs",
-        "Mental health services",
-        "Maternity and newborn care",
-        "Pediatric services",
-        "Lab services"
-      ],
-      "keyExclusions": [
-        "Out-of-network non-emergency care",
-        "Cosmetic surgery",
-        "Long-term care",
-        "Adult dental and vision"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": {
-        "count": 700000,
-        "source": "Anthem BCBS network (approximate)"
-      },
-      "riders": [],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": ["Annual"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Lowest monthly premium in metal tier",
-        "3 free PCP visits before deductible",
-        "Sydney Health app for digital management",
-        "HSA-compatible variant available"
-      ],
-      "sourceUrl": "https://www.anthem.com/individual-and-family/health-insurance-plans",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "ACA Bronze tier. High deductible, lower premium. Verify with Anthem."
-    },
-    {
-      "id": "anthem-bcbs-silver",
-      "insurerName": "Anthem Blue Cross Blue Shield",
-      "insurerSlug": "anthem-bcbs",
-      "productName": "Anthem Silver Pathway PPO",
-      "category": "health",
-      "subCategory": "ppo-silver",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": 0,
-        "max": 9450,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum"
-      },
-      "premiumRange": {
-        "illustrativeMin": 380,
-        "illustrativeMax": 720,
-        "assumptions": "Individual, age 30, non-tobacco, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs",
-        "Mental health services",
-        "Maternity care",
-        "Pediatric dental and vision",
-        "Lab and imaging services"
-      ],
-      "keyExclusions": [
-        "Cosmetic surgery",
-        "Long-term care",
-        "Experimental treatments",
-        "Adult dental and vision"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": ["Annual"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Most popular ACA metal tier",
-        "CSR subsidies available for qualifying incomes",
-        "Out-of-network coverage with PPO",
-        "Sydney Health digital tools"
-      ],
-      "sourceUrl": "https://www.anthem.com/individual-and-family/health-insurance-plans",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Silver tier eligible for cost-sharing reductions. Verify with Anthem."
-    },
-    {
-      "id": "anthem-bcbs-gold",
-      "insurerName": "Anthem Blue Cross Blue Shield",
-      "insurerSlug": "anthem-bcbs",
-      "productName": "Anthem Gold Pathway EPO",
-      "category": "health",
-      "subCategory": "epo-gold",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": 0,
-        "max": 8700,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum"
-      },
-      "premiumRange": {
-        "illustrativeMin": 480,
-        "illustrativeMax": 880,
-        "assumptions": "Individual, age 30, non-tobacco, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs",
-        "Mental health services",
-        "Maternity care",
-        "Pediatric services",
-        "Lab services"
-      ],
-      "keyExclusions": [
-        "Out-of-network non-emergency care",
-        "Cosmetic surgery",
-        "Long-term care"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": ["Annual"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Lower deductible than Silver/Bronze",
-        "Copay-based cost sharing",
-        "No referrals needed"
-      ],
-      "sourceUrl": "https://www.anthem.com/individual-and-family/health-insurance-plans",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Gold tier EPO. Higher premium, lower out-of-pocket costs."
-    },
-    {
-      "id": "anthem-bcbs-platinum",
-      "insurerName": "Anthem Blue Cross Blue Shield",
-      "insurerSlug": "anthem-bcbs",
-      "productName": "Anthem Platinum Pathway HMO",
-      "category": "health",
-      "subCategory": "hmo-platinum",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": 0,
-        "max": 4500,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum"
-      },
-      "premiumRange": {
-        "illustrativeMin": 600,
-        "illustrativeMax": 1100,
-        "assumptions": "Individual, age 30, non-tobacco, monthly. Highest premium tier.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs",
-        "Mental health services",
-        "Maternity care",
-        "Pediatric services",
-        "Lab services"
-      ],
-      "keyExclusions": [
-        "Out-of-network non-emergency care",
-        "Cosmetic surgery",
-        "Long-term care"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": ["Annual"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Lowest deductible and out-of-pocket costs",
-        "Highest actuarial value (90%)",
-        "Low copays for most services"
-      ],
-      "sourceUrl": "https://www.anthem.com/individual-and-family/health-insurance-plans",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Platinum tier — highest premium, lowest cost-sharing. Not available in all states."
-    },
-    {
-      "id": "aetna-cvs-health-silver",
-      "insurerName": "Aetna (CVS Health)",
-      "insurerSlug": "aetna",
-      "productName": "Aetna CVS Health Silver",
-      "category": "health",
-      "subCategory": "epo-silver",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": 0,
-        "max": 9450,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum"
-      },
-      "premiumRange": {
-        "illustrativeMin": 340,
-        "illustrativeMax": 680,
-        "assumptions": "Individual, age 30, non-tobacco, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs via CVS Caremark",
-        "Mental health services",
-        "Maternity care",
-        "Pediatric dental and vision",
-        "Lab services",
-        "MinuteClinic visits"
-      ],
-      "keyExclusions": [
-        "Out-of-network non-emergency care",
-        "Cosmetic surgery",
-        "Long-term custodial care",
-        "Adult dental and vision"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": {
-        "count": 700000,
-        "source": "Aetna provider network (approximate)"
-      },
-      "riders": [],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": ["Annual"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Integration with CVS pharmacy network",
-        "MinuteClinic visits with low copay",
-        "Aetna app with digital ID card",
-        "Virtual care through Teladoc"
-      ],
-      "sourceUrl": "https://www.aetna.com/individuals-families/buy-health-insurance.html",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Leverages CVS Health integration. Verify availability in your state."
-    },
-    {
-      "id": "aetna-one-gold",
-      "insurerName": "Aetna (CVS Health)",
-      "insurerSlug": "aetna",
-      "productName": "Aetna One Gold PPO",
-      "category": "health",
-      "subCategory": "ppo-gold",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": 0,
-        "max": 8700,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum"
-      },
-      "premiumRange": {
-        "illustrativeMin": 500,
-        "illustrativeMax": 900,
-        "assumptions": "Individual, age 30, non-tobacco, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs",
-        "Mental health services",
-        "Maternity care",
-        "Pediatric services",
-        "Lab services",
-        "Out-of-network coverage (at higher cost)"
-      ],
-      "keyExclusions": [
-        "Cosmetic surgery",
-        "Long-term custodial care",
-        "Experimental treatments"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": ["Annual"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "PPO flexibility with out-of-network access",
-        "Lower deductible at Gold tier",
-        "CVS Health integration",
-        "Virtual care included"
-      ],
-      "sourceUrl": "https://www.aetna.com/individuals-families/buy-health-insurance.html",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Gold PPO offering. Verify plan availability by state."
-    },
-    {
-      "id": "cigna-connect-silver",
-      "insurerName": "Cigna Healthcare",
-      "insurerSlug": "cigna",
-      "productName": "Cigna Connect Silver",
-      "category": "health",
-      "subCategory": "epo-silver",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": 0,
-        "max": 9450,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum"
-      },
-      "premiumRange": {
-        "illustrativeMin": 320,
-        "illustrativeMax": 650,
-        "assumptions": "Individual, age 30, non-tobacco, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs",
-        "Mental health services",
-        "Maternity care",
-        "Pediatric services",
-        "Lab services"
-      ],
-      "keyExclusions": [
-        "Out-of-network non-emergency care",
-        "Cosmetic surgery",
-        "Long-term care",
-        "Adult dental and vision"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": ["Annual"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Value-oriented local network",
-        "myCigna app for claims and digital ID",
-        "Virtual care through MDLive",
-        "Cigna wellness incentives"
-      ],
-      "sourceUrl": "https://www.cigna.com/individuals-families/shop-plans",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Cigna Connect is a narrower network for lower premiums. Verify availability."
-    },
-    {
-      "id": "cigna-open-access-plus-gold",
-      "insurerName": "Cigna Healthcare",
-      "insurerSlug": "cigna",
-      "productName": "Cigna Open Access Plus Gold",
-      "category": "health",
-      "subCategory": "ppo-gold",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": 0,
-        "max": 8700,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum"
-      },
-      "premiumRange": {
-        "illustrativeMin": 500,
-        "illustrativeMax": 950,
-        "assumptions": "Individual, age 30, non-tobacco, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs",
-        "Mental health services",
-        "Maternity care",
-        "Pediatric services",
-        "Lab services",
-        "Out-of-network coverage"
-      ],
-      "keyExclusions": [
-        "Cosmetic surgery",
-        "Long-term custodial care",
-        "Experimental treatments"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": {
-        "count": 900000,
-        "source": "Cigna Open Access Plus network (approximate)"
-      },
-      "riders": [],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": ["Annual"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Broad national PPO network",
-        "No referrals needed for specialists",
-        "Out-of-network benefits included",
-        "myCigna digital platform"
-      ],
-      "sourceUrl": "https://www.cigna.com/individuals-families/shop-plans",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "OAP is Cigna's broadest network PPO. Verify plan details in your area."
-    },
-    {
-      "id": "humana-gold-plus-hmo",
-      "insurerName": "Humana Inc.",
-      "insurerSlug": "humana",
-      "productName": "Humana Gold Plus HMO",
-      "category": "health",
-      "subCategory": "hmo-gold",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": 0,
-        "max": 8700,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum"
-      },
-      "premiumRange": {
-        "illustrativeMin": 450,
-        "illustrativeMax": 820,
-        "assumptions": "Individual, age 30, non-tobacco, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs",
-        "Mental health services",
-        "Maternity care",
-        "Pediatric services",
-        "Lab services"
-      ],
-      "keyExclusions": [
-        "Out-of-network non-emergency care",
-        "Cosmetic surgery",
-        "Long-term care",
-        "Adult dental and vision"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": ["Annual"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Humana Go365 wellness rewards program",
-        "CenterWell primary care integration",
-        "Low copays for preventive services",
-        "Virtual visit options"
-      ],
-      "sourceUrl": "https://www.humana.com/individual-and-family/health-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Humana strong in Southeast US. Verify availability in your state."
-    },
-    {
-      "id": "humana-bronze-hmo",
-      "insurerName": "Humana Inc.",
-      "insurerSlug": "humana",
-      "productName": "Humana Bronze HMO",
-      "category": "health",
-      "subCategory": "hmo-bronze",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": 0,
-        "max": 9450,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum"
-      },
-      "premiumRange": {
-        "illustrativeMin": 250,
-        "illustrativeMax": 500,
-        "assumptions": "Individual, age 30, non-tobacco, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care at no cost",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs",
-        "Mental health services",
-        "Maternity care",
-        "Pediatric services"
-      ],
-      "keyExclusions": [
-        "Out-of-network care",
-        "Cosmetic surgery",
-        "Long-term care"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": ["Annual"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Low monthly premium",
-        "HSA-compatible option available",
-        "Go365 wellness rewards"
-      ],
-      "sourceUrl": "https://www.humana.com/individual-and-family/health-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Bronze tier — lower premium, higher deductible."
-    },
-    {
-      "id": "kaiser-permanente-gold-hmo",
-      "insurerName": "Kaiser Foundation Health Plan",
-      "insurerSlug": "kaiser-permanente",
-      "productName": "Kaiser Permanente Gold 80 HMO",
-      "category": "health",
-      "subCategory": "hmo-gold",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": 0,
-        "max": 8200,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum"
-      },
-      "premiumRange": {
-        "illustrativeMin": 450,
-        "illustrativeMax": 850,
-        "assumptions": "Individual, age 30, non-tobacco, monthly. CA rates.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care",
-        "Emergency services",
-        "Hospitalization at Kaiser facilities",
-        "Prescription drugs (Kaiser pharmacy)",
-        "Mental health services",
-        "Maternity care",
-        "Pediatric services",
-        "Lab and imaging at Kaiser labs",
-        "Online visits via Kaiser app"
-      ],
-      "keyExclusions": [
-        "Non-Kaiser providers (except emergencies)",
-        "Cosmetic surgery",
-        "Long-term custodial care",
-        "Experimental treatments"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": {
-        "count": 39,
-        "source": "Kaiser Permanente hospitals (integrated system)"
-      },
-      "riders": [],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": ["Annual"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Fully integrated care system",
-        "Electronic health records across all providers",
-        "Kaiser app with messaging, Rx refills, appointments",
-        "On-site pharmacy and labs",
-        "Highly rated for preventive care and chronic disease management"
-      ],
-      "sourceUrl": "https://healthy.kaiserpermanente.org/individual-and-family/health-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Available in CA, CO, GA, HI, MD, OR, VA, WA, DC. Integrated HMO model."
-    },
-    {
-      "id": "kaiser-permanente-silver-hmo",
-      "insurerName": "Kaiser Foundation Health Plan",
-      "insurerSlug": "kaiser-permanente",
-      "productName": "Kaiser Permanente Silver 70 HMO",
-      "category": "health",
-      "subCategory": "hmo-silver",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": 0,
-        "max": 9450,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum"
-      },
-      "premiumRange": {
-        "illustrativeMin": 350,
-        "illustrativeMax": 700,
-        "assumptions": "Individual, age 30, non-tobacco, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs",
-        "Mental health services",
-        "Maternity care",
-        "Pediatric services",
-        "Lab and imaging"
-      ],
-      "keyExclusions": [
-        "Non-Kaiser providers (except emergencies)",
-        "Cosmetic surgery",
-        "Long-term care"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": ["Annual"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Integrated care system",
-        "CSR eligible at Silver tier",
-        "Digital health tools",
-        "Coordinated care"
-      ],
-      "sourceUrl": "https://healthy.kaiserpermanente.org/individual-and-family/health-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Silver tier. Available in select states only."
-    },
-    {
-      "id": "kaiser-permanente-bronze-hmo",
-      "insurerName": "Kaiser Foundation Health Plan",
-      "insurerSlug": "kaiser-permanente",
-      "productName": "Kaiser Permanente Bronze 60 HMO",
-      "category": "health",
-      "subCategory": "hmo-bronze",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": 0,
-        "max": 9450,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum"
-      },
-      "premiumRange": {
-        "illustrativeMin": 250,
-        "illustrativeMax": 520,
-        "assumptions": "Individual, age 30, non-tobacco, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs",
-        "Mental health services",
-        "Maternity care",
-        "Pediatric services"
-      ],
-      "keyExclusions": [
-        "Non-Kaiser providers (except emergencies)",
-        "Cosmetic surgery",
-        "Long-term care"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": ["Annual"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Lowest Kaiser premium option",
-        "HSA-compatible HDHP variant available",
-        "Integrated care system"
-      ],
-      "sourceUrl": "https://healthy.kaiserpermanente.org/individual-and-family/health-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Bronze tier with high deductible. Kaiser integrated model."
-    },
-    {
-      "id": "molina-marketplace-silver",
-      "insurerName": "Molina Healthcare, Inc.",
-      "insurerSlug": "molina-healthcare",
-      "productName": "Molina Marketplace Silver",
-      "category": "health",
-      "subCategory": "hmo-silver",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": 0,
-        "max": 9450,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum"
-      },
-      "premiumRange": {
-        "illustrativeMin": 280,
         "illustrativeMax": 550,
-        "assumptions": "Individual, age 30, non-tobacco, monthly. Known for competitive pricing.",
+        "assumptions": "40yo, monthly",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs",
-        "Mental health services",
-        "Maternity care",
-        "Pediatric services",
-        "Lab services"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Out-of-network non-emergency care",
-        "Cosmetic surgery",
-        "Long-term care"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
       "riders": [],
       "policyTenure": {
         "min": 1,
         "max": 1,
-        "options": ["Annual"]
+        "options": [
+          1
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
-        "Often lowest-cost marketplace option",
-        "Strong Medicaid heritage",
-        "Bilingual member services",
-        "My Molina app"
+        "Nationwide Network",
+        "No Referral Needed",
+        "Flexible Plans"
       ],
-      "sourceUrl": "https://www.molinahealthcare.com/marketplace",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Molina focuses on affordable coverage. Available in select states."
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
     },
     {
-      "id": "molina-marketplace-bronze",
-      "insurerName": "Molina Healthcare, Inc.",
-      "insurerSlug": "molina-healthcare",
-      "productName": "Molina Marketplace Bronze",
+      "id": "uhc-choice-plus",
+      "insurerName": "UnitedHealthcare",
+      "insurerSlug": "unitedhealth",
+      "productName": "Choice Plus PPO",
       "category": "health",
-      "subCategory": "hmo-bronze",
-      "countryCode": "us",
+      "subCategory": "ppo",
       "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
-        "min": 0,
-        "max": 9450,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum"
+        "min": null,
+        "max": null,
+        "options": []
       },
       "premiumRange": {
-        "illustrativeMin": 200,
-        "illustrativeMax": 420,
-        "assumptions": "Individual, age 30, non-tobacco, monthly.",
+        "illustrativeMin": 400,
+        "illustrativeMax": 600,
+        "assumptions": "40yo, monthly",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs",
-        "Mental health services",
-        "Maternity care"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Out-of-network care",
-        "Cosmetic surgery",
-        "Long-term care"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
       "riders": [],
       "policyTenure": {
         "min": 1,
         "max": 1,
-        "options": ["Annual"]
+        "options": [
+          1
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
-        "Very affordable premiums",
-        "HSA-compatible variant available"
+        "Largest Network in US",
+        "Virtual Visits",
+        "Rewards Program"
       ],
-      "sourceUrl": "https://www.molinahealthcare.com/marketplace",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Low-cost Bronze tier option."
+      "notes": "",
+      "countryCode": "us"
     },
     {
-      "id": "ambetter-balanced-care-silver",
-      "insurerName": "Ambetter from Centene Corporation",
-      "insurerSlug": "ambetter-centene",
-      "productName": "Ambetter Balanced Care Silver",
+      "id": "aetna-cvs",
+      "insurerName": "Aetna (CVS Health)",
+      "insurerSlug": "aetna",
+      "productName": "Aetna CVS Health Plan",
       "category": "health",
-      "subCategory": "hmo-silver",
-      "countryCode": "us",
+      "subCategory": "hmo",
       "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
-        "min": 0,
-        "max": 9450,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum"
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 350,
+        "illustrativeMax": 500,
+        "assumptions": "40yo, monthly",
+        "isVerified": false
+      },
+      "keyInclusions": [],
+      "keyExclusions": [
+        "Pre-existing conditions exclusions apply"
+      ],
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Highest Star Ratings",
+        "CVS MinuteClinic Access",
+        "Strong Medicare Plans"
+      ],
+      "sourceUrl": "",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "cigna-connect",
+      "insurerName": "Cigna Healthcare",
+      "insurerSlug": "cigna",
+      "productName": "Cigna Connect",
+      "category": "health",
+      "subCategory": "ppo",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
       },
       "premiumRange": {
         "illustrativeMin": 300,
-        "illustrativeMax": 600,
-        "assumptions": "Individual, age 30, non-tobacco, monthly.",
+        "illustrativeMax": 450,
+        "assumptions": "40yo, monthly",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs",
-        "Mental health services",
-        "Maternity care",
-        "Pediatric services",
-        "Lab services",
-        "Telehealth visits"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Out-of-network non-emergency care",
-        "Cosmetic surgery",
-        "Long-term care"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
       "riders": [],
       "policyTenure": {
         "min": 1,
         "max": 1,
-        "options": ["Annual"]
+        "options": [
+          1
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
-        "Largest marketplace insurer by enrollment",
-        "My Health Pays rewards program",
-        "Available in 30+ states",
-        "Telehealth included at no cost"
+        "Good Digital Experience",
+        "Low Deductibles",
+        "Global Coverage Option"
       ],
-      "sourceUrl": "https://www.ambetterhealth.com",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Ambetter is Centene's marketplace brand. Verify in your state."
+      "notes": "",
+      "countryCode": "us"
     },
     {
-      "id": "ambetter-secure-care-gold",
-      "insurerName": "Ambetter from Centene Corporation",
-      "insurerSlug": "ambetter-centene",
-      "productName": "Ambetter Secure Care Gold",
+      "id": "humana-gold",
+      "insurerName": "Humana Inc.",
+      "insurerSlug": "humana",
+      "productName": "Humana Gold Plus",
       "category": "health",
-      "subCategory": "hmo-gold",
-      "countryCode": "us",
+      "subCategory": "hmo",
       "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
-        "min": 0,
-        "max": 8700,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum"
+        "min": null,
+        "max": null,
+        "options": []
       },
       "premiumRange": {
-        "illustrativeMin": 420,
-        "illustrativeMax": 800,
-        "assumptions": "Individual, age 30, non-tobacco, monthly.",
+        "illustrativeMin": 350,
+        "illustrativeMax": 500,
+        "assumptions": "40yo, monthly",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs",
-        "Mental health services",
-        "Maternity care",
-        "Pediatric services",
-        "Lab services"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Out-of-network care",
-        "Cosmetic surgery",
-        "Long-term care"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
       "riders": [],
       "policyTenure": {
         "min": 1,
         "max": 1,
-        "options": ["Annual"]
+        "options": [
+          1
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
-        "Lower cost-sharing at Gold level",
-        "My Health Pays rewards",
-        "Telehealth included"
+        "Strong Customer Service",
+        "Low Deductibles",
+        "Silver Sneakers"
       ],
-      "sourceUrl": "https://www.ambetterhealth.com",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Gold tier from Ambetter. Verify availability."
+      "notes": "",
+      "countryCode": "us"
     },
     {
-      "id": "aetna-bronze-epo",
-      "insurerName": "Aetna (CVS Health)",
-      "insurerSlug": "aetna",
-      "productName": "Aetna CVS Health Bronze EPO",
+      "id": "oscar-health",
+      "insurerName": "Oscar Health",
+      "insurerSlug": "oscar-health",
+      "productName": "Oscar Health Plan",
       "category": "health",
-      "subCategory": "epo-bronze",
-      "countryCode": "us",
+      "subCategory": "epo",
       "eligibility": {
-        "minAge": 0,
-        "maxAge": 64,
-        "renewableUpTo": "Annual"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
-        "min": 0,
-        "max": 9450,
-        "currency": "USD",
-        "note": "Out-of-pocket maximum"
+        "min": null,
+        "max": null,
+        "options": []
       },
       "premiumRange": {
-        "illustrativeMin": 230,
-        "illustrativeMax": 480,
-        "assumptions": "Individual, age 30, non-tobacco, monthly.",
+        "illustrativeMin": 300,
+        "illustrativeMax": 450,
+        "assumptions": "40yo, monthly",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Preventive care",
-        "Emergency services",
-        "Hospitalization",
-        "Prescription drugs",
-        "Mental health services",
-        "Maternity care",
-        "Pediatric services"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Out-of-network non-emergency care",
-        "Cosmetic surgery",
-        "Long-term care"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
       "riders": [],
       "policyTenure": {
         "min": 1,
         "max": 1,
-        "options": ["Annual"]
+        "options": [
+          1
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
-        "Low premium Bronze option",
-        "CVS MinuteClinic access",
-        "HSA-compatible HDHP variant"
+        "Tech-Forward",
+        "Free Telemedicine",
+        "Concierge Team",
+        "Step Tracking Rewards"
       ],
-      "sourceUrl": "https://www.aetna.com/individuals-families/buy-health-insurance.html",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Bronze EPO. Higher deductible, lower premium."
+      "notes": "",
+      "countryCode": "us"
     }
   ]
 }

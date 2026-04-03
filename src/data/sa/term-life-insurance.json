@@ -1,293 +1,59 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-03-24",
-  "disclaimer": "Data collected from publicly available sources for educational and informational purposes only. Life insurance in Saudi Arabia follows the Takaful (Islamic cooperative insurance) model regulated by SAMA and the Shariah board. Premium figures are illustrative contributions. Zura does not sell insurance. Please verify all details with the insurer directly.",
+  "lastUpdated": "2026-04-03",
+  "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
-      "id": "tawuniya-family-takaful",
+      "id": "tawuniya-life",
       "insurerName": "Tawuniya",
       "insurerSlug": "tawuniya",
-      "productName": "Tawuniya Family Takaful Term Protection",
+      "productName": "Tawuniya Protection Plan",
       "category": "term-life",
-      "subCategory": "takaful-term",
-      "countryCode": "sa",
-      "eligibility": { "minAge": 21, "maxAge": 60, "renewableUpTo": "65" },
-      "sumInsured": { "min": 100000, "max": 5000000, "currency": "SAR" },
-      "premiumRange": { "illustrativeMin": 500, "illustrativeMax": 5000, "assumptions": "Annual Takaful contribution, male non-smoker aged 35, SAR 500,000 sum covered.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Death benefit (Takaful coverage)",
-        "Total Permanent Disability (TPD) benefit",
-        "Shariah-compliant structure",
-        "Worldwide coverage",
-        "Surplus sharing among participants"
-      ],
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 200,
+        "illustrativeMax": 800,
+        "assumptions": "Monthly, SAR",
+        "isVerified": false
+      },
+      "keyInclusions": [],
       "keyExclusions": [
-        "Suicide within first 2 years",
-        "Death from pre-existing undisclosed conditions",
-        "Death from illegal activities",
-        "War and terrorism",
-        "Hazardous occupation without disclosure"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Critical illness benefit", "Accidental death benefit", "Premium waiver on disability"],
-      "policyTenure": { "min": 5, "max": 25, "options": ["5", "10", "15", "20", "25 years"] },
-      "renewability": "non-renewable (fixed term)",
-      "specialFeatures": ["Fully Shariah compliant", "Takaful surplus distribution", "Largest insurer in KSA", "Group and individual options"],
-      "sourceUrl": "https://www.tawuniya.com.sa/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Tawuniya's family Takaful provides death and disability protection under the cooperative Takaful model."
-    },
-    {
-      "id": "alrajhi-takaful-term",
-      "insurerName": "Al Rajhi Takaful",
-      "insurerSlug": "alrajhi-takaful",
-      "productName": "Al Rajhi Term Takaful",
-      "category": "term-life",
-      "subCategory": "takaful-term",
-      "countryCode": "sa",
-      "eligibility": { "minAge": 21, "maxAge": 60, "renewableUpTo": "65" },
-      "sumInsured": { "min": 100000, "max": 3000000, "currency": "SAR" },
-      "premiumRange": { "illustrativeMin": 400, "illustrativeMax": 4000, "assumptions": "Annual Takaful contribution, male non-smoker aged 35, SAR 500,000.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Death benefit under Takaful",
-        "Total Permanent Disability",
-        "Shariah-compliant investment of contributions",
-        "Worldwide coverage"
-      ],
-      "keyExclusions": [
-        "Suicide within first 2 years",
-        "Death from undisclosed conditions",
-        "War and civil unrest",
-        "Illegal activities"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Critical illness", "Accidental death double indemnity"],
-      "policyTenure": { "min": 5, "max": 20, "options": ["5", "10", "15", "20 years"] },
-      "renewability": "non-renewable (fixed term)",
-      "specialFeatures": ["Shariah compliant", "Al Rajhi banking ecosystem", "Surplus sharing", "Digital policy management"],
-      "sourceUrl": "https://www.alrajhitakaful.com.sa/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Al Rajhi Takaful term protection backed by one of the largest Islamic banking groups."
-    },
-    {
-      "id": "axa-coop-term-life",
-      "insurerName": "AXA Cooperative Insurance",
-      "insurerSlug": "axa-coop-sa",
-      "productName": "AXA Cooperative Term Life Protection",
-      "category": "term-life",
-      "subCategory": "cooperative-term",
-      "countryCode": "sa",
-      "eligibility": { "minAge": 21, "maxAge": 60, "renewableUpTo": "65" },
-      "sumInsured": { "min": 100000, "max": 5000000, "currency": "SAR" },
-      "premiumRange": { "illustrativeMin": 450, "illustrativeMax": 4500, "assumptions": "Annual contribution, male non-smoker aged 35, SAR 500,000.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Death benefit",
-        "Total and Permanent Disability",
-        "Cooperative model surplus sharing",
-        "Worldwide coverage"
-      ],
-      "keyExclusions": [
-        "Suicide within first 2 years",
-        "Fraudulent non-disclosure",
-        "War-related death",
-        "Criminal activity"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Critical illness", "Accidental death", "Premium waiver"],
-      "policyTenure": { "min": 5, "max": 25, "options": ["5", "10", "15", "20", "25 years"] },
-      "renewability": "non-renewable (fixed term)",
-      "specialFeatures": ["AXA global expertise", "SAMA regulated", "Group and individual products"],
-      "sourceUrl": "https://www.axa.com.sa/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "AXA Cooperative follows the Saudi cooperative insurance model with SAMA oversight."
-    },
-    {
-      "id": "medgulf-term-takaful",
-      "insurerName": "MedGulf",
-      "insurerSlug": "medgulf",
-      "productName": "MedGulf Family Protection Takaful",
-      "category": "term-life",
-      "subCategory": "takaful-term",
-      "countryCode": "sa",
-      "eligibility": { "minAge": 21, "maxAge": 55, "renewableUpTo": "60" },
-      "sumInsured": { "min": 50000, "max": 2000000, "currency": "SAR" },
-      "premiumRange": { "illustrativeMin": 350, "illustrativeMax": 3500, "assumptions": "Annual contribution, male non-smoker aged 35, SAR 500,000.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Death benefit",
-        "Total Permanent Disability",
-        "Shariah-compliant Takaful model"
-      ],
-      "keyExclusions": [
-        "Suicide within first 2 years",
-        "Non-disclosed health conditions",
-        "War",
-        "Criminal activities"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Accidental death benefit"],
-      "policyTenure": { "min": 5, "max": 20, "options": ["5", "10", "15", "20 years"] },
-      "renewability": "non-renewable (fixed term)",
-      "specialFeatures": ["Shariah compliant", "Affordable term protection", "Group available for employers"],
-      "sourceUrl": "https://www.medgulf.com.sa/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "MedGulf offers Takaful-based family protection for Saudi and expatriate residents."
-    },
-    {
-      "id": "tawuniya-group-life",
-      "insurerName": "Tawuniya",
-      "insurerSlug": "tawuniya",
-      "productName": "Tawuniya Group Life Takaful",
-      "category": "term-life",
-      "subCategory": "group-takaful",
-      "countryCode": "sa",
-      "eligibility": { "minAge": 18, "maxAge": 65, "renewableUpTo": "65" },
-      "sumInsured": { "min": 50000, "max": 5000000, "currency": "SAR" },
-      "premiumRange": { "illustrativeMin": 200, "illustrativeMax": 3000, "assumptions": "Annual per-member contribution, employer-sponsored group scheme.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Death benefit for employees",
-        "Total Permanent Disability",
-        "End of service benefit protection",
-        "Shariah compliant"
-      ],
-      "keyExclusions": [
-        "Suicide",
-        "Self-inflicted injuries",
-        "War",
-        "Criminal acts"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Accidental death", "Critical illness (group)"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year (renewable)"] },
-      "renewability": "annual",
-      "specialFeatures": ["Employer-sponsored group coverage", "GOSI complementary", "Large group discounts"],
-      "sourceUrl": "https://www.tawuniya.com.sa/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Group life Takaful for employers to provide death and disability benefits to employees."
-    },
-    {
-      "id": "walaa-term-takaful",
-      "insurerName": "Walaa Cooperative Insurance",
-      "insurerSlug": "walaa",
-      "productName": "Walaa Family Takaful Plan",
-      "category": "term-life",
-      "subCategory": "takaful-term",
-      "countryCode": "sa",
-      "eligibility": { "minAge": 21, "maxAge": 55, "renewableUpTo": "60" },
-      "sumInsured": { "min": 50000, "max": 1000000, "currency": "SAR" },
-      "premiumRange": { "illustrativeMin": 300, "illustrativeMax": 2500, "assumptions": "Annual contribution, male non-smoker aged 35, SAR 500,000.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Death benefit",
-        "Total Permanent Disability",
-        "Shariah-compliant structure"
-      ],
-      "keyExclusions": [
-        "Suicide",
-        "Non-disclosure",
-        "War",
-        "Illegal activities"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
       "riders": [],
-      "policyTenure": { "min": 5, "max": 15, "options": ["5", "10", "15 years"] },
-      "renewability": "non-renewable (fixed term)",
-      "specialFeatures": ["Affordable Takaful protection", "Simple product design"],
-      "sourceUrl": "https://www.walaa.com/",
+      "policyTenure": {
+        "min": 5,
+        "max": 25,
+        "options": [
+          5,
+          10,
+          15,
+          20,
+          25
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Sharia-Compliant",
+        "SAMA Regulated",
+        "Family Protection"
+      ],
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Walaa offers basic but affordable family Takaful protection."
-    },
-    {
-      "id": "saico-group-life",
-      "insurerName": "SAICO",
-      "insurerSlug": "saico",
-      "productName": "SAICO Group Life Protection",
-      "category": "term-life",
-      "subCategory": "group-cooperative",
-      "countryCode": "sa",
-      "eligibility": { "minAge": 18, "maxAge": 60, "renewableUpTo": "65" },
-      "sumInsured": { "min": 50000, "max": 3000000, "currency": "SAR" },
-      "premiumRange": { "illustrativeMin": 250, "illustrativeMax": 2800, "assumptions": "Annual per-member contribution for group scheme.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Death in service benefit",
-        "Total Permanent Disability",
-        "Cooperative insurance model"
-      ],
-      "keyExclusions": [
-        "Suicide",
-        "Self-inflicted injuries",
-        "War",
-        "Criminal acts"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": ["Accidental death", "Critical illness"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year (renewable)"] },
-      "renewability": "annual",
-      "specialFeatures": ["Group employer scheme", "SAMA regulated"],
-      "sourceUrl": "https://www.saico.com.sa/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "SAICO provides group life cooperative insurance primarily for corporate employers."
-    },
-    {
-      "id": "alrajhi-takaful-mortgage",
-      "insurerName": "Al Rajhi Takaful",
-      "insurerSlug": "alrajhi-takaful",
-      "productName": "Al Rajhi Mortgage Protection Takaful",
-      "category": "term-life",
-      "subCategory": "mortgage-protection",
-      "countryCode": "sa",
-      "eligibility": { "minAge": 21, "maxAge": 60, "renewableUpTo": "65" },
-      "sumInsured": { "min": 200000, "max": 5000000, "currency": "SAR" },
-      "premiumRange": { "illustrativeMin": 500, "illustrativeMax": 6000, "assumptions": "Annual contribution, linked to mortgage balance, male aged 35.", "isVerified": false },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Mortgage balance protection on death",
-        "Total Permanent Disability covers remaining mortgage",
-        "Decreasing coverage matching mortgage amortization",
-        "Shariah compliant"
-      ],
-      "keyExclusions": [
-        "Suicide within first 2 years",
-        "Non-disclosed conditions",
-        "War"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [],
-      "policyTenure": { "min": 5, "max": 30, "options": ["Matches mortgage term"] },
-      "renewability": "non-renewable (matches mortgage)",
-      "specialFeatures": ["Linked to Al Rajhi Bank mortgages", "Decreasing sum matching loan balance", "Shariah compliant"],
-      "sourceUrl": "https://www.alrajhitakaful.com.sa/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Mortgage protection Takaful is commonly required by Saudi banks for home financing. Linked to Al Rajhi Bank mortgages."
+      "notes": "",
+      "countryCode": "sa"
     }
   ]
 }

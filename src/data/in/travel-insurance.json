@@ -1,1164 +1,376 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-03-24",
-  "disclaimer": "Data from public sources. Zura does not sell insurance.",
+  "lastUpdated": "2026-04-03",
+  "disclaimer": "Data collected from publicly available sources for educational and informational purposes only. Premium figures are illustrative and sourced from public insurer calculators/brochures. Actual premiums may vary. Please verify all details with the insurer directly before making any decision.",
   "products": [
     {
-      "id": "bajaj-allianz-travel-elite",
+      "id": "bajaj-allianz-travel",
       "insurerName": "Bajaj Allianz General Insurance Co. Ltd.",
       "insurerSlug": "bajaj-allianz",
-      "productName": "Travel Elite",
+      "productName": "Bajaj Allianz Travel Insurance",
       "category": "travel",
       "subCategory": "international",
       "eligibility": {
-        "minAge": 0.5,
-        "maxAge": 70,
-        "renewableUpTo": "Per trip"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
         "min": 50000,
         "max": 500000,
-        "currency": "USD",
         "options": [
           50000,
           100000,
           250000,
           500000
-        ]
+        ],
+        "currency": "USD"
       },
       "premiumRange": {
-        "illustrativeMin": 800,
-        "illustrativeMax": 5000,
-        "assumptions": "7-day trip, individual, 30 years. INR. Indicative only.",
+        "illustrativeMin": 750,
+        "illustrativeMax": 3500,
+        "assumptions": "7-day Europe trip, 30 years. Indicative only. Premiums in INR.",
         "isVerified": false
       },
-      "waitingPeriod": null,
       "keyInclusions": [
-        "Medical expenses overseas",
-        "Emergency evacuation",
-        "Trip cancellation/interruption",
-        "Loss of passport",
-        "Baggage loss/delay",
-        "Personal liability",
+        "Medical emergency abroad",
+        "Trip cancellation",
+        "Lost baggage",
         "Flight delay",
-        "Hijack distress"
+        "Passport loss",
+        "Personal liability"
       ],
       "keyExclusions": [
-        "Pre-existing medical conditions",
-        "War/terrorism",
-        "Adventure sports (unless add-on)",
-        "Self-inflicted injuries",
-        "Substance abuse related claims"
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Adventure sports cover",
-        "Home burglary cover",
-        "Study interruption"
-      ],
+      "riders": [],
       "policyTenure": {
-        "min": null,
-        "max": null,
+        "min": 1,
+        "max": 1,
         "options": [
-          "Single trip",
-          "Annual multi-trip"
+          1
         ]
       },
-      "renewability": "Per trip or annual",
+      "renewability": "Lifelong",
       "specialFeatures": [
-        "Cover up to USD 500,000",
-        "Annual multi-trip option",
-        "Schengen compliant",
-        "24/7 assistance"
+        "Schengen Approved",
+        "Senior-Friendly (up to 80)",
+        "Adventure Sports Coverage",
+        "VFS Global Approved"
       ],
       "sourceUrl": "https://www.bajajallianz.com/travel-insurance.html",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public product page.",
-      "quoteUrl": "https://www.bajajallianz.com/travel-insurance.html?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
+      "notes": "",
+      "countryCode": "in"
     },
     {
-      "id": "bajaj-allianz-travel-companion",
-      "insurerName": "Bajaj Allianz General Insurance Co. Ltd.",
-      "insurerSlug": "bajaj-allianz",
-      "productName": "Travel Companion",
+      "id": "hdfc-ergo-travel",
+      "insurerName": "HDFC ERGO General Insurance Co. Ltd.",
+      "insurerSlug": "hdfc-ergo",
+      "productName": "HDFC ERGO Travel Insurance",
       "category": "travel",
       "subCategory": "international",
       "eligibility": {
-        "minAge": 0.5,
-        "maxAge": 70,
-        "renewableUpTo": "Per trip"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 500000,
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000
+        ],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 700,
+        "illustrativeMax": 3000,
+        "assumptions": "7-day Europe trip, 30 years. Indicative only. Premiums in INR.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergency abroad",
+        "Cashless worldwide",
+        "Trip cancellation",
+        "Lost baggage",
+        "Flight delay"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries"
+      ],
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Cashless Worldwide Network",
+        "App-Based Claims",
+        "Schengen Approved"
+      ],
+      "sourceUrl": "https://www.hdfcergo.com/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "tata-aig-travel",
+      "insurerName": "Tata AIG General Insurance Co. Ltd.",
+      "insurerSlug": "tata-aig",
+      "productName": "Tata AIG Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 500000,
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000
+        ],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 600,
+        "illustrativeMax": 2500,
+        "assumptions": "7-day Europe trip, 30 years. Indicative only. Premiums in INR.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergency abroad",
+        "Adventure sports included",
+        "Trip cancellation",
+        "Lost baggage"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries"
+      ],
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Adventure Sports Included",
+        "Paperless Claims",
+        "Budget-Friendly",
+        "Schengen Approved"
+      ],
+      "sourceUrl": "https://www.tataaig.com/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "icici-lombard-travel",
+      "insurerName": "ICICI Lombard General Insurance Co. Ltd.",
+      "insurerSlug": "icici-lombard",
+      "productName": "ICICI Lombard Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 250000,
+        "options": [
+          50000,
+          100000,
+          250000
+        ],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 500,
+        "illustrativeMax": 2000,
+        "assumptions": "7-day Europe trip, 30 years. Indicative only. Premiums in INR.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergency abroad",
+        "Trip cancellation",
+        "Lost baggage",
+        "Flight delay"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries"
+      ],
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Budget-Friendly",
+        "Schengen Approved",
+        "Online Purchase"
+      ],
+      "sourceUrl": "https://www.icicilombard.com/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "digit-travel",
+      "insurerName": "Go Digit General Insurance Ltd.",
+      "insurerSlug": "digit",
+      "productName": "Digit Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
         "min": 25000,
         "max": 250000,
-        "currency": "USD",
         "options": [
           25000,
           50000,
           100000,
           250000
-        ]
+        ],
+        "currency": "USD"
       },
       "premiumRange": {
-        "illustrativeMin": 500,
-        "illustrativeMax": 3500,
-        "assumptions": "7-day trip, individual, 30 years. INR. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses overseas",
-        "Emergency evacuation",
-        "Trip cancellation",
-        "Baggage loss/delay",
-        "Personal liability",
-        "Flight delay"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "War/terrorism",
-        "Adventure sports (unless add-on)",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Adventure sports cover",
-        "Home burglary"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": [
-          "Single trip",
-          "Annual multi-trip"
-        ]
-      },
-      "renewability": "Per trip or annual",
-      "specialFeatures": [
-        "Budget-friendly travel plan",
-        "Schengen compliant",
-        "24/7 assistance",
-        "Family floater option"
-      ],
-      "sourceUrl": "https://www.bajajallianz.com/travel-insurance.html",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Budget variant of Bajaj Allianz travel plans. Data compiled from public sources.",
-      "quoteUrl": "https://www.bajajallianz.com/travel-insurance.html?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "hdfc-ergo-travel-overseas",
-      "insurerName": "HDFC ERGO General Insurance Company Ltd.",
-      "insurerSlug": "hdfc-ergo",
-      "productName": "HDFC ERGO Overseas Travel Insurance",
-      "category": "travel",
-      "subCategory": "international",
-      "eligibility": {
-        "minAge": 0.5,
-        "maxAge": 70,
-        "renewableUpTo": "Per trip"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 500000,
-        "currency": "USD",
-        "options": [
-          50000,
-          100000,
-          250000,
-          500000
-        ]
-      },
-      "premiumRange": {
-        "illustrativeMin": 700,
-        "illustrativeMax": 4500,
-        "assumptions": "7-day trip, individual, 30 years. INR. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses overseas",
-        "Emergency medical evacuation",
-        "Trip cancellation",
-        "Baggage loss/delay",
-        "Passport loss",
-        "Personal liability",
-        "Flight delay"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "War/terrorism",
-        "Adventure sports (unless covered)",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Adventure sports",
-        "Home insurance",
-        "Student cover"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": [
-          "Single trip",
-          "Annual multi-trip",
-          "Student"
-        ]
-      },
-      "renewability": "Per trip/annual",
-      "specialFeatures": [
-        "Schengen compliant",
-        "24/7 global assistance",
-        "Student travel plan available",
-        "Senior citizen plans available"
-      ],
-      "sourceUrl": "https://www.hdfcergo.com/travel-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data compiled from public product page.",
-      "quoteUrl": "https://www.hdfcergo.com/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "hdfc-ergo-travel-domestic",
-      "insurerName": "HDFC ERGO General Insurance Company Ltd.",
-      "insurerSlug": "hdfc-ergo",
-      "productName": "HDFC ERGO Domestic Travel Insurance",
-      "category": "travel",
-      "subCategory": "domestic",
-      "eligibility": {
-        "minAge": 0.5,
-        "maxAge": 70,
-        "renewableUpTo": "Per trip"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 1000000,
-        "currency": "INR",
-        "options": [
-          100000,
-          250000,
-          500000,
-          1000000
-        ]
-      },
-      "premiumRange": {
-        "illustrativeMin": 200,
+        "illustrativeMin": 400,
         "illustrativeMax": 1500,
-        "assumptions": "7-day domestic trip, individual. INR. Indicative only.",
+        "assumptions": "7-day trip, 30 years. Indicative only. Premiums in INR.",
         "isVerified": false
       },
-      "waitingPeriod": null,
       "keyInclusions": [
-        "Medical expenses within India",
+        "Medical emergency abroad",
         "Trip cancellation",
-        "Baggage loss/delay",
-        "Personal accident",
-        "Hotel extension due to illness"
+        "Lost baggage"
       ],
       "keyExclusions": [
-        "Pre-existing conditions",
-        "Adventure sports (unless add-on)",
-        "Self-inflicted injuries",
-        "War/riots"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Adventure sports cover"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": [
-          "Single trip",
-          "Annual multi-trip"
-        ]
-      },
-      "renewability": "Per trip/annual",
-      "specialFeatures": [
-        "Covers domestic travel within India",
-        "Affordable premiums",
-        "Trip delay/cancellation cover",
-        "24/7 assistance"
-      ],
-      "sourceUrl": "https://www.hdfcergo.com/travel-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Domestic travel product. Data compiled from public sources.",
-      "quoteUrl": "https://www.hdfcergo.com/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "tata-aig-travel-guard-international",
-      "insurerName": "Tata AIG General Insurance Company Ltd.",
-      "insurerSlug": "tata-aig",
-      "productName": "Travel Guard (International)",
-      "category": "travel",
-      "subCategory": "international",
-      "eligibility": {
-        "minAge": 0.5,
-        "maxAge": 70,
-        "renewableUpTo": "Per trip"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 1000000,
-        "currency": "USD",
-        "options": [
-          50000,
-          100000,
-          250000,
-          500000,
-          1000000
-        ]
-      },
-      "premiumRange": {
-        "illustrativeMin": 900,
-        "illustrativeMax": 6000,
-        "assumptions": "7-day trip, individual, 30 years. INR. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses",
-        "Emergency evacuation/repatriation",
-        "Trip cancellation/interruption",
-        "Baggage loss/delay",
-        "Personal liability",
-        "Flight delay/missed connection"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "War zones",
-        "Extreme sports (unless add-on)",
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
         "Self-inflicted injuries"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Adventure sports",
-        "Golf cover",
-        "Pet care"
-      ],
+      "riders": [],
       "policyTenure": {
-        "min": null,
-        "max": null,
+        "min": 1,
+        "max": 1,
         "options": [
-          "Single trip",
-          "Annual multi-trip"
+          1
         ]
       },
-      "renewability": "Per trip/annual",
+      "renewability": "Lifelong",
       "specialFeatures": [
-        "Cover up to USD 1 million",
-        "Worldwide assistance network",
-        "Schengen compliant",
-        "24/7 global helpline"
-      ],
-      "sourceUrl": "https://www.tataaig.com/travel-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data compiled from public product page.",
-      "quoteUrl": "https://www.tataaig.com/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "tata-aig-travel-guard-student",
-      "insurerName": "Tata AIG General Insurance Company Ltd.",
-      "insurerSlug": "tata-aig",
-      "productName": "Travel Guard (Student)",
-      "category": "travel",
-      "subCategory": "student",
-      "eligibility": {
-        "minAge": 16,
-        "maxAge": 35,
-        "renewableUpTo": "Per academic year"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 500000,
-        "currency": "USD",
-        "options": [
-          100000,
-          250000,
-          500000
-        ]
-      },
-      "premiumRange": {
-        "illustrativeMin": 5000,
-        "illustrativeMax": 25000,
-        "assumptions": "1-year student plan, age 20. INR. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses overseas",
-        "Emergency evacuation",
-        "Study interruption",
-        "Sponsor protection",
-        "Baggage loss/delay",
-        "Personal liability",
-        "Compassionate visit"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "War/terrorism",
-        "Adventure sports (unless covered)",
-        "Self-inflicted injuries",
-        "Mental health (limited)"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Adventure sports",
-        "Laptop/electronics cover"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": [
-          "Single trip"
-        ]
-      },
-      "renewability": "Per academic year",
-      "specialFeatures": [
-        "Designed for students studying abroad",
-        "Study interruption cover",
-        "Sponsor protection benefit",
-        "Covers up to 2 years"
-      ],
-      "sourceUrl": "https://www.tataaig.com/travel-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Student-specific travel plan. Data compiled from public sources.",
-      "quoteUrl": "https://www.tataaig.com/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "icici-lombard-travel-international",
-      "insurerName": "ICICI Lombard General Insurance Company Ltd.",
-      "insurerSlug": "icici-lombard",
-      "productName": "ICICI Lombard International Travel Insurance",
-      "category": "travel",
-      "subCategory": "international",
-      "eligibility": {
-        "minAge": 0.5,
-        "maxAge": 70,
-        "renewableUpTo": "Per trip"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 500000,
-        "currency": "USD",
-        "options": [
-          50000,
-          100000,
-          250000,
-          500000
-        ]
-      },
-      "premiumRange": {
-        "illustrativeMin": 700,
-        "illustrativeMax": 5000,
-        "assumptions": "7-day trip, individual, 30 years. INR. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses overseas",
-        "Emergency evacuation",
-        "Trip cancellation/interruption",
-        "Baggage loss/delay",
-        "Passport loss",
-        "Personal liability",
-        "Flight delay"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "War/terrorism",
-        "Adventure sports (unless add-on)",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Adventure sports cover",
-        "Home insurance",
-        "Student cover"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": [
-          "Single trip",
-          "Annual multi-trip"
-        ]
-      },
-      "renewability": "Per trip/annual",
-      "specialFeatures": [
-        "Schengen compliant",
-        "Worldwide cashless facility",
-        "24/7 assistance",
-        "Online purchase with instant policy"
-      ],
-      "sourceUrl": "https://www.icicilombard.com/travel-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data compiled from public sources.",
-      "quoteUrl": "https://www.icicilombard.com/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "icici-lombard-travel-domestic",
-      "insurerName": "ICICI Lombard General Insurance Company Ltd.",
-      "insurerSlug": "icici-lombard",
-      "productName": "ICICI Lombard Domestic Travel Insurance",
-      "category": "travel",
-      "subCategory": "domestic",
-      "eligibility": {
-        "minAge": 0.5,
-        "maxAge": 70,
-        "renewableUpTo": "Per trip"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 500000,
-        "currency": "INR",
-        "options": [
-          100000,
-          250000,
-          500000
-        ]
-      },
-      "premiumRange": {
-        "illustrativeMin": 150,
-        "illustrativeMax": 1200,
-        "assumptions": "7-day domestic trip, individual. INR. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses within India",
-        "Trip cancellation",
-        "Baggage loss",
-        "Personal accident",
-        "Hotel extension due to illness"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "Adventure sports (unless add-on)",
-        "Self-inflicted injuries",
-        "War/riots"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Adventure sports cover"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": [
-          "Single trip",
-          "Annual multi-trip"
-        ]
-      },
-      "renewability": "Per trip/annual",
-      "specialFeatures": [
-        "Affordable domestic coverage",
-        "Trip delay compensation",
-        "Quick online purchase",
-        "24/7 assistance"
-      ],
-      "sourceUrl": "https://www.icicilombard.com/travel-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Domestic travel product. Data compiled from public sources.",
-      "quoteUrl": "https://www.icicilombard.com/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "digit-international-travel",
-      "insurerName": "Go Digit General Insurance Ltd.",
-      "insurerSlug": "digit",
-      "productName": "Digit International Travel Insurance",
-      "category": "travel",
-      "subCategory": "international",
-      "eligibility": {
-        "minAge": 0.5,
-        "maxAge": 70,
-        "renewableUpTo": "Per trip"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 500000,
-        "currency": "USD",
-        "options": [
-          50000,
-          100000,
-          250000,
-          500000
-        ]
-      },
-      "premiumRange": {
-        "illustrativeMin": 600,
-        "illustrativeMax": 4000,
-        "assumptions": "7-day trip, individual, 30 years. INR. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses overseas",
-        "Emergency evacuation",
-        "Trip cancellation/interruption",
-        "Baggage loss/delay",
-        "Passport loss",
-        "Personal liability",
-        "Flight delay"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "War/terrorism",
-        "Adventure sports (unless covered)",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Adventure sports",
-        "Home burglary"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": [
-          "Single trip",
-          "Annual multi-trip"
-        ]
-      },
-      "renewability": "Per trip/annual",
-      "specialFeatures": [
-        "Digital-first insurer",
-        "Schengen compliant",
-        "Quick online purchase",
-        "Competitive pricing"
+        "Smartphone Claims",
+        "Simple Process",
+        "Affordable"
       ],
       "sourceUrl": "https://www.godigit.com/travel-insurance",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Data compiled from public sources.",
-      "quoteUrl": "https://www.godigit.com/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
+      "notes": "",
+      "countryCode": "in"
     },
     {
-      "id": "care-health-travel",
-      "insurerName": "Care Health Insurance Ltd.",
-      "insurerSlug": "care-health",
-      "productName": "Care Travel Insurance",
+      "id": "star-health-travel",
+      "insurerName": "Star Health and Allied Insurance Co. Ltd.",
+      "insurerSlug": "star-health",
+      "productName": "Star Travel Protect",
       "category": "travel",
       "subCategory": "international",
       "eligibility": {
-        "minAge": 0.5,
-        "maxAge": 70,
-        "renewableUpTo": "Per trip"
-      },
-      "sumInsured": {
-        "min": 25000,
-        "max": 500000,
-        "currency": "USD",
-        "options": [
-          25000,
-          50000,
-          100000,
-          250000,
-          500000
-        ]
-      },
-      "premiumRange": {
-        "illustrativeMin": 600,
-        "illustrativeMax": 4500,
-        "assumptions": "7-day trip, individual, 30 years. INR. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses overseas",
-        "Emergency evacuation",
-        "Trip cancellation",
-        "Baggage loss/delay",
-        "Personal liability",
-        "Flight delay",
-        "Dental treatment (emergency)"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "War/terrorism",
-        "Adventure sports (unless add-on)",
-        "Self-inflicted injuries",
-        "Substance abuse"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Adventure sports cover",
-        "Home protection"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": [
-          "Single trip",
-          "Annual multi-trip"
-        ]
-      },
-      "renewability": "Per trip/annual",
-      "specialFeatures": [
-        "Standalone health insurer's travel product",
-        "Schengen compliant",
-        "Emergency dental cover",
-        "24/7 global helpline"
-      ],
-      "sourceUrl": "https://www.careinsurance.com/travel-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data compiled from public sources.",
-      "quoteUrl": "https://www.careinsurance.com/buy-health-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "reliance-general-travel",
-      "insurerName": "Reliance General Insurance Company Ltd.",
-      "insurerSlug": "reliance-general",
-      "productName": "Reliance Travel Insurance",
-      "category": "travel",
-      "subCategory": "international",
-      "eligibility": {
-        "minAge": 0.5,
-        "maxAge": 70,
-        "renewableUpTo": "Per trip"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
         "min": 50000,
         "max": 500000,
-        "currency": "USD",
         "options": [
           50000,
           100000,
           250000,
           500000
-        ]
+        ],
+        "currency": "USD"
       },
       "premiumRange": {
-        "illustrativeMin": 600,
-        "illustrativeMax": 4000,
-        "assumptions": "7-day trip, individual, 30 years. INR. Indicative only.",
+        "illustrativeMin": 750,
+        "illustrativeMax": 3500,
+        "assumptions": "7-day Europe trip, 30 years. Indicative only. Premiums in INR.",
         "isVerified": false
       },
-      "waitingPeriod": null,
       "keyInclusions": [
-        "Medical expenses overseas",
-        "Emergency evacuation",
+        "Medical emergency abroad",
         "Trip cancellation",
-        "Baggage loss/delay",
-        "Passport loss",
-        "Personal liability",
+        "Lost baggage",
         "Flight delay"
       ],
       "keyExclusions": [
-        "Pre-existing conditions",
-        "War/terrorism",
-        "Adventure sports (unless add-on)",
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
         "Self-inflicted injuries"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Adventure sports cover"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": [
-          "Single trip",
-          "Annual multi-trip"
-        ]
-      },
-      "renewability": "Per trip/annual",
-      "specialFeatures": [
-        "Part of Reliance Group",
-        "Schengen compliant",
-        "24/7 assistance",
-        "Quick online purchase"
-      ],
-      "sourceUrl": "https://www.reliancegeneral.co.in/insurance/travel-insurance.aspx",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data compiled from public sources.",
-      "quoteUrl": "https://www.reliancegeneral.co.in/Insurance/Travel-Insurance.aspx?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "sbi-general-travel",
-      "insurerName": "SBI General Insurance Company Ltd.",
-      "insurerSlug": "sbi-general",
-      "productName": "SBI General Travel Insurance",
-      "category": "travel",
-      "subCategory": "international",
-      "eligibility": {
-        "minAge": 0.5,
-        "maxAge": 70,
-        "renewableUpTo": "Per trip"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 500000,
-        "currency": "USD",
-        "options": [
-          50000,
-          100000,
-          250000,
-          500000
-        ]
-      },
-      "premiumRange": {
-        "illustrativeMin": 650,
-        "illustrativeMax": 4500,
-        "assumptions": "7-day trip, individual, 30 years. INR. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses overseas",
-        "Emergency evacuation",
-        "Trip cancellation",
-        "Baggage loss/delay",
-        "Passport loss",
-        "Personal liability",
-        "Flight delay"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "War/terrorism",
-        "Adventure sports (unless covered)",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Adventure sports cover",
-        "Home protection"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": [
-          "Single trip",
-          "Annual multi-trip"
-        ]
-      },
-      "renewability": "Per trip/annual",
-      "specialFeatures": [
-        "Backed by SBI",
-        "Schengen compliant",
-        "Available via SBI branches",
-        "24/7 global assistance"
-      ],
-      "sourceUrl": "https://www.sbigeneral.in/travel-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data compiled from public sources.",
-      "quoteUrl": "https://www.sbigeneral.in/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "new-india-overseas-mediclaim",
-      "insurerName": "The New India Assurance Co. Ltd.",
-      "insurerSlug": "new-india-assurance",
-      "productName": "Overseas Mediclaim Policy",
-      "category": "travel",
-      "subCategory": "international",
-      "eligibility": {
-        "minAge": 0.5,
-        "maxAge": 70,
-        "renewableUpTo": "Per trip"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 500000,
-        "currency": "USD",
-        "options": [
-          50000,
-          100000,
-          250000,
-          500000
-        ]
-      },
-      "premiumRange": {
-        "illustrativeMin": 700,
-        "illustrativeMax": 5000,
-        "assumptions": "7-day trip, individual, 30 years. INR. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses overseas",
-        "Emergency evacuation and repatriation",
-        "Trip cancellation",
-        "Baggage loss/delay",
-        "Passport loss",
-        "Personal liability"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "War/terrorism",
-        "Adventure sports",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
       "riders": [],
       "policyTenure": {
-        "min": null,
-        "max": null,
+        "min": 1,
+        "max": 1,
         "options": [
-          "Single trip",
-          "Annual multi-trip"
+          1
         ]
       },
-      "renewability": "Per trip/annual",
+      "renewability": "Lifelong",
       "specialFeatures": [
-        "Government-owned insurer",
-        "Wide acceptance for visa applications",
-        "Schengen compliant",
-        "Strong international assistance network"
+        "Standalone Health Insurer Backing",
+        "Wide Coverage",
+        "Schengen Approved"
       ],
-      "sourceUrl": "https://www.newindia.co.in/portal/travel-insurance",
+      "sourceUrl": "https://www.starhealth.in/travel-insurance",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "PSU insurer. Widely accepted for visa applications. Data compiled from public sources.",
-      "quoteUrl": "https://www.newindia.co.in/portal/mediclaim?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "royal-sundaram-travel",
-      "insurerName": "Royal Sundaram General Insurance Co. Ltd.",
-      "insurerSlug": "royal-sundaram",
-      "productName": "Royal Sundaram Travel Insurance",
-      "category": "travel",
-      "subCategory": "international",
-      "eligibility": {
-        "minAge": 0.5,
-        "maxAge": 70,
-        "renewableUpTo": "Per trip"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 500000,
-        "currency": "USD",
-        "options": [
-          50000,
-          100000,
-          250000,
-          500000
-        ]
-      },
-      "premiumRange": {
-        "illustrativeMin": 650,
-        "illustrativeMax": 4500,
-        "assumptions": "7-day trip, individual, 30 years. INR. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses overseas",
-        "Emergency evacuation",
-        "Trip cancellation/interruption",
-        "Baggage loss/delay",
-        "Passport loss",
-        "Personal liability",
-        "Flight delay"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "War/terrorism",
-        "Adventure sports (unless add-on)",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Adventure sports cover",
-        "Home burglary cover"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": [
-          "Single trip",
-          "Annual multi-trip"
-        ]
-      },
-      "renewability": "Per trip/annual",
-      "specialFeatures": [
-        "Subsidiary of Sundaram Finance",
-        "Schengen compliant",
-        "24/7 global helpline",
-        "Family plans available"
-      ],
-      "sourceUrl": "https://www.royalsundaram.in/travel-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Data compiled from public sources.",
-      "quoteUrl": "https://www.royalsundaram.in/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "bajaj-allianz-travel-domestic",
-      "insurerName": "Bajaj Allianz General Insurance Co. Ltd.",
-      "insurerSlug": "bajaj-allianz",
-      "productName": "Bajaj Allianz Domestic Travel Insurance",
-      "category": "travel",
-      "subCategory": "domestic",
-      "eligibility": {
-        "minAge": 5,
-        "maxAge": 70,
-        "renewableUpTo": "Per trip"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 500000,
-        "currency": "INR",
-        "options": [
-          100000,
-          250000,
-          500000
-        ]
-      },
-      "premiumRange": {
-        "illustrativeMin": 150,
-        "illustrativeMax": 1000,
-        "assumptions": "7-day domestic trip, individual. INR. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses within India",
-        "Trip cancellation",
-        "Baggage loss",
-        "Personal accident",
-        "Trip delay compensation"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "Adventure sports (unless covered)",
-        "Self-inflicted injuries",
-        "War/riots"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Adventure sports cover"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": [
-          "Single trip",
-          "Annual multi-trip"
-        ]
-      },
-      "renewability": "Per trip/annual",
-      "specialFeatures": [
-        "Affordable domestic plan",
-        "Covers travel within India",
-        "Trip delay/cancellation included",
-        "24/7 helpline"
-      ],
-      "sourceUrl": "https://www.bajajallianz.com/travel-insurance.html",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Domestic variant. Data compiled from public sources.",
-      "quoteUrl": "https://www.bajajallianz.com/travel-insurance.html?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
-    },
-    {
-      "id": "tata-aig-travel-domestic",
-      "insurerName": "Tata AIG General Insurance Company Ltd.",
-      "insurerSlug": "tata-aig",
-      "productName": "Tata AIG Domestic Travel Insurance",
-      "category": "travel",
-      "subCategory": "domestic",
-      "eligibility": {
-        "minAge": 5,
-        "maxAge": 70,
-        "renewableUpTo": "Per trip"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 1000000,
-        "currency": "INR",
-        "options": [
-          100000,
-          250000,
-          500000,
-          1000000
-        ]
-      },
-      "premiumRange": {
-        "illustrativeMin": 200,
-        "illustrativeMax": 1500,
-        "assumptions": "7-day domestic trip, individual. INR. Indicative only.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses within India",
-        "Trip cancellation",
-        "Baggage loss/delay",
-        "Personal accident",
-        "Trip delay compensation",
-        "Hotel extension due to illness"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "Adventure sports (unless add-on)",
-        "Self-inflicted injuries",
-        "War/riots"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Adventure sports cover"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": [
-          "Single trip",
-          "Annual multi-trip"
-        ]
-      },
-      "renewability": "Per trip/annual",
-      "specialFeatures": [
-        "Covers domestic travel within India",
-        "Comprehensive trip protection",
-        "24/7 helpline",
-        "Online purchase available"
-      ],
-      "sourceUrl": "https://www.tataaig.com/travel-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Domestic variant. Data compiled from public sources.",
-      "quoteUrl": "https://www.tataaig.com/travel-insurance?utm_source=worldbestinsurer&utm_medium=comparison&utm_campaign=get_quote"
+      "notes": "",
+      "countryCode": "in"
     }
   ]
 }

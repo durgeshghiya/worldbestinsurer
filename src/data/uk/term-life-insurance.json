@@ -1,734 +1,220 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-03-24",
-  "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative and vary by age, health, smoking status, and sum assured. Zura does not sell insurance. Verify with insurer.",
+  "lastUpdated": "2026-04-03",
+  "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
-      "id": "aviva-term-life",
-      "insurerName": "Aviva plc",
-      "insurerSlug": "aviva",
-      "productName": "Aviva Level Term Life Insurance",
-      "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 77,
-        "renewableUpTo": "N/A — term plan"
-      },
-      "sumInsured": {
-        "min": 10000,
-        "max": 10000000,
-        "currency": "GBP",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 6,
-        "illustrativeMax": 40,
-        "assumptions": "Male, 30 yrs, non-smoker, £250K cover, 25-yr term, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit for term",
-        "Terminal illness cover (12-month prognosis)",
-        "Children's funeral benefit",
-        "Fracture cover",
-        "Bereavement counselling",
-        "Online wills service"
-      ],
-      "keyExclusions": [
-        "Suicide within first 12 months",
-        "Misrepresentation or non-disclosure"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Critical illness cover",
-        "Waiver of premium (on incapacity)",
-        "Income protection conversion option"
-      ],
-      "policyTenure": {
-        "min": 5,
-        "max": 40,
-        "options": []
-      },
-      "renewability": "Non-renewable — fixed term",
-      "specialFeatures": [
-        "DigiCare+ app — mental health, nutrition, fitness support",
-        "Children's funeral benefit included",
-        "Fracture cover included",
-        "Can add critical illness",
-        "Guaranteed insurability options at life events"
-      ],
-      "sourceUrl": "https://www.aviva.co.uk/insurance/life-insurance/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Aviva is the UK's largest insurer. Strong online and adviser channels."
-    },
-    {
-      "id": "legal-and-general-term-life",
-      "insurerName": "Legal & General Assurance Society Limited",
+      "id": "lg-term-uk",
+      "insurerName": "Legal & General",
       "insurerSlug": "legal-and-general",
-      "productName": "Legal & General Level Term Life Insurance",
+      "productName": "L&G Term Insurance",
       "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 17,
-        "maxAge": 80,
-        "renewableUpTo": "N/A"
-      },
-      "sumInsured": {
-        "min": 25000,
-        "max": 10000000,
-        "currency": "GBP",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 5,
-        "illustrativeMax": 35,
-        "assumptions": "Male, 30 yrs, non-smoker, £250K cover, 25-yr term, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Terminal illness cover",
-        "Funeral payment advance",
-        "Free additional cover at certain life events"
-      ],
-      "keyExclusions": [
-        "Suicide within first 12 months",
-        "Non-disclosure of material facts"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Critical illness cover",
-        "Waiver of premium",
-        "Children's critical illness cover"
-      ],
-      "policyTenure": {
-        "min": 5,
-        "max": 50,
-        "options": []
-      },
-      "renewability": "Non-renewable",
-      "specialFeatures": [
-        "UK's leading individual life insurer by market share",
-        "Competitive premiums",
-        "Free life event cover increases",
-        "Funeral payment advance within 5 working days",
-        "L&G SmartQuote — online application"
-      ],
-      "sourceUrl": "https://www.legalandgeneral.com/life-cover/life-insurance/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "L&G is the UK's most popular individual life insurer."
-    },
-    {
-      "id": "royal-london-term-life",
-      "insurerName": "Royal London",
-      "insurerSlug": "royal-london",
-      "productName": "Royal London Level Term Life Insurance",
-      "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 17,
-        "maxAge": 79,
-        "renewableUpTo": "N/A"
-      },
-      "sumInsured": {
-        "min": 10000,
-        "max": 10000000,
-        "currency": "GBP",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 6,
-        "illustrativeMax": 38,
-        "assumptions": "Male, 30 yrs, non-smoker, £250K cover, 25-yr term, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Terminal illness cover",
-        "Helping Hand support service (free)",
-        "Children's bereavement counselling"
-      ],
-      "keyExclusions": [
-        "Suicide within first 12 months",
-        "Non-disclosure"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Critical illness cover",
-        "Waiver of premium",
-        "Children's critical illness"
-      ],
-      "policyTenure": {
-        "min": 5,
-        "max": 50,
-        "options": []
-      },
-      "renewability": "Non-renewable",
-      "specialFeatures": [
-        "Helping Hand — personal nurse advisor and counselling",
-        "UK's largest mutual life insurer",
-        "Award-winning claims support",
-        "Bereavement and financial counselling for families"
-      ],
-      "sourceUrl": "https://www.royallondon.com/products/life-insurance/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Royal London is the UK's largest mutual life insurer. Known for Helping Hand service."
-    },
-    {
-      "id": "zurich-term-life",
-      "insurerName": "Zurich Assurance Ltd",
-      "insurerSlug": "zurich-uk",
-      "productName": "Zurich Level Term Life Insurance",
-      "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "uk",
+      "subCategory": "pure-term",
       "eligibility": {
         "minAge": 18,
-        "maxAge": 80,
-        "renewableUpTo": "N/A"
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
-        "min": 10000,
-        "max": 10000000,
-        "currency": "GBP",
+        "min": null,
+        "max": null,
         "options": []
       },
       "premiumRange": {
-        "illustrativeMin": 6,
-        "illustrativeMax": 42,
-        "assumptions": "Male, 30 yrs, non-smoker, £250K cover, 25-yr term, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Terminal illness cover",
-        "Zurich Support Services (counselling, legal, medical)"
-      ],
-      "keyExclusions": [
-        "Suicide within first 12 months",
-        "Non-disclosure"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Critical illness cover",
-        "Waiver of premium"
-      ],
-      "policyTenure": {
-        "min": 5,
-        "max": 50,
-        "options": []
-      },
-      "renewability": "Non-renewable",
-      "specialFeatures": [
-        "Part of Zurich Insurance Group (Switzerland)",
-        "Zurich Support Services included",
-        "Strong financial backing",
-        "Flexible term options"
-      ],
-      "sourceUrl": "https://www.zurich.co.uk/life-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Zurich UK part of global Zurich Insurance Group."
-    },
-    {
-      "id": "lv-term-life",
-      "insurerName": "Liverpool Victoria (LV=)",
-      "insurerSlug": "lv",
-      "productName": "LV= Level Term Life Insurance",
-      "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 80,
-        "renewableUpTo": "N/A"
-      },
-      "sumInsured": {
-        "min": 25000,
-        "max": 2000000,
-        "currency": "GBP",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 5,
-        "illustrativeMax": 35,
-        "assumptions": "Male, 30 yrs, non-smoker, £250K cover, 25-yr term, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Terminal illness cover",
-        "Bereavement support",
-        "Legal and financial helpline"
-      ],
-      "keyExclusions": [
-        "Suicide within first 12 months",
-        "Non-disclosure"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Critical illness cover",
-        "Waiver of premium"
-      ],
-      "policyTenure": {
-        "min": 5,
-        "max": 40,
-        "options": []
-      },
-      "renewability": "Non-renewable",
-      "specialFeatures": [
-        "Friendly society — member-owned",
-        "Doctor Services via phone and video",
-        "Bereavement counselling for families",
-        "Competitive premiums"
-      ],
-      "sourceUrl": "https://www.lv.com/life-insurance/level-term",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "LV= is a friendly society. Known for good customer service."
-    },
-    {
-      "id": "scottish-widows-term-life",
-      "insurerName": "Scottish Widows Limited",
-      "insurerSlug": "scottish-widows",
-      "productName": "Scottish Widows Level Term Assurance",
-      "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 70,
-        "renewableUpTo": "N/A"
-      },
-      "sumInsured": {
-        "min": 5000,
-        "max": 5000000,
-        "currency": "GBP",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 5,
-        "illustrativeMax": 32,
-        "assumptions": "Male, 30 yrs, non-smoker, £250K cover, 25-yr term, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Terminal illness cover",
-        "Funeral payment advance"
-      ],
-      "keyExclusions": [
-        "Suicide within first 12 months",
-        "Non-disclosure"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Critical illness cover",
-        "Waiver of premium"
-      ],
-      "policyTenure": {
-        "min": 5,
-        "max": 50,
-        "options": []
-      },
-      "renewability": "Non-renewable",
-      "specialFeatures": [
-        "Part of Lloyds Banking Group",
-        "Sold through Lloyds Bank, Halifax, Bank of Scotland advisers",
-        "Competitive pricing through banking channel",
-        "Online management"
-      ],
-      "sourceUrl": "https://www.scottishwidows.co.uk/products/life-insurance/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Scottish Widows is part of Lloyds Banking Group. Sold through banks."
-    },
-    {
-      "id": "vitality-life-term",
-      "insurerName": "VitalityLife",
-      "insurerSlug": "vitality-life",
-      "productName": "Vitality Life Insurance",
-      "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 74,
-        "renewableUpTo": "N/A"
-      },
-      "sumInsured": {
-        "min": 25000,
-        "max": 10000000,
-        "currency": "GBP",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 7,
-        "illustrativeMax": 45,
-        "assumptions": "Male, 30 yrs, non-smoker, £250K cover, 25-yr term, monthly. Can reduce with engagement.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Terminal illness cover",
-        "Vitality Optimiser — premium can decrease with healthy behaviour"
-      ],
-      "keyExclusions": [
-        "Suicide within first 12 months",
-        "Non-disclosure"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Serious illness cover (critical illness)",
-        "Income protection",
-        "Waiver of premium"
-      ],
-      "policyTenure": {
-        "min": 5,
-        "max": 50,
-        "options": []
-      },
-      "renewability": "Non-renewable",
-      "specialFeatures": [
-        "Vitality Optimiser — premiums can decrease with healthy activity",
-        "Apple Watch discount",
-        "Wellness rewards (cinema, coffee, gym)",
-        "Up to 25% premium reduction for being active",
-        "Unique incentive-based model"
-      ],
-      "sourceUrl": "https://www.vitality.co.uk/life-insurance/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Vitality's unique model rewards healthy behaviour with lower premiums."
-    },
-    {
-      "id": "aig-life-term",
-      "insurerName": "AIG Life Limited",
-      "insurerSlug": "aig-life-uk",
-      "productName": "AIG Life Smart Term Insurance",
-      "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 17,
-        "maxAge": 80,
-        "renewableUpTo": "N/A"
-      },
-      "sumInsured": {
-        "min": 10000,
-        "max": 10000000,
-        "currency": "GBP",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 5,
-        "illustrativeMax": 35,
-        "assumptions": "Male, 30 yrs, non-smoker, £250K cover, 25-yr term, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Terminal illness cover",
-        "SmartClaim — fast digital claims",
-        "Family care support services"
-      ],
-      "keyExclusions": [
-        "Suicide within first 12 months",
-        "Non-disclosure"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Critical illness cover",
-        "Waiver of premium",
-        "Children's critical illness cover"
-      ],
-      "policyTenure": {
-        "min": 5,
-        "max": 50,
-        "options": []
-      },
-      "renewability": "Non-renewable",
-      "specialFeatures": [
-        "SmartClaim process — faster digital claims",
-        "SmartHealth — Teladoc virtual GP included free",
-        "Mental health support",
-        "Nutritional support",
-        "Second medical opinion service"
-      ],
-      "sourceUrl": "https://www.aiglife.co.uk/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "AIG Life UK is competitive on price. SmartHealth added value."
-    },
-    {
-      "id": "legal-and-general-decreasing-term",
-      "insurerName": "Legal & General Assurance Society Limited",
-      "insurerSlug": "legal-and-general",
-      "productName": "Legal & General Decreasing Term Life Insurance",
-      "category": "term-life",
-      "subCategory": "decreasing-term",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 17,
-        "maxAge": 80,
-        "renewableUpTo": "N/A"
-      },
-      "sumInsured": {
-        "min": 25000,
-        "max": 10000000,
-        "currency": "GBP",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 4,
+        "illustrativeMin": 8,
         "illustrativeMax": 25,
-        "assumptions": "Male, 30 yrs, non-smoker, £250K initial cover, 25-yr term (mortgage protection), monthly.",
+        "assumptions": "Monthly, GBP, 30yo, £500K",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Decreasing death benefit aligned to repayment mortgage",
-        "Terminal illness cover",
-        "Funeral payment advance"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Suicide within first 12 months",
-        "Non-disclosure"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Critical illness cover",
-        "Waiver of premium"
-      ],
+      "riders": [],
       "policyTenure": {
-        "min": 5,
+        "min": 10,
         "max": 50,
-        "options": []
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          40,
+          50
+        ]
       },
-      "renewability": "Non-renewable",
+      "renewability": "Annual",
       "specialFeatures": [
-        "Lower premiums than level term",
-        "Designed for repayment mortgage protection",
-        "Cover decreases in line with mortgage balance",
-        "Popular mortgage protection choice"
+        "UK's #1 Life Insurer",
+        "Children's Critical Illness Free",
+        "Flexible Terms"
       ],
-      "sourceUrl": "https://www.legalandgeneral.com/life-cover/life-insurance/decreasing-life-insurance/",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Decreasing term — popular for mortgage protection. Cheaper than level term."
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "uk"
     },
     {
-      "id": "aviva-decreasing-term",
-      "insurerName": "Aviva plc",
+      "id": "aviva-term-uk",
+      "insurerName": "Aviva",
       "insurerSlug": "aviva",
-      "productName": "Aviva Decreasing Term Life Insurance",
+      "productName": "Aviva Term Life",
       "category": "term-life",
-      "subCategory": "decreasing-term",
-      "countryCode": "uk",
+      "subCategory": "pure-term",
       "eligibility": {
         "minAge": 18,
-        "maxAge": 77,
-        "renewableUpTo": "N/A"
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
-        "min": 10000,
-        "max": 10000000,
-        "currency": "GBP",
+        "min": null,
+        "max": null,
         "options": []
       },
       "premiumRange": {
-        "illustrativeMin": 4,
+        "illustrativeMin": 9,
         "illustrativeMax": 28,
-        "assumptions": "Male, 30 yrs, non-smoker, £250K initial cover, 25-yr term, monthly.",
+        "assumptions": "Monthly, GBP, 30yo, £500K",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Decreasing death benefit",
-        "Terminal illness cover",
-        "Children's funeral benefit",
-        "DigiCare+ app access"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Suicide within first 12 months",
-        "Non-disclosure"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Critical illness cover",
-        "Waiver of premium"
-      ],
+      "riders": [],
       "policyTenure": {
-        "min": 5,
+        "min": 10,
         "max": 40,
-        "options": []
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          40
+        ]
       },
-      "renewability": "Non-renewable",
+      "renewability": "Annual",
       "specialFeatures": [
-        "Mortgage protection focused",
-        "DigiCare+ app benefits",
-        "Fracture cover included",
-        "Lower cost than level term"
+        "Children's CI Included",
+        "Fracture Cover",
+        "Global Treatment"
       ],
-      "sourceUrl": "https://www.aviva.co.uk/insurance/life-insurance/",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Aviva decreasing term for mortgage protection."
+      "notes": "",
+      "countryCode": "uk"
     },
     {
-      "id": "royal-london-over-50",
-      "insurerName": "Royal London",
-      "insurerSlug": "royal-london",
-      "productName": "Royal London Over 50s Life Insurance",
+      "id": "zurich-term-uk",
+      "insurerName": "Zurich",
+      "insurerSlug": "zurich-uk",
+      "productName": "Zurich Term Insurance",
       "category": "term-life",
-      "subCategory": "over-50s-whole-life",
-      "countryCode": "uk",
+      "subCategory": "pure-term",
       "eligibility": {
-        "minAge": 50,
-        "maxAge": 80,
-        "renewableUpTo": "Whole of life"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
-        "min": 1000,
-        "max": 25000,
-        "currency": "GBP",
+        "min": null,
+        "max": null,
         "options": []
       },
       "premiumRange": {
         "illustrativeMin": 10,
-        "illustrativeMax": 50,
-        "assumptions": "Age 55, non-smoker, £10K cover, monthly. Guaranteed acceptance.",
+        "illustrativeMax": 30,
+        "assumptions": "Monthly, GBP, 30yo, £500K",
         "isVerified": false
       },
-      "waitingPeriod": {
-        "initial": "12 months (if death in first year, premiums returned only)",
-        "preExisting": "N/A — guaranteed acceptance",
-        "specific": "Accidental death covered from day 1"
-      },
-      "keyInclusions": [
-        "Guaranteed acceptance — no health questions",
-        "Fixed monthly premium",
-        "Lump sum payout on death",
-        "Helping Hand support service"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Death within first 12 months from non-accidental cause (premiums returned)"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
       "riders": [],
       "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["Whole of life (premiums payable to age 90)"]
+        "min": 10,
+        "max": 40,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          40
+        ]
       },
-      "renewability": "Whole of life — no renewal needed",
+      "renewability": "Annual",
       "specialFeatures": [
-        "Guaranteed acceptance — no medical questions",
-        "Fixed premiums — never increase",
-        "Helping Hand support included",
-        "Premiums stop at age 90, cover continues"
+        "Flexible",
+        "Conversion Option",
+        "Good Riders"
       ],
-      "sourceUrl": "https://www.royallondon.com/products/over-50-life-insurance/",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Whole of life plan. Premiums may exceed payout if policyholder lives long."
+      "notes": "",
+      "countryCode": "uk"
     },
     {
-      "id": "guardian-term-life",
-      "insurerName": "Guardian Financial Services Limited",
-      "insurerSlug": "guardian",
-      "productName": "Guardian Level Term Life Insurance",
+      "id": "royal-london-term",
+      "insurerName": "Royal London",
+      "insurerSlug": "royal-london",
+      "productName": "Royal London Term",
       "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "uk",
+      "subCategory": "pure-term",
       "eligibility": {
         "minAge": 18,
-        "maxAge": 74,
-        "renewableUpTo": "N/A"
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
-        "min": 10000,
-        "max": 10000000,
-        "currency": "GBP",
+        "min": null,
+        "max": null,
         "options": []
       },
       "premiumRange": {
-        "illustrativeMin": 5,
-        "illustrativeMax": 35,
-        "assumptions": "Male, 30 yrs, non-smoker, £250K cover, 25-yr term, monthly.",
+        "illustrativeMin": 8,
+        "illustrativeMax": 25,
+        "assumptions": "Monthly, GBP, 30yo, £500K",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Terminal illness cover",
-        "Payout Plus — extra 10% if death from specific causes",
-        "Guardian Angel support service"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Suicide within first 12 months",
-        "Non-disclosure"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Critical illness cover",
-        "Waiver of premium"
-      ],
+      "riders": [],
       "policyTenure": {
-        "min": 5,
-        "max": 50,
-        "options": []
+        "min": 10,
+        "max": 40,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          40
+        ]
       },
-      "renewability": "Non-renewable",
+      "renewability": "Annual",
       "specialFeatures": [
-        "Payout Plus — 10% extra for certain causes of death",
-        "Guardian Angel support at claims",
-        "Competitive rates for non-smokers",
-        "Innovative protection features"
+        "Mutual Insurer",
+        "Helping Hand Service",
+        "Reviewable Premiums Option"
       ],
-      "sourceUrl": "https://www.guardian1821.co.uk/",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Guardian is a newer entrant focused on innovation in protection."
+      "notes": "",
+      "countryCode": "uk"
     }
   ]
 }

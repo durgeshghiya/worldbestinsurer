@@ -1,914 +1,270 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-03-24",
-  "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative and vary by age, health, tobacco use, and coverage amount. Zura does not sell insurance. Verify with insurer.",
+  "lastUpdated": "2026-04-03",
+  "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
-      "id": "northwestern-mutual-term-life",
-      "insurerName": "Northwestern Mutual Life Insurance Company",
+      "id": "nwm-term",
+      "insurerName": "Northwestern Mutual",
       "insurerSlug": "northwestern-mutual",
-      "productName": "Northwestern Mutual Term Life Insurance",
+      "productName": "Northwestern Mutual Term",
       "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 70,
-        "renewableUpTo": "Up to age 95 (at increased rates)"
-      },
-      "sumInsured": {
-        "min": 250000,
-        "max": 10000000,
-        "currency": "USD",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 20,
-        "illustrativeMax": 120,
-        "assumptions": "Male, 30 yrs, non-smoker, preferred plus, $500K, 20-yr term, monthly. Indicative.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit for term duration",
-        "Convertible to permanent life insurance",
-        "Accelerated death benefit for terminal illness",
-        "Option to add riders"
-      ],
-      "keyExclusions": [
-        "Suicide within first 2 years",
-        "Misrepresentation on application",
-        "Death during excluded activities (if applicable)"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Waiver of premium rider",
-        "Accidental death benefit rider",
-        "Children's term rider",
-        "Additional insured rider"
-      ],
-      "policyTenure": {
-        "min": 10,
-        "max": 20,
-        "options": [10, 15, 20]
-      },
-      "renewability": "Renewable to age 95 at increased premium",
-      "specialFeatures": [
-        "Conversion privilege to permanent insurance without medical exam",
-        "Dividend-paying company (mutual)",
-        "Financial strength: AM Best A++",
-        "Personalized financial planning with advisor"
-      ],
-      "sourceUrl": "https://www.northwesternmutual.com/life-insurance/term-life-insurance/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Northwestern Mutual is the largest direct provider of individual life insurance in the US. Agent-sold only."
-    },
-    {
-      "id": "new-york-life-term-life",
-      "insurerName": "New York Life Insurance Company",
-      "insurerSlug": "new-york-life",
-      "productName": "New York Life Term Life Insurance",
-      "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 70,
-        "renewableUpTo": "Up to age 90"
-      },
-      "sumInsured": {
-        "min": 250000,
-        "max": 10000000,
-        "currency": "USD",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 22,
-        "illustrativeMax": 130,
-        "assumptions": "Male, 30 yrs, non-smoker, preferred, $500K, 20-yr term, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Convertible to whole life or universal life",
-        "Terminal illness accelerated benefit",
-        "Chronic illness rider available"
-      ],
-      "keyExclusions": [
-        "Suicide within first 2 years",
-        "Material misrepresentation"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Waiver of premium",
-        "Accidental death benefit",
-        "Children's term insurance rider",
-        "Living benefits rider"
-      ],
-      "policyTenure": {
-        "min": 10,
-        "max": 30,
-        "options": [10, 15, 20, 30]
-      },
-      "renewability": "Renewable annually after term expires",
-      "specialFeatures": [
-        "170+ year track record",
-        "Mutual company — dividend eligible",
-        "AM Best A++ rating",
-        "Conversion to permanent without evidence of insurability"
-      ],
-      "sourceUrl": "https://www.newyorklife.com/products/term-life-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Largest mutual life insurer in the US. Agent-sold."
-    },
-    {
-      "id": "massmutual-term-life",
-      "insurerName": "Massachusetts Mutual Life Insurance Company",
-      "insurerSlug": "massmutual",
-      "productName": "MassMutual Haven Term",
-      "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "us",
+      "subCategory": "pure-term",
       "eligibility": {
         "minAge": 18,
         "maxAge": 65,
-        "renewableUpTo": "Up to age 90"
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
-        "min": 100000,
-        "max": 5000000,
-        "currency": "USD",
-        "options": []
+        "min": 250000,
+        "max": 10000000,
+        "options": [
+          250000,
+          500000,
+          1000000,
+          5000000
+        ],
+        "currency": "USD"
       },
       "premiumRange": {
-        "illustrativeMin": 18,
-        "illustrativeMax": 100,
-        "assumptions": "Male, 30 yrs, non-smoker, $500K, 20-yr term, monthly.",
+        "illustrativeMin": 30,
+        "illustrativeMax": 80,
+        "assumptions": "$1M, 30yo male, monthly",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Convertible to permanent insurance",
-        "Accelerated death benefit",
-        "Online application available"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Suicide within first 2 years",
-        "Material misrepresentation"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Waiver of premium",
-        "Accidental death benefit",
-        "Children's insurance rider"
-      ],
+      "riders": [],
       "policyTenure": {
         "min": 10,
         "max": 30,
-        "options": [10, 15, 20, 25, 30]
+        "options": [
+          10,
+          15,
+          20,
+          30
+        ]
       },
-      "renewability": "Renewable at increased rates",
+      "renewability": "Annual",
       "specialFeatures": [
-        "Online and agent application options",
-        "Simplified underwriting for qualifying applicants",
-        "AM Best A++ rating",
-        "Mutual company with dividends"
+        "A++ Financial Strength",
+        "Dividend-Paying",
+        "Conversion Option"
       ],
-      "sourceUrl": "https://www.massmutual.com/insurance/life-insurance/term-life",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "MassMutual acquired Haven Life. Online + agent channels."
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
     },
     {
-      "id": "prudential-term-essential",
-      "insurerName": "Prudential Financial, Inc.",
+      "id": "nyl-term",
+      "insurerName": "New York Life",
+      "insurerSlug": "new-york-life",
+      "productName": "New York Life Term",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 25,
+        "illustrativeMax": 70,
+        "assumptions": "$1M, 30yo, monthly",
+        "isVerified": false
+      },
+      "keyInclusions": [],
+      "keyExclusions": [
+        "Pre-existing conditions exclusions apply"
+      ],
+      "riders": [],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          30
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Oldest Mutual Insurer",
+        "Strong Financials",
+        "Conversion to Permanent"
+      ],
+      "sourceUrl": "",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "prudential-term",
+      "insurerName": "Prudential Financial",
       "insurerSlug": "prudential",
       "productName": "Prudential Term Essential",
       "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 70,
-        "renewableUpTo": "Up to age 95"
-      },
-      "sumInsured": {
-        "min": 250000,
-        "max": 10000000,
-        "currency": "USD",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 19,
-        "illustrativeMax": 110,
-        "assumptions": "Male, 30 yrs, non-smoker, preferred best, $500K, 20-yr term, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Convertible to permanent insurance",
-        "Terminal illness accelerated benefit",
-        "Chronic illness accelerated benefit"
-      ],
-      "keyExclusions": [
-        "Suicide within first 2 years",
-        "Material misrepresentation"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Waiver of premium",
-        "Accidental death benefit",
-        "Children's term rider",
-        "Chronic illness rider"
-      ],
-      "policyTenure": {
-        "min": 10,
-        "max": 30,
-        "options": [10, 15, 20, 30]
-      },
-      "renewability": "Renewable annually after term",
-      "specialFeatures": [
-        "Chronic illness living benefit included",
-        "Conversion privilege",
-        "PruFit wellness discount available through employers",
-        "AM Best A+ rating"
-      ],
-      "sourceUrl": "https://www.prudential.com/personal/life-insurance/term-life-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Prudential is one of the largest life insurers globally."
-    },
-    {
-      "id": "metlife-simplicity-term",
-      "insurerName": "MetLife, Inc.",
-      "insurerSlug": "metlife",
-      "productName": "MetLife Simplicity Term",
-      "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "us",
+      "subCategory": "pure-term",
       "eligibility": {
         "minAge": 18,
         "maxAge": 65,
-        "renewableUpTo": "Up to age 80"
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
-        "min": 100000,
-        "max": 5000000,
-        "currency": "USD",
+        "min": null,
+        "max": null,
         "options": []
       },
       "premiumRange": {
         "illustrativeMin": 20,
-        "illustrativeMax": 115,
-        "assumptions": "Male, 30 yrs, non-smoker, $500K, 20-yr term, monthly.",
+        "illustrativeMax": 60,
+        "assumptions": "$1M, 30yo, monthly",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Terminal illness benefit",
-        "Convertible to permanent",
-        "Online application"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Suicide within first 2 years",
-        "Material misrepresentation"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Waiver of premium",
-        "Accidental death",
-        "Children's rider"
-      ],
+      "riders": [],
       "policyTenure": {
         "min": 10,
         "max": 30,
-        "options": [10, 15, 20, 25, 30]
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
       },
-      "renewability": "Renewable at increased rates",
+      "renewability": "Annual",
       "specialFeatures": [
-        "Large employer-market presence",
-        "Global brand recognition",
-        "Streamlined underwriting for smaller face amounts"
+        "Wide Range of Terms",
+        "Online Application",
+        "Living Benefits"
       ],
-      "sourceUrl": "https://www.metlife.com/insurance/life-insurance/term-life-insurance/",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "MetLife primarily serves group/employer market. Individual term available."
+      "notes": "",
+      "countryCode": "us"
     },
     {
-      "id": "lincoln-financial-lifeasap-term",
-      "insurerName": "Lincoln National Corporation",
-      "insurerSlug": "lincoln-financial",
-      "productName": "Lincoln LifeAssure Term",
-      "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 70,
-        "renewableUpTo": "Up to age 95"
-      },
-      "sumInsured": {
-        "min": 250000,
-        "max": 10000000,
-        "currency": "USD",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 18,
-        "illustrativeMax": 105,
-        "assumptions": "Male, 30 yrs, non-smoker, preferred plus, $500K, 20-yr term, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Terminal illness accelerated benefit",
-        "Chronic illness accelerated benefit",
-        "Convertible to permanent"
-      ],
-      "keyExclusions": [
-        "Suicide within first 2 years",
-        "Material misrepresentation"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Waiver of premium",
-        "Accidental death benefit",
-        "Children's rider",
-        "Chronic illness accelerated benefit rider"
-      ],
-      "policyTenure": {
-        "min": 10,
-        "max": 30,
-        "options": [10, 15, 20, 25, 30]
-      },
-      "renewability": "Renewable to age 95",
-      "specialFeatures": [
-        "Living benefits included at no extra cost",
-        "Competitive rates for preferred classes",
-        "AM Best A+ rating",
-        "Conversion to permanent products"
-      ],
-      "sourceUrl": "https://www.lincolnfinancial.com/public/individuals/products/lifeinsurance/termlife",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Lincoln Financial known for competitive term rates."
-    },
-    {
-      "id": "transamerica-trendsetter-super",
-      "insurerName": "Transamerica Life Insurance Company",
-      "insurerSlug": "transamerica",
-      "productName": "Transamerica Trendsetter Super",
-      "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 70,
-        "renewableUpTo": "Up to age 95"
-      },
-      "sumInsured": {
-        "min": 250000,
-        "max": 10000000,
-        "currency": "USD",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 17,
-        "illustrativeMax": 100,
-        "assumptions": "Male, 30 yrs, non-smoker, preferred, $500K, 20-yr term, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Terminal illness accelerated benefit",
-        "Chronic illness accelerated benefit",
-        "Critical illness accelerated benefit",
-        "Convertible to permanent"
-      ],
-      "keyExclusions": [
-        "Suicide within first 2 years",
-        "Material misrepresentation"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Waiver of premium",
-        "Accidental death",
-        "Children's rider",
-        "Return of premium rider"
-      ],
-      "policyTenure": {
-        "min": 10,
-        "max": 30,
-        "options": [10, 15, 20, 25, 30]
-      },
-      "renewability": "Renewable to age 95",
-      "specialFeatures": [
-        "Three living benefits included at no cost",
-        "Competitive pricing",
-        "Return of premium option",
-        "Part of Aegon group"
-      ],
-      "sourceUrl": "https://www.transamerica.com/individual/products/life-insurance/term-life",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Trendsetter Super includes living benefits. Verify current availability."
-    },
-    {
-      "id": "protective-classic-choice-term",
-      "insurerName": "Protective Life Insurance Company",
-      "insurerSlug": "protective-life",
-      "productName": "Protective Classic Choice Term",
-      "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 70,
-        "renewableUpTo": "Up to age 95"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 10000000,
-        "currency": "USD",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 16,
-        "illustrativeMax": 95,
-        "assumptions": "Male, 30 yrs, non-smoker, preferred, $500K, 20-yr term, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Terminal illness accelerated benefit",
-        "Convertible to permanent"
-      ],
-      "keyExclusions": [
-        "Suicide within first 2 years",
-        "Material misrepresentation"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Waiver of premium",
-        "Accidental death benefit",
-        "Children's term rider"
-      ],
-      "policyTenure": {
-        "min": 10,
-        "max": 30,
-        "options": [10, 15, 20, 25, 30]
-      },
-      "renewability": "Renewable to age 95",
-      "specialFeatures": [
-        "Often among lowest-cost term options",
-        "Consistent AM Best A+ rating",
-        "Subsidiary of Dai-ichi Life Holdings",
-        "Strong independent agent distribution"
-      ],
-      "sourceUrl": "https://www.protective.com/life-insurance/term-life/classic-choice",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Protective Life frequently ranked among most affordable term options."
-    },
-    {
-      "id": "banner-life-opterm",
-      "insurerName": "Banner Life Insurance Company",
-      "insurerSlug": "banner-life",
-      "productName": "Banner Life OPTerm",
-      "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 70,
-        "renewableUpTo": "Up to age 95"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 10000000,
-        "currency": "USD",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 15,
-        "illustrativeMax": 90,
-        "assumptions": "Male, 30 yrs, non-smoker, preferred plus, $500K, 20-yr term, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Terminal illness accelerated benefit",
-        "Convertible to Legal & General permanent products"
-      ],
-      "keyExclusions": [
-        "Suicide within first 2 years",
-        "Material misrepresentation"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Waiver of premium",
-        "Accidental death",
-        "Children's rider"
-      ],
-      "policyTenure": {
-        "min": 10,
-        "max": 30,
-        "options": [10, 15, 20, 25, 30, 35, 40]
-      },
-      "renewability": "Renewable to age 95",
-      "specialFeatures": [
-        "Consistently among lowest-priced term policies",
-        "Up to 40-year term available",
-        "Subsidiary of Legal & General Group (UK)",
-        "AM Best A+ rating"
-      ],
-      "sourceUrl": "https://www.lgamerica.com/individuals/life-insurance/term",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Banner Life (Legal & General America) consistently ranks among cheapest term options."
-    },
-    {
-      "id": "haven-life-term",
-      "insurerName": "Haven Life Insurance Agency (MassMutual)",
+      "id": "haven-life",
+      "insurerName": "Haven Life (MassMutual)",
       "insurerSlug": "haven-life",
       "productName": "Haven Term",
       "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 64,
-        "renewableUpTo": "Non-renewable"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 3000000,
-        "currency": "USD",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 17,
-        "illustrativeMax": 90,
-        "assumptions": "Male, 30 yrs, non-smoker, $500K, 20-yr term, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Terminal illness accelerated benefit",
-        "No medical exam for qualifying applicants",
-        "Issued by MassMutual"
-      ],
-      "keyExclusions": [
-        "Suicide within first 2 years",
-        "Material misrepresentation"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Haven Life Plus (free member benefits)"
-      ],
-      "policyTenure": {
-        "min": 15,
-        "max": 30,
-        "options": [15, 20, 25, 30]
-      },
-      "renewability": "Non-renewable",
-      "specialFeatures": [
-        "Fully online application in ~20 minutes",
-        "No medical exam for many applicants",
-        "Backed by MassMutual (AM Best A++)",
-        "Haven Life Plus digital benefits included",
-        "Instant or near-instant decision"
-      ],
-      "sourceUrl": "https://www.havenlife.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Online-first term insurance backed by MassMutual."
-    },
-    {
-      "id": "ladder-term-life",
-      "insurerName": "Ladder Financial, Inc.",
-      "insurerSlug": "ladder",
-      "productName": "Ladder Term Life Insurance",
-      "category": "term-life",
-      "subCategory": "flexible-term",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 20,
-        "maxAge": 60,
-        "renewableUpTo": "Non-renewable (re-ladder instead)"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 8000000,
-        "currency": "USD",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 15,
-        "illustrativeMax": 85,
-        "assumptions": "Male, 30 yrs, non-smoker, $500K, 20-yr term, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Ability to adjust (ladder) coverage up or down",
-        "Terminal illness accelerated benefit",
-        "Policies issued by Fidelity Security Life"
-      ],
-      "keyExclusions": [
-        "Suicide within first 2 years",
-        "Material misrepresentation"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [],
-      "policyTenure": {
-        "min": 10,
-        "max": 30,
-        "options": [10, 15, 20, 25, 30]
-      },
-      "renewability": "Non-renewable (re-ladder feature instead)",
-      "specialFeatures": [
-        "Unique laddering — adjust coverage as needs change",
-        "Fully digital application in 5 minutes",
-        "No medical exam for many applicants",
-        "Instant decision possible",
-        "Coverage can be increased without new policy (subject to approval)"
-      ],
-      "sourceUrl": "https://www.ladderlife.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Ladder's unique feature is adjustable coverage. Policies issued by Fidelity Security Life."
-    },
-    {
-      "id": "bestow-term-life",
-      "insurerName": "Bestow, Inc.",
-      "insurerSlug": "bestow",
-      "productName": "Bestow Term Life Insurance",
-      "category": "term-life",
-      "subCategory": "simplified-term",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 60,
-        "renewableUpTo": "Non-renewable"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 1500000,
-        "currency": "USD",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 12,
-        "illustrativeMax": 75,
-        "assumptions": "Male, 30 yrs, non-smoker, $500K, 20-yr term, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "No medical exam required",
-        "Policies issued by North American Company for Property and Casualty"
-      ],
-      "keyExclusions": [
-        "Suicide within first 2 years",
-        "Material misrepresentation"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [],
-      "policyTenure": {
-        "min": 10,
-        "max": 30,
-        "options": [10, 15, 20, 25, 30]
-      },
-      "renewability": "Non-renewable",
-      "specialFeatures": [
-        "No medical exam — ever",
-        "Apply online in 5 minutes",
-        "Instant decision using algorithmic underwriting",
-        "No agent required",
-        "Cancel anytime with no penalties"
-      ],
-      "sourceUrl": "https://www.bestow.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Insurtech startup. No-exam term life. Lower max coverage than traditional carriers."
-    },
-    {
-      "id": "pacific-life-plterm",
-      "insurerName": "Pacific Life Insurance Company",
-      "insurerSlug": "pacific-life",
-      "productName": "Pacific Life PL Term",
-      "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 70,
-        "renewableUpTo": "Up to age 95"
-      },
-      "sumInsured": {
-        "min": 250000,
-        "max": 10000000,
-        "currency": "USD",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 18,
-        "illustrativeMax": 105,
-        "assumptions": "Male, 30 yrs, non-smoker, preferred, $500K, 20-yr term, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Terminal illness benefit",
-        "Convertible to permanent",
-        "Chronic illness accelerated benefit"
-      ],
-      "keyExclusions": [
-        "Suicide within first 2 years",
-        "Material misrepresentation"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Waiver of premium",
-        "Accidental death",
-        "Chronic illness rider"
-      ],
-      "policyTenure": {
-        "min": 10,
-        "max": 30,
-        "options": [10, 15, 20, 25, 30]
-      },
-      "renewability": "Renewable to age 95",
-      "specialFeatures": [
-        "Living benefits at no additional cost",
-        "Conversion to VUL or UL products",
-        "AM Best A+ rating",
-        "Strong for high-net-worth clients"
-      ],
-      "sourceUrl": "https://www.pacificlife.com/products/life-insurance/term.html",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Pacific Life strong in high-net-worth and business markets."
-    },
-    {
-      "id": "principal-term-life",
-      "insurerName": "Principal Financial Group",
-      "insurerSlug": "principal",
-      "productName": "Principal Term Life Insurance",
-      "category": "term-life",
-      "subCategory": "level-term",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 70,
-        "renewableUpTo": "Up to age 95"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 5000000,
-        "currency": "USD",
-        "options": []
-      },
-      "premiumRange": {
-        "illustrativeMin": 19,
-        "illustrativeMax": 110,
-        "assumptions": "Male, 30 yrs, non-smoker, preferred, $500K, 20-yr term, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Terminal illness benefit",
-        "Convertible to permanent"
-      ],
-      "keyExclusions": [
-        "Suicide within first 2 years",
-        "Material misrepresentation"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Waiver of premium",
-        "Accidental death benefit",
-        "Children's rider"
-      ],
-      "policyTenure": {
-        "min": 10,
-        "max": 30,
-        "options": [10, 15, 20, 30]
-      },
-      "renewability": "Renewable at increased rates",
-      "specialFeatures": [
-        "Strong employer group benefits integration",
-        "Financial planning services",
-        "AM Best A+ rating"
-      ],
-      "sourceUrl": "https://www.principal.com/individuals/life-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Principal strong in employer/group markets."
-    },
-    {
-      "id": "mutual-of-omaha-term-life-express",
-      "insurerName": "Mutual of Omaha Insurance Company",
-      "insurerSlug": "mutual-of-omaha",
-      "productName": "Mutual of Omaha Term Life Express",
-      "category": "term-life",
-      "subCategory": "simplified-term",
-      "countryCode": "us",
+      "subCategory": "pure-term",
       "eligibility": {
         "minAge": 18,
         "maxAge": 65,
-        "renewableUpTo": "Up to age 80"
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
-        "min": 50000,
-        "max": 300000,
-        "currency": "USD",
+        "min": null,
+        "max": null,
         "options": []
       },
       "premiumRange": {
         "illustrativeMin": 15,
-        "illustrativeMax": 60,
-        "assumptions": "Male, 30 yrs, non-smoker, $250K, 20-yr term, monthly.",
+        "illustrativeMax": 40,
+        "assumptions": "$1M, 30yo, monthly",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Level death benefit",
-        "Simplified issue — no medical exam",
-        "Terminal illness benefit"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Suicide within first 2 years",
-        "Material misrepresentation"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Accidental death benefit",
-        "Children's rider"
-      ],
+      "riders": [],
       "policyTenure": {
         "min": 10,
         "max": 30,
-        "options": [10, 15, 20, 30]
+        "options": [
+          10,
+          15,
+          20,
+          30
+        ]
       },
-      "renewability": "Renewable to age 80",
+      "renewability": "Annual",
       "specialFeatures": [
-        "No medical exam — health questions only",
-        "Fast issue decision",
-        "Well-known brand",
-        "AM Best A+ rating"
+        "Instant Decisions",
+        "Backed by MassMutual",
+        "No Medical Exam Option"
       ],
-      "sourceUrl": "https://www.mutualofomaha.com/life-insurance/term-life",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Simplified issue product — lower max coverage but easier qualification."
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "ladder-term",
+      "insurerName": "Ladder Insurance",
+      "insurerSlug": "ladder",
+      "productName": "Ladder Term Life",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 15,
+        "illustrativeMax": 40,
+        "assumptions": "$1M, 30yo, monthly",
+        "isVerified": false
+      },
+      "keyInclusions": [],
+      "keyExclusions": [
+        "Pre-existing conditions exclusions apply"
+      ],
+      "riders": [],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Adjust Coverage Anytime",
+        "Instant Decisions",
+        "100% Online"
+      ],
+      "sourceUrl": "",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "us"
     }
   ]
 }

@@ -1,584 +1,199 @@
 {
   "category": "health",
-  "lastUpdated": "2026-03-24",
-  "disclaimer": "Data collected from publicly available sources for educational and informational purposes only. MediShield Life is mandatory for all Singapore Citizens and PRs. Integrated Shield Plans (IP) are private upgrades. Premium figures are illustrative and based on publicly available premium tables. Actual premiums vary by age and plan. Zura does not sell insurance. Please verify all details with the insurer directly.",
+  "lastUpdated": "2026-04-03",
+  "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
-      "id": "aia-healthshield-gold-max-a",
+      "id": "aia-healthshield-sg",
       "insurerName": "AIA Singapore",
-      "insurerSlug": "aia",
-      "productName": "AIA HealthShield Gold Max A",
+      "insurerSlug": "aia-singapore",
+      "productName": "AIA HealthShield Gold Max",
       "category": "health",
-      "subCategory": "integrated-shield-plan",
-      "countryCode": "sg",
-      "eligibility": { "minAge": 0, "maxAge": 75, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "SGD" },
-      "premiumRange": { "illustrativeMin": 300, "illustrativeMax": 2800, "assumptions": "Annual premium varies by age. Age 30: ~SGD 300-400. Age 60: ~SGD 1,500-2,800. Indicative only.", "isVerified": false },
-      "waitingPeriod": { "initial": "none for IP upgrade", "preExisting": "12 months", "specific": null },
-      "keyInclusions": [
-        "Private hospital ward (Class A)",
-        "Surgical and medical expenses",
-        "Pre- and post-hospitalization",
-        "Outpatient cancer treatment",
-        "Outpatient kidney dialysis",
-        "Organ transplant",
-        "Community health assist (CHAS)",
-        "MediShield Life coverage (base layer)"
-      ],
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 300,
+        "illustrativeMax": 800,
+        "assumptions": "Annual, SGD, MediShield Life upgrade",
+        "isVerified": false
+      },
+      "keyInclusions": [],
       "keyExclusions": [
-        "Pre-existing conditions (first 12 months)",
-        "Cosmetic surgery",
-        "Dental (unless accident)",
-        "Congenital abnormalities (after age 30 days)",
-        "Self-inflicted injuries"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": { "count": 25, "note": "All restructured and private hospitals in Singapore" },
-      "riders": ["AIA Max VitalHealth (co-payment rider)", "AIA Max Essential Rider"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "guaranteed renewable for life",
-      "specialFeatures": ["Medisave payable", "As-charged basis", "No lifetime limit", "Panel and non-panel hospitals"],
-      "sourceUrl": "https://www.aia.com.sg/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "One of the most popular Integrated Shield Plans in Singapore. Class A ward coverage."
-    },
-    {
-      "id": "aia-healthshield-gold-max-b",
-      "insurerName": "AIA Singapore",
-      "insurerSlug": "aia",
-      "productName": "AIA HealthShield Gold Max B",
-      "category": "health",
-      "subCategory": "integrated-shield-plan",
-      "countryCode": "sg",
-      "eligibility": { "minAge": 0, "maxAge": 75, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "SGD" },
-      "premiumRange": { "illustrativeMin": 200, "illustrativeMax": 1800, "assumptions": "Annual premium varies by age. Lower than Class A plans. Indicative only.", "isVerified": false },
-      "waitingPeriod": { "initial": "none", "preExisting": "12 months", "specific": null },
-      "keyInclusions": [
-        "Restructured hospital ward (Class B1)",
-        "Surgical and medical expenses",
-        "Pre- and post-hospitalization",
-        "Outpatient cancer treatment",
-        "Outpatient kidney dialysis",
-        "MediShield Life coverage (base layer)"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (first 12 months)",
-        "Cosmetic surgery",
-        "Dental treatment",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": { "count": 15, "note": "Restructured hospitals in Singapore" },
-      "riders": ["AIA Max VitalHealth rider"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "guaranteed renewable for life",
-      "specialFeatures": ["Medisave payable", "Affordable upgrade from MediShield Life", "No lifetime limit"],
-      "sourceUrl": "https://www.aia.com.sg/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Ward B1 coverage, more affordable than private hospital plans."
-    },
-    {
-      "id": "prudential-prushield-premier",
-      "insurerName": "Prudential Singapore",
-      "insurerSlug": "prudential",
-      "productName": "PRUShield Premier",
-      "category": "health",
-      "subCategory": "integrated-shield-plan",
-      "countryCode": "sg",
-      "eligibility": { "minAge": 0, "maxAge": 75, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "SGD" },
-      "premiumRange": { "illustrativeMin": 350, "illustrativeMax": 3200, "assumptions": "Annual premium by age. Age 30: ~SGD 350-500. Age 60: ~SGD 2,000-3,200. Indicative only.", "isVerified": false },
-      "waitingPeriod": { "initial": "none", "preExisting": "12 months", "specific": null },
-      "keyInclusions": [
-        "Private hospital ward",
-        "As-charged surgical and medical expenses",
-        "Pre- and post-hospitalization (180 days)",
-        "Outpatient cancer treatment",
-        "Outpatient kidney dialysis",
-        "Organ transplant",
-        "Rehabilitation benefit",
-        "MediShield Life base coverage"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (12 months)",
-        "Cosmetic surgery",
-        "Dental treatment",
-        "Congenital conditions",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": { "count": 25, "note": "All hospitals in Singapore" },
-      "riders": ["PRUExtra Premier CoPay", "PRUExtra Premier Lite"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "guaranteed renewable for life",
-      "specialFeatures": ["No lifetime limit", "Medisave payable", "As-charged coverage", "Private hospital access"],
-      "sourceUrl": "https://www.prudential.com.sg/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Prudential's top-tier Integrated Shield Plan with private hospital coverage."
-    },
-    {
-      "id": "prudential-prushield-standard",
-      "insurerName": "Prudential Singapore",
-      "insurerSlug": "prudential",
-      "productName": "PRUShield Standard",
-      "category": "health",
-      "subCategory": "integrated-shield-plan",
-      "countryCode": "sg",
-      "eligibility": { "minAge": 0, "maxAge": 75, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "SGD" },
-      "premiumRange": { "illustrativeMin": 180, "illustrativeMax": 1600, "assumptions": "Annual premium by age. B1 ward coverage. Indicative only.", "isVerified": false },
-      "waitingPeriod": { "initial": "none", "preExisting": "12 months", "specific": null },
-      "keyInclusions": [
-        "Restructured hospital ward (B1)",
-        "Surgical and medical expenses",
-        "Pre- and post-hospitalization",
-        "Outpatient cancer treatment",
-        "Outpatient kidney dialysis",
-        "MediShield Life base coverage"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (12 months)",
-        "Cosmetic surgery",
-        "Dental treatment",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": { "count": 15, "note": "Restructured hospitals" },
-      "riders": ["PRUExtra Standard CoPay"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "guaranteed renewable for life",
-      "specialFeatures": ["Affordable IP option", "Medisave payable", "No lifetime limit"],
-      "sourceUrl": "https://www.prudential.com.sg/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Standard ward B1 coverage from Prudential."
-    },
-    {
-      "id": "great-eastern-supreme-health-first",
-      "insurerName": "Great Eastern Life",
-      "insurerSlug": "great-eastern",
-      "productName": "GREAT SupremeHealth First",
-      "category": "health",
-      "subCategory": "integrated-shield-plan",
-      "countryCode": "sg",
-      "eligibility": { "minAge": 0, "maxAge": 75, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "SGD" },
-      "premiumRange": { "illustrativeMin": 380, "illustrativeMax": 3400, "assumptions": "Annual premium by age. Private hospital coverage. Indicative only.", "isVerified": false },
-      "waitingPeriod": { "initial": "none", "preExisting": "12 months", "specific": null },
-      "keyInclusions": [
-        "Private hospital single room",
-        "As-charged surgical and hospital expenses",
-        "Pre- and post-hospitalization",
-        "Outpatient cancer treatment",
-        "Outpatient kidney dialysis",
-        "Organ transplant",
-        "MediShield Life base"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (12 months)",
-        "Cosmetic procedures",
-        "Dental treatment",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": { "count": 25, "note": "All hospitals in Singapore including private" },
-      "riders": ["GREAT TotalCare (co-pay rider)", "GREAT CareShield"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "guaranteed renewable for life",
-      "specialFeatures": ["No lifetime limit", "Medisave payable", "As-charged basis", "Private hospital coverage"],
-      "sourceUrl": "https://www.greateasternlife.com/sg/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Great Eastern's premier IP with private hospital coverage."
-    },
-    {
-      "id": "great-eastern-supreme-health-standard",
-      "insurerName": "Great Eastern Life",
-      "insurerSlug": "great-eastern",
-      "productName": "GREAT SupremeHealth Standard",
-      "category": "health",
-      "subCategory": "integrated-shield-plan",
-      "countryCode": "sg",
-      "eligibility": { "minAge": 0, "maxAge": 75, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "SGD" },
-      "premiumRange": { "illustrativeMin": 200, "illustrativeMax": 1800, "assumptions": "Ward B1 coverage. Premium by age. Indicative only.", "isVerified": false },
-      "waitingPeriod": { "initial": "none", "preExisting": "12 months", "specific": null },
-      "keyInclusions": [
-        "Restructured hospital ward (B1)",
-        "Surgical and medical expenses",
-        "Pre- and post-hospitalization",
-        "Outpatient cancer and dialysis",
-        "MediShield Life base"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (12 months)",
-        "Cosmetic surgery",
-        "Dental",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": { "count": 15, "note": "Restructured hospitals" },
-      "riders": ["GREAT TotalCare Standard"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "guaranteed renewable for life",
-      "specialFeatures": ["Affordable IP", "Medisave payable", "No lifetime limit"],
-      "sourceUrl": "https://www.greateasternlife.com/sg/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Standard B1 ward IP from Great Eastern."
-    },
-    {
-      "id": "ntuc-income-enhanced-incomeshield-preferred",
-      "insurerName": "NTUC Income Insurance",
-      "insurerSlug": "ntuc-income",
-      "productName": "Enhanced IncomeShield Preferred",
-      "category": "health",
-      "subCategory": "integrated-shield-plan",
-      "countryCode": "sg",
-      "eligibility": { "minAge": 0, "maxAge": 75, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "SGD" },
-      "premiumRange": { "illustrativeMin": 320, "illustrativeMax": 3000, "assumptions": "Annual premium by age. Private hospital coverage. Indicative only.", "isVerified": false },
-      "waitingPeriod": { "initial": "none", "preExisting": "12 months", "specific": null },
-      "keyInclusions": [
-        "Private hospital ward",
-        "As-charged surgical and medical",
-        "Pre- and post-hospitalization",
-        "Outpatient cancer treatment",
-        "Outpatient kidney dialysis",
-        "Organ transplant",
-        "MediShield Life base"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (12 months)",
-        "Cosmetic surgery",
-        "Dental treatment",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": { "count": 25, "note": "All Singapore hospitals" },
-      "riders": ["Deluxe Care Rider", "Assist Rider"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "guaranteed renewable for life",
-      "specialFeatures": ["Co-operative insurer (lower costs)", "Medisave payable", "No lifetime limit"],
-      "sourceUrl": "https://www.income.com.sg/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "NTUC Income is a social enterprise insurer, often more affordable."
-    },
-    {
-      "id": "ntuc-income-enhanced-incomeshield-basic",
-      "insurerName": "NTUC Income Insurance",
-      "insurerSlug": "ntuc-income",
-      "productName": "Enhanced IncomeShield Basic",
-      "category": "health",
-      "subCategory": "integrated-shield-plan",
-      "countryCode": "sg",
-      "eligibility": { "minAge": 0, "maxAge": 75, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "SGD" },
-      "premiumRange": { "illustrativeMin": 130, "illustrativeMax": 1200, "assumptions": "Ward B1 coverage. Affordable entry-level IP. Indicative only.", "isVerified": false },
-      "waitingPeriod": { "initial": "none", "preExisting": "12 months", "specific": null },
-      "keyInclusions": [
-        "Restructured hospital ward (B1)",
-        "Surgical and medical expenses",
-        "Pre- and post-hospitalization",
-        "Outpatient cancer and dialysis",
-        "MediShield Life base"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (12 months)",
-        "Cosmetic surgery",
-        "Dental",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": { "count": 15, "note": "Restructured hospitals" },
-      "riders": ["Assist Rider"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "guaranteed renewable for life",
-      "specialFeatures": ["Most affordable IP option", "Medisave payable", "Social enterprise pricing"],
-      "sourceUrl": "https://www.income.com.sg/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Budget-friendly Integrated Shield Plan from NTUC Income."
-    },
-    {
-      "id": "singlife-shield-plan-1",
-      "insurerName": "Singlife",
-      "insurerSlug": "singlife",
-      "productName": "Singlife Shield Plan 1",
-      "category": "health",
-      "subCategory": "integrated-shield-plan",
-      "countryCode": "sg",
-      "eligibility": { "minAge": 0, "maxAge": 75, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "SGD" },
-      "premiumRange": { "illustrativeMin": 360, "illustrativeMax": 3100, "assumptions": "Annual premium by age. Private hospital coverage. Indicative only.", "isVerified": false },
-      "waitingPeriod": { "initial": "none", "preExisting": "12 months", "specific": null },
-      "keyInclusions": [
-        "Private hospital ward",
-        "As-charged hospital and surgical",
-        "Pre- and post-hospitalization",
-        "Outpatient cancer treatment",
-        "Outpatient kidney dialysis",
-        "Organ transplant",
-        "MediShield Life base"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (12 months)",
-        "Cosmetic surgery",
-        "Dental treatment",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": { "count": 25, "note": "All hospitals in Singapore" },
-      "riders": ["Singlife Health Plus Rider"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "guaranteed renewable for life",
-      "specialFeatures": ["Digital-first insurer", "Medisave payable", "No lifetime limit"],
-      "sourceUrl": "https://singlife.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Singlife (formerly Aviva) offers competitive IP plans."
-    },
-    {
-      "id": "fwd-max-shield",
-      "insurerName": "FWD Singapore",
-      "insurerSlug": "fwd-sg",
-      "productName": "FWD Max Shield",
-      "category": "health",
-      "subCategory": "integrated-shield-plan",
-      "countryCode": "sg",
-      "eligibility": { "minAge": 0, "maxAge": 75, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "SGD" },
-      "premiumRange": { "illustrativeMin": 340, "illustrativeMax": 2900, "assumptions": "Annual premium by age. Private hospital. Indicative only.", "isVerified": false },
-      "waitingPeriod": { "initial": "none", "preExisting": "12 months", "specific": null },
-      "keyInclusions": [
-        "Private hospital ward",
-        "As-charged surgical and medical",
-        "Pre- and post-hospitalization",
-        "Outpatient cancer treatment",
-        "Outpatient kidney dialysis",
-        "MediShield Life base"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (12 months)",
-        "Cosmetic surgery",
-        "Dental",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": { "count": 25, "note": "All Singapore hospitals" },
-      "riders": ["FWD Max Secure Rider"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "guaranteed renewable for life",
-      "specialFeatures": ["Digital insurer", "Competitive pricing", "Medisave payable"],
-      "sourceUrl": "https://www.fwd.com.sg/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "FWD is a digital-first insurer gaining market share in Singapore."
-    },
-    {
-      "id": "hsbc-life-shield-private",
-      "insurerName": "HSBC Life Singapore",
-      "insurerSlug": "hsbc-life",
-      "productName": "HSBC Life Shield Plan A",
-      "category": "health",
-      "subCategory": "integrated-shield-plan",
-      "countryCode": "sg",
-      "eligibility": { "minAge": 0, "maxAge": 75, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "SGD" },
-      "premiumRange": { "illustrativeMin": 350, "illustrativeMax": 3000, "assumptions": "Annual premium by age. Private hospital. Indicative only.", "isVerified": false },
-      "waitingPeriod": { "initial": "none", "preExisting": "12 months", "specific": null },
-      "keyInclusions": [
-        "Private hospital ward (Class A)",
-        "As-charged surgical and medical",
-        "Pre- and post-hospitalization",
-        "Outpatient cancer treatment",
-        "Kidney dialysis",
-        "MediShield Life base"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (12 months)",
-        "Cosmetic surgery",
-        "Dental",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": { "count": 25, "note": "All Singapore hospitals" },
-      "riders": ["HSBC Life CoPay rider"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "guaranteed renewable for life",
-      "specialFeatures": ["Medisave payable", "HSBC banking integration", "No lifetime limit"],
-      "sourceUrl": "https://www.insurance.hsbc.com.sg/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "HSBC Life offers IP through HSBC banking channel."
-    },
-    {
-      "id": "manulife-shield-plan-a",
-      "insurerName": "Manulife Singapore",
-      "insurerSlug": "manulife-sg",
-      "productName": "Manulife Shield Plan A",
-      "category": "health",
-      "subCategory": "integrated-shield-plan",
-      "countryCode": "sg",
-      "eligibility": { "minAge": 0, "maxAge": 75, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "SGD" },
-      "premiumRange": { "illustrativeMin": 330, "illustrativeMax": 2900, "assumptions": "Annual premium by age. Class A ward. Indicative only.", "isVerified": false },
-      "waitingPeriod": { "initial": "none", "preExisting": "12 months", "specific": null },
-      "keyInclusions": [
-        "Private hospital ward (Class A)",
-        "As-charged surgical and medical",
-        "Pre- and post-hospitalization",
-        "Outpatient cancer treatment",
-        "Outpatient kidney dialysis",
-        "MediShield Life base"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (12 months)",
-        "Cosmetic surgery",
-        "Dental",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": { "count": 25, "note": "All Singapore hospitals" },
-      "riders": ["Manulife Shield Rider"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "guaranteed renewable for life",
-      "specialFeatures": ["Medisave payable", "No lifetime limit", "Comprehensive Class A coverage"],
-      "sourceUrl": "https://www.manulife.com.sg/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Manulife is one of the 7 IP providers approved by MOH Singapore."
-    },
-    {
-      "id": "axa-shield-plan-a",
-      "insurerName": "AXA Insurance Singapore",
-      "insurerSlug": "axa-sg",
-      "productName": "AXA Shield Plan A",
-      "category": "health",
-      "subCategory": "integrated-shield-plan",
-      "countryCode": "sg",
-      "eligibility": { "minAge": 0, "maxAge": 75, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "SGD" },
-      "premiumRange": { "illustrativeMin": 340, "illustrativeMax": 2950, "assumptions": "Annual premium by age. Private hospital. Indicative only.", "isVerified": false },
-      "waitingPeriod": { "initial": "none", "preExisting": "12 months", "specific": null },
-      "keyInclusions": [
-        "Private hospital ward",
-        "As-charged surgical and medical",
-        "Pre- and post-hospitalization",
-        "Outpatient cancer treatment",
-        "Outpatient kidney dialysis",
-        "MediShield Life base"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (12 months)",
-        "Cosmetic surgery",
-        "Dental",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": { "count": 25, "note": "All Singapore hospitals" },
-      "riders": ["AXA CoPay Assist Rider"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "guaranteed renewable for life",
-      "specialFeatures": ["Medisave payable", "No lifetime limit", "As-charged coverage"],
-      "sourceUrl": "https://www.axa.com.sg/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "AXA is one of the approved IP providers in Singapore."
-    },
-    {
-      "id": "raffleshealth-shield-plan",
-      "insurerName": "Raffles Health Insurance",
-      "insurerSlug": "raffles-health",
-      "productName": "Raffles Shield Plan",
-      "category": "health",
-      "subCategory": "integrated-shield-plan",
-      "countryCode": "sg",
-      "eligibility": { "minAge": 0, "maxAge": 75, "renewableUpTo": "lifetime" },
-      "sumInsured": { "min": 0, "max": 0, "currency": "SGD" },
-      "premiumRange": { "illustrativeMin": 350, "illustrativeMax": 3100, "assumptions": "Annual premium by age. Private hospital. Indicative only.", "isVerified": false },
-      "waitingPeriod": { "initial": "none", "preExisting": "12 months", "specific": null },
-      "keyInclusions": [
-        "Private hospital ward",
-        "As-charged hospital and surgical",
-        "Pre- and post-hospitalization",
-        "Outpatient cancer treatment",
-        "Kidney dialysis",
-        "MediShield Life base"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (12 months)",
-        "Cosmetic surgery",
-        "Dental",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": { "count": 25, "note": "All hospitals including Raffles Hospital" },
-      "riders": ["Raffles CoPay Rider"],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "guaranteed renewable for life",
-      "specialFeatures": ["Raffles Hospital integration", "Medisave payable", "No lifetime limit"],
-      "sourceUrl": "https://www.raffleshealthinsurance.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Backed by Raffles Medical Group, one of the newer IP providers."
-    },
-    {
-      "id": "aia-health-saver",
-      "insurerName": "AIA Singapore",
-      "insurerSlug": "aia",
-      "productName": "AIA Health Saver",
-      "category": "health",
-      "subCategory": "standalone-health",
-      "countryCode": "sg",
-      "eligibility": { "minAge": 16, "maxAge": 65, "renewableUpTo": "75 years" },
-      "sumInsured": { "min": 5000, "max": 30000, "currency": "SGD" },
-      "premiumRange": { "illustrativeMin": 200, "illustrativeMax": 1200, "assumptions": "Annual premium, age 30, SGD 15,000 annual limit. Indicative only.", "isVerified": false },
-      "waitingPeriod": { "initial": "30 days", "preExisting": "12 months", "specific": null },
-      "keyInclusions": [
-        "GP consultations",
-        "Specialist consultations",
-        "Prescribed medications",
-        "Diagnostic tests",
-        "Health screenings",
-        "Dental (basic)"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (12 months)",
-        "Hospitalization (separate IP needed)",
-        "Cosmetic procedures",
-        "Alternative medicine"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": { "count": 800, "note": "AIA panel clinics across Singapore" },
       "riders": [],
-      "policyTenure": { "min": 1, "max": 1, "options": ["1 year"] },
-      "renewability": "annual",
-      "specialFeatures": ["Outpatient coverage", "Panel clinic network", "No referral needed for specialists"],
-      "sourceUrl": "https://www.aia.com.sg/",
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "MediShield Life Top-Up",
+        "Private Hospital Cover",
+        "As-Charged"
+      ],
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "pru-shield-sg",
+      "insurerName": "Prudential Singapore",
+      "insurerSlug": "prudential-sg",
+      "productName": "PRUShield",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 280,
+        "illustrativeMax": 750,
+        "assumptions": "Annual, SGD",
+        "isVerified": false
+      },
+      "keyInclusions": [],
+      "keyExclusions": [
+        "Pre-existing conditions exclusions apply"
+      ],
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Comprehensive",
+        "As-Charged Cover",
+        "Cashless Claims"
+      ],
+      "sourceUrl": "",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Standalone outpatient health plan, complements IP coverage."
+      "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "great-eastern-health-sg",
+      "insurerName": "Great Eastern",
+      "insurerSlug": "great-eastern",
+      "productName": "Supreme Health",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 300,
+        "illustrativeMax": 850,
+        "assumptions": "Annual, SGD",
+        "isVerified": false
+      },
+      "keyInclusions": [],
+      "keyExclusions": [
+        "Pre-existing conditions exclusions apply"
+      ],
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Established Insurer",
+        "Comprehensive",
+        "Network Hospitals"
+      ],
+      "sourceUrl": "",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "ntuc-income-sg",
+      "insurerName": "NTUC Income",
+      "insurerSlug": "ntuc-income",
+      "productName": "Enhanced IncomeShield",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 250,
+        "illustrativeMax": 700,
+        "assumptions": "Annual, SGD",
+        "isVerified": false
+      },
+      "keyInclusions": [],
+      "keyExclusions": [
+        "Pre-existing conditions exclusions apply"
+      ],
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Affordable",
+        "Social Enterprise",
+        "Good Value"
+      ],
+      "sourceUrl": "",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sg"
     }
   ]
 }

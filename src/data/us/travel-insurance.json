@@ -1,644 +1,151 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-03-24",
-  "disclaimer": "Data from public sources. Travel insurance premiums vary by trip cost, destination, age, and coverage level. Zura does not sell insurance. Verify with insurer.",
+  "lastUpdated": "2026-04-03",
+  "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
-      "id": "allianz-onetrip-premier",
-      "insurerName": "Allianz Travel Insurance (Allianz Global Assistance)",
+      "id": "allianz-travel-us",
+      "insurerName": "Allianz Travel Insurance",
       "insurerSlug": "allianz-travel",
-      "productName": "Allianz OneTrip Premier",
+      "productName": "Allianz OneTrip Prime",
       "category": "travel",
-      "subCategory": "single-trip-comprehensive",
-      "countryCode": "us",
+      "subCategory": "international",
       "eligibility": {
-        "minAge": 0,
-        "maxAge": null,
-        "renewableUpTo": "Per trip"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
-        "min": 50000,
-        "max": 500000,
-        "currency": "USD",
-        "note": "Emergency medical coverage up to $500K"
-      },
-      "premiumRange": {
-        "illustrativeMin": 80,
-        "illustrativeMax": 400,
-        "assumptions": "Per person, 7-day international trip, age 30, $5,000 trip cost.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Trip cancellation up to 100% of trip cost",
-        "Trip interruption up to 150% of trip cost",
-        "Emergency medical up to $500,000",
-        "Emergency medical transportation",
-        "Baggage loss/delay up to $2,500",
-        "Travel delay up to $800",
-        "24/7 assistance hotline",
-        "Concierge services"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (unless waiver purchased within 14 days of first trip payment)",
-        "Known or foreseen events",
-        "Mental health treatment",
-        "Extreme sports (unless rider added)",
-        "Pandemic-related claims (varies by plan year)"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Cancel for any reason (CFAR) — up to 75% refund",
-        "Adventure sports rider",
-        "Rental car damage coverage"
-      ],
-      "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip"]
-      },
-      "renewability": "Per trip",
-      "specialFeatures": [
-        "Pre-existing condition waiver if purchased within 14 days",
-        "Cancel for Any Reason upgrade available",
-        "SmartBenefits — emergency medical at home post-trip",
-        "Allyz TravelSmart app"
-      ],
-      "sourceUrl": "https://www.allianztravelinsurance.com/travel-insurance/onetrip-premier.htm",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Allianz is the largest travel insurer in the US. Premier is their top-tier plan."
-    },
-    {
-      "id": "allianz-annual-premier",
-      "insurerName": "Allianz Travel Insurance (Allianz Global Assistance)",
-      "insurerSlug": "allianz-travel",
-      "productName": "Allianz AllTrips Premier Annual",
-      "category": "travel",
-      "subCategory": "annual-multi-trip",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": null,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": 25000,
-        "max": 100000,
-        "currency": "USD",
-        "note": "Emergency medical per trip"
-      },
-      "premiumRange": {
-        "illustrativeMin": 200,
-        "illustrativeMax": 600,
-        "assumptions": "Annual plan, age 30, frequent traveler. Per person.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Trip cancellation up to $5,000 per trip",
-        "Trip interruption up to $10,000 per trip",
-        "Emergency medical up to $100,000 per trip",
-        "Emergency transportation",
-        "Baggage loss/delay",
-        "Travel delay",
-        "Unlimited trips per year"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "Known events",
-        "Trips over 45 days each",
-        "Extreme sports"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["Annual"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Covers unlimited trips in a year",
-        "Good value for frequent travelers",
-        "SmartBenefits included"
-      ],
-      "sourceUrl": "https://www.allianztravelinsurance.com/travel-insurance/alltrips-premier.htm",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Annual plan for frequent travelers. Each trip limited to 45 days."
-    },
-    {
-      "id": "world-nomads-standard",
-      "insurerName": "World Nomads Group Pty Ltd",
-      "insurerSlug": "world-nomads",
-      "productName": "World Nomads Standard Plan",
-      "category": "travel",
-      "subCategory": "adventure-travel",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 69,
-        "renewableUpTo": "Per trip"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 100000,
-        "currency": "USD",
-        "note": "Emergency medical"
+        "options": []
       },
       "premiumRange": {
         "illustrativeMin": 50,
-        "illustrativeMax": 250,
-        "assumptions": "Per person, 14-day international trip, age 30.",
+        "illustrativeMax": 200,
+        "assumptions": "Per trip, USD",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Emergency medical up to $100,000",
-        "Emergency evacuation up to $300,000",
-        "Trip cancellation up to $2,500",
-        "Trip interruption up to $2,500",
-        "Baggage and personal effects up to $1,000",
-        "Travel delay up to $500",
-        "Over 200 adventure activities covered"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Pre-existing medical conditions",
-        "Certain extreme sports on Standard plan",
-        "Trip cancellation for work reasons",
-        "Known or foreseeable events"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
       "riders": [],
       "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["Single trip"]
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
       },
-      "renewability": "Per trip — can extend while traveling",
+      "renewability": "Annual",
       "specialFeatures": [
-        "Can buy or extend while already traveling",
-        "200+ adventure activities covered (hiking, surfing, skiing)",
-        "Recommended by Lonely Planet",
-        "Covers gear and equipment",
-        "Flexible — single trip or multi-country"
+        "Comprehensive Coverage",
+        "24/7 Assistance",
+        "Cancel for Any Reason Option"
       ],
-      "sourceUrl": "https://www.worldnomads.com/travel-insurance/",
+      "sourceUrl": "https://www.allianztravelinsurance.com",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Popular with backpackers and adventure travelers. Can buy while already abroad."
+      "notes": "",
+      "countryCode": "us"
     },
     {
-      "id": "world-nomads-explorer",
-      "insurerName": "World Nomads Group Pty Ltd",
+      "id": "world-nomads-us",
+      "insurerName": "World Nomads",
       "insurerSlug": "world-nomads",
-      "productName": "World Nomads Explorer Plan",
+      "productName": "World Nomads Explorer",
       "category": "travel",
-      "subCategory": "adventure-travel-premium",
-      "countryCode": "us",
+      "subCategory": "international",
       "eligibility": {
-        "minAge": 0,
-        "maxAge": 69,
-        "renewableUpTo": "Per trip"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
-        "min": 100000,
-        "max": 100000,
-        "currency": "USD",
-        "note": "Emergency medical"
-      },
-      "premiumRange": {
-        "illustrativeMin": 80,
-        "illustrativeMax": 350,
-        "assumptions": "Per person, 14-day international trip, age 30.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Emergency medical up to $100,000",
-        "Emergency evacuation up to $500,000",
-        "Trip cancellation up to $10,000",
-        "Trip interruption up to $10,000",
-        "Baggage and personal effects up to $3,000",
-        "Travel delay up to $2,000",
-        "300+ adventure activities covered"
-      ],
-      "keyExclusions": [
-        "Pre-existing medical conditions",
-        "Known events",
-        "Professional sports competition"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [],
-      "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip"]
-      },
-      "renewability": "Per trip",
-      "specialFeatures": [
-        "300+ adventure activities covered",
-        "Higher coverage limits than Standard",
-        "Electronics and camera gear covered",
-        "Cancel for any reason option"
-      ],
-      "sourceUrl": "https://www.worldnomads.com/travel-insurance/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Explorer is the premium tier with higher limits and more activities."
-    },
-    {
-      "id": "travel-guard-preferred",
-      "insurerName": "Travel Guard (AIG Travel)",
-      "insurerSlug": "travel-guard-aig",
-      "productName": "Travel Guard Preferred Plan",
-      "category": "travel",
-      "subCategory": "single-trip-comprehensive",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": null,
-        "renewableUpTo": "Per trip"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 250000,
-        "currency": "USD",
-        "note": "Medical expense and evacuation"
-      },
-      "premiumRange": {
-        "illustrativeMin": 70,
-        "illustrativeMax": 350,
-        "assumptions": "Per person, 7-day international trip, age 30, $5,000 trip cost.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Trip cancellation up to 100% trip cost",
-        "Trip interruption up to 150% trip cost",
-        "Emergency medical up to $250,000",
-        "Medical evacuation up to $1,000,000",
-        "Baggage loss up to $2,500",
-        "Travel delay up to $800",
-        "24-hour assistance"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (waiver available)",
-        "Known or foreseeable events",
-        "Adventure sports (unless added)",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Cancel for any reason (CFAR)",
-        "Adventure sports coverage",
-        "Flight accident coverage"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["Single trip"]
-      },
-      "renewability": "Per trip",
-      "specialFeatures": [
-        "Backed by AIG — global claims network",
-        "Pre-existing condition waiver within 15 days of deposit",
-        "Cancel for Any Reason upgrade",
-        "Kids 17 and under free with adult plan"
-      ],
-      "sourceUrl": "https://www.travelguard.com/travel-insurance-plans",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Travel Guard is AIG's travel insurance brand. Major global presence."
-    },
-    {
-      "id": "berkshire-hathaway-exactcare",
-      "insurerName": "Berkshire Hathaway Travel Protection",
-      "insurerSlug": "berkshire-hathaway-travel",
-      "productName": "Berkshire Hathaway ExactCare",
-      "category": "travel",
-      "subCategory": "single-trip-comprehensive",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": null,
-        "renewableUpTo": "Per trip"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 1000000,
-        "currency": "USD",
-        "note": "Emergency medical up to $1M"
+        "options": []
       },
       "premiumRange": {
         "illustrativeMin": 100,
-        "illustrativeMax": 450,
-        "assumptions": "Per person, 7-day international trip, age 30, $5,000 trip cost.",
+        "illustrativeMax": 300,
+        "assumptions": "Per trip, USD",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Trip cancellation up to 100% trip cost",
-        "Trip interruption up to 150% trip cost",
-        "Emergency medical up to $1,000,000",
-        "Medical evacuation up to $1,000,000",
-        "Baggage loss/delay",
-        "Travel delay up to $2,000",
-        "Missed connection coverage"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Pre-existing conditions (waiver available)",
-        "Known events",
-        "Extreme sports",
-        "Self-inflicted injuries"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Cancel for any reason",
-        "Adventure activities upgrade",
-        "Rental car damage"
-      ],
+      "riders": [],
       "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["Single trip"]
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
       },
-      "renewability": "Per trip",
+      "renewability": "Annual",
       "specialFeatures": [
-        "Up to $1M medical coverage — among highest",
-        "Backed by Berkshire Hathaway financial strength",
-        "Pre-existing condition waiver available",
-        "ExactCare Extra with CFAR option",
-        "Generous travel delay benefits"
+        "Adventure Sports Covered",
+        "Buy While Traveling",
+        "150+ Activities"
       ],
-      "sourceUrl": "https://www.bhtp.com/travel-insurance/exactcare",
+      "sourceUrl": "https://www.worldnomads.com",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Berkshire Hathaway Travel Protection known for high medical limits."
+      "notes": "",
+      "countryCode": "us"
     },
     {
-      "id": "travelex-travel-select",
-      "insurerName": "Travelex Insurance Services",
-      "insurerSlug": "travelex-insurance",
-      "productName": "Travelex Travel Select",
+      "id": "travel-guard-us",
+      "insurerName": "Travel Guard (AIG)",
+      "insurerSlug": "travel-guard-aig",
+      "productName": "Travel Guard Gold",
       "category": "travel",
-      "subCategory": "single-trip-comprehensive",
-      "countryCode": "us",
+      "subCategory": "international",
       "eligibility": {
-        "minAge": 0,
-        "maxAge": null,
-        "renewableUpTo": "Per trip"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
-        "min": 50000,
-        "max": 200000,
-        "currency": "USD",
-        "note": "Emergency medical"
+        "min": null,
+        "max": null,
+        "options": []
       },
       "premiumRange": {
         "illustrativeMin": 60,
-        "illustrativeMax": 300,
-        "assumptions": "Per person, 7-day trip, age 30, $5,000 trip cost.",
+        "illustrativeMax": 250,
+        "assumptions": "Per trip, USD",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Trip cancellation up to 100% trip cost",
-        "Trip interruption up to 150% trip cost",
-        "Emergency medical up to $200,000",
-        "Emergency evacuation",
-        "Baggage loss/delay",
-        "Travel delay",
-        "Accidental death"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Pre-existing conditions (waiver available)",
-        "Known events",
-        "Adventure sports",
-        "Self-inflicted injuries"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Cancel for any reason",
-        "Adventure sports",
-        "Pet care coverage"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["Single trip"]
-      },
-      "renewability": "Per trip",
-      "specialFeatures": [
-        "Pre-existing condition waiver within 21 days",
-        "Pet care benefit if you're hospitalized while traveling",
-        "Kids 17 and under included free"
-      ],
-      "sourceUrl": "https://www.travelexinsurance.com/travel-insurance-plans/travel-select",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Travelex is one of the older travel insurance brands."
-    },
-    {
-      "id": "seven-corners-roundtrip-elite",
-      "insurerName": "Seven Corners, Inc.",
-      "insurerSlug": "seven-corners",
-      "productName": "Seven Corners RoundTrip Elite",
-      "category": "travel",
-      "subCategory": "single-trip-comprehensive",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": null,
-        "renewableUpTo": "Per trip"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 500000,
-        "currency": "USD",
-        "note": "Emergency medical"
-      },
-      "premiumRange": {
-        "illustrativeMin": 75,
-        "illustrativeMax": 380,
-        "assumptions": "Per person, 7-day trip, age 30, $5,000 trip cost.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Trip cancellation up to 100% trip cost",
-        "Trip interruption up to 150% trip cost",
-        "Emergency medical up to $500,000",
-        "Emergency evacuation up to $1,000,000",
-        "Baggage loss/delay",
-        "Travel delay",
-        "Missed connection"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (waiver available)",
-        "Known events",
-        "Extreme activities"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Cancel for any reason",
-        "Adventure sports upgrade"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["Single trip"]
-      },
-      "renewability": "Per trip",
-      "specialFeatures": [
-        "High medical coverage limits",
-        "Pre-existing condition waiver",
-        "CFAR available",
-        "Strong for international travel"
-      ],
-      "sourceUrl": "https://www.sevencorners.com/trip-protection/roundtrip-elite",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Seven Corners based in Indiana. Strong in international and expat markets."
-    },
-    {
-      "id": "img-itravelinsured-se",
-      "insurerName": "International Medical Group (IMG)",
-      "insurerSlug": "img",
-      "productName": "IMG iTravelInsured SE",
-      "category": "travel",
-      "subCategory": "single-trip-comprehensive",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": null,
-        "renewableUpTo": "Per trip"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 500000,
-        "currency": "USD",
-        "note": "Emergency medical"
-      },
-      "premiumRange": {
-        "illustrativeMin": 65,
-        "illustrativeMax": 320,
-        "assumptions": "Per person, 7-day trip, age 30, $5,000 trip cost.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Trip cancellation up to 100% trip cost",
-        "Trip interruption up to 100% trip cost",
-        "Emergency medical up to $500,000",
-        "Emergency evacuation",
-        "Baggage loss/delay",
-        "Travel delay"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "Known events",
-        "Adventure sports (unless upgraded)",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Cancel for any reason",
-        "Adventure sports"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["Single trip"]
-      },
-      "renewability": "Per trip",
-      "specialFeatures": [
-        "Strong international medical coverage",
-        "Specializes in international travel and expat health",
-        "24/7 multilingual assistance"
-      ],
-      "sourceUrl": "https://www.imglobal.com/travel-insurance/itravelinsured-se",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "IMG specializes in international medical and travel insurance."
-    },
-    {
-      "id": "allianz-onetrip-basic",
-      "insurerName": "Allianz Travel Insurance (Allianz Global Assistance)",
-      "insurerSlug": "allianz-travel",
-      "productName": "Allianz OneTrip Basic",
-      "category": "travel",
-      "subCategory": "single-trip-basic",
-      "countryCode": "us",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": null,
-        "renewableUpTo": "Per trip"
-      },
-      "sumInsured": {
-        "min": 10000,
-        "max": 25000,
-        "currency": "USD",
-        "note": "Emergency medical"
-      },
-      "premiumRange": {
-        "illustrativeMin": 30,
-        "illustrativeMax": 120,
-        "assumptions": "Per person, 7-day trip, age 30, $3,000 trip cost.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Trip cancellation up to 100% trip cost",
-        "Emergency medical up to $25,000",
-        "Emergency transportation up to $50,000",
-        "Baggage loss up to $500",
-        "Travel delay up to $300"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions",
-        "Known events",
-        "Adventure sports",
-        "Trip interruption (not included in Basic)"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
       "riders": [],
       "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["Single trip"]
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
       },
-      "renewability": "Per trip",
+      "renewability": "Annual",
       "specialFeatures": [
-        "Budget-friendly option",
-        "Good for domestic travel",
-        "Core trip cancellation coverage"
+        "Annual Plans Available",
+        "AIG Backed",
+        "Comprehensive"
       ],
-      "sourceUrl": "https://www.allianztravelinsurance.com/travel-insurance/onetrip-basic.htm",
+      "sourceUrl": "https://www.travelguard.com",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Basic tier — lower coverage limits, lower price. Good for domestic trips."
+      "notes": "",
+      "countryCode": "us"
     }
   ]
 }

@@ -1,646 +1,151 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-03-24",
-  "disclaimer": "Data from public sources. Travel insurance premiums vary by trip duration, destination, age, and medical conditions. Zura does not sell insurance. Verify with insurer.",
+  "lastUpdated": "2026-04-03",
+  "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
-      "id": "post-office-premier",
-      "insurerName": "Post Office Travel Insurance",
-      "insurerSlug": "post-office",
-      "productName": "Post Office Premier Travel Insurance",
+      "id": "staysure-uk",
+      "insurerName": "Staysure",
+      "insurerSlug": "staysure",
+      "productName": "Staysure Travel Insurance",
       "category": "travel",
-      "subCategory": "single-trip-comprehensive",
-      "countryCode": "uk",
+      "subCategory": "international",
       "eligibility": {
-        "minAge": 0,
-        "maxAge": 85,
-        "renewableUpTo": "Per trip"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
-        "min": 10000000,
-        "max": 15000000,
-        "currency": "GBP",
-        "note": "Medical and repatriation cover"
-      },
-      "premiumRange": {
-        "illustrativeMin": 15,
-        "illustrativeMax": 80,
-        "assumptions": "Per person, 7-day European trip, age 30.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses up to £15M",
-        "Cancellation up to £5,000",
-        "Baggage up to £3,000",
-        "Personal money up to £500",
-        "Travel delay",
-        "Personal liability up to £2M",
-        "Legal expenses"
-      ],
-      "keyExclusions": [
-        "Pre-existing medical conditions (unless declared)",
-        "Known events at time of purchase",
-        "Extreme sports (unless added)",
-        "Travel against FCO advice"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Winter sports cover",
-        "Golf cover",
-        "Cruise cover",
-        "Business cover",
-        "Gadget cover"
-      ],
-      "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
-      },
-      "renewability": "Per trip or annual",
-      "specialFeatures": [
-        "Consistently top-rated by consumer groups",
-        "Defaqto 5-star rated",
-        "High medical cover limits",
-        "Available for over 65s and over 70s",
-        "Pre-existing conditions screening available"
-      ],
-      "sourceUrl": "https://www.postoffice.co.uk/travel-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Post Office travel insurance consistently rated among UK's best."
-    },
-    {
-      "id": "staysure-comprehensive",
-      "insurerName": "Staysure Travel Insurance",
-      "insurerSlug": "staysure",
-      "productName": "Staysure Comprehensive Travel Insurance",
-      "category": "travel",
-      "subCategory": "single-trip-medical-focus",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": null,
-        "renewableUpTo": "Per trip",
-        "note": "Specialist in over-50s travel insurance — no upper age limit"
-      },
-      "sumInsured": {
-        "min": 5000000,
-        "max": 15000000,
-        "currency": "GBP",
-        "note": "Medical and repatriation"
+        "options": []
       },
       "premiumRange": {
         "illustrativeMin": 20,
-        "illustrativeMax": 120,
-        "assumptions": "Per person, 7-day European trip, age 65. Medical conditions screening.",
+        "illustrativeMax": 80,
+        "assumptions": "Per trip, GBP",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses up to £15M",
-        "Cancellation up to £10,000",
-        "Baggage up to £3,000",
-        "Travel delay",
-        "Personal liability up to £2M",
-        "Repatriation"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Undeclared medical conditions",
-        "Travel against FCO advice",
-        "Extreme sports (unless added)"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Winter sports",
-        "Cruise cover",
-        "Golf cover",
-        "Gadget cover"
-      ],
+      "riders": [],
       "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
-      },
-      "renewability": "Per trip or annual",
-      "specialFeatures": [
-        "No upper age limit",
-        "Specialist in pre-existing medical conditions",
-        "Medical screening process — covers many conditions",
-        "Popular with older travellers"
-      ],
-      "sourceUrl": "https://www.staysure.co.uk/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Staysure specialises in travel insurance for older travellers and those with medical conditions."
-    },
-    {
-      "id": "allclear-travel-insurance",
-      "insurerName": "AllClear Travel Insurance",
-      "insurerSlug": "allclear",
-      "productName": "AllClear Gold Travel Insurance",
-      "category": "travel",
-      "subCategory": "medical-conditions-specialist",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": null,
-        "renewableUpTo": "Per trip",
-        "note": "No upper age limit — specialist medical conditions insurer"
-      },
-      "sumInsured": {
-        "min": 5000000,
-        "max": 15000000,
-        "currency": "GBP",
-        "note": "Medical expenses"
-      },
-      "premiumRange": {
-        "illustrativeMin": 25,
-        "illustrativeMax": 150,
-        "assumptions": "Per person, 7-day European trip, age 65, with medical conditions.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses up to £15M",
-        "Cancellation up to £10,000",
-        "Baggage up to £3,000",
-        "Travel delay",
-        "Personal liability",
-        "Repatriation"
-      ],
-      "keyExclusions": [
-        "Undeclared conditions",
-        "Travel against FCO advice"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Winter sports",
-        "Cruise cover",
-        "Golf cover"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
-      },
-      "renewability": "Per trip or annual",
-      "specialFeatures": [
-        "Specialist in covering pre-existing medical conditions",
-        "No upper age limit",
-        "Online medical screening",
-        "Covers hundreds of medical conditions"
-      ],
-      "sourceUrl": "https://www.allcleartravel.co.uk/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "AllClear specialises in medical conditions travel insurance."
-    },
-    {
-      "id": "aviva-travel-insurance",
-      "insurerName": "Aviva plc",
-      "insurerSlug": "aviva",
-      "productName": "Aviva Travel Insurance",
-      "category": "travel",
-      "subCategory": "single-trip-comprehensive",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 79,
-        "renewableUpTo": "Per trip or annual"
-      },
-      "sumInsured": {
-        "min": 5000000,
-        "max": 10000000,
-        "currency": "GBP",
-        "note": "Medical expenses"
-      },
-      "premiumRange": {
-        "illustrativeMin": 12,
-        "illustrativeMax": 60,
-        "assumptions": "Per person, 7-day European trip, age 30.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses up to £10M",
-        "Cancellation up to £5,000",
-        "Baggage up to £2,500",
-        "Travel delay",
-        "Personal liability up to £2M",
-        "Legal expenses"
-      ],
-      "keyExclusions": [
-        "Pre-existing medical conditions (unless declared)",
-        "Travel against FCO advice",
-        "Extreme sports"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Winter sports",
-        "Golf cover",
-        "Cruise cover"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
-      },
-      "renewability": "Per trip or annual",
-      "specialFeatures": [
-        "UK's largest insurer backing",
-        "Bundle discount with other Aviva products",
-        "Medical conditions screening",
-        "MyAviva online management"
-      ],
-      "sourceUrl": "https://www.aviva.co.uk/insurance/travel-insurance/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Aviva travel insurance — solid mainstream option."
-    },
-    {
-      "id": "direct-line-travel-insurance",
-      "insurerName": "Direct Line Insurance Group plc",
-      "insurerSlug": "direct-line",
-      "productName": "Direct Line Travel Insurance",
-      "category": "travel",
-      "subCategory": "single-trip-comprehensive",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 79,
-        "renewableUpTo": "Per trip or annual"
-      },
-      "sumInsured": {
-        "min": 5000000,
-        "max": 10000000,
-        "currency": "GBP",
-        "note": "Medical and repatriation"
-      },
-      "premiumRange": {
-        "illustrativeMin": 10,
-        "illustrativeMax": 55,
-        "assumptions": "Per person, 7-day European trip, age 30.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses up to £10M",
-        "Cancellation up to £5,000",
-        "Baggage up to £2,000",
-        "Travel delay",
-        "Personal liability up to £2M"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (unless declared)",
-        "Travel against FCO advice",
-        "Adventure sports"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Winter sports",
-        "Cruise cover",
-        "Gadget cover"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
-      },
-      "renewability": "Per trip or annual",
-      "specialFeatures": [
-        "Not on comparison sites — direct only",
-        "Defaqto 5-star rating",
-        "Medical conditions screening online"
-      ],
-      "sourceUrl": "https://www.directline.com/travel-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Direct Line travel — direct channel only."
-    },
-    {
-      "id": "lv-travel-insurance",
-      "insurerName": "Liverpool Victoria (LV=)",
-      "insurerSlug": "lv",
-      "productName": "LV= Travel Insurance",
-      "category": "travel",
-      "subCategory": "single-trip-comprehensive",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 79,
-        "renewableUpTo": "Per trip or annual"
-      },
-      "sumInsured": {
-        "min": 5000000,
-        "max": 10000000,
-        "currency": "GBP",
-        "note": "Medical expenses"
-      },
-      "premiumRange": {
-        "illustrativeMin": 12,
-        "illustrativeMax": 60,
-        "assumptions": "Per person, 7-day European trip, age 30.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses up to £10M",
-        "Cancellation up to £5,000",
-        "Baggage up to £2,500",
-        "Travel delay",
-        "Personal liability",
-        "Legal expenses"
-      ],
-      "keyExclusions": [
-        "Pre-existing conditions (unless declared)",
-        "Travel against FCO advice",
-        "Extreme sports"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Winter sports",
-        "Cruise cover",
-        "Golf cover"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
-      },
-      "renewability": "Per trip or annual",
-      "specialFeatures": [
-        "Friendly society — member focus",
-        "Good customer service ratings",
-        "Medical screening for conditions"
-      ],
-      "sourceUrl": "https://www.lv.com/travel-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "LV= travel insurance — reliable mainstream option."
-    },
-    {
-      "id": "columbus-direct-travel",
-      "insurerName": "Columbus Direct",
-      "insurerSlug": "columbus-direct",
-      "productName": "Columbus Direct Voyager Travel Insurance",
-      "category": "travel",
-      "subCategory": "single-trip-comprehensive",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": null,
-        "renewableUpTo": "Per trip",
-        "note": "No upper age limit"
-      },
-      "sumInsured": {
-        "min": 5000000,
-        "max": 10000000,
-        "currency": "GBP",
-        "note": "Medical expenses"
-      },
-      "premiumRange": {
-        "illustrativeMin": 15,
-        "illustrativeMax": 70,
-        "assumptions": "Per person, 7-day European trip, age 30.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses up to £10M",
-        "Cancellation up to £5,000",
-        "Baggage up to £2,500",
-        "Travel delay",
-        "Personal liability",
-        "Legal expenses"
-      ],
-      "keyExclusions": [
-        "Undeclared conditions",
-        "Travel against FCO advice",
-        "Extreme sports (unless covered)"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Winter sports",
-        "Cruise cover",
-        "Gadget cover",
-        "Golf cover",
-        "Activity packs"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
-      },
-      "renewability": "Per trip or annual",
-      "specialFeatures": [
-        "No upper age limit",
-        "Activity packs for adventure sports",
-        "Long-stay travel insurance available",
-        "Backpacker policies"
-      ],
-      "sourceUrl": "https://www.columbusdirect.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Columbus Direct — good for long trips and adventure travel."
-    },
-    {
-      "id": "post-office-annual-multi-trip",
-      "insurerName": "Post Office Travel Insurance",
-      "insurerSlug": "post-office",
-      "productName": "Post Office Annual Multi-Trip Travel Insurance",
-      "category": "travel",
-      "subCategory": "annual-multi-trip",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 85,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": 10000000,
-        "max": 15000000,
-        "currency": "GBP",
-        "note": "Medical expenses per trip"
-      },
-      "premiumRange": {
-        "illustrativeMin": 40,
-        "illustrativeMax": 180,
-        "assumptions": "Annual plan, age 30, worldwide cover.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Unlimited trips per year",
-        "Medical expenses up to £15M per trip",
-        "Cancellation up to £5,000 per trip",
-        "Baggage up to £3,000",
-        "Travel delay",
-        "Personal liability"
-      ],
-      "keyExclusions": [
-        "Trips exceeding 31 days (extendable)",
-        "Pre-existing conditions (unless declared)",
-        "Travel against FCO advice"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Winter sports",
-        "Cruise cover",
-        "Extended trip duration"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["Annual"]
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
-        "Great value for frequent travellers",
-        "Defaqto 5-star rated",
-        "Max trip duration extendable"
+        "Best for Over 50s",
+        "Pre-Existing Conditions Covered",
+        "Annual Plans"
       ],
-      "sourceUrl": "https://www.postoffice.co.uk/travel-insurance",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "Annual multi-trip plan. Good value for 3+ trips per year."
+      "notes": "",
+      "countryCode": "uk"
     },
     {
-      "id": "admiral-travel-insurance",
-      "insurerName": "Admiral Group plc",
-      "insurerSlug": "admiral",
-      "productName": "Admiral Travel Insurance Gold",
+      "id": "post-office-travel-uk",
+      "insurerName": "Post Office",
+      "insurerSlug": "post-office",
+      "productName": "Post Office Travel Insurance",
       "category": "travel",
-      "subCategory": "single-trip-comprehensive",
-      "countryCode": "uk",
+      "subCategory": "international",
       "eligibility": {
-        "minAge": 0,
-        "maxAge": 75,
-        "renewableUpTo": "Per trip or annual"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
-        "min": 5000000,
-        "max": 10000000,
-        "currency": "GBP",
-        "note": "Medical expenses"
+        "min": null,
+        "max": null,
+        "options": []
       },
       "premiumRange": {
         "illustrativeMin": 10,
         "illustrativeMax": 50,
-        "assumptions": "Per person, 7-day European trip, age 30.",
+        "assumptions": "Per trip, GBP",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses up to £10M",
-        "Cancellation up to £5,000",
-        "Baggage up to £2,500",
-        "Travel delay",
-        "Personal liability"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Pre-existing conditions (unless declared)",
-        "Travel against FCO advice",
-        "Extreme sports"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Winter sports",
-        "Cruise cover"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
-      },
-      "renewability": "Per trip or annual",
-      "specialFeatures": [
-        "Multi-trip discount with motor policy",
-        "Competitive pricing",
-        "Online medical screening"
-      ],
-      "sourceUrl": "https://www.admiral.com/travel-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Admiral travel — good value, especially bundled with motor."
-    },
-    {
-      "id": "world-nomads-uk",
-      "insurerName": "World Nomads Group Pty Ltd",
-      "insurerSlug": "world-nomads-uk",
-      "productName": "World Nomads Standard Plan (UK)",
-      "category": "travel",
-      "subCategory": "adventure-travel",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 0,
-        "maxAge": 69,
-        "renewableUpTo": "Per trip"
-      },
-      "sumInsured": {
-        "min": 2500000,
-        "max": 10000000,
-        "currency": "GBP",
-        "note": "Medical expenses"
-      },
-      "premiumRange": {
-        "illustrativeMin": 30,
-        "illustrativeMax": 120,
-        "assumptions": "Per person, 14-day worldwide trip, age 30.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Medical expenses up to £10M",
-        "Cancellation up to £2,000",
-        "Baggage up to £1,000",
-        "Travel delay",
-        "Personal liability",
-        "200+ adventure activities"
-      ],
-      "keyExclusions": [
-        "Pre-existing medical conditions",
-        "Known events",
-        "Professional sports"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
       "riders": [],
       "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Affordable",
+        "Family Plans",
+        "European & Worldwide"
+      ],
+      "sourceUrl": "",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "aviva-travel-uk",
+      "insurerName": "Aviva",
+      "insurerSlug": "aviva",
+      "productName": "Aviva Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
         "min": null,
         "max": null,
-        "options": ["Single trip"]
+        "options": []
       },
-      "renewability": "Per trip — extendable while travelling",
-      "specialFeatures": [
-        "Can buy or extend while travelling",
-        "200+ adventure activities covered",
-        "Popular with backpackers",
-        "Gear and equipment cover"
+      "premiumRange": {
+        "illustrativeMin": 15,
+        "illustrativeMax": 55,
+        "assumptions": "Per trip, GBP",
+        "isVerified": false
+      },
+      "keyInclusions": [],
+      "keyExclusions": [
+        "Pre-existing conditions exclusions apply"
       ],
-      "sourceUrl": "https://www.worldnomads.com/travel-insurance/",
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Comprehensive",
+        "Gadget Cover",
+        "Annual Multi-Trip"
+      ],
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "World Nomads UK edition. Great for adventure travellers."
+      "notes": "",
+      "countryCode": "uk"
     }
   ]
 }

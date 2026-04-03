@@ -1,789 +1,199 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-03-24",
-  "disclaimer": "Data collected from publicly available sources. Motor insurance premiums in the UK vary by driver age, location, vehicle, driving history, and no-claims discount. Figures are illustrative national averages only. Zura does not sell insurance.",
+  "lastUpdated": "2026-04-03",
+  "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
-      "id": "admiral-comprehensive",
-      "insurerName": "Admiral Group plc",
+      "id": "admiral-car-uk",
+      "insurerName": "Admiral",
       "insurerSlug": "admiral",
-      "productName": "Admiral Comprehensive Car Insurance",
+      "productName": "Admiral Car Insurance",
       "category": "motor",
       "subCategory": "comprehensive",
-      "countryCode": "uk",
       "eligibility": {
-        "minAge": 17,
-        "maxAge": null,
-        "renewableUpTo": "Annual renewal"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
         "min": null,
         "max": null,
-        "currency": "GBP",
-        "note": "Market value of vehicle (comprehensive). Unlimited third-party property/injury."
+        "options": []
       },
       "premiumRange": {
-        "illustrativeMin": 30,
-        "illustrativeMax": 100,
-        "assumptions": "30-year-old, 5 years NCD, average car, monthly. Varies massively by individual.",
+        "illustrativeMin": 400,
+        "illustrativeMax": 700,
+        "assumptions": "Annual, GBP",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Third party injury and property damage (unlimited)",
-        "Own damage to vehicle",
-        "Fire and theft",
-        "Windscreen cover",
-        "Personal belongings (up to £250)",
-        "Medical expenses (up to £500)",
-        "Personal accident cover",
-        "Motor legal protection"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "Driving under influence of alcohol or drugs",
-        "Normal wear and tear",
-        "Mechanical breakdown",
-        "Using vehicle for unlisted purpose",
-        "Driving without valid licence"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Breakdown cover (Admiral branded)",
-        "Key cover",
-        "Motor legal protection (enhanced)",
-        "No claims discount protection",
-        "Courtesy car upgrade"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["12-month"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "MultiCar discount — insure multiple cars",
-        "No claims discount protection option",
-        "Admiral Rewards — cashback and offers",
-        "Online management portal",
-        "Named driver experience considered"
-      ],
-      "sourceUrl": "https://www.admiral.com/car-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Admiral is one of the UK's largest motor insurers. MultiCar is popular."
-    },
-    {
-      "id": "direct-line-comprehensive",
-      "insurerName": "Direct Line Insurance Group plc",
-      "insurerSlug": "direct-line",
-      "productName": "Direct Line Comprehensive Car Insurance",
-      "category": "motor",
-      "subCategory": "comprehensive",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 17,
-        "maxAge": null,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "currency": "GBP",
-        "note": "Market value"
-      },
-      "premiumRange": {
-        "illustrativeMin": 35,
-        "illustrativeMax": 110,
-        "assumptions": "30-year-old, 5 years NCD, average car, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Third party cover (unlimited)",
-        "Own damage",
-        "Fire and theft",
-        "Windscreen cover",
-        "Courtesy car while in approved repairer",
-        "Personal belongings up to £500",
-        "Medical expenses",
-        "Motor legal protection included"
-      ],
-      "keyExclusions": [
-        "DUI",
-        "Wear and tear",
-        "Mechanical breakdown",
-        "Unlisted use"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Breakdown cover",
-        "Key cover",
-        "NCD protection",
-        "Courtesy car upgrade",
-        "Personal injury cover"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["12-month"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Not on price comparison sites — direct only",
-        "Guaranteed courtesy car with approved repairer",
-        "Motor legal protection included free",
-        "DrivePlus telematics for young drivers",
-        "5-star Defaqto rated"
-      ],
-      "sourceUrl": "https://www.directline.com/car-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Direct Line sells direct only — not on comparison sites."
-    },
-    {
-      "id": "aviva-comprehensive-car",
-      "insurerName": "Aviva plc",
-      "insurerSlug": "aviva",
-      "productName": "Aviva Comprehensive Car Insurance",
-      "category": "motor",
-      "subCategory": "comprehensive",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 17,
-        "maxAge": null,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "currency": "GBP",
-        "note": "Market value"
-      },
-      "premiumRange": {
-        "illustrativeMin": 30,
-        "illustrativeMax": 95,
-        "assumptions": "30-year-old, 5 years NCD, average car, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Third party cover",
-        "Own damage",
-        "Fire and theft",
-        "Windscreen",
-        "Personal belongings up to £500",
-        "Medical expenses",
-        "Motor legal protection",
-        "Courtesy car"
-      ],
-      "keyExclusions": [
-        "DUI",
-        "Wear and tear",
-        "Mechanical breakdown",
-        "Unlisted use"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Breakdown cover",
-        "Key cover",
-        "NCD protection",
-        "Enhanced courtesy car"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["12-month"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Aviva Drive app — safe driving rewards",
-        "Multi-car discount",
-        "Existing customer loyalty discounts",
-        "MyAviva online portal"
-      ],
-      "sourceUrl": "https://www.aviva.co.uk/insurance/motor/car-insurance/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Aviva is the UK's largest insurer. Sells direct and via brokers."
-    },
-    {
-      "id": "lv-comprehensive-car",
-      "insurerName": "Liverpool Victoria (LV=)",
-      "insurerSlug": "lv",
-      "productName": "LV= Comprehensive Car Insurance",
-      "category": "motor",
-      "subCategory": "comprehensive",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 17,
-        "maxAge": null,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "currency": "GBP",
-        "note": "Market value"
-      },
-      "premiumRange": {
-        "illustrativeMin": 28,
-        "illustrativeMax": 90,
-        "assumptions": "30-year-old, 5 years NCD, average car, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Third party cover",
-        "Own damage",
-        "Fire and theft",
-        "Windscreen",
-        "Courtesy car",
-        "Personal belongings",
-        "Motor legal protection"
-      ],
-      "keyExclusions": [
-        "DUI",
-        "Wear and tear",
-        "Mechanical breakdown"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Breakdown cover",
-        "Key cover",
-        "NCD protection",
-        "Excess protection"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["12-month"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Friendly society — profits go to members",
-        "Frequently rated best for customer service",
-        "Multi-car discount",
-        "Vandalism promise — no NCD impact"
-      ],
-      "sourceUrl": "https://www.lv.com/car-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "LV= consistently rated highly for customer service."
-    },
-    {
-      "id": "churchill-comprehensive-car",
-      "insurerName": "Churchill Insurance (Direct Line Group)",
-      "insurerSlug": "churchill",
-      "productName": "Churchill Comprehensive Car Insurance",
-      "category": "motor",
-      "subCategory": "comprehensive",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 17,
-        "maxAge": null,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "currency": "GBP",
-        "note": "Market value"
-      },
-      "premiumRange": {
-        "illustrativeMin": 30,
-        "illustrativeMax": 100,
-        "assumptions": "30-year-old, 5 years NCD, average car, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Third party cover",
-        "Own damage",
-        "Fire and theft",
-        "Windscreen",
-        "Courtesy car",
-        "Personal belongings",
-        "Motor legal protection"
-      ],
-      "keyExclusions": [
-        "DUI",
-        "Wear and tear",
-        "Mechanical breakdown"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Breakdown cover",
-        "Key cover",
-        "NCD protection"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["12-month"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Part of Direct Line Group",
-        "Available on price comparison sites",
-        "Defaqto 5-star rated",
-        "Courtesy car included"
-      ],
-      "sourceUrl": "https://www.churchill.com/car-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Churchill is Direct Line Group's comparison-site brand."
-    },
-    {
-      "id": "more-than-comprehensive-car",
-      "insurerName": "MORE TH>N (RSA Group)",
-      "insurerSlug": "more-than",
-      "productName": "MORE TH>N Comprehensive Car Insurance",
-      "category": "motor",
-      "subCategory": "comprehensive",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 17,
-        "maxAge": null,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "currency": "GBP",
-        "note": "Market value"
-      },
-      "premiumRange": {
-        "illustrativeMin": 28,
-        "illustrativeMax": 95,
-        "assumptions": "30-year-old, 5 years NCD, average car, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Third party cover",
-        "Own damage",
-        "Fire and theft",
-        "Windscreen",
-        "Courtesy car",
-        "Personal belongings",
-        "Motor legal expenses"
-      ],
-      "keyExclusions": [
-        "DUI",
-        "Wear and tear",
-        "Mechanical breakdown"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Breakdown cover",
-        "Key cover",
-        "NCD protection",
-        "Excess protection"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["12-month"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Part of RSA Insurance Group (now Intact)",
-        "Available on comparison sites",
-        "Multi-car discount"
-      ],
-      "sourceUrl": "https://www.morethan.com/car-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "MORE TH>N is RSA's direct consumer brand."
-    },
-    {
-      "id": "hastings-direct-comprehensive",
-      "insurerName": "Hastings Insurance Services Limited",
-      "insurerSlug": "hastings-direct",
-      "productName": "Hastings Direct Comprehensive Car Insurance",
-      "category": "motor",
-      "subCategory": "comprehensive",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 17,
-        "maxAge": null,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "currency": "GBP",
-        "note": "Market value"
-      },
-      "premiumRange": {
-        "illustrativeMin": 25,
-        "illustrativeMax": 85,
-        "assumptions": "30-year-old, 5 years NCD, average car, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Third party cover",
-        "Own damage",
-        "Fire and theft",
-        "Windscreen",
-        "Personal belongings"
-      ],
-      "keyExclusions": [
-        "DUI",
-        "Wear and tear",
-        "Mechanical breakdown"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Breakdown cover",
-        "Key cover",
-        "NCD protection",
-        "Motor legal protection",
-        "Courtesy car"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["12-month"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Budget-friendly pricing",
-        "Hastings Premier tier with more included",
-        "Online management",
-        "Popular on comparison sites"
-      ],
-      "sourceUrl": "https://www.hastingsdirect.com/car-insurance/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Hastings is a budget-friendly insurer. Part of Sampo Group."
-    },
-    {
-      "id": "esure-comprehensive-car",
-      "insurerName": "esure Group plc",
-      "insurerSlug": "esure",
-      "productName": "esure Comprehensive Car Insurance",
-      "category": "motor",
-      "subCategory": "comprehensive",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 17,
-        "maxAge": null,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "currency": "GBP",
-        "note": "Market value"
-      },
-      "premiumRange": {
-        "illustrativeMin": 28,
-        "illustrativeMax": 92,
-        "assumptions": "30-year-old, 5 years NCD, average car, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Third party cover",
-        "Own damage",
-        "Fire and theft",
-        "Windscreen",
-        "Courtesy car",
-        "Personal belongings"
-      ],
-      "keyExclusions": [
-        "DUI",
-        "Wear and tear",
-        "Mechanical breakdown"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Breakdown cover",
-        "Key cover",
-        "NCD protection",
-        "Motor legal protection"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["12-month"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Also owns Sheilas' Wheels brand",
-        "Competitive on comparison sites",
-        "Online claims management"
-      ],
-      "sourceUrl": "https://www.esure.com/car-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "esure is a digital-first insurer. Also owns Sheilas' Wheels."
-    },
-    {
-      "id": "zurich-uk-comprehensive-car",
-      "insurerName": "Zurich Insurance Group (UK)",
-      "insurerSlug": "zurich-uk",
-      "productName": "Zurich Comprehensive Car Insurance",
-      "category": "motor",
-      "subCategory": "comprehensive",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 17,
-        "maxAge": null,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "currency": "GBP",
-        "note": "Market value"
-      },
-      "premiumRange": {
-        "illustrativeMin": 35,
-        "illustrativeMax": 110,
-        "assumptions": "30-year-old, 5 years NCD, average car, monthly. Sold via brokers.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Third party cover",
-        "Own damage",
-        "Fire and theft",
-        "Windscreen",
-        "Courtesy car",
-        "Medical expenses",
-        "Personal belongings"
-      ],
-      "keyExclusions": [
-        "DUI",
-        "Wear and tear",
-        "Mechanical breakdown"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Breakdown cover",
-        "Key cover",
-        "NCD protection",
-        "Legal expenses"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["12-month"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Global Zurich brand",
-        "Sold primarily through brokers",
-        "Strong claims service",
-        "Defaqto rated"
-      ],
-      "sourceUrl": "https://www.zurich.co.uk/car-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Zurich UK motor primarily through broker channel."
-    },
-    {
-      "id": "admiral-third-party-fire-theft",
-      "insurerName": "Admiral Group plc",
-      "insurerSlug": "admiral",
-      "productName": "Admiral Third Party Fire & Theft Car Insurance",
-      "category": "motor",
-      "subCategory": "third-party-fire-theft",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 17,
-        "maxAge": null,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "currency": "GBP",
-        "note": "Third party unlimited. Own vehicle: fire and theft only."
-      },
-      "premiumRange": {
-        "illustrativeMin": 25,
-        "illustrativeMax": 80,
-        "assumptions": "30-year-old, 5 years NCD, average car, monthly.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Third party injury and property damage",
-        "Fire damage to own vehicle",
-        "Theft of own vehicle",
-        "Personal belongings"
-      ],
-      "keyExclusions": [
-        "Own damage from accident (collision not covered)",
-        "DUI",
-        "Wear and tear",
-        "Mechanical breakdown"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Breakdown cover",
-        "Legal expenses",
-        "NCD protection"
-      ],
-      "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["12-month"]
-      },
-      "renewability": "Annual",
-      "specialFeatures": [
-        "Lower premium than comprehensive",
-        "Good for older vehicles",
-        "Still covers fire and theft risk"
-      ],
-      "sourceUrl": "https://www.admiral.com/car-insurance",
-      "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "TPFT — middle tier. No collision cover for own vehicle."
-    },
-    {
-      "id": "hastings-third-party-only",
-      "insurerName": "Hastings Insurance Services Limited",
-      "insurerSlug": "hastings-direct",
-      "productName": "Hastings Third Party Only Car Insurance",
-      "category": "motor",
-      "subCategory": "third-party-only",
-      "countryCode": "uk",
-      "eligibility": {
-        "minAge": 17,
-        "maxAge": null,
-        "renewableUpTo": "Annual"
-      },
-      "sumInsured": {
-        "min": null,
-        "max": null,
-        "currency": "GBP",
-        "note": "Third party only — minimum legal requirement"
-      },
-      "premiumRange": {
-        "illustrativeMin": 22,
-        "illustrativeMax": 70,
-        "assumptions": "30-year-old, average car, monthly. Often NOT cheaper than comprehensive.",
-        "isVerified": false
-      },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Third party injury and property damage only"
-      ],
-      "keyExclusions": [
-        "Any damage to own vehicle",
-        "Fire and theft",
-        "Windscreen",
-        "Personal belongings",
-        "DUI"
-      ],
-      "claimSettlement": null,
-      "networkHospitals": null,
       "riders": [],
       "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["12-month"]
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
-        "Minimum legal cover requirement",
-        "Note: TPO is often NOT cheaper than comprehensive"
+        "UK Market Leader (15% Share)",
+        "Multi-Car Discount",
+        "Competitive for Young Drivers"
       ],
-      "sourceUrl": "https://www.hastingsdirect.com/car-insurance/",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
-      "confidenceScore": "medium",
-      "notes": "Third Party Only — minimum legal cover. Paradoxically not always cheapest."
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "uk"
     },
     {
-      "id": "by-miles-pay-per-mile",
-      "insurerName": "By Miles Ltd",
-      "insurerSlug": "by-miles",
-      "productName": "By Miles Pay-Per-Mile Car Insurance",
+      "id": "direct-line-car-uk",
+      "insurerName": "Direct Line",
+      "insurerSlug": "direct-line",
+      "productName": "Direct Line Car Insurance",
       "category": "motor",
-      "subCategory": "pay-per-mile",
-      "countryCode": "uk",
+      "subCategory": "comprehensive",
       "eligibility": {
-        "minAge": 17,
-        "maxAge": null,
-        "renewableUpTo": "Annual"
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
       },
       "sumInsured": {
         "min": null,
         "max": null,
-        "currency": "GBP",
-        "note": "Comprehensive cover — market value"
+        "options": []
       },
       "premiumRange": {
-        "illustrativeMin": 15,
-        "illustrativeMax": 60,
-        "assumptions": "Fixed monthly cost + per-mile rate (3-7p/mile). Low-mileage driver.",
+        "illustrativeMin": 450,
+        "illustrativeMax": 750,
+        "assumptions": "Annual, GBP",
         "isVerified": false
       },
-      "waitingPeriod": null,
-      "keyInclusions": [
-        "Third party cover",
-        "Own damage",
-        "Fire and theft",
-        "Windscreen",
-        "Courtesy car",
-        "Motor legal protection"
-      ],
+      "keyInclusions": [],
       "keyExclusions": [
-        "DUI",
-        "Wear and tear",
-        "Mechanical breakdown"
+        "Pre-existing conditions exclusions apply"
       ],
-      "claimSettlement": null,
-      "networkHospitals": null,
-      "riders": [
-        "Breakdown cover",
-        "Key cover",
-        "NCD protection"
-      ],
+      "riders": [],
       "policyTenure": {
-        "min": null,
-        "max": null,
-        "options": ["12-month"]
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
-        "Pay-per-mile — great for low-mileage drivers",
-        "Connected car Miles Tracker included",
-        "Real-time mileage tracking via app",
-        "No annual mileage estimation needed",
-        "Fair pricing for infrequent drivers"
+        "Not on Comparison Sites",
+        "Comprehensive Standard Cover",
+        "High Customer Satisfaction"
       ],
-      "sourceUrl": "https://www.bymiles.co.uk/",
+      "sourceUrl": "",
       "sourceType": "official-website",
-      "lastVerified": "2026-03-24",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "aviva-car-uk",
+      "insurerName": "Aviva",
+      "insurerSlug": "aviva",
+      "productName": "Aviva Car Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 400,
+        "illustrativeMax": 650,
+        "assumptions": "Annual, GBP",
+        "isVerified": false
+      },
+      "keyInclusions": [],
+      "keyExclusions": [
+        "Pre-existing conditions exclusions apply"
+      ],
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Which? Recommended",
+        "Courtesy Car",
+        "Windscreen Cover"
+      ],
+      "sourceUrl": "",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
-      "notes": "UK's first pay-per-mile insurer. Ideal for low-mileage drivers."
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "axa-car-uk",
+      "insurerName": "AXA",
+      "insurerSlug": "axa-uk",
+      "productName": "AXA Car Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": []
+      },
+      "premiumRange": {
+        "illustrativeMin": 350,
+        "illustrativeMax": 600,
+        "assumptions": "Annual, GBP",
+        "isVerified": false
+      },
+      "keyInclusions": [],
+      "keyExclusions": [
+        "Pre-existing conditions exclusions apply"
+      ],
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Competitive Pricing",
+        "DriveSmart App",
+        "Personal Injury Cover"
+      ],
+      "sourceUrl": "",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "uk"
     }
   ]
 }
