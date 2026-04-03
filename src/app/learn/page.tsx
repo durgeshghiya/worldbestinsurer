@@ -6,9 +6,9 @@ import ScrollReveal from "@/components/immersive/ScrollReveal";
 import AnimatedBackground from "@/components/AnimatedBackground";
 
 export const metadata: Metadata = {
-  title: "Learn About Insurance",
+  title: "Insurance Guides & Education — 121 Expert Articles",
   description:
-    "Educational guides on health insurance, term life insurance, motor insurance, and travel insurance in India.",
+    "121 insurance guides covering health, term life, motor & travel insurance in India. Learn about claim settlement ratios, premium calculations, tax benefits, and more.",
 };
 
 const categoryColors: Record<string, string> = {

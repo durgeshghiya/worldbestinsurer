@@ -4,7 +4,32 @@ import Link from "next/link";
 import { Heart, Shield, Car, Plane, Globe, ArrowRight, ChevronRight } from "lucide-react";
 import { categories, getProductsByCategory } from "@/lib/data";
 import { countries } from "@/lib/countries";
-import { BreadcrumbSchema } from "@/components/StructuredData";
+import { BreadcrumbSchema, FAQSchema } from "@/components/StructuredData";
+import Breadcrumb from "@/components/Breadcrumb";
+
+const categoryFAQs: Record<string, { q: string; a: string }[]> = {
+  health: [
+    { q: "How do I compare health insurance plans in India?", a: "Compare plans based on coverage amount, premium, claim settlement ratio, network hospitals, waiting periods, and exclusions. Use a comparison platform to view plans side-by-side from multiple insurers." },
+    { q: "What is the best health insurance plan in India?", a: "The best plan depends on your needs. Look for plans with high claim settlement ratios (above 90%), wide hospital networks, low waiting periods for pre-existing diseases, and comprehensive coverage including daycare procedures." },
+    { q: "What is Claim Settlement Ratio (CSR) in health insurance?", a: "CSR is the percentage of claims an insurer settles out of total claims received. A higher CSR (above 90%) indicates the insurer is more likely to pay your claims. IRDAI publishes CSR data annually." },
+    { q: "Should I buy family floater or individual health insurance?", a: "Family floater plans cover the entire family under one sum insured and are usually cheaper. Individual plans give dedicated cover to each member. Choose family floater for young families; individual for members above 45." },
+  ],
+  "term-life": [
+    { q: "How much term insurance cover do I need?", a: "A common rule is 10-15 times your annual income. Factor in outstanding loans, children's education costs, and your family's monthly expenses for 15-20 years. Use an online calculator for a precise estimate." },
+    { q: "What is the difference between term insurance and life insurance?", a: "Term insurance provides pure death benefit for a fixed period at low cost. Traditional life insurance includes savings/investment components but costs 5-10x more for the same cover. Term insurance is recommended for most people." },
+    { q: "Which term insurance has the highest claim settlement ratio?", a: "LIC consistently has one of the highest CSRs (98%+). Among private insurers, Max Life (99.2%), HDFC Life (98.5%), and Tata AIA (98.6%) have strong track records as per FY2023-24 data." },
+  ],
+  motor: [
+    { q: "What is the difference between comprehensive and third-party motor insurance?", a: "Third-party insurance covers damage to others and is legally mandatory. Comprehensive insurance covers both third-party liability AND damage to your own vehicle, including theft, natural disasters, and accidents." },
+    { q: "What is No Claim Bonus (NCB) in motor insurance?", a: "NCB is a discount on your premium for each claim-free year. It starts at 20% after the first year and can go up to 50% after 5 claim-free years. NCB is transferable when you switch insurers." },
+    { q: "Is zero depreciation add-on worth it?", a: "Yes, especially for new cars (under 3 years). Without it, the insurer deducts depreciation on parts during claims — you could pay 30-40% of repair costs. Zero depreciation cover ensures full claim settlement." },
+  ],
+  travel: [
+    { q: "Do I need travel insurance for a Schengen visa?", a: "Yes, travel insurance with minimum EUR 30,000 medical coverage is mandatory for Schengen visa applications. The policy must cover the entire trip duration and include emergency medical evacuation and repatriation." },
+    { q: "What does travel insurance typically cover?", a: "Travel insurance covers medical emergencies, trip cancellation, lost baggage, flight delays, passport loss, and personal liability. Some plans also cover adventure sports, pre-existing conditions, and COVID-19 related issues." },
+    { q: "How much does travel insurance cost for Indians?", a: "Travel insurance for Indians typically costs INR 500-2,000 for a week-long trip to Asia, and INR 1,500-5,000 for Europe/US. Costs vary based on destination, age, duration, and coverage amount." },
+  ],
+};
 
 const validCategories = ["health", "term-life", "motor", "travel"];
 
@@ -56,6 +81,9 @@ export default async function CompareCategoryPage({
 
   return (
     <div>
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-6">
+        <Breadcrumb items={[{ label: "Compare", href: "/compare/health/" }, { label: meta.label }]} />
+      </div>
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://worldbestinsurer.com" },
@@ -157,6 +185,29 @@ export default async function CompareCategoryPage({
           })}
         </div>
       </section>
+
+      {/* FAQ Section */}
+      {categoryFAQs[category] && (
+        <>
+          <FAQSchema questions={categoryFAQs[category]} />
+          <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16">
+            <h2 className="text-2xl font-bold text-text-primary mb-6">Frequently Asked Questions</h2>
+            <div className="space-y-4">
+              {categoryFAQs[category].map((faq, i) => (
+                <details key={i} className="group bg-surface rounded-xl border border-border">
+                  <summary className="flex items-center justify-between cursor-pointer p-5 text-sm font-medium text-text-primary hover:text-primary transition-colors">
+                    {faq.q}
+                    <ChevronRight className="w-4 h-4 text-text-tertiary group-open:rotate-90 transition-transform" />
+                  </summary>
+                  <div className="px-5 pb-5 text-sm text-text-secondary leading-relaxed">
+                    {faq.a}
+                  </div>
+                </details>
+              ))}
+            </div>
+          </section>
+        </>
+      )}
     </div>
   );
 }

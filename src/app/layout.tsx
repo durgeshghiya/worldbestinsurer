@@ -65,6 +65,18 @@ export const metadata: Metadata = {
     canonical: "https://worldbestinsurer.com",
     languages: {
       "en": "https://worldbestinsurer.com",
+      "en-IN": "https://worldbestinsurer.com/in/",
+      "en-US": "https://worldbestinsurer.com/us/",
+      "en-GB": "https://worldbestinsurer.com/uk/",
+      "en-AE": "https://worldbestinsurer.com/ae/",
+      "en-SG": "https://worldbestinsurer.com/sg/",
+      "en-CA": "https://worldbestinsurer.com/ca/",
+      "en-AU": "https://worldbestinsurer.com/au/",
+      "de-DE": "https://worldbestinsurer.com/de/",
+      "en-SA": "https://worldbestinsurer.com/sa/",
+      "ja-JP": "https://worldbestinsurer.com/jp/",
+      "ko-KR": "https://worldbestinsurer.com/kr/",
+      "en-HK": "https://worldbestinsurer.com/hk/",
     },
   },
   other: {

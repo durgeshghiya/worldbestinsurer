@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ExternalLink, MapPin, Calendar, Building2, TrendingUp } from "lucide-react";
+import Breadcrumb from "@/components/Breadcrumb";
 import { getAllInsurers, getProductsByInsurer } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Insurer Directory",
-  description: "Browse India's leading insurance companies. View details, claim settlement ratios, and available plans.",
+  title: "Insurance Companies Directory — 248+ Insurers in 12 Countries",
+  description: "Browse 248+ insurance companies across India, US, UK, UAE & 8 more countries. Compare claim settlement ratios, network hospitals, headquarters, and product offerings.",
 };
 
 export default function InsurersPage() {
@@ -13,6 +14,7 @@ export default function InsurersPage() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
+      <Breadcrumb items={[{ label: "Insurer Directory" }]} />
       <div className="mb-8">
         <h1 className="text-3xl sm:text-4xl font-bold text-foreground">
           Insurer Directory

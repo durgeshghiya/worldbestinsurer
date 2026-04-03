@@ -147,7 +147,7 @@ export default function HomePage() {
                 backgroundSize: "300% 300%",
               }}
             >
-              Insurance, Reimagined.
+              Compare Insurance Plans Globally.
             </span>
           </h1>
 
