@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Phone, Globe, Search, Users } from "lucide-react";
 import { getAllInsurers } from "@/lib/data";
-import { countries, VALID_COUNTRY_CODES } from "@/lib/countries";
+import { VALID_COUNTRY_CODES } from "@/lib/countries";
 import ContactDirectorySearch from "@/components/ContactDirectorySearch";
 
 export const metadata: Metadata = {
