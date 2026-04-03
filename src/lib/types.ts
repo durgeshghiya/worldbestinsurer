@@ -79,6 +79,26 @@ export interface ProductDataset {
   products: InsuranceProduct[];
 }
 
+export interface SocialMedia {
+  twitter?: string;
+  facebook?: string;
+  linkedin?: string;
+  instagram?: string;
+  youtube?: string;
+}
+
+export interface ContactInfo {
+  phone?: string;
+  email?: string;
+  customerCareNumber?: string;
+  claimHelpline?: string;
+  address?: string;
+  socialMedia?: SocialMedia;
+  grievanceEmail?: string;
+  fax?: string;
+  lastVerified?: string;
+}
+
 export interface Insurer {
   slug: string;
   name: string;
@@ -93,6 +113,7 @@ export interface Insurer {
   networkHospitals: number | null;
   description: string;
   countryCode: string;
+  contact?: ContactInfo;
 }
 
 export interface CategoryInfo {

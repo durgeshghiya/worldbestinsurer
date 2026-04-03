@@ -2,25 +2,319 @@
   "lastUpdated": "2026-03-24",
   "countryCode": "ca",
   "insurers": [
-    { "slug": "sunlife", "name": "Sun Life Financial", "type": "life-health", "founded": 1865, "headquarters": "Toronto, ON", "website": "https://www.sunlife.ca/", "categories": ["health", "term-life", "travel"], "isGovernmentBacked": false },
-    { "slug": "manulife", "name": "Manulife Financial", "type": "life-health", "founded": 1887, "headquarters": "Toronto, ON", "website": "https://www.manulife.ca/", "categories": ["health", "term-life", "travel"], "isGovernmentBacked": false },
-    { "slug": "canada-life", "name": "Canada Life", "type": "life-health", "founded": 1847, "headquarters": "Winnipeg, MB", "website": "https://www.canadalife.com/", "categories": ["health", "term-life"], "isGovernmentBacked": false },
-    { "slug": "desjardins", "name": "Desjardins Insurance", "type": "composite", "founded": 1900, "headquarters": "Levis, QC", "website": "https://www.desjardins.com/", "categories": ["health", "term-life", "motor", "travel"], "isGovernmentBacked": false },
-    { "slug": "bluecross", "name": "Blue Cross (Provincial)", "type": "health-travel", "founded": 1942, "headquarters": "Various", "website": "https://www.bluecross.ca/", "categories": ["health", "travel"], "isGovernmentBacked": false },
-    { "slug": "greenshield", "name": "Green Shield Canada", "type": "health", "founded": 1957, "headquarters": "Windsor, ON", "website": "https://www.greenshield.ca/", "categories": ["health"], "isGovernmentBacked": false },
-    { "slug": "empire-life", "name": "Empire Life", "type": "life-health", "founded": 1923, "headquarters": "Kingston, ON", "website": "https://www.empire.ca/", "categories": ["health"], "isGovernmentBacked": false },
-    { "slug": "ia-financial", "name": "Industrial Alliance (iA Financial Group)", "type": "life-health", "founded": 1892, "headquarters": "Quebec City, QC", "website": "https://ia.ca/", "categories": ["health", "term-life", "motor"], "isGovernmentBacked": false },
-    { "slug": "intact", "name": "Intact Insurance", "type": "general", "founded": 1809, "headquarters": "Toronto, ON", "website": "https://www.intact.ca/", "categories": ["motor"], "isGovernmentBacked": false },
-    { "slug": "aviva", "name": "Aviva Canada", "type": "general", "founded": 1835, "headquarters": "Markham, ON", "website": "https://www.aviva.ca/", "categories": ["motor"], "isGovernmentBacked": false },
-    { "slug": "td-insurance", "name": "TD Insurance", "type": "general", "founded": 1953, "headquarters": "Toronto, ON", "website": "https://www.tdinsurance.com/", "categories": ["motor"], "isGovernmentBacked": false },
-    { "slug": "cooperators", "name": "The Co-operators", "type": "composite", "founded": 1945, "headquarters": "Guelph, ON", "website": "https://www.cooperators.ca/", "categories": ["motor"], "isGovernmentBacked": false },
-    { "slug": "definity", "name": "Definity Financial (Economical Insurance)", "type": "general", "founded": 1871, "headquarters": "Waterloo, ON", "website": "https://www.definity.com/", "categories": ["motor"], "isGovernmentBacked": false },
-    { "slug": "sonnet", "name": "Sonnet (by Definity)", "type": "general-digital", "founded": 2016, "headquarters": "Waterloo, ON", "website": "https://www.sonnet.ca/", "categories": ["motor"], "isGovernmentBacked": false },
-    { "slug": "wawanesa", "name": "Wawanesa Mutual Insurance", "type": "mutual", "founded": 1896, "headquarters": "Winnipeg, MB", "website": "https://www.wawanesa.com/", "categories": ["motor"], "isGovernmentBacked": false },
-    { "slug": "pembridge", "name": "Pembridge Insurance", "type": "general", "founded": 1989, "headquarters": "Markham, ON", "website": "https://www.pembridge.com/", "categories": ["motor"], "isGovernmentBacked": false },
-    { "slug": "rbc-insurance", "name": "RBC Insurance", "type": "composite", "founded": 1992, "headquarters": "Mississauga, ON", "website": "https://www.rbcinsurance.com/", "categories": ["term-life", "motor"], "isGovernmentBacked": false },
-    { "slug": "bmo-insurance", "name": "BMO Insurance", "type": "life", "founded": 1960, "headquarters": "Toronto, ON", "website": "https://www.bmo.com/insurance/", "categories": ["term-life"], "isGovernmentBacked": false },
-    { "slug": "allianz-ca", "name": "Allianz Global Assistance Canada", "type": "travel", "founded": 1890, "headquarters": "Kitchener, ON", "website": "https://www.allianz-assistance.ca/", "categories": ["travel"], "isGovernmentBacked": false },
-    { "slug": "world-nomads", "name": "World Nomads", "type": "travel", "founded": 2002, "headquarters": "International", "website": "https://www.worldnomads.com/", "categories": ["travel"], "isGovernmentBacked": false }
+    {
+      "slug": "sunlife",
+      "name": "Sun Life Financial",
+      "type": "life-health",
+      "founded": 1865,
+      "headquarters": "Toronto, ON",
+      "website": "https://www.sunlife.ca/",
+      "categories": [
+        "health",
+        "term-life",
+        "travel"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "manulife",
+      "name": "Manulife Financial",
+      "type": "life-health",
+      "founded": 1887,
+      "headquarters": "Toronto, ON",
+      "website": "https://www.manulife.ca/",
+      "categories": [
+        "health",
+        "term-life",
+        "travel"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "customerCareNumber": "1-888-626-8543",
+        "address": "200 Bloor Street East, Toronto, ON M4W 1E5",
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "canada-life",
+      "name": "Canada Life",
+      "type": "life-health",
+      "founded": 1847,
+      "headquarters": "Winnipeg, MB",
+      "website": "https://www.canadalife.com/",
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "desjardins",
+      "name": "Desjardins Insurance",
+      "type": "composite",
+      "founded": 1900,
+      "headquarters": "Levis, QC",
+      "website": "https://www.desjardins.com/",
+      "categories": [
+        "health",
+        "term-life",
+        "motor",
+        "travel"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "bluecross",
+      "name": "Blue Cross (Provincial)",
+      "type": "health-travel",
+      "founded": 1942,
+      "headquarters": "Various",
+      "website": "https://www.bluecross.ca/",
+      "categories": [
+        "health",
+        "travel"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "greenshield",
+      "name": "Green Shield Canada",
+      "type": "health",
+      "founded": 1957,
+      "headquarters": "Windsor, ON",
+      "website": "https://www.greenshield.ca/",
+      "categories": [
+        "health"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "empire-life",
+      "name": "Empire Life",
+      "type": "life-health",
+      "founded": 1923,
+      "headquarters": "Kingston, ON",
+      "website": "https://www.empire.ca/",
+      "categories": [
+        "health"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "ia-financial",
+      "name": "Industrial Alliance (iA Financial Group)",
+      "type": "life-health",
+      "founded": 1892,
+      "headquarters": "Quebec City, QC",
+      "website": "https://ia.ca/",
+      "categories": [
+        "health",
+        "term-life",
+        "motor"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "intact",
+      "name": "Intact Insurance",
+      "type": "general",
+      "founded": 1809,
+      "headquarters": "Toronto, ON",
+      "website": "https://www.intact.ca/",
+      "categories": [
+        "motor"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "aviva",
+      "name": "Aviva Canada",
+      "type": "general",
+      "founded": 1835,
+      "headquarters": "Markham, ON",
+      "website": "https://www.aviva.ca/",
+      "categories": [
+        "motor"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "td-insurance",
+      "name": "TD Insurance",
+      "type": "general",
+      "founded": 1953,
+      "headquarters": "Toronto, ON",
+      "website": "https://www.tdinsurance.com/",
+      "categories": [
+        "motor"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "cooperators",
+      "name": "The Co-operators",
+      "type": "composite",
+      "founded": 1945,
+      "headquarters": "Guelph, ON",
+      "website": "https://www.cooperators.ca/",
+      "categories": [
+        "motor"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "definity",
+      "name": "Definity Financial (Economical Insurance)",
+      "type": "general",
+      "founded": 1871,
+      "headquarters": "Waterloo, ON",
+      "website": "https://www.definity.com/",
+      "categories": [
+        "motor"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "sonnet",
+      "name": "Sonnet (by Definity)",
+      "type": "general-digital",
+      "founded": 2016,
+      "headquarters": "Waterloo, ON",
+      "website": "https://www.sonnet.ca/",
+      "categories": [
+        "motor"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "wawanesa",
+      "name": "Wawanesa Mutual Insurance",
+      "type": "mutual",
+      "founded": 1896,
+      "headquarters": "Winnipeg, MB",
+      "website": "https://www.wawanesa.com/",
+      "categories": [
+        "motor"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "pembridge",
+      "name": "Pembridge Insurance",
+      "type": "general",
+      "founded": 1989,
+      "headquarters": "Markham, ON",
+      "website": "https://www.pembridge.com/",
+      "categories": [
+        "motor"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "rbc-insurance",
+      "name": "RBC Insurance",
+      "type": "composite",
+      "founded": 1992,
+      "headquarters": "Mississauga, ON",
+      "website": "https://www.rbcinsurance.com/",
+      "categories": [
+        "term-life",
+        "motor"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "bmo-insurance",
+      "name": "BMO Insurance",
+      "type": "life",
+      "founded": 1960,
+      "headquarters": "Toronto, ON",
+      "website": "https://www.bmo.com/insurance/",
+      "categories": [
+        "term-life"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "allianz-ca",
+      "name": "Allianz Global Assistance Canada",
+      "type": "travel",
+      "founded": 1890,
+      "headquarters": "Kitchener, ON",
+      "website": "https://www.allianz-assistance.ca/",
+      "categories": [
+        "travel"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "world-nomads",
+      "name": "World Nomads",
+      "type": "travel",
+      "founded": 2002,
+      "headquarters": "International",
+      "website": "https://www.worldnomads.com/",
+      "categories": [
+        "travel"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    }
   ]
 }

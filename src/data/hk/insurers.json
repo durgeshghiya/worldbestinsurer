@@ -3,20 +3,320 @@
   "country": "Hong Kong",
   "countryCode": "hk",
   "insurers": [
-    { "slug": "aia-hk", "name": "AIA International Limited (Hong Kong)", "shortName": "AIA", "type": "composite", "description": "Largest life and health insurer in Hong Kong with dominant market share.", "headquarters": "Central, Hong Kong", "established": 1931, "website": "https://www.aia.com.hk/", "claimSettlementRatio": null, "networkHospitals": { "count": 12, "note": "Major private hospitals in HK" }, "categories": ["health", "term-life", "motor", "travel"], "countryCode": "hk" },
-    { "slug": "prudential-hk", "name": "Prudential Hong Kong Limited", "shortName": "Prudential", "type": "life", "description": "Major life insurer in Hong Kong, part of Prudential plc.", "headquarters": "Wan Chai, Hong Kong", "established": 1964, "website": "https://www.prudential.com.hk/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life"], "countryCode": "hk" },
-    { "slug": "manulife-hk", "name": "Manulife (International) Limited", "shortName": "Manulife", "type": "life", "description": "Leading Canadian life insurer with strong presence in Hong Kong.", "headquarters": "Kowloon, Hong Kong", "established": 1897, "website": "https://www.manulife.com.hk/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life"], "countryCode": "hk" },
-    { "slug": "axa-hk", "name": "AXA General Insurance Hong Kong", "shortName": "AXA", "type": "composite", "description": "Global insurer with strong presence in health, motor, and travel in Hong Kong.", "headquarters": "Quarry Bay, Hong Kong", "established": 1986, "website": "https://www.axa.com.hk/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life", "motor", "travel"], "countryCode": "hk" },
-    { "slug": "bupa-hk", "name": "Bupa (Asia) Limited", "shortName": "Bupa", "type": "health", "description": "Leading health insurer in Hong Kong focused on medical and wellness.", "headquarters": "North Point, Hong Kong", "established": 1976, "website": "https://www.bupa.com.hk/", "claimSettlementRatio": null, "networkHospitals": { "count": 12, "note": "Private hospitals in HK" }, "categories": ["health", "motor", "travel"], "countryCode": "hk" },
-    { "slug": "fwd-hk", "name": "FWD Life Insurance Company (Bermuda) Limited", "shortName": "FWD", "type": "composite", "description": "Fast-growing digital-first insurer in Hong Kong, part of FWD Group.", "headquarters": "Quarry Bay, Hong Kong", "established": 2013, "website": "https://www.fwd.com.hk/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life", "motor", "travel"], "countryCode": "hk" },
-    { "slug": "cigna-hk", "name": "Cigna Worldwide Life Insurance Company Limited", "shortName": "Cigna", "type": "health", "description": "Global health insurer with strong international medical coverage.", "headquarters": "Causeway Bay, Hong Kong", "established": 1990, "website": "https://www.cigna.com.hk/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "travel"], "countryCode": "hk" },
-    { "slug": "sun-life-hk", "name": "Sun Life Hong Kong Limited", "shortName": "Sun Life", "type": "life", "description": "Canadian insurer with established presence in Hong Kong life and health.", "headquarters": "Wan Chai, Hong Kong", "established": 1892, "website": "https://www.sunlife.com.hk/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life"], "countryCode": "hk" },
-    { "slug": "zurich-hk", "name": "Zurich Insurance (Hong Kong)", "shortName": "Zurich", "type": "composite", "description": "Global insurer offering life, general, and travel insurance in Hong Kong.", "headquarters": "Central, Hong Kong", "established": 1961, "website": "https://www.zurich.com.hk/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "motor", "travel"], "countryCode": "hk" },
-    { "slug": "hsbc-life-hk", "name": "HSBC Life (International) Limited", "shortName": "HSBC Life", "type": "composite", "description": "Insurance arm of HSBC leveraging its extensive banking network in HK.", "headquarters": "Central, Hong Kong", "established": 1985, "website": "https://www.hsbc.com.hk/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life", "travel"], "countryCode": "hk" },
-    { "slug": "china-life-hk", "name": "China Life Insurance (Overseas) Company Limited", "shortName": "China Life", "type": "life", "description": "Hong Kong subsidiary of China Life, the largest insurer in mainland China.", "headquarters": "Wan Chai, Hong Kong", "established": 1984, "website": "https://www.chinalife.com.hk/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["term-life"], "countryCode": "hk" },
-    { "slug": "boc-life-hk", "name": "BOC Group Life Assurance Company Limited", "shortName": "BOC Life", "type": "life", "description": "Insurance arm of Bank of China Hong Kong.", "headquarters": "Central, Hong Kong", "established": 1998, "website": "https://www.boclife.com.hk/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["term-life"], "countryCode": "hk" },
-    { "slug": "msig-hk", "name": "MSIG Insurance (Hong Kong) Limited", "shortName": "MSIG", "type": "general", "description": "Hong Kong arm of MS&AD Insurance Group, strong in general insurance.", "headquarters": "Central, Hong Kong", "established": 1923, "website": "https://www.msig.com.hk/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["motor", "travel"], "countryCode": "hk" },
-    { "slug": "qbe-hk", "name": "QBE Hongkong & Shanghai Insurance Limited", "shortName": "QBE", "type": "general", "description": "Hong Kong operation of the global QBE Insurance Group.", "headquarters": "Central, Hong Kong", "established": 1961, "website": "https://www.qbe.com/hk/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["motor"], "countryCode": "hk" },
-    { "slug": "directasia-hk", "name": "DirectAsia Insurance Hong Kong", "shortName": "DirectAsia", "type": "general", "description": "Direct online motor insurer offering competitive pricing.", "headquarters": "Hong Kong", "established": 2014, "website": "https://www.directasia.com.hk/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["motor"], "countryCode": "hk" }
+    {
+      "slug": "aia-hk",
+      "name": "AIA International Limited (Hong Kong)",
+      "shortName": "AIA",
+      "type": "composite",
+      "description": "Largest life and health insurer in Hong Kong with dominant market share.",
+      "headquarters": "Central, Hong Kong",
+      "established": 1931,
+      "website": "https://www.aia.com.hk/",
+      "claimSettlementRatio": null,
+      "networkHospitals": {
+        "count": 12,
+        "note": "Major private hospitals in HK"
+      },
+      "categories": [
+        "health",
+        "term-life",
+        "motor",
+        "travel"
+      ],
+      "countryCode": "hk",
+      "contact": {
+        "customerCareNumber": "+852-2232-8888",
+        "address": "35/F, AIA Central, 1 Connaught Road Central, Hong Kong",
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "prudential-hk",
+      "name": "Prudential Hong Kong Limited",
+      "shortName": "Prudential",
+      "type": "life",
+      "description": "Major life insurer in Hong Kong, part of Prudential plc.",
+      "headquarters": "Wan Chai, Hong Kong",
+      "established": 1964,
+      "website": "https://www.prudential.com.hk/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "countryCode": "hk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "manulife-hk",
+      "name": "Manulife (International) Limited",
+      "shortName": "Manulife",
+      "type": "life",
+      "description": "Leading Canadian life insurer with strong presence in Hong Kong.",
+      "headquarters": "Kowloon, Hong Kong",
+      "established": 1897,
+      "website": "https://www.manulife.com.hk/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "countryCode": "hk",
+      "contact": {
+        "customerCareNumber": "+852-2510-5600",
+        "address": "22/F, Tower A, Manulife Financial Centre, 223 Wai Yip Street, Kwun Tong",
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "axa-hk",
+      "name": "AXA General Insurance Hong Kong",
+      "shortName": "AXA",
+      "type": "composite",
+      "description": "Global insurer with strong presence in health, motor, and travel in Hong Kong.",
+      "headquarters": "Quarry Bay, Hong Kong",
+      "established": 1986,
+      "website": "https://www.axa.com.hk/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life",
+        "motor",
+        "travel"
+      ],
+      "countryCode": "hk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "bupa-hk",
+      "name": "Bupa (Asia) Limited",
+      "shortName": "Bupa",
+      "type": "health",
+      "description": "Leading health insurer in Hong Kong focused on medical and wellness.",
+      "headquarters": "North Point, Hong Kong",
+      "established": 1976,
+      "website": "https://www.bupa.com.hk/",
+      "claimSettlementRatio": null,
+      "networkHospitals": {
+        "count": 12,
+        "note": "Private hospitals in HK"
+      },
+      "categories": [
+        "health",
+        "motor",
+        "travel"
+      ],
+      "countryCode": "hk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "fwd-hk",
+      "name": "FWD Life Insurance Company (Bermuda) Limited",
+      "shortName": "FWD",
+      "type": "composite",
+      "description": "Fast-growing digital-first insurer in Hong Kong, part of FWD Group.",
+      "headquarters": "Quarry Bay, Hong Kong",
+      "established": 2013,
+      "website": "https://www.fwd.com.hk/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life",
+        "motor",
+        "travel"
+      ],
+      "countryCode": "hk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "cigna-hk",
+      "name": "Cigna Worldwide Life Insurance Company Limited",
+      "shortName": "Cigna",
+      "type": "health",
+      "description": "Global health insurer with strong international medical coverage.",
+      "headquarters": "Causeway Bay, Hong Kong",
+      "established": 1990,
+      "website": "https://www.cigna.com.hk/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "travel"
+      ],
+      "countryCode": "hk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "sun-life-hk",
+      "name": "Sun Life Hong Kong Limited",
+      "shortName": "Sun Life",
+      "type": "life",
+      "description": "Canadian insurer with established presence in Hong Kong life and health.",
+      "headquarters": "Wan Chai, Hong Kong",
+      "established": 1892,
+      "website": "https://www.sunlife.com.hk/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "countryCode": "hk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "zurich-hk",
+      "name": "Zurich Insurance (Hong Kong)",
+      "shortName": "Zurich",
+      "type": "composite",
+      "description": "Global insurer offering life, general, and travel insurance in Hong Kong.",
+      "headquarters": "Central, Hong Kong",
+      "established": 1961,
+      "website": "https://www.zurich.com.hk/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "motor",
+        "travel"
+      ],
+      "countryCode": "hk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "hsbc-life-hk",
+      "name": "HSBC Life (International) Limited",
+      "shortName": "HSBC Life",
+      "type": "composite",
+      "description": "Insurance arm of HSBC leveraging its extensive banking network in HK.",
+      "headquarters": "Central, Hong Kong",
+      "established": 1985,
+      "website": "https://www.hsbc.com.hk/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life",
+        "travel"
+      ],
+      "countryCode": "hk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "china-life-hk",
+      "name": "China Life Insurance (Overseas) Company Limited",
+      "shortName": "China Life",
+      "type": "life",
+      "description": "Hong Kong subsidiary of China Life, the largest insurer in mainland China.",
+      "headquarters": "Wan Chai, Hong Kong",
+      "established": 1984,
+      "website": "https://www.chinalife.com.hk/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "term-life"
+      ],
+      "countryCode": "hk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "boc-life-hk",
+      "name": "BOC Group Life Assurance Company Limited",
+      "shortName": "BOC Life",
+      "type": "life",
+      "description": "Insurance arm of Bank of China Hong Kong.",
+      "headquarters": "Central, Hong Kong",
+      "established": 1998,
+      "website": "https://www.boclife.com.hk/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "term-life"
+      ],
+      "countryCode": "hk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "msig-hk",
+      "name": "MSIG Insurance (Hong Kong) Limited",
+      "shortName": "MSIG",
+      "type": "general",
+      "description": "Hong Kong arm of MS&AD Insurance Group, strong in general insurance.",
+      "headquarters": "Central, Hong Kong",
+      "established": 1923,
+      "website": "https://www.msig.com.hk/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "motor",
+        "travel"
+      ],
+      "countryCode": "hk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "qbe-hk",
+      "name": "QBE Hongkong & Shanghai Insurance Limited",
+      "shortName": "QBE",
+      "type": "general",
+      "description": "Hong Kong operation of the global QBE Insurance Group.",
+      "headquarters": "Central, Hong Kong",
+      "established": 1961,
+      "website": "https://www.qbe.com/hk/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "motor"
+      ],
+      "countryCode": "hk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "directasia-hk",
+      "name": "DirectAsia Insurance Hong Kong",
+      "shortName": "DirectAsia",
+      "type": "general",
+      "description": "Direct online motor insurer offering competitive pricing.",
+      "headquarters": "Hong Kong",
+      "established": 2014,
+      "website": "https://www.directasia.com.hk/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "motor"
+      ],
+      "countryCode": "hk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    }
   ]
 }

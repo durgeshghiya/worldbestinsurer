@@ -2,21 +2,265 @@
   "lastUpdated": "2026-03-24",
   "countryCode": "sg",
   "insurers": [
-    { "slug": "aia", "name": "AIA Singapore", "type": "life-health", "founded": 1931, "headquarters": "Singapore", "website": "https://www.aia.com.sg/", "categories": ["health", "term-life"], "isGovernmentBacked": false },
-    { "slug": "prudential", "name": "Prudential Singapore", "type": "life-health", "founded": 1931, "headquarters": "Singapore", "website": "https://www.prudential.com.sg/", "categories": ["health", "term-life"], "isGovernmentBacked": false },
-    { "slug": "great-eastern", "name": "Great Eastern Life", "type": "life-health", "founded": 1908, "headquarters": "Singapore", "website": "https://www.greateasternlife.com/sg/", "categories": ["health", "term-life", "travel"], "isGovernmentBacked": false },
-    { "slug": "ntuc-income", "name": "NTUC Income Insurance", "type": "composite", "founded": 1970, "headquarters": "Singapore", "website": "https://www.income.com.sg/", "categories": ["health", "term-life", "motor", "travel"], "isGovernmentBacked": false },
-    { "slug": "axa-sg", "name": "AXA Insurance Singapore", "type": "composite", "founded": 1893, "headquarters": "Singapore", "website": "https://www.axa.com.sg/", "categories": ["health", "motor", "travel"], "isGovernmentBacked": false },
-    { "slug": "singlife", "name": "Singlife", "type": "life-health", "founded": 2014, "headquarters": "Singapore", "website": "https://singlife.com/", "categories": ["health", "term-life", "travel"], "isGovernmentBacked": false },
-    { "slug": "fwd-sg", "name": "FWD Singapore", "type": "composite", "founded": 2016, "headquarters": "Singapore", "website": "https://www.fwd.com.sg/", "categories": ["health", "term-life", "motor", "travel"], "isGovernmentBacked": false },
-    { "slug": "hsbc-life", "name": "HSBC Life Singapore", "type": "life-health", "founded": 2009, "headquarters": "Singapore", "website": "https://www.insurance.hsbc.com.sg/", "categories": ["health"], "isGovernmentBacked": false },
-    { "slug": "manulife-sg", "name": "Manulife Singapore", "type": "life-health", "founded": 1898, "headquarters": "Singapore", "website": "https://www.manulife.com.sg/", "categories": ["health", "term-life"], "isGovernmentBacked": false },
-    { "slug": "tokio-marine", "name": "Tokio Marine Life Insurance Singapore", "type": "life", "founded": 1948, "headquarters": "Singapore", "website": "https://www.tokiomarine.com/sg/", "categories": ["term-life", "motor"], "isGovernmentBacked": false },
-    { "slug": "directasia", "name": "DirectAsia Insurance", "type": "general", "founded": 2010, "headquarters": "Singapore", "website": "https://www.directasia.com/", "categories": ["motor"], "isGovernmentBacked": false },
-    { "slug": "etiqa", "name": "Etiqa Insurance Singapore", "type": "composite", "founded": 2005, "headquarters": "Singapore", "website": "https://www.etiqa.com.sg/", "categories": ["motor"], "isGovernmentBacked": false },
-    { "slug": "sompo", "name": "Sompo Insurance Singapore", "type": "general", "founded": 1943, "headquarters": "Singapore", "website": "https://www.sompo.com.sg/", "categories": ["motor", "travel"], "isGovernmentBacked": false },
-    { "slug": "msig", "name": "MSIG Insurance Singapore", "type": "general", "founded": 2001, "headquarters": "Singapore", "website": "https://www.msig.com.sg/", "categories": ["motor", "travel"], "isGovernmentBacked": false },
-    { "slug": "allianz-sg", "name": "Allianz Global Assistance Singapore", "type": "general", "founded": 1890, "headquarters": "Singapore", "website": "https://www.allianz-travel.com.sg/", "categories": ["travel"], "isGovernmentBacked": false },
-    { "slug": "raffles-health", "name": "Raffles Health Insurance", "type": "health", "founded": 2019, "headquarters": "Singapore", "website": "https://www.raffleshealthinsurance.com/", "categories": ["health"], "isGovernmentBacked": false }
+    {
+      "slug": "aia",
+      "name": "AIA Singapore",
+      "type": "life-health",
+      "founded": 1931,
+      "headquarters": "Singapore",
+      "website": "https://www.aia.com.sg/",
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "prudential",
+      "name": "Prudential Singapore",
+      "type": "life-health",
+      "founded": 1931,
+      "headquarters": "Singapore",
+      "website": "https://www.prudential.com.sg/",
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "great-eastern",
+      "name": "Great Eastern Life",
+      "type": "life-health",
+      "founded": 1908,
+      "headquarters": "Singapore",
+      "website": "https://www.greateasternlife.com/sg/",
+      "categories": [
+        "health",
+        "term-life",
+        "travel"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "customerCareNumber": "+65-6248-2211",
+        "address": "1 Pickering Street, Great Eastern Centre, Singapore 048659",
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "ntuc-income",
+      "name": "NTUC Income Insurance",
+      "type": "composite",
+      "founded": 1970,
+      "headquarters": "Singapore",
+      "website": "https://www.income.com.sg/",
+      "categories": [
+        "health",
+        "term-life",
+        "motor",
+        "travel"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "axa-sg",
+      "name": "AXA Insurance Singapore",
+      "type": "composite",
+      "founded": 1893,
+      "headquarters": "Singapore",
+      "website": "https://www.axa.com.sg/",
+      "categories": [
+        "health",
+        "motor",
+        "travel"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "singlife",
+      "name": "Singlife",
+      "type": "life-health",
+      "founded": 2014,
+      "headquarters": "Singapore",
+      "website": "https://singlife.com/",
+      "categories": [
+        "health",
+        "term-life",
+        "travel"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "fwd-sg",
+      "name": "FWD Singapore",
+      "type": "composite",
+      "founded": 2016,
+      "headquarters": "Singapore",
+      "website": "https://www.fwd.com.sg/",
+      "categories": [
+        "health",
+        "term-life",
+        "motor",
+        "travel"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "hsbc-life",
+      "name": "HSBC Life Singapore",
+      "type": "life-health",
+      "founded": 2009,
+      "headquarters": "Singapore",
+      "website": "https://www.insurance.hsbc.com.sg/",
+      "categories": [
+        "health"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "manulife-sg",
+      "name": "Manulife Singapore",
+      "type": "life-health",
+      "founded": 1898,
+      "headquarters": "Singapore",
+      "website": "https://www.manulife.com.sg/",
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "tokio-marine",
+      "name": "Tokio Marine Life Insurance Singapore",
+      "type": "life",
+      "founded": 1948,
+      "headquarters": "Singapore",
+      "website": "https://www.tokiomarine.com/sg/",
+      "categories": [
+        "term-life",
+        "motor"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "directasia",
+      "name": "DirectAsia Insurance",
+      "type": "general",
+      "founded": 2010,
+      "headquarters": "Singapore",
+      "website": "https://www.directasia.com/",
+      "categories": [
+        "motor"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "etiqa",
+      "name": "Etiqa Insurance Singapore",
+      "type": "composite",
+      "founded": 2005,
+      "headquarters": "Singapore",
+      "website": "https://www.etiqa.com.sg/",
+      "categories": [
+        "motor"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "sompo",
+      "name": "Sompo Insurance Singapore",
+      "type": "general",
+      "founded": 1943,
+      "headquarters": "Singapore",
+      "website": "https://www.sompo.com.sg/",
+      "categories": [
+        "motor",
+        "travel"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "msig",
+      "name": "MSIG Insurance Singapore",
+      "type": "general",
+      "founded": 2001,
+      "headquarters": "Singapore",
+      "website": "https://www.msig.com.sg/",
+      "categories": [
+        "motor",
+        "travel"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "allianz-sg",
+      "name": "Allianz Global Assistance Singapore",
+      "type": "general",
+      "founded": 1890,
+      "headquarters": "Singapore",
+      "website": "https://www.allianz-travel.com.sg/",
+      "categories": [
+        "travel"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "raffles-health",
+      "name": "Raffles Health Insurance",
+      "type": "health",
+      "founded": 2019,
+      "headquarters": "Singapore",
+      "website": "https://www.raffleshealthinsurance.com/",
+      "categories": [
+        "health"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    }
   ]
 }

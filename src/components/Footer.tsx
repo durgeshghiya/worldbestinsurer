@@ -17,6 +17,7 @@ const sections = [
       { name: "Insurance Guides", href: "/learn" },
       { name: "Market Insights", href: "/insights" },
       { name: "Insurer Directory", href: "/insurers" },
+      { name: "Contact Directory", href: "/contact-directory" },
       { name: "Methodology", href: "/methodology" },
     ],
   },

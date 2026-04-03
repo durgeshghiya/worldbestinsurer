@@ -3,20 +3,283 @@
   "country": "Saudi Arabia",
   "countryCode": "sa",
   "insurers": [
-    { "slug": "bupa-arabia", "name": "Bupa Arabia for Cooperative Insurance", "type": "cooperative", "established": 1997, "headquarters": "Jeddah", "website": "https://www.bupa.com.sa/", "categories": ["health", "motor"], "description": "Largest health insurer in Saudi Arabia. Joint venture between Bupa Group and Nazer Group.", "amBestRating": "A-", "marketPosition": "Largest health insurer in KSA" },
-    { "slug": "tawuniya", "name": "The Company for Cooperative Insurance (Tawuniya)", "type": "cooperative", "established": 1986, "headquarters": "Riyadh", "website": "https://www.tawuniya.com.sa/", "categories": ["health", "term-life", "motor"], "description": "Saudi Arabia's oldest and largest overall insurance company. Government-backed cooperative.", "amBestRating": "A-", "marketPosition": "Largest insurer in KSA" },
-    { "slug": "medgulf", "name": "Mediterranean & Gulf Insurance and Reinsurance (MedGulf)", "type": "cooperative", "established": 1980, "headquarters": "Al Khobar", "website": "https://www.medgulf.com.sa/", "categories": ["health", "term-life", "motor"], "description": "Major Saudi insurer with strong presence in health and motor insurance for SMEs.", "amBestRating": "B++", "marketPosition": "Top 5" },
-    { "slug": "axa-coop-sa", "name": "AXA Cooperative Insurance Company", "type": "cooperative", "established": 2008, "headquarters": "Riyadh", "website": "https://www.axa.com.sa/", "categories": ["health", "term-life", "motor"], "description": "Saudi cooperative insurer backed by AXA Group. Full-range insurance products.", "amBestRating": "B++", "marketPosition": "Top 10" },
-    { "slug": "walaa", "name": "Walaa Cooperative Insurance Company", "type": "cooperative", "established": 2008, "headquarters": "Riyadh", "website": "https://www.walaa.com/", "categories": ["health", "term-life", "motor"], "description": "Growing cooperative insurer with competitive pricing in health and motor.", "amBestRating": "B++", "marketPosition": "Top 10" },
-    { "slug": "gulf-union", "name": "Gulf Union Cooperative Insurance Company", "type": "cooperative", "established": 2007, "headquarters": "Riyadh", "website": "https://www.gulfunion.com.sa/", "categories": ["health", "motor"], "description": "Saudi cooperative insurer focused on corporate group health and motor.", "amBestRating": "B+", "marketPosition": "Top 15" },
-    { "slug": "saico", "name": "Saudi Arabian Cooperative Insurance Company (SAICO)", "type": "cooperative", "established": 2007, "headquarters": "Riyadh", "website": "https://www.saico.com.sa/", "categories": ["health", "term-life", "motor"], "description": "Established Saudi cooperative insurer offering health, life, and motor products.", "amBestRating": "B+", "marketPosition": "Top 15" },
-    { "slug": "malath", "name": "Malath Cooperative Insurance Company", "type": "cooperative", "established": 2007, "headquarters": "Riyadh", "website": "https://www.malath.com.sa/", "categories": ["health"], "description": "Saudi cooperative insurer with focus on health insurance.", "amBestRating": "B+", "marketPosition": "Top 15" },
-    { "slug": "alrajhi-takaful", "name": "Al Rajhi Company for Cooperative Insurance (Al Rajhi Takaful)", "type": "takaful", "established": 2008, "headquarters": "Riyadh", "website": "https://www.alrajhitakaful.com.sa/", "categories": ["health", "term-life", "motor"], "description": "Takaful insurer backed by Al Rajhi Banking Group. Shariah-compliant products.", "amBestRating": "B++", "marketPosition": "Leading Takaful insurer" },
-    { "slug": "rsa-saudi", "name": "Al Alamiya for Cooperative Insurance (RSA Saudi)", "type": "cooperative", "established": 2007, "headquarters": "Riyadh", "website": "https://www.rsasaudi.com/", "categories": ["motor"], "description": "Saudi cooperative insurer with RSA Group partnership, strong in motor.", "amBestRating": "B+", "marketPosition": "Top 15" },
-    { "slug": "solidarity-sa", "name": "Solidarity Saudi Takaful", "type": "takaful", "established": 2009, "headquarters": "Riyadh", "website": "https://www.solidarity.com.sa/", "categories": ["health", "motor"], "description": "Takaful insurer part of the Bahrain-based Solidarity Group.", "amBestRating": "B+", "marketPosition": "Top 15" },
-    { "slug": "allianz-sf", "name": "Allianz Saudi Fransi Cooperative Insurance", "type": "cooperative", "established": 2007, "headquarters": "Riyadh", "website": "https://www.allianzsf.com/", "categories": ["health", "motor"], "description": "Cooperative insurer backed by Allianz Group and Banque Saudi Fransi.", "amBestRating": "B++", "marketPosition": "Top 10" },
-    { "slug": "sagr-insurance", "name": "Saudi Arabian General Insurance (SAGR)", "type": "cooperative", "established": 2007, "headquarters": "Riyadh", "website": "https://www.sagr.com.sa/", "categories": ["motor"], "description": "Saudi cooperative insurer focused on motor and property insurance.", "amBestRating": "B", "marketPosition": "Top 20" },
-    { "slug": "acig", "name": "Allied Cooperative Insurance Group (ACIG)", "type": "cooperative", "established": 2007, "headquarters": "Jeddah", "website": "https://www.acig.com.sa/", "categories": ["health", "motor"], "description": "Jeddah-based cooperative insurer with diversified product line.", "amBestRating": "B+", "marketPosition": "Top 15" },
-    { "slug": "chubb-arabia", "name": "Chubb Arabia Cooperative Insurance", "type": "cooperative", "established": 2009, "headquarters": "Riyadh", "website": "https://www.chubb.com/sa/", "categories": ["motor"], "description": "Saudi cooperative insurer backed by Chubb Limited.", "amBestRating": "A", "marketPosition": "Specialty" }
+    {
+      "slug": "bupa-arabia",
+      "name": "Bupa Arabia for Cooperative Insurance",
+      "type": "cooperative",
+      "established": 1997,
+      "headquarters": "Jeddah",
+      "website": "https://www.bupa.com.sa/",
+      "categories": [
+        "health",
+        "motor"
+      ],
+      "description": "Largest health insurer in Saudi Arabia. Joint venture between Bupa Group and Nazer Group.",
+      "amBestRating": "A-",
+      "marketPosition": "Largest health insurer in KSA",
+      "contact": {
+        "customerCareNumber": "800-244-0707",
+        "phone": "+966-12-218-8888",
+        "address": "King Road Tower, King Abdulaziz Road, Jeddah",
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "tawuniya",
+      "name": "The Company for Cooperative Insurance (Tawuniya)",
+      "type": "cooperative",
+      "established": 1986,
+      "headquarters": "Riyadh",
+      "website": "https://www.tawuniya.com.sa/",
+      "categories": [
+        "health",
+        "term-life",
+        "motor"
+      ],
+      "description": "Saudi Arabia's oldest and largest overall insurance company. Government-backed cooperative.",
+      "amBestRating": "A-",
+      "marketPosition": "Largest insurer in KSA",
+      "contact": {
+        "customerCareNumber": "800-124-9990",
+        "phone": "+966-11-252-8888",
+        "address": "Al Tawuniya Towers, King Fahd Road, Riyadh",
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "medgulf",
+      "name": "Mediterranean & Gulf Insurance and Reinsurance (MedGulf)",
+      "type": "cooperative",
+      "established": 1980,
+      "headquarters": "Al Khobar",
+      "website": "https://www.medgulf.com.sa/",
+      "categories": [
+        "health",
+        "term-life",
+        "motor"
+      ],
+      "description": "Major Saudi insurer with strong presence in health and motor insurance for SMEs.",
+      "amBestRating": "B++",
+      "marketPosition": "Top 5",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "axa-coop-sa",
+      "name": "AXA Cooperative Insurance Company",
+      "type": "cooperative",
+      "established": 2008,
+      "headquarters": "Riyadh",
+      "website": "https://www.axa.com.sa/",
+      "categories": [
+        "health",
+        "term-life",
+        "motor"
+      ],
+      "description": "Saudi cooperative insurer backed by AXA Group. Full-range insurance products.",
+      "amBestRating": "B++",
+      "marketPosition": "Top 10",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "walaa",
+      "name": "Walaa Cooperative Insurance Company",
+      "type": "cooperative",
+      "established": 2008,
+      "headquarters": "Riyadh",
+      "website": "https://www.walaa.com/",
+      "categories": [
+        "health",
+        "term-life",
+        "motor"
+      ],
+      "description": "Growing cooperative insurer with competitive pricing in health and motor.",
+      "amBestRating": "B++",
+      "marketPosition": "Top 10",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "gulf-union",
+      "name": "Gulf Union Cooperative Insurance Company",
+      "type": "cooperative",
+      "established": 2007,
+      "headquarters": "Riyadh",
+      "website": "https://www.gulfunion.com.sa/",
+      "categories": [
+        "health",
+        "motor"
+      ],
+      "description": "Saudi cooperative insurer focused on corporate group health and motor.",
+      "amBestRating": "B+",
+      "marketPosition": "Top 15",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "saico",
+      "name": "Saudi Arabian Cooperative Insurance Company (SAICO)",
+      "type": "cooperative",
+      "established": 2007,
+      "headquarters": "Riyadh",
+      "website": "https://www.saico.com.sa/",
+      "categories": [
+        "health",
+        "term-life",
+        "motor"
+      ],
+      "description": "Established Saudi cooperative insurer offering health, life, and motor products.",
+      "amBestRating": "B+",
+      "marketPosition": "Top 15",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "malath",
+      "name": "Malath Cooperative Insurance Company",
+      "type": "cooperative",
+      "established": 2007,
+      "headquarters": "Riyadh",
+      "website": "https://www.malath.com.sa/",
+      "categories": [
+        "health"
+      ],
+      "description": "Saudi cooperative insurer with focus on health insurance.",
+      "amBestRating": "B+",
+      "marketPosition": "Top 15",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "alrajhi-takaful",
+      "name": "Al Rajhi Company for Cooperative Insurance (Al Rajhi Takaful)",
+      "type": "takaful",
+      "established": 2008,
+      "headquarters": "Riyadh",
+      "website": "https://www.alrajhitakaful.com.sa/",
+      "categories": [
+        "health",
+        "term-life",
+        "motor"
+      ],
+      "description": "Takaful insurer backed by Al Rajhi Banking Group. Shariah-compliant products.",
+      "amBestRating": "B++",
+      "marketPosition": "Leading Takaful insurer",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "rsa-saudi",
+      "name": "Al Alamiya for Cooperative Insurance (RSA Saudi)",
+      "type": "cooperative",
+      "established": 2007,
+      "headquarters": "Riyadh",
+      "website": "https://www.rsasaudi.com/",
+      "categories": [
+        "motor"
+      ],
+      "description": "Saudi cooperative insurer with RSA Group partnership, strong in motor.",
+      "amBestRating": "B+",
+      "marketPosition": "Top 15",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "solidarity-sa",
+      "name": "Solidarity Saudi Takaful",
+      "type": "takaful",
+      "established": 2009,
+      "headquarters": "Riyadh",
+      "website": "https://www.solidarity.com.sa/",
+      "categories": [
+        "health",
+        "motor"
+      ],
+      "description": "Takaful insurer part of the Bahrain-based Solidarity Group.",
+      "amBestRating": "B+",
+      "marketPosition": "Top 15",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "allianz-sf",
+      "name": "Allianz Saudi Fransi Cooperative Insurance",
+      "type": "cooperative",
+      "established": 2007,
+      "headquarters": "Riyadh",
+      "website": "https://www.allianzsf.com/",
+      "categories": [
+        "health",
+        "motor"
+      ],
+      "description": "Cooperative insurer backed by Allianz Group and Banque Saudi Fransi.",
+      "amBestRating": "B++",
+      "marketPosition": "Top 10",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "sagr-insurance",
+      "name": "Saudi Arabian General Insurance (SAGR)",
+      "type": "cooperative",
+      "established": 2007,
+      "headquarters": "Riyadh",
+      "website": "https://www.sagr.com.sa/",
+      "categories": [
+        "motor"
+      ],
+      "description": "Saudi cooperative insurer focused on motor and property insurance.",
+      "amBestRating": "B",
+      "marketPosition": "Top 20",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "acig",
+      "name": "Allied Cooperative Insurance Group (ACIG)",
+      "type": "cooperative",
+      "established": 2007,
+      "headquarters": "Jeddah",
+      "website": "https://www.acig.com.sa/",
+      "categories": [
+        "health",
+        "motor"
+      ],
+      "description": "Jeddah-based cooperative insurer with diversified product line.",
+      "amBestRating": "B+",
+      "marketPosition": "Top 15",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "chubb-arabia",
+      "name": "Chubb Arabia Cooperative Insurance",
+      "type": "cooperative",
+      "established": 2009,
+      "headquarters": "Riyadh",
+      "website": "https://www.chubb.com/sa/",
+      "categories": [
+        "motor"
+      ],
+      "description": "Saudi cooperative insurer backed by Chubb Limited.",
+      "amBestRating": "A",
+      "marketPosition": "Specialty",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    }
   ]
 }

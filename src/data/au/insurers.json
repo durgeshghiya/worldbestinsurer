@@ -3,20 +3,312 @@
   "country": "Australia",
   "countryCode": "au",
   "insurers": [
-    { "slug": "medibank", "name": "Medibank Private", "shortName": "Medibank", "type": "health", "description": "One of Australia's largest private health insurers, formerly government-owned, listed on ASX.", "headquarters": "Melbourne", "established": 1976, "website": "https://www.medibank.com.au/", "claimSettlementRatio": null, "networkHospitals": { "count": 500, "note": "Agreement hospitals nationally" }, "categories": ["health", "travel"], "countryCode": "au" },
-    { "slug": "bupa-au", "name": "Bupa Australia", "shortName": "Bupa", "type": "health", "description": "Part of the international Bupa group, a major health insurer in Australia offering hospital and extras cover.", "headquarters": "Melbourne", "established": 1947, "website": "https://www.bupa.com.au/", "claimSettlementRatio": null, "networkHospitals": { "count": 600, "note": "Agreement hospitals nationally" }, "categories": ["health", "travel"], "countryCode": "au" },
-    { "slug": "hbf", "name": "HBF Health", "shortName": "HBF", "type": "health", "description": "Not-for-profit health fund based in Western Australia, also offering general insurance.", "headquarters": "Perth", "established": 1941, "website": "https://www.hbf.com.au/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "motor"], "countryCode": "au" },
-    { "slug": "hcf", "name": "Hospitals Contribution Fund of Australia", "shortName": "HCF", "type": "health", "description": "Australia's largest not-for-profit health fund based in Sydney.", "headquarters": "Sydney", "established": 1932, "website": "https://www.hcf.com.au/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "travel"], "countryCode": "au" },
-    { "slug": "nib", "name": "nib Health Funds", "shortName": "nib", "type": "health", "description": "ASX-listed health insurer offering health, life, and travel insurance.", "headquarters": "Newcastle", "established": 1952, "website": "https://www.nib.com.au/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life", "travel"], "countryCode": "au" },
-    { "slug": "aia-au", "name": "AIA Australia", "shortName": "AIA", "type": "life", "description": "Australia's leading life insurer, part of the AIA Group, offering life, income protection, and trauma cover.", "headquarters": "Melbourne", "established": 1972, "website": "https://www.aia.com.au/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["term-life"], "countryCode": "au" },
-    { "slug": "tal", "name": "TAL", "shortName": "TAL", "type": "life", "description": "Australia's largest life insurer by market share, owned by Dai-ichi Life Holdings.", "headquarters": "Sydney", "established": 1869, "website": "https://www.tal.com.au/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["term-life"], "countryCode": "au" },
-    { "slug": "mlc-life", "name": "MLC Life Insurance", "shortName": "MLC", "type": "life", "description": "Established Australian life insurer offering term life, TPD, trauma, and income protection.", "headquarters": "Sydney", "established": 1886, "website": "https://www.mlcinsurance.com.au/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["term-life"], "countryCode": "au" },
-    { "slug": "zurich-au", "name": "Zurich Australia", "shortName": "Zurich", "type": "composite", "description": "Part of the global Zurich Insurance Group, offering life insurance and travel insurance in Australia.", "headquarters": "Sydney", "established": 1960, "website": "https://www.zurich.com.au/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["term-life", "travel"], "countryCode": "au" },
-    { "slug": "allianz-au", "name": "Allianz Australia", "shortName": "Allianz", "type": "general", "description": "One of Australia's largest general insurers, part of the global Allianz Group.", "headquarters": "Sydney", "established": 1914, "website": "https://www.allianz.com.au/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["term-life", "motor", "travel"], "countryCode": "au" },
-    { "slug": "aami", "name": "AAMI", "shortName": "AAMI", "type": "general", "description": "One of Australia's most recognised insurance brands, part of Suncorp Group.", "headquarters": "Melbourne", "established": 1970, "website": "https://www.aami.com.au/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["motor"], "countryCode": "au" },
-    { "slug": "nrma", "name": "NRMA Insurance", "shortName": "NRMA", "type": "general", "description": "Leading insurer in NSW and ACT, underwritten by Insurance Australia Group (IAG).", "headquarters": "Sydney", "established": 1925, "website": "https://www.nrma.com.au/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["motor"], "countryCode": "au" },
-    { "slug": "suncorp", "name": "Suncorp Group", "shortName": "Suncorp", "type": "composite", "description": "Major Australian financial services company offering life and general insurance.", "headquarters": "Brisbane", "established": 1916, "website": "https://www.suncorp.com.au/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["term-life", "motor"], "countryCode": "au" },
-    { "slug": "qbe", "name": "QBE Insurance Group", "shortName": "QBE", "type": "general", "description": "ASX-listed global general insurer headquartered in Sydney.", "headquarters": "Sydney", "established": 1886, "website": "https://www.qbe.com/au/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["motor", "travel"], "countryCode": "au" },
-    { "slug": "budget-direct", "name": "Budget Direct", "shortName": "Budget Direct", "type": "general", "description": "Online-first insurer known for competitive pricing, part of Auto & General Group.", "headquarters": "Brisbane", "established": 2000, "website": "https://www.budgetdirect.com.au/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["motor", "travel"], "countryCode": "au" }
+    {
+      "slug": "medibank",
+      "name": "Medibank Private",
+      "shortName": "Medibank",
+      "type": "health",
+      "description": "One of Australia's largest private health insurers, formerly government-owned, listed on ASX.",
+      "headquarters": "Melbourne",
+      "established": 1976,
+      "website": "https://www.medibank.com.au/",
+      "claimSettlementRatio": null,
+      "networkHospitals": {
+        "count": 500,
+        "note": "Agreement hospitals nationally"
+      },
+      "categories": [
+        "health",
+        "travel"
+      ],
+      "countryCode": "au",
+      "contact": {
+        "customerCareNumber": "13-23-31",
+        "address": "720 Bourke Street, Docklands VIC 3008",
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "bupa-au",
+      "name": "Bupa Australia",
+      "shortName": "Bupa",
+      "type": "health",
+      "description": "Part of the international Bupa group, a major health insurer in Australia offering hospital and extras cover.",
+      "headquarters": "Melbourne",
+      "established": 1947,
+      "website": "https://www.bupa.com.au/",
+      "claimSettlementRatio": null,
+      "networkHospitals": {
+        "count": 600,
+        "note": "Agreement hospitals nationally"
+      },
+      "categories": [
+        "health",
+        "travel"
+      ],
+      "countryCode": "au",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "hbf",
+      "name": "HBF Health",
+      "shortName": "HBF",
+      "type": "health",
+      "description": "Not-for-profit health fund based in Western Australia, also offering general insurance.",
+      "headquarters": "Perth",
+      "established": 1941,
+      "website": "https://www.hbf.com.au/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "motor"
+      ],
+      "countryCode": "au",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "hcf",
+      "name": "Hospitals Contribution Fund of Australia",
+      "shortName": "HCF",
+      "type": "health",
+      "description": "Australia's largest not-for-profit health fund based in Sydney.",
+      "headquarters": "Sydney",
+      "established": 1932,
+      "website": "https://www.hcf.com.au/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "travel"
+      ],
+      "countryCode": "au",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "nib",
+      "name": "nib Health Funds",
+      "shortName": "nib",
+      "type": "health",
+      "description": "ASX-listed health insurer offering health, life, and travel insurance.",
+      "headquarters": "Newcastle",
+      "established": 1952,
+      "website": "https://www.nib.com.au/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life",
+        "travel"
+      ],
+      "countryCode": "au",
+      "contact": {
+        "customerCareNumber": "13-14-63",
+        "address": "22 Honeysuckle Drive, Newcastle NSW 2300",
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "aia-au",
+      "name": "AIA Australia",
+      "shortName": "AIA",
+      "type": "life",
+      "description": "Australia's leading life insurer, part of the AIA Group, offering life, income protection, and trauma cover.",
+      "headquarters": "Melbourne",
+      "established": 1972,
+      "website": "https://www.aia.com.au/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "term-life"
+      ],
+      "countryCode": "au",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "tal",
+      "name": "TAL",
+      "shortName": "TAL",
+      "type": "life",
+      "description": "Australia's largest life insurer by market share, owned by Dai-ichi Life Holdings.",
+      "headquarters": "Sydney",
+      "established": 1869,
+      "website": "https://www.tal.com.au/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "term-life"
+      ],
+      "countryCode": "au",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "mlc-life",
+      "name": "MLC Life Insurance",
+      "shortName": "MLC",
+      "type": "life",
+      "description": "Established Australian life insurer offering term life, TPD, trauma, and income protection.",
+      "headquarters": "Sydney",
+      "established": 1886,
+      "website": "https://www.mlcinsurance.com.au/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "term-life"
+      ],
+      "countryCode": "au",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "zurich-au",
+      "name": "Zurich Australia",
+      "shortName": "Zurich",
+      "type": "composite",
+      "description": "Part of the global Zurich Insurance Group, offering life insurance and travel insurance in Australia.",
+      "headquarters": "Sydney",
+      "established": 1960,
+      "website": "https://www.zurich.com.au/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "term-life",
+        "travel"
+      ],
+      "countryCode": "au",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "allianz-au",
+      "name": "Allianz Australia",
+      "shortName": "Allianz",
+      "type": "general",
+      "description": "One of Australia's largest general insurers, part of the global Allianz Group.",
+      "headquarters": "Sydney",
+      "established": 1914,
+      "website": "https://www.allianz.com.au/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "term-life",
+        "motor",
+        "travel"
+      ],
+      "countryCode": "au",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "aami",
+      "name": "AAMI",
+      "shortName": "AAMI",
+      "type": "general",
+      "description": "One of Australia's most recognised insurance brands, part of Suncorp Group.",
+      "headquarters": "Melbourne",
+      "established": 1970,
+      "website": "https://www.aami.com.au/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "motor"
+      ],
+      "countryCode": "au",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "nrma",
+      "name": "NRMA Insurance",
+      "shortName": "NRMA",
+      "type": "general",
+      "description": "Leading insurer in NSW and ACT, underwritten by Insurance Australia Group (IAG).",
+      "headquarters": "Sydney",
+      "established": 1925,
+      "website": "https://www.nrma.com.au/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "motor"
+      ],
+      "countryCode": "au",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "suncorp",
+      "name": "Suncorp Group",
+      "shortName": "Suncorp",
+      "type": "composite",
+      "description": "Major Australian financial services company offering life and general insurance.",
+      "headquarters": "Brisbane",
+      "established": 1916,
+      "website": "https://www.suncorp.com.au/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "term-life",
+        "motor"
+      ],
+      "countryCode": "au",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "qbe",
+      "name": "QBE Insurance Group",
+      "shortName": "QBE",
+      "type": "general",
+      "description": "ASX-listed global general insurer headquartered in Sydney.",
+      "headquarters": "Sydney",
+      "established": 1886,
+      "website": "https://www.qbe.com/au/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "motor",
+        "travel"
+      ],
+      "countryCode": "au",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "budget-direct",
+      "name": "Budget Direct",
+      "shortName": "Budget Direct",
+      "type": "general",
+      "description": "Online-first insurer known for competitive pricing, part of Auto & General Group.",
+      "headquarters": "Brisbane",
+      "established": 2000,
+      "website": "https://www.budgetdirect.com.au/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "motor",
+        "travel"
+      ],
+      "countryCode": "au",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    }
   ]
 }

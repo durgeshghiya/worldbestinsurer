@@ -2,26 +2,364 @@
   "lastUpdated": "2026-03-24",
   "countryCode": "ae",
   "insurers": [
-    { "slug": "daman", "name": "National Health Insurance Company (Daman)", "type": "health", "founded": 2005, "headquarters": "Abu Dhabi", "website": "https://www.damanhealth.ae/", "categories": ["health"], "isGovernmentBacked": true },
-    { "slug": "oman-insurance", "name": "Oman Insurance Company", "type": "composite", "founded": 1975, "headquarters": "Dubai", "website": "https://www.omaninsurance.ae/", "categories": ["health", "motor", "travel", "term-life"], "isGovernmentBacked": false },
-    { "slug": "axa-gulf", "name": "AXA Gulf (AXA – GIG Gulf)", "type": "composite", "founded": 1951, "headquarters": "Dubai", "website": "https://www.axa-gulf.com/", "categories": ["health", "motor", "travel", "term-life"], "isGovernmentBacked": false },
-    { "slug": "orient-insurance", "name": "Orient Insurance PJSC", "type": "composite", "founded": 1982, "headquarters": "Dubai", "website": "https://www.orientinsurance.ae/", "categories": ["health", "motor", "travel"], "isGovernmentBacked": false },
-    { "slug": "cigna", "name": "Cigna Insurance Middle East", "type": "life-health", "founded": 2002, "headquarters": "Dubai", "website": "https://www.cigna-me.com/", "categories": ["health", "travel", "term-life"], "isGovernmentBacked": false },
-    { "slug": "metlife", "name": "MetLife (ALICO)", "type": "life-health", "founded": 1958, "headquarters": "Dubai", "website": "https://www.metlife.ae/", "categories": ["health", "term-life", "travel"], "isGovernmentBacked": false },
-    { "slug": "adnic", "name": "Abu Dhabi National Insurance Company (ADNIC)", "type": "composite", "founded": 1972, "headquarters": "Abu Dhabi", "website": "https://www.adnic.ae/", "categories": ["health", "motor", "travel"], "isGovernmentBacked": true },
-    { "slug": "allianz", "name": "Allianz Care (formerly Nextcare)", "type": "health-tpa", "founded": 1890, "headquarters": "Dubai", "website": "https://www.allianzcare.com/", "categories": ["health"], "isGovernmentBacked": false },
-    { "slug": "dubai-islamic-insurance", "name": "Dubai Islamic Insurance and Reinsurance Company (AMAN)", "type": "takaful", "founded": 2002, "headquarters": "Dubai", "website": "https://www.aman-diic.com/", "categories": ["health", "motor"], "isGovernmentBacked": false },
-    { "slug": "noor-takaful", "name": "Noor Takaful Family PJSC", "type": "takaful", "founded": 2009, "headquarters": "Dubai", "website": "https://www.noortakaful.com/", "categories": ["health", "motor", "term-life"], "isGovernmentBacked": false },
-    { "slug": "zurich", "name": "Zurich International Life", "type": "life", "founded": 1872, "headquarters": "Dubai", "website": "https://www.zurich.ae/", "categories": ["term-life"], "isGovernmentBacked": false },
-    { "slug": "fwd", "name": "FWD Takaful", "type": "takaful", "founded": 2013, "headquarters": "Dubai", "website": "https://www.fwd.ae/", "categories": ["term-life"], "isGovernmentBacked": false },
-    { "slug": "rsa", "name": "RSA Insurance (now part of Intact)", "type": "general", "founded": 1706, "headquarters": "Dubai", "website": "https://www.rsagroup.ae/", "categories": ["motor"], "isGovernmentBacked": false },
-    { "slug": "adamjee", "name": "Adamjee Insurance (UAE Branch)", "type": "general", "founded": 1960, "headquarters": "Dubai", "website": "https://www.adamjeeinsurance.ae/", "categories": ["motor"], "isGovernmentBacked": false },
-    { "slug": "alliance-insurance", "name": "Alliance Insurance PSC", "type": "composite", "founded": 1975, "headquarters": "Dubai", "website": "https://www.allianceinsurance.ae/", "categories": ["motor"], "isGovernmentBacked": false },
-    { "slug": "sukoon-insurance", "name": "Sukoon Insurance (formerly Abu Dhabi National Takaful)", "type": "takaful", "founded": 2003, "headquarters": "Abu Dhabi", "website": "https://www.sukoon.com/", "categories": ["health", "motor"], "isGovernmentBacked": false },
-    { "slug": "salama-insurance", "name": "SALAMA Islamic Arab Insurance Company", "type": "takaful", "founded": 1979, "headquarters": "Dubai", "website": "https://www.salama.ae/", "categories": ["health", "motor", "term-life"], "isGovernmentBacked": false },
-    { "slug": "tawuniya", "name": "Al Wathba National Insurance Company", "type": "composite", "founded": 1980, "headquarters": "Abu Dhabi", "website": "https://www.alwathba.ae/", "categories": ["motor", "health"], "isGovernmentBacked": false },
-    { "slug": "watania", "name": "National Takaful Company (Watania)", "type": "takaful", "founded": 2011, "headquarters": "Abu Dhabi", "website": "https://www.watania.ae/", "categories": ["motor", "health"], "isGovernmentBacked": false },
-    { "slug": "arab-orient", "name": "Arab Orient Insurance Company", "type": "composite", "founded": 1996, "headquarters": "Dubai", "website": "https://www.araborienti.com/", "categories": ["motor", "health"], "isGovernmentBacked": false },
-    { "slug": "emirates-insurance", "name": "Emirates Insurance Company", "type": "composite", "founded": 1982, "headquarters": "Abu Dhabi", "website": "https://www.emiratesinsurance.ae/", "categories": ["health", "motor", "travel"], "isGovernmentBacked": false }
+    {
+      "slug": "daman",
+      "name": "National Health Insurance Company (Daman)",
+      "type": "health",
+      "founded": 2005,
+      "headquarters": "Abu Dhabi",
+      "website": "https://www.damanhealth.ae/",
+      "categories": [
+        "health"
+      ],
+      "isGovernmentBacked": true,
+      "contact": {
+        "customerCareNumber": "800-42326",
+        "phone": "+971-2-596-6000",
+        "email": "customercare@damanhealth.ae",
+        "address": "ADNEC Area, Sheikh Zayed the First Street, Abu Dhabi",
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "oman-insurance",
+      "name": "Oman Insurance Company",
+      "type": "composite",
+      "founded": 1975,
+      "headquarters": "Dubai",
+      "website": "https://www.omaninsurance.ae/",
+      "categories": [
+        "health",
+        "motor",
+        "travel",
+        "term-life"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "customerCareNumber": "800-4746",
+        "phone": "+971-4-233-4500",
+        "email": "contact@omaninsurance.ae",
+        "address": "Wafi City, Oud Metha, Dubai",
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "axa-gulf",
+      "name": "AXA Gulf (AXA – GIG Gulf)",
+      "type": "composite",
+      "founded": 1951,
+      "headquarters": "Dubai",
+      "website": "https://www.axa-gulf.com/",
+      "categories": [
+        "health",
+        "motor",
+        "travel",
+        "term-life"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "customerCareNumber": "800-292-4843",
+        "phone": "+971-4-324-2424",
+        "email": "customer.service@axa-gulf.com",
+        "address": "Emaar Square, Downtown Dubai",
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "orient-insurance",
+      "name": "Orient Insurance PJSC",
+      "type": "composite",
+      "founded": 1982,
+      "headquarters": "Dubai",
+      "website": "https://www.orientinsurance.ae/",
+      "categories": [
+        "health",
+        "motor",
+        "travel"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "phone": "+971-4-253-8100",
+        "email": "info@orientinsurance.ae",
+        "address": "Orient Insurance Building, Al Maktoum Road, Deira, Dubai",
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "cigna",
+      "name": "Cigna Insurance Middle East",
+      "type": "life-health",
+      "founded": 2002,
+      "headquarters": "Dubai",
+      "website": "https://www.cigna-me.com/",
+      "categories": [
+        "health",
+        "travel",
+        "term-life"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "metlife",
+      "name": "MetLife (ALICO)",
+      "type": "life-health",
+      "founded": 1958,
+      "headquarters": "Dubai",
+      "website": "https://www.metlife.ae/",
+      "categories": [
+        "health",
+        "term-life",
+        "travel"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "adnic",
+      "name": "Abu Dhabi National Insurance Company (ADNIC)",
+      "type": "composite",
+      "founded": 1972,
+      "headquarters": "Abu Dhabi",
+      "website": "https://www.adnic.ae/",
+      "categories": [
+        "health",
+        "motor",
+        "travel"
+      ],
+      "isGovernmentBacked": true,
+      "contact": {
+        "customerCareNumber": "800-23642",
+        "phone": "+971-2-408-0000",
+        "email": "info@adnic.ae",
+        "address": "ADNIC Tower, Khalifa Street, Abu Dhabi",
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "allianz",
+      "name": "Allianz Care (formerly Nextcare)",
+      "type": "health-tpa",
+      "founded": 1890,
+      "headquarters": "Dubai",
+      "website": "https://www.allianzcare.com/",
+      "categories": [
+        "health"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "dubai-islamic-insurance",
+      "name": "Dubai Islamic Insurance and Reinsurance Company (AMAN)",
+      "type": "takaful",
+      "founded": 2002,
+      "headquarters": "Dubai",
+      "website": "https://www.aman-diic.com/",
+      "categories": [
+        "health",
+        "motor"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "noor-takaful",
+      "name": "Noor Takaful Family PJSC",
+      "type": "takaful",
+      "founded": 2009,
+      "headquarters": "Dubai",
+      "website": "https://www.noortakaful.com/",
+      "categories": [
+        "health",
+        "motor",
+        "term-life"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "zurich",
+      "name": "Zurich International Life",
+      "type": "life",
+      "founded": 1872,
+      "headquarters": "Dubai",
+      "website": "https://www.zurich.ae/",
+      "categories": [
+        "term-life"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "fwd",
+      "name": "FWD Takaful",
+      "type": "takaful",
+      "founded": 2013,
+      "headquarters": "Dubai",
+      "website": "https://www.fwd.ae/",
+      "categories": [
+        "term-life"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "rsa",
+      "name": "RSA Insurance (now part of Intact)",
+      "type": "general",
+      "founded": 1706,
+      "headquarters": "Dubai",
+      "website": "https://www.rsagroup.ae/",
+      "categories": [
+        "motor"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "adamjee",
+      "name": "Adamjee Insurance (UAE Branch)",
+      "type": "general",
+      "founded": 1960,
+      "headquarters": "Dubai",
+      "website": "https://www.adamjeeinsurance.ae/",
+      "categories": [
+        "motor"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "alliance-insurance",
+      "name": "Alliance Insurance PSC",
+      "type": "composite",
+      "founded": 1975,
+      "headquarters": "Dubai",
+      "website": "https://www.allianceinsurance.ae/",
+      "categories": [
+        "motor"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "sukoon-insurance",
+      "name": "Sukoon Insurance (formerly Abu Dhabi National Takaful)",
+      "type": "takaful",
+      "founded": 2003,
+      "headquarters": "Abu Dhabi",
+      "website": "https://www.sukoon.com/",
+      "categories": [
+        "health",
+        "motor"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "salama-insurance",
+      "name": "SALAMA Islamic Arab Insurance Company",
+      "type": "takaful",
+      "founded": 1979,
+      "headquarters": "Dubai",
+      "website": "https://www.salama.ae/",
+      "categories": [
+        "health",
+        "motor",
+        "term-life"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "tawuniya",
+      "name": "Al Wathba National Insurance Company",
+      "type": "composite",
+      "founded": 1980,
+      "headquarters": "Abu Dhabi",
+      "website": "https://www.alwathba.ae/",
+      "categories": [
+        "motor",
+        "health"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "watania",
+      "name": "National Takaful Company (Watania)",
+      "type": "takaful",
+      "founded": 2011,
+      "headquarters": "Abu Dhabi",
+      "website": "https://www.watania.ae/",
+      "categories": [
+        "motor",
+        "health"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "arab-orient",
+      "name": "Arab Orient Insurance Company",
+      "type": "composite",
+      "founded": 1996,
+      "headquarters": "Dubai",
+      "website": "https://www.araborienti.com/",
+      "categories": [
+        "motor",
+        "health"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "emirates-insurance",
+      "name": "Emirates Insurance Company",
+      "type": "composite",
+      "founded": 1982,
+      "headquarters": "Abu Dhabi",
+      "website": "https://www.emiratesinsurance.ae/",
+      "categories": [
+        "health",
+        "motor",
+        "travel"
+      ],
+      "isGovernmentBacked": false,
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    }
   ]
 }

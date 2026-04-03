@@ -3,20 +3,310 @@
   "country": "Japan",
   "countryCode": "jp",
   "insurers": [
-    { "slug": "nippon-life", "name": "Nippon Life Insurance Company", "shortName": "Nippon Life", "type": "life", "description": "Japan's largest private life insurer by assets and policies in force.", "headquarters": "Osaka", "established": 1889, "website": "https://www.nissay.co.jp/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life"], "countryCode": "jp" },
-    { "slug": "dai-ichi-life", "name": "Dai-ichi Life Holdings", "shortName": "Dai-ichi Life", "type": "life", "description": "One of Japan's Big 4 life insurers, publicly listed on TSE.", "headquarters": "Tokyo", "established": 1902, "website": "https://www.dai-ichi-life.co.jp/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life"], "countryCode": "jp" },
-    { "slug": "meiji-yasuda", "name": "Meiji Yasuda Life Insurance Company", "shortName": "Meiji Yasuda", "type": "life", "description": "One of Japan's oldest life insurers, member of the Mitsubishi group.", "headquarters": "Tokyo", "established": 1881, "website": "https://www.meijiyasuda.co.jp/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life"], "countryCode": "jp" },
-    { "slug": "sumitomo-life", "name": "Sumitomo Life Insurance Company", "shortName": "Sumitomo Life", "type": "life", "description": "Big 4 life insurer known for Vitality wellness program partnership with Discovery.", "headquarters": "Osaka", "established": 1907, "website": "https://www.sumitomolife.co.jp/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life"], "countryCode": "jp" },
-    { "slug": "aflac-jp", "name": "Aflac Life Insurance Japan", "shortName": "Aflac", "type": "life", "description": "Largest cancer and medical insurance provider in Japan.", "headquarters": "Tokyo", "established": 1974, "website": "https://www.aflac.co.jp/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health"], "countryCode": "jp" },
-    { "slug": "metlife-jp", "name": "MetLife Insurance K.K.", "shortName": "MetLife Japan", "type": "life", "description": "Major foreign life insurer in Japan, part of MetLife Inc.", "headquarters": "Tokyo", "established": 1973, "website": "https://www.metlife.co.jp/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life"], "countryCode": "jp" },
-    { "slug": "sony-life", "name": "Sony Life Insurance Company", "shortName": "Sony Life", "type": "life", "description": "Known for consultation-based life planner sales model, part of Sony Financial Group.", "headquarters": "Tokyo", "established": 1979, "website": "https://www.sonylife.co.jp/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life"], "countryCode": "jp" },
-    { "slug": "orix-life", "name": "Orix Life Insurance", "shortName": "Orix Life", "type": "life", "description": "Online-focused life insurer offering competitive premiums, part of Orix Corporation.", "headquarters": "Tokyo", "established": 1991, "website": "https://www.orixlife.co.jp/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life"], "countryCode": "jp" },
-    { "slug": "lifenet", "name": "Lifenet Insurance Company", "shortName": "Lifenet", "type": "life", "description": "Japan's first online-only life insurer, known for transparent low-cost products.", "headquarters": "Tokyo", "established": 2006, "website": "https://www.lifenet-seimei.co.jp/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life"], "countryCode": "jp" },
-    { "slug": "tokio-marine", "name": "Tokio Marine & Nichido Fire Insurance", "shortName": "Tokio Marine", "type": "general", "description": "Japan's oldest and largest non-life insurer, part of Tokio Marine Holdings.", "headquarters": "Tokyo", "established": 1879, "website": "https://www.tokiomarine-nichido.co.jp/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["motor", "travel"], "countryCode": "jp" },
-    { "slug": "sompo", "name": "Sompo Japan Insurance", "shortName": "Sompo", "type": "general", "description": "One of Japan's top 3 non-life insurers, part of Sompo Holdings.", "headquarters": "Tokyo", "established": 1888, "website": "https://www.sompo-japan.co.jp/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["motor", "travel"], "countryCode": "jp" },
-    { "slug": "mitsui-sumitomo", "name": "Mitsui Sumitomo Insurance", "shortName": "Mitsui Sumitomo", "type": "general", "description": "Major non-life insurer, part of MS&AD Insurance Group Holdings.", "headquarters": "Tokyo", "established": 1918, "website": "https://www.ms-ins.com/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["motor", "travel"], "countryCode": "jp" },
-    { "slug": "axa-direct-jp", "name": "AXA Direct Life / AXA Direct Non-Life", "shortName": "AXA Direct", "type": "composite", "description": "Online insurance arm of AXA in Japan offering life and auto insurance.", "headquarters": "Tokyo", "established": 1999, "website": "https://www.axa-direct.co.jp/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life", "motor"], "countryCode": "jp" },
-    { "slug": "zurich-jp", "name": "Zurich Insurance Japan", "shortName": "Zurich", "type": "general", "description": "Direct auto insurer in Japan backed by the global Zurich Insurance Group.", "headquarters": "Tokyo", "established": 1986, "website": "https://www.zurich.co.jp/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["motor"], "countryCode": "jp" },
-    { "slug": "sbi-insurance-jp", "name": "SBI Insurance Group", "shortName": "SBI Insurance", "type": "composite", "description": "Online insurance provider part of SBI Holdings financial services group.", "headquarters": "Tokyo", "established": 2006, "website": "https://www.sbisonpo.co.jp/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["term-life", "motor"], "countryCode": "jp" }
+    {
+      "slug": "nippon-life",
+      "name": "Nippon Life Insurance Company",
+      "shortName": "Nippon Life",
+      "type": "life",
+      "description": "Japan's largest private life insurer by assets and policies in force.",
+      "headquarters": "Osaka",
+      "established": 1889,
+      "website": "https://www.nissay.co.jp/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "countryCode": "jp",
+      "contact": {
+        "phone": "+81-3-5533-1111",
+        "address": "1-6-6 Marunouchi, Chiyoda-ku, Tokyo 100-8288",
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "dai-ichi-life",
+      "name": "Dai-ichi Life Holdings",
+      "shortName": "Dai-ichi Life",
+      "type": "life",
+      "description": "One of Japan's Big 4 life insurers, publicly listed on TSE.",
+      "headquarters": "Tokyo",
+      "established": 1902,
+      "website": "https://www.dai-ichi-life.co.jp/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "countryCode": "jp",
+      "contact": {
+        "phone": "+81-50-3780-1111",
+        "address": "1-13-1 Yurakucho, Chiyoda-ku, Tokyo 100-8411",
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "meiji-yasuda",
+      "name": "Meiji Yasuda Life Insurance Company",
+      "shortName": "Meiji Yasuda",
+      "type": "life",
+      "description": "One of Japan's oldest life insurers, member of the Mitsubishi group.",
+      "headquarters": "Tokyo",
+      "established": 1881,
+      "website": "https://www.meijiyasuda.co.jp/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "countryCode": "jp",
+      "contact": {
+        "phone": "+81-3-3283-8111",
+        "address": "1-1 Marunouchi 2-chome, Chiyoda-ku, Tokyo 100-0005",
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "sumitomo-life",
+      "name": "Sumitomo Life Insurance Company",
+      "shortName": "Sumitomo Life",
+      "type": "life",
+      "description": "Big 4 life insurer known for Vitality wellness program partnership with Discovery.",
+      "headquarters": "Osaka",
+      "established": 1907,
+      "website": "https://www.sumitomolife.co.jp/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "countryCode": "jp",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "aflac-jp",
+      "name": "Aflac Life Insurance Japan",
+      "shortName": "Aflac",
+      "type": "life",
+      "description": "Largest cancer and medical insurance provider in Japan.",
+      "headquarters": "Tokyo",
+      "established": 1974,
+      "website": "https://www.aflac.co.jp/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health"
+      ],
+      "countryCode": "jp",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "metlife-jp",
+      "name": "MetLife Insurance K.K.",
+      "shortName": "MetLife Japan",
+      "type": "life",
+      "description": "Major foreign life insurer in Japan, part of MetLife Inc.",
+      "headquarters": "Tokyo",
+      "established": 1973,
+      "website": "https://www.metlife.co.jp/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "countryCode": "jp",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "sony-life",
+      "name": "Sony Life Insurance Company",
+      "shortName": "Sony Life",
+      "type": "life",
+      "description": "Known for consultation-based life planner sales model, part of Sony Financial Group.",
+      "headquarters": "Tokyo",
+      "established": 1979,
+      "website": "https://www.sonylife.co.jp/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "countryCode": "jp",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "orix-life",
+      "name": "Orix Life Insurance",
+      "shortName": "Orix Life",
+      "type": "life",
+      "description": "Online-focused life insurer offering competitive premiums, part of Orix Corporation.",
+      "headquarters": "Tokyo",
+      "established": 1991,
+      "website": "https://www.orixlife.co.jp/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "countryCode": "jp",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "lifenet",
+      "name": "Lifenet Insurance Company",
+      "shortName": "Lifenet",
+      "type": "life",
+      "description": "Japan's first online-only life insurer, known for transparent low-cost products.",
+      "headquarters": "Tokyo",
+      "established": 2006,
+      "website": "https://www.lifenet-seimei.co.jp/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "countryCode": "jp",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "tokio-marine",
+      "name": "Tokio Marine & Nichido Fire Insurance",
+      "shortName": "Tokio Marine",
+      "type": "general",
+      "description": "Japan's oldest and largest non-life insurer, part of Tokio Marine Holdings.",
+      "headquarters": "Tokyo",
+      "established": 1879,
+      "website": "https://www.tokiomarine-nichido.co.jp/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "motor",
+        "travel"
+      ],
+      "countryCode": "jp",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "sompo",
+      "name": "Sompo Japan Insurance",
+      "shortName": "Sompo",
+      "type": "general",
+      "description": "One of Japan's top 3 non-life insurers, part of Sompo Holdings.",
+      "headquarters": "Tokyo",
+      "established": 1888,
+      "website": "https://www.sompo-japan.co.jp/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "motor",
+        "travel"
+      ],
+      "countryCode": "jp",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "mitsui-sumitomo",
+      "name": "Mitsui Sumitomo Insurance",
+      "shortName": "Mitsui Sumitomo",
+      "type": "general",
+      "description": "Major non-life insurer, part of MS&AD Insurance Group Holdings.",
+      "headquarters": "Tokyo",
+      "established": 1918,
+      "website": "https://www.ms-ins.com/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "motor",
+        "travel"
+      ],
+      "countryCode": "jp",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "axa-direct-jp",
+      "name": "AXA Direct Life / AXA Direct Non-Life",
+      "shortName": "AXA Direct",
+      "type": "composite",
+      "description": "Online insurance arm of AXA in Japan offering life and auto insurance.",
+      "headquarters": "Tokyo",
+      "established": 1999,
+      "website": "https://www.axa-direct.co.jp/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life",
+        "motor"
+      ],
+      "countryCode": "jp",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "zurich-jp",
+      "name": "Zurich Insurance Japan",
+      "shortName": "Zurich",
+      "type": "general",
+      "description": "Direct auto insurer in Japan backed by the global Zurich Insurance Group.",
+      "headquarters": "Tokyo",
+      "established": 1986,
+      "website": "https://www.zurich.co.jp/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "motor"
+      ],
+      "countryCode": "jp",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "sbi-insurance-jp",
+      "name": "SBI Insurance Group",
+      "shortName": "SBI Insurance",
+      "type": "composite",
+      "description": "Online insurance provider part of SBI Holdings financial services group.",
+      "headquarters": "Tokyo",
+      "established": 2006,
+      "website": "https://www.sbisonpo.co.jp/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "term-life",
+        "motor"
+      ],
+      "countryCode": "jp",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    }
   ]
 }

@@ -180,6 +180,9 @@ export default function Header() {
             <Link href="/insurers" className="px-3 py-1.5 text-[13px] font-medium text-text-secondary hover:text-text-primary hover:bg-surface-sunken rounded-lg transition-all">
               Insurers
             </Link>
+            <Link href="/contact-directory" className="px-3 py-1.5 text-[13px] font-medium text-text-secondary hover:text-text-primary hover:bg-surface-sunken rounded-lg transition-all">
+              Contacts
+            </Link>
             <Link href="/learn" className="px-3 py-1.5 text-[13px] font-medium text-text-secondary hover:text-text-primary hover:bg-surface-sunken rounded-lg transition-all">
               Learn
             </Link>
@@ -268,6 +271,7 @@ export default function Header() {
             <div className="space-y-0.5 pt-3 border-t border-border-light mt-3">
               {[
                 { name: "Insurers", href: "/insurers" },
+                { name: "Contact Directory", href: "/contact-directory" },
                 { name: "Learn", href: "/learn" },
                 { name: "Insights", href: "/insights" },
                 { name: "About", href: "/about" },

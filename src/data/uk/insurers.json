@@ -6,405 +6,691 @@
       "name": "Bupa",
       "shortName": "Bupa",
       "type": "health",
-      "categories": ["health"],
+      "categories": [
+        "health"
+      ],
       "website": "https://www.bupa.co.uk",
       "headquarters": "London",
       "established": 1947,
       "listed": false,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
-      "networkHospitals": { "count": 500, "source": "Bupa recognised facilities (approximate)" },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
+      "networkHospitals": {
+        "count": 500,
+        "source": "Bupa recognised facilities (approximate)"
+      },
       "description": "UK's leading private health insurer. International presence in 190 countries.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "customerCareNumber": "0345-600-8822",
+        "address": "1 Angel Court, London EC2R 7HJ",
+        "socialMedia": {
+          "twitter": "https://twitter.com/BupaUK",
+          "facebook": "https://www.facebook.com/bupa"
+        },
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "axa-health",
       "name": "AXA Health",
       "shortName": "AXA Health",
       "type": "health",
-      "categories": ["health"],
+      "categories": [
+        "health"
+      ],
       "website": "https://www.axahealth.co.uk",
       "headquarters": "Tunbridge Wells, Kent",
       "established": 1985,
       "listed": true,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
-      "networkHospitals": { "count": 400, "source": "AXA Health recognised providers (approximate)" },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
+      "networkHospitals": {
+        "count": 400,
+        "source": "AXA Health recognised providers (approximate)"
+      },
       "description": "Major UK PMI provider. Part of AXA Group (France).",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "aviva",
       "name": "Aviva plc",
       "shortName": "Aviva",
       "type": "multi-line",
-      "categories": ["health", "term-life", "motor", "travel"],
+      "categories": [
+        "health",
+        "term-life",
+        "motor",
+        "travel"
+      ],
       "website": "https://www.aviva.co.uk",
       "headquarters": "London",
       "established": 2000,
       "listed": true,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
-      "networkHospitals": { "count": 350, "source": "Aviva recognised hospitals (approximate)" },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
+      "networkHospitals": {
+        "count": 350,
+        "source": "Aviva recognised hospitals (approximate)"
+      },
       "description": "UK's largest insurer by gross written premiums. Multi-line across life, health, general.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "customerCareNumber": "0800-068-6800",
+        "phone": "+44-20-7283-2000",
+        "address": "St Helen's, 1 Undershaft, London EC3P 3DQ",
+        "socialMedia": {
+          "twitter": "https://twitter.com/aviva",
+          "linkedin": "https://www.linkedin.com/company/aviva"
+        },
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "vitality-health",
       "name": "VitalityHealth",
       "shortName": "Vitality Health",
       "type": "health",
-      "categories": ["health"],
+      "categories": [
+        "health"
+      ],
       "website": "https://www.vitality.co.uk/health-insurance",
       "headquarters": "London",
       "established": 2004,
       "listed": true,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "Health insurance with wellness rewards. Part of Discovery Group (South Africa).",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "vitality-life",
       "name": "VitalityLife",
       "shortName": "Vitality Life",
       "type": "life",
-      "categories": ["term-life"],
+      "categories": [
+        "term-life"
+      ],
       "website": "https://www.vitality.co.uk/life-insurance",
       "headquarters": "London",
       "established": 2007,
       "listed": true,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "Life insurance with wellness incentives. Premiums can decrease with healthy behaviour.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "wpa",
       "name": "WPA (Western Provident Association)",
       "shortName": "WPA",
       "type": "health",
-      "categories": ["health"],
+      "categories": [
+        "health"
+      ],
       "website": "https://www.wpa.org.uk",
       "headquarters": "Taunton, Somerset",
       "established": 1901,
       "listed": false,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "Not-for-profit PMI provider. Known for high customer satisfaction.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "cigna-uk",
       "name": "Cigna Healthcare UK",
       "shortName": "Cigna UK",
       "type": "health",
-      "categories": ["health"],
+      "categories": [
+        "health"
+      ],
       "website": "https://www.cigna.co.uk",
       "headquarters": "Greenock, Scotland",
       "established": 1982,
       "listed": true,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "UK arm of The Cigna Group. Strong in corporate and international health.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "freedom-health",
       "name": "Freedom Health Insurance",
       "shortName": "Freedom Health",
       "type": "health",
-      "categories": ["health"],
+      "categories": [
+        "health"
+      ],
       "website": "https://www.freedomhealthinsurance.co.uk",
       "headquarters": "Stoke-on-Trent",
       "established": 2007,
       "listed": false,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "Smaller PMI provider known for competitive pricing. Part of National Friendly.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "legal-and-general",
       "name": "Legal & General Assurance Society Limited",
       "shortName": "Legal & General",
       "type": "life",
-      "categories": ["term-life"],
+      "categories": [
+        "term-life"
+      ],
       "website": "https://www.legalandgeneral.com",
       "headquarters": "London",
       "established": 1836,
       "listed": true,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "UK's most popular individual life insurer by market share. FTSE 100.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "customerCareNumber": "0370-050-0955",
+        "phone": "+44-20-3124-2000",
+        "address": "One Coleman Street, London EC2R 5AA",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "royal-london",
       "name": "Royal London",
       "shortName": "Royal London",
       "type": "life",
-      "categories": ["term-life"],
+      "categories": [
+        "term-life"
+      ],
       "website": "https://www.royallondon.com",
       "headquarters": "London",
       "established": 1861,
       "listed": false,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "UK's largest mutual life insurer. Known for Helping Hand support service.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "zurich-uk",
       "name": "Zurich Assurance Ltd",
       "shortName": "Zurich UK",
       "type": "multi-line",
-      "categories": ["term-life", "motor"],
+      "categories": [
+        "term-life",
+        "motor"
+      ],
       "website": "https://www.zurich.co.uk",
       "headquarters": "Swindon",
       "established": 1872,
       "listed": true,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "UK arm of Zurich Insurance Group (Switzerland). Life and general insurance.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "customerCareNumber": "0800-232-1234",
+        "address": "Zurich House, 2 Gladiator Way, Farnborough GU14 6GB",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "lv",
       "name": "Liverpool Victoria (LV=)",
       "shortName": "LV=",
       "type": "multi-line",
-      "categories": ["term-life", "motor", "travel"],
+      "categories": [
+        "term-life",
+        "motor",
+        "travel"
+      ],
       "website": "https://www.lv.com",
       "headquarters": "Bournemouth",
       "established": 1843,
       "listed": false,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "Friendly society. Multi-line insurer known for excellent customer service.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "scottish-widows",
       "name": "Scottish Widows Limited",
       "shortName": "Scottish Widows",
       "type": "life",
-      "categories": ["term-life"],
+      "categories": [
+        "term-life"
+      ],
       "website": "https://www.scottishwidows.co.uk",
       "headquarters": "Edinburgh",
       "established": 1815,
       "listed": true,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "Part of Lloyds Banking Group. Sold through Lloyds, Halifax, Bank of Scotland.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "aig-life-uk",
       "name": "AIG Life Limited",
       "shortName": "AIG Life UK",
       "type": "life",
-      "categories": ["term-life"],
+      "categories": [
+        "term-life"
+      ],
       "website": "https://www.aiglife.co.uk",
       "headquarters": "London",
       "established": 2016,
       "listed": true,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "UK life insurance arm of AIG. Known for SmartHealth and competitive pricing.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "guardian",
       "name": "Guardian Financial Services Limited",
       "shortName": "Guardian",
       "type": "life",
-      "categories": ["term-life"],
+      "categories": [
+        "term-life"
+      ],
       "website": "https://www.guardian1821.co.uk",
       "headquarters": "London",
       "established": 2018,
       "listed": false,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "Newer entrant to UK life market. Known for Payout Plus and innovation.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "admiral",
       "name": "Admiral Group plc",
       "shortName": "Admiral",
       "type": "general",
-      "categories": ["motor", "travel"],
+      "categories": [
+        "motor",
+        "travel"
+      ],
       "website": "https://www.admiral.com",
       "headquarters": "Cardiff, Wales",
       "established": 1993,
       "listed": true,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "FTSE 100 insurer. One of the UK's largest motor insurers. MultiCar specialist.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "customerCareNumber": "0333-220-2000",
+        "address": "Ty Admiral, David Street, Cardiff CF10 2EH",
+        "socialMedia": {
+          "twitter": "https://twitter.com/AdmiralUK",
+          "facebook": "https://www.facebook.com/AdmiralUK"
+        },
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "direct-line",
       "name": "Direct Line Insurance Group plc",
       "shortName": "Direct Line",
       "type": "general",
-      "categories": ["motor", "travel"],
+      "categories": [
+        "motor",
+        "travel"
+      ],
       "website": "https://www.directline.com",
       "headquarters": "London",
       "established": 1985,
       "listed": true,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "Major UK insurer. Sells direct only — not on comparison sites. Also owns Churchill.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "customerCareNumber": "0345-246-8704",
+        "address": "Churchill Court, Westmoreland Road, Bromley BR1 1DP",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "churchill",
       "name": "Churchill Insurance (Direct Line Group)",
       "shortName": "Churchill",
       "type": "general",
-      "categories": ["motor"],
+      "categories": [
+        "motor"
+      ],
       "website": "https://www.churchill.com",
       "headquarters": "London",
       "established": 1989,
       "listed": true,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "Part of Direct Line Group. Available on price comparison sites.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "more-than",
       "name": "MORE TH>N (RSA Group / Intact)",
       "shortName": "MORE TH>N",
       "type": "general",
-      "categories": ["motor"],
+      "categories": [
+        "motor"
+      ],
       "website": "https://www.morethan.com",
       "headquarters": "London",
       "established": 2001,
       "listed": true,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "RSA's direct consumer brand. Now part of Intact Financial (Canada).",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "hastings-direct",
       "name": "Hastings Insurance Services Limited",
       "shortName": "Hastings Direct",
       "type": "general",
-      "categories": ["motor"],
+      "categories": [
+        "motor"
+      ],
       "website": "https://www.hastingsdirect.com",
       "headquarters": "Bexhill-on-Sea, East Sussex",
       "established": 1997,
       "listed": true,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "Budget-friendly motor insurer. Part of Sampo Group (Finland).",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "esure",
       "name": "esure Group plc",
       "shortName": "esure",
       "type": "general",
-      "categories": ["motor"],
+      "categories": [
+        "motor"
+      ],
       "website": "https://www.esure.com",
       "headquarters": "Reigate, Surrey",
       "established": 2000,
       "listed": true,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "Digital-first insurer. Also owns Sheilas' Wheels brand.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "by-miles",
       "name": "By Miles Ltd",
       "shortName": "By Miles",
       "type": "general",
-      "categories": ["motor"],
+      "categories": [
+        "motor"
+      ],
       "website": "https://www.bymiles.co.uk",
       "headquarters": "London",
       "established": 2017,
       "listed": false,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "UK's first pay-per-mile car insurer. Ideal for low-mileage drivers.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "post-office",
       "name": "Post Office Travel Insurance",
       "shortName": "Post Office",
       "type": "general",
-      "categories": ["travel"],
+      "categories": [
+        "travel"
+      ],
       "website": "https://www.postoffice.co.uk/travel-insurance",
       "headquarters": "London",
       "established": 1999,
       "listed": false,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "Consistently top-rated UK travel insurance provider. Defaqto 5-star.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "staysure",
       "name": "Staysure Travel Insurance",
       "shortName": "Staysure",
       "type": "general",
-      "categories": ["travel"],
+      "categories": [
+        "travel"
+      ],
       "website": "https://www.staysure.co.uk",
       "headquarters": "Northampton",
       "established": 2004,
       "listed": false,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "Specialist in over-50s and medical conditions travel insurance.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "allclear",
       "name": "AllClear Travel Insurance",
       "shortName": "AllClear",
       "type": "general",
-      "categories": ["travel"],
+      "categories": [
+        "travel"
+      ],
       "website": "https://www.allcleartravel.co.uk",
       "headquarters": "Romford, Essex",
       "established": 2000,
       "listed": false,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "Specialist in pre-existing medical conditions travel insurance.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "columbus-direct",
       "name": "Columbus Direct",
       "shortName": "Columbus Direct",
       "type": "general",
-      "categories": ["travel"],
+      "categories": [
+        "travel"
+      ],
       "website": "https://www.columbusdirect.com",
       "headquarters": "London",
       "established": 1988,
       "listed": false,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "Long-established travel insurer. Good for adventure and long-stay travel.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "world-nomads-uk",
       "name": "World Nomads Group Pty Ltd (UK)",
       "shortName": "World Nomads UK",
       "type": "general",
-      "categories": ["travel"],
+      "categories": [
+        "travel"
+      ],
       "website": "https://www.worldnomads.com",
       "headquarters": "Sydney, Australia (UK operations)",
       "established": 2002,
       "listed": false,
-      "claimSettlementRatio": { "value": null, "year": null, "verified": false },
+      "claimSettlementRatio": {
+        "value": null,
+        "year": null,
+        "verified": false
+      },
       "networkHospitals": null,
       "description": "Popular with backpackers and adventure travellers. Can buy while travelling.",
-      "countryCode": "uk"
+      "countryCode": "uk",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
     }
   ]
 }

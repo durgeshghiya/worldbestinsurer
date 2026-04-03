@@ -3,17 +3,255 @@
   "country": "South Korea",
   "countryCode": "kr",
   "insurers": [
-    { "slug": "samsung-life", "name": "Samsung Life Insurance", "shortName": "Samsung Life", "type": "life", "description": "South Korea's largest life insurer, part of the Samsung Group.", "headquarters": "Seoul", "established": 1957, "website": "https://www.samsunglife.com/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life"], "countryCode": "kr" },
-    { "slug": "hanwha-life", "name": "Hanwha Life Insurance", "shortName": "Hanwha Life", "type": "life", "description": "Korea's second largest life insurer, part of the Hanwha Group.", "headquarters": "Seoul", "established": 1946, "website": "https://www.hanwhalife.com/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life"], "countryCode": "kr" },
-    { "slug": "kyobo-life", "name": "Kyobo Life Insurance", "shortName": "Kyobo Life", "type": "life", "description": "Third largest life insurer in Korea, known for its educational philosophy.", "headquarters": "Seoul", "established": 1958, "website": "https://www.kyobo.co.kr/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life"], "countryCode": "kr" },
-    { "slug": "mirae-asset", "name": "Mirae Asset Life Insurance", "shortName": "Mirae Asset Life", "type": "life", "description": "Part of the Mirae Asset Financial Group, combining insurance with investment.", "headquarters": "Seoul", "established": 1988, "website": "https://life.miraeasset.com/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life"], "countryCode": "kr" },
-    { "slug": "db-insurance", "name": "DB Insurance Co., Ltd.", "shortName": "DB Insurance", "type": "general", "description": "Formerly Dongbu Insurance, a leading non-life insurer in Korea.", "headquarters": "Seoul", "established": 1962, "website": "https://www.idbins.com/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life", "motor", "travel"], "countryCode": "kr" },
-    { "slug": "kb-insurance", "name": "KB Insurance Co., Ltd.", "shortName": "KB Insurance", "type": "general", "description": "Part of KB Financial Group, one of Korea's largest financial conglomerates.", "headquarters": "Seoul", "established": 1959, "website": "https://www.kbinsure.co.kr/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "motor", "travel"], "countryCode": "kr" },
-    { "slug": "meritz-fire", "name": "Meritz Fire & Marine Insurance", "shortName": "Meritz Fire", "type": "general", "description": "Leading non-life insurer known for competitive pricing and fast claims.", "headquarters": "Seoul", "established": 1922, "website": "https://www.meritzfire.com/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "motor", "travel"], "countryCode": "kr" },
-    { "slug": "hyundai-marine", "name": "Hyundai Marine & Fire Insurance", "shortName": "Hyundai Marine", "type": "general", "description": "Non-life insurer affiliated with Hyundai Motor Group.", "headquarters": "Seoul", "established": 1955, "website": "https://www.hi.co.kr/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "motor", "travel"], "countryCode": "kr" },
-    { "slug": "samsung-fire", "name": "Samsung Fire & Marine Insurance", "shortName": "Samsung Fire", "type": "general", "description": "Korea's largest non-life insurer, part of the Samsung Group.", "headquarters": "Seoul", "established": 1952, "website": "https://www.samsungfire.com/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "motor", "travel"], "countryCode": "kr" },
-    { "slug": "shinhan-life", "name": "Shinhan Life Insurance", "shortName": "Shinhan Life", "type": "life", "description": "Part of Shinhan Financial Group with extensive bancassurance channel.", "headquarters": "Seoul", "established": 1990, "website": "https://www.shinhanlife.co.kr/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["health", "term-life"], "countryCode": "kr" },
-    { "slug": "heungkuk-life", "name": "Heungkuk Life Insurance", "shortName": "Heungkuk Life", "type": "life", "description": "Established mid-tier Korean life insurer.", "headquarters": "Seoul", "established": 1950, "website": "https://www.heungkuklife.co.kr/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["term-life"], "countryCode": "kr" },
-    { "slug": "nh-insurance", "name": "NH Insurance (NongHyup)", "shortName": "NH Insurance", "type": "composite", "description": "Insurance arm of NongHyup agricultural cooperative with extensive nationwide reach.", "headquarters": "Seoul", "established": 2012, "website": "https://www.nhlife.co.kr/", "claimSettlementRatio": null, "networkHospitals": null, "categories": ["term-life", "motor", "travel"], "countryCode": "kr" }
+    {
+      "slug": "samsung-life",
+      "name": "Samsung Life Insurance",
+      "shortName": "Samsung Life",
+      "type": "life",
+      "description": "South Korea's largest life insurer, part of the Samsung Group.",
+      "headquarters": "Seoul",
+      "established": 1957,
+      "website": "https://www.samsunglife.com/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "countryCode": "kr",
+      "contact": {
+        "customerCareNumber": "1588-3114",
+        "address": "55 Sejong-daero, Jung-gu, Seoul",
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "hanwha-life",
+      "name": "Hanwha Life Insurance",
+      "shortName": "Hanwha Life",
+      "type": "life",
+      "description": "Korea's second largest life insurer, part of the Hanwha Group.",
+      "headquarters": "Seoul",
+      "established": 1946,
+      "website": "https://www.hanwhalife.com/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "countryCode": "kr",
+      "contact": {
+        "customerCareNumber": "1588-6363",
+        "address": "86 Cheonggyecheon-ro, Jung-gu, Seoul",
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "kyobo-life",
+      "name": "Kyobo Life Insurance",
+      "shortName": "Kyobo Life",
+      "type": "life",
+      "description": "Third largest life insurer in Korea, known for its educational philosophy.",
+      "headquarters": "Seoul",
+      "established": 1958,
+      "website": "https://www.kyobo.co.kr/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "countryCode": "kr",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "mirae-asset",
+      "name": "Mirae Asset Life Insurance",
+      "shortName": "Mirae Asset Life",
+      "type": "life",
+      "description": "Part of the Mirae Asset Financial Group, combining insurance with investment.",
+      "headquarters": "Seoul",
+      "established": 1988,
+      "website": "https://life.miraeasset.com/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "countryCode": "kr",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "db-insurance",
+      "name": "DB Insurance Co., Ltd.",
+      "shortName": "DB Insurance",
+      "type": "general",
+      "description": "Formerly Dongbu Insurance, a leading non-life insurer in Korea.",
+      "headquarters": "Seoul",
+      "established": 1962,
+      "website": "https://www.idbins.com/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life",
+        "motor",
+        "travel"
+      ],
+      "countryCode": "kr",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "kb-insurance",
+      "name": "KB Insurance Co., Ltd.",
+      "shortName": "KB Insurance",
+      "type": "general",
+      "description": "Part of KB Financial Group, one of Korea's largest financial conglomerates.",
+      "headquarters": "Seoul",
+      "established": 1959,
+      "website": "https://www.kbinsure.co.kr/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "motor",
+        "travel"
+      ],
+      "countryCode": "kr",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "meritz-fire",
+      "name": "Meritz Fire & Marine Insurance",
+      "shortName": "Meritz Fire",
+      "type": "general",
+      "description": "Leading non-life insurer known for competitive pricing and fast claims.",
+      "headquarters": "Seoul",
+      "established": 1922,
+      "website": "https://www.meritzfire.com/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "motor",
+        "travel"
+      ],
+      "countryCode": "kr",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "hyundai-marine",
+      "name": "Hyundai Marine & Fire Insurance",
+      "shortName": "Hyundai Marine",
+      "type": "general",
+      "description": "Non-life insurer affiliated with Hyundai Motor Group.",
+      "headquarters": "Seoul",
+      "established": 1955,
+      "website": "https://www.hi.co.kr/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "motor",
+        "travel"
+      ],
+      "countryCode": "kr",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "samsung-fire",
+      "name": "Samsung Fire & Marine Insurance",
+      "shortName": "Samsung Fire",
+      "type": "general",
+      "description": "Korea's largest non-life insurer, part of the Samsung Group.",
+      "headquarters": "Seoul",
+      "established": 1952,
+      "website": "https://www.samsungfire.com/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "motor",
+        "travel"
+      ],
+      "countryCode": "kr",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "shinhan-life",
+      "name": "Shinhan Life Insurance",
+      "shortName": "Shinhan Life",
+      "type": "life",
+      "description": "Part of Shinhan Financial Group with extensive bancassurance channel.",
+      "headquarters": "Seoul",
+      "established": 1990,
+      "website": "https://www.shinhanlife.co.kr/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "health",
+        "term-life"
+      ],
+      "countryCode": "kr",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "heungkuk-life",
+      "name": "Heungkuk Life Insurance",
+      "shortName": "Heungkuk Life",
+      "type": "life",
+      "description": "Established mid-tier Korean life insurer.",
+      "headquarters": "Seoul",
+      "established": 1950,
+      "website": "https://www.heungkuklife.co.kr/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "term-life"
+      ],
+      "countryCode": "kr",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    },
+    {
+      "slug": "nh-insurance",
+      "name": "NH Insurance (NongHyup)",
+      "shortName": "NH Insurance",
+      "type": "composite",
+      "description": "Insurance arm of NongHyup agricultural cooperative with extensive nationwide reach.",
+      "headquarters": "Seoul",
+      "established": 2012,
+      "website": "https://www.nhlife.co.kr/",
+      "claimSettlementRatio": null,
+      "networkHospitals": null,
+      "categories": [
+        "term-life",
+        "motor",
+        "travel"
+      ],
+      "countryCode": "kr",
+      "contact": {
+        "lastVerified": "2026-04-03"
+      }
+    }
   ]
 }

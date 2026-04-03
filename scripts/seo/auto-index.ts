@@ -70,7 +70,7 @@ function getAllURLs(): string[] {
 
   // Static pages
   urls.push("/");
-  urls.push("/about/", "/contact/", "/disclaimer/", "/methodology/", "/waitlist/", "/insurers/", "/learn/", "/insights/");
+  urls.push("/about/", "/contact/", "/disclaimer/", "/methodology/", "/waitlist/", "/insurers/", "/learn/", "/insights/", "/contact-directory/");
 
   // Country pages
   for (const cc of countryCodes) {

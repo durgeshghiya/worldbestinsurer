@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowLeft, ExternalLink, MapPin, Calendar, Building2, TrendingUp, ArrowUpRight } from "lucide-react";
+import { ArrowLeft, ExternalLink, MapPin, Calendar, Building2, TrendingUp, ArrowUpRight, Phone, Mail, Headphones, PhoneCall, AlertCircle } from "lucide-react";
+import CopyButton from "@/components/CopyButton";
 import { getAllInsurers, getInsurerBySlug, getProductsByInsurer } from "@/lib/data";
 import { getCountryByCode, VALID_COUNTRY_CODES } from "@/lib/countries";
 import { formatCompact } from "@/lib/utils";
@@ -80,6 +81,101 @@ export default async function CountryInsurerPage({ params }: { params: Promise<{
           </div>
         )}
       </div>
+
+      {/* Contact Information */}
+      {insurer.contact && (insurer.contact.customerCareNumber || insurer.contact.email || insurer.contact.phone) && (
+        <div className="mb-10">
+          <h2 className="text-[20px] font-bold text-text-primary mb-4">Contact Information</h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            <div className="bg-surface rounded-xl border border-border p-5 space-y-3">
+              {insurer.contact.customerCareNumber && (
+                <div className="flex items-center gap-3">
+                  <Headphones className="w-4 h-4 text-primary shrink-0" />
+                  <div className="min-w-0">
+                    <p className="text-[11px] text-text-tertiary">Customer Care</p>
+                    <div className="flex items-center gap-1">
+                      <a href={`tel:${insurer.contact.customerCareNumber.replace(/\s/g, "")}`} className="text-[14px] font-semibold text-text-primary hover:text-primary transition-colors">
+                        {insurer.contact.customerCareNumber}
+                      </a>
+                      <CopyButton text={insurer.contact.customerCareNumber} />
+                    </div>
+                  </div>
+                </div>
+              )}
+              {insurer.contact.claimHelpline && insurer.contact.claimHelpline !== insurer.contact.customerCareNumber && (
+                <div className="flex items-center gap-3">
+                  <PhoneCall className="w-4 h-4 text-amber-600 shrink-0" />
+                  <div className="min-w-0">
+                    <p className="text-[11px] text-text-tertiary">Claim Helpline</p>
+                    <div className="flex items-center gap-1">
+                      <a href={`tel:${insurer.contact.claimHelpline.replace(/\s/g, "")}`} className="text-[14px] font-semibold text-text-primary hover:text-primary transition-colors">
+                        {insurer.contact.claimHelpline}
+                      </a>
+                      <CopyButton text={insurer.contact.claimHelpline} />
+                    </div>
+                  </div>
+                </div>
+              )}
+              {insurer.contact.email && (
+                <div className="flex items-center gap-3">
+                  <Mail className="w-4 h-4 text-text-tertiary shrink-0" />
+                  <div className="min-w-0">
+                    <p className="text-[11px] text-text-tertiary">Email</p>
+                    <div className="flex items-center gap-1">
+                      <a href={`mailto:${insurer.contact.email}`} className="text-[14px] text-text-primary hover:text-primary transition-colors truncate">
+                        {insurer.contact.email}
+                      </a>
+                      <CopyButton text={insurer.contact.email} />
+                    </div>
+                  </div>
+                </div>
+              )}
+              {insurer.contact.grievanceEmail && (
+                <div className="flex items-center gap-3">
+                  <AlertCircle className="w-4 h-4 text-red-400 shrink-0" />
+                  <div className="min-w-0">
+                    <p className="text-[11px] text-text-tertiary">Grievance</p>
+                    <div className="flex items-center gap-1">
+                      <a href={`mailto:${insurer.contact.grievanceEmail}`} className="text-[14px] text-text-primary hover:text-primary transition-colors truncate">
+                        {insurer.contact.grievanceEmail}
+                      </a>
+                      <CopyButton text={insurer.contact.grievanceEmail} />
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+            {(insurer.contact.address || insurer.contact.socialMedia) && (
+              <div className="bg-surface rounded-xl border border-border p-5 space-y-3">
+                {insurer.contact.address && (
+                  <div className="flex items-start gap-3">
+                    <Building2 className="w-4 h-4 text-text-tertiary shrink-0 mt-0.5" />
+                    <div>
+                      <p className="text-[11px] text-text-tertiary">Registered Office</p>
+                      <p className="text-[13px] text-text-secondary leading-relaxed">{insurer.contact.address}</p>
+                    </div>
+                  </div>
+                )}
+                {insurer.contact.socialMedia && Object.entries(insurer.contact.socialMedia).some(([, v]) => v) && (
+                  <div>
+                    <p className="text-[11px] text-text-tertiary mb-2">Social Media</p>
+                    <div className="flex flex-wrap gap-2">
+                      {Object.entries(insurer.contact.socialMedia).map(([platform, url]) =>
+                        url ? (
+                          <a key={platform} href={url} target="_blank" rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-surface-sunken rounded-lg text-xs font-medium text-text-secondary hover:text-primary hover:bg-primary/5 transition-colors capitalize">
+                            {platform}
+                          </a>
+                        ) : null
+                      )}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+      )}
 
       <h2 className="text-[20px] font-bold text-text-primary mb-4">Products on World Best Insurer ({products.length})</h2>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
