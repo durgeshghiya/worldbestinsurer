@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { readJson, appendToJsonArray } from "@/lib/storage";
 
 /**
  * Click Tracking API (Vercel-compatible)
@@ -28,7 +27,24 @@ export async function POST(request: NextRequest) {
     console.log(JSON.stringify(click, null, 2));
     console.log("═══════════════════════");
 
-    appendToJsonArray("clicks.json", click);
+    // Non-critical /tmp write
+    try {
+      const fs = await import("fs");
+      const path = await import("path");
+      const tmpPath = path.join(
+        process.env.VERCEL ? "/tmp" : path.join(process.cwd(), "data"),
+        "clicks.json"
+      );
+      const dir = path.dirname(tmpPath);
+      if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+      const existing = fs.existsSync(tmpPath)
+        ? JSON.parse(fs.readFileSync(tmpPath, "utf-8"))
+        : [];
+      existing.push(click);
+      fs.writeFileSync(tmpPath, JSON.stringify(existing, null, 2), "utf-8");
+    } catch (fsErr) {
+      console.warn("[clicks] /tmp write skipped:", fsErr);
+    }
 
     return NextResponse.json({ success: true, clickId: click.id });
   } catch {
@@ -37,6 +53,5 @@ export async function POST(request: NextRequest) {
 }
 
 export async function GET() {
-  const clicks = readJson<unknown[]>("clicks.json", []);
-  return NextResponse.json({ totalClicks: clicks.length });
+  return NextResponse.json({ status: "ok", endpoint: "/api/clicks", method: "POST" });
 }

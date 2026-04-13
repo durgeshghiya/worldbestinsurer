@@ -1,11 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
-import { readJson, appendToJsonArray } from "@/lib/storage";
 
 /**
  * Lead Capture API (Vercel-compatible)
  *
  * POST /api/leads — capture a lead from product quote forms
- * GET  /api/leads — admin: lead count summary
+ * GET  /api/leads — health check
  */
 
 export async function POST(request: NextRequest) {
@@ -43,7 +42,24 @@ export async function POST(request: NextRequest) {
     console.log(JSON.stringify(lead, null, 2));
     console.log("═════════════════");
 
-    appendToJsonArray("leads.json", lead);
+    // Non-critical /tmp write
+    try {
+      const fs = await import("fs");
+      const path = await import("path");
+      const tmpPath = path.join(
+        process.env.VERCEL ? "/tmp" : path.join(process.cwd(), "data"),
+        "leads.json"
+      );
+      const dir = path.dirname(tmpPath);
+      if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+      const existing = fs.existsSync(tmpPath)
+        ? JSON.parse(fs.readFileSync(tmpPath, "utf-8"))
+        : [];
+      existing.push(lead);
+      fs.writeFileSync(tmpPath, JSON.stringify(existing, null, 2), "utf-8");
+    } catch (fsErr) {
+      console.warn("[leads] /tmp write skipped:", fsErr);
+    }
 
     return NextResponse.json({
       success: true,
@@ -57,6 +73,5 @@ export async function POST(request: NextRequest) {
 }
 
 export async function GET() {
-  const leads = readJson<unknown[]>("leads.json", []);
-  return NextResponse.json({ totalLeads: leads.length });
+  return NextResponse.json({ status: "ok", endpoint: "/api/leads", method: "POST" });
 }

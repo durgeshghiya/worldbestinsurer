@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { readJson, appendToJsonArray } from "@/lib/storage";
 
 /**
  * Reviews API (Vercel-compatible)
@@ -16,13 +15,28 @@ interface Review {
   createdAt: string;
 }
 
+function readReviews(): Review[] {
+  try {
+    const fs = require("fs");
+    const path = require("path");
+    const tmpPath = path.join(
+      process.env.VERCEL ? "/tmp" : path.join(process.cwd(), "data"),
+      "reviews.json"
+    );
+    if (!fs.existsSync(tmpPath)) return [];
+    return JSON.parse(fs.readFileSync(tmpPath, "utf-8"));
+  } catch {
+    return [];
+  }
+}
+
 export async function GET(request: NextRequest) {
   const productId = request.nextUrl.searchParams.get("productId");
   if (!productId) {
     return NextResponse.json({ error: "productId required" }, { status: 400 });
   }
 
-  const allReviews = readJson<Review[]>("reviews.json", []);
+  const allReviews = readReviews();
   const reviews = allReviews.filter((r) => r.productId === productId);
 
   const count = reviews.length;
@@ -73,7 +87,22 @@ export async function POST(request: NextRequest) {
     console.log(JSON.stringify(review, null, 2));
     console.log("═══════════════════");
 
-    appendToJsonArray("reviews.json", review);
+    // Non-critical /tmp write
+    try {
+      const fs = await import("fs");
+      const path = await import("path");
+      const tmpPath = path.join(
+        process.env.VERCEL ? "/tmp" : path.join(process.cwd(), "data"),
+        "reviews.json"
+      );
+      const dir = path.dirname(tmpPath);
+      if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+      const existing = readReviews();
+      existing.push(review);
+      fs.writeFileSync(tmpPath, JSON.stringify(existing, null, 2), "utf-8");
+    } catch (fsErr) {
+      console.warn("[reviews] /tmp write skipped:", fsErr);
+    }
 
     return NextResponse.json({ success: true, reviewId: review.id });
   } catch {

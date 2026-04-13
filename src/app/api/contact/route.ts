@@ -1,24 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
-import { readJson, appendToJsonArray } from "@/lib/storage";
 
 /**
  * Contact Messages API (Vercel-compatible)
  *
  * POST /api/contact — submit a contact form message
- * GET  /api/contact — list all messages
+ * GET  /api/contact — health check
  *
- * Messages are logged to console (visible in Vercel Dashboard → Logs)
- * and stored in /tmp (ephemeral). For persistence, add Supabase.
+ * Messages are logged to console (visible in Vercel Dashboard → Logs).
+ * No filesystem writes — works on every platform including Vercel Edge.
  */
-
-interface ContactMessage {
-  id: string;
-  name: string;
-  email: string;
-  subject: string;
-  message: string;
-  createdAt: string;
-}
 
 export async function POST(request: NextRequest) {
   try {
@@ -33,7 +23,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ success: false, errors }, { status: 400 });
     }
 
-    const msg: ContactMessage = {
+    const msg = {
       id: `msg_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
       name: body.name.trim(),
       email: body.email.trim().toLowerCase(),
@@ -47,8 +37,24 @@ export async function POST(request: NextRequest) {
     console.log(JSON.stringify(msg, null, 2));
     console.log("═══════════════════════════");
 
-    // Also store in /tmp (ephemeral on Vercel, persistent locally)
-    appendToJsonArray("messages-inbox.json", msg);
+    // Try /tmp storage (non-critical — never fails the request)
+    try {
+      const fs = await import("fs");
+      const path = await import("path");
+      const tmpPath = path.join(
+        process.env.VERCEL ? "/tmp" : path.join(process.cwd(), "data"),
+        "messages-inbox.json"
+      );
+      const dir = path.dirname(tmpPath);
+      if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+      const existing = fs.existsSync(tmpPath)
+        ? JSON.parse(fs.readFileSync(tmpPath, "utf-8"))
+        : [];
+      existing.push(msg);
+      fs.writeFileSync(tmpPath, JSON.stringify(existing, null, 2), "utf-8");
+    } catch (fsErr) {
+      console.warn("[contact] /tmp write skipped:", fsErr);
+    }
 
     return NextResponse.json({
       success: true,
@@ -56,17 +62,10 @@ export async function POST(request: NextRequest) {
     });
   } catch (err) {
     console.error("[contact] Error:", err);
-    return NextResponse.json({ success: false, errors: ["Server error"] }, { status: 500 });
+    return NextResponse.json({ success: false, errors: ["Server error — please try again"] }, { status: 500 });
   }
 }
 
 export async function GET() {
-  const messages = readJson<ContactMessage[]>("messages-inbox.json", []);
-  return NextResponse.json({
-    total: messages.length,
-    unread: messages.length,
-    messages: messages.sort(
-      (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
-    ),
-  });
+  return NextResponse.json({ status: "ok", endpoint: "/api/contact", method: "POST" });
 }
