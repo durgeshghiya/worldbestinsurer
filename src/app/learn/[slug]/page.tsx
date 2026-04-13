@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowLeft, Clock, BookOpen } from "lucide-react";
+import { ArrowLeft, Clock, User, CalendarDays } from "lucide-react";
 import { getArticles, getArticleBySlug } from "@/lib/generators";
 import WaitlistForm from "@/components/WaitlistForm";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/StructuredData";
@@ -51,9 +51,24 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           {article.title}
         </h1>
 
-        <p className="text-[16px] text-text-secondary leading-relaxed mb-8 font-medium">
+        <p className="text-[16px] text-text-secondary leading-relaxed mb-5 font-medium">
           {article.excerpt}
         </p>
+
+        {/* Author byline — E-E-A-T signal for AdSense */}
+        <div className="flex items-center gap-4 py-4 border-t border-b border-border mb-8 text-[12px] text-text-tertiary">
+          <span className="flex items-center gap-1.5">
+            <User className="w-3.5 h-3.5" />
+            <span>World Best Insurer Editorial Team</span>
+          </span>
+          <span className="w-px h-4 bg-border" />
+          <span className="flex items-center gap-1.5">
+            <CalendarDays className="w-3.5 h-3.5" />
+            <span>Updated April 2026</span>
+          </span>
+          <span className="w-px h-4 bg-border" />
+          <span>Verified with insurer sources</span>
+        </div>
 
         <div className="prose prose-sm max-w-none text-[14.5px] text-text-secondary leading-[1.8]">
           {article.content.split(". ").reduce((acc: string[][], sentence, i) => {

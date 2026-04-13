@@ -33,7 +33,7 @@ const sections = [
     title: "Legal",
     links: [
       { name: "Disclaimer", href: "/disclaimer" },
-      { name: "Privacy Policy", href: "/disclaimer#privacy" },
+      { name: "Privacy Policy", href: "/privacy-policy" },
       { name: "Terms of Use", href: "/disclaimer#terms" },
     ],
   },
