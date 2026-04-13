@@ -1,6 +1,6 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -159,6 +159,319 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "income-term-life-sg",
+      "insurerName": "Income Insurance (NTUC Income)",
+      "insurerSlug": "income-insurance",
+      "productName": "Star Term Assurance",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 99
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 5000000,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 300,
+        "illustrativeMax": 900,
+        "assumptions": "Annual, 35yo, SGD 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Conversion privilege",
+        "Retrenchment benefit"
+      ],
+      "keyExclusions": [
+        "Suicide within 1yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 97,
+        "year": "2024",
+        "source": "MAS"
+      },
+      "riders": [
+        "Critical Illness",
+        "Accident",
+        "Disability Income",
+        "Premium waiver"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 40,
+        "options": []
+      },
+      "renewability": "Renewable & convertible",
+      "specialFeatures": [
+        "Cooperative – social mission",
+        "Retrenchment benefit included",
+        "Cover up to 99",
+        "SAF MINDEF group advantage"
+      ],
+      "sourceUrl": "https://www.income.com.sg/life-insurance/star-term-assurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "great-eastern-term-sg",
+      "insurerName": "Great Eastern Life",
+      "insurerSlug": "great-eastern-sg",
+      "productName": "DIRECT Term Assurance",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 85
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 2000000,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 280,
+        "illustrativeMax": 850,
+        "assumptions": "Annual, 35yo, SGD 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Total & permanent disability",
+        "Conversion option"
+      ],
+      "keyExclusions": [
+        "Suicide within 1yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 97,
+        "year": "2024",
+        "source": "MAS"
+      },
+      "riders": [
+        "Critical Illness",
+        "Accident"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 40,
+        "options": []
+      },
+      "renewability": "Renewable & convertible",
+      "specialFeatures": [
+        "Oldest Singapore insurer (1908)",
+        "Direct purchase plan (no advisor)",
+        "OCBC Group",
+        "Affordable no-frills protection"
+      ],
+      "sourceUrl": "https://www.greateasternlife.com/sg/en/personal-insurance/our-products/term-insurance.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "manulife-readyprotect-sg",
+      "insurerName": "Manulife Singapore",
+      "insurerSlug": "manulife-sg",
+      "productName": "ManuProtect Term Plus",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 85
+      },
+      "sumInsured": {
+        "min": 200000,
+        "max": 10000000,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 320,
+        "illustrativeMax": 950,
+        "assumptions": "Annual, 35yo, SGD 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Total & permanent disability",
+        "CI early detection option"
+      ],
+      "keyExclusions": [
+        "Suicide within 1yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 97,
+        "year": "2024",
+        "source": "MAS"
+      },
+      "riders": [
+        "MultiCare Critical Illness",
+        "Accident & disability"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 40,
+        "options": []
+      },
+      "renewability": "Renewable & convertible",
+      "specialFeatures": [
+        "Manulife Canada group",
+        "High sum assured available",
+        "MultiCare CI with multiple claims",
+        "Digital-first experience"
+      ],
+      "sourceUrl": "https://www.manulife.com.sg/term-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "tokio-marine-term-sg",
+      "insurerName": "Tokio Marine Insurance Singapore",
+      "insurerSlug": "tokio-marine-sg",
+      "productName": "TM Term Assure",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 85
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 5000000,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 290,
+        "illustrativeMax": 880,
+        "assumptions": "Annual, 35yo, SGD 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "Total & permanent disability",
+        "Conversion option"
+      ],
+      "keyExclusions": [
+        "Suicide within 1yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 96,
+        "year": "2024",
+        "source": "MAS"
+      },
+      "riders": [
+        "Critical Illness",
+        "Accident",
+        "Disability Income"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 40,
+        "options": []
+      },
+      "renewability": "Renewable & convertible",
+      "specialFeatures": [
+        "Tokio Marine Japan backing",
+        "Competitive premiums",
+        "Long-term renewability",
+        "Strong reinsurance"
+      ],
+      "sourceUrl": "https://www.tokiomarine.com.sg/life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "zurich-term-sg",
+      "insurerName": "Zurich Life Insurance Singapore",
+      "insurerSlug": "zurich-sg",
+      "productName": "Zurich Term Protect",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 85
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 5000000,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 310,
+        "illustrativeMax": 920,
+        "assumptions": "Annual, 35yo, SGD 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "Total & permanent disability",
+        "Conversion privilege"
+      ],
+      "keyExclusions": [
+        "Suicide within 1yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 96,
+        "year": "2024",
+        "source": "MAS"
+      },
+      "riders": [
+        "Critical Illness",
+        "Accident & disability"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 35,
+        "options": []
+      },
+      "renewability": "Renewable & convertible",
+      "specialFeatures": [
+        "Zurich Switzerland AA-rated group",
+        "Strong global reinsurance",
+        "Expat-friendly",
+        "MAS-licensed"
+      ],
+      "sourceUrl": "https://www.zurich.com.sg/life-insurance/term",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "sg"

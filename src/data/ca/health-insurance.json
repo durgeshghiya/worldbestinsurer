@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -192,6 +192,407 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "great-west-life-ca",
+      "insurerName": "Canada Life (Great-West Life)",
+      "insurerSlug": "canada-life",
+      "productName": "Canada Life Flexcare Combo",
+      "category": "health",
+      "subCategory": "supplemental",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 100,
+        "illustrativeMax": 280,
+        "assumptions": "Monthly CAD, 40yo individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Prescription drugs",
+        "Dental (basic & major)",
+        "Vision care",
+        "Paramedical services",
+        "Semi-private hospital room",
+        "Travel emergency"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions",
+        "Cosmetic dental",
+        "OHIP/provincial covered services"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "CLHIA"
+      },
+      "riders": [
+        "Critical Illness",
+        "Disability Income"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual guaranteed renewable",
+      "specialFeatures": [
+        "Canada Life Group merging GWL, London Life, Canada Life",
+        "Largest Canadian insurer",
+        "GroupNet digital portal",
+        "Nationwide network"
+      ],
+      "sourceUrl": "https://www.canadalife.com/insurance/health-and-dental-insurance.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "industrial-alliance-health-ca",
+      "insurerName": "iA Financial Group",
+      "insurerSlug": "ia-financial",
+      "productName": "iA HealthStyle Combo",
+      "category": "health",
+      "subCategory": "supplemental",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 90,
+        "illustrativeMax": 250,
+        "assumptions": "Monthly CAD, 40yo individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Prescription drugs",
+        "Dental",
+        "Vision",
+        "Paramedical",
+        "Hospital",
+        "Travel emergency"
+      ],
+      "keyExclusions": [
+        "Pre-existing",
+        "Cosmetic",
+        "Provincially covered"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "CLHIA"
+      },
+      "riders": [
+        "Critical Illness",
+        "Life Insurance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Guaranteed renewable",
+      "specialFeatures": [
+        "Québec-based strong presence",
+        "Digital claim app",
+        "Affordable premiums",
+        "iA Group full financial services"
+      ],
+      "sourceUrl": "https://ia.ca/individuals/insurance/health",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "cooperators-health-ca",
+      "insurerName": "The Co-operators",
+      "insurerSlug": "cooperators",
+      "productName": "Co-operators Personal Health Plan",
+      "category": "health",
+      "subCategory": "supplemental",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 64,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 95,
+        "illustrativeMax": 260,
+        "assumptions": "Monthly CAD, 40yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Prescription drugs",
+        "Dental",
+        "Vision",
+        "Paramedical",
+        "Hospital room",
+        "Travel emergency medical"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions",
+        "Cosmetic",
+        "Provincially covered"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "CLHIA"
+      },
+      "riders": [
+        "Critical Illness",
+        "Disability Income"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Guaranteed renewable",
+      "specialFeatures": [
+        "Canadian co-operative",
+        "Social responsibility mandate",
+        "Bundled home/auto discounts",
+        "Nationwide agent network"
+      ],
+      "sourceUrl": "https://www.cooperators.ca/en/personal/health",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "empire-life-health-ca",
+      "insurerName": "Empire Life Insurance",
+      "insurerSlug": "empire-life",
+      "productName": "Empire Life Flexplus Health",
+      "category": "health",
+      "subCategory": "supplemental",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 85,
+        "illustrativeMax": 240,
+        "assumptions": "Monthly CAD, 40yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Prescription drugs",
+        "Dental",
+        "Vision",
+        "Paramedical",
+        "Hospital room",
+        "Travel emergency"
+      ],
+      "keyExclusions": [
+        "Pre-existing",
+        "Cosmetic",
+        "Provincially covered"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "CLHIA"
+      },
+      "riders": [
+        "Critical Illness",
+        "Life"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Guaranteed renewable",
+      "specialFeatures": [
+        "E-Claims system",
+        "Ontario-based mutual insurer",
+        "EFAP Employee benefits integration",
+        "Flexible plan design"
+      ],
+      "sourceUrl": "https://www.empire.ca/en/products/health-dental",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "green-shield-ca",
+      "insurerName": "Green Shield Canada",
+      "insurerSlug": "green-shield",
+      "productName": "Green Shield GSC Health Plan",
+      "category": "health",
+      "subCategory": "supplemental",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 90,
+        "illustrativeMax": 255,
+        "assumptions": "Monthly CAD, 40yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Prescription drugs",
+        "Dental",
+        "Vision",
+        "Mental health",
+        "Paramedical",
+        "Hospital"
+      ],
+      "keyExclusions": [
+        "Pre-existing",
+        "Cosmetic"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "CLHIA"
+      },
+      "riders": [
+        "Travel Emergency",
+        "Critical Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Guaranteed renewable",
+      "specialFeatures": [
+        "Not-for-profit insurer",
+        "Mental health focus",
+        "iConsult virtual care included",
+        "National Digital Health network"
+      ],
+      "sourceUrl": "https://www.greenshield.ca/en",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "blue-cross-ab-ca",
+      "insurerName": "Alberta Blue Cross",
+      "insurerSlug": "alberta-blue-cross",
+      "productName": "Alberta Blue Cross Supplementary Health",
+      "category": "health",
+      "subCategory": "supplemental",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 64,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 88,
+        "illustrativeMax": 250,
+        "assumptions": "Monthly CAD, 40yo, Alberta. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Prescription drugs",
+        "Dental",
+        "Vision",
+        "Paramedical",
+        "Hospital room",
+        "Travel emergency"
+      ],
+      "keyExclusions": [
+        "Pre-existing",
+        "AHCIP provincially covered",
+        "Cosmetic"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "CLHIA"
+      },
+      "riders": [
+        "Critical Illness",
+        "Travel Top-up"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Guaranteed renewable",
+      "specialFeatures": [
+        "Non-profit Blue Cross Alberta",
+        "Trusted 75+ years",
+        "AHCIP gap coverage",
+        "Strong rural Alberta network"
+      ],
+      "sourceUrl": "https://www.ab.bluecross.ca/individuals/supplemental-health.php",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "ca"
     }

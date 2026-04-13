@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -95,6 +95,273 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "hk"
+    },
+    {
+      "id": "prudential-travel-hk",
+      "insurerName": "Prudential Hong Kong",
+      "insurerSlug": "prudential-hk",
+      "productName": "PRUtravel Annual",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": 75
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "HKD",
+        "note": "Unlimited medical emergency"
+      },
+      "premiumRange": {
+        "illustrativeMin": 800,
+        "illustrativeMax": 2500,
+        "assumptions": "Annual HKD, individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Unlimited emergency medical",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage",
+        "Travel delay",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War",
+        "Extreme sports"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "IA HK"
+      },
+      "riders": [
+        "Adventure sports",
+        "Golf"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Prudential global group",
+        "Unlimited medical",
+        "Annual HK resident plan",
+        "Concierge service"
+      ],
+      "sourceUrl": "https://www.prudential.com.hk/en/insurance/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "hk"
+    },
+    {
+      "id": "aia-travel-hk",
+      "insurerName": "AIA Hong Kong",
+      "insurerSlug": "aia-hk",
+      "productName": "AIA SmartTraveller Annual Plan",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": 75
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "HKD",
+        "note": "HKD 10M emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 750,
+        "illustrativeMax": 2300,
+        "assumptions": "Annual HKD, individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses HKD 10M",
+        "Emergency evacuation",
+        "Trip cancellation HKD 30K",
+        "Baggage HKD 10K",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "IA HK"
+      },
+      "riders": [
+        "Adventure sports",
+        "Golf"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "AIA APAC largest insurer",
+        "HKD 10M medical",
+        "24hr multilingual helpline",
+        "Unlimited trips annually"
+      ],
+      "sourceUrl": "https://www.aia.com.hk/en/our-products/travel-insurance.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "hk"
+    },
+    {
+      "id": "manulife-travel-hk",
+      "insurerName": "Manulife Hong Kong",
+      "insurerSlug": "manulife-hk",
+      "productName": "Manulife ManuTravel Annual Plan",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": 75
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "HKD",
+        "note": "Unlimited emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 780,
+        "illustrativeMax": 2400,
+        "assumptions": "Annual HKD, individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Unlimited emergency medical",
+        "Emergency evacuation",
+        "Trip cancellation HKD 30K",
+        "Baggage HKD 10K",
+        "Personal accident",
+        "Travel delay"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "IA HK"
+      },
+      "riders": [
+        "Adventure sports",
+        "Golf",
+        "Cruise upgrade"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Manulife Canada group",
+        "Unlimited medical",
+        "ManulifeMOVE integration",
+        "Strong HK market leader"
+      ],
+      "sourceUrl": "https://www.manulife.com.hk/en/individual/products/travel",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "hk"
+    },
+    {
+      "id": "china-taiping-travel-hk",
+      "insurerName": "China Taiping Insurance (HK)",
+      "insurerSlug": "china-taiping-hk",
+      "productName": "China Taiping Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "HKD",
+        "note": "HKD 5M emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 400,
+        "illustrativeMax": 1500,
+        "assumptions": "Annual HKD, individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses HKD 5M",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage",
+        "Personal accident",
+        "Personal liability"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "IA HK"
+      },
+      "riders": [
+        "Mainland China cover upgrade",
+        "Annual plan"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 365,
+        "options": []
+      },
+      "renewability": "Per trip / annual",
+      "specialFeatures": [
+        "China Taiping SOE group",
+        "Popular for Mainland China visitors",
+        "Competitive pricing",
+        "Cross-border HK-Mainland cover"
+      ],
+      "sourceUrl": "https://www.ctihk.com.hk/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "hk"

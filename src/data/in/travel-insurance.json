@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational and informational purposes only. Premium figures are illustrative and sourced from public insurer calculators/brochures. Actual premiums may vary. Please verify all details with the insurer directly before making any decision.",
   "products": [
     {
@@ -369,6 +369,422 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "new-india-travel",
+      "insurerName": "New India Assurance Co. Ltd.",
+      "insurerSlug": "new-india-assurance",
+      "productName": "Overseas Mediclaim Policy",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 6,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "note": "USD 50K – 500K options",
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1500,
+        "illustrativeMax": 4000,
+        "assumptions": "30yr, 2-week Europe trip. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "Limited emergency cover",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Medical expenses abroad",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage loss",
+        "Passport loss",
+        "Personal liability"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions (non-emergency)",
+        "Adventurous sports",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "riders": [
+        "Pre-existing disease cover",
+        "Adventure sports"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 180,
+        "options": []
+      },
+      "renewability": "Per trip",
+      "specialFeatures": [
+        "PSU insurer trust",
+        "Schengen compliant",
+        "Wide country coverage"
+      ],
+      "sourceUrl": "https://www.newindia.co.in/portal/content/overseas-mediclaim-policy",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "reliance-travel-care",
+      "insurerName": "Reliance General Insurance Co. Ltd.",
+      "insurerSlug": "reliance-general",
+      "productName": "Travel Care Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 3,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "note": "USD 50K – 500K",
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1200,
+        "illustrativeMax": 3500,
+        "assumptions": "30yr, 2-week trip. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "Emergency only",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Medical & hospitalization",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage delay/loss",
+        "Hijack distress",
+        "Personal liability"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "Drunk/drug driving",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 87,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "riders": [
+        "Pre-existing disease cover",
+        "Sports cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 180,
+        "options": []
+      },
+      "renewability": "Per trip",
+      "specialFeatures": [
+        "Single & multi-trip plans",
+        "Student travel option",
+        "Reliance Group"
+      ],
+      "sourceUrl": "https://www.reliancegeneral.co.in/Insurance/Travel-Insurance.aspx",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "united-india-travel",
+      "insurerName": "United India Insurance Co. Ltd.",
+      "insurerSlug": "united-india-insurance",
+      "productName": "Overseas Mediclaim Policy",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 6,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "note": "USD 50K – 500K",
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1400,
+        "illustrativeMax": 3800,
+        "assumptions": "30yr, 2-week trip. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "Emergency only",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Medical expenses",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage loss",
+        "Personal liability"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War",
+        "Suicide"
+      ],
+      "claimSettlement": {
+        "ratio": 89,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "riders": [
+        "Pre-existing disease cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 180,
+        "options": []
+      },
+      "renewability": "Per trip",
+      "specialFeatures": [
+        "PSU insurer",
+        "Affordable premiums",
+        "Schengen visa compliant"
+      ],
+      "sourceUrl": "https://uiic.co.in/en/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "oriental-travel",
+      "insurerName": "Oriental Insurance Co. Ltd.",
+      "insurerSlug": "oriental-insurance",
+      "productName": "Pravasi Bharati Bima Yojana / Overseas Mediclaim",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 6,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "note": "USD 50K – 500K",
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1300,
+        "illustrativeMax": 3500,
+        "assumptions": "30yr, 2-week trip. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "Emergency only",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Medical expenses",
+        "Emergency evacuation",
+        "Personal accident",
+        "Baggage loss",
+        "Passport loss"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 85,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "riders": [
+        "Pre-existing disease cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 180,
+        "options": []
+      },
+      "renewability": "Per trip",
+      "specialFeatures": [
+        "PSU insurer",
+        "Budget travel cover",
+        "NRI-specific plans available"
+      ],
+      "sourceUrl": "https://orientalinsurance.org.in/web/guest/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "niva-bupa-travel",
+      "insurerName": "Niva Bupa Health Insurance Co. Ltd.",
+      "insurerSlug": "niva-bupa",
+      "productName": "Travel Companion Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 3,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "note": "USD 50K – 500K",
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1500,
+        "illustrativeMax": 4000,
+        "assumptions": "30yr, 2-week Europe trip. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "Emergency only",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Medical & hospitalization",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage delay/loss",
+        "Compassionate visit",
+        "Personal liability"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "Adventure sports (without rider)"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "riders": [
+        "Adventure sports cover",
+        "Pre-existing disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 180,
+        "options": []
+      },
+      "renewability": "Per trip",
+      "specialFeatures": [
+        "Niva Bupa health expertise",
+        "Bupa global network",
+        "Annual multi-trip option",
+        "Student travel plans"
+      ],
+      "sourceUrl": "https://www.nivabupa.com/travel-insurance.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "sbi-travel-insurance",
+      "insurerName": "SBI General Insurance Co. Ltd.",
+      "insurerSlug": "sbi-general",
+      "productName": "SBI Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 3,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "note": "USD 50K – 500K",
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1400,
+        "illustrativeMax": 3800,
+        "assumptions": "30yr, 2-week trip. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "Emergency only",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Medical expenses",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage loss",
+        "Passport loss",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War",
+        "Intoxication"
+      ],
+      "claimSettlement": {
+        "ratio": 91.5,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "riders": [
+        "Pre-existing disease",
+        "Business travel"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 180,
+        "options": []
+      },
+      "renewability": "Per trip",
+      "specialFeatures": [
+        "SBI Group trust",
+        "Business & leisure variants",
+        "Domestic travel option",
+        "Annual multi-trip"
+      ],
+      "sourceUrl": "https://www.sbigeneral.in/portal/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "in"
     }

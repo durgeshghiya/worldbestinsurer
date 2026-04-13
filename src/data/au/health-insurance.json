@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -192,6 +192,397 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "ahm-health-au",
+      "insurerName": "ahm Health Insurance (Medibank)",
+      "insurerSlug": "ahm",
+      "productName": "ahm hospital + extras",
+      "category": "health",
+      "subCategory": "private-hospital",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AUD",
+        "note": "Government Lifetime Health Cover applies"
+      },
+      "premiumRange": {
+        "illustrativeMin": 120,
+        "illustrativeMax": 280,
+        "assumptions": "Monthly AUD, 35yo single. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Hospital cover (Silver/Gold tier)",
+        "Extras: dental, optical, physio",
+        "Ambulance",
+        "Medicare gap cover",
+        "No excess option"
+      ],
+      "keyExclusions": [
+        "Pre-existing (12-month wait)",
+        "Cosmetic surgery",
+        "Non-medically necessary"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "APRA"
+      },
+      "riders": [
+        "Top extras upgrade",
+        "Overseas cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Medibank subsidiary – lower fees",
+        "No lock-in",
+        "Young adult discounts",
+        "Budget-friendly"
+      ],
+      "sourceUrl": "https://www.ahm.com.au/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "australian-unity-au",
+      "insurerName": "Australian Unity Health",
+      "insurerSlug": "australian-unity",
+      "productName": "Australian Unity Select Hospital & Extras",
+      "category": "health",
+      "subCategory": "private-hospital",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 130,
+        "illustrativeMax": 300,
+        "assumptions": "Monthly AUD, 35yo single. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Hospital cover",
+        "Extras: dental, optical, physio, chiro",
+        "Ambulance",
+        "Medicare gap cover",
+        "Mental health"
+      ],
+      "keyExclusions": [
+        "Pre-existing (12 months)",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "APRA"
+      },
+      "riders": [
+        "Top extras",
+        "Ambulance only"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Mutual/co-operative",
+        "Wellbeing programs",
+        "Connects member communities",
+        "Strong Victoria coverage"
+      ],
+      "sourceUrl": "https://www.australianunity.com.au/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "teachers-health-au",
+      "insurerName": "Teachers Health",
+      "insurerSlug": "teachers-health",
+      "productName": "Teachers Health Silver Hospital + Extras",
+      "category": "health",
+      "subCategory": "private-hospital",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 110,
+        "illustrativeMax": 260,
+        "assumptions": "Monthly AUD, 35yo single. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Hospital cover (Silver)",
+        "Dental, optical, physio extras",
+        "Ambulance",
+        "Mental health",
+        "No-gap dental clinics"
+      ],
+      "keyExclusions": [
+        "Pre-existing (12 months)",
+        "Non-members (education sector only)"
+      ],
+      "claimSettlement": {
+        "ratio": 94,
+        "year": "2024",
+        "source": "APRA"
+      },
+      "riders": [
+        "Gold hospital upgrade",
+        "Increased extras limits"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Education sector only",
+        "Not-for-profit",
+        "Low admin costs",
+        "No-gap dental network nationwide"
+      ],
+      "sourceUrl": "https://www.teachershealth.com.au",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "health-partners-au",
+      "insurerName": "Health Partners",
+      "insurerSlug": "health-partners-au",
+      "productName": "Health Partners Hospital + Extras",
+      "category": "health",
+      "subCategory": "private-hospital",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 105,
+        "illustrativeMax": 255,
+        "assumptions": "Monthly AUD, 35yo single. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Hospital (Bronze to Gold)",
+        "Extras: dental, optical, chiro",
+        "Ambulance",
+        "Mental health",
+        "Preventive health programs"
+      ],
+      "keyExclusions": [
+        "Pre-existing (12 months)",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 94,
+        "year": "2024",
+        "source": "APRA"
+      },
+      "riders": [
+        "Increased extras cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "South Australia-based not-for-profit",
+        "Member-owned",
+        "Low premiums",
+        "Strong SA hospital network"
+      ],
+      "sourceUrl": "https://www.healthpartners.com.au",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "frank-health-au",
+      "insurerName": "Frank Health Insurance",
+      "insurerSlug": "frank-health",
+      "productName": "Frank Basic Hospital + Extras",
+      "category": "health",
+      "subCategory": "private-hospital",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 80,
+        "illustrativeMax": 210,
+        "assumptions": "Monthly AUD, 35yo single. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Basic hospital cover",
+        "Essential extras (dental, optical)",
+        "Ambulance",
+        "Mental health (basic)"
+      ],
+      "keyExclusions": [
+        "Pre-existing (12 months)",
+        "Cosmetic",
+        "Complex surgical procedures on basic plan"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "APRA"
+      },
+      "riders": [
+        "Extras upgrade",
+        "Hospital upgrade to Silver"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Online-only insurer",
+        "Budget pricing",
+        "Simple plan structure",
+        "CBHS Group subsidiary"
+      ],
+      "sourceUrl": "https://www.frankhealthinsurance.com.au",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "hbf-health-au",
+      "insurerName": "HBF Health",
+      "insurerSlug": "hbf",
+      "productName": "HBF Hospital + Extras",
+      "category": "health",
+      "subCategory": "private-hospital",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 115,
+        "illustrativeMax": 270,
+        "assumptions": "Monthly AUD, 35yo single, WA. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Hospital cover (Silver/Gold)",
+        "Extras: dental, optical, physio, podiatry",
+        "Ambulance",
+        "Mental health",
+        "No-gap services"
+      ],
+      "keyExclusions": [
+        "Pre-existing (12 months)",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 94,
+        "year": "2024",
+        "source": "APRA"
+      },
+      "riders": [
+        "Comprehensive extras",
+        "International student cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "WA-based not-for-profit",
+        "Strong WA hospital network",
+        "HBF Community programs",
+        "No-gap dental across WA"
+      ],
+      "sourceUrl": "https://www.hbf.com.au/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "au"
     }

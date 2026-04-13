@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -96,6 +96,278 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "adac-travel-de",
+      "insurerName": "ADAC Versicherung",
+      "insurerSlug": "adac",
+      "productName": "ADAC Reiseversicherung Jahresschutz",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 85,
+        "renewableUpTo": 85
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "EUR",
+        "note": "Unlimited medical (ADAC members)"
+      },
+      "premiumRange": {
+        "illustrativeMin": 50,
+        "illustrativeMax": 130,
+        "assumptions": "Annual EUR, individual (ADAC member). Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Emergency medical (unlimited)",
+        "Repatriation",
+        "Trip cancellation",
+        "Baggage",
+        "Travel delay",
+        "ADAC breakdown assistance abroad"
+      ],
+      "keyExclusions": [
+        "Pre-existing (serious)",
+        "War",
+        "FCDO/AA advisory zones"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "GDV"
+      },
+      "riders": [
+        "Winter sports",
+        "Extreme sports"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "ADAC 21M member club",
+        "Often cheapest for German drivers",
+        "Breakdown abroad integration",
+        "Strong brand trust"
+      ],
+      "sourceUrl": "https://www.adac.de/reise/reiseversicherung",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "allianz-travel-de",
+      "insurerName": "Allianz Reiseversicherung",
+      "insurerSlug": "allianz-de",
+      "productName": "Allianz Reiseversicherung Premium Jahresschutz",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 80,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "EUR",
+        "note": "Unlimited emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 65,
+        "illustrativeMax": 160,
+        "assumptions": "Annual EUR, individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Unlimited emergency medical",
+        "Repatriation",
+        "Trip cancellation",
+        "Baggage",
+        "Travel delay",
+        "Personal liability",
+        "Accident"
+      ],
+      "keyExclusions": [
+        "Pre-existing (serious)",
+        "War",
+        "Reckless behavior"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "GDV"
+      },
+      "riders": [
+        "Winter sports",
+        "Business travel upgrade"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Allianz global AA rating",
+        "Unlimited medical worldwide",
+        "24/7 German-speaking hotline",
+        "Worldwide 200+ countries"
+      ],
+      "sourceUrl": "https://www.allianztravelinsurance.de",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "signal-iduna-travel-de",
+      "insurerName": "Signal Iduna Reiseversicherung",
+      "insurerSlug": "signal-iduna",
+      "productName": "Signal Iduna Reiseschutz Global",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 80,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "EUR",
+        "note": "Unlimited emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 60,
+        "illustrativeMax": 145,
+        "assumptions": "Annual EUR, individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Unlimited emergency medical",
+        "Repatriation",
+        "Trip cancellation EUR 10K",
+        "Baggage EUR 3K",
+        "Travel delay",
+        "Personal liability"
+      ],
+      "keyExclusions": [
+        "Pre-existing (serious)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "GDV"
+      },
+      "riders": [
+        "Winter sports",
+        "Extreme sports",
+        "Rental vehicle excess"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Signal Iduna Group mutual",
+        "Unlimited medical",
+        "Annual world protection",
+        "Competitive group pricing"
+      ],
+      "sourceUrl": "https://www.signal-iduna.de/reiseversicherung",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "ergo-travel-annual-de",
+      "insurerName": "ERGO Reiseversicherung",
+      "insurerSlug": "ergo-de",
+      "productName": "ERGO Reiseschutz Premium Jahresschutz",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 80,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "EUR",
+        "note": "Unlimited emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 62,
+        "illustrativeMax": 148,
+        "assumptions": "Annual EUR, individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Unlimited emergency medical",
+        "Repatriation",
+        "Trip cancellation",
+        "Baggage",
+        "Travel delay",
+        "Personal liability"
+      ],
+      "keyExclusions": [
+        "Pre-existing (serious)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "GDV"
+      },
+      "riders": [
+        "Winter sports",
+        "Extreme sports pack"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Munich Re backed",
+        "Digital claims via app",
+        "24/7 ERGO hotline",
+        "Multiple payment options"
+      ],
+      "sourceUrl": "https://www.ergo-reiseversicherung.de/reiseversicherung",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "de"
     }

@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -95,6 +95,268 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "hk"
+    },
+    {
+      "id": "china-taiping-motor-hk",
+      "insurerName": "China Taiping Insurance (HK)",
+      "insurerSlug": "china-taiping-hk",
+      "productName": "China Taiping Comprehensive Motor Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "HKD",
+        "note": "Market value"
+      },
+      "premiumRange": {
+        "illustrativeMin": 5000,
+        "illustrativeMax": 15000,
+        "assumptions": "Annual HKD, 35yo, HKD 200K car. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Third party liability",
+        "Fire & theft",
+        "Personal accident",
+        "Medical expenses"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing",
+        "Intentional damage"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "IA HK"
+      },
+      "riders": [
+        "Agency repair",
+        "24hr roadside assist",
+        "No-claim discount protection"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "China Taiping Group SOE",
+        "Strong Mainland connection",
+        "Competitive premiums",
+        "Popular for cross-border vehicles"
+      ],
+      "sourceUrl": "https://www.ctihk.com.hk/motor-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "hk"
+    },
+    {
+      "id": "msig-motor-hk",
+      "insurerName": "MSIG Insurance (HK)",
+      "insurerSlug": "msig-hk",
+      "productName": "MSIG MotorMax Comprehensive",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 5500,
+        "illustrativeMax": 16000,
+        "assumptions": "Annual HKD, 35yo, HKD 200K car. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Third party liability",
+        "Fire & theft",
+        "Personal accident",
+        "Medical expenses",
+        "Breakdown assistance"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "IA HK"
+      },
+      "riders": [
+        "Agency repair",
+        "NCD protection",
+        "Car rental replacement"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "MS&AD Japan group",
+        "MotorMax premium features",
+        "Agency repair standard",
+        "Strong customer service"
+      ],
+      "sourceUrl": "https://www.msig.com.hk/motor-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "hk"
+    },
+    {
+      "id": "dah-sing-motor-hk",
+      "insurerName": "Dah Sing Insurance",
+      "insurerSlug": "dah-sing",
+      "productName": "Dah Sing Motor Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 4800,
+        "illustrativeMax": 14500,
+        "assumptions": "Annual HKD, 35yo, HKD 200K car. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Third party liability",
+        "Fire & theft",
+        "Personal accident",
+        "Medical expenses"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 89,
+        "year": "2024",
+        "source": "IA HK"
+      },
+      "riders": [
+        "Agency repair",
+        "NCD protection"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Dah Sing Bank Group bancassurance",
+        "Competitive renewal rates",
+        "Online purchase discount",
+        "Strong local HK presence"
+      ],
+      "sourceUrl": "https://www.dahsing.com/insurance/motor",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "hk"
+    },
+    {
+      "id": "yf-life-motor-hk",
+      "insurerName": "YF Life Insurance (Zurich)",
+      "insurerSlug": "yf-life",
+      "productName": "YF Life Zurich Motor Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 5200,
+        "illustrativeMax": 15500,
+        "assumptions": "Annual HKD, 35yo, HKD 200K car. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Third party liability",
+        "Fire & theft",
+        "Personal accident",
+        "Medical expenses"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "IA HK"
+      },
+      "riders": [
+        "Agency repair",
+        "NCD protection",
+        "Roadside assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Zurich global group",
+        "YF Life local expertise",
+        "Competitive HK local driver pricing",
+        "Online quick quote"
+      ],
+      "sourceUrl": "https://www.yflife.com/motor-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "hk"

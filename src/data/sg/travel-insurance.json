@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -96,6 +96,281 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "income-travel-sg",
+      "insurerName": "Income Insurance (NTUC Income)",
+      "insurerSlug": "income-insurance",
+      "productName": "Drivo Travel Insurance Enhanced",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "SGD",
+        "note": "Unlimited medical emergency"
+      },
+      "premiumRange": {
+        "illustrativeMin": 150,
+        "illustrativeMax": 400,
+        "assumptions": "Annual, individual. SGD. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Unlimited overseas medical",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage loss/delay",
+        "Travel delay",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions",
+        "Extreme sports",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 95,
+        "year": "2024",
+        "source": "MAS"
+      },
+      "riders": [
+        "Adventure sports",
+        "High-value items"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ],
+        "note": "Annual"
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Unlimited medical coverage",
+        "Cooperative pricing",
+        "COVID-19 cover included",
+        "Easy app claims"
+      ],
+      "sourceUrl": "https://www.income.com.sg/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "great-eastern-travel-sg",
+      "insurerName": "Great Eastern General Insurance",
+      "insurerSlug": "great-eastern-sg",
+      "productName": "TravelSmart Premier Annual",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "SGD",
+        "note": "SGD 2M medical emergency"
+      },
+      "premiumRange": {
+        "illustrativeMin": 160,
+        "illustrativeMax": 420,
+        "assumptions": "Annual, individual. SGD. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses SGD 2M",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage loss",
+        "Travel delay",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions",
+        "Extreme sports",
+        "FCDO advisory"
+      ],
+      "claimSettlement": {
+        "ratio": 94,
+        "year": "2024",
+        "source": "MAS"
+      },
+      "riders": [
+        "Sports pack",
+        "Gadget cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ],
+        "note": "Annual"
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "OCBC Group",
+        "COVID coverage",
+        "Annual unlimited trips",
+        "Digital claim submission"
+      ],
+      "sourceUrl": "https://www.greateasterngeneral.com/sg/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "manulife-travel-sg",
+      "insurerName": "Manulife Singapore",
+      "insurerSlug": "manulife-sg",
+      "productName": "Ready Travel Annual",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "SGD",
+        "note": "SGD 1.5M medical emergency"
+      },
+      "premiumRange": {
+        "illustrativeMin": 155,
+        "illustrativeMax": 400,
+        "assumptions": "Annual, individual. SGD. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses SGD 1.5M",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage loss",
+        "Travel delay",
+        "COVID-19 cover"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions",
+        "Extreme sports"
+      ],
+      "claimSettlement": {
+        "ratio": 94,
+        "year": "2024",
+        "source": "MAS"
+      },
+      "riders": [
+        "Golf cover",
+        "Adventure sports"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ],
+        "note": "Annual"
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Manulife Canada group",
+        "COVID-19 included",
+        "Unlimited trips per year",
+        "Online claims 24/7"
+      ],
+      "sourceUrl": "https://www.manulife.com.sg/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "tokio-marine-travel-sg",
+      "insurerName": "Tokio Marine Insurance Singapore",
+      "insurerSlug": "tokio-marine-sg",
+      "productName": "TM Travel Protector Annual",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "SGD",
+        "note": "SGD 2M medical emergency"
+      },
+      "premiumRange": {
+        "illustrativeMin": 158,
+        "illustrativeMax": 410,
+        "assumptions": "Annual, individual. SGD. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses SGD 2M",
+        "Emergency evacuation",
+        "Trip cancellation SGD 15K",
+        "Baggage loss SGD 8K",
+        "Travel delay",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions",
+        "Extreme sports",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "MAS"
+      },
+      "riders": [
+        "Adventure activities",
+        "Golf"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ],
+        "note": "Annual"
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Tokio Marine Japan",
+        "Unlimited trips yearly",
+        "COVID-19 covered",
+        "Strong financial rating"
+      ],
+      "sourceUrl": "https://www.tokiomarine.com.sg/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "sg"
     }

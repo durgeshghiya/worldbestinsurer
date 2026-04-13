@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -143,6 +143,335 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "dnata-motor-ae",
+      "insurerName": "dnata Insurance Brokers (RSA)",
+      "insurerSlug": "dnata-insurance",
+      "productName": "dnata Comprehensive Car Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AED",
+        "note": "Market value IDV"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2200,
+        "illustrativeMax": 5000,
+        "assumptions": "Annual, AED 100K car value. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Third party liability (AED 250K min)",
+        "Fire & theft",
+        "Natural perils",
+        "Personal accident",
+        "Agency repair option"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing",
+        "Commercial use"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "Agency repair",
+        "Roadside assistance",
+        "Personal belongings",
+        "Rental car"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "RSA-backed",
+        "dnata Emirates Group",
+        "Agency repair standard",
+        "24/7 roadside assistance"
+      ],
+      "sourceUrl": "https://www.dnatainsurance.ae/motor-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "al-wathba-motor-ae",
+      "insurerName": "Al Wathba National Insurance",
+      "insurerSlug": "al-wathba-ae",
+      "productName": "Al Wathba Comprehensive Motor",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2000,
+        "illustrativeMax": 4500,
+        "assumptions": "Annual, AED 100K car value. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Third party liability",
+        "Fire & theft",
+        "Personal accident",
+        "Off-road cover option"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 88,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "Off-road 4×4 cover",
+        "Agency repair",
+        "RSA",
+        "GCC extension"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Abu Dhabi government-backed",
+        "Off-road cover available",
+        "GCC-wide cover option",
+        "Competitive premiums for SUVs"
+      ],
+      "sourceUrl": "https://www.alwathba.ae/motor-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "noor-takaful-motor-ae",
+      "insurerName": "Noor Takaful (Islamic Arab Insurance)",
+      "insurerSlug": "noor-takaful",
+      "productName": "Noor Takaful Motor Comprehensive",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1900,
+        "illustrativeMax": 4200,
+        "assumptions": "Annual, AED 100K car value. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Third party liability",
+        "Fire & theft",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 86,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "Agency repair",
+        "Personal accident upgrade",
+        "Emergency roadside"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Islamic Takaful structure",
+        "Sharia-compliant",
+        "Surplus refund possible",
+        "Dubai-based"
+      ],
+      "sourceUrl": "https://www.noor.ae/personal/motor-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "fidelity-united-motor-ae",
+      "insurerName": "Fidelity United Insurance",
+      "insurerSlug": "fidelity-united",
+      "productName": "Fidelity United Comprehensive Motor",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2100,
+        "illustrativeMax": 4800,
+        "assumptions": "Annual, AED 100K car value. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Third party liability",
+        "Fire & theft",
+        "Natural perils",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 87,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "Agency repair",
+        "RSA",
+        "GCC extension"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "One of UAE's oldest insurers",
+        "Wide garage network",
+        "Fleet insurance expertise",
+        "Competitive renewal rates"
+      ],
+      "sourceUrl": "https://www.fidelityunited.ae/motor-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "salama-motor-ae",
+      "insurerName": "Salama Islamic Arab Insurance",
+      "insurerSlug": "salama-ae",
+      "productName": "Salama Motor Takaful",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1800,
+        "illustrativeMax": 4000,
+        "assumptions": "Annual, AED 100K car value. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Third party liability",
+        "Fire & theft",
+        "Personal accident",
+        "GCC extension"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing",
+        "Intentional damage"
+      ],
+      "claimSettlement": {
+        "ratio": 87,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "Agency repair",
+        "Roadside assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Islamic Takaful structure",
+        "Listed on Dubai Financial Market",
+        "Surplus distribution to policyholders",
+        "Pan-UAE coverage"
+      ],
+      "sourceUrl": "https://www.salama.ae/personal/motor-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "ae"

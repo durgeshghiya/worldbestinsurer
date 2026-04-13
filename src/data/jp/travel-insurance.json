@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -47,6 +47,329 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "sompo-travel-jp",
+      "insurerName": "Sompo Japan Insurance",
+      "insurerSlug": "sompo-japan",
+      "productName": "Sompo Overseas Travel Insurance NS",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 79,
+        "renewableUpTo": 79
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "JPY",
+        "note": "Unlimited emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 5000,
+        "illustrativeMax": 18000,
+        "assumptions": "Per trip JPY, 35yo, 2-week Europe. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Unlimited emergency medical",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage loss",
+        "Personal liability",
+        "Accident"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War",
+        "Extreme sports"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "FSA Japan"
+      },
+      "riders": [
+        "Dental abroad",
+        "Adventure sports",
+        "Annual plan"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 90,
+        "options": []
+      },
+      "renewability": "Per trip",
+      "specialFeatures": [
+        "Sompo Japan global group",
+        "Unlimited medical standard",
+        "English claims support",
+        "Available at major airports"
+      ],
+      "sourceUrl": "https://www.sompojapan.co.jp/personal/travel",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "aioi-travel-jp",
+      "insurerName": "Aioi Nissay Dowa Insurance",
+      "insurerSlug": "aioi-nissay",
+      "productName": "Aioi Nissay Overseas Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": 75
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "JPY",
+        "note": "Unlimited emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 4800,
+        "illustrativeMax": 17000,
+        "assumptions": "Per trip JPY, 35yo, 2-week Europe. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Unlimited emergency medical",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage",
+        "Personal liability"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "FSA Japan"
+      },
+      "riders": [
+        "Adventure sports"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 90,
+        "options": []
+      },
+      "renewability": "Per trip",
+      "specialFeatures": [
+        "Toyota Group subsidiary",
+        "Toyota Connected overseas emergency",
+        "Competitive pricing",
+        "Japanese abroad specialist"
+      ],
+      "sourceUrl": "https://www.aioinissaydowa.co.jp/personal/travel",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "mitsui-sumitomo-travel-jp",
+      "insurerName": "Mitsui Sumitomo Insurance",
+      "insurerSlug": "mitsui-sumitomo",
+      "productName": "Mitsui Sumitomo Overseas Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 79,
+        "renewableUpTo": 79
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "JPY",
+        "note": "Unlimited emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 5200,
+        "illustrativeMax": 19000,
+        "assumptions": "Per trip JPY, 35yo, 2-week Europe. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Unlimited emergency medical",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage",
+        "Personal liability",
+        "Rescue operations"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "FSA Japan"
+      },
+      "riders": [
+        "Adventure sports",
+        "Annual plan"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 90,
+        "options": []
+      },
+      "renewability": "Per trip",
+      "specialFeatures": [
+        "MS&AD Group global reach",
+        "World Assist 24hr multilingual",
+        "Comprehensive rescue cover",
+        "Popular student abroad plans"
+      ],
+      "sourceUrl": "https://www.ms-ins.com/personal/travel",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "meiji-yasuda-travel-jp",
+      "insurerName": "Meiji Yasuda General Insurance",
+      "insurerSlug": "meiji-yasuda-general",
+      "productName": "Meiji Yasuda Overseas Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 79,
+        "renewableUpTo": 79
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "JPY",
+        "note": "Unlimited emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 5000,
+        "illustrativeMax": 18000,
+        "assumptions": "Per trip JPY, 35yo, 2-week Europe. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Unlimited emergency medical",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage",
+        "Personal accident",
+        "Personal liability"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "FSA Japan"
+      },
+      "riders": [
+        "Adventure sports",
+        "Dental"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 90,
+        "options": []
+      },
+      "renewability": "Per trip",
+      "specialFeatures": [
+        "Meiji Yasuda Group brand trust",
+        "English assistance abroad",
+        "Japanese-speaking support line",
+        "Family plans"
+      ],
+      "sourceUrl": "https://www.meijiyasuda-sonpo.co.jp/travel",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "au-travel-jp",
+      "insurerName": "au Insurance (KDDI subsidiary)",
+      "insurerSlug": "au-insurance-jp",
+      "productName": "au Insurance Overseas Travel",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": 75
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "JPY",
+        "note": "Unlimited emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 4500,
+        "illustrativeMax": 16000,
+        "assumptions": "Per trip JPY, 35yo, 2-week Europe. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Unlimited emergency medical",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage",
+        "Personal liability"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "FSA Japan"
+      },
+      "riders": [
+        "Adventure sports"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 90,
+        "options": []
+      },
+      "renewability": "Per trip",
+      "specialFeatures": [
+        "KDDI smartphone distribution channel",
+        "Competitive digital pricing",
+        "Easy mobile app purchase",
+        "au Pay integration"
+      ],
+      "sourceUrl": "https://www.au-sonpo.co.jp/travel",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "jp"

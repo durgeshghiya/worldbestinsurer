@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -96,6 +96,280 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "fast-cover-au",
+      "insurerName": "Fast Cover Travel Insurance",
+      "insurerSlug": "fast-cover",
+      "productName": "Fast Cover Comprehensive Annual",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 99,
+        "renewableUpTo": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AUD",
+        "note": "Unlimited medical emergency"
+      },
+      "premiumRange": {
+        "illustrativeMin": 180,
+        "illustrativeMax": 500,
+        "assumptions": "Annual, individual 35yo. AUD. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Unlimited emergency medical",
+        "Trip cancellation",
+        "Baggage & personal effects",
+        "Travel delay",
+        "Personal liability",
+        "Accidental death"
+      ],
+      "keyExclusions": [
+        "Pre-existing (without extra cover)",
+        "Extreme sports",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "AFCA"
+      },
+      "riders": [
+        "Snow sports",
+        "Adventure activities",
+        "Pre-existing conditions"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Unlimited medical",
+        "No age surcharge up to 99",
+        "Fast online quotes",
+        "Award-winning value"
+      ],
+      "sourceUrl": "https://www.fastcover.com.au",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "1cover-au",
+      "insurerName": "1Cover Travel Insurance",
+      "insurerSlug": "1cover",
+      "productName": "1Cover Comprehensive Annual",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 89,
+        "renewableUpTo": 89
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AUD",
+        "note": "Unlimited medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 170,
+        "illustrativeMax": 480,
+        "assumptions": "Annual, individual 35yo. AUD. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Unlimited medical emergency",
+        "Trip cancellation AUD 12K",
+        "Baggage AUD 8K",
+        "Travel delay",
+        "Personal liability AUD 5M"
+      ],
+      "keyExclusions": [
+        "Pre-existing (unless declared)",
+        "Extreme sports",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "AFCA"
+      },
+      "riders": [
+        "Snow sports",
+        "Adventure sports",
+        "Rental vehicle excess"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Canstar 5-star winner",
+        "Unlimited medical cover",
+        "International & domestic plans",
+        "Group cover available"
+      ],
+      "sourceUrl": "https://www.1cover.com.au/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "qbe-travel-au",
+      "insurerName": "QBE Insurance Australia",
+      "insurerSlug": "qbe-au",
+      "productName": "QBE Travel Insurance Annual",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": 75
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AUD",
+        "note": "Unlimited medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 190,
+        "illustrativeMax": 520,
+        "assumptions": "Annual, individual 35yo. AUD. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Unlimited medical emergency",
+        "Trip cancellation AUD 10K",
+        "Baggage AUD 5K",
+        "Travel delay",
+        "Personal liability AUD 5M",
+        "Rental car excess"
+      ],
+      "keyExclusions": [
+        "Pre-existing (unless approved)",
+        "Extreme sports",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "AFCA"
+      },
+      "riders": [
+        "Adventure sports",
+        "Snow sports",
+        "Higher limits"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "QBE ASX-listed",
+        "Unlimited medical",
+        "Domestic travel option",
+        "Business travel plans"
+      ],
+      "sourceUrl": "https://www.qbe.com/au/insurance/personal/travel",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "insureandgo-au",
+      "insurerName": "InsureandGo Australia",
+      "insurerSlug": "insureandgo-au",
+      "productName": "InsureandGo Gold Annual",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 74,
+        "renewableUpTo": 74
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AUD",
+        "note": "Unlimited medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 165,
+        "illustrativeMax": 460,
+        "assumptions": "Annual, individual 35yo. AUD. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Unlimited emergency medical",
+        "Trip cancellation AUD 10K",
+        "Baggage AUD 5K",
+        "Personal liability AUD 5M",
+        "Missed connection"
+      ],
+      "keyExclusions": [
+        "Pre-existing (declare required)",
+        "Extreme sports without rider",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "AFCA"
+      },
+      "riders": [
+        "Adventure sports",
+        "Winter sports",
+        "Business travel"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Unlimited medical cover",
+        "Award-winning Gold plan",
+        "Domestic option",
+        "24/7 global assistance"
+      ],
+      "sourceUrl": "https://www.insureandgo.com.au",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "au"
     }

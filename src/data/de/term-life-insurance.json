@@ -1,6 +1,6 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -104,6 +104,254 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "hannoversche-term-de",
+      "insurerName": "Hannoversche Lebensversicherung",
+      "insurerSlug": "hannoversche",
+      "productName": "Hannoversche Risikolebensversicherung",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 75
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 10000000,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 12,
+        "illustrativeMax": 35,
+        "assumptions": "Monthly EUR, 35yo non-smoker, €300K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "No-exam option up to €500K",
+        "Dynamic adjustment option"
+      ],
+      "keyExclusions": [
+        "Suicide within 3yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 98,
+        "year": "2024",
+        "source": "GDV"
+      },
+      "riders": [
+        "BU (occupational disability)",
+        "Accidental Death"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 40,
+        "options": []
+      },
+      "renewability": "Fixed term",
+      "specialFeatures": [
+        "Direct insurer – no broker fees",
+        "Consistently cheapest German term",
+        "No-exam to €500K",
+        "Online purchase"
+      ],
+      "sourceUrl": "https://www.hannoversche.de/risikolebensversicherung",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "nurnberger-term-de",
+      "insurerName": "NÜRNBERGER Versicherung",
+      "insurerSlug": "nurnberger",
+      "productName": "NÜRNBERGER Risikolebensversicherung",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 75
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 5000000,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 13,
+        "illustrativeMax": 38,
+        "assumptions": "Monthly EUR, 35yo non-smoker, €300K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "Increasing cover option",
+        "Family discount"
+      ],
+      "keyExclusions": [
+        "Suicide within 3yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 98,
+        "year": "2024",
+        "source": "GDV"
+      },
+      "riders": [
+        "BU disability",
+        "Accidental Death"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 35,
+        "options": []
+      },
+      "renewability": "Fixed term",
+      "specialFeatures": [
+        "Nuremberg mutual insurer",
+        "Increasing sum assured option",
+        "Competitive family discount",
+        "Strong advisor network"
+      ],
+      "sourceUrl": "https://www.nuernberger.de/risikolebensversicherung",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "axa-term-de",
+      "insurerName": "AXA Deutschland",
+      "insurerSlug": "axa-de",
+      "productName": "AXA Risikolebensversicherung",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 75
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 10000000,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 14,
+        "illustrativeMax": 40,
+        "assumptions": "Monthly EUR, 35yo non-smoker, €300K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "Conversion privilege",
+        "Child extra benefit"
+      ],
+      "keyExclusions": [
+        "Suicide within 3yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 98,
+        "year": "2024",
+        "source": "GDV"
+      },
+      "riders": [
+        "BU disability",
+        "Accidental Death"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 40,
+        "options": []
+      },
+      "renewability": "Fixed term",
+      "specialFeatures": [
+        "AXA global top insurer",
+        "Conversion to whole life available",
+        "Child benefit included",
+        "AXA Germany 8M+ customers"
+      ],
+      "sourceUrl": "https://www.axa.de/lebensvorsicherung/risikolebensversicherung",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "generali-term-de",
+      "insurerName": "Generali Deutschland",
+      "insurerSlug": "generali-de",
+      "productName": "Generali Risikolebensversicherung",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 75
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 5000000,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 14,
+        "illustrativeMax": 39,
+        "assumptions": "Monthly EUR, 35yo non-smoker, €300K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "Survivor benefit option",
+        "Constant or decreasing cover"
+      ],
+      "keyExclusions": [
+        "Suicide within 3yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 97,
+        "year": "2024",
+        "source": "GDV"
+      },
+      "riders": [
+        "BU disability",
+        "Accidental Death"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 35,
+        "options": []
+      },
+      "renewability": "Fixed term",
+      "specialFeatures": [
+        "Generali Italy global group",
+        "Decreasing cover for mortgages",
+        "Cosalux IT platform",
+        "Generali Vitality wellness program"
+      ],
+      "sourceUrl": "https://www.generali.de/produkte/lebensversicherung/risikolebensversicherung",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "de"
     }

@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -95,6 +95,268 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "hyundai-marine-motor-kr",
+      "insurerName": "Hyundai Marine & Fire Insurance",
+      "insurerSlug": "hyundai-marine",
+      "productName": "Hyundai Marine Auto Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "KRW",
+        "note": "Vehicle market value"
+      },
+      "premiumRange": {
+        "illustrativeMin": 60000,
+        "illustrativeMax": 180000,
+        "assumptions": "Monthly KRW, 35yo, midsize sedan. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Mandatory CALI",
+        "Voluntary liability",
+        "Personal injury (driver & passengers)",
+        "Uninsured motorist",
+        "Roadside assistance"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing",
+        "Intentional damage"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "FSS Korea"
+      },
+      "riders": [
+        "Blackbox discount",
+        "Car rental replacement",
+        "Driver age expansion"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Hyundai Motor Group affiliate",
+        "Telematics blackbox discount",
+        "Digital claim via app",
+        "Strong dealer network"
+      ],
+      "sourceUrl": "https://www.hi.co.kr/product/motor",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "kb-insurance-motor-kr",
+      "insurerName": "KB Insurance",
+      "insurerSlug": "kb-insurance",
+      "productName": "KB Insurance Auto Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 58000,
+        "illustrativeMax": 175000,
+        "assumptions": "Monthly KRW, 35yo, midsize sedan. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Mandatory CALI",
+        "Voluntary liability",
+        "Personal injury",
+        "Uninsured motorist"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "FSS Korea"
+      },
+      "riders": [
+        "Blackbox discount",
+        "Rental car",
+        "Emergency support"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "KB Financial Group bancassurance",
+        "Digital mobile app claims",
+        "Competitive renewal rates",
+        "Bundle with KB home insurance"
+      ],
+      "sourceUrl": "https://www.kbinsure.co.kr/product/motor",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "lotte-motor-kr",
+      "insurerName": "Lotte Insurance",
+      "insurerSlug": "lotte-insurance",
+      "productName": "Lotte Insurance Auto Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 55000,
+        "illustrativeMax": 170000,
+        "assumptions": "Monthly KRW, 35yo, midsize sedan. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Mandatory CALI",
+        "Voluntary liability",
+        "Personal injury",
+        "Uninsured motorist"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "FSS Korea"
+      },
+      "riders": [
+        "Blackbox discount",
+        "Rental replacement"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Lotte Group retail discount",
+        "Online purchase discount",
+        "Mobile-first digital insurer",
+        "Competitive young driver rates"
+      ],
+      "sourceUrl": "https://www.lotteins.co.kr/product/motor",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "nhfire-motor-kr",
+      "insurerName": "NH Nonghyup Fire & Marine Insurance",
+      "insurerSlug": "nhfire",
+      "productName": "NH Nonghyup Auto Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 54000,
+        "illustrativeMax": 165000,
+        "assumptions": "Monthly KRW, 35yo, midsize sedan. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Mandatory CALI",
+        "Voluntary liability",
+        "Personal injury",
+        "Uninsured motorist"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "FSS Korea"
+      },
+      "riders": [
+        "Blackbox discount",
+        "Rental replacement",
+        "Emergency road service"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Agricultural cooperative network",
+        "Competitive rural pricing",
+        "NH bank branch distribution",
+        "Farmer-friendly plans"
+      ],
+      "sourceUrl": "https://www.nhfire.co.kr/product/motor",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "kr"

@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational and informational purposes only. Premium figures are illustrative and sourced from public insurer calculators/brochures. Actual premiums may vary. Please verify all details with the insurer directly before making any decision.",
   "products": [
     {
@@ -422,6 +422,601 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "national-insurance-motor",
+      "insurerName": "National Insurance Co. Ltd.",
+      "insurerSlug": "national-insurance",
+      "productName": "Private Car Package Policy",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "note": "IDV-based"
+      },
+      "premiumRange": {
+        "illustrativeMin": 6000,
+        "illustrativeMax": 15000,
+        "assumptions": "New car ₹8L IDV, metro. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Own damage (OD)",
+        "Third party liability (mandatory)",
+        "Fire & theft",
+        "Natural calamities",
+        "Personal accident cover"
+      ],
+      "keyExclusions": [
+        "Consequential loss",
+        "Wear and tear",
+        "Drunk driving"
+      ],
+      "claimSettlement": {
+        "ratio": 85,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "networkHospitals": {
+        "count": 0,
+        "source": "N/A"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protection",
+        "RSA"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "PSU insurer",
+        "Nationwide garage network",
+        "Affordable OD premium"
+      ],
+      "sourceUrl": "https://www.nationalinsurance.nic.co.in/motor.php",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "iffco-tokio-motor-gold",
+      "insurerName": "IFFCO Tokio General Insurance Co. Ltd.",
+      "insurerSlug": "iffco-tokio",
+      "productName": "Motor Gold Package",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "note": "IDV-based"
+      },
+      "premiumRange": {
+        "illustrativeMin": 6500,
+        "illustrativeMax": 16000,
+        "assumptions": "New car ₹8L IDV, metro. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Third party liability",
+        "Fire & explosion",
+        "Natural calamities",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Wear and tear",
+        "Drunk driving",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 88.5,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "networkHospitals": {
+        "count": 0,
+        "source": "N/A"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine & Gearbox Protection",
+        "Key Replacement",
+        "RSA"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "3400+ network garages",
+        "24×7 RSA",
+        "Tokio Marine Japan backing",
+        "Quick claim settlement"
+      ],
+      "sourceUrl": "https://www.iffcotokio.co.in/motor-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "reliance-motor-comprehensive",
+      "insurerName": "Reliance General Insurance Co. Ltd.",
+      "insurerSlug": "reliance-general",
+      "productName": "Private Car Insurance (Comprehensive)",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "note": "IDV-based"
+      },
+      "premiumRange": {
+        "illustrativeMin": 6000,
+        "illustrativeMax": 15000,
+        "assumptions": "New car ₹8L IDV, metro. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Third party liability",
+        "Fire & theft",
+        "Earthquake & flood",
+        "PA cover"
+      ],
+      "keyExclusions": [
+        "Wear and tear",
+        "Drunk driving"
+      ],
+      "claimSettlement": {
+        "ratio": 87,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "networkHospitals": {
+        "count": 0,
+        "source": "N/A"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protection",
+        "Key Replacement",
+        "Consumable Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "6000+ cashless garages",
+        "Reliance Group",
+        "Instant policy issuance",
+        "24×7 claims support"
+      ],
+      "sourceUrl": "https://www.reliancegeneral.co.in/Insurance/Car-Insurance.aspx",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "liberty-general-motor",
+      "insurerName": "Liberty General Insurance Ltd.",
+      "insurerSlug": "liberty-general",
+      "productName": "Private Car Comprehensive Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "note": "IDV-based"
+      },
+      "premiumRange": {
+        "illustrativeMin": 6200,
+        "illustrativeMax": 14500,
+        "assumptions": "New car ₹8L IDV. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Third party liability",
+        "Natural calamities",
+        "Fire & theft",
+        "PA cover"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 86,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "networkHospitals": {
+        "count": 0,
+        "source": "N/A"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protection",
+        "RSA",
+        "Tyre Protection"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Liberty Mutual global backing",
+        "Cashless claims at 4500+ garages",
+        "Tyre protection add-on"
+      ],
+      "sourceUrl": "https://www.libertyinsurance.in/car-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "kotak-motor-comprehensive",
+      "insurerName": "Kotak Mahindra General Insurance Co. Ltd.",
+      "insurerSlug": "kotak-general",
+      "productName": "Kotak Car Insurance (Comprehensive)",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "note": "IDV-based"
+      },
+      "premiumRange": {
+        "illustrativeMin": 5800,
+        "illustrativeMax": 14000,
+        "assumptions": "New car ₹8L IDV. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Third party liability",
+        "Fire & theft",
+        "Natural calamities",
+        "PA cover"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 88,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "networkHospitals": {
+        "count": 0,
+        "source": "N/A"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protection",
+        "Key Loss",
+        "Consumable Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Digital-first experience",
+        "Kotak Mahindra Group",
+        "3000+ network garages",
+        "Instant claim notification"
+      ],
+      "sourceUrl": "https://www.kotakgeneral.com/car-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "oriental-motor-comprehensive",
+      "insurerName": "Oriental Insurance Co. Ltd.",
+      "insurerSlug": "oriental-insurance",
+      "productName": "Private Car Package Policy",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "note": "IDV-based"
+      },
+      "premiumRange": {
+        "illustrativeMin": 5500,
+        "illustrativeMax": 13000,
+        "assumptions": "New car ₹8L IDV. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Third party liability",
+        "Fire & theft",
+        "Natural calamities",
+        "PA cover"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 84.5,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "networkHospitals": {
+        "count": 0,
+        "source": "N/A"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protection"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "PSU insurer",
+        "Trusted brand",
+        "Pan-India presence"
+      ],
+      "sourceUrl": "https://orientalinsurance.org.in/web/guest/motor-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "bharti-axa-motor",
+      "insurerName": "Bharti AXA General Insurance Co. Ltd.",
+      "insurerSlug": "bharti-axa-general",
+      "productName": "Comprehensive Car Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "note": "IDV-based"
+      },
+      "premiumRange": {
+        "illustrativeMin": 6000,
+        "illustrativeMax": 14000,
+        "assumptions": "New car ₹8L IDV. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Third party liability",
+        "Fire & theft",
+        "Natural calamities",
+        "PA cover"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 87.5,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "networkHospitals": {
+        "count": 0,
+        "source": "N/A"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protection",
+        "RSA",
+        "Key Loss"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "AXA global backing",
+        "4000+ network garages",
+        "24×7 RSA"
+      ],
+      "sourceUrl": "https://www.bharti-axagi.co.in/motor-insurance/car-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "sbi-motor-comprehensive",
+      "insurerName": "SBI General Insurance Co. Ltd.",
+      "insurerSlug": "sbi-general",
+      "productName": "SBI Comprehensive Car Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "note": "IDV-based"
+      },
+      "premiumRange": {
+        "illustrativeMin": 6000,
+        "illustrativeMax": 15000,
+        "assumptions": "New car ₹8L IDV. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Third party liability",
+        "Fire & theft",
+        "Natural calamities",
+        "PA cover"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "networkHospitals": {
+        "count": 0,
+        "source": "N/A"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protection",
+        "Consumables",
+        "RSA"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "SBI Group trust",
+        "High claim settlement",
+        "16000+ SBI branches for support",
+        "5000+ network garages"
+      ],
+      "sourceUrl": "https://www.sbigeneral.in/portal/motor-insurance/car-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "in"
     }

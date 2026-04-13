@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -143,6 +143,342 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "flexicover-gold-uk",
+      "insurerName": "Flexicover",
+      "insurerSlug": "flexicover",
+      "productName": "Flexicover Gold Annual Multi-Trip",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 75,
+        "renewableUpTo": 75
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 10000000,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 80,
+        "illustrativeMax": 180,
+        "assumptions": "Annual, individual, up to 60 days per trip. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses £10M",
+        "Cancellation £7.5K",
+        "Baggage £3K",
+        "Personal liability £2M",
+        "Repatriation",
+        "Travel delay"
+      ],
+      "keyExclusions": [
+        "Pre-existing (unless declared)",
+        "Extreme sports without upgrade",
+        "FCDO advisory destinations"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Sports pack",
+        "Winter sports",
+        "Gadget cover",
+        "Cruise cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Annual multi-trip",
+        "Up to 60 days per trip",
+        "Defaqto 5-star",
+        "No excess on medical"
+      ],
+      "sourceUrl": "https://www.flexicover.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "coverwise-gold-uk",
+      "insurerName": "Coverwise",
+      "insurerSlug": "coverwise",
+      "productName": "Coverwise Gold Travel Insurance",
+      "category": "travel",
+      "subCategory": "single-trip",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 75,
+        "renewableUpTo": 75
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 10000000,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 30,
+        "illustrativeMax": 90,
+        "assumptions": "Individual, 2-week Europe. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses £10M",
+        "Cancellation £5K",
+        "Baggage £2.5K",
+        "Personal liability £2M",
+        "Delay compensation",
+        "Missed departure"
+      ],
+      "keyExclusions": [
+        "Pre-existing (unless declared)",
+        "War",
+        "FCDO advisory"
+      ],
+      "claimSettlement": {
+        "ratio": 89,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Winter sports",
+        "Sports cover",
+        "Gadget"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 365,
+        "options": []
+      },
+      "renewability": "Per trip",
+      "specialFeatures": [
+        "Defaqto 5-star rated",
+        "24/7 emergency helpline",
+        "Online policy management",
+        "Good value for money"
+      ],
+      "sourceUrl": "https://www.coverwise.co.uk",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "insureandgo-gold-uk",
+      "insurerName": "InsureandGo",
+      "insurerSlug": "insureandgo",
+      "productName": "InsureandGo Gold Annual",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 74,
+        "renewableUpTo": 74
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 15000000,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 75,
+        "illustrativeMax": 165,
+        "assumptions": "Annual, individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses £15M",
+        "Cancellation £7.5K",
+        "Baggage £3K",
+        "Personal liability £2M",
+        "24/7 emergency",
+        "Travel delay"
+      ],
+      "keyExclusions": [
+        "Pre-existing (unless declared)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Winter sports",
+        "Golf cover",
+        "Business travel",
+        "Cruise"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Defaqto 5-star Gold rated",
+        "£15M medical cover",
+        "Up to 90 trips p/a",
+        "Award-winning service"
+      ],
+      "sourceUrl": "https://www.insureandgo.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "trailfinders-travel-uk",
+      "insurerName": "Trailfinders Travel Insurance",
+      "insurerSlug": "trailfinders",
+      "productName": "Trailfinders Comprehensive Annual",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 74,
+        "renewableUpTo": 74
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 10000000,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 85,
+        "illustrativeMax": 190,
+        "assumptions": "Annual, individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses £10M",
+        "Cancellation £6K",
+        "Baggage £2.5K",
+        "Personal liability £2M",
+        "Adventure sports included (moderate)",
+        "Travel delay"
+      ],
+      "keyExclusions": [
+        "Extreme sports",
+        "FCDO advisory destinations"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Winter sports",
+        "High risk activities"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Adventure activities included standard",
+        "Long-trip specialist (up to 18 months)",
+        "Backpacker friendly",
+        "Trailfinders 50yr travel expertise"
+      ],
+      "sourceUrl": "https://www.trailfinders.com/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "holidayriskcover-uk",
+      "insurerName": "Holiday Extras (AXA)",
+      "insurerSlug": "holiday-extras",
+      "productName": "Holiday Extras Annual Gold",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 75,
+        "renewableUpTo": 75
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 10000000,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 70,
+        "illustrativeMax": 160,
+        "assumptions": "Annual, individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical £10M",
+        "Cancellation £5K",
+        "Baggage £3K",
+        "Delayed departure",
+        "Personal accident",
+        "Personal liability £2M"
+      ],
+      "keyExclusions": [
+        "Pre-existing (unless declared)",
+        "Extreme sports"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Winter sports",
+        "Cruise",
+        "Gadget"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "AXA backed",
+        "Airport lounge access option",
+        "Easy app claims",
+        "Trusted UK travel brand"
+      ],
+      "sourceUrl": "https://www.holidayextras.co.uk/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "uk"

@@ -1,6 +1,6 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -104,6 +104,408 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "canada-life-term-ca",
+      "insurerName": "Canada Life",
+      "insurerSlug": "canada-life",
+      "productName": "Canada Life Term Life Insurance",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 70,
+        "renewableUpTo": 85
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 10000000,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 25,
+        "illustrativeMax": 80,
+        "assumptions": "Monthly CAD, 35yo non-smoker, CAD 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Conversion privilege",
+        "Renewability"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 97,
+        "year": "2024",
+        "source": "CLHIA"
+      },
+      "riders": [
+        "Critical Illness",
+        "Disability Waiver",
+        "Children's Term"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Renewable & convertible",
+      "specialFeatures": [
+        "Largest Canadian insurer",
+        "T10/T20/T30 options",
+        "Group/individual",
+        "Strong advisor network"
+      ],
+      "sourceUrl": "https://www.canadalife.com/insurance/life-insurance/term-life-insurance.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "ia-term-ca",
+      "insurerName": "iA Financial Group",
+      "insurerSlug": "ia-financial",
+      "productName": "iA Term 20 Life Insurance",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 70,
+        "renewableUpTo": 85
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 10000000,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 22,
+        "illustrativeMax": 75,
+        "assumptions": "Monthly CAD, 35yo non-smoker, CAD 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Convertibility",
+        "Renewability"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 97,
+        "year": "2024",
+        "source": "CLHIA"
+      },
+      "riders": [
+        "Critical Illness",
+        "Accident & Dismemberment",
+        "Disability Waiver"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          20,
+          30
+        ]
+      },
+      "renewability": "Renewable & convertible",
+      "specialFeatures": [
+        "Competitive Québec pricing",
+        "T10/T20/T30",
+        "Digital issuance",
+        "iA Group full-service"
+      ],
+      "sourceUrl": "https://ia.ca/individuals/insurance/life/term-life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "cooperators-term-ca",
+      "insurerName": "The Co-operators",
+      "insurerSlug": "cooperators",
+      "productName": "Co-operators Term Life Insurance",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 5000000,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 24,
+        "illustrativeMax": 78,
+        "assumptions": "Monthly CAD, 35yo non-smoker, CAD 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Convertibility",
+        "Renewability"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 96,
+        "year": "2024",
+        "source": "CLHIA"
+      },
+      "riders": [
+        "Critical Illness",
+        "Disability",
+        "Children's"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          20,
+          30
+        ]
+      },
+      "renewability": "Renewable & convertible",
+      "specialFeatures": [
+        "Co-operative ownership",
+        "Bundled with P&C discount",
+        "Community focus",
+        "Advisor-driven"
+      ],
+      "sourceUrl": "https://www.cooperators.ca/en/personal/life",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "empire-life-term-ca",
+      "insurerName": "Empire Life Insurance",
+      "insurerSlug": "empire-life",
+      "productName": "Empire Life Elite Term",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 70,
+        "renewableUpTo": 85
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 10000000,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 23,
+        "illustrativeMax": 76,
+        "assumptions": "Monthly CAD, 35yo non-smoker, CAD 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Convertibility"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 96,
+        "year": "2024",
+        "source": "CLHIA"
+      },
+      "riders": [
+        "Critical Illness",
+        "Disability Waiver",
+        "Children's Term"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          20,
+          30
+        ]
+      },
+      "renewability": "Renewable & convertible",
+      "specialFeatures": [
+        "Mutual insurer",
+        "Competitive pricing Ontario",
+        "E-App digital submission",
+        "Strong CI rider options"
+      ],
+      "sourceUrl": "https://www.empire.ca/en/products/life",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "assumption-life-term-ca",
+      "insurerName": "Assumption Life",
+      "insurerSlug": "assumption-life",
+      "productName": "Assumption Life Term",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 70,
+        "renewableUpTo": 85
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 5000000,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 21,
+        "illustrativeMax": 72,
+        "assumptions": "Monthly CAD, 35yo non-smoker, CAD 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Convertibility",
+        "Renewability"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 96,
+        "year": "2024",
+        "source": "CLHIA"
+      },
+      "riders": [
+        "Critical Illness",
+        "Accident & Dismemberment"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          20,
+          30
+        ]
+      },
+      "renewability": "Renewable & convertible",
+      "specialFeatures": [
+        "Atlantic Canada specialist",
+        "Francophone community focus",
+        "Mutual insurer",
+        "Competitive New Brunswick/Nova Scotia pricing"
+      ],
+      "sourceUrl": "https://www.assumptionlife.ca/en/products/life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "foresters-term-ca",
+      "insurerName": "Foresters Financial",
+      "insurerSlug": "foresters",
+      "productName": "Foresters Strong Foundation Term",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 70,
+        "renewableUpTo": 85
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 10000000,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 24,
+        "illustrativeMax": 77,
+        "assumptions": "Monthly CAD, 35yo non-smoker, CAD 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Convertibility",
+        "Member benefits (scholarships, etc.)"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 96,
+        "year": "2024",
+        "source": "CLHIA"
+      },
+      "riders": [
+        "Critical Illness",
+        "Accident",
+        "Disability Waiver"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          20,
+          30
+        ]
+      },
+      "renewability": "Renewable & convertible",
+      "specialFeatures": [
+        "Fraternal benefit society",
+        "Community giving programs",
+        "Member scholarships & grants",
+        "No-exam option up to CAD 400K"
+      ],
+      "sourceUrl": "https://www.foresters.com/en/canada/life-insurance/term-life",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "ca"
     }

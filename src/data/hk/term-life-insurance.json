@@ -1,6 +1,6 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -104,6 +104,281 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "hk"
+    },
+    {
+      "id": "prudential-term-hk",
+      "insurerName": "Prudential Hong Kong",
+      "insurerSlug": "prudential-hk",
+      "productName": "PRUterm LIFE",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 50000000,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 300,
+        "illustrativeMax": 1000,
+        "assumptions": "Monthly HKD, 35yo non-smoker, HKD 2M, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Conversion privilege",
+        "Disability waiver"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 96,
+        "year": "2024",
+        "source": "IA Hong Kong"
+      },
+      "riders": [
+        "Critical illness",
+        "Accident",
+        "Disability income"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 35,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35
+        ]
+      },
+      "renewability": "Renewable & convertible",
+      "specialFeatures": [
+        "Prudential global Plc group",
+        "Largest life insurer HK",
+        "Strong IFA network",
+        "Multiple currency options"
+      ],
+      "sourceUrl": "https://www.prudential.com.hk/en/insurance/life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "hk"
+    },
+    {
+      "id": "sunlife-term-hk",
+      "insurerName": "Sun Life Hong Kong",
+      "insurerSlug": "sun-life-hk",
+      "productName": "Sun Life Premier Term Life",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 30000000,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 280,
+        "illustrativeMax": 950,
+        "assumptions": "Monthly HKD, 35yo non-smoker, HKD 2M, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Conversion privilege"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 95,
+        "year": "2024",
+        "source": "IA Hong Kong"
+      },
+      "riders": [
+        "Critical illness",
+        "Accident",
+        "Disability waiver"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 35,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35
+        ]
+      },
+      "renewability": "Renewable & convertible",
+      "specialFeatures": [
+        "Sun Life Canada group",
+        "Strong HK MPF/pension integration",
+        "Competitive pricing",
+        "Multi-currency USD/HKD"
+      ],
+      "sourceUrl": "https://www.sunlife.com.hk/en/insurance/life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "hk"
+    },
+    {
+      "id": "zurich-term-hk",
+      "insurerName": "Zurich Insurance Hong Kong",
+      "insurerSlug": "zurich-hk",
+      "productName": "Zurich Term Life Insurance",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 20000000,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 290,
+        "illustrativeMax": 970,
+        "assumptions": "Monthly HKD, 35yo non-smoker, HKD 2M, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "Disability waiver",
+        "Conversion privilege"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 95,
+        "year": "2024",
+        "source": "IA Hong Kong"
+      },
+      "riders": [
+        "Critical illness",
+        "Accident"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 35,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35
+        ]
+      },
+      "renewability": "Renewable & convertible",
+      "specialFeatures": [
+        "Zurich Switzerland AA rated",
+        "Strong financial stability",
+        "Expat community focus",
+        "Multi-currency"
+      ],
+      "sourceUrl": "https://www.zurich.com.hk/en/life-insurance/term",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "hk"
+    },
+    {
+      "id": "china-life-term-hk",
+      "insurerName": "China Life Insurance (Overseas)",
+      "insurerSlug": "china-life-hk",
+      "productName": "China Life Term Insurance",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 20000000,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 270,
+        "illustrativeMax": 920,
+        "assumptions": "Monthly HKD, 35yo non-smoker, HKD 2M, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "Disability waiver"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "IA Hong Kong"
+      },
+      "riders": [
+        "Critical illness",
+        "Accident"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Renewable & convertible",
+      "specialFeatures": [
+        "China Life Group – world's largest insurer by policies",
+        "Strong RMB policy option",
+        "Mainland connection advantage",
+        "Competitive HK pricing"
+      ],
+      "sourceUrl": "https://www.chinalife.com.hk/en/products/life",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "hk"
     }

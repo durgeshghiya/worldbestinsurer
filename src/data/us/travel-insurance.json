@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -144,6 +144,328 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "img-itravelinsured-us",
+      "insurerName": "International Medical Group (IMG)",
+      "insurerSlug": "img",
+      "productName": "iTravelInsured SE",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 74,
+        "renewableUpTo": 74
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 1000000,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 50,
+        "illustrativeMax": 180,
+        "assumptions": "35yo, 2-week Europe, $5K trip cost. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip cancellation/interruption",
+        "Medical expenses",
+        "Emergency evacuation",
+        "Baggage loss",
+        "Cancel for any reason (optional)"
+      ],
+      "keyExclusions": [
+        "Pre-existing (unless waiver)",
+        "Extreme sports without rider",
+        "War zones"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "AM Best"
+      },
+      "riders": [
+        "CFAR upgrade",
+        "Adventure sports",
+        "Pre-existing condition waiver"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 365,
+        "options": []
+      },
+      "renewability": "Per trip",
+      "specialFeatures": [
+        "Up to $1M medical coverage",
+        "Global network of providers",
+        "Annual multi-trip plans",
+        "Group plans available"
+      ],
+      "sourceUrl": "https://www.imglobal.com/travel-medical-insurance/itravel",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "seven-corners-roundtrip",
+      "insurerName": "Seven Corners",
+      "insurerSlug": "seven-corners",
+      "productName": "RoundTrip Choice",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 99,
+        "renewableUpTo": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 500000,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 45,
+        "illustrativeMax": 160,
+        "assumptions": "35yo, 2-week Europe, $5K trip cost. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip cancellation/interruption",
+        "Medical expenses",
+        "Emergency evacuation",
+        "Baggage delay/loss",
+        "Travel delay"
+      ],
+      "keyExclusions": [
+        "Pre-existing (without waiver)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 89,
+        "year": "2024",
+        "source": "AM Best"
+      },
+      "riders": [
+        "CFAR",
+        "Pre-existing waiver",
+        "Sports equipment"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 180,
+        "options": []
+      },
+      "renewability": "Per trip",
+      "specialFeatures": [
+        "No age limit",
+        "CFAR up to 75%",
+        "Cruise & international plans",
+        "Trip interruption 150% coverage"
+      ],
+      "sourceUrl": "https://www.sevencorners.com/trip-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "travelex-travel-select",
+      "insurerName": "Travelex Insurance Services",
+      "insurerSlug": "travelex",
+      "productName": "Travel Select",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 85,
+        "renewableUpTo": 85
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 500000,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 48,
+        "illustrativeMax": 155,
+        "assumptions": "35yo, 2-week Europe, $5K trip. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip cancellation/interruption",
+        "Medical expenses",
+        "Emergency evacuation",
+        "Baggage",
+        "Travel delay",
+        "Missed connection"
+      ],
+      "keyExclusions": [
+        "Pre-existing (without waiver)",
+        "Extreme sports"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "AM Best"
+      },
+      "riders": [
+        "CFAR",
+        "Pre-existing waiver",
+        "Adventure sports",
+        "Car rental"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 180,
+        "options": []
+      },
+      "renewability": "Per trip",
+      "specialFeatures": [
+        "Children under 17 free",
+        "$0 deductible medical",
+        "No age surcharge up to 85",
+        "Annual plans available"
+      ],
+      "sourceUrl": "https://www.travelexinsurance.com/plan/travel-select",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "battleface-explorer",
+      "insurerName": "battleface",
+      "insurerSlug": "battleface",
+      "productName": "Discovery Plan",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 69,
+        "renewableUpTo": 69
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 500000,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 35,
+        "illustrativeMax": 120,
+        "assumptions": "35yo, 2-week trip. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses",
+        "Emergency evacuation",
+        "Adventure sports included",
+        "Trip interruption",
+        "Baggage loss"
+      ],
+      "keyExclusions": [
+        "Trip cancellation (not included by default)",
+        "Extreme sports without upgrade"
+      ],
+      "claimSettlement": {
+        "ratio": 88,
+        "year": "2024",
+        "source": "AM Best"
+      },
+      "riders": [
+        "Trip cancellation upgrade",
+        "Higher medical limits"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 180,
+        "options": []
+      },
+      "renewability": "Per trip",
+      "specialFeatures": [
+        "Adventure & extreme sports covered",
+        "Designed for active travelers",
+        "No home-country restriction",
+        "Flexible coverage builder"
+      ],
+      "sourceUrl": "https://battleface.com/en-us",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "cat70-explorer-us",
+      "insurerName": "Chubb / Cat 70",
+      "insurerSlug": "chubb",
+      "productName": "Chubb Travel Protection Preferred",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 80,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 1000000,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 55,
+        "illustrativeMax": 190,
+        "assumptions": "35yo, 2-week Europe, $5K trip. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip cancellation/interruption",
+        "Medical up to $1M",
+        "Emergency evacuation",
+        "Baggage",
+        "Concierge services"
+      ],
+      "keyExclusions": [
+        "Pre-existing (without waiver)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "AM Best A++"
+      },
+      "riders": [
+        "CFAR",
+        "Pre-existing waiver",
+        "Adventure sports"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 180,
+        "options": []
+      },
+      "renewability": "Per trip",
+      "specialFeatures": [
+        "Chubb A++ AM Best",
+        "$1M medical limit",
+        "Concierge services included",
+        "Global assistance 24/7"
+      ],
+      "sourceUrl": "https://www.chubb.com/us-en/individuals-families/products/travel-insurance.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "us"
     }

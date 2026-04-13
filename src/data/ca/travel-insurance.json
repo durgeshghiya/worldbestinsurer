@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -47,6 +47,333 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "bluecross-travel-ca",
+      "insurerName": "Blue Cross (various provincial)",
+      "insurerSlug": "blue-cross-ca",
+      "productName": "Blue Cross Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 89,
+        "renewableUpTo": 89
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 5000000,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 50,
+        "illustrativeMax": 200,
+        "assumptions": "Individual, 35yo, 2-week trip. CAD. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Emergency medical",
+        "Hospital",
+        "Trip cancellation/interruption",
+        "Baggage loss/delay",
+        "Flight delay",
+        "24/7 assistance"
+      ],
+      "keyExclusions": [
+        "Pre-existing (without stability clause met)",
+        "Extreme sports",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "CLHIA"
+      },
+      "riders": [
+        "Pre-existing condition upgrade",
+        "Adventure sports",
+        "Annual multi-trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 365,
+        "options": []
+      },
+      "renewability": "Per trip / annual",
+      "specialFeatures": [
+        "Blue Cross brand trust",
+        "Non-profit insurers",
+        "Annual multi-trip available",
+        "Snowbird specialist plans"
+      ],
+      "sourceUrl": "https://www.bluecross.ca/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "td-travel-insurance-ca",
+      "insurerName": "TD Insurance (TD Bank Group)",
+      "insurerSlug": "td-insurance",
+      "productName": "TD Multi-Trip All-Inclusive",
+      "category": "travel",
+      "subCategory": "annual",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": 75
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 5000000,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 120,
+        "illustrativeMax": 350,
+        "assumptions": "Annual, 40yo, CAD. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Emergency medical CAD 5M",
+        "Trip cancellation",
+        "Baggage",
+        "Flight delay",
+        "Accident",
+        "24/7 assistance"
+      ],
+      "keyExclusions": [
+        "Pre-existing (stability required)",
+        "Extreme sports",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "CLHIA"
+      },
+      "riders": [
+        "Pre-existing conditions",
+        "Cancel for Any Reason"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "TD Green Travel Certification",
+        "Bank-backed trust",
+        "Credit card bundle discounts",
+        "Annual multi-trip plans"
+      ],
+      "sourceUrl": "https://www.td.com/ca/en/personal-banking/products/insurance/travel",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "tugo-travel-ca",
+      "insurerName": "TuGo Travel Insurance",
+      "insurerSlug": "tugo",
+      "productName": "TuGo Travel Insurance Traveller",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 84,
+        "renewableUpTo": 84
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 10000000,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 45,
+        "illustrativeMax": 180,
+        "assumptions": "Individual, 35yo, 2-week trip. CAD. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Emergency medical CAD 10M",
+        "Trip cancellation",
+        "Baggage",
+        "Flight delay",
+        "Accident",
+        "Repatriation"
+      ],
+      "keyExclusions": [
+        "Pre-existing (stability required)",
+        "Extreme sports (without upgrade)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "CLHIA"
+      },
+      "riders": [
+        "Adventure sports",
+        "Trip cancellation upgrade",
+        "Annual plan"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 365,
+        "options": []
+      },
+      "renewability": "Per trip / annual",
+      "specialFeatures": [
+        "CAD 10M medical",
+        "BC-based specialist",
+        "Adventure sports option",
+        "Popular with backpackers"
+      ],
+      "sourceUrl": "https://www.tugo.com/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "gcic-travel-ca",
+      "insurerName": "Global Crossing Insurance (Manulife)",
+      "insurerSlug": "manulife-ca-travel",
+      "productName": "Manulife CoverMe Travel",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 85,
+        "renewableUpTo": 85
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 10000000,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 48,
+        "illustrativeMax": 185,
+        "assumptions": "Individual, 35yo, 2-week trip. CAD. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Emergency medical CAD 10M",
+        "Trip cancellation",
+        "Baggage",
+        "Flight interruption",
+        "Accident"
+      ],
+      "keyExclusions": [
+        "Pre-existing (stability required)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "CLHIA"
+      },
+      "riders": [
+        "Pre-existing conditions upgrade",
+        "Adventure sports",
+        "Annual multi-trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 365,
+        "options": []
+      },
+      "renewability": "Per trip / annual",
+      "specialFeatures": [
+        "Manulife brand trust",
+        "CoverMe online quick quote",
+        "Snowbird specialist",
+        "Senior travel plans"
+      ],
+      "sourceUrl": "https://www.coverme.com/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "travel-cuts-ca",
+      "insurerName": "Travel CUTS Insurance (by Co-operators)",
+      "insurerSlug": "travel-cuts-ca",
+      "productName": "Travel CUTS Bonvoyage Student Travel",
+      "category": "travel",
+      "subCategory": "student",
+      "eligibility": {
+        "minAge": 14,
+        "maxAge": 35,
+        "renewableUpTo": 35
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 5000000,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 30,
+        "illustrativeMax": 130,
+        "assumptions": "Student, 22yo, semester abroad. CAD. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Emergency medical",
+        "Trip cancellation",
+        "Baggage",
+        "Mental health support",
+        "Repatriation",
+        "Student specific benefits"
+      ],
+      "keyExclusions": [
+        "Pre-existing (stability required)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "CLHIA"
+      },
+      "riders": [
+        "Adventure sports",
+        "Extended coverage"
+      ],
+      "policyTenure": {
+        "min": 7,
+        "max": 365,
+        "options": []
+      },
+      "renewability": "Per trip",
+      "specialFeatures": [
+        "Student travel specialist",
+        "Co-operators backed",
+        "Multi-week plans",
+        "Popular for study abroad & exchanges"
+      ],
+      "sourceUrl": "https://www.travelcuts.com/insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "ca"

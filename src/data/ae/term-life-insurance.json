@@ -1,6 +1,6 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -105,6 +105,281 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "aia-life-ae",
+      "insurerName": "AIA Insurance UAE",
+      "insurerSlug": "aia-ae",
+      "productName": "AIA Absolute Benefit Term Plan",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 10000000,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 800,
+        "illustrativeMax": 2500,
+        "assumptions": "Annual, 35yo, USD 500K, 20yr. Indicative AED.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Disability waiver option",
+        "Conversion privilege"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "Non-disclosure",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 95,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "Critical Illness",
+        "Accidental Death & Dismemberment",
+        "Waiver of Premium"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Convertible",
+      "specialFeatures": [
+        "AIA APAC group backing",
+        "Multi-currency plans",
+        "Expat-friendly",
+        "UAE Insurance Authority compliant"
+      ],
+      "sourceUrl": "https://www.aia.ae/en/individual/products/protection/term-insurance.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "friends-provident-ae",
+      "insurerName": "Friends Provident International (FPI)",
+      "insurerSlug": "fpi-ae",
+      "productName": "FPI Reserve Protection Plan",
+      "category": "term-life",
+      "subCategory": "whole-life",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 60,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 5000000,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1500,
+        "illustrativeMax": 5000,
+        "assumptions": "Annual, 35yo, USD 500K. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Whole of life cover",
+        "Investment-linked option",
+        "Terminal illness benefit"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "War",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 94,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "Critical Illness",
+        "Disability income",
+        "Indexation"
+      ],
+      "policyTenure": {
+        "min": 0,
+        "max": 0,
+        "options": [],
+        "note": "Whole life"
+      },
+      "renewability": "Whole life",
+      "specialFeatures": [
+        "Isle of Man jurisdiction",
+        "Expat-specialist insurer",
+        "Multi-currency",
+        "Portable worldwide"
+      ],
+      "sourceUrl": "https://www.fpinternational.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "allianz-life-ae",
+      "insurerName": "Allianz Life Insurance (UAE)",
+      "insurerSlug": "allianz-life-ae",
+      "productName": "AllianzCare Term Life",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 5000000,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 700,
+        "illustrativeMax": 2200,
+        "assumptions": "Annual, 35yo, USD 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Repatriation benefit"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "War",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 94,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "Critical Illness",
+        "Accidental Death",
+        "Disability"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 30,
+        "options": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Renewable",
+      "specialFeatures": [
+        "Allianz global AA rating",
+        "Repatriation included",
+        "Expat-friendly documentation",
+        "Multi-language support"
+      ],
+      "sourceUrl": "https://www.allianzcare.com/en/life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "amnlife-ae",
+      "insurerName": "HAYAH Insurance (formerly Zurich)",
+      "insurerSlug": "hayah-ae",
+      "productName": "HAYAH Term Plan",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 3000000,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 750,
+        "illustrativeMax": 2400,
+        "assumptions": "Annual, 35yo, USD 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Premium waiver on disability"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "War",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "Critical Illness",
+        "Disability",
+        "Accidental Death"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 30,
+        "options": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Renewable",
+      "specialFeatures": [
+        "Formerly Zurich Middle East",
+        "Strong brand heritage",
+        "UAE-licensed",
+        "Competitive expat premiums"
+      ],
+      "sourceUrl": "https://www.hayah.ae/products/term-life",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "ae"

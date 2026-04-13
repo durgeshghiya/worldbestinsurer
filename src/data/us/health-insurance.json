@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -344,6 +344,519 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "molina-marketplace-us",
+      "insurerName": "Molina Healthcare",
+      "insurerSlug": "molina",
+      "productName": "Molina Marketplace Silver Plan",
+      "category": "health",
+      "subCategory": "hmo",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 64,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 9450,
+        "options": [],
+        "currency": "USD",
+        "note": "OOP max 2026"
+      },
+      "premiumRange": {
+        "illustrativeMin": 280,
+        "illustrativeMax": 450,
+        "assumptions": "40yo individual, before subsidies, monthly. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Preventive care",
+        "Emergency services",
+        "Mental health",
+        "Prescription drugs",
+        "Maternity",
+        "Pediatric care"
+      ],
+      "keyExclusions": [
+        "Out-of-network (except emergency)",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 88,
+        "year": "2024",
+        "source": "CMS"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "ACA-compliant Silver plan",
+        "Low-income focused",
+        "Medicaid-to-marketplace transition",
+        "Available in 20+ states"
+      ],
+      "sourceUrl": "https://www.molinahealthcare.com/marketplace",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "anthem-blue-cross-ppo",
+      "insurerName": "Anthem Blue Cross Blue Shield",
+      "insurerSlug": "anthem",
+      "productName": "Anthem PPO Classic",
+      "category": "health",
+      "subCategory": "ppo",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 64,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 9450,
+        "options": [],
+        "currency": "USD",
+        "note": "OOP max 2026"
+      },
+      "premiumRange": {
+        "illustrativeMin": 380,
+        "illustrativeMax": 620,
+        "assumptions": "40yo individual, monthly, before subsidies. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In & out-of-network coverage",
+        "Preventive care",
+        "Emergency services",
+        "Mental health",
+        "Telehealth"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery",
+        "Non-covered experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "NAIC"
+      },
+      "riders": [
+        "Dental",
+        "Vision",
+        "Critical Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Nationwide PPO network",
+        "Out-of-network covered at higher cost",
+        "Telehealth included",
+        "Available in 14 states"
+      ],
+      "sourceUrl": "https://www.anthem.com/health-insurance/individual-family",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "centene-ambetter",
+      "insurerName": "Centene Corporation (Ambetter)",
+      "insurerSlug": "centene",
+      "productName": "Ambetter Essential Care",
+      "category": "health",
+      "subCategory": "hmo",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 64,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 9450,
+        "options": [],
+        "currency": "USD",
+        "note": "OOP max"
+      },
+      "premiumRange": {
+        "illustrativeMin": 250,
+        "illustrativeMax": 420,
+        "assumptions": "40yo individual, monthly, before subsidies. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Preventive care",
+        "Emergency services",
+        "Mental health",
+        "Prescription drugs",
+        "Pediatric",
+        "Maternity"
+      ],
+      "keyExclusions": [
+        "Out-of-network (except emergency)",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 87,
+        "year": "2024",
+        "source": "CMS"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Low-cost Bronze & Silver options",
+        "Incentive rewards for healthy behaviors",
+        "Available in 30+ states",
+        "ACA marketplace leader"
+      ],
+      "sourceUrl": "https://www.ambetterhealth.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "cvs-aetna-hmo",
+      "insurerName": "CVS Health / Aetna",
+      "insurerSlug": "aetna",
+      "productName": "Aetna CVS Health HMO Silver",
+      "category": "health",
+      "subCategory": "hmo",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 64,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 9450,
+        "options": [],
+        "currency": "USD",
+        "note": "OOP max"
+      },
+      "premiumRange": {
+        "illustrativeMin": 320,
+        "illustrativeMax": 530,
+        "assumptions": "40yo individual, monthly, before subsidies. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Preventive care",
+        "Emergency services",
+        "CVS MinuteClinic access",
+        "Prescription drugs at CVS",
+        "Mental health",
+        "Telehealth"
+      ],
+      "keyExclusions": [
+        "Out-of-network (except emergency)",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "NAIC"
+      },
+      "riders": [
+        "Dental (CVS network)",
+        "Vision"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Integrated CVS pharmacy",
+        "MinuteClinic visits covered",
+        "Telehealth 24/7",
+        "Health Savings Account compatible"
+      ],
+      "sourceUrl": "https://www.aetna.com/individuals-families/health-insurance-plans.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "health-net-silver-us",
+      "insurerName": "Health Net (Centene)",
+      "insurerSlug": "health-net",
+      "productName": "Health Net Silver 70 HMO",
+      "category": "health",
+      "subCategory": "hmo",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 64,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 9450,
+        "options": [],
+        "currency": "USD",
+        "note": "OOP max"
+      },
+      "premiumRange": {
+        "illustrativeMin": 300,
+        "illustrativeMax": 490,
+        "assumptions": "40yo individual, monthly. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Preventive care",
+        "Emergency services",
+        "Prescription drugs",
+        "Mental health",
+        "Maternity"
+      ],
+      "keyExclusions": [
+        "Out-of-network (except emergency)"
+      ],
+      "claimSettlement": {
+        "ratio": 88,
+        "year": "2024",
+        "source": "CA Dept of Insurance"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Covered California certified",
+        "Large CA provider network",
+        "Medi-Cal transition plans"
+      ],
+      "sourceUrl": "https://www.healthnet.com/portal/cms/sites/healthnet/individual-family",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "oscar-metro-plus",
+      "insurerName": "Oscar Health",
+      "insurerSlug": "oscar-health",
+      "productName": "Oscar Metro Plus PPO",
+      "category": "health",
+      "subCategory": "ppo",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 64,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 9450,
+        "options": [],
+        "currency": "USD",
+        "note": "OOP max"
+      },
+      "premiumRange": {
+        "illustrativeMin": 350,
+        "illustrativeMax": 580,
+        "assumptions": "40yo individual, monthly. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Preventive care",
+        "Virtual care included",
+        "Mental health",
+        "Prescription drugs",
+        "Specialist care"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 89,
+        "year": "2024",
+        "source": "NAIC"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Tech-forward insurer",
+        "Dedicated Care Team",
+        "$0 virtual urgent care",
+        "Step-therapy programs",
+        "Available in 18 states"
+      ],
+      "sourceUrl": "https://www.hioscar.com/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "highmark-bcbs-silver",
+      "insurerName": "Highmark Blue Cross Blue Shield",
+      "insurerSlug": "highmark",
+      "productName": "Community Blue Silver PPO",
+      "category": "health",
+      "subCategory": "ppo",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 64,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 9450,
+        "options": [],
+        "currency": "USD",
+        "note": "OOP max"
+      },
+      "premiumRange": {
+        "illustrativeMin": 340,
+        "illustrativeMax": 560,
+        "assumptions": "40yo individual, PA/WV/DE, monthly. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Preventive care",
+        "Telehealth",
+        "Mental health",
+        "Emergency services",
+        "Prescription drugs"
+      ],
+      "keyExclusions": [
+        "Out-of-network at higher cost",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "NAIC"
+      },
+      "riders": [
+        "Dental",
+        "Vision"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "BCBS national network",
+        "Regional strength in PA/WV/DE",
+        "LiveHealth Online telehealth"
+      ],
+      "sourceUrl": "https://www.highmark.com/hmk/index.shtml",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "medica-choice-us",
+      "insurerName": "Medica",
+      "insurerSlug": "medica",
+      "productName": "Medica Choice with Unitedhealthcare",
+      "category": "health",
+      "subCategory": "ppo",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 64,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 9450,
+        "options": [],
+        "currency": "USD",
+        "note": "OOP max"
+      },
+      "premiumRange": {
+        "illustrativeMin": 310,
+        "illustrativeMax": 500,
+        "assumptions": "40yo, MN/ND/SD, monthly. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Preventive care",
+        "Telehealth",
+        "Mental health",
+        "Prescription drugs",
+        "Specialty care"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 89,
+        "year": "2024",
+        "source": "NAIC"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Strong Midwest presence",
+        "UnitedHealthcare network access",
+        "Nurse line 24/7"
+      ],
+      "sourceUrl": "https://www.medica.com/individual-and-family/plans",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "us"

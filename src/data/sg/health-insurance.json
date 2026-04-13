@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -192,6 +192,402 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "income-enhanced-shield-sg",
+      "insurerName": "Income Insurance (NTUC Income)",
+      "insurerSlug": "income-insurance",
+      "productName": "Enhanced IncomeShield Preferred",
+      "category": "health",
+      "subCategory": "medishield-integrated",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "SGD",
+        "note": "Integrated Shield Plan – above MediShield Life"
+      },
+      "premiumRange": {
+        "illustrativeMin": 800,
+        "illustrativeMax": 2000,
+        "assumptions": "Annual, SGD, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Hospitalisation (A/B1 ward)",
+        "Surgical procedures",
+        "Cancer treatment",
+        "Pre & post hospitalisation",
+        "Day surgery",
+        "Overseas emergency"
+      ],
+      "keyExclusions": [
+        "Non-medically necessary",
+        "Cosmetic surgery",
+        "Pre-existing (waiting period)"
+      ],
+      "claimSettlement": {
+        "ratio": 95,
+        "year": "2024",
+        "source": "MAS"
+      },
+      "riders": [
+        "Classic Care rider (rider to reduce out-of-pocket)"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "MAS-approved Integrated Shield Plan",
+        "Coverage up to private hospital",
+        "Cooperative – social mission",
+        "Classic Care rider available"
+      ],
+      "sourceUrl": "https://www.income.com.sg/enhanced-incomeshield",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "manulife-manuprotect-shield-sg",
+      "insurerName": "Manulife Singapore",
+      "insurerSlug": "manulife-sg",
+      "productName": "ManuProtect Preferred (Integrated)",
+      "category": "health",
+      "subCategory": "medishield-integrated",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "SGD",
+        "note": "ISP – private hospital standard ward"
+      },
+      "premiumRange": {
+        "illustrativeMin": 900,
+        "illustrativeMax": 2200,
+        "assumptions": "Annual, SGD, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Private hospital ward coverage",
+        "Surgical & specialist fees",
+        "Cancer & serious illness",
+        "Emergency overseas",
+        "Day surgery",
+        "Pre & post hospitalisation 90/365 days"
+      ],
+      "keyExclusions": [
+        "Non-medically necessary",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 95,
+        "year": "2024",
+        "source": "MAS"
+      },
+      "riders": [
+        "ManuProtect Care rider"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Private hospital cover",
+        "No lifetime limit",
+        "Manulife Canada group",
+        "MAS-approved ISP"
+      ],
+      "sourceUrl": "https://www.manulife.com.sg/health-insurance/manuprotect",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "aviva-myshield-sg",
+      "insurerName": "Singlife with Aviva",
+      "insurerSlug": "singlife-aviva",
+      "productName": "MyShield Plan 1 (Private Hospital)",
+      "category": "health",
+      "subCategory": "medishield-integrated",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "SGD",
+        "note": "Private hospital standard ward"
+      },
+      "premiumRange": {
+        "illustrativeMin": 880,
+        "illustrativeMax": 2100,
+        "assumptions": "Annual, SGD, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Private hospital ward",
+        "Specialist & surgical fees",
+        "Cancer treatment",
+        "Emergency overseas",
+        "Day surgery",
+        "Pre & post 90/180 days"
+      ],
+      "keyExclusions": [
+        "Non-medically necessary",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 94,
+        "year": "2024",
+        "source": "MAS"
+      },
+      "riders": [
+        "MyShield Care rider",
+        "MyMultiPay Critical Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Singapore's first digital insurer ISP",
+        "Aviva group",
+        "MyShield Care rider for $0 co-pay",
+        "Strong digital claims"
+      ],
+      "sourceUrl": "https://singlife.com/en/health/myshield",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "raffles-shield-sg",
+      "insurerName": "Raffles Health Insurance",
+      "insurerSlug": "raffles-health",
+      "productName": "RafflesShield Private Plan",
+      "category": "health",
+      "subCategory": "medishield-integrated",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "SGD",
+        "note": "Private hospital"
+      },
+      "premiumRange": {
+        "illustrativeMin": 850,
+        "illustrativeMax": 2000,
+        "assumptions": "Annual, SGD, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Private hospital ward",
+        "Surgical & specialist fees",
+        "Cancer treatment",
+        "Emergency overseas",
+        "Outpatient cancer chemotherapy"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery",
+        "Non-medically necessary"
+      ],
+      "claimSettlement": {
+        "ratio": 94,
+        "year": "2024",
+        "source": "MAS"
+      },
+      "riders": [
+        "RafflesShield Care rider"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Integrated with Raffles Medical Group",
+        "Preferential access to Raffles Hospital",
+        "No claims discount",
+        "MAS-approved ISP"
+      ],
+      "sourceUrl": "https://www.raffleshealth.com/insurance/rafflesshield",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "axa-shield-sg",
+      "insurerName": "AXA Insurance Singapore",
+      "insurerSlug": "axa-sg",
+      "productName": "AXA Shield Plan A",
+      "category": "health",
+      "subCategory": "medishield-integrated",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "SGD",
+        "note": "Private hospital"
+      },
+      "premiumRange": {
+        "illustrativeMin": 870,
+        "illustrativeMax": 2050,
+        "assumptions": "Annual, SGD, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Private hospital ward",
+        "Surgical & specialist",
+        "Cancer treatment",
+        "Emergency overseas",
+        "Day surgery",
+        "Pre & post hospitalisation"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery",
+        "Non-medically necessary"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "MAS"
+      },
+      "riders": [
+        "AXA Shield Plus rider"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "AXA global group",
+        "ISP with Shield Plus rider",
+        "No lifetime benefit limit",
+        "Competitive premiums"
+      ],
+      "sourceUrl": "https://www.axa.com.sg/health-insurance/hospitalisation",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "tokio-marine-sg-health",
+      "insurerName": "Tokio Marine Insurance Singapore",
+      "insurerSlug": "tokio-marine-sg",
+      "productName": "TM MediCare Premium",
+      "category": "health",
+      "subCategory": "medishield-integrated",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "SGD",
+        "note": "Private hospital"
+      },
+      "premiumRange": {
+        "illustrativeMin": 880,
+        "illustrativeMax": 2100,
+        "assumptions": "Annual, SGD, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Private hospital ward",
+        "Specialist & surgical fees",
+        "Cancer & critical illness coverage",
+        "Emergency overseas",
+        "Day surgery"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery",
+        "Non-medically necessary"
+      ],
+      "claimSettlement": {
+        "ratio": 94,
+        "year": "2024",
+        "source": "MAS"
+      },
+      "riders": [
+        "TM MediCare Premier rider"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Tokio Marine Japan group",
+        "MAS-approved ISP",
+        "No lifetime claim limit",
+        "Strong financial backing"
+      ],
+      "sourceUrl": "https://www.tokiomarine.com.sg/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "sg"
     }

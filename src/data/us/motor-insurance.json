@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -240,6 +240,343 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "nationwide-auto-us",
+      "insurerName": "Nationwide Mutual Insurance",
+      "insurerSlug": "nationwide",
+      "productName": "Nationwide Auto Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 16,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "USD",
+        "note": "Liability/collision/comprehensive options"
+      },
+      "premiumRange": {
+        "illustrativeMin": 100,
+        "illustrativeMax": 180,
+        "assumptions": "Annual average ~$1,700/yr divided by 12, 35yo clean record. Indicative monthly.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Liability",
+        "Collision",
+        "Comprehensive",
+        "Medical payments",
+        "Uninsured motorist",
+        "Roadside assistance"
+      ],
+      "keyExclusions": [
+        "Racing",
+        "Commercial use",
+        "Intentional damage"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "AM Best / JD Power"
+      },
+      "riders": [
+        "Gap Insurance",
+        "Rental Reimbursement",
+        "Accident Forgiveness",
+        "Vanishing Deductible"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Vanishing deductible program",
+        "Accident forgiveness",
+        "SmartRide usage-based discount",
+        "Available in 42 states"
+      ],
+      "sourceUrl": "https://www.nationwide.com/personal/insurance/auto",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "liberty-mutual-auto-us",
+      "insurerName": "Liberty Mutual Insurance",
+      "insurerSlug": "liberty-mutual",
+      "productName": "Liberty Mutual Auto Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 16,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 110,
+        "illustrativeMax": 200,
+        "assumptions": "35yo, clean record, monthly. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Liability",
+        "Collision",
+        "Comprehensive",
+        "Medical payments",
+        "Uninsured motorist",
+        "New car replacement"
+      ],
+      "keyExclusions": [
+        "Racing",
+        "Intentional damage",
+        "Commercial hauling"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "JD Power"
+      },
+      "riders": [
+        "Better Car Replacement",
+        "Accident Forgiveness",
+        "New Car Replacement",
+        "Deductible Fund"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual (6-month options)",
+      "specialFeatures": [
+        "Better Car Replacement",
+        "New car replacement",
+        "RightTrack telematics discount",
+        "Available nationwide"
+      ],
+      "sourceUrl": "https://www.libertymutual.com/auto-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "travelers-auto-us",
+      "insurerName": "Travelers Insurance",
+      "insurerSlug": "travelers",
+      "productName": "Travelers Auto Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 16,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 95,
+        "illustrativeMax": 175,
+        "assumptions": "35yo, clean record, monthly. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Liability",
+        "Collision",
+        "Comprehensive",
+        "Medical payments",
+        "Uninsured motorist",
+        "Roadside assistance"
+      ],
+      "keyExclusions": [
+        "Racing",
+        "Commercial use"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "JD Power / AM Best"
+      },
+      "riders": [
+        "New Car Replacement",
+        "Accident Forgiveness",
+        "Gap Coverage",
+        "Rideshare Coverage"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual (6-month options)",
+      "specialFeatures": [
+        "IntelliDrive telematics discount",
+        "Named non-owner policy",
+        "Rideshare coverage",
+        "Strong commercial integration"
+      ],
+      "sourceUrl": "https://www.travelers.com/auto-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "farmers-auto-us",
+      "insurerName": "Farmers Insurance",
+      "insurerSlug": "farmers",
+      "productName": "Farmers Auto Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 16,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 120,
+        "illustrativeMax": 210,
+        "assumptions": "35yo, clean record, monthly. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Liability",
+        "Collision",
+        "Comprehensive",
+        "Medical payments",
+        "Uninsured motorist"
+      ],
+      "keyExclusions": [
+        "Racing",
+        "Commercial hauling"
+      ],
+      "claimSettlement": {
+        "ratio": 89,
+        "year": "2024",
+        "source": "JD Power"
+      },
+      "riders": [
+        "Accident Forgiveness",
+        "New Car Replacement",
+        "Rideshare",
+        "Customized Equipment"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Signal telematics app discount",
+        "Accident Forgiveness",
+        "New car pledge",
+        "Agent-based service nationwide"
+      ],
+      "sourceUrl": "https://www.farmers.com/auto",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "erie-auto-us",
+      "insurerName": "Erie Insurance",
+      "insurerSlug": "erie-insurance",
+      "productName": "Erie Auto Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 16,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 85,
+        "illustrativeMax": 160,
+        "assumptions": "35yo, clean record, monthly. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Liability",
+        "Collision",
+        "Comprehensive",
+        "Medical payments",
+        "Uninsured motorist",
+        "Roadside assistance"
+      ],
+      "keyExclusions": [
+        "Racing",
+        "Commercial use"
+      ],
+      "claimSettlement": {
+        "ratio": 95,
+        "year": "2024",
+        "source": "JD Power – #1 rated"
+      },
+      "riders": [
+        "Rate Lock",
+        "Accident Forgiveness",
+        "New Auto Security",
+        "Diminishing Deductible"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "#1 JD Power customer satisfaction",
+        "Rate Lock (premium guarantee)",
+        "Diminishing deductible",
+        "Available in 12 states + DC"
+      ],
+      "sourceUrl": "https://www.erieinsurance.com/auto-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "us"
     }

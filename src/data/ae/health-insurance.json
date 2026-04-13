@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -191,6 +191,415 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "nextcare-ae-health",
+      "insurerName": "Nextcare (managed care)",
+      "insurerSlug": "nextcare-ae",
+      "productName": "Essential Benefits Plan (DHA)",
+      "category": "health",
+      "subCategory": "basic",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 64,
+        "renewableUpTo": 64
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 150000,
+        "options": [],
+        "currency": "AED",
+        "note": "DHA mandated AED 150,000"
+      },
+      "premiumRange": {
+        "illustrativeMin": 600,
+        "illustrativeMax": 1200,
+        "assumptions": "Annual, adult, Dubai mandatory basic. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Out-patient GP visits",
+        "Emergency care",
+        "Maternity (basic)",
+        "Prescription drugs",
+        "Diagnostics"
+      ],
+      "keyExclusions": [
+        "Pre-existing (limited emergency cover)",
+        "Cosmetic surgery",
+        "Dental (cosmetic)"
+      ],
+      "claimSettlement": {
+        "ratio": 88,
+        "year": "2024",
+        "source": "DHA / HAAD"
+      },
+      "riders": [
+        "Upgrade to higher limits",
+        "Dental",
+        "Optical"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "DHA-mandated Employer plan",
+        "AED 150K cover limit",
+        "Dubai Health Authority compliant",
+        "Most common employer plan"
+      ],
+      "sourceUrl": "https://www.nextcare.life/en/insurance-dubai",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "metlife-ae-health",
+      "insurerName": "MetLife Insurance (UAE)",
+      "insurerSlug": "metlife-ae",
+      "productName": "MetLife Health Select",
+      "category": "health",
+      "subCategory": "group",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 64,
+        "renewableUpTo": 64
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 1000000,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2500,
+        "illustrativeMax": 8000,
+        "assumptions": "Annual, individual comprehensive. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient",
+        "Out-patient",
+        "Emergency",
+        "Maternity",
+        "Dental",
+        "Optical",
+        "Mental health",
+        "Diagnostics"
+      ],
+      "keyExclusions": [
+        "Pre-existing (waiting period)",
+        "Cosmetic surgery",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "International cover",
+        "Chronic disease management",
+        "Second opinion"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "MetLife global network",
+        "International cover option",
+        "Wellness programs",
+        "Group & individual plans"
+      ],
+      "sourceUrl": "https://www.metlife.ae/en/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "cigna-global-ae",
+      "insurerName": "Cigna Global Insurance (UAE)",
+      "insurerSlug": "cigna-ae",
+      "productName": "Cigna Global Health Options",
+      "category": "health",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 74,
+        "renewableUpTo": 74
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "USD",
+        "note": "Up to $1M or unlimited"
+      },
+      "premiumRange": {
+        "illustrativeMin": 3000,
+        "illustrativeMax": 12000,
+        "assumptions": "Annual, adult, international plan. Indicative AED.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Worldwide in-patient",
+        "Out-patient consultations",
+        "Maternity",
+        "Dental & vision",
+        "Mental health",
+        "Evacuations & repatriation"
+      ],
+      "keyExclusions": [
+        "Home country exclusion possible",
+        "Pre-existing (initial)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "US cover add-on",
+        "Routine dental upgrade",
+        "Maternity enhancement"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Worldwide coverage",
+        "Expat specialist",
+        "Modular plan design",
+        "Global customer service in multiple languages"
+      ],
+      "sourceUrl": "https://www.cignaglobal.com/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "allianz-care-ae",
+      "insurerName": "Allianz Care (UAE)",
+      "insurerSlug": "allianz-ae",
+      "productName": "Allianz Care International Health Plan",
+      "category": "health",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 69,
+        "renewableUpTo": 69
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "EUR",
+        "note": "Up to €5M"
+      },
+      "premiumRange": {
+        "illustrativeMin": 4000,
+        "illustrativeMax": 15000,
+        "assumptions": "Annual, adult, international. Indicative AED.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Worldwide in-patient & out-patient",
+        "Cancer cover",
+        "Maternity",
+        "Dental",
+        "Vision",
+        "Mental health",
+        "Emergency evacuation"
+      ],
+      "keyExclusions": [
+        "Pre-existing (12-month wait)",
+        "War",
+        "US cover optional"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "US coverage",
+        "Higher mental health limits",
+        "Travel insurance bundle"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Allianz global network",
+        "€5M cover available",
+        "Expat community focused",
+        "Telemedicine included"
+      ],
+      "sourceUrl": "https://www.allianzcare.com/en/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "takaful-emarat-health",
+      "insurerName": "Takaful Emarat",
+      "insurerSlug": "takaful-emarat",
+      "productName": "Takaful Emarat Health Insurance",
+      "category": "health",
+      "subCategory": "sharia",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 64,
+        "renewableUpTo": 64
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 500000,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1500,
+        "illustrativeMax": 5000,
+        "assumptions": "Annual, adult. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient & out-patient",
+        "Emergency care",
+        "Maternity",
+        "Diagnostic tests",
+        "Pharmacy",
+        "Dental (basic)"
+      ],
+      "keyExclusions": [
+        "Pre-existing (waiting period)",
+        "Cosmetic surgery",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 87,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "Enhanced maternity",
+        "International cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Islamic Takaful structure",
+        "UAE national insurer",
+        "Sharia-compliant",
+        "Competitive SME pricing"
+      ],
+      "sourceUrl": "https://www.takaful-emarat.ae/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "national-takaful-health-ae",
+      "insurerName": "National Takaful (Watania)",
+      "insurerSlug": "watania",
+      "productName": "Watania Health Plan",
+      "category": "health",
+      "subCategory": "sharia",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 64,
+        "renewableUpTo": 64
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 300000,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1200,
+        "illustrativeMax": 4500,
+        "assumptions": "Annual, adult. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient & out-patient",
+        "Emergency care",
+        "Maternity",
+        "Diagnostics",
+        "Pharmacy"
+      ],
+      "keyExclusions": [
+        "Pre-existing (waiting period)",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 85,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "Enhanced cover upgrade"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Islamic Takaful structure",
+        "Abu Dhabi-based",
+        "HAAD/DHA compliant",
+        "Surplus return mechanism"
+      ],
+      "sourceUrl": "https://www.watania.ae/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "ae"

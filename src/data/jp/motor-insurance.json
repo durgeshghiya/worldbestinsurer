@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -96,6 +96,270 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "aioi-nissay-motor-jp",
+      "insurerName": "Aioi Nissay Dowa Insurance",
+      "insurerSlug": "aioi-nissay",
+      "productName": "Aioi Nissay Dowa Auto Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "JPY",
+        "note": "Vehicle value + liability"
+      },
+      "premiumRange": {
+        "illustrativeMin": 8000,
+        "illustrativeMax": 25000,
+        "assumptions": "Monthly JPY, 35yo, compact car, Tokyo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Vehicle damage (own damage)",
+        "Compulsory third party (CALI)",
+        "Voluntary third party liability",
+        "Personal accident",
+        "Uninsured driver protection",
+        "Roadside assistance"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing",
+        "Intentional damage"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "FSA Japan"
+      },
+      "riders": [
+        "Diminishing deductible",
+        "Earthquake/tsunami",
+        "Natural disaster"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Toyota Group insurance subsidiary",
+        "Telematics-based insurance (Toyota connected)",
+        "DriveAgent telematics app",
+        "Strong Toyota dealer network"
+      ],
+      "sourceUrl": "https://www.aioinissaydowa.co.jp/personal/car",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "mitsui-sumitomo-auto-jp",
+      "insurerName": "Mitsui Sumitomo Insurance",
+      "insurerSlug": "mitsui-sumitomo",
+      "productName": "Mitsui Sumitomo Super Automobile Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 8500,
+        "illustrativeMax": 26000,
+        "assumptions": "Monthly JPY, 35yo, compact car, Tokyo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Vehicle damage",
+        "CALI + voluntary liability",
+        "Personal accident",
+        "Uninsured driver",
+        "24hr roadside assistance",
+        "Natural disaster cover"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "FSA Japan"
+      },
+      "riders": [
+        "Earthquake/tsunami cover",
+        "Diminishing deductible",
+        "Transportation expense"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "MS&AD Group",
+        "Earthquake/tsunami cover option",
+        "Online discount 10%",
+        "Roadside 24hr Japan nationwide"
+      ],
+      "sourceUrl": "https://www.ms-ins.com/personal/car",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "zurich-motor-jp",
+      "insurerName": "Zurich Insurance Japan",
+      "insurerSlug": "zurich-jp",
+      "productName": "Zurich Car Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 7500,
+        "illustrativeMax": 23000,
+        "assumptions": "Monthly JPY, 35yo, compact car, Tokyo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Vehicle damage",
+        "Voluntary liability",
+        "Personal accident",
+        "Uninsured driver",
+        "Roadside assistance",
+        "Natural disaster"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "FSA Japan"
+      },
+      "riders": [
+        "Earthquake/tsunami",
+        "Driving recorder discount"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Zurich Switzerland global backing",
+        "Direct internet sales (competitive pricing)",
+        "Driving recorder usage discount",
+        "Expat-friendly English support"
+      ],
+      "sourceUrl": "https://www.zurich.co.jp/auto",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "tokio-fire-auto-jp",
+      "insurerName": "Tokio Marine & Nichido Fire Insurance",
+      "insurerSlug": "tokio-marine",
+      "productName": "Tokio Marine TAP Auto",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 9000,
+        "illustrativeMax": 27000,
+        "assumptions": "Monthly JPY, 35yo, compact car, Tokyo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Vehicle damage",
+        "CALI + voluntary liability",
+        "Personal accident (driver & passengers)",
+        "Uninsured driver",
+        "24hr roadside assistance"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 94,
+        "year": "2024",
+        "source": "FSA Japan"
+      },
+      "riders": [
+        "Earthquake/tsunami",
+        "Diminishing deductible",
+        "Rental car"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Japan largest P&C insurer",
+        "Top-rated claims service",
+        "24hr nationwide roadside",
+        "Comprehensive TAP total assist plan"
+      ],
+      "sourceUrl": "https://www.tokiomarine-nichido.co.jp/service/auto",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "jp"
     }

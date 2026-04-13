@@ -1,6 +1,6 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational and informational purposes only. Premium figures are illustrative and sourced from public insurer calculators/brochures. Actual premiums may vary. Please verify all details with the insurer directly before making any decision.",
   "products": [
     {
@@ -597,6 +597,564 @@
       "sourceUrl": "https://www.kotaklife.com/online-plans/term-insurance/kotak-e-term",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "lic-jeevan-amar",
+      "insurerName": "Life Insurance Corporation of India",
+      "insurerSlug": "lic",
+      "productName": "Jeevan Amar",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 2500000,
+        "max": 999999999,
+        "options": [
+          2500000,
+          5000000,
+          10000000,
+          25000000,
+          50000000
+        ]
+      },
+      "premiumRange": {
+        "illustrativeMin": 8000,
+        "illustrativeMax": 15000,
+        "assumptions": "Male, 30yr, non-smoker, ₹1Cr, 25yr term. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Death benefit (lump sum or staggered)",
+        "Terminal illness benefit",
+        "Increasing/level cover options"
+      ],
+      "keyExclusions": [
+        "Suicide within 12 months",
+        "Misrepresentation"
+      ],
+      "claimSettlement": {
+        "ratio": 98.62,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "riders": [
+        "Accidental Death Benefit",
+        "Accidental Disability"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 40,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "N/A – fixed term",
+      "specialFeatures": [
+        "LIC sovereign guarantee (PSU)",
+        "Highest CSR among life insurers",
+        "Increasing sum insured option",
+        "Staggered payout option"
+      ],
+      "sourceUrl": "https://licindia.in/products/term-insurance/jeevan-amar",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "max-life-online-term-plus",
+      "insurerName": "Max Life Insurance Co. Ltd.",
+      "insurerSlug": "max-life",
+      "productName": "Online Term Plan Plus",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 60,
+        "renewableUpTo": 85
+      },
+      "sumInsured": {
+        "min": 2500000,
+        "max": 999999999,
+        "options": [
+          2500000,
+          5000000,
+          10000000,
+          25000000,
+          50000000
+        ]
+      },
+      "premiumRange": {
+        "illustrativeMin": 7500,
+        "illustrativeMax": 14000,
+        "assumptions": "Male, 30yr, non-smoker, ₹1Cr, 30yr term. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Spouse cover option",
+        "Return of premium option"
+      ],
+      "keyExclusions": [
+        "Suicide within 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 99.65,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "riders": [
+        "Accidental Death",
+        "Critical Illness",
+        "Waiver of Premium",
+        "Disability"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 50,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          45,
+          50
+        ]
+      },
+      "renewability": "N/A",
+      "specialFeatures": [
+        "Cover up to age 85",
+        "Return of premium option",
+        "Joint cover with spouse",
+        "Highest claim settlement ~99.65%"
+      ],
+      "sourceUrl": "https://www.maxlifeinsurance.com/term-insurance-plans/online-term-plan-plus",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "pnb-metlife-mera-term",
+      "insurerName": "PNB MetLife India Insurance Co. Ltd.",
+      "insurerSlug": "pnb-metlife",
+      "productName": "Mera Term Plan Plus",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 2500000,
+        "max": 999999999,
+        "options": [
+          2500000,
+          5000000,
+          10000000,
+          20000000
+        ]
+      },
+      "premiumRange": {
+        "illustrativeMin": 8500,
+        "illustrativeMax": 16000,
+        "assumptions": "Male, 30yr, non-smoker, ₹1Cr, 30yr term. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "Increasing cover option",
+        "Female & non-smoker discount"
+      ],
+      "keyExclusions": [
+        "Suicide within 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 97.35,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "riders": [
+        "Accidental Death",
+        "Critical Illness",
+        "Waiver of Premium"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 40,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "N/A",
+      "specialFeatures": [
+        "MetLife global backing",
+        "Female discount available",
+        "Increasing cover option",
+        "PNB bancassurance reach"
+      ],
+      "sourceUrl": "https://www.pnbmetlife.com/products/protection/mera-term-plan-plus.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "aditya-birla-digicare-shield",
+      "insurerName": "Aditya Birla Sun Life Insurance Co. Ltd.",
+      "insurerSlug": "aditya-birla-sunlife",
+      "productName": "DigiShield Plan",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 85
+      },
+      "sumInsured": {
+        "min": 3000000,
+        "max": 999999999,
+        "options": [
+          3000000,
+          5000000,
+          10000000,
+          25000000,
+          50000000
+        ]
+      },
+      "premiumRange": {
+        "illustrativeMin": 7000,
+        "illustrativeMax": 13000,
+        "assumptions": "Male, 30yr, non-smoker, ₹1Cr, 30yr term. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "11 plan options",
+        "Income benefit option"
+      ],
+      "keyExclusions": [
+        "Suicide within 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 98.07,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "riders": [
+        "Accidental Death",
+        "Critical Illness",
+        "Waiver of Premium"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 55,
+        "options": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          45,
+          50,
+          55
+        ]
+      },
+      "renewability": "N/A",
+      "specialFeatures": [
+        "11 payout variants",
+        "Cover up to age 85",
+        "Aditya Birla Group backing",
+        "Online purchase discount"
+      ],
+      "sourceUrl": "https://lifeinsurance.adityabirlacapital.com/term-insurance/digi-shield-plan",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "canara-hsbc-ismart",
+      "insurerName": "Canara HSBC Life Insurance Co. Ltd.",
+      "insurerSlug": "canara-hsbc",
+      "productName": "iSelect Smart360 Term Plan",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 99
+      },
+      "sumInsured": {
+        "min": 2500000,
+        "max": 999999999,
+        "options": [
+          2500000,
+          5000000,
+          10000000,
+          25000000,
+          50000000
+        ]
+      },
+      "premiumRange": {
+        "illustrativeMin": 7500,
+        "illustrativeMax": 14000,
+        "assumptions": "Male, 30yr, non-smoker, ₹1Cr, 30yr term. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Return of premium option",
+        "Increasing cover option",
+        "Whole life option (to age 99)"
+      ],
+      "keyExclusions": [
+        "Suicide within 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 98.44,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "riders": [
+        "Accidental Death",
+        "Critical Illness",
+        "Waiver of Premium"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 81,
+        "options": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "N/A",
+      "specialFeatures": [
+        "Cover up to age 99",
+        "Return of premium option",
+        "Canara Bank + HSBC distribution",
+        "Whole life protection"
+      ],
+      "sourceUrl": "https://www.canarahsbclife.com/term-insurance/iselect-smart360-term-plan",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "bharti-axa-flexi-term",
+      "insurerName": "Bharti AXA Life Insurance Co. Ltd.",
+      "insurerSlug": "bharti-axa-life",
+      "productName": "Flexi Term Pro",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 85
+      },
+      "sumInsured": {
+        "min": 2500000,
+        "max": 999999999,
+        "options": [
+          2500000,
+          5000000,
+          10000000,
+          20000000
+        ]
+      },
+      "premiumRange": {
+        "illustrativeMin": 8000,
+        "illustrativeMax": 15000,
+        "assumptions": "Male, 30yr, non-smoker, ₹1Cr, 30yr term. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "Flexible premium payment terms",
+        "Return of premium option"
+      ],
+      "keyExclusions": [
+        "Suicide within 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 97.44,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "riders": [
+        "Accidental Death",
+        "Critical Illness"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 40,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "N/A",
+      "specialFeatures": [
+        "AXA global backing",
+        "Flexible premium payment",
+        "Return of premium option"
+      ],
+      "sourceUrl": "https://www.bharti-axalife.com/term-insurance/flexi-term-pro",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "exide-life-smart-term",
+      "insurerName": "Exide Life Insurance Co. Ltd.",
+      "insurerSlug": "exide-life",
+      "productName": "Smart Term Pro",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 60,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": 2500000,
+        "max": 50000000,
+        "options": [
+          2500000,
+          5000000,
+          10000000,
+          25000000,
+          50000000
+        ]
+      },
+      "premiumRange": {
+        "illustrativeMin": 9000,
+        "illustrativeMax": 17000,
+        "assumptions": "Male, 30yr, non-smoker, ₹1Cr, 25yr term. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "None",
+        "preExisting": "N/A",
+        "specific": "N/A"
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "Level and increasing cover"
+      ],
+      "keyExclusions": [
+        "Suicide within 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 97.9,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "riders": [
+        "Accidental Death",
+        "Critical Illness",
+        "Waiver of Premium"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 35,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35
+        ]
+      },
+      "renewability": "N/A",
+      "specialFeatures": [
+        "HDFC Life subsidiary",
+        "Strong bancassurance reach",
+        "Affordable premiums"
+      ],
+      "sourceUrl": "https://www.exidelife.in/term-insurance/smart-term-pro",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "in"

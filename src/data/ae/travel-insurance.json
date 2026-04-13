@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -95,6 +95,266 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "nas-travel-ae",
+      "insurerName": "NAS Insurance (Third Party Admin)",
+      "insurerSlug": "nas-ae",
+      "productName": "NAS Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 500000,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 150,
+        "illustrativeMax": 500,
+        "assumptions": "Annual AED, individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage loss",
+        "Personal liability",
+        "Missed connection"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War",
+        "Extreme sports"
+      ],
+      "claimSettlement": {
+        "ratio": 88,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "Annual multi-trip",
+        "Adventure sports"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 365,
+        "options": []
+      },
+      "renewability": "Per trip or annual",
+      "specialFeatures": [
+        "UAE-based TPA",
+        "GCC familiar",
+        "Annual multi-trip option",
+        "Covers popular Arab destinations"
+      ],
+      "sourceUrl": "https://www.nas.ae/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "allianz-travel-ae",
+      "insurerName": "Allianz Travel Insurance (UAE)",
+      "insurerSlug": "allianz-travel-ae",
+      "productName": "Allianz Travel Protection Premium",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 1000000,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 200,
+        "illustrativeMax": 700,
+        "assumptions": "Annual AED, individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses",
+        "Emergency evacuation & repatriation",
+        "Trip cancellation/interruption",
+        "Baggage loss",
+        "Travel delay",
+        "Concierge service"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War",
+        "High-risk destinations"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "Annual multi-trip",
+        "Winter sports",
+        "Adventure activities"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 365,
+        "options": []
+      },
+      "renewability": "Per trip or annual",
+      "specialFeatures": [
+        "Allianz global infrastructure",
+        "Multi-language support",
+        "Single & family plans",
+        "UAE residents & expats"
+      ],
+      "sourceUrl": "https://www.allianz-assistance.ae",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "orient-travel-ae",
+      "insurerName": "Orient Insurance (Al Futtaim)",
+      "insurerSlug": "orient-insurance-ae",
+      "productName": "Orient Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 250000,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 100,
+        "illustrativeMax": 450,
+        "assumptions": "Annual AED, individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses",
+        "Emergency evacuation",
+        "Baggage loss",
+        "Personal accident",
+        "Flight cancellation",
+        "Personal liability"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 89,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "Annual plan",
+        "Family rider"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 365,
+        "options": []
+      },
+      "renewability": "Per trip or annual",
+      "specialFeatures": [
+        "Al Futtaim Group backed",
+        "Dubai heritage brand",
+        "RSA reinsurance",
+        "Competitive UAE resident pricing"
+      ],
+      "sourceUrl": "https://www.orientinsurance.ae/personal/travel",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "sukoon-travel-ae",
+      "insurerName": "Sukoon Insurance (Oman Insurance)",
+      "insurerSlug": "sukoon-ae",
+      "productName": "Sukoon Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 500000,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 120,
+        "illustrativeMax": 480,
+        "assumptions": "Annual AED, individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage loss",
+        "Travel delay",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War",
+        "Extreme sports"
+      ],
+      "claimSettlement": {
+        "ratio": 89,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "Annual multi-trip",
+        "Family cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 365,
+        "options": []
+      },
+      "renewability": "Per trip or annual",
+      "specialFeatures": [
+        "Rebranded from Oman Insurance (2023)",
+        "Strong UAE market presence",
+        "GCC coverage specialist",
+        "Competitive pricing"
+      ],
+      "sourceUrl": "https://www.sukoon.com/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "ae"

@@ -1,6 +1,6 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -213,6 +213,377 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "lv-level-term-uk",
+      "insurerName": "LV= (Liverpool Victoria)",
+      "insurerSlug": "lv",
+      "productName": "LV= Life Insurance Level Term",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 17,
+        "maxAge": 64,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 5000000,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 12,
+        "illustrativeMax": 35,
+        "assumptions": "Monthly, 35yo non-smoker, £200K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Separation benefit",
+        "Fracture cover (included)"
+      ],
+      "keyExclusions": [
+        "Suicide within 12 months",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 98,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Critical Illness",
+        "Total Permanent Disability",
+        "Children's Cover"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 50,
+        "options": []
+      },
+      "renewability": "Convertible",
+      "specialFeatures": [
+        "Mutual insurer",
+        "Fracture cover free",
+        "Separation benefit",
+        "Defaqto 5-star rated"
+      ],
+      "sourceUrl": "https://www.lv.com/life-insurance/life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "scottish-widows-protect-uk",
+      "insurerName": "Scottish Widows",
+      "insurerSlug": "scottish-widows",
+      "productName": "Scottish Widows Protect Level Term",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 59,
+        "renewableUpTo": 79
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 10000000,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 11,
+        "illustrativeMax": 33,
+        "assumptions": "Monthly, 35yo non-smoker, £200K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Accidental death benefit (initial period)"
+      ],
+      "keyExclusions": [
+        "Suicide within 12 months",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 99,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Critical Illness",
+        "Income Protection",
+        "Children's Cover"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 40,
+        "options": []
+      },
+      "renewability": "Convertible",
+      "specialFeatures": [
+        "Lloyds Banking Group backing",
+        "99% claim rate",
+        "Joint life option",
+        "Lloyds branch distribution"
+      ],
+      "sourceUrl": "https://www.scottishwidows.co.uk/life-insurance/term-assurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "vitality-life-term-uk",
+      "insurerName": "Vitality Life",
+      "insurerSlug": "vitality-uk",
+      "productName": "Vitality Life Term Cover",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 64,
+        "renewableUpTo": 90
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 10000000,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 14,
+        "illustrativeMax": 40,
+        "assumptions": "Monthly, 35yo non-smoker, £200K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Serious illness benefit",
+        "Premium reductions for healthy living"
+      ],
+      "keyExclusions": [
+        "Suicide within 12 months",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 97,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Serious Illness Cover",
+        "Income Protection"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 50,
+        "options": []
+      },
+      "renewability": "Annual review",
+      "specialFeatures": [
+        "Vitality Health rewards",
+        "Premium discounts for staying active",
+        "Apple Watch benefit",
+        "Serious illness benefit included",
+        "Discovery Group"
+      ],
+      "sourceUrl": "https://www.vitality.co.uk/life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "one-family-term-uk",
+      "insurerName": "OneFamily",
+      "insurerSlug": "onefamily",
+      "productName": "OneFamily Over 50 Life Insurance",
+      "category": "term-life",
+      "subCategory": "whole-life",
+      "eligibility": {
+        "minAge": 50,
+        "maxAge": 80,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 3000,
+        "max": 25000,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 8,
+        "illustrativeMax": 30,
+        "assumptions": "Monthly, 60yo, £10K cover. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Guaranteed acceptance (no medical)",
+        "Fixed lump sum",
+        "Funeral cost planning",
+        "Cashback option after 30yr"
+      ],
+      "keyExclusions": [
+        "Suicide within 12 months",
+        "Accidental only in first 2yr"
+      ],
+      "claimSettlement": {
+        "ratio": 97,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 0,
+        "max": 0,
+        "options": [],
+        "note": "Whole life"
+      },
+      "renewability": "Whole life",
+      "specialFeatures": [
+        "No medical required",
+        "Mutual – profits to members",
+        "Guaranteed acceptance 50-80",
+        "Fixed premiums for life"
+      ],
+      "sourceUrl": "https://www.onefamily.com/life-insurance/over-50s",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "old-mutual-term-uk",
+      "insurerName": "Old Mutual Wealth (Quilter)",
+      "insurerSlug": "quilter",
+      "productName": "Quilter Life Cover Term",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 64,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 5000000,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 12,
+        "illustrativeMax": 36,
+        "assumptions": "Monthly, 35yo non-smoker, £200K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Waiver of premium (illness)"
+      ],
+      "keyExclusions": [
+        "Suicide within 12 months",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 97,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Critical Illness",
+        "Income Protection"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 40,
+        "options": []
+      },
+      "renewability": "Convertible",
+      "specialFeatures": [
+        "Quilter IFA distribution",
+        "Flexible cover options",
+        "Financial planning integration"
+      ],
+      "sourceUrl": "https://www.quilter.com/protection",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "cia-life-term-uk",
+      "insurerName": "Canada Life UK",
+      "insurerSlug": "canada-life-uk",
+      "productName": "Canada Life Term Assurance",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 17,
+        "maxAge": 74,
+        "renewableUpTo": 90
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 10000000,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 11,
+        "illustrativeMax": 34,
+        "assumptions": "Monthly, 35yo non-smoker, £200K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Guaranteed insurability",
+        "Joint life option"
+      ],
+      "keyExclusions": [
+        "Suicide within 12 months",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 98,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Critical Illness",
+        "Income Protection",
+        "Business protection"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 50,
+        "options": []
+      },
+      "renewability": "Convertible",
+      "specialFeatures": [
+        "Cover to age 90",
+        "Canada Life Group global backing",
+        "Guaranteed insurability option",
+        "Business protection expertise"
+      ],
+      "sourceUrl": "https://www.canadalife.co.uk/protection/term-assurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "uk"
     }

@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -191,6 +191,405 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "churchill-motor-uk",
+      "insurerName": "Churchill Insurance (Direct Line Group)",
+      "insurerSlug": "churchill",
+      "productName": "Churchill Comprehensive Car Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 17,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 55,
+        "illustrativeMax": 130,
+        "assumptions": "Monthly, 35yo, clean record. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Accidental damage",
+        "Fire & theft",
+        "Third party liability",
+        "Windscreen cover",
+        "Courtesy car",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Drink/drug driving",
+        "Racing",
+        "Commercial use"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Breakdown cover",
+        "Legal expenses",
+        "Key cover",
+        "Guaranteed hire car"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "NCD Protection",
+        "Guaranteed courtesy car",
+        "24/7 claims line",
+        "Direct Line Group"
+      ],
+      "sourceUrl": "https://www.churchill.com/car-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "hastings-direct-uk",
+      "insurerName": "Hastings Direct",
+      "insurerSlug": "hastings-direct",
+      "productName": "Hastings Direct Comprehensive",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 17,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 45,
+        "illustrativeMax": 110,
+        "assumptions": "Monthly, 35yo, clean record. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Accidental damage",
+        "Fire & theft",
+        "Third party liability",
+        "Windscreen cover",
+        "Audio equipment"
+      ],
+      "keyExclusions": [
+        "Drink/drug driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 89,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Breakdown",
+        "Legal expenses",
+        "Key cover",
+        "Courtesy car upgrade"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Often lowest-price online",
+        "Telematics option for new drivers",
+        "NCD protection",
+        "Hastings Premier upgrade available"
+      ],
+      "sourceUrl": "https://www.hastingsdirect.com/car-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "esure-motor-uk",
+      "insurerName": "esure Insurance",
+      "insurerSlug": "esure",
+      "productName": "esure Comprehensive Car Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 17,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 48,
+        "illustrativeMax": 115,
+        "assumptions": "Monthly, 35yo, clean record. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Accidental damage",
+        "Fire & theft",
+        "Third party liability",
+        "Windscreen repair",
+        "Personal accident",
+        "Medical expenses"
+      ],
+      "keyExclusions": [
+        "Drink/drug driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Breakdown cover",
+        "Legal expenses",
+        "Guaranteed replacement car",
+        "Key cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Drive-less pay-less telematics",
+        "Multi-car discount",
+        "No admin fees",
+        "Online-first insurer"
+      ],
+      "sourceUrl": "https://www.esure.com/car-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "rias-motor-uk",
+      "insurerName": "Rias Insurance",
+      "insurerSlug": "rias",
+      "productName": "Rias Comprehensive Car Insurance (50+)",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 50,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 40,
+        "illustrativeMax": 95,
+        "assumptions": "Monthly, 60yo, clean record. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Accidental damage",
+        "Fire & theft",
+        "Third party",
+        "Windscreen cover",
+        "Personal accident",
+        "Courtesy car"
+      ],
+      "keyExclusions": [
+        "Drink/drug driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Breakdown",
+        "Legal expenses",
+        "Protected NCD"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Specialist 50+ insurer",
+        "No upper age limit",
+        "Competitive rates for experienced drivers",
+        "Part of Ageas group"
+      ],
+      "sourceUrl": "https://www.rias.co.uk/car-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "saga-motor-uk",
+      "insurerName": "Saga Insurance",
+      "insurerSlug": "saga",
+      "productName": "Saga Plus Car Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 50,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 42,
+        "illustrativeMax": 100,
+        "assumptions": "Monthly, 60yo, clean record. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Comprehensive cover",
+        "3-year fixed price guarantee",
+        "Courtesy car",
+        "New car replacement (first 2yr)",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Drink/drug driving"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Protected NCD",
+        "Legal expenses",
+        "Breakdown",
+        "Key cover"
+      ],
+      "policyTenure": {
+        "min": 3,
+        "max": 3,
+        "options": [
+          3
+        ],
+        "note": "3-year fixed price"
+      },
+      "renewability": "3-year fixed",
+      "specialFeatures": [
+        "3-year fixed price guarantee",
+        "50+ specialist insurer",
+        "New car replacement",
+        "UK-based claims team"
+      ],
+      "sourceUrl": "https://www.saga.co.uk/insurance/car-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "lloyds-bank-motor-uk",
+      "insurerName": "Lloyds Bank Insurance",
+      "insurerSlug": "lloyds-bank-insurance",
+      "productName": "Lloyds Bank Comprehensive Car Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 17,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 50,
+        "illustrativeMax": 120,
+        "assumptions": "Monthly, 35yo, clean record. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Accidental damage",
+        "Fire & theft",
+        "Third party",
+        "Windscreen",
+        "Courtesy car",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Drink/drug driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Breakdown",
+        "Legal expenses",
+        "Key cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Bancassurance distribution",
+        "Lloyd's Bank 250yr heritage",
+        "Existing Lloyds customers discount",
+        "Bundle with home insurance"
+      ],
+      "sourceUrl": "https://www.lloydsbank.com/insurance/car-insurance.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "uk"

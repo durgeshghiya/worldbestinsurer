@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -144,6 +144,341 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "meiji-yasuda-medical",
+      "insurerName": "Meiji Yasuda Life Insurance",
+      "insurerSlug": "meiji-yasuda",
+      "productName": "Meiji Yasuda Medical Kitsu",
+      "category": "health",
+      "subCategory": "medical-insurance",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 80,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "JPY",
+        "note": "Daily hospital benefit plan"
+      },
+      "premiumRange": {
+        "illustrativeMin": 3000,
+        "illustrativeMax": 8000,
+        "assumptions": "Monthly JPY, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Daily hospital benefit",
+        "Surgery benefit",
+        "Cancer hospitalization",
+        "ICU benefit",
+        "Outpatient for cancer",
+        "Repatriation"
+      ],
+      "keyExclusions": [
+        "Pre-existing (underwriting)",
+        "Cosmetic surgery",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 98,
+        "year": "2024",
+        "source": "FSA Japan"
+      },
+      "riders": [
+        "Cancer diagnosis lump sum",
+        "Critical illness",
+        "Disability income"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Meiji Yasuda Life Japan's largest mutual",
+        "40M+ policies",
+        "Strong agency network",
+        "Integrated wellness programs"
+      ],
+      "sourceUrl": "https://www.meijiyasuda.co.jp/find2/medical",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "sumitomo-medical-jp",
+      "insurerName": "Sumitomo Life Insurance",
+      "insurerSlug": "sumitomo-life",
+      "productName": "Sumitomo Life Vitality Medical",
+      "category": "health",
+      "subCategory": "medical-insurance",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 3200,
+        "illustrativeMax": 8500,
+        "assumptions": "Monthly JPY, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Daily hospital benefit",
+        "Surgery benefit",
+        "Cancer cover",
+        "ICU benefit",
+        "Outpatient cancer",
+        "Wellness discounts"
+      ],
+      "keyExclusions": [
+        "Pre-existing (underwriting)",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 98,
+        "year": "2024",
+        "source": "FSA Japan"
+      },
+      "riders": [
+        "Cancer lump sum",
+        "Critical illness",
+        "Vitality wellness discount"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Vitality wellness program partnership",
+        "Discounts for healthy behaviors",
+        "South African Discovery Group tie-up",
+        "Strong Osaka base"
+      ],
+      "sourceUrl": "https://www.sumitomolife.co.jp/product/medical",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "sony-life-medical-jp",
+      "insurerName": "Sony Life Insurance",
+      "insurerSlug": "sony-life",
+      "productName": "Sony Life Medical Kit R",
+      "category": "health",
+      "subCategory": "medical-insurance",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2800,
+        "illustrativeMax": 7500,
+        "assumptions": "Monthly JPY, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Daily hospital benefit",
+        "Surgical benefit",
+        "Cancer lump sum",
+        "ICU benefit",
+        "Specified disease benefit"
+      ],
+      "keyExclusions": [
+        "Pre-existing (underwriting)",
+        "Self-inflicted",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 97,
+        "year": "2024",
+        "source": "FSA Japan"
+      },
+      "riders": [
+        "Cancer rider",
+        "Critical illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Sony Group brand",
+        "Flexible plan design",
+        "Digital-forward insurer",
+        "Strong urban Japan presence"
+      ],
+      "sourceUrl": "https://www.sonylife.co.jp/products/medical",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "manulife-medical-jp",
+      "insurerName": "Manulife Life Insurance Japan",
+      "insurerSlug": "manulife-jp",
+      "productName": "Manulife Just Medical",
+      "category": "health",
+      "subCategory": "medical-insurance",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2900,
+        "illustrativeMax": 7800,
+        "assumptions": "Monthly JPY, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Daily hospital benefit",
+        "Surgery benefit",
+        "Cancer hospitalization",
+        "Outpatient cancer treatment",
+        "ICU benefit"
+      ],
+      "keyExclusions": [
+        "Pre-existing",
+        "Cosmetic surgery",
+        "Self-inflicted"
+      ],
+      "claimSettlement": {
+        "ratio": 97,
+        "year": "2024",
+        "source": "FSA Japan"
+      },
+      "riders": [
+        "Cancer lump sum",
+        "Disability income"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Manulife Canada group",
+        "Expat-friendly documentation",
+        "Multi-language support",
+        "Strong financial backing"
+      ],
+      "sourceUrl": "https://www.manulife.co.jp/products/medical-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "tokio-marine-anshin-jp",
+      "insurerName": "Tokio Marine & Nichido Life Insurance",
+      "insurerSlug": "tokio-marine-life",
+      "productName": "Tokio Marine Anshin Medical Insurance",
+      "category": "health",
+      "subCategory": "medical-insurance",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 3100,
+        "illustrativeMax": 8200,
+        "assumptions": "Monthly JPY, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Daily hospital benefit",
+        "Surgical benefit",
+        "ICU benefit",
+        "Cancer hospitalization",
+        "Outpatient cancer care",
+        "Advanced medical technology cover"
+      ],
+      "keyExclusions": [
+        "Pre-existing",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 98,
+        "year": "2024",
+        "source": "FSA Japan"
+      },
+      "riders": [
+        "Cancer diagnosis lump sum",
+        "Three major diseases",
+        "Advanced medical rider"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Tokio Marine Group top-rated",
+        "Advanced medical technology benefit",
+        "Cancer specialist care",
+        "Strong agent network"
+      ],
+      "sourceUrl": "https://www.tokiomarine-nichido-life.co.jp/products/medical",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "jp"
     }

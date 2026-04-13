@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -144,6 +144,342 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "barmer-gkv-de",
+      "insurerName": "BARMER (Gesetzliche Krankenversicherung)",
+      "insurerSlug": "barmer",
+      "productName": "BARMER Gesetzliche Krankenversicherung",
+      "category": "health",
+      "subCategory": "public-statutory",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "EUR",
+        "note": "GKV – statutory comprehensive"
+      },
+      "premiumRange": {
+        "illustrativeMin": 350,
+        "illustrativeMax": 850,
+        "assumptions": "Monthly EUR, standard rate ~14.6% + addon. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "GP & specialist visits",
+        "Hospital (multi-bed ward)",
+        "Prescription drugs",
+        "Mental health",
+        "Preventive care",
+        "Dental (basic)",
+        "Maternity"
+      ],
+      "keyExclusions": [
+        "Private ward",
+        "Single room",
+        "Dental prosthetics (limited)",
+        "Alternative medicine (limited)"
+      ],
+      "claimSettlement": {
+        "ratio": 99,
+        "year": "2024",
+        "source": "GKV-Spitzenverband"
+      },
+      "riders": [
+        "Supplementary dental",
+        "Private room upgrade (via Zusatzversicherung)"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong guaranteed",
+      "specialFeatures": [
+        "2nd largest GKV insurer in Germany",
+        "~9M members",
+        "Digital health app",
+        "BonusCard wellness program"
+      ],
+      "sourceUrl": "https://www.barmer.de/versicherung/krankenversicherung",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "hkk-health-de",
+      "insurerName": "hkk Krankenkasse",
+      "insurerSlug": "hkk",
+      "productName": "hkk Gesetzliche Krankenversicherung",
+      "category": "health",
+      "subCategory": "public-statutory",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "EUR",
+        "note": "GKV – statutory"
+      },
+      "premiumRange": {
+        "illustrativeMin": 320,
+        "illustrativeMax": 800,
+        "assumptions": "Monthly EUR, among lowest add-on rates. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "GP & specialist visits",
+        "Hospital care",
+        "Prescription drugs",
+        "Mental health",
+        "Maternity",
+        "Preventive care"
+      ],
+      "keyExclusions": [
+        "Private room (without supplementary)",
+        "Dental prosthetics (limited)"
+      ],
+      "claimSettlement": {
+        "ratio": 99,
+        "year": "2024",
+        "source": "GKV"
+      },
+      "riders": [
+        "Zusatzversicherung (supplementary)"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong guaranteed",
+      "specialFeatures": [
+        "Consistently lowest additional premium rate in Germany",
+        "~700K members",
+        "Digital-first service",
+        "No agency costs"
+      ],
+      "sourceUrl": "https://www.hkk.de/krankenversicherung",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "signal-iduna-pkv-de",
+      "insurerName": "Signal Iduna",
+      "insurerSlug": "signal-iduna",
+      "productName": "Signal Iduna Private Krankenversicherung",
+      "category": "health",
+      "subCategory": "private-pkv",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 55,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "EUR",
+        "note": "Private health insurance (PKV)"
+      },
+      "premiumRange": {
+        "illustrativeMin": 300,
+        "illustrativeMax": 800,
+        "assumptions": "Monthly EUR, 35yo healthy. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Private hospital (single room)",
+        "Specialist direct access",
+        "Dental (comprehensive)",
+        "Alternative medicine",
+        "Reimbursement model"
+      ],
+      "keyExclusions": [
+        "Pre-existing (underwriting)",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 97,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "Daily hospital allowance",
+        "Abroad cover upgrade"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "PKV – private insurance for self-employed/high earners",
+        "Single room hospitalization",
+        "Direct specialist access",
+        "Signal Iduna Group mutual"
+      ],
+      "sourceUrl": "https://www.signal-iduna.de/krankenversicherung/private-krankenversicherung",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "dak-health-de",
+      "insurerName": "DAK-Gesundheit",
+      "insurerSlug": "dak",
+      "productName": "DAK Gesetzliche Krankenversicherung",
+      "category": "health",
+      "subCategory": "public-statutory",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "EUR",
+        "note": "GKV statutory"
+      },
+      "premiumRange": {
+        "illustrativeMin": 340,
+        "illustrativeMax": 830,
+        "assumptions": "Monthly EUR. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "GP & specialist",
+        "Hospital",
+        "Prescriptions",
+        "Mental health",
+        "Maternity",
+        "Preventive screenings"
+      ],
+      "keyExclusions": [
+        "Private room",
+        "Dental prosthetics (limited)"
+      ],
+      "claimSettlement": {
+        "ratio": 99,
+        "year": "2024",
+        "source": "GKV"
+      },
+      "riders": [
+        "Supplementary dental/vision",
+        "Hospital upgrade"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong guaranteed",
+      "specialFeatures": [
+        "~5.5M members",
+        "3rd largest GKV",
+        "Strong digital health app",
+        "Corporate health management focus"
+      ],
+      "sourceUrl": "https://www.dak.de/dak/krankenversicherung",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "hanse-merkur-pkv-de",
+      "insurerName": "HanseMerkur Krankenversicherung",
+      "insurerSlug": "hanse-merkur",
+      "productName": "HanseMerkur Private Krankenversicherung Premium",
+      "category": "health",
+      "subCategory": "private-pkv",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 55,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "EUR",
+        "note": "PKV – comprehensive private"
+      },
+      "premiumRange": {
+        "illustrativeMin": 280,
+        "illustrativeMax": 750,
+        "assumptions": "Monthly EUR, 35yo healthy. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Private hospital room",
+        "Chief physician treatment",
+        "Specialist direct access",
+        "Comprehensive dental",
+        "Alternative medicine",
+        "Abroad coverage"
+      ],
+      "keyExclusions": [
+        "Pre-existing underwriting",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 97,
+        "year": "2024",
+        "source": "Insurer"
+      },
+      "riders": [
+        "Pflegezusatz (long-term care)",
+        "Daily hospital cash"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Hamburg-based mutual",
+        "Competitive PKV pricing",
+        "Strong dental coverage",
+        "HanseMerkur Group travel insurance"
+      ],
+      "sourceUrl": "https://www.hansemerkur.de/krankenversicherung/private-krankenversicherung",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "de"
     }

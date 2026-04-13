@@ -1,6 +1,6 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -103,6 +103,278 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "kyobo-term-kr",
+      "insurerName": "Kyobo Life Insurance",
+      "insurerSlug": "kyobo-life",
+      "productName": "Kyobo Term Life Insurance",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 70,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 10000000,
+        "max": 2000000000,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 30000,
+        "illustrativeMax": 90000,
+        "assumptions": "Monthly KRW, 35yo, KRW 300M, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "Disability waiver",
+        "Conversion privilege"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 98,
+        "year": "2024",
+        "source": "FSS Korea"
+      },
+      "riders": [
+        "Critical illness",
+        "Accident",
+        "Disability income"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Fixed term (renewable)",
+      "specialFeatures": [
+        "Korea's 2nd largest life insurer",
+        "Strong bancassurance via Kyobo securities",
+        "Competitive pricing",
+        "Education benefit tradition"
+      ],
+      "sourceUrl": "https://www.kyobo.co.kr/prod/insurance/term",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "nhlife-term-kr",
+      "insurerName": "NH Life Insurance (Nonghyup)",
+      "insurerSlug": "nhlife",
+      "productName": "NH Life Term Insurance",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 10000000,
+        "max": 1000000000,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 28000,
+        "illustrativeMax": 85000,
+        "assumptions": "Monthly KRW, 35yo, KRW 300M, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "Disability waiver"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 97,
+        "year": "2024",
+        "source": "FSS Korea"
+      },
+      "riders": [
+        "Critical illness",
+        "Accident",
+        "Agricultural worker rates"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Fixed term",
+      "specialFeatures": [
+        "National cooperative bancassurance",
+        "Rural Korea focus",
+        "Competitive premiums",
+        "NH bank 3000+ branches"
+      ],
+      "sourceUrl": "https://www.nhlife.co.kr/prod/term",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "db-life-term-kr",
+      "insurerName": "DB Life Insurance",
+      "insurerSlug": "db-life",
+      "productName": "DB Life Term Insurance",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 10000000,
+        "max": 1500000000,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 29000,
+        "illustrativeMax": 87000,
+        "assumptions": "Monthly KRW, 35yo, KRW 300M, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "Disability waiver"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 97,
+        "year": "2024",
+        "source": "FSS Korea"
+      },
+      "riders": [
+        "Critical illness",
+        "Accident"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Fixed term",
+      "specialFeatures": [
+        "DB Financial Group affiliate",
+        "Mobile-first digital claims",
+        "Competitive pricing",
+        "Strong DB brand identity"
+      ],
+      "sourceUrl": "https://www.idblife.com/prod/term",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "meritz-life-term-kr",
+      "insurerName": "Meritz Life Insurance",
+      "insurerSlug": "meritz-life",
+      "productName": "Meritz Life Term Insurance",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 10000000,
+        "max": 1500000000,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 28000,
+        "illustrativeMax": 86000,
+        "assumptions": "Monthly KRW, 35yo, KRW 300M, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "Disability waiver"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 96,
+        "year": "2024",
+        "source": "FSS Korea"
+      },
+      "riders": [
+        "Critical illness",
+        "Accident",
+        "Disability income"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Fixed term",
+      "specialFeatures": [
+        "Meritz Financial Group",
+        "Digital onboarding",
+        "Competitive online pricing",
+        "Fast claims processing"
+      ],
+      "sourceUrl": "https://www.meritzlife.co.kr/prod/term",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "kr"

@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -47,6 +47,330 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "tawuniya-world-travel-sa",
+      "insurerName": "Tawuniya Insurance",
+      "insurerSlug": "tawuniya",
+      "productName": "Tawuniya World Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "USD",
+        "note": "USD 500K emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 200,
+        "illustrativeMax": 800,
+        "assumptions": "Annual SAR, individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses USD 500K",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage",
+        "Personal accident",
+        "Personal liability",
+        "Hajj/Umrah cover"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 89,
+        "year": "2024",
+        "source": "SAMA"
+      },
+      "riders": [
+        "Annual multi-trip",
+        "Adventure sports"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 365,
+        "options": []
+      },
+      "renewability": "Per trip / annual",
+      "specialFeatures": [
+        "Saudi largest insurer",
+        "Hajj/Umrah specialized plans",
+        "USD 500K medical",
+        "SAMA regulated"
+      ],
+      "sourceUrl": "https://www.tawuniya.com.sa/en/travel",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "bupa-travel-sa",
+      "insurerName": "Bupa Arabia",
+      "insurerSlug": "bupa-arabia",
+      "productName": "Bupa Arabia Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "USD",
+        "note": "USD 1M emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 250,
+        "illustrativeMax": 900,
+        "assumptions": "Annual SAR, individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical USD 1M",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage",
+        "Personal accident",
+        "24/7 assistance"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "SAMA"
+      },
+      "riders": [
+        "Annual multi-trip",
+        "Adventure sports"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 365,
+        "options": []
+      },
+      "renewability": "Per trip / annual",
+      "specialFeatures": [
+        "Bupa UK heritage",
+        "USD 1M medical",
+        "24/7 multilingual assist",
+        "Strong brand trust Saudi Arabia"
+      ],
+      "sourceUrl": "https://www.bupa.com.sa/en/individual/travel",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "solidarity-travel-sa",
+      "insurerName": "Solidarity Saudi Takaful",
+      "insurerSlug": "solidarity-sa",
+      "productName": "Solidarity Travel Takaful",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "USD",
+        "note": "USD 250K emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 180,
+        "illustrativeMax": 700,
+        "assumptions": "Annual SAR, individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical USD 250K",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage",
+        "Personal accident",
+        "Personal liability"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 88,
+        "year": "2024",
+        "source": "SAMA"
+      },
+      "riders": [
+        "Annual multi-trip upgrade"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 365,
+        "options": []
+      },
+      "renewability": "Per trip / annual",
+      "specialFeatures": [
+        "Takaful structure",
+        "Competitive pricing",
+        "Hajj/Umrah plans available",
+        "Surplus sharing"
+      ],
+      "sourceUrl": "https://www.solidarity.com.sa/travel",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "malath-travel-sa",
+      "insurerName": "Malath Insurance",
+      "insurerSlug": "malath",
+      "productName": "Malath Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "USD",
+        "note": "USD 250K emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 170,
+        "illustrativeMax": 650,
+        "assumptions": "Annual SAR, individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical USD 250K",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 87,
+        "year": "2024",
+        "source": "SAMA"
+      },
+      "riders": [
+        "Annual multi-trip",
+        "Hajj/Umrah upgrade"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 365,
+        "options": []
+      },
+      "renewability": "Per trip / annual",
+      "specialFeatures": [
+        "Saudi national insurer",
+        "Hajj/Umrah specialized",
+        "Competitive pricing",
+        "Absher integration"
+      ],
+      "sourceUrl": "https://www.malath.com.sa/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "medgulf-travel-sa",
+      "insurerName": "MedGulf Insurance",
+      "insurerSlug": "medgulf",
+      "productName": "MedGulf Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 70,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "USD",
+        "note": "USD 500K emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 200,
+        "illustrativeMax": 750,
+        "assumptions": "Annual SAR, individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical USD 500K",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage",
+        "Personal accident",
+        "Personal liability"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 88,
+        "year": "2024",
+        "source": "SAMA"
+      },
+      "riders": [
+        "Annual multi-trip",
+        "Adventure sports"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 365,
+        "options": []
+      },
+      "renewability": "Per trip / annual",
+      "specialFeatures": [
+        "Saudi-listed insurer",
+        "GCC coverage standard",
+        "USD 500K medical",
+        "24/7 MENA claims support"
+      ],
+      "sourceUrl": "https://www.medgulf.com.sa/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "sa"

@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -144,6 +144,338 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "malath-health-sa",
+      "insurerName": "Malath Insurance",
+      "insurerSlug": "malath",
+      "productName": "Malath Health Insurance Plan",
+      "category": "health",
+      "subCategory": "cchi-compliant",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 64,
+        "renewableUpTo": 64
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 500000,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2000,
+        "illustrativeMax": 8000,
+        "assumptions": "Annual SAR, adult. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Out-patient consultations",
+        "Emergency care",
+        "Maternity (basic)",
+        "Diagnostic tests",
+        "Prescription drugs"
+      ],
+      "keyExclusions": [
+        "Pre-existing (waiting period)",
+        "Cosmetic surgery",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 88,
+        "year": "2024",
+        "source": "SAMA"
+      },
+      "riders": [
+        "Enhanced maternity",
+        "International cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "CCHI-compliant mandatory plan",
+        "Saudi-listed insurer",
+        "Competitive SME pricing",
+        "Nationwide network"
+      ],
+      "sourceUrl": "https://www.malath.com.sa/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "walaa-health-sa",
+      "insurerName": "Walaa Cooperative Insurance",
+      "insurerSlug": "walaa",
+      "productName": "Walaa Health Plan",
+      "category": "health",
+      "subCategory": "cchi-compliant",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 64,
+        "renewableUpTo": 64
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 500000,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1800,
+        "illustrativeMax": 7500,
+        "assumptions": "Annual SAR, adult. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient",
+        "Out-patient",
+        "Emergency",
+        "Maternity (basic)",
+        "Pharmacy",
+        "Diagnostics"
+      ],
+      "keyExclusions": [
+        "Pre-existing (waiting period)",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 87,
+        "year": "2024",
+        "source": "SAMA"
+      },
+      "riders": [
+        "Enhanced cover upgrade"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Saudi Aramco subsidiary",
+        "Strong corporate plans",
+        "Cooperative Takaful structure",
+        "CCHI compliant"
+      ],
+      "sourceUrl": "https://www.walaa.com/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "solidarity-health-sa",
+      "insurerName": "Solidarity Saudi Takaful",
+      "insurerSlug": "solidarity-sa",
+      "productName": "Solidarity Health Takaful Plan",
+      "category": "health",
+      "subCategory": "sharia-takaful",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 64,
+        "renewableUpTo": 64
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 500000,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1900,
+        "illustrativeMax": 7800,
+        "assumptions": "Annual SAR, adult. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient",
+        "Out-patient",
+        "Emergency care",
+        "Maternity (basic)",
+        "Pharmacy",
+        "Diagnostics"
+      ],
+      "keyExclusions": [
+        "Pre-existing (waiting period)",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 87,
+        "year": "2024",
+        "source": "SAMA"
+      },
+      "riders": [
+        "Enhanced cover",
+        "International upgrade"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Islamic Takaful structure",
+        "Bahrain-based group",
+        "Surplus sharing with policyholders",
+        "CCHI compliant"
+      ],
+      "sourceUrl": "https://www.solidarity.com.sa/health",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "al-ahli-takaful-health-sa",
+      "insurerName": "Al Ahli Takaful Company",
+      "insurerSlug": "al-ahli-takaful",
+      "productName": "Al Ahli Health Takaful",
+      "category": "health",
+      "subCategory": "sharia-takaful",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 64,
+        "renewableUpTo": 64
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 500000,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2200,
+        "illustrativeMax": 8500,
+        "assumptions": "Annual SAR, adult. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Out-patient",
+        "Emergency",
+        "Maternity (basic)",
+        "Diagnostic tests",
+        "Pharmacy"
+      ],
+      "keyExclusions": [
+        "Pre-existing (waiting period)",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 88,
+        "year": "2024",
+        "source": "SAMA"
+      },
+      "riders": [
+        "Enhanced maternity",
+        "International cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "NCB Group (Al Ahli Bank) backed",
+        "Bancassurance distribution",
+        "Takaful structure",
+        "Competitive corporate plans"
+      ],
+      "sourceUrl": "https://www.alahli-takaful.com/health",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "axa-cooperative-health-sa",
+      "insurerName": "AXA Cooperative Insurance (Saudi Arabia)",
+      "insurerSlug": "axa-sa",
+      "productName": "AXA Cooperative Health Insurance",
+      "category": "health",
+      "subCategory": "cchi-compliant",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 64,
+        "renewableUpTo": 64
+      },
+      "sumInsured": {
+        "min": null,
+        "max": 1000000,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2500,
+        "illustrativeMax": 10000,
+        "assumptions": "Annual SAR, adult. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient",
+        "Out-patient",
+        "Emergency",
+        "Maternity",
+        "Prescription drugs",
+        "Diagnostics",
+        "Mental health"
+      ],
+      "keyExclusions": [
+        "Pre-existing (waiting period)",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "SAMA"
+      },
+      "riders": [
+        "International cover",
+        "Enhanced maternity",
+        "Dental & optical"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "AXA global group",
+        "CCHI compliant",
+        "Wide Saudi hospital network",
+        "International emergency cover available"
+      ],
+      "sourceUrl": "https://www.axa-cooperative.com/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "sa"
     }

@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -143,6 +143,333 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "lotte-health-kr",
+      "insurerName": "Lotte Insurance",
+      "insurerSlug": "lotte-insurance",
+      "productName": "Lotte My Health Plus",
+      "category": "health",
+      "subCategory": "supplemental",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 65,
+        "renewableUpTo": 100
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "KRW",
+        "note": "NHIS top-up + cancer/critical illness"
+      },
+      "premiumRange": {
+        "illustrativeMin": 50000,
+        "illustrativeMax": 150000,
+        "assumptions": "Monthly KRW, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Cancer diagnosis lump sum",
+        "Daily hospital benefit",
+        "Surgery benefit",
+        "CI three major diseases",
+        "Outpatient benefits",
+        "NHIS co-pay cover"
+      ],
+      "keyExclusions": [
+        "Pre-existing (underwriting)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "FSS Korea"
+      },
+      "riders": [
+        "Critical illness upgrade",
+        "Disability income"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Lotte Group backing",
+        "Digital app claims",
+        "Competitive premiums",
+        "NHIS supplement specialist"
+      ],
+      "sourceUrl": "https://www.lotteins.co.kr/product/health",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "hyundai-marine-health-kr",
+      "insurerName": "Hyundai Marine & Fire Insurance",
+      "insurerSlug": "hyundai-marine",
+      "productName": "Hyundai Marine Smart Health Insurance",
+      "category": "health",
+      "subCategory": "supplemental",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 65,
+        "renewableUpTo": 100
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 55000,
+        "illustrativeMax": 160000,
+        "assumptions": "Monthly KRW, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Cancer lump sum",
+        "Hospital daily benefit",
+        "Surgery benefit",
+        "Three major diseases",
+        "NHIS co-pay reimbursement"
+      ],
+      "keyExclusions": [
+        "Pre-existing",
+        "Self-inflicted"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "FSS Korea"
+      },
+      "riders": [
+        "CI upgrade",
+        "Disability income"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Hyundai Motor Group affiliate",
+        "Strong corporate distribution",
+        "Digital mobile claims",
+        "Large agency network"
+      ],
+      "sourceUrl": "https://www.hi.co.kr/product/health",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "db-insurance-health-kr",
+      "insurerName": "DB Insurance (동부화재)",
+      "insurerSlug": "db-insurance",
+      "productName": "DB Insurance My Health+",
+      "category": "health",
+      "subCategory": "supplemental",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 65,
+        "renewableUpTo": 100
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 52000,
+        "illustrativeMax": 155000,
+        "assumptions": "Monthly KRW, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Cancer lump sum",
+        "Hospital daily benefit",
+        "Three major diseases",
+        "Outpatient",
+        "NHIS co-pay cover"
+      ],
+      "keyExclusions": [
+        "Pre-existing",
+        "Self-inflicted"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "FSS Korea"
+      },
+      "riders": [
+        "Critical illness",
+        "Disability income"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "DB Group affiliate",
+        "Competitive pricing",
+        "Mobile-first claims",
+        "Strong Busan/regional presence"
+      ],
+      "sourceUrl": "https://www.idongbu.com/product/health",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "meritz-health-kr",
+      "insurerName": "Meritz Fire & Marine Insurance",
+      "insurerSlug": "meritz",
+      "productName": "Meritz Health Insurance Smart+",
+      "category": "health",
+      "subCategory": "supplemental",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 65,
+        "renewableUpTo": 100
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 53000,
+        "illustrativeMax": 158000,
+        "assumptions": "Monthly KRW, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Cancer lump sum",
+        "Hospital daily benefit",
+        "Surgery benefit",
+        "Three major diseases",
+        "NHIS co-pay"
+      ],
+      "keyExclusions": [
+        "Pre-existing",
+        "Self-inflicted"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "FSS Korea"
+      },
+      "riders": [
+        "CI upgrade",
+        "Disability income"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Meritz Financial Group affiliate",
+        "Strong digital claims",
+        "Competitive renewal rates",
+        "Online purchase discount"
+      ],
+      "sourceUrl": "https://www.meritzfire.com/product/health",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "nhfire-health-kr",
+      "insurerName": "NH Nonghyup Fire & Marine Insurance",
+      "insurerSlug": "nhfire",
+      "productName": "NH Nonghyup My Health Insurance",
+      "category": "health",
+      "subCategory": "supplemental",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 65,
+        "renewableUpTo": 100
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 48000,
+        "illustrativeMax": 145000,
+        "assumptions": "Monthly KRW, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Cancer lump sum",
+        "Hospital daily benefit",
+        "Three major diseases",
+        "NHIS co-pay",
+        "Outpatient benefits"
+      ],
+      "keyExclusions": [
+        "Pre-existing",
+        "Self-inflicted"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "FSS Korea"
+      },
+      "riders": [
+        "CI upgrade",
+        "Agricultural worker special rates"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "National Agricultural Cooperative Federation",
+        "Competitive rural pricing",
+        "Bank branch network Korea-wide",
+        "Farmer special discount"
+      ],
+      "sourceUrl": "https://www.nhfire.co.kr/product/health",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "kr"

@@ -1,6 +1,6 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -263,6 +263,344 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "banner-optyterm-us",
+      "insurerName": "Banner Life Insurance (Legal & General America)",
+      "insurerSlug": "banner-life",
+      "productName": "OPTerm",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 75,
+        "renewableUpTo": 95
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 10000000,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 15,
+        "illustrativeMax": 30,
+        "assumptions": "Male, 35yo, non-smoker, $500K, 20yr. Monthly. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Level death benefit",
+        "Conversion privilege",
+        "Terminal illness benefit",
+        "Accelerated death benefit"
+      ],
+      "keyExclusions": [
+        "Suicide within 2 years",
+        "Material misrepresentation"
+      ],
+      "claimSettlement": {
+        "ratio": 98,
+        "year": "2024",
+        "source": "AM Best"
+      },
+      "riders": [
+        "Accidental Death",
+        "Child Term",
+        "Waiver of Premium"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 40,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Convertible to permanent",
+      "specialFeatures": [
+        "A+ AM Best rating",
+        "40-year term available",
+        "No-exam option up to $1M",
+        "Legal & General global backing"
+      ],
+      "sourceUrl": "https://www.bannerlife.com/products/term-life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "protective-classic-choice",
+      "insurerName": "Protective Life Insurance",
+      "insurerSlug": "protective-life",
+      "productName": "Classic Choice Term",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 80,
+        "renewableUpTo": 90
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 50000000,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 14,
+        "illustrativeMax": 28,
+        "assumptions": "Male, 35yo, non-smoker, $500K, 20yr. Monthly. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Level death benefit",
+        "Accelerated death benefit",
+        "Conversion privilege"
+      ],
+      "keyExclusions": [
+        "Suicide within 2 years",
+        "Misrepresentation"
+      ],
+      "claimSettlement": {
+        "ratio": 98,
+        "year": "2024",
+        "source": "AM Best"
+      },
+      "riders": [
+        "Accidental Death",
+        "Waiver of Premium",
+        "Child Term"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Convertible",
+      "specialFeatures": [
+        "A+ AM Best rating",
+        "Competitive pricing",
+        "Available to age 80",
+        "Protective Life 100-year history"
+      ],
+      "sourceUrl": "https://www.protective.com/life-insurance/term-life",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "sbli-term-us",
+      "insurerName": "SBLI (Savings Bank Life Insurance)",
+      "insurerSlug": "sbli",
+      "productName": "SBLI Level Term",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 60,
+        "renewableUpTo": 85
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 10000000,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 13,
+        "illustrativeMax": 26,
+        "assumptions": "Male, 35yo, non-smoker, $500K, 20yr. Monthly. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Level death benefit",
+        "Accelerated death benefit"
+      ],
+      "keyExclusions": [
+        "Suicide within 2 years"
+      ],
+      "claimSettlement": {
+        "ratio": 99,
+        "year": "2024",
+        "source": "AM Best"
+      },
+      "riders": [
+        "Waiver of Premium",
+        "Accidental Death"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Convertible",
+      "specialFeatures": [
+        "No medical exam up to $750K",
+        "A+ AM Best",
+        "Mutual company – no shareholders",
+        "One of lowest-cost US term insurers"
+      ],
+      "sourceUrl": "https://www.sbli.com/term-life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "transamerica-trendsetter",
+      "insurerName": "Transamerica Life Insurance",
+      "insurerSlug": "transamerica",
+      "productName": "Trendsetter LB Term",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 70,
+        "renewableUpTo": 85
+      },
+      "sumInsured": {
+        "min": 25000,
+        "max": 10000000,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 16,
+        "illustrativeMax": 32,
+        "assumptions": "Male, 35yo, non-smoker, $500K, 20yr. Monthly. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Level death benefit",
+        "Living benefit rider included",
+        "Conversion privilege",
+        "Accelerated death benefit"
+      ],
+      "keyExclusions": [
+        "Suicide within 2 years"
+      ],
+      "claimSettlement": {
+        "ratio": 97,
+        "year": "2024",
+        "source": "AM Best"
+      },
+      "riders": [
+        "Living Benefits (critical/chronic/terminal)",
+        "Waiver of Premium",
+        "Accidental Death"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Convertible",
+      "specialFeatures": [
+        "Living benefits included at no extra cost",
+        "Aegon global backing",
+        "Available in all 50 states"
+      ],
+      "sourceUrl": "https://www.transamerica.com/life-insurance/term",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "us"
+    },
+    {
+      "id": "pacific-life-primefirm",
+      "insurerName": "Pacific Life Insurance",
+      "insurerSlug": "pacific-life",
+      "productName": "PL Promise Term",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 70,
+        "renewableUpTo": 90
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 50000000,
+        "options": [],
+        "currency": "USD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 15,
+        "illustrativeMax": 30,
+        "assumptions": "Male, 35yo, non-smoker, $500K, 20yr. Monthly. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Level death benefit",
+        "Accelerated death benefit",
+        "Conversion to permanent"
+      ],
+      "keyExclusions": [
+        "Suicide within 2 years"
+      ],
+      "claimSettlement": {
+        "ratio": 98,
+        "year": "2024",
+        "source": "AM Best"
+      },
+      "riders": [
+        "Accidental Death Benefit",
+        "Children's Term",
+        "Waiver of Premium"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Convertible",
+      "specialFeatures": [
+        "A+ AM Best rating",
+        "150-year mutual company history",
+        "Strong financial ratings",
+        "Large face amounts available"
+      ],
+      "sourceUrl": "https://www.pacificlife.com/home/Products/Life-Insurance/Term-Life-Insurance.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "us"
     }

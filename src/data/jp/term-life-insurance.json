@@ -1,6 +1,6 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -104,6 +104,276 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "meiji-yasuda-term-jp",
+      "insurerName": "Meiji Yasuda Life Insurance",
+      "insurerSlug": "meiji-yasuda",
+      "productName": "Meiji Yasuda Definite Term Insurance",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 70,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 5000000,
+        "max": 500000000,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 3000,
+        "illustrativeMax": 10000,
+        "assumptions": "Monthly JPY, 35yo non-smoker, ¥30M, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Disability waiver option"
+      ],
+      "keyExclusions": [
+        "Suicide within 1yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 99,
+        "year": "2024",
+        "source": "FSA Japan"
+      },
+      "riders": [
+        "Three major diseases",
+        "Accidental Death",
+        "Disability income"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Fixed term (renewable)",
+      "specialFeatures": [
+        "Japan largest mutual life insurer",
+        "40M+ policies",
+        "High trust brand",
+        "Agency-driven distribution"
+      ],
+      "sourceUrl": "https://www.meijiyasuda.co.jp/find2/term",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "daido-term-jp",
+      "insurerName": "Daido Life Insurance",
+      "insurerSlug": "daido-life",
+      "productName": "Daido Life Term Insurance for SME",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 5000000,
+        "max": 200000000,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 3500,
+        "illustrativeMax": 11000,
+        "assumptions": "Monthly JPY, 40yo, ¥30M, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "Business continuity benefit",
+        "SME key-person cover"
+      ],
+      "keyExclusions": [
+        "Suicide within 1yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 98,
+        "year": "2024",
+        "source": "FSA Japan"
+      },
+      "riders": [
+        "Three major diseases",
+        "Disability income"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Fixed term",
+      "specialFeatures": [
+        "SME specialist insurer",
+        "T&D Holdings group",
+        "Key-person business insurance focus",
+        "Strong Osaka SME market"
+      ],
+      "sourceUrl": "https://www.daidolife.co.jp/products/term",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "taiyo-term-jp",
+      "insurerName": "Taiyo Life Insurance",
+      "insurerSlug": "taiyo-life",
+      "productName": "Taiyo Life Simple Term Insurance",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 3000000,
+        "max": 100000000,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2800,
+        "illustrativeMax": 9000,
+        "assumptions": "Monthly JPY, 35yo non-smoker, ¥30M, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "Disability waiver"
+      ],
+      "keyExclusions": [
+        "Suicide within 1yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 98,
+        "year": "2024",
+        "source": "FSA Japan"
+      },
+      "riders": [
+        "Critical illness",
+        "Disability income"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Fixed term",
+      "specialFeatures": [
+        "T&D Holdings group",
+        "Rural Japan strong presence",
+        "Door-to-door sales force",
+        "Competitive housewife plans"
+      ],
+      "sourceUrl": "https://www.taiyo-seimei.co.jp/products",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "sony-life-term-jp",
+      "insurerName": "Sony Life Insurance",
+      "insurerSlug": "sony-life",
+      "productName": "Sony Life Variable Term Insurance",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 5000000,
+        "max": 200000000,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2900,
+        "illustrativeMax": 9500,
+        "assumptions": "Monthly JPY, 35yo non-smoker, ¥30M, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Financial planning integration"
+      ],
+      "keyExclusions": [
+        "Suicide within 1yr",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 97,
+        "year": "2024",
+        "source": "FSA Japan"
+      },
+      "riders": [
+        "Three major diseases",
+        "Disability income"
+      ],
+      "policyTenure": {
+        "min": 10,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Fixed term",
+      "specialFeatures": [
+        "Sony Group brand",
+        "CFP financial planner network",
+        "Digital-forward insurer",
+        "IFA distribution channel"
+      ],
+      "sourceUrl": "https://www.sonylife.co.jp/products/term",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "jp"
     }

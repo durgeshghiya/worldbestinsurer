@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -144,6 +144,334 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "aami-motor-au",
+      "insurerName": "AAMI (Suncorp Group)",
+      "insurerSlug": "aami",
+      "productName": "AAMI Comprehensive Car Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 16,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AUD",
+        "note": "Agreed or market value"
+      },
+      "premiumRange": {
+        "illustrativeMin": 100,
+        "illustrativeMax": 250,
+        "assumptions": "Monthly AUD, 35yo, 5yr car, VIC. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Accidental damage",
+        "Fire & theft",
+        "Third party liability",
+        "Storm & natural events",
+        "New car replacement (if <2yr)",
+        "24/7 roadside assist"
+      ],
+      "keyExclusions": [
+        "Drink/drug driving",
+        "Racing",
+        "Intentional damage"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "AFCA"
+      },
+      "riders": [
+        "Agreed value upgrade",
+        "Hire car after theft",
+        "Protected no-claim discount"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Suncorp Group",
+        "Lifetime repair guarantee",
+        "Accident forgiveness first at-fault",
+        "Strong eastern Australia presence"
+      ],
+      "sourceUrl": "https://www.aami.com.au/car-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "budget-direct-au",
+      "insurerName": "Budget Direct (Auto & General)",
+      "insurerSlug": "budget-direct",
+      "productName": "Budget Direct Comprehensive Car Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 16,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 85,
+        "illustrativeMax": 220,
+        "assumptions": "Monthly AUD, 35yo, 5yr car. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Accidental damage",
+        "Fire & theft",
+        "Third party liability",
+        "Storm & flood",
+        "Windscreen"
+      ],
+      "keyExclusions": [
+        "Drink/drug driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "AFCA"
+      },
+      "riders": [
+        "Hire car",
+        "Protected NCD",
+        "Roadside assist"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Consistently cheapest in comparison sites",
+        "Auto & General parent",
+        "Online-only discounts",
+        "Award-winning value"
+      ],
+      "sourceUrl": "https://www.budgetdirect.com.au/car-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "youi-motor-au",
+      "insurerName": "Youi Insurance",
+      "insurerSlug": "youi",
+      "productName": "Youi Comprehensive Car Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 16,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 90,
+        "illustrativeMax": 235,
+        "assumptions": "Monthly AUD, 35yo, 5yr car. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Accidental damage",
+        "Fire & theft",
+        "Third party liability",
+        "Natural events",
+        "Roadside assistance included"
+      ],
+      "keyExclusions": [
+        "Drink/drug driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "AFCA"
+      },
+      "riders": [
+        "Hire car after accident",
+        "Agreed value"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Roadside assistance included free",
+        "Personalised premiums (telephone quote)",
+        "JD Power award winner",
+        "South African OUTsurance parent"
+      ],
+      "sourceUrl": "https://www.youi.com.au/car-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "real-motor-au",
+      "insurerName": "Real Insurance (Hollard)",
+      "insurerSlug": "real-insurance",
+      "productName": "Real Comprehensive Car Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 16,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 82,
+        "illustrativeMax": 215,
+        "assumptions": "Monthly AUD, 35yo, 5yr car. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Accidental damage",
+        "Fire & theft",
+        "Third party liability",
+        "Natural disaster",
+        "Windscreen"
+      ],
+      "keyExclusions": [
+        "Drink/drug driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 89,
+        "year": "2024",
+        "source": "AFCA"
+      },
+      "riders": [
+        "Hire car",
+        "Emergency repairs",
+        "Protected NCD"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Hollard Group",
+        "Value pricing",
+        "Flexible payment options",
+        "Nationwide claims team"
+      ],
+      "sourceUrl": "https://www.realinsurance.com.au/car-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "suncorp-motor-au",
+      "insurerName": "Suncorp Insurance",
+      "insurerSlug": "suncorp",
+      "productName": "Suncorp Comprehensive Car Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 16,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 105,
+        "illustrativeMax": 255,
+        "assumptions": "Monthly AUD, 35yo, 5yr car. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Accidental damage",
+        "Fire & theft",
+        "Third party liability",
+        "Storm & hail",
+        "24/7 roadside assist"
+      ],
+      "keyExclusions": [
+        "Drink/drug driving",
+        "Racing",
+        "Commercial use"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "AFCA"
+      },
+      "riders": [
+        "Agreed value",
+        "Hire car after theft",
+        "Protected NCD"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "ASX-listed insurer",
+        "Qld/NSW strength",
+        "Suncorp Bank bundle discounts",
+        "Telematics available"
+      ],
+      "sourceUrl": "https://www.suncorp.com.au/insurance/car",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "au"
     }

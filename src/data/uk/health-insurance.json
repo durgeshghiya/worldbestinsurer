@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -239,6 +239,474 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "cigna-uk-health",
+      "insurerName": "Cigna Healthcare UK",
+      "insurerSlug": "cigna-uk",
+      "productName": "Cigna HealthGuard Essential",
+      "category": "health",
+      "subCategory": "private",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 60,
+        "illustrativeMax": 150,
+        "assumptions": "Monthly, 35yo individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient treatment",
+        "Day-patient care",
+        "Out-patient consultations",
+        "Diagnostics",
+        "Mental health (limited)",
+        "Physiotherapy"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions (moratorium)",
+        "Cosmetic surgery",
+        "Pregnancy"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Dental",
+        "Optical",
+        "Maternity"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Global expat option",
+        "Digital health platform",
+        "Cigna One Guide nurse line",
+        "Flexible excess options"
+      ],
+      "sourceUrl": "https://www.cigna.co.uk/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "freedom-health-flexible",
+      "insurerName": "Freedom Health Insurance",
+      "insurerSlug": "freedom-health-uk",
+      "productName": "Flexible Health Plan",
+      "category": "health",
+      "subCategory": "private",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 50,
+        "illustrativeMax": 130,
+        "assumptions": "Monthly, 35yo individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient care",
+        "Day-patient care",
+        "Out-patient consultations",
+        "Cancer cover",
+        "Mental health",
+        "Physiotherapy"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions",
+        "Cosmetic surgery",
+        "Pregnancy (unless added)"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Dental & Optical",
+        "Maternity",
+        "Travel"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "No GP referral needed for consultations",
+        "4-week guarantee for first appointment",
+        "Modular plan design",
+        "SME specialist"
+      ],
+      "sourceUrl": "https://www.freedomhealthinsurance.co.uk",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "exeter-personal-health-uk",
+      "insurerName": "The Exeter",
+      "insurerSlug": "the-exeter",
+      "productName": "Health+ Personal",
+      "category": "health",
+      "subCategory": "private",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 55,
+        "illustrativeMax": 140,
+        "assumptions": "Monthly, 35yo individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient care",
+        "Day-patient care",
+        "Out-patient consultations",
+        "Unlimited cancer cover",
+        "Mental health support",
+        "Physiotherapy"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Dental & Optical",
+        "Therapies",
+        "Extra Care"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Member-owned mutual",
+        "Unlimited cancer cover standard",
+        "Mental health included",
+        "No-claims discount"
+      ],
+      "sourceUrl": "https://www.the-exeter.com/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "nuffield-health-plan-uk",
+      "insurerName": "Nuffield Health",
+      "insurerSlug": "nuffield-health",
+      "productName": "Nuffield Health Wellbeing Plan",
+      "category": "health",
+      "subCategory": "private",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 65,
+        "illustrativeMax": 160,
+        "assumptions": "Monthly, 35yo individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient care",
+        "Out-patient consultations",
+        "Cancer care",
+        "Mental health",
+        "Physiotherapy",
+        "Gym membership access"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Dental",
+        "Optical",
+        "Extended therapies"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Charity-owned provider",
+        "31 Nuffield hospitals",
+        "Gym access discount",
+        "Integrated wellbeing platform"
+      ],
+      "sourceUrl": "https://www.nuffieldhealth.com/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "simply-health-uk",
+      "insurerName": "Simplyhealth",
+      "insurerSlug": "simplyhealth",
+      "productName": "Simplyhealth Health Plan",
+      "category": "health",
+      "subCategory": "cash-plan",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 20,
+        "illustrativeMax": 60,
+        "assumptions": "Monthly, 35yo individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Dental & optical cashback",
+        "Physiotherapy",
+        "GP & specialist consultations",
+        "Mental health support",
+        "Scans & tests"
+      ],
+      "keyExclusions": [
+        "Acute hospital treatment (not a PMI)",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Hospital cash benefit",
+        "Family cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Health cash plan (lower cost)",
+        "Dental & optical included",
+        "No medical underwriting",
+        "24/7 GP helpline"
+      ],
+      "sourceUrl": "https://www.simplyhealth.co.uk/health-plans",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "benenden-health-uk",
+      "insurerName": "Benenden Health",
+      "insurerSlug": "benenden-health",
+      "productName": "Benenden Health Membership",
+      "category": "health",
+      "subCategory": "mutual",
+      "eligibility": {
+        "minAge": 16,
+        "maxAge": 74,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 15,
+        "illustrativeMax": 15,
+        "assumptions": "Monthly flat rate £15.10/mo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "24/7 GP helpline",
+        "Mental health support",
+        "Cancer support",
+        "Physiotherapy",
+        "Diagnostic tests",
+        "Medical second opinion"
+      ],
+      "keyExclusions": [
+        "Acute surgery (not PMI)",
+        "Pre-existing conditions"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Dental",
+        "Optical"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Mutual member-owned",
+        "Flat rate £15.10/month",
+        "No-claims history irrelevant",
+        "NHS complementary approach"
+      ],
+      "sourceUrl": "https://www.benenden.co.uk/health",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "healix-health-uk",
+      "insurerName": "Healix International",
+      "insurerSlug": "healix",
+      "productName": "Healix Health Select",
+      "category": "health",
+      "subCategory": "private",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 70,
+        "illustrativeMax": 180,
+        "assumptions": "Monthly, 35yo individual. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient care",
+        "Day-patient care",
+        "Out-patient",
+        "Cancer cover",
+        "Mental health",
+        "Physiotherapy",
+        "Global cover option"
+      ],
+      "keyExclusions": [
+        "Pre-existing conditions",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "ABI"
+      },
+      "riders": [
+        "Global cover upgrade",
+        "Dental & optical"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Specialist in expatriate health",
+        "Global cover available",
+        "Assistance operations in 190 countries",
+        "24/7 multilingual helpline"
+      ],
+      "sourceUrl": "https://www.healix.com/individual-health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "uk"

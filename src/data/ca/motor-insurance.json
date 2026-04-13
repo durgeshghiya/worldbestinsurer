@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -144,6 +144,334 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "aviva-auto-ca",
+      "insurerName": "Aviva Canada",
+      "insurerSlug": "aviva-ca",
+      "productName": "Aviva Comprehensive Auto Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 16,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 130,
+        "illustrativeMax": 280,
+        "assumptions": "Monthly CAD, 35yo, clean record, ON. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Third party liability",
+        "Collision",
+        "Comprehensive",
+        "Direct compensation – property damage",
+        "Accident benefits",
+        "Uninsured motorist"
+      ],
+      "keyExclusions": [
+        "Stunt driving",
+        "Commercial use",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "IBC"
+      },
+      "riders": [
+        "Waiver of Depreciation",
+        "Accident Forgiveness",
+        "Rental car",
+        "Loss of use"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Aviva UK group",
+        "Telematics discount (DrivAbility)",
+        "Bundle with home",
+        "Nationwide brokers"
+      ],
+      "sourceUrl": "https://www.avivacanada.com/auto-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "economical-auto-ca",
+      "insurerName": "Economical Insurance",
+      "insurerSlug": "economical",
+      "productName": "Economical Auto Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 16,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 120,
+        "illustrativeMax": 260,
+        "assumptions": "Monthly CAD, 35yo, clean record, ON. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Third party liability",
+        "Collision",
+        "Comprehensive",
+        "Accident benefits",
+        "Uninsured motorist"
+      ],
+      "keyExclusions": [
+        "Stunt driving",
+        "Racing",
+        "Commercial use"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "IBC"
+      },
+      "riders": [
+        "Waiver of Depreciation",
+        "Accident Forgiveness",
+        "Rental"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Definity Financial subsidiary",
+        "Broker distribution",
+        "Usage-based insurance available",
+        "Competitive Ontario pricing"
+      ],
+      "sourceUrl": "https://www.economical.com/en/personal/auto",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "wawanesa-auto-ca",
+      "insurerName": "Wawanesa Insurance",
+      "insurerSlug": "wawanesa",
+      "productName": "Wawanesa Auto Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 16,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 110,
+        "illustrativeMax": 250,
+        "assumptions": "Monthly CAD, 35yo, clean record, MB/SK. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Third party liability",
+        "Collision",
+        "Comprehensive",
+        "Accident benefits"
+      ],
+      "keyExclusions": [
+        "Stunt driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "IBC"
+      },
+      "riders": [
+        "Waiver of Depreciation",
+        "Rental car",
+        "Accident Forgiveness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Manitoba mutual insurer (1896)",
+        "Strong western Canada presence",
+        "Mutual – no shareholders",
+        "Competitive Manitoba/BC rates"
+      ],
+      "sourceUrl": "https://www.wawanesa.com/canada/auto.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "gore-mutual-auto-ca",
+      "insurerName": "Gore Mutual Insurance",
+      "insurerSlug": "gore-mutual",
+      "productName": "Gore Mutual Auto Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 16,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 115,
+        "illustrativeMax": 255,
+        "assumptions": "Monthly CAD, 35yo, ON/BC. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Third party liability",
+        "Collision",
+        "Comprehensive",
+        "Accident benefits",
+        "Uninsured motorist"
+      ],
+      "keyExclusions": [
+        "Stunt driving",
+        "Commercial use"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "IBC"
+      },
+      "riders": [
+        "Waiver of Depreciation",
+        "Accident Forgiveness",
+        "Usage-based"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "175-year Canadian mutual",
+        "Next Horizon digital transformation",
+        "Broker-only distribution",
+        "Competitive Ontario pricing"
+      ],
+      "sourceUrl": "https://www.goremutual.ca/personal/auto",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "belairdirect-auto-ca",
+      "insurerName": "belairdirect (Intact)",
+      "insurerSlug": "belairdirect",
+      "productName": "belairdirect Auto Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 16,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 105,
+        "illustrativeMax": 240,
+        "assumptions": "Monthly CAD, 35yo, clean record, ON/QC. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Third party liability",
+        "Collision",
+        "Comprehensive",
+        "Accident benefits",
+        "Uninsured motorist"
+      ],
+      "keyExclusions": [
+        "Stunt driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "IBC"
+      },
+      "riders": [
+        "Accident Forgiveness",
+        "Rental",
+        "Waiver of Depreciation"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Direct-to-consumer (no broker)",
+        "Intact Financial subsidiary",
+        "Competitive Ontario/Quebec online rates",
+        "24/7 digital claims"
+      ],
+      "sourceUrl": "https://www.belairdirect.com/auto-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "ca"
     }

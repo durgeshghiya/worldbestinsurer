@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational and informational purposes only. Premium figures are illustrative and sourced from public insurer calculators/brochures. Actual premiums may vary. Please verify all details with the insurer directly before making any decision.",
   "products": [
     {
@@ -814,6 +814,811 @@
       "sourceUrl": "https://www.godigit.com/health-insurance",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "star-health-comprehensive",
+      "insurerName": "Star Health and Allied Insurance Co. Ltd.",
+      "insurerSlug": "star-health",
+      "productName": "Star Comprehensive Insurance Policy",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 3,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 10000000,
+        "options": [
+          500000,
+          1000000,
+          2000000,
+          5000000,
+          10000000
+        ]
+      },
+      "premiumRange": {
+        "illustrativeMin": 9500,
+        "illustrativeMax": 16000,
+        "assumptions": "Individual, 30yr, ₹10L SI. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Day care procedures",
+        "Pre & post hospitalization",
+        "OPD treatment",
+        "Dental & ophthalmic (OPD)",
+        "AYUSH",
+        "Organ donor expenses",
+        "Air ambulance"
+      ],
+      "keyExclusions": [
+        "PED during waiting period",
+        "Cosmetic surgery",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 82.3,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "networkHospitals": {
+        "count": 14000,
+        "source": "Insurer website"
+      },
+      "riders": [
+        "Personal Accident",
+        "Critical Illness",
+        "Hospital Cash"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "OPD Cover included",
+        "Dental & Vision",
+        "Air Ambulance",
+        "Maternity benefit optional"
+      ],
+      "sourceUrl": "https://www.starhealth.in/health-insurance/star-comprehensive-policy",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "new-india-mediclaim-1-0",
+      "insurerName": "New India Assurance Co. Ltd.",
+      "insurerSlug": "new-india-assurance",
+      "productName": "New India Mediclaim Policy 1.0",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 200000,
+        "max": 1500000,
+        "options": [
+          200000,
+          300000,
+          500000,
+          800000,
+          1000000,
+          1500000
+        ]
+      },
+      "premiumRange": {
+        "illustrativeMin": 4500,
+        "illustrativeMax": 9000,
+        "assumptions": "Individual, 30yr, ₹5L SI. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Day care procedures",
+        "Pre-hospitalization 30 days",
+        "Post-hospitalization 60 days",
+        "Ambulance charges"
+      ],
+      "keyExclusions": [
+        "PED during waiting period",
+        "Maternity (unless rider)",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 92.6,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "networkHospitals": {
+        "count": 8000,
+        "source": "Insurer website"
+      },
+      "riders": [
+        "Critical Illness",
+        "Hospital Cash"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifetime (up to 80)",
+      "specialFeatures": [
+        "PSU insurer – high trust",
+        "Affordable premiums",
+        "Wide hospital network"
+      ],
+      "sourceUrl": "https://www.newindia.co.in/portal/content/health-insurance/new-india-mediclaim-policy",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "oriental-happy-family",
+      "insurerName": "Oriental Insurance Co. Ltd.",
+      "insurerSlug": "oriental-insurance",
+      "productName": "Happy Family Floater",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 3,
+        "maxAge": 65,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 200000,
+        "max": 2000000,
+        "options": [
+          200000,
+          300000,
+          500000,
+          1000000,
+          2000000
+        ]
+      },
+      "premiumRange": {
+        "illustrativeMin": 8000,
+        "illustrativeMax": 15000,
+        "assumptions": "Family of 4, 35yr, ₹5L SI. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Day care procedures",
+        "Pre & post hospitalization",
+        "Ambulance",
+        "AYUSH"
+      ],
+      "keyExclusions": [
+        "PED during waiting period",
+        "Cosmetic surgery",
+        "Maternity (unless opted)"
+      ],
+      "claimSettlement": {
+        "ratio": 90.1,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "networkHospitals": {
+        "count": 7000,
+        "source": "Insurer website"
+      },
+      "riders": [
+        "Personal Accident",
+        "Critical Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifetime (up to 80)",
+      "specialFeatures": [
+        "Floater for full family",
+        "PSU insurer",
+        "Affordable premiums",
+        "Maternity option available"
+      ],
+      "sourceUrl": "https://orientalinsurance.org.in/web/guest/health-insurance-plans",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "united-india-family-medicare",
+      "insurerName": "United India Insurance Co. Ltd.",
+      "insurerSlug": "united-india-insurance",
+      "productName": "Family Medicare Plus",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 3,
+        "maxAge": 65,
+        "renewableUpTo": 80
+      },
+      "sumInsured": {
+        "min": 200000,
+        "max": 1000000,
+        "options": [
+          200000,
+          300000,
+          500000,
+          1000000
+        ]
+      },
+      "premiumRange": {
+        "illustrativeMin": 6500,
+        "illustrativeMax": 12000,
+        "assumptions": "Family floater, 35yr adult, ₹5L SI. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Day care",
+        "Pre & post hospitalization",
+        "Ambulance",
+        "AYUSH"
+      ],
+      "keyExclusions": [
+        "PED during waiting period",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 89.5,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "networkHospitals": {
+        "count": 7000,
+        "source": "Insurer website"
+      },
+      "riders": [
+        "Critical Illness",
+        "Hospital Cash"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifetime (up to 80)",
+      "specialFeatures": [
+        "PSU insurer",
+        "Covers entire family under single premium",
+        "Domiciliary treatment covered"
+      ],
+      "sourceUrl": "https://uiic.co.in/en/family-medicare",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "sbi-arogya-premier",
+      "insurerName": "SBI General Insurance Co. Ltd.",
+      "insurerSlug": "sbi-general",
+      "productName": "Arogya Premier",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 1000000,
+        "max": 30000000,
+        "options": [
+          1000000,
+          2000000,
+          5000000,
+          10000000,
+          30000000
+        ]
+      },
+      "premiumRange": {
+        "illustrativeMin": 14000,
+        "illustrativeMax": 30000,
+        "assumptions": "Individual, 35yr, ₹10L SI. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Overseas treatment (optional)",
+        "Day care procedures",
+        "Pre & post hospitalization 60/90 days",
+        "AYUSH",
+        "Air ambulance"
+      ],
+      "keyExclusions": [
+        "PED during waiting period",
+        "Cosmetic surgery",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 93.2,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "networkHospitals": {
+        "count": 6000,
+        "source": "Insurer website"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "Maternity"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 3,
+        "options": [
+          1,
+          2,
+          3
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "High sum insured up to ₹3Cr",
+        "Overseas treatment cover",
+        "Long-term discounts",
+        "SBI Group backing"
+      ],
+      "sourceUrl": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "kotak-health-premier",
+      "insurerName": "Kotak Mahindra General Insurance Co. Ltd.",
+      "insurerSlug": "kotak-general",
+      "productName": "Kotak Health Premier",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 10000000,
+        "options": [
+          500000,
+          1000000,
+          2000000,
+          5000000,
+          10000000
+        ]
+      },
+      "premiumRange": {
+        "illustrativeMin": 10000,
+        "illustrativeMax": 18000,
+        "assumptions": "Individual, 30yr, ₹10L SI. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "36 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Day care procedures",
+        "Ambulance",
+        "AYUSH",
+        "Pre & post hospitalization",
+        "Restoration benefit"
+      ],
+      "keyExclusions": [
+        "PED during waiting period",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "networkHospitals": {
+        "count": 5000,
+        "source": "Insurer website"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 2,
+        "options": [
+          1,
+          2
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Restoration benefit",
+        "No room rent capping on select plans",
+        "Kotak Group backing"
+      ],
+      "sourceUrl": "https://www.kotakgeneral.com/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "future-generali-total-health",
+      "insurerName": "Future Generali India Insurance Co. Ltd.",
+      "insurerSlug": "future-generali",
+      "productName": "Total Health Insurance Plan",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 5000000,
+        "options": [
+          300000,
+          500000,
+          1000000,
+          2000000,
+          5000000
+        ]
+      },
+      "premiumRange": {
+        "illustrativeMin": 7500,
+        "illustrativeMax": 14000,
+        "assumptions": "Individual, 30yr, ₹5L SI. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Day care procedures",
+        "Pre & post hospitalization",
+        "Domiciliary treatment",
+        "AYUSH",
+        "Ambulance"
+      ],
+      "keyExclusions": [
+        "PED during waiting period",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 88.5,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "networkHospitals": {
+        "count": 5000,
+        "source": "Insurer website"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 2,
+        "options": [
+          1,
+          2
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Domiciliary treatment covered",
+        "Floater option available",
+        "Generali Group global backing"
+      ],
+      "sourceUrl": "https://www.futuregenerali.in/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "acko-platinum-health",
+      "insurerName": "Acko General Insurance Ltd.",
+      "insurerSlug": "acko",
+      "productName": "Acko Platinum Health Insurance",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 1000000,
+        "max": 10000000,
+        "options": [
+          1000000,
+          2000000,
+          5000000,
+          10000000
+        ]
+      },
+      "premiumRange": {
+        "illustrativeMin": 11000,
+        "illustrativeMax": 20000,
+        "assumptions": "Individual, 30yr, ₹10L SI. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "36 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "No room rent limits",
+        "Day care procedures",
+        "Pre & post hospitalization",
+        "AYUSH",
+        "Ambulance",
+        "OPD cover"
+      ],
+      "keyExclusions": [
+        "PED during waiting period",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 95.8,
+        "year": "FY2023-24",
+        "source": "Insurer website"
+      },
+      "networkHospitals": {
+        "count": 10000,
+        "source": "Insurer website"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Digital-first insurer",
+        "OPD cover included",
+        "No room rent caps",
+        "Instant claims processing"
+      ],
+      "sourceUrl": "https://www.acko.com/health-insurance/platinum/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "reliance-health-gain",
+      "insurerName": "Reliance General Insurance Co. Ltd.",
+      "insurerSlug": "reliance-general",
+      "productName": "Health Gain Insurance Plan",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 3000000,
+        "options": [
+          300000,
+          500000,
+          1000000,
+          2000000,
+          3000000
+        ]
+      },
+      "premiumRange": {
+        "illustrativeMin": 6000,
+        "illustrativeMax": 11000,
+        "assumptions": "Individual, 30yr, ₹5L SI. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Day care procedures",
+        "Ambulance",
+        "AYUSH",
+        "Pre & post hospitalization"
+      ],
+      "keyExclusions": [
+        "PED during waiting period",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 87,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "networkHospitals": {
+        "count": 8000,
+        "source": "Insurer website"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "Hospital Cash"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 2,
+        "options": [
+          1,
+          2
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Wellness discounts",
+        "Reliance Group backing",
+        "Wide hospital network"
+      ],
+      "sourceUrl": "https://www.reliancegeneral.co.in/Insurance/Health-Insurance.aspx",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "universal-sompo-complete",
+      "insurerName": "Universal Sompo General Insurance Co. Ltd.",
+      "insurerSlug": "universal-sompo",
+      "productName": "Complete Healthcare Insurance",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 5000000,
+        "options": [
+          100000,
+          200000,
+          300000,
+          500000,
+          1000000,
+          3000000,
+          5000000
+        ]
+      },
+      "premiumRange": {
+        "illustrativeMin": 5500,
+        "illustrativeMax": 10000,
+        "assumptions": "Individual, 30yr, ₹5L SI. Indicative.",
+        "isVerified": false
+      },
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Day care procedures",
+        "Pre & post hospitalization",
+        "AYUSH",
+        "Ambulance"
+      ],
+      "keyExclusions": [
+        "PED during waiting period",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 88,
+        "year": "FY2023-24",
+        "source": "IRDAI"
+      },
+      "networkHospitals": {
+        "count": 5000,
+        "source": "Insurer website"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong",
+      "specialFeatures": [
+        "Low entry sum insured",
+        "Affordable for first-time buyers",
+        "Sompo Japan backing"
+      ],
+      "sourceUrl": "https://www.universalsompo.com/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "in"

@@ -1,6 +1,6 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -105,6 +105,385 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "zurich-term-au",
+      "insurerName": "Zurich Australia",
+      "insurerSlug": "zurich-au",
+      "productName": "Zurich Wealth Protection Term Life",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 69,
+        "renewableUpTo": 99
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 25000000,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 40,
+        "illustrativeMax": 130,
+        "assumptions": "Monthly AUD, 35yo, AUD 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Financial planning benefit",
+        "Indexation option"
+      ],
+      "keyExclusions": [
+        "Suicide within 13 months",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 96,
+        "year": "2024",
+        "source": "APRA"
+      },
+      "riders": [
+        "Total & Permanent Disability",
+        "Income Protection",
+        "Critical Illness",
+        "Trauma"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 40,
+        "options": []
+      },
+      "renewability": "Guaranteed renewable to 99",
+      "specialFeatures": [
+        "Cover to age 99",
+        "Zurich Switzerland global backing",
+        "APRA-regulated",
+        "Financial planning integration"
+      ],
+      "sourceUrl": "https://www.zurich.com.au/personal/life-insurance/term-life",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "metlife-au",
+      "insurerName": "MetLife Australia",
+      "insurerSlug": "metlife-au",
+      "productName": "MetLife Protection Term Life",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 69,
+        "renewableUpTo": 99
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 20000000,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 38,
+        "illustrativeMax": 125,
+        "assumptions": "Monthly AUD, 35yo, AUD 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Bereavement counselling benefit",
+        "Financial plan support"
+      ],
+      "keyExclusions": [
+        "Suicide within 13 months",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 96,
+        "year": "2024",
+        "source": "APRA"
+      },
+      "riders": [
+        "TPD",
+        "Trauma",
+        "Income Protection"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 40,
+        "options": []
+      },
+      "renewability": "Guaranteed renewable to 99",
+      "specialFeatures": [
+        "MetLife US group",
+        "Strong group super integration",
+        "Award-winning claims team",
+        "Digital claims platform"
+      ],
+      "sourceUrl": "https://www.metlife.com.au/life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "clearview-term-au",
+      "insurerName": "ClearView Life Assurance",
+      "insurerSlug": "clearview",
+      "productName": "ClearView LifeSolutions Term",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 99
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 10000000,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 36,
+        "illustrativeMax": 118,
+        "assumptions": "Monthly AUD, 35yo, AUD 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Future insurability option"
+      ],
+      "keyExclusions": [
+        "Suicide within 13 months",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 95,
+        "year": "2024",
+        "source": "APRA"
+      },
+      "riders": [
+        "TPD",
+        "Critical Illness",
+        "Income Protection"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 40,
+        "options": []
+      },
+      "renewability": "Guaranteed renewable to 99",
+      "specialFeatures": [
+        "Competitive pricing",
+        "Trauma cover available",
+        "Adviser-focused product",
+        "APRA-licensed"
+      ],
+      "sourceUrl": "https://www.clearview.com.au/life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "onepath-term-au",
+      "insurerName": "OnePath Life (Zurich)",
+      "insurerSlug": "onepath",
+      "productName": "OnePath Integra Life Term",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 99
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 10000000,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 37,
+        "illustrativeMax": 120,
+        "assumptions": "Monthly AUD, 35yo, AUD 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Future insurability",
+        "Inflation adjustment"
+      ],
+      "keyExclusions": [
+        "Suicide within 13 months",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 95,
+        "year": "2024",
+        "source": "APRA"
+      },
+      "riders": [
+        "TPD",
+        "Critical Illness",
+        "Income Protection"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 40,
+        "options": []
+      },
+      "renewability": "Guaranteed renewable to 99",
+      "specialFeatures": [
+        "ANZ bank distribution (historical)",
+        "Zurich backing post-acquisition",
+        "Strong super fund integration",
+        "Competitive group rates"
+      ],
+      "sourceUrl": "https://www.onepath.com.au/life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "mlc-term-au",
+      "insurerName": "MLC Life Insurance (Nippon Life)",
+      "insurerSlug": "mlc-life",
+      "productName": "MLC Life Insurance Term",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 69,
+        "renewableUpTo": 99
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 15000000,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 39,
+        "illustrativeMax": 122,
+        "assumptions": "Monthly AUD, 35yo, AUD 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Financial planning benefit",
+        "Indexation"
+      ],
+      "keyExclusions": [
+        "Suicide within 13 months",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 97,
+        "year": "2024",
+        "source": "APRA"
+      },
+      "riders": [
+        "TPD",
+        "Critical Illness",
+        "Income Protection",
+        "Business Expenses"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 40,
+        "options": []
+      },
+      "renewability": "Guaranteed renewable to 99",
+      "specialFeatures": [
+        "Nippon Life Japan backing",
+        "Highest MLC claim acceptance 97%",
+        "Super and wrap platform integration",
+        "Adviser-led distribution"
+      ],
+      "sourceUrl": "https://www.mlclife.com.au/life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "bt-life-au",
+      "insurerName": "BT Life Insurance (Westpac)",
+      "insurerSlug": "bt-life",
+      "productName": "BT Protection Plans Term Life",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 69,
+        "renewableUpTo": 99
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 15000000,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 40,
+        "illustrativeMax": 125,
+        "assumptions": "Monthly AUD, 35yo, AUD 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Advance payment option",
+        "BT financial planning integration"
+      ],
+      "keyExclusions": [
+        "Suicide within 13 months",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 96,
+        "year": "2024",
+        "source": "APRA"
+      },
+      "riders": [
+        "TPD",
+        "Trauma",
+        "Business Expenses Protection"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 40,
+        "options": []
+      },
+      "renewability": "Guaranteed renewable to 99",
+      "specialFeatures": [
+        "Westpac Group bancassurance",
+        "BT superannuation integration",
+        "Wrap account accessible",
+        "Strong financial planner network"
+      ],
+      "sourceUrl": "https://www.bt.com.au/personal/insurance/bt-protection-plans.html",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "au"

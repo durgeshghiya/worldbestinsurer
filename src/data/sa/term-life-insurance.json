@@ -1,6 +1,6 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -52,6 +52,348 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "metlife-sa-term",
+      "insurerName": "MetLife Saudi Arabia",
+      "insurerSlug": "metlife-sa",
+      "productName": "MetLife Life Insurance Term",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 5000000,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1200,
+        "illustrativeMax": 4000,
+        "assumptions": "Annual SAR, 35yo, SAR 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "Disability waiver",
+        "Repatriation benefit"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "War",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "SAMA"
+      },
+      "riders": [
+        "Accidental Death",
+        "Critical Illness",
+        "Disability Income"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 30,
+        "options": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Renewable",
+      "specialFeatures": [
+        "MetLife US global group",
+        "SAMA-licensed",
+        "Multi-currency SAR/USD",
+        "Expat and Saudi national plans"
+      ],
+      "sourceUrl": "https://www.metlife.com.sa/life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "allianz-sa-term",
+      "insurerName": "Allianz Saudi Fransi",
+      "insurerSlug": "allianz-sa",
+      "productName": "Allianz Saudi Fransi Life Insurance",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 5000000,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1100,
+        "illustrativeMax": 3800,
+        "assumptions": "Annual SAR, 35yo, SAR 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "Repatriation"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "War",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "SAMA"
+      },
+      "riders": [
+        "Critical Illness",
+        "Accidental Death",
+        "Disability"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 30,
+        "options": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30
+        ]
+      },
+      "renewability": "Renewable",
+      "specialFeatures": [
+        "Allianz global AA group",
+        "Banque Saudi Fransi distribution",
+        "Competitive premiums",
+        "SAMA-regulated"
+      ],
+      "sourceUrl": "https://www.allianz-sf.com.sa/life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "axa-cooperative-sa-term",
+      "insurerName": "AXA Cooperative Insurance (Saudi Arabia)",
+      "insurerSlug": "axa-sa",
+      "productName": "AXA Life Protection Plan",
+      "category": "term-life",
+      "subCategory": "level-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 5000000,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1150,
+        "illustrativeMax": 3900,
+        "assumptions": "Annual SAR, 35yo, SAR 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness",
+        "Disability waiver option"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "War",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "SAMA"
+      },
+      "riders": [
+        "Critical Illness",
+        "Accidental Death"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 25,
+        "options": [
+          5,
+          10,
+          15,
+          20,
+          25
+        ]
+      },
+      "renewability": "Renewable",
+      "specialFeatures": [
+        "AXA global group",
+        "Saudi-listed cooperative insurer",
+        "Wide corporate bancassurance",
+        "Competitive group pricing"
+      ],
+      "sourceUrl": "https://www.axa-cooperative.com/life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "solidarity-life-sa",
+      "insurerName": "Solidarity Saudi Takaful",
+      "insurerSlug": "solidarity-sa",
+      "productName": "Solidarity Life Takaful Plan",
+      "category": "term-life",
+      "subCategory": "takaful-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 70
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 3000000,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1200,
+        "illustrativeMax": 4000,
+        "assumptions": "Annual SAR, 35yo, SAR 500K, 20yr. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit (Takaful)",
+        "Terminal illness",
+        "Surplus return to policyholders",
+        "Disability waiver"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "War",
+        "Non-disclosure"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "SAMA"
+      },
+      "riders": [
+        "Critical Illness",
+        "Accidental Death"
+      ],
+      "policyTenure": {
+        "min": 5,
+        "max": 25,
+        "options": [
+          5,
+          10,
+          15,
+          20,
+          25
+        ]
+      },
+      "renewability": "Renewable",
+      "specialFeatures": [
+        "Islamic Takaful structure",
+        "Surplus distributed to participants",
+        "Sharia-compliant",
+        "Bahrain-based international group"
+      ],
+      "sourceUrl": "https://www.solidarity.com.sa/life-takaful",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "bupa-life-sa",
+      "insurerName": "Bupa Arabia",
+      "insurerSlug": "bupa-arabia",
+      "productName": "Bupa Arabia Group Life Insurance",
+      "category": "term-life",
+      "subCategory": "group-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": 65
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 2000000,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 800,
+        "illustrativeMax": 3000,
+        "assumptions": "Annual SAR, per employee in group. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Total & permanent disability",
+        "Repatriation of remains",
+        "Group cover"
+      ],
+      "keyExclusions": [
+        "Suicide within 2yr",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "SAMA"
+      },
+      "riders": [
+        "Group critical illness",
+        "Disability income"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual group",
+      "specialFeatures": [
+        "Bupa UK brand trust",
+        "Saudi Arabia's largest health insurer",
+        "Group life add-on to health",
+        "CCHI + SAMA compliant"
+      ],
+      "sourceUrl": "https://www.bupa.com.sa/en/individual/life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "sa"
     }

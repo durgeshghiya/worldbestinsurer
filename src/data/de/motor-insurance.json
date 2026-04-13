@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -95,6 +95,270 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "zurich-motor-de",
+      "insurerName": "Zurich Insurance Germany",
+      "insurerSlug": "zurich-de",
+      "productName": "Zurich Kfz-Vollkaskoversicherung",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 17,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "EUR",
+        "note": "Wiederbeschaffungswert (replacement value)"
+      },
+      "premiumRange": {
+        "illustrativeMin": 60,
+        "illustrativeMax": 160,
+        "assumptions": "Monthly EUR, 35yo, midsize car, clean record. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Vollkasko (comprehensive)",
+        "Haftpflicht (liability – mandatory)",
+        "Teilkasko (partial – theft/fire/weather)",
+        "Personal accident",
+        "Breakdown assistance"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing",
+        "Intentional damage"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "GDV"
+      },
+      "riders": [
+        "Marderbissschäden (marten bites)",
+        "GAP insurance",
+        "Roadside Plus"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Zurich global AA rated",
+        "Comprehensive Vollkasko",
+        "Marten damage cover",
+        "Online quote & purchase"
+      ],
+      "sourceUrl": "https://www.zurich.de/de-de/privatkunden/kfz-versicherung",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "ergo-motor-de",
+      "insurerName": "ERGO Versicherung",
+      "insurerSlug": "ergo-de",
+      "productName": "ERGO KFZ Vollkasko",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 17,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 55,
+        "illustrativeMax": 150,
+        "assumptions": "Monthly EUR, 35yo, midsize. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Vollkasko",
+        "Haftpflicht",
+        "Teilkasko",
+        "Personal accident",
+        "Roadside assistance",
+        "Glass breakage"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "GDV"
+      },
+      "riders": [
+        "Marten damage",
+        "GAP cover",
+        "Passenger accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Munich Re / ERGO Group",
+        "Digital claim 24/7",
+        "Telematik bonus (telematics)",
+        "ERGO Express service"
+      ],
+      "sourceUrl": "https://www.ergo.de/de/Privat-Kunden/Kfz-Versicherung",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "axa-motor-de",
+      "insurerName": "AXA Deutschland",
+      "insurerSlug": "axa-de",
+      "productName": "AXA Kfz-Vollkasko",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 17,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 58,
+        "illustrativeMax": 155,
+        "assumptions": "Monthly EUR, 35yo, midsize. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Vollkasko",
+        "Haftpflicht",
+        "Teilkasko",
+        "Wildunfallschutz (animal collision)",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "GDV"
+      },
+      "riders": [
+        "Marten damage",
+        "GAP insurance",
+        "Electric vehicle battery cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "AXA global group",
+        "EV battery protection available",
+        "Telematik discount",
+        "8M+ German customers"
+      ],
+      "sourceUrl": "https://www.axa.de/kfz-versicherung",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "generali-motor-de",
+      "insurerName": "Generali Deutschland",
+      "insurerSlug": "generali-de",
+      "productName": "Generali KFZ Vollkasko",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 17,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 56,
+        "illustrativeMax": 148,
+        "assumptions": "Monthly EUR, 35yo, midsize. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Vollkasko",
+        "Haftpflicht",
+        "Teilkasko",
+        "Personal accident",
+        "Wildunfall",
+        "Breakdown assistance"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 90,
+        "year": "2024",
+        "source": "GDV"
+      },
+      "riders": [
+        "Marten bites",
+        "GAP",
+        "Telematics discount"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Generali Italy backing",
+        "Vitality driver discount",
+        "EV-friendly",
+        "Online self-service"
+      ],
+      "sourceUrl": "https://www.generali.de/produkte/kfz-versicherung",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "de"

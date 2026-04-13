@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -47,6 +47,328 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "samsung-fire-travel-global",
+      "insurerName": "Samsung Fire & Marine Insurance",
+      "insurerSlug": "samsung-fire",
+      "productName": "Samsung Fire Overseas Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 79,
+        "renewableUpTo": 79
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "USD",
+        "note": "USD 1M emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 30000,
+        "illustrativeMax": 100000,
+        "assumptions": "Per trip KRW, 35yo, 2-week Europe. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses (USD 1M)",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage loss",
+        "Personal accident",
+        "Personal liability"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War",
+        "Extreme sports"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "FSS Korea"
+      },
+      "riders": [
+        "Adventure sports",
+        "Annual plan"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 90,
+        "options": []
+      },
+      "renewability": "Per trip / annual",
+      "specialFeatures": [
+        "Samsung Group brand trust",
+        "USD 1M medical",
+        "24hr English helpline",
+        "Airport purchase available"
+      ],
+      "sourceUrl": "https://www.samsungfire.com/product/travel",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "kb-travel-kr",
+      "insurerName": "KB Insurance",
+      "insurerSlug": "kb-insurance",
+      "productName": "KB Insurance Overseas Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": 75
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "USD",
+        "note": "USD 1M emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 28000,
+        "illustrativeMax": 95000,
+        "assumptions": "Per trip KRW, 35yo, 2-week Europe. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "FSS Korea"
+      },
+      "riders": [
+        "Adventure sports",
+        "Annual multi-trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 90,
+        "options": []
+      },
+      "renewability": "Per trip / annual",
+      "specialFeatures": [
+        "KB Financial Group",
+        "Digital purchase via KB app",
+        "Competitive pricing",
+        "English claims support"
+      ],
+      "sourceUrl": "https://www.kbinsure.co.kr/product/travel",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "meritz-travel-kr",
+      "insurerName": "Meritz Fire & Marine Insurance",
+      "insurerSlug": "meritz",
+      "productName": "Meritz Overseas Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": 75
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "USD",
+        "note": "USD 1M emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 27000,
+        "illustrativeMax": 92000,
+        "assumptions": "Per trip KRW, 35yo, 2-week Europe. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "FSS Korea"
+      },
+      "riders": [
+        "Adventure sports",
+        "Annual plan"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 90,
+        "options": []
+      },
+      "renewability": "Per trip / annual",
+      "specialFeatures": [
+        "Meritz Financial Group",
+        "Digital-first claims",
+        "Competitive rates",
+        "Kakao Talk claims support"
+      ],
+      "sourceUrl": "https://www.meritzfire.com/product/travel",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "hyundai-travel-kr",
+      "insurerName": "Hyundai Marine & Fire Insurance",
+      "insurerSlug": "hyundai-marine",
+      "productName": "Hyundai Marine Overseas Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": 75
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "USD",
+        "note": "USD 1M emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 29000,
+        "illustrativeMax": 96000,
+        "assumptions": "Per trip KRW, 35yo, 2-week Europe. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage",
+        "Personal accident",
+        "Personal liability"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "FSS Korea"
+      },
+      "riders": [
+        "Adventure sports"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 90,
+        "options": []
+      },
+      "renewability": "Per trip / annual",
+      "specialFeatures": [
+        "Hyundai Group brand",
+        "Airport counters nationwide",
+        "Competitive group rates",
+        "English support for expats"
+      ],
+      "sourceUrl": "https://www.hi.co.kr/product/travel",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "db-travel-kr",
+      "insurerName": "DB Insurance",
+      "insurerSlug": "db-insurance",
+      "productName": "DB Insurance Overseas Travel Insurance",
+      "category": "travel",
+      "subCategory": "international",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 75,
+        "renewableUpTo": 75
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "USD",
+        "note": "USD 1M emergency medical"
+      },
+      "premiumRange": {
+        "illustrativeMin": 27000,
+        "illustrativeMax": 90000,
+        "assumptions": "Per trip KRW, 35yo, 2-week Europe. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical expenses",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Baggage",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Pre-existing (non-emergency)",
+        "War"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "2024",
+        "source": "FSS Korea"
+      },
+      "riders": [
+        "Adventure sports",
+        "Annual multi-trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 90,
+        "options": []
+      },
+      "renewability": "Per trip / annual",
+      "specialFeatures": [
+        "DB Financial Group",
+        "Digital mobile app",
+        "Competitive pricing",
+        "Popular backpacker plans"
+      ],
+      "sourceUrl": "https://www.idongbu.com/product/travel",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "kr"

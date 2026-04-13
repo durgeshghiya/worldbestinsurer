@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -95,6 +95,268 @@
       "sourceUrl": "",
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "malath-motor-sa",
+      "insurerName": "Malath Insurance",
+      "insurerSlug": "malath",
+      "productName": "Malath Comprehensive Motor Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "SAR",
+        "note": "Market value"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1500,
+        "illustrativeMax": 4500,
+        "assumptions": "Annual SAR, SAR 80K car. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage",
+        "Compulsory third party (CTPL)",
+        "Fire & theft",
+        "Natural events",
+        "Personal accident",
+        "Medical expenses"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing",
+        "Intentional damage"
+      ],
+      "claimSettlement": {
+        "ratio": 87,
+        "year": "2024",
+        "source": "SAMA"
+      },
+      "riders": [
+        "Agency repair",
+        "Roadside assistance",
+        "Extended TPL"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Saudi-listed insurer",
+        "Competitive premiums",
+        "Online Absher integration",
+        "Nationwide claims centers"
+      ],
+      "sourceUrl": "https://www.malath.com.sa/motor-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "wataniya-motor-sa",
+      "insurerName": "Wataniya Insurance",
+      "insurerSlug": "wataniya-sa",
+      "productName": "Wataniya Comprehensive Motor Insurance",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1400,
+        "illustrativeMax": 4200,
+        "assumptions": "Annual SAR, SAR 80K car. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage",
+        "CTPL",
+        "Fire & theft",
+        "Natural events",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 87,
+        "year": "2024",
+        "source": "SAMA"
+      },
+      "riders": [
+        "Agency repair",
+        "Roadside assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Saudi national insurer",
+        "Wathiq platform integration",
+        "Absher compatible",
+        "Competitive commercial vehicle rates"
+      ],
+      "sourceUrl": "https://www.wataniya.com.sa/motor",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "al-ahli-takaful-motor-sa",
+      "insurerName": "Al Ahli Takaful Company",
+      "insurerSlug": "al-ahli-takaful",
+      "productName": "Al Ahli Motor Takaful",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1600,
+        "illustrativeMax": 4600,
+        "assumptions": "Annual SAR, SAR 80K car. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage",
+        "CTPL",
+        "Fire & theft",
+        "Natural events",
+        "Personal accident"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 88,
+        "year": "2024",
+        "source": "SAMA"
+      },
+      "riders": [
+        "Agency repair",
+        "Extended TPL"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Islamic Takaful structure",
+        "NCB Bank distribution",
+        "Competitive bancassurance rates",
+        "Wathiq KSA compatible"
+      ],
+      "sourceUrl": "https://www.alahli-takaful.com/motor",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "walaa-motor-sa",
+      "insurerName": "Walaa Cooperative Insurance",
+      "insurerSlug": "walaa",
+      "productName": "Walaa Motor Comprehensive",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1500,
+        "illustrativeMax": 4400,
+        "assumptions": "Annual SAR, SAR 80K car. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage",
+        "CTPL",
+        "Fire & theft",
+        "Natural events",
+        "Personal accident",
+        "Medical expenses"
+      ],
+      "keyExclusions": [
+        "Drunk driving",
+        "Racing"
+      ],
+      "claimSettlement": {
+        "ratio": 87,
+        "year": "2024",
+        "source": "SAMA"
+      },
+      "riders": [
+        "Agency repair",
+        "Roadside assistance",
+        "GCC extension"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual",
+      "specialFeatures": [
+        "Saudi Aramco subsidiary",
+        "GCC extension available",
+        "Digital Wathiq integration",
+        "Strong corporate fleet coverage"
+      ],
+      "sourceUrl": "https://www.walaa.com/motor-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "sa"

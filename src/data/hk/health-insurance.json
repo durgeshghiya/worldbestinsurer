@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-03",
+  "lastUpdated": "2026-04-13",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -192,6 +192,275 @@
       "sourceType": "official-website",
       "lastVerified": "2026-04-03",
       "confidenceScore": "medium",
+      "notes": "",
+      "countryCode": "hk"
+    },
+    {
+      "id": "prudential-vhis-hk",
+      "insurerName": "Prudential Hong Kong",
+      "insurerSlug": "prudential-hk",
+      "productName": "PRUhealth VHIS Flexi Plan",
+      "category": "health",
+      "subCategory": "vhis",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 80,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "HKD",
+        "note": "VHIS Flexi Plan – above standard benefits"
+      },
+      "premiumRange": {
+        "illustrativeMin": 6000,
+        "illustrativeMax": 20000,
+        "assumptions": "Annual HKD, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Hospital room & board",
+        "Surgical fees",
+        "Anaesthetist fees",
+        "Specialist outpatient",
+        "Cancer treatment",
+        "Emergency overseas"
+      ],
+      "keyExclusions": [
+        "Pre-existing (waiting period)",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 94,
+        "year": "2024",
+        "source": "IA Hong Kong"
+      },
+      "riders": [
+        "Critical illness",
+        "Day surgery benefit"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong guaranteed",
+      "specialFeatures": [
+        "IA-approved VHIS Flexi Plan",
+        "Tax deductible premium (up to HKD 8,000)",
+        "Private hospital cover",
+        "Prudential global group"
+      ],
+      "sourceUrl": "https://www.prudential.com.hk/en/insurance/medical-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "hk"
+    },
+    {
+      "id": "sunlife-vhis-hk",
+      "insurerName": "Sun Life Hong Kong",
+      "insurerSlug": "sun-life-hk",
+      "productName": "Sun Life VHIS Flexi Plan",
+      "category": "health",
+      "subCategory": "vhis",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 80,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "HKD",
+        "note": "VHIS Flexi Plan"
+      },
+      "premiumRange": {
+        "illustrativeMin": 5500,
+        "illustrativeMax": 18000,
+        "assumptions": "Annual HKD, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Hospital room & board",
+        "Surgical fees",
+        "Specialist outpatient",
+        "Cancer treatment",
+        "Emergency overseas",
+        "Rehabilitation"
+      ],
+      "keyExclusions": [
+        "Pre-existing (waiting period)",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "2024",
+        "source": "IA Hong Kong"
+      },
+      "riders": [
+        "Critical illness",
+        "Day surgery"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong guaranteed",
+      "specialFeatures": [
+        "Sun Life Canada group",
+        "IA-approved VHIS",
+        "Tax deductible",
+        "Competitive Flexi premiums"
+      ],
+      "sourceUrl": "https://www.sunlife.com.hk/en/insurance/health-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "hk"
+    },
+    {
+      "id": "manulife-vhis-hk",
+      "insurerName": "Manulife Hong Kong",
+      "insurerSlug": "manulife-hk",
+      "productName": "Manulife VHIS Flexi Plan",
+      "category": "health",
+      "subCategory": "vhis",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 80,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "HKD",
+        "note": "VHIS Flexi Plan"
+      },
+      "premiumRange": {
+        "illustrativeMin": 5800,
+        "illustrativeMax": 19000,
+        "assumptions": "Annual HKD, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Hospital room & board",
+        "Surgical fees",
+        "Anaesthetist",
+        "Specialist outpatient",
+        "Cancer care",
+        "Emergency overseas",
+        "Day surgery"
+      ],
+      "keyExclusions": [
+        "Pre-existing (24-month waiting period)",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 94,
+        "year": "2024",
+        "source": "IA Hong Kong"
+      },
+      "riders": [
+        "Critical illness",
+        "Supplementary major medical"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong guaranteed",
+      "specialFeatures": [
+        "Manulife Canada group",
+        "IA VHIS approved",
+        "Tax deductible HKD 8K",
+        "Digital ManulifeMOVE wellness"
+      ],
+      "sourceUrl": "https://www.manulife.com.hk/en/individual/products/health",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
+      "notes": "",
+      "countryCode": "hk"
+    },
+    {
+      "id": "china-life-vhis-hk",
+      "insurerName": "China Life Insurance (Overseas)",
+      "insurerSlug": "china-life-hk",
+      "productName": "China Life VHIS Flexi Plan",
+      "category": "health",
+      "subCategory": "vhis",
+      "eligibility": {
+        "minAge": 0,
+        "maxAge": 80,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": null,
+        "max": null,
+        "options": [],
+        "currency": "HKD",
+        "note": "VHIS Flexi Plan"
+      },
+      "premiumRange": {
+        "illustrativeMin": 5000,
+        "illustrativeMax": 17000,
+        "assumptions": "Annual HKD, 35yo. Indicative.",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Hospital room & board",
+        "Surgical fees",
+        "Specialist outpatient",
+        "Cancer care",
+        "Emergency overseas"
+      ],
+      "keyExclusions": [
+        "Pre-existing (24 months)",
+        "Cosmetic surgery"
+      ],
+      "claimSettlement": {
+        "ratio": 92,
+        "year": "2024",
+        "source": "IA Hong Kong"
+      },
+      "riders": [
+        "Critical illness",
+        "Supplementary Major Medical"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Lifelong guaranteed",
+      "specialFeatures": [
+        "China Life Group backing",
+        "Strong Mainland China connection",
+        "IA VHIS approved",
+        "Tax deductible HKD 8K",
+        "Competitive pricing for China-connected"
+      ],
+      "sourceUrl": "https://www.chinalife.com.hk/en/products/health",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-13",
+      "confidenceScore": "high",
       "notes": "",
       "countryCode": "hk"
     }
