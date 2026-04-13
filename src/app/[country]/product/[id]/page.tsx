@@ -25,6 +25,7 @@ import { getCountryByCode, VALID_COUNTRY_CODES } from "@/lib/countries";
 import { formatCompact, freshnessLabel, cn } from "@/lib/utils";
 import { ProductSchema, BreadcrumbSchema } from "@/components/StructuredData";
 import ProductTabs from "./ProductTabs";
+import ProductQuoteForm from "@/components/ProductQuoteForm";
 
 export async function generateStaticParams() {
   const params: { country: string; id: string }[] = [];
@@ -286,61 +287,15 @@ export default async function CountryProductPage({
                 </h3>
               </div>
               <p className="text-[12.5px] text-text-tertiary mb-5 leading-relaxed">
-                Get a free quote and personalized advice from our insurance experts.
+                Get a free quote from {p.insurerName} for this plan.
               </p>
-              <form className="space-y-3">
-                <div className="relative">
-                  <User className="w-4 h-4 text-text-tertiary absolute left-3 top-1/2 -translate-y-1/2" />
-                  <input
-                    type="text"
-                    placeholder="Your name"
-                    className="w-full pl-10 pr-4 py-2.5 text-[13px] bg-surface-sunken border border-border rounded-xl outline-none focus:border-primary/30 transition-colors text-text-primary placeholder:text-text-tertiary"
-                  />
-                </div>
-                <div className="relative">
-                  <Mail className="w-4 h-4 text-text-tertiary absolute left-3 top-1/2 -translate-y-1/2" />
-                  <input
-                    type="email"
-                    placeholder="Email address"
-                    className="w-full pl-10 pr-4 py-2.5 text-[13px] bg-surface-sunken border border-border rounded-xl outline-none focus:border-primary/30 transition-colors text-text-primary placeholder:text-text-tertiary"
-                  />
-                </div>
-                <div className="relative">
-                  <Phone className="w-4 h-4 text-text-tertiary absolute left-3 top-1/2 -translate-y-1/2" />
-                  <input
-                    type="tel"
-                    placeholder="Phone number"
-                    className="w-full pl-10 pr-4 py-2.5 text-[13px] bg-surface-sunken border border-border rounded-xl outline-none focus:border-primary/30 transition-colors text-text-primary placeholder:text-text-tertiary"
-                  />
-                </div>
-                <button
-                  type="button"
-                  className="w-full py-3 text-[13px] font-semibold rounded-xl bg-gradient-to-r from-primary to-[#7c3aed] text-white hover:shadow-md hover:scale-[1.01] transition-all duration-200"
-                >
-                  Get Free Quote
-                </button>
-              </form>
-              <div className="mt-4 text-center">
-                <p className="text-[11px] text-text-tertiary">
-                  Or call us at{" "}
-                  <span className="font-semibold text-text-secondary">+1 (800) 000-0000</span>
-                </p>
-              </div>
-              {/* Trust badges */}
-              <div className="mt-5 pt-5 border-t border-border-light">
-                <div className="flex items-center justify-center gap-4">
-                  {[
-                    { icon: Shield, label: "Secure" },
-                    { icon: Lock, label: "Private" },
-                    { icon: Check, label: "Free" },
-                  ].map((badge) => (
-                    <div key={badge.label} className="flex items-center gap-1 text-[10px] text-text-tertiary">
-                      <badge.icon className="w-3 h-3 text-success" />
-                      {badge.label}
-                    </div>
-                  ))}
-                </div>
-              </div>
+              <ProductQuoteForm
+                productId={p.id}
+                insurerSlug={p.insurerSlug}
+                insurerName={p.insurerName}
+                category={p.category}
+                countryCode={p.countryCode}
+              />
             </div>
 
             {/* Quick info card */}

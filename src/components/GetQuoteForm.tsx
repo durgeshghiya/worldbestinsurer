@@ -36,32 +36,65 @@ export default function GetQuoteForm() {
     insuranceType: "",
     requirement: "",
   });
-  const [status, setStatus] = useState<"idle" | "loading" | "success">("idle");
+  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+  const [errorMsg, setErrorMsg] = useState("");
 
   const update = (field: string, value: string) =>
     setForm((prev) => ({ ...prev, [field]: value }));
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (status === "loading") return;
     setStatus("loading");
+    setErrorMsg("");
 
-    // Store in localStorage
-    const lead: QuoteLead = {
-      ...form,
-      submittedAt: new Date().toISOString(),
-    };
     try {
-      const existing = JSON.parse(
-        localStorage.getItem("wbi_quote_leads") || "[]"
-      );
-      existing.push(lead);
-      localStorage.setItem("wbi_quote_leads", JSON.stringify(existing));
-    } catch {
-      // localStorage not available
-    }
+      // Collect UTM params from URL
+      const params = new URLSearchParams(window.location.search);
 
-    setTimeout(() => setStatus("success"), 1200);
+      const res = await fetch("/api/leads", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: form.fullName.trim(),
+          email: form.email.trim(),
+          phone: form.phone.trim() || "not-provided",
+          productId: `generic-${form.insuranceType || "unknown"}`,
+          insurerSlug: "",
+          category: form.insuranceType,
+          countryCode: "in",
+          utmSource: params.get("utm_source") || undefined,
+          utmMedium: params.get("utm_medium") || undefined,
+          utmCampaign: params.get("utm_campaign") || undefined,
+        }),
+      });
+
+      const data = await res.json();
+
+      if (data.success) {
+        // Also store in localStorage as backup
+        const lead: QuoteLead = {
+          ...form,
+          submittedAt: new Date().toISOString(),
+        };
+        try {
+          const existing = JSON.parse(
+            localStorage.getItem("wbi_quote_leads") || "[]"
+          );
+          existing.push(lead);
+          localStorage.setItem("wbi_quote_leads", JSON.stringify(existing));
+        } catch {
+          // localStorage not available
+        }
+        setStatus("success");
+      } else {
+        setStatus("error");
+        setErrorMsg(data.errors?.join(". ") || "Something went wrong.");
+      }
+    } catch {
+      setStatus("error");
+      setErrorMsg("Network error. Please try again.");
+    }
   };
 
   if (status === "success") {
@@ -151,7 +184,7 @@ export default function GetQuoteForm() {
             />
           </div>
 
-          {/* Phone (optional) */}
+          {/* Phone */}
           <div>
             <label className="text-[11px] font-semibold text-text-tertiary uppercase tracking-wider block mb-1.5">
               Phone{" "}
@@ -212,6 +245,12 @@ export default function GetQuoteForm() {
             />
           </div>
 
+          {/* Consent */}
+          <p className="text-[10px] text-text-tertiary leading-relaxed">
+            By submitting, you agree to be contacted by our insurance partners regarding your request. See our{" "}
+            <a href="/privacy-policy" className="text-primary hover:underline">Privacy Policy</a>.
+          </p>
+
           {/* Submit */}
           <button
             type="submit"
@@ -233,6 +272,11 @@ export default function GetQuoteForm() {
               </>
             )}
           </button>
+
+          {/* Error */}
+          {status === "error" && errorMsg && (
+            <p className="text-[11px] text-error text-center">{errorMsg}</p>
+          )}
         </form>
 
         {/* Trust badges */}
