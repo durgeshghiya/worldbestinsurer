@@ -1,12 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
-import * as fs from "fs";
-import * as path from "path";
+import { readJson, appendToJsonArray } from "@/lib/storage";
 
 /**
- * Contact Messages API
+ * Contact Messages API (Vercel-compatible)
  *
  * POST /api/contact — submit a contact form message
- * GET  /api/contact — list all messages (admin)
+ * GET  /api/contact — list all messages
+ *
+ * Messages are logged to console (visible in Vercel Dashboard → Logs)
+ * and stored in /tmp (ephemeral). For persistence, add Supabase.
  */
 
 interface ContactMessage {
@@ -15,27 +17,7 @@ interface ContactMessage {
   email: string;
   subject: string;
   message: string;
-  read: boolean;
   createdAt: string;
-}
-
-const MESSAGES_DIR = path.join(process.cwd(), "data", "messages");
-const MESSAGES_FILE = path.join(MESSAGES_DIR, "inbox.json");
-
-function loadMessages(): ContactMessage[] {
-  if (!fs.existsSync(MESSAGES_FILE)) return [];
-  try {
-    return JSON.parse(fs.readFileSync(MESSAGES_FILE, "utf-8"));
-  } catch {
-    return [];
-  }
-}
-
-function saveMessages(messages: ContactMessage[]) {
-  if (!fs.existsSync(MESSAGES_DIR)) {
-    fs.mkdirSync(MESSAGES_DIR, { recursive: true });
-  }
-  fs.writeFileSync(MESSAGES_FILE, JSON.stringify(messages, null, 2), "utf-8");
 }
 
 export async function POST(request: NextRequest) {
@@ -57,32 +39,32 @@ export async function POST(request: NextRequest) {
       email: body.email.trim().toLowerCase(),
       subject: (body.subject || "General question").trim(),
       message: body.message.trim().slice(0, 5000),
-      read: false,
       createdAt: new Date().toISOString(),
     };
 
-    const messages = loadMessages();
-    messages.push(msg);
-    saveMessages(messages);
+    // ⚡ LOG TO VERCEL DASHBOARD (Deployments → Functions → Logs)
+    console.log("═══ NEW CONTACT MESSAGE ═══");
+    console.log(JSON.stringify(msg, null, 2));
+    console.log("═══════════════════════════");
 
-    console.log(`[contact] New message: ${msg.id} | ${msg.email} | ${msg.subject}`);
+    // Also store in /tmp (ephemeral on Vercel, persistent locally)
+    appendToJsonArray("messages-inbox.json", msg);
 
     return NextResponse.json({
       success: true,
       message: "Thank you! We'll get back to you within 24 hours.",
     });
-  } catch {
+  } catch (err) {
+    console.error("[contact] Error:", err);
     return NextResponse.json({ success: false, errors: ["Server error"] }, { status: 500 });
   }
 }
 
 export async function GET() {
-  const messages = loadMessages();
-  const unread = messages.filter((m) => !m.read).length;
-
+  const messages = readJson<ContactMessage[]>("messages-inbox.json", []);
   return NextResponse.json({
     total: messages.length,
-    unread,
+    unread: messages.length,
     messages: messages.sort(
       (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
     ),

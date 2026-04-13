@@ -1,49 +1,19 @@
 import { NextRequest, NextResponse } from "next/server";
-import * as fs from "fs";
-import * as path from "path";
+import { readJson, appendToJsonArray } from "@/lib/storage";
 
 /**
- * Reviews API
- *
- * GET /api/reviews?productId=xxx — fetch reviews for a product
- * POST /api/reviews — submit a new review (moderated)
+ * Reviews API (Vercel-compatible)
  */
 
 interface Review {
   id: string;
   productId: string;
-  rating: number; // 1-5
+  rating: number;
   title: string;
   body: string;
   authorName: string;
   verified: boolean;
-  helpful: number;
   createdAt: string;
-}
-
-const REVIEWS_DIR = path.join(process.cwd(), "data", "reviews");
-
-function getReviewsFile(productId: string): string {
-  // Sanitize productId for filesystem
-  const safe = productId.replace(/[^a-z0-9-]/gi, "-").toLowerCase();
-  return path.join(REVIEWS_DIR, `${safe}.json`);
-}
-
-function loadReviews(productId: string): Review[] {
-  const file = getReviewsFile(productId);
-  if (!fs.existsSync(file)) return [];
-  try {
-    return JSON.parse(fs.readFileSync(file, "utf-8"));
-  } catch {
-    return [];
-  }
-}
-
-function saveReviews(productId: string, reviews: Review[]) {
-  if (!fs.existsSync(REVIEWS_DIR)) {
-    fs.mkdirSync(REVIEWS_DIR, { recursive: true });
-  }
-  fs.writeFileSync(getReviewsFile(productId), JSON.stringify(reviews, null, 2), "utf-8");
 }
 
 export async function GET(request: NextRequest) {
@@ -52,15 +22,14 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: "productId required" }, { status: 400 });
   }
 
-  const reviews = loadReviews(productId);
+  const allReviews = readJson<Review[]>("reviews.json", []);
+  const reviews = allReviews.filter((r) => r.productId === productId);
 
-  // Calculate aggregate
   const count = reviews.length;
   const avg = count > 0
     ? Math.round((reviews.reduce((sum, r) => sum + r.rating, 0) / count) * 10) / 10
     : 0;
 
-  // Rating distribution
   const distribution = [1, 2, 3, 4, 5].map((star) => ({
     star,
     count: reviews.filter((r) => r.rating === star).length,
@@ -78,7 +47,6 @@ export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
 
-    // Validate
     const errors: string[] = [];
     if (!body.productId) errors.push("productId required");
     if (!body.rating || body.rating < 1 || body.rating > 5) errors.push("rating must be 1-5");
@@ -97,14 +65,15 @@ export async function POST(request: NextRequest) {
       title: body.title.trim().slice(0, 200),
       body: body.body.trim().slice(0, 2000),
       authorName: body.authorName.trim().slice(0, 100),
-      verified: false, // all new reviews are unverified
-      helpful: 0,
+      verified: false,
       createdAt: new Date().toISOString(),
     };
 
-    const reviews = loadReviews(body.productId);
-    reviews.push(review);
-    saveReviews(body.productId, reviews);
+    console.log("═══ NEW REVIEW ═══");
+    console.log(JSON.stringify(review, null, 2));
+    console.log("═══════════════════");
+
+    appendToJsonArray("reviews.json", review);
 
     return NextResponse.json({ success: true, reviewId: review.id });
   } catch {
