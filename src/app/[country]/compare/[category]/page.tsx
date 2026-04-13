@@ -4,6 +4,7 @@ import Link from "next/link";
 import { AlertCircle, Clock, Database, Heart, Shield, Car, Plane, ArrowRight, Sparkles } from "lucide-react";
 import ProductCard from "@/components/ProductCard";
 import ComparisonTable from "@/components/ComparisonTable";
+import PremiumEstimator from "@/components/PremiumEstimator";
 import { getProductsByCategory, getCategoryDisclaimer, getCategoryLastUpdated, getCategories } from "@/lib/data";
 import { getCountryByCode, VALID_COUNTRY_CODES } from "@/lib/countries";
 import type { Category } from "@/lib/types";
@@ -100,6 +101,28 @@ export default async function CountryComparePage({ params }: { params: Promise<{
 
         {products.length > 0 ? (
           <>
+            {/* Find My Plan CTA */}
+            <div className="mb-6 p-4 bg-primary/5 border border-primary/10 rounded-xl flex items-center justify-between">
+              <div>
+                <p className="text-[13px] font-semibold text-text-primary">Not sure which plan is right for you?</p>
+                <p className="text-[11px] text-text-tertiary mt-0.5">Answer 4 quick questions for personalized recommendations.</p>
+              </div>
+              <Link
+                href={`/${country}/find/${category}`}
+                className="px-4 py-2 text-[12px] font-semibold bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors shrink-0 flex items-center gap-1.5"
+              >
+                Find My Plan <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
+
+            {/* Premium Estimator */}
+            <PremiumEstimator
+              products={products}
+              category={category as Category}
+              countryCode={country}
+              currencySymbol={c.currency.symbol}
+            />
+
             <div className="mb-14">
               <h2 className="text-[20px] font-bold text-text-primary mb-5">Side-by-Side Comparison</h2>
               <div className="bg-surface rounded-2xl border border-border p-4 sm:p-6 shadow-sm">

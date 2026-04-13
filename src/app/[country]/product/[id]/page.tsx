@@ -27,6 +27,7 @@ import { ProductSchema, BreadcrumbSchema } from "@/components/StructuredData";
 import ProductTabs from "./ProductTabs";
 import ProductQuoteForm from "@/components/ProductQuoteForm";
 import ProductEditorial from "@/components/ProductEditorial";
+import ReviewSection from "@/components/ReviewSection";
 
 export async function generateStaticParams() {
   const params: { country: string; id: string }[] = [];
@@ -231,6 +232,11 @@ export default async function CountryProductPage({
             {/*  EDITORIAL ANALYSIS                                         */}
             {/* =========================================================== */}
             <ProductEditorial product={p} countryName={c.name} />
+
+            {/* =========================================================== */}
+            {/*  REVIEWS                                                     */}
+            {/* =========================================================== */}
+            <ReviewSection productId={p.id} />
 
             {/* =========================================================== */}
             {/*  SIMILAR PRODUCTS                                           */}
