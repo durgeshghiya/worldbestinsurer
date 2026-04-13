@@ -118,6 +118,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
+  // ── Reports ──
+  entries.push({
+    url: `${BASE}/reports`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.7,
+  });
+  entries.push({
+    url: `${BASE}/reports/health-insurance-india-2026`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  });
+
   // ── Author pages ──
   entries.push({
     url: `${BASE}/author/editorial-team`,

@@ -1,52 +1,73 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { NextRequest, NextResponse } from "next/server";
+import { getAllProducts, getAllInsurers } from "@/lib/data";
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
 
-const SYSTEM_PROMPT = `You are an insurance advisor chatbot for World Best Insurer (worldbestinsurer.com), the world's leading insurance comparison platform.
+/**
+ * Build a compact product context summary for the AI.
+ * Injected into the system prompt so the AI can reference actual products.
+ */
+function buildProductContext(countryCode?: string): string {
+  const cc = countryCode || "in";
+  const products = getAllProducts(cc).slice(0, 30); // top 30 for context window
+  const insurers = getAllInsurers(cc);
 
-You help users compare and understand insurance plans across 12 countries: India, USA, UK, UAE, Singapore, Canada, Australia, Germany, Saudi Arabia, Japan, South Korea, and Hong Kong.
+  if (products.length === 0) return "";
 
-Insurance types you cover:
-- Health Insurance (hospitalisation, OPD, cashless, family floater, senior citizen plans)
-- Term Life Insurance (pure protection, critical illness riders, return of premium)
-- Motor Insurance (comprehensive, third-party, own damage, two-wheeler)
-- Travel Insurance (single trip, multi-trip, Schengen visa, student travel)
+  const productLines = products.map((p) => {
+    const csr = p.claimSettlement?.ratio ? ` CSR:${p.claimSettlement.ratio}%` : "";
+    const hospitals = p.networkHospitals?.count ? ` Hospitals:${p.networkHospitals.count}` : "";
+    return `- ${p.productName} by ${p.insurerName} (${p.category}) | Premium: ${p.premiumRange.illustrativeMin}-${p.premiumRange.illustrativeMax}/yr | Cover: ${p.sumInsured.min}-${p.sumInsured.max}${csr}${hospitals}`;
+  });
 
-Key facts about World Best Insurer:
-- 100% free comparison tool, no registration needed
-- Verified data from official insurer sources
-- Covers 30,000+ insurance pages globally
-- Regulated insurers only (IRDAI for India, FCA for UK, IA for UAE, etc.)
+  const insurerLines = insurers.slice(0, 15).map((i) => {
+    const csr = i.claimSettlementRatio?.value ? ` CSR:${i.claimSettlementRatio.value}%` : "";
+    return `- ${i.shortName}${csr} (est. ${i.established || "N/A"})`;
+  });
 
-How to answer:
-- Be concise, helpful, and friendly
-- For specific product recommendations, direct users to compare at worldbestinsurer.com/compare/health (or /compare/term-life, /compare/motor, /compare/travel)
-- For country-specific questions, direct to /in/ (India), /us/ (USA), /uk/ (UK), /ae/ (UAE), etc.
-- Never make up specific premium amounts — tell users to use the comparison tool
-- Answer questions about insurance concepts, types, coverage, claims, regulators
-- If asked about a specific insurer, mention they can find it at /insurers/
-- Keep answers under 150 words unless a detailed explanation is needed
-- Use simple language, avoid jargon`;
+  return `\n\n--- PRODUCT DATA (${cc.toUpperCase()}) ---\nTop products:\n${productLines.join("\n")}\n\nKey insurers:\n${insurerLines.join("\n")}\n--- END PRODUCT DATA ---`;
+}
+
+const BASE_SYSTEM_PROMPT = `You are Zura, the AI insurance advisor for World Best Insurer (worldbestinsurer.com).
+
+ROLE: Help users compare and understand insurance plans. You have access to real product data from the platform.
+
+COVERAGE: 12 countries (India, USA, UK, UAE, Singapore, Canada, Australia, Germany, Saudi Arabia, Japan, South Korea, Hong Kong) across Health, Term Life, Motor, and Travel insurance.
+
+RULES:
+1. Reference actual products from the data provided when answering — cite specific plan names, CSR ratios, and premium ranges
+2. Always link to comparison pages: /[cc]/compare/health, /[cc]/compare/term-life, /[cc]/compare/motor, /[cc]/compare/travel
+3. For personalized recommendations, suggest the "Find My Plan" quiz: /[cc]/find/[category]
+4. Never make up premiums not in the data — say "check the comparison tool for exact estimates"
+5. Mention the premium estimator on compare pages for personalized pricing
+6. Keep answers under 150 words unless a detailed explanation is needed
+7. Be honest about limitations: "I explain insurance features but cannot give personalized financial advice"
+8. If user shows purchase intent, mention the free quote form on each product page
+
+IMPORTANT DISCLAIMER: World Best Insurer does not sell insurance. Always remind users to verify details with the insurer directly.`;
 
 export async function POST(req: NextRequest) {
   try {
-    const { messages } = await req.json();
+    const { messages, countryCode } = await req.json();
 
     if (!messages || !Array.isArray(messages) || messages.length === 0) {
       return NextResponse.json({ error: "Invalid messages" }, { status: 400 });
     }
 
+    // Build context-aware system prompt
+    const productContext = buildProductContext(countryCode);
+    const systemPrompt = BASE_SYSTEM_PROMPT + productContext;
+
     const model = genAI.getGenerativeModel({
       model: "gemini-2.5-flash",
-      systemInstruction: SYSTEM_PROMPT,
+      systemInstruction: systemPrompt,
     });
 
     // Build history — only user/model pairs, must start with user
     const allButLast = messages.slice(0, -1).filter(
       (m: { role: string; content: string }) => m.role === "user" || m.role === "assistant"
     );
-    // Drop leading assistant messages so history always starts with user
     const firstUserIdx = allButLast.findIndex((m: { role: string }) => m.role === "user");
     const trimmed = firstUserIdx >= 0 ? allButLast.slice(firstUserIdx) : [];
     const history = trimmed.map((m: { role: string; content: string }) => ({
