@@ -37,7 +37,8 @@
     "rank:backlinks": "tsx scripts/seo/ranking-agent.ts --backlinks",
     "rank:qa": "tsx scripts/seo/ranking-agent.ts --qa",
     "rank:status": "tsx scripts/seo/ranking-agent.ts --status",
-    "rank:schedule": "tsx scripts/seo/ranking-agent.ts --schedule"
+    "rank:schedule": "tsx scripts/seo/ranking-agent.ts --schedule",
+    "snapshot": "node scripts/snapshot-premiums.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",

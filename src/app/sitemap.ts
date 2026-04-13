@@ -118,6 +118,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
+  // ── Developer docs ──
+  entries.push({
+    url: `${BASE}/developers`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.6,
+  });
+
   // ── Reports ──
   entries.push({
     url: `${BASE}/reports`,

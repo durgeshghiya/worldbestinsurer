@@ -28,6 +28,7 @@ import ProductTabs from "./ProductTabs";
 import ProductQuoteForm from "@/components/ProductQuoteForm";
 import ProductEditorial from "@/components/ProductEditorial";
 import ReviewSection from "@/components/ReviewSection";
+import AffiliateLink from "@/components/AffiliateLink";
 
 export async function generateStaticParams() {
   const params: { country: string; id: string }[] = [];
@@ -178,17 +179,15 @@ export default async function CountryProductPage({
                   {freshness.label}
                 </span>
               </div>
-              {/* Visit insurer button */}
+              {/* Visit insurer button — with click tracking + affiliate disclosure */}
               {p.sourceUrl && (
                 <div className="mt-5">
-                  <a
-                    href={p.sourceUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-5 py-2.5 text-[13px] font-semibold border-2 border-primary text-primary rounded-xl hover:bg-primary hover:text-white transition-all duration-200"
-                  >
-                    Visit Insurer Website <ExternalLink className="w-3.5 h-3.5" />
-                  </a>
+                  <AffiliateLink
+                    productId={p.id}
+                    insurerSlug={p.insurerSlug}
+                    countryCode={p.countryCode}
+                    sourceUrl={p.sourceUrl}
+                  />
                 </div>
               )}
             </div>

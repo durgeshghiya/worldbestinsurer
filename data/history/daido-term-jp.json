@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-04-13",
+    "premiumMin": 3500,
+    "premiumMax": 11000,
+    "csr": 98,
+    "sumInsuredMin": 5000000,
+    "sumInsuredMax": 200000000
+  }
+]
