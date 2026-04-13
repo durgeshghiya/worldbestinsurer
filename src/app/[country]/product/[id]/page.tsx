@@ -26,6 +26,7 @@ import { formatCompact, freshnessLabel, cn } from "@/lib/utils";
 import { ProductSchema, BreadcrumbSchema } from "@/components/StructuredData";
 import ProductTabs from "./ProductTabs";
 import ProductQuoteForm from "@/components/ProductQuoteForm";
+import ProductEditorial from "@/components/ProductEditorial";
 
 export async function generateStaticParams() {
   const params: { country: string; id: string }[] = [];
@@ -225,6 +226,11 @@ export default async function CountryProductPage({
               countryCode={p.countryCode}
               similarProducts={similarProducts}
             />
+
+            {/* =========================================================== */}
+            {/*  EDITORIAL ANALYSIS                                         */}
+            {/* =========================================================== */}
+            <ProductEditorial product={p} countryName={c.name} />
 
             {/* =========================================================== */}
             {/*  SIMILAR PRODUCTS                                           */}

@@ -1,0 +1,26 @@
+{
+  "authors": [
+    {
+      "slug": "editorial-team",
+      "name": "WBI Editorial Team",
+      "role": "Insurance Research & Analysis",
+      "credentials": "Certified Insurance Analysts",
+      "bio": "The World Best Insurer editorial team researches, verifies, and publishes insurance comparison data across 12 countries. Our analysts hold professional insurance qualifications and source all data from official insurer websites, regulatory filings, and policy documents. Every product listing is verified against the insurer's own published materials and assigned a confidence score.",
+      "expertise": ["Health Insurance", "Term Life Insurance", "Motor Insurance", "Travel Insurance", "Regulatory Compliance", "Claim Settlement Analysis"],
+      "articlesWritten": 121,
+      "countriesCovered": 12,
+      "linkedIn": null
+    },
+    {
+      "slug": "durgesh-ghiya",
+      "name": "Durgesh Ghiya",
+      "role": "Founder & Lead Analyst",
+      "credentials": "Insurance Technology Specialist",
+      "bio": "Durgesh founded World Best Insurer to bring transparency to insurance comparison globally. He leads the data verification process and oversees the platform's expansion across 12 markets. His focus is on building AI-driven tools that help consumers understand complex insurance products through clear, verified data.",
+      "expertise": ["Insurance Technology", "Data Verification", "Cross-Market Analysis", "AI-Driven Insurance Research"],
+      "articlesWritten": 45,
+      "countriesCovered": 12,
+      "linkedIn": null
+    }
+  ]
+}

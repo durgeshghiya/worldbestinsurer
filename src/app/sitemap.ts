@@ -93,6 +93,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.4,
       });
     }
+
+    // Insurer VS pages (pairwise, limit top 30 insurers per country)
+    for (let i = 0; i < insurers.length && i < 30; i++) {
+      for (let j = i + 1; j < insurers.length && j < 30; j++) {
+        entries.push({
+          url: `${BASE}/${cc}/vs/insurer/${insurers[i].slug}-vs-${insurers[j].slug}`,
+          lastModified: now,
+          changeFrequency: "monthly",
+          priority: 0.4,
+        });
+      }
+    }
   }
 
   // ── Learn articles ──
@@ -105,6 +117,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     });
   }
+
+  // ── Author pages ──
+  entries.push({
+    url: `${BASE}/author/editorial-team`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.5,
+  });
+  entries.push({
+    url: `${BASE}/author/durgesh-ghiya`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.5,
+  });
 
   return entries;
 }
