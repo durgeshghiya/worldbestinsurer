@@ -23,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/privacy-policy",
     "/contact",
     "/contact-directory",
+    "/faq",
     "/insurers",
     "/learn",
     "/insights",

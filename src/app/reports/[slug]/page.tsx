@@ -6,6 +6,9 @@ import { BreadcrumbSchema } from "@/components/StructuredData";
 
 // Load all reports
 import healthIndiaReport from "@/data/reports/health-insurance-india-2026.json";
+import motorIndiaReport from "@/data/reports/motor-insurance-india-2026.json";
+import healthUsReport from "@/data/reports/health-insurance-us-2026.json";
+import travelGlobalReport from "@/data/reports/travel-insurance-global-2026.json";
 
 interface ReportSection {
   heading: string;
@@ -24,7 +27,7 @@ interface Report {
   sections: ReportSection[];
 }
 
-const reports: Report[] = [healthIndiaReport];
+const reports: Report[] = [healthIndiaReport, motorIndiaReport, healthUsReport, travelGlobalReport];
 
 export async function generateStaticParams() {
   return reports.map((r) => ({ slug: r.slug }));

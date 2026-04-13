@@ -18,6 +18,8 @@ const sections = [
       { name: "Market Insights", href: "/insights" },
       { name: "Insurer Directory", href: "/insurers" },
       { name: "Contact Directory", href: "/contact-directory" },
+      { name: "FAQ", href: "/faq" },
+      { name: "Market Reports", href: "/reports" },
       { name: "Methodology", href: "/methodology" },
     ],
   },
@@ -26,6 +28,7 @@ const sections = [
     links: [
       { name: "About", href: "/about" },
       { name: "Contact", href: "/contact" },
+      { name: "Developer API", href: "/developers" },
       { name: "Early Access", href: "/waitlist" },
     ],
   },

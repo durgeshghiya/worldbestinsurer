@@ -5,8 +5,11 @@ import { BreadcrumbSchema } from "@/components/StructuredData";
 
 // Load all reports
 import healthIndiaReport from "@/data/reports/health-insurance-india-2026.json";
+import motorIndiaReport from "@/data/reports/motor-insurance-india-2026.json";
+import healthUsReport from "@/data/reports/health-insurance-us-2026.json";
+import travelGlobalReport from "@/data/reports/travel-insurance-global-2026.json";
 
-const reports = [healthIndiaReport];
+const reports = [healthIndiaReport, motorIndiaReport, healthUsReport, travelGlobalReport];
 
 export const metadata: Metadata = {
   title: "Insurance Market Reports — World Best Insurer",
@@ -27,9 +30,15 @@ export default function ReportsIndexPage() {
       <h1 className="text-[28px] sm:text-[36px] font-bold text-text-primary tracking-[-0.02em] mb-3">
         Market Reports
       </h1>
-      <p className="text-[14px] text-text-tertiary mb-10 max-w-lg">
-        Original research from the WBI editorial team. Data-driven analysis of
-        insurance markets across 12 countries.
+      <p className="text-[14px] text-text-secondary mb-4 max-w-2xl">
+        Original research from the WBI editorial team. We analyze 390+ insurance
+        products across 12 countries to surface the trends, pricing patterns, and
+        market shifts that matter to consumers.
+      </p>
+      <p className="text-[13px] text-text-tertiary mb-10 max-w-2xl">
+        Every report combines our product database with public regulatory data
+        (IRDAI, NAIC, FCA) and official insurer filings. We do not sell insurance
+        — our analysis is independent and unbiased.
       </p>
 
       <div className="space-y-4">
