@@ -175,7 +175,7 @@ async function fetchSitemapUrls(): Promise<string[]> {
 
   // Actual sitemap filenames in /public/
   const sitemapFiles = [
-    "sitemap-pages.xml",
+    "sitemap-core.xml",
     "sitemap-products.xml",
     "sitemap-insurers.xml",
     "sitemap-vs-0.xml",
