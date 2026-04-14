@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { sendNotificationEmail, formatLeadEmail } from "@/lib/email";
 
 /**
  * Lead Capture API (Vercel-compatible)
@@ -41,6 +42,11 @@ export async function POST(request: NextRequest) {
     console.log("═══ NEW LEAD ═══");
     console.log(JSON.stringify(lead, null, 2));
     console.log("═════════════════");
+
+    // 📧 Forward to inbox via Resend (fire-and-forget)
+    sendNotificationEmail(formatLeadEmail(lead)).catch((e) =>
+      console.error("[leads] email send failed:", e)
+    );
 
     // Non-critical /tmp write
     try {

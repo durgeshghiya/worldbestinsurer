@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { sendNotificationEmail, formatContactEmail } from "@/lib/email";
 
 /**
  * Contact Messages API (Vercel-compatible)
@@ -6,8 +7,9 @@ import { NextRequest, NextResponse } from "next/server";
  * POST /api/contact — submit a contact form message
  * GET  /api/contact — health check
  *
- * Messages are logged to console (visible in Vercel Dashboard → Logs).
- * No filesystem writes — works on every platform including Vercel Edge.
+ * Messages are (a) logged to console, (b) forwarded via Resend to
+ * CONTACT_EMAIL_TO, and (c) stored in /tmp as a best-effort fallback.
+ * Email delivery is the primary storage — /tmp is ephemeral.
  */
 
 export async function POST(request: NextRequest) {
@@ -36,6 +38,11 @@ export async function POST(request: NextRequest) {
     console.log("═══ NEW CONTACT MESSAGE ═══");
     console.log(JSON.stringify(msg, null, 2));
     console.log("═══════════════════════════");
+
+    // 📧 Forward to inbox via Resend (fire-and-forget, never blocks response)
+    sendNotificationEmail(formatContactEmail(msg)).catch((e) =>
+      console.error("[contact] email send failed:", e)
+    );
 
     // Try /tmp storage (non-critical — never fails the request)
     try {
