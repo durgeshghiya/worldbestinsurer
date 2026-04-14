@@ -1,6 +1,6 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -353,6 +353,733 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "high",
       "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "allianz-de-term-smart-e8p",
+      "insurerName": "Allianz SE",
+      "insurerSlug": "allianz-de",
+      "productName": "Term Smart",
+      "category": "term-life",
+      "subCategory": "joint-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 62,
+        "renewableUpTo": "age 75"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1310278,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 164,
+        "illustrativeMax": 1413,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Increasing cover option",
+        "Terminal illness benefit",
+        "Whole life option",
+        "Return of premium option",
+        "Waiver of premium on disability (rider)",
+        "Accidental death benefit (rider)"
+      ],
+      "keyExclusions": [
+        "Death due to suicide within first 12 months",
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to alcohol/drug abuse"
+      ],
+      "claimSettlement": {
+        "ratio": 93.3,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Waiver of Premium",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 34,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Level premium for entire term",
+        "Spouse cover option",
+        "Online purchase discount",
+        "Multiple payout options (lump sum / monthly)"
+      ],
+      "sourceUrl": "https://www.allianz.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "ergo-click-2-protect-kcp",
+      "insurerName": "ERGO Group (Munich Re)",
+      "insurerSlug": "ergo",
+      "productName": "Click 2 Protect",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 56,
+        "renewableUpTo": "age 82"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1085106,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 148,
+        "illustrativeMax": 1680,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Increasing cover option",
+        "Waiver of premium on disability (rider)",
+        "Whole life option",
+        "Critical illness rider",
+        "Death benefit"
+      ],
+      "keyExclusions": [
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to suicide within first 12 months",
+        "Death due to alcohol/drug abuse"
+      ],
+      "claimSettlement": {
+        "ratio": 97.86,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Critical Illness",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 39,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "High claim settlement ratio",
+        "Medical test via home visit",
+        "Online purchase discount"
+      ],
+      "sourceUrl": "https://www.ergo.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "debeka-life-shield-plus-qgp",
+      "insurerName": "Debeka Versicherungsgruppe",
+      "insurerSlug": "debeka",
+      "productName": "Life Shield Plus",
+      "category": "term-life",
+      "subCategory": "increasing-cover",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 55,
+        "renewableUpTo": "age 78"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1150720,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 170,
+        "illustrativeMax": 1772,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Critical illness rider",
+        "Death benefit",
+        "Terminal illness benefit",
+        "Return of premium option",
+        "Accidental death benefit (rider)"
+      ],
+      "keyExclusions": [
+        "Death due to suicide within first 12 months",
+        "Death due to pre-existing conditions not disclosed"
+      ],
+      "claimSettlement": {
+        "ratio": 95.23,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 33,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Cover up to age 85",
+        "Multiple payout options (lump sum / monthly)",
+        "Cover enhancement at life stages",
+        "Spouse cover option"
+      ],
+      "sourceUrl": "https://www.debeka.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "huk-coburg-pure-term-premier-wkp",
+      "insurerName": "HUK-COBURG Versicherungsgruppe",
+      "insurerSlug": "huk-coburg",
+      "productName": "Pure Term Premier",
+      "category": "term-life",
+      "subCategory": "joint-term",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 59,
+        "renewableUpTo": "age 76"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1181226,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 203,
+        "illustrativeMax": 1108,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Whole life option",
+        "Return of premium option",
+        "Waiver of premium on disability (rider)",
+        "Increasing cover option",
+        "Accidental death benefit (rider)",
+        "Terminal illness benefit"
+      ],
+      "keyExclusions": [
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to suicide within first 12 months",
+        "Death due to alcohol/drug abuse"
+      ],
+      "claimSettlement": {
+        "ratio": 93,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Waiver of Premium"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 31,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Online purchase discount",
+        "Cover up to age 85",
+        "Level premium for entire term",
+        "Medical test via home visit",
+        "Cover enhancement at life stages"
+      ],
+      "sourceUrl": "https://www.huk.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "hannoversche-total-life-cover-2op",
+      "insurerName": "Hannoversche Lebensversicherung",
+      "insurerSlug": "hannoversche",
+      "productName": "Total Life Cover",
+      "category": "term-life",
+      "subCategory": "joint-term",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 63,
+        "renewableUpTo": "age 79"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1620196,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 166,
+        "illustrativeMax": 1107,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Increasing cover option",
+        "Critical illness rider",
+        "Death benefit",
+        "Waiver of premium on disability (rider)",
+        "Whole life option",
+        "Terminal illness benefit",
+        "Accidental death benefit (rider)"
+      ],
+      "keyExclusions": [
+        "Death due to alcohol/drug abuse",
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to suicide within first 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 94.44,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 36,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Medical test via home visit",
+        "Multiple payout options (lump sum / monthly)",
+        "Level premium for entire term"
+      ],
+      "sourceUrl": "https://www.hannoversche.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "cosmosdirekt-term-elite-8sp",
+      "insurerName": "CosmosDirekt (Generali)",
+      "insurerSlug": "cosmosdirekt",
+      "productName": "Term Elite",
+      "category": "term-life",
+      "subCategory": "return-of-premium",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 61,
+        "renewableUpTo": "age 82"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1210339,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 164,
+        "illustrativeMax": 1568,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Critical illness rider",
+        "Whole life option",
+        "Increasing cover option",
+        "Waiver of premium on disability (rider)",
+        "Return of premium option",
+        "Accidental death benefit (rider)"
+      ],
+      "keyExclusions": [
+        "Death due to suicide within first 12 months",
+        "Death due to alcohol/drug abuse",
+        "Death due to pre-existing conditions not disclosed"
+      ],
+      "claimSettlement": {
+        "ratio": 98.34,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Waiver of Premium",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Spouse cover option",
+        "High claim settlement ratio",
+        "Cover up to age 85",
+        "Level premium for entire term"
+      ],
+      "sourceUrl": "https://www.cosmosdirekt.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "europa-secure-life-ewp",
+      "insurerName": "EUROPA Versicherung",
+      "insurerSlug": "europa",
+      "productName": "Secure Life",
+      "category": "term-life",
+      "subCategory": "joint-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "age 80"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1803202,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 178,
+        "illustrativeMax": 1442,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Accidental death benefit (rider)",
+        "Terminal illness benefit",
+        "Waiver of premium on disability (rider)",
+        "Whole life option",
+        "Death benefit",
+        "Critical illness rider",
+        "Increasing cover option"
+      ],
+      "keyExclusions": [
+        "Death due to alcohol/drug abuse",
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to suicide within first 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 95.02,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Medical test via home visit",
+        "Level premium for entire term",
+        "Cover up to age 85"
+      ],
+      "sourceUrl": "https://www.europa.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "rv-legacy-protect-l0p",
+      "insurerName": "R+V Versicherung",
+      "insurerSlug": "rv",
+      "productName": "Legacy Protect",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 63,
+        "renewableUpTo": "age 78"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1224621,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 128,
+        "illustrativeMax": 1361,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Accidental death benefit (rider)",
+        "Increasing cover option",
+        "Whole life option",
+        "Critical illness rider",
+        "Waiver of premium on disability (rider)"
+      ],
+      "keyExclusions": [
+        "Death due to suicide within first 12 months",
+        "Death due to pre-existing conditions not disclosed"
+      ],
+      "claimSettlement": {
+        "ratio": 93.17,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 38,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Medical test via home visit",
+        "Cover up to age 85",
+        "Level premium for entire term",
+        "Online purchase discount"
+      ],
+      "sourceUrl": "https://www.ruv.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "allianz-de-life-guardian-r4p",
+      "insurerName": "Allianz SE",
+      "insurerSlug": "allianz-de",
+      "productName": "Life Guardian",
+      "category": "term-life",
+      "subCategory": "return-of-premium",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 58,
+        "renewableUpTo": "age 78"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1957464,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 170,
+        "illustrativeMax": 1158,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Critical illness rider",
+        "Increasing cover option",
+        "Death benefit",
+        "Terminal illness benefit"
+      ],
+      "keyExclusions": [
+        "Death due to alcohol/drug abuse",
+        "Death due to pre-existing conditions not disclosed"
+      ],
+      "claimSettlement": {
+        "ratio": 93.8,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Critical Illness",
+        "Waiver of Premium",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 35,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Multiple payout options (lump sum / monthly)",
+        "Level premium for entire term",
+        "Medical test via home visit",
+        "Cover enhancement at life stages",
+        "High claim settlement ratio"
+      ],
+      "sourceUrl": "https://www.allianz.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "ergo-term-classic-x8p",
+      "insurerName": "ERGO Group (Munich Re)",
+      "insurerSlug": "ergo",
+      "productName": "Term Classic",
+      "category": "term-life",
+      "subCategory": "increasing-cover",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 60,
+        "renewableUpTo": "age 77"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1791819,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 176,
+        "illustrativeMax": 1781,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Whole life option",
+        "Waiver of premium on disability (rider)",
+        "Increasing cover option",
+        "Accidental death benefit (rider)"
+      ],
+      "keyExclusions": [
+        "Death due to suicide within first 12 months",
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to alcohol/drug abuse"
+      ],
+      "claimSettlement": {
+        "ratio": 96.58,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Critical Illness",
+        "Waiver of Premium",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 35,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Online purchase discount",
+        "Multiple payout options (lump sum / monthly)",
+        "Spouse cover option",
+        "Medical test via home visit",
+        "Cover enhancement at life stages"
+      ],
+      "sourceUrl": "https://www.ergo.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "de"
     }
   ]

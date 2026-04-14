@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -481,6 +481,1062 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "aviva-travel-secure-g1e",
+      "insurerName": "Aviva plc",
+      "insurerSlug": "aviva",
+      "productName": "Travel Secure",
+      "category": "travel",
+      "subCategory": "senior",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 7063580,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 36,
+        "illustrativeMax": 212,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Baggage delay",
+        "Trip cancellation",
+        "Personal liability",
+        "COVID-19 cover",
+        "Passport loss",
+        "Emergency evacuation",
+        "24x7 assistance",
+        "Trip interruption",
+        "Flight cancellation",
+        "Pre-existing disease (optional)"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "War and nuclear risks",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 92.3,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Zero deductible option",
+        "Cashless hospitalization abroad",
+        "Baggage delay cover",
+        "Trip cancellation cover"
+      ],
+      "sourceUrl": "https://www.aviva.co.uk",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "lv-globe-protect-m5e",
+      "insurerName": "Liverpool Victoria (LV=)",
+      "insurerSlug": "lv",
+      "productName": "Globe Protect",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 74,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 8893494,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 25,
+        "illustrativeMax": 273,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Passport loss",
+        "24x7 assistance",
+        "Baggage loss",
+        "Trip cancellation",
+        "Emergency evacuation",
+        "Personal liability",
+        "Pre-existing disease (optional)"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)",
+        "Pregnancy complications",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 91.17,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Adventure sports add-on",
+        "Baggage delay cover",
+        "Cashless hospitalization abroad"
+      ],
+      "sourceUrl": "https://www.lv.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "admiral-explorer-plus-s9e",
+      "insurerName": "Admiral Group plc",
+      "insurerSlug": "admiral",
+      "productName": "Explorer Plus",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 68,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 8907753,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 37,
+        "illustrativeMax": 212,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "COVID-19 cover",
+        "Pre-existing disease (optional)",
+        "Flight cancellation",
+        "Trip cancellation",
+        "24x7 assistance",
+        "Passport loss"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 99.5,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Baggage delay cover",
+        "Schengen visa compliant",
+        "Cashless hospitalization abroad",
+        "Adventure sports add-on"
+      ],
+      "sourceUrl": "https://www.admiral.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "direct-line-travel-elite-yde",
+      "insurerName": "Direct Line Insurance Group plc",
+      "insurerSlug": "direct-line",
+      "productName": "Travel Elite",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 5549560,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 43,
+        "illustrativeMax": 172,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight delay",
+        "Emergency evacuation",
+        "Trip interruption",
+        "Passport loss",
+        "COVID-19 cover",
+        "Flight cancellation"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "Self-inflicted injuries",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 96.96,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Adventure sports add-on",
+        "Baggage delay cover",
+        "Zero deductible option",
+        "Worldwide 24x7 assistance"
+      ],
+      "sourceUrl": "https://www.directline.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "post-office-voyage-shield-4he",
+      "insurerName": "Post Office Travel Insurance",
+      "insurerSlug": "post-office",
+      "productName": "Voyage Shield",
+      "category": "travel",
+      "subCategory": "senior",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 9640693,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 45,
+        "illustrativeMax": 232,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Emergency evacuation",
+        "Medical emergencies abroad",
+        "Flight cancellation",
+        "COVID-19 cover",
+        "Flight delay",
+        "24x7 assistance",
+        "Personal liability",
+        "Baggage loss"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "War and nuclear risks",
+        "Pregnancy complications",
+        "Self-inflicted injuries",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 94.85,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Worldwide 24x7 assistance",
+        "Adventure sports add-on",
+        "Cashless hospitalization abroad"
+      ],
+      "sourceUrl": "https://www.postoffice.co.uk/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "staysure-international-travel-pro-ale",
+      "insurerName": "Staysure Travel Insurance",
+      "insurerSlug": "staysure",
+      "productName": "International Travel Pro",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 7017614,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 29,
+        "illustrativeMax": 221,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergencies abroad",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Passport loss",
+        "COVID-19 cover",
+        "Baggage delay",
+        "Pre-existing disease (optional)",
+        "Flight delay"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 92.63,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Trip cancellation cover"
+      ],
+      "sourceUrl": "https://www.staysure.co.uk",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "allclear-travel-smart-gpe",
+      "insurerName": "AllClear Travel Insurance",
+      "insurerSlug": "allclear",
+      "productName": "Travel Smart",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 73,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 9717738,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 31,
+        "illustrativeMax": 194,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip interruption",
+        "Baggage loss",
+        "Pre-existing disease (optional)",
+        "Medical emergencies abroad",
+        "Passport loss",
+        "Flight delay",
+        "Flight cancellation"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Pregnancy complications",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 90.47,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Baggage delay cover",
+        "Schengen visa compliant"
+      ],
+      "sourceUrl": "https://www.allcleartravel.co.uk",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "columbus-direct-journey-secure-mte",
+      "insurerName": "Columbus Direct",
+      "insurerSlug": "columbus-direct",
+      "productName": "Journey Secure",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 5782397,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 30,
+        "illustrativeMax": 237,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip cancellation",
+        "Emergency evacuation",
+        "Baggage delay",
+        "Adventure sports (add-on)",
+        "Passport loss",
+        "Trip interruption",
+        "Personal liability",
+        "Medical emergencies abroad",
+        "Baggage loss",
+        "Flight delay"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Pregnancy complications",
+        "War and nuclear risks",
+        "Pre-existing diseases (unless declared)",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 91.55,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Zero deductible option",
+        "Schengen visa compliant",
+        "Adventure sports add-on"
+      ],
+      "sourceUrl": "https://www.columbusdirect.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "world-nomads-uk-globe-trotter-gold-sxe",
+      "insurerName": "World Nomads Group Pty Ltd (UK)",
+      "insurerSlug": "world-nomads-uk",
+      "productName": "Globe Trotter Gold",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 77,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 7871557,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 40,
+        "illustrativeMax": 189,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Adventure sports (add-on)",
+        "Medical emergencies abroad",
+        "Passport loss",
+        "Emergency evacuation",
+        "Pre-existing disease (optional)",
+        "Flight delay",
+        "Trip interruption"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 98.91,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Annual multi-trip option",
+        "Schengen visa compliant"
+      ],
+      "sourceUrl": "https://www.worldnomads.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "aviva-travel-classic-z1e",
+      "insurerName": "Aviva plc",
+      "insurerSlug": "aviva",
+      "productName": "Travel Classic",
+      "category": "travel",
+      "subCategory": "single-trip",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 9704099,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 26,
+        "illustrativeMax": 201,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Personal liability",
+        "Adventure sports (add-on)",
+        "Pre-existing disease (optional)",
+        "Baggage loss",
+        "Emergency evacuation",
+        "Flight delay",
+        "Trip interruption",
+        "24x7 assistance",
+        "Flight cancellation",
+        "COVID-19 cover"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)",
+        "Pregnancy complications",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 91.28,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Trip cancellation cover",
+        "Adventure sports add-on",
+        "Schengen visa compliant",
+        "Zero deductible option",
+        "Baggage delay cover"
+      ],
+      "sourceUrl": "https://www.aviva.co.uk",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "lv-vacation-guard-55e",
+      "insurerName": "Liverpool Victoria (LV=)",
+      "insurerSlug": "lv",
+      "productName": "Vacation Guard",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 67,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 7778047,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 35,
+        "illustrativeMax": 256,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Adventure sports (add-on)",
+        "Baggage delay",
+        "Medical emergencies abroad",
+        "Passport loss",
+        "Flight cancellation",
+        "Baggage loss",
+        "Personal liability",
+        "Emergency evacuation",
+        "24x7 assistance"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "War and nuclear risks",
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 96.27,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero deductible option",
+        "Adventure sports add-on",
+        "Baggage delay cover"
+      ],
+      "sourceUrl": "https://www.lv.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "admiral-travel-premier-b9e",
+      "insurerName": "Admiral Group plc",
+      "insurerSlug": "admiral",
+      "productName": "Travel Premier",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 8368309,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 32,
+        "illustrativeMax": 198,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Emergency evacuation",
+        "24x7 assistance",
+        "Flight delay",
+        "Trip cancellation",
+        "Personal liability",
+        "Passport loss",
+        "Adventure sports (add-on)",
+        "Medical emergencies abroad"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "Pregnancy complications",
+        "Self-inflicted injuries",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 92.32,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Trip cancellation cover",
+        "Baggage delay cover"
+      ],
+      "sourceUrl": "https://www.admiral.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "direct-line-overseas-secure-hde",
+      "insurerName": "Direct Line Insurance Group plc",
+      "insurerSlug": "direct-line",
+      "productName": "Overseas Secure",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 68,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 5391604,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 31,
+        "illustrativeMax": 272,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Baggage delay",
+        "Medical emergencies abroad",
+        "24x7 assistance",
+        "Adventure sports (add-on)",
+        "Trip interruption",
+        "Flight delay"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "High-risk sports without add-on",
+        "War and nuclear risks",
+        "Pre-existing diseases (unless declared)",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 93.2,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Schengen visa compliant",
+        "Worldwide 24x7 assistance",
+        "Trip cancellation cover",
+        "Baggage delay cover",
+        "Cashless hospitalization abroad"
+      ],
+      "sourceUrl": "https://www.directline.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "post-office-tripsure-plus-nhe",
+      "insurerName": "Post Office Travel Insurance",
+      "insurerSlug": "post-office",
+      "productName": "TripSure Plus",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 77,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 6849502,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 31,
+        "illustrativeMax": 269,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Personal liability",
+        "Passport loss",
+        "Trip interruption",
+        "COVID-19 cover",
+        "Trip cancellation",
+        "Baggage delay",
+        "Emergency evacuation",
+        "Flight cancellation",
+        "Adventure sports (add-on)"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "High-risk sports without add-on",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 93.06,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Schengen visa compliant",
+        "Baggage delay cover"
+      ],
+      "sourceUrl": "https://www.postoffice.co.uk/travel-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "staysure-global-wanderer-tle",
+      "insurerName": "Staysure Travel Insurance",
+      "insurerSlug": "staysure",
+      "productName": "Global Wanderer",
+      "category": "travel",
+      "subCategory": "senior",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 74,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 6543988,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 36,
+        "illustrativeMax": 275,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight delay",
+        "Flight cancellation",
+        "Medical emergencies abroad",
+        "Baggage delay",
+        "Emergency evacuation",
+        "Pre-existing disease (optional)",
+        "Baggage loss",
+        "Trip cancellation",
+        "Personal liability"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 97.51,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Schengen visa compliant",
+        "Baggage delay cover",
+        "Zero deductible option",
+        "Cashless hospitalization abroad",
+        "Annual multi-trip option"
+      ],
+      "sourceUrl": "https://www.staysure.co.uk",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "uk"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -369,6 +369,712 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "high",
       "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "allianz-de-travel-secure-e8p",
+      "insurerName": "Allianz SE",
+      "insurerSlug": "allianz-de",
+      "productName": "Travel Secure",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 76,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 6551390,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 27,
+        "illustrativeMax": 196,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight delay",
+        "Emergency evacuation",
+        "Trip interruption",
+        "Flight cancellation",
+        "Adventure sports (add-on)",
+        "Baggage loss",
+        "COVID-19 cover"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 90.05,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Annual multi-trip option",
+        "Schengen visa compliant"
+      ],
+      "sourceUrl": "https://www.allianz.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "ergo-globe-protect-kcp",
+      "insurerName": "ERGO Group (Munich Re)",
+      "insurerSlug": "ergo",
+      "productName": "Globe Protect",
+      "category": "travel",
+      "subCategory": "single-trip",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 67,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 5425530,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 24,
+        "illustrativeMax": 234,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight delay",
+        "COVID-19 cover",
+        "Baggage loss",
+        "Medical emergencies abroad",
+        "Pre-existing disease (optional)",
+        "Passport loss",
+        "Baggage delay",
+        "24x7 assistance",
+        "Trip interruption",
+        "Flight cancellation"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 96.17,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Cashless hospitalization abroad",
+        "Baggage delay cover"
+      ],
+      "sourceUrl": "https://www.ergo.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "axa-de-explorer-plus-qgp",
+      "insurerName": "AXA Germany",
+      "insurerSlug": "axa-de",
+      "productName": "Explorer Plus",
+      "category": "travel",
+      "subCategory": "student",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 5753603,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 28,
+        "illustrativeMax": 247,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Baggage loss",
+        "Flight cancellation",
+        "COVID-19 cover",
+        "Trip cancellation",
+        "Flight delay",
+        "24x7 assistance",
+        "Baggage delay",
+        "Adventure sports (add-on)"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "Pregnancy complications",
+        "Self-inflicted injuries",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 93.4,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Cashless hospitalization abroad",
+        "Zero deductible option",
+        "Worldwide 24x7 assistance"
+      ],
+      "sourceUrl": "https://www.axa.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "hansemerkur-travel-elite-wkp",
+      "insurerName": "HanseMerkur Versicherungsgruppe",
+      "insurerSlug": "hansemerkur",
+      "productName": "Travel Elite",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 5906133,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 34,
+        "illustrativeMax": 154,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight delay",
+        "Trip interruption",
+        "Flight cancellation",
+        "Passport loss",
+        "24x7 assistance",
+        "Baggage loss",
+        "Emergency evacuation"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Pregnancy complications",
+        "War and nuclear risks",
+        "Pre-existing diseases (unless declared)",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 91.02,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Adventure sports add-on",
+        "Baggage delay cover",
+        "Schengen visa compliant"
+      ],
+      "sourceUrl": "https://www.hansemerkur.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "envivas-voyage-shield-2op",
+      "insurerName": "Envivas Krankenversicherung",
+      "insurerSlug": "envivas",
+      "productName": "Voyage Shield",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 77,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 8100980,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 28,
+        "illustrativeMax": 153,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight cancellation",
+        "Medical emergencies abroad",
+        "COVID-19 cover",
+        "Personal liability",
+        "Adventure sports (add-on)",
+        "Passport loss",
+        "Emergency evacuation",
+        "Baggage delay"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "Pregnancy complications",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 93.51,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Baggage delay cover",
+        "Zero deductible option",
+        "Trip cancellation cover",
+        "Annual multi-trip option"
+      ],
+      "sourceUrl": "https://www.envivas.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "allianz-de-international-travel-pro-8sp",
+      "insurerName": "Allianz SE",
+      "insurerSlug": "allianz-de",
+      "productName": "International Travel Pro",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 74,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 6051696,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 27,
+        "illustrativeMax": 218,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip interruption",
+        "Pre-existing disease (optional)",
+        "Trip cancellation",
+        "Passport loss",
+        "24x7 assistance",
+        "Emergency evacuation",
+        "Personal liability",
+        "COVID-19 cover",
+        "Baggage delay",
+        "Adventure sports (add-on)"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "Pre-existing diseases (unless declared)",
+        "War and nuclear risks",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 96.66,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Adventure sports add-on",
+        "Baggage delay cover",
+        "Trip cancellation cover"
+      ],
+      "sourceUrl": "https://www.allianz.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "ergo-travel-smart-ewp",
+      "insurerName": "ERGO Group (Munich Re)",
+      "insurerSlug": "ergo",
+      "productName": "Travel Smart",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 80,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 9016009,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 30,
+        "illustrativeMax": 200,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Personal liability",
+        "Trip cancellation",
+        "COVID-19 cover",
+        "Emergency evacuation",
+        "Flight delay",
+        "Baggage loss",
+        "Medical emergencies abroad",
+        "24x7 assistance"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "Pre-existing diseases (unless declared)",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 94.37,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Trip cancellation cover",
+        "Baggage delay cover",
+        "Adventure sports add-on"
+      ],
+      "sourceUrl": "https://www.ergo.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "axa-de-journey-secure-l0p",
+      "insurerName": "AXA Germany",
+      "insurerSlug": "axa-de",
+      "productName": "Journey Secure",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 76,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 6123106,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 21,
+        "illustrativeMax": 189,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergencies abroad",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Personal liability",
+        "Flight delay",
+        "Flight cancellation",
+        "Passport loss"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 93.2,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless hospitalization abroad",
+        "Adventure sports add-on",
+        "Baggage delay cover",
+        "Trip cancellation cover",
+        "Zero deductible option"
+      ],
+      "sourceUrl": "https://www.axa.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "hansemerkur-globe-trotter-gold-r4p",
+      "insurerName": "HanseMerkur Versicherungsgruppe",
+      "insurerSlug": "hansemerkur",
+      "productName": "Globe Trotter Gold",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 9787318,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 28,
+        "illustrativeMax": 161,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Passport loss",
+        "Baggage loss",
+        "Medical emergencies abroad",
+        "Baggage delay",
+        "Pre-existing disease (optional)",
+        "Emergency evacuation",
+        "Flight cancellation",
+        "24x7 assistance"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "Pregnancy complications",
+        "Self-inflicted injuries",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 93.38,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless hospitalization abroad",
+        "Trip cancellation cover",
+        "Annual multi-trip option",
+        "Schengen visa compliant",
+        "Adventure sports add-on"
+      ],
+      "sourceUrl": "https://www.hansemerkur.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "envivas-travel-classic-x8p",
+      "insurerName": "Envivas Krankenversicherung",
+      "insurerSlug": "envivas",
+      "productName": "Travel Classic",
+      "category": "travel",
+      "subCategory": "student",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 8959093,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 29,
+        "illustrativeMax": 248,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Baggage delay",
+        "Baggage loss",
+        "Personal liability",
+        "COVID-19 cover",
+        "Flight delay",
+        "24x7 assistance",
+        "Passport loss",
+        "Trip interruption",
+        "Pre-existing disease (optional)"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 92.37,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Trip cancellation cover",
+        "Annual multi-trip option",
+        "Cashless hospitalization abroad",
+        "Adventure sports add-on",
+        "Worldwide 24x7 assistance"
+      ],
+      "sourceUrl": "https://www.envivas.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "de"
     }
   ]

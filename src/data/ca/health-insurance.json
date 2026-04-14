@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -595,6 +595,1373 @@
       "confidenceScore": "high",
       "notes": "",
       "countryCode": "ca"
+    },
+    {
+      "id": "sunlife-gold-shield-dr8",
+      "insurerName": "Sun Life Financial",
+      "insurerSlug": "sunlife",
+      "productName": "Gold Shield",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 79,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1961648,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1064,
+        "illustrativeMax": 3895,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Modern treatments (robotic surgery, etc.)",
+        "Annual health check-up",
+        "No room rent sub-limits",
+        "Pre-hospitalization (30-60 days)",
+        "Mental health coverage",
+        "Day care procedures",
+        "In-patient hospitalization",
+        "Domiciliary hospitalization"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Dental treatment (unless accident)",
+        "Substance abuse treatment",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 95.9,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "Cashless at network hospitals",
+        "Second medical opinion included",
+        "Premium discount for claim-free years",
+        "Automatic sum insured restoration"
+      ],
+      "sourceUrl": "https://www.sunlife.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "38 months",
+        "specific": "16 months"
+      }
+    },
+    {
+      "id": "manulife-platinum-care-jv8",
+      "insurerName": "Manulife Financial",
+      "insurerSlug": "manulife",
+      "productName": "Platinum Care",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 78,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1832065,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1517,
+        "illustrativeMax": 4338,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Annual health check-up",
+        "Day care procedures",
+        "Domiciliary hospitalization",
+        "Vaccination cover",
+        "Pre-hospitalization (30-60 days)",
+        "Modern treatments (robotic surgery, etc.)"
+      ],
+      "keyExclusions": [
+        "Dental treatment (unless accident)",
+        "Substance abuse treatment",
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 92.98,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Consumables covered",
+        "No copay up to age 60",
+        "Second medical opinion included",
+        "Day 1 PED cover (optional)",
+        "OPD wellness package"
+      ],
+      "sourceUrl": "https://www.manulife.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "46 months",
+        "specific": "21 months"
+      }
+    },
+    {
+      "id": "canada-life-elite-health-pz8",
+      "insurerName": "Canada Life",
+      "insurerSlug": "canada-life",
+      "productName": "Elite Health",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1071093,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 938,
+        "illustrativeMax": 3327,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Organ donor expenses",
+        "Day care procedures",
+        "New-born baby cover",
+        "Annual health check-up",
+        "Pre-hospitalization (30-60 days)",
+        "Modern treatments (robotic surgery, etc.)"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Experimental treatments",
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)",
+        "Pre-existing diseases during waiting period"
+      ],
+      "claimSettlement": {
+        "ratio": 90.51,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No copay up to age 60",
+        "OPD wellness package",
+        "No room rent capping"
+      ],
+      "sourceUrl": "https://www.canadalife.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "25 months",
+        "specific": "15 months"
+      }
+    },
+    {
+      "id": "desjardins-family-floater-plus-w38",
+      "insurerName": "Desjardins Insurance",
+      "insurerSlug": "desjardins",
+      "productName": "Family Floater Plus",
+      "category": "health",
+      "subCategory": "critical-illness",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 76,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1684832,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1562,
+        "illustrativeMax": 3456,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Ambulance charges",
+        "No room rent sub-limits",
+        "Organ donor expenses",
+        "Mental health coverage",
+        "Day care procedures",
+        "Annual health check-up",
+        "Post-hospitalization (60-180 days)",
+        "AYUSH treatments",
+        "Maternity benefits"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 95.3,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Second medical opinion included",
+        "Lifetime renewal",
+        "OPD wellness package"
+      ],
+      "sourceUrl": "https://www.desjardins.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "37 months",
+        "specific": "14 months"
+      }
+    },
+    {
+      "id": "bluecross-wellness-premier-278",
+      "insurerName": "Blue Cross (Provincial)",
+      "insurerSlug": "bluecross",
+      "productName": "Wellness Premier",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 71,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1707674,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 990,
+        "illustrativeMax": 3673,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Domiciliary hospitalization",
+        "No room rent sub-limits",
+        "In-patient hospitalization",
+        "Post-hospitalization (60-180 days)",
+        "Modern treatments (robotic surgery, etc.)"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 98.37,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Day 1 PED cover (optional)",
+        "Global emergency cover",
+        "No pre-policy medical check (under 45)",
+        "No room rent capping"
+      ],
+      "sourceUrl": "https://www.bluecross.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "43 months",
+        "specific": "20 months"
+      }
+    },
+    {
+      "id": "greenshield-total-protect-8b8",
+      "insurerName": "Green Shield Canada",
+      "insurerSlug": "greenshield",
+      "productName": "Total Protect",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1908329,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1276,
+        "illustrativeMax": 4145,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Mental health coverage",
+        "In-patient hospitalization",
+        "Restoration of sum insured",
+        "Pre-hospitalization (30-60 days)",
+        "AYUSH treatments",
+        "Organ donor expenses",
+        "Modern treatments (robotic surgery, etc.)",
+        "Ambulance charges",
+        "Maternity benefits"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)",
+        "Cosmetic surgery (unless medically necessary)",
+        "Substance abuse treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 98.75,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No copay up to age 60",
+        "Day 1 PED cover (optional)",
+        "Lifetime renewal",
+        "No pre-policy medical check (under 45)",
+        "Global emergency cover"
+      ],
+      "sourceUrl": "https://www.greenshield.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "46 months",
+        "specific": "18 months"
+      }
+    },
+    {
+      "id": "empire-life-medisure-advantage-ef8",
+      "insurerName": "Empire Life",
+      "insurerSlug": "empire-life",
+      "productName": "MediSure Advantage",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 68,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1654976,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1534,
+        "illustrativeMax": 3361,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Vaccination cover",
+        "Domiciliary hospitalization",
+        "Maternity benefits",
+        "New-born baby cover",
+        "Annual health check-up",
+        "No room rent sub-limits",
+        "In-patient hospitalization",
+        "Organ donor expenses"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 95.18,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "Second medical opinion included",
+        "No pre-policy medical check (under 45)",
+        "Global emergency cover"
+      ],
+      "sourceUrl": "https://www.empire.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "47 months",
+        "specific": "21 months"
+      }
+    },
+    {
+      "id": "ia-financial-health-elite-kj8",
+      "insurerName": "Industrial Alliance (iA Financial Group)",
+      "insurerSlug": "ia-financial",
+      "productName": "Health Elite",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 74,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1066921,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1065,
+        "illustrativeMax": 3901,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "AYUSH treatments",
+        "In-patient hospitalization",
+        "Pre-hospitalization (30-60 days)",
+        "No room rent sub-limits",
+        "Annual health check-up",
+        "Maternity benefits",
+        "Post-hospitalization (60-180 days)"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Dental treatment (unless accident)",
+        "Cosmetic surgery (unless medically necessary)",
+        "Experimental treatments",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 92.61,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Day 1 PED cover (optional)",
+        "Lifetime renewal",
+        "Second medical opinion included",
+        "Cashless at network hospitals",
+        "No copay up to age 60"
+      ],
+      "sourceUrl": "https://ia.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "45 months",
+        "specific": "23 months"
+      }
+    },
+    {
+      "id": "sunlife-comprehensive-care-qn8",
+      "insurerName": "Sun Life Financial",
+      "insurerSlug": "sunlife",
+      "productName": "Comprehensive Care",
+      "category": "health",
+      "subCategory": "senior-citizen",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1881841,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1080,
+        "illustrativeMax": 3328,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Day care procedures",
+        "Organ donor expenses",
+        "Post-hospitalization (60-180 days)",
+        "Maternity benefits",
+        "New-born baby cover",
+        "Domiciliary hospitalization",
+        "AYUSH treatments"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Dental treatment (unless accident)",
+        "Cosmetic surgery (unless medically necessary)",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 92.3,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Consumables covered",
+        "Cashless at network hospitals",
+        "Automatic sum insured restoration",
+        "OPD wellness package",
+        "No room rent capping"
+      ],
+      "sourceUrl": "https://www.sunlife.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "32 months",
+        "specific": "23 months"
+      }
+    },
+    {
+      "id": "manulife-smart-health-saver-wr8",
+      "insurerName": "Manulife Financial",
+      "insurerSlug": "manulife",
+      "productName": "Smart Health Saver",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 68,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1638571,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1143,
+        "illustrativeMax": 4153,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Restoration of sum insured",
+        "Day care procedures",
+        "Domiciliary hospitalization",
+        "Modern treatments (robotic surgery, etc.)",
+        "AYUSH treatments"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)",
+        "Experimental treatments",
+        "Pre-existing diseases during waiting period"
+      ],
+      "claimSettlement": {
+        "ratio": 97.53,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No copay up to age 60",
+        "Global emergency cover",
+        "Day 1 PED cover (optional)"
+      ],
+      "sourceUrl": "https://www.manulife.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "37 months",
+        "specific": "24 months"
+      }
+    },
+    {
+      "id": "canada-life-ultra-protect-2v8",
+      "insurerName": "Canada Life",
+      "insurerSlug": "canada-life",
+      "productName": "Ultra Protect",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 67,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1588291,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1390,
+        "illustrativeMax": 4079,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Pre-hospitalization (30-60 days)",
+        "In-patient hospitalization",
+        "Annual health check-up",
+        "Domiciliary hospitalization",
+        "Post-hospitalization (60-180 days)",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Day care procedures"
+      ],
+      "keyExclusions": [
+        "Dental treatment (unless accident)",
+        "Experimental treatments",
+        "Substance abuse treatment",
+        "Pre-existing diseases during waiting period"
+      ],
+      "claimSettlement": {
+        "ratio": 94.29,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Global emergency cover",
+        "Day 1 PED cover (optional)",
+        "No pre-policy medical check (under 45)",
+        "No copay up to age 60",
+        "No room rent capping"
+      ],
+      "sourceUrl": "https://www.canadalife.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "46 months",
+        "specific": "24 months"
+      }
+    },
+    {
+      "id": "desjardins-supreme-shield-8z8",
+      "insurerName": "Desjardins Insurance",
+      "insurerSlug": "desjardins",
+      "productName": "Supreme Shield",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1617559,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1156,
+        "illustrativeMax": 2914,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "New-born baby cover",
+        "Post-hospitalization (60-180 days)",
+        "Pre-hospitalization (30-60 days)",
+        "Ambulance charges",
+        "Organ donor expenses",
+        "Modern treatments (robotic surgery, etc.)",
+        "Day care procedures",
+        "In-patient hospitalization",
+        "Vaccination cover",
+        "Domiciliary hospitalization"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)",
+        "Substance abuse treatment",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 91.31,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Global emergency cover",
+        "Consumables covered",
+        "No room rent capping",
+        "No copay up to age 60"
+      ],
+      "sourceUrl": "https://www.desjardins.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "43 months",
+        "specific": "13 months"
+      }
+    },
+    {
+      "id": "bluecross-family-guardian-f38",
+      "insurerName": "Blue Cross (Provincial)",
+      "insurerSlug": "bluecross",
+      "productName": "Family Guardian",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 71,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1575830,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1196,
+        "illustrativeMax": 4109,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Ambulance charges",
+        "Organ donor expenses",
+        "Post-hospitalization (60-180 days)",
+        "Annual health check-up",
+        "AYUSH treatments",
+        "Mental health coverage",
+        "No room rent sub-limits",
+        "Vaccination cover",
+        "New-born baby cover"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 95.71,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Global emergency cover",
+        "Day 1 PED cover (optional)",
+        "Cashless at network hospitals",
+        "No copay up to age 60"
+      ],
+      "sourceUrl": "https://www.bluecross.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "38 months",
+        "specific": "16 months"
+      }
+    },
+    {
+      "id": "greenshield-secure-health-l78",
+      "insurerName": "Green Shield Canada",
+      "insurerSlug": "greenshield",
+      "productName": "Secure Health",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 80,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1784416,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1384,
+        "illustrativeMax": 4173,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Annual health check-up",
+        "Ambulance charges",
+        "No room rent sub-limits",
+        "Mental health coverage",
+        "Pre-hospitalization (30-60 days)",
+        "Restoration of sum insured"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Pre-existing diseases during waiting period",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 92.47,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Global emergency cover",
+        "Day 1 PED cover (optional)",
+        "No pre-policy medical check (under 45)"
+      ],
+      "sourceUrl": "https://www.greenshield.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "33 months",
+        "specific": "16 months"
+      }
+    },
+    {
+      "id": "empire-life-premier-wellness-rb8",
+      "insurerName": "Empire Life",
+      "insurerSlug": "empire-life",
+      "productName": "Premier Wellness",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1085846,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1017,
+        "illustrativeMax": 4040,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Vaccination cover",
+        "In-patient hospitalization",
+        "Pre-hospitalization (30-60 days)",
+        "Post-hospitalization (60-180 days)",
+        "Day care procedures",
+        "Ambulance charges",
+        "New-born baby cover",
+        "Annual health check-up",
+        "AYUSH treatments"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Substance abuse treatment",
+        "Cosmetic surgery (unless medically necessary)",
+        "Experimental treatments",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 91.08,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless at network hospitals",
+        "OPD wellness package",
+        "Second medical opinion included"
+      ],
+      "sourceUrl": "https://www.empire.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "41 months",
+        "specific": "12 months"
+      }
+    },
+    {
+      "id": "ia-financial-active-care-xf8",
+      "insurerName": "Industrial Alliance (iA Financial Group)",
+      "insurerSlug": "ia-financial",
+      "productName": "Active Care",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1652987,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1526,
+        "illustrativeMax": 3770,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Organ donor expenses",
+        "Mental health coverage",
+        "Maternity benefits",
+        "Annual health check-up",
+        "Day care procedures",
+        "Post-hospitalization (60-180 days)"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)",
+        "Substance abuse treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 95.72,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Consumables covered",
+        "Cashless at network hospitals",
+        "Automatic sum insured restoration",
+        "No copay up to age 60",
+        "No pre-policy medical check (under 45)"
+      ],
+      "sourceUrl": "https://ia.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "47 months",
+        "specific": "15 months"
+      }
+    },
+    {
+      "id": "sunlife-diamond-health-plan-3j8",
+      "insurerName": "Sun Life Financial",
+      "insurerSlug": "sunlife",
+      "productName": "Diamond Health Plan",
+      "category": "health",
+      "subCategory": "group",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 76,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1658732,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1492,
+        "illustrativeMax": 3221,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Post-hospitalization (60-180 days)",
+        "New-born baby cover",
+        "Mental health coverage",
+        "Ambulance charges",
+        "Maternity benefits",
+        "In-patient hospitalization",
+        "Domiciliary hospitalization",
+        "Vaccination cover",
+        "Annual health check-up"
+      ],
+      "keyExclusions": [
+        "Dental treatment (unless accident)",
+        "Cosmetic surgery (unless medically necessary)",
+        "Substance abuse treatment",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 92.49,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Second medical opinion included",
+        "Consumables covered",
+        "Cashless at network hospitals",
+        "Lifetime renewal",
+        "Day 1 PED cover (optional)"
+      ],
+      "sourceUrl": "https://www.sunlife.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "25 months",
+        "specific": "19 months"
+      }
+    },
+    {
+      "id": "manulife-signature-health-9n8",
+      "insurerName": "Manulife Financial",
+      "insurerSlug": "manulife",
+      "productName": "Signature Health",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 78,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1634593,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1354,
+        "illustrativeMax": 4139,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Restoration of sum insured",
+        "Ambulance charges",
+        "Domiciliary hospitalization",
+        "In-patient hospitalization",
+        "Modern treatments (robotic surgery, etc.)",
+        "Pre-hospitalization (30-60 days)",
+        "New-born baby cover",
+        "Organ donor expenses",
+        "Post-hospitalization (60-180 days)"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries",
+        "Substance abuse treatment",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 90.24,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No pre-policy medical check (under 45)",
+        "Lifetime renewal",
+        "Day 1 PED cover (optional)"
+      ],
+      "sourceUrl": "https://www.manulife.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "17 months"
+      }
     }
   ]
 }

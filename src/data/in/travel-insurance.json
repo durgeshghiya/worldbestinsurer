@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational and informational purposes only. Premium figures are illustrative and sourced from public insurer calculators/brochures. Actual premiums may vary. Please verify all details with the insurer directly before making any decision.",
   "products": [
     {
@@ -786,6 +786,1413 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "high",
       "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "care-health-travel-secure-erq",
+      "insurerName": "Care Health Insurance Ltd.",
+      "insurerSlug": "care-health",
+      "productName": "Travel Secure",
+      "category": "travel",
+      "subCategory": "single-trip",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 76,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 19804851,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 510,
+        "illustrativeMax": 4807,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip cancellation",
+        "Medical emergencies abroad",
+        "Flight delay",
+        "Personal liability",
+        "COVID-19 cover",
+        "Baggage delay",
+        "Passport loss",
+        "Emergency evacuation",
+        "Adventure sports (add-on)",
+        "Trip interruption"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "War and nuclear risks",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 94.99,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero deductible option",
+        "Baggage delay cover",
+        "Schengen visa compliant",
+        "Trip cancellation cover",
+        "Cashless hospitalization abroad"
+      ],
+      "sourceUrl": "https://www.careinsurance.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "hdfc-ergo-globe-protect-kvq",
+      "insurerName": "HDFC ERGO General Insurance Company Ltd.",
+      "insurerSlug": "hdfc-ergo",
+      "productName": "Globe Protect",
+      "category": "travel",
+      "subCategory": "student",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 68,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 10325518,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 636,
+        "illustrativeMax": 7420,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip cancellation",
+        "Personal liability",
+        "Baggage delay",
+        "Passport loss",
+        "Trip interruption",
+        "Adventure sports (add-on)",
+        "24x7 assistance"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 97.88,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero deductible option",
+        "Worldwide 24x7 assistance",
+        "Annual multi-trip option"
+      ],
+      "sourceUrl": "https://www.hdfcergo.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "icici-lombard-explorer-plus-qzq",
+      "insurerName": "ICICI Lombard General Insurance Company Ltd.",
+      "insurerSlug": "icici-lombard",
+      "productName": "Explorer Plus",
+      "category": "travel",
+      "subCategory": "senior",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 67,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 12255414,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 562,
+        "illustrativeMax": 7452,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergencies abroad",
+        "Emergency evacuation",
+        "Flight cancellation",
+        "COVID-19 cover",
+        "Trip interruption",
+        "Adventure sports (add-on)",
+        "24x7 assistance",
+        "Flight delay"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "Pregnancy complications",
+        "Self-inflicted injuries",
+        "War and nuclear risks",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 90.45,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Trip cancellation cover",
+        "Adventure sports add-on",
+        "Zero deductible option",
+        "Annual multi-trip option"
+      ],
+      "sourceUrl": "https://www.icicilombard.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "bajaj-allianz-travel-elite-x3q",
+      "insurerName": "Bajaj Allianz General Insurance Co. Ltd.",
+      "insurerSlug": "bajaj-allianz",
+      "productName": "Travel Elite",
+      "category": "travel",
+      "subCategory": "senior",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 77,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 19307075,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 623,
+        "illustrativeMax": 5662,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Pre-existing disease (optional)",
+        "Adventure sports (add-on)",
+        "COVID-19 cover",
+        "24x7 assistance",
+        "Personal liability",
+        "Passport loss",
+        "Flight delay",
+        "Flight cancellation"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "Pre-existing diseases (unless declared)",
+        "Pregnancy complications",
+        "Self-inflicted injuries",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 90.18,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Baggage delay cover",
+        "Schengen visa compliant",
+        "Worldwide 24x7 assistance",
+        "Trip cancellation cover"
+      ],
+      "sourceUrl": "https://www.bajajallianz.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "tata-aig-voyage-shield-37q",
+      "insurerName": "Tata AIG General Insurance Company Ltd.",
+      "insurerSlug": "tata-aig",
+      "productName": "Voyage Shield",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 71,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 13622479,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 443,
+        "illustrativeMax": 7357,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip interruption",
+        "Flight cancellation",
+        "Pre-existing disease (optional)",
+        "24x7 assistance",
+        "Trip cancellation",
+        "Emergency evacuation",
+        "Personal liability",
+        "Passport loss",
+        "Medical emergencies abroad",
+        "Baggage delay"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "War and nuclear risks",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 95.43,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Zero deductible option",
+        "Cashless hospitalization abroad",
+        "Trip cancellation cover",
+        "Baggage delay cover"
+      ],
+      "sourceUrl": "https://www.tataaig.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "new-india-assurance-international-travel-pro-9bq",
+      "insurerName": "The New India Assurance Co. Ltd.",
+      "insurerSlug": "new-india-assurance",
+      "productName": "International Travel Pro",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 10685170,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 670,
+        "illustrativeMax": 6214,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Passport loss",
+        "Personal liability",
+        "Trip cancellation",
+        "Trip interruption",
+        "Baggage delay",
+        "Baggage loss",
+        "Emergency evacuation",
+        "Pre-existing disease (optional)",
+        "Flight delay",
+        "COVID-19 cover"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 96.29,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Baggage delay cover",
+        "Trip cancellation cover",
+        "Adventure sports add-on"
+      ],
+      "sourceUrl": "https://www.newindia.co.in",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "digit-travel-smart-ffq",
+      "insurerName": "Go Digit General Insurance Ltd.",
+      "insurerSlug": "digit",
+      "productName": "Travel Smart",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 15392798,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 446,
+        "illustrativeMax": 5596,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Adventure sports (add-on)",
+        "Emergency evacuation",
+        "Trip interruption",
+        "Passport loss",
+        "Baggage delay",
+        "Medical emergencies abroad"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "Pregnancy complications",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 99.1,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Baggage delay cover",
+        "Annual multi-trip option",
+        "Trip cancellation cover"
+      ],
+      "sourceUrl": "https://www.godigit.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "royal-sundaram-journey-secure-ljq",
+      "insurerName": "Royal Sundaram General Insurance Co. Ltd.",
+      "insurerSlug": "royal-sundaram",
+      "productName": "Journey Secure",
+      "category": "travel",
+      "subCategory": "single-trip",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 67,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 11158766,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 680,
+        "illustrativeMax": 5870,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip interruption",
+        "Flight cancellation",
+        "Trip cancellation",
+        "Baggage delay",
+        "24x7 assistance",
+        "COVID-19 cover",
+        "Personal liability",
+        "Flight delay",
+        "Baggage loss"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "Pregnancy complications",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 94.06,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless hospitalization abroad",
+        "Annual multi-trip option",
+        "Baggage delay cover",
+        "Worldwide 24x7 assistance"
+      ],
+      "sourceUrl": "https://www.royalsundaram.in",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "reliance-general-globe-trotter-gold-rnq",
+      "insurerName": "Reliance General Insurance Company Ltd.",
+      "insurerSlug": "reliance-general",
+      "productName": "Globe Trotter Gold",
+      "category": "travel",
+      "subCategory": "student",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 67,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 11596654,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 565,
+        "illustrativeMax": 7155,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Adventure sports (add-on)",
+        "Flight cancellation",
+        "Pre-existing disease (optional)",
+        "Baggage delay",
+        "COVID-19 cover",
+        "Trip interruption",
+        "Passport loss",
+        "Medical emergencies abroad"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "High-risk sports without add-on",
+        "Pre-existing diseases (unless declared)",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 97.35,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Schengen visa compliant",
+        "Trip cancellation cover",
+        "Annual multi-trip option",
+        "Baggage delay cover",
+        "Cashless hospitalization abroad"
+      ],
+      "sourceUrl": "https://www.reliancegeneral.co.in",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "sbi-general-travel-classic-xrq",
+      "insurerName": "SBI General Insurance Company Ltd.",
+      "insurerSlug": "sbi-general",
+      "productName": "Travel Classic",
+      "category": "travel",
+      "subCategory": "student",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 19639308,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 522,
+        "illustrativeMax": 7714,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "24x7 assistance",
+        "Medical emergencies abroad",
+        "Flight delay",
+        "Passport loss",
+        "Emergency evacuation",
+        "Baggage delay",
+        "Adventure sports (add-on)"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "Self-inflicted injuries",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 95.77,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Adventure sports add-on",
+        "Annual multi-trip option",
+        "Cashless hospitalization abroad",
+        "Schengen visa compliant"
+      ],
+      "sourceUrl": "https://www.sbigeneral.in",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "care-health-vacation-guard-3vq",
+      "insurerName": "Care Health Insurance Ltd.",
+      "insurerSlug": "care-health",
+      "productName": "Vacation Guard",
+      "category": "travel",
+      "subCategory": "senior",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 73,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 13537095,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 641,
+        "illustrativeMax": 7848,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Passport loss",
+        "Trip interruption",
+        "Baggage delay",
+        "Pre-existing disease (optional)",
+        "24x7 assistance",
+        "Flight cancellation",
+        "Emergency evacuation",
+        "Flight delay",
+        "COVID-19 cover"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 98.56,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Schengen visa compliant",
+        "Annual multi-trip option"
+      ],
+      "sourceUrl": "https://www.careinsurance.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "hdfc-ergo-travel-premier-9zq",
+      "insurerName": "HDFC ERGO General Insurance Company Ltd.",
+      "insurerSlug": "hdfc-ergo",
+      "productName": "Travel Premier",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 80,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 16143912,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 485,
+        "illustrativeMax": 5791,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "24x7 assistance",
+        "Adventure sports (add-on)",
+        "Flight delay",
+        "Trip cancellation",
+        "Trip interruption",
+        "Baggage delay",
+        "Passport loss",
+        "Medical emergencies abroad"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "Pre-existing diseases (unless declared)",
+        "Self-inflicted injuries",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 91.97,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Adventure sports add-on",
+        "Cashless hospitalization abroad",
+        "Baggage delay cover"
+      ],
+      "sourceUrl": "https://www.hdfcergo.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "icici-lombard-overseas-secure-g3q",
+      "insurerName": "ICICI Lombard General Insurance Company Ltd.",
+      "insurerSlug": "icici-lombard",
+      "productName": "Overseas Secure",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 80,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 11090301,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 614,
+        "illustrativeMax": 5099,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergencies abroad",
+        "Pre-existing disease (optional)",
+        "Emergency evacuation",
+        "COVID-19 cover",
+        "Passport loss",
+        "Flight cancellation",
+        "Trip cancellation",
+        "Adventure sports (add-on)",
+        "Baggage loss"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "Pregnancy complications",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 98.2,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Cashless hospitalization abroad",
+        "Worldwide 24x7 assistance",
+        "Baggage delay cover"
+      ],
+      "sourceUrl": "https://www.icicilombard.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "bajaj-allianz-tripsure-plus-m7q",
+      "insurerName": "Bajaj Allianz General Insurance Co. Ltd.",
+      "insurerSlug": "bajaj-allianz",
+      "productName": "TripSure Plus",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 10469416,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 671,
+        "illustrativeMax": 7067,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Pre-existing disease (optional)",
+        "Medical emergencies abroad",
+        "Flight delay",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "Passport loss",
+        "COVID-19 cover",
+        "Trip interruption"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "Self-inflicted injuries",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 99.44,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Schengen visa compliant",
+        "Worldwide 24x7 assistance",
+        "Trip cancellation cover",
+        "Adventure sports add-on"
+      ],
+      "sourceUrl": "https://www.bajajallianz.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "tata-aig-global-wanderer-sbq",
+      "insurerName": "Tata AIG General Insurance Company Ltd.",
+      "insurerSlug": "tata-aig",
+      "productName": "Global Wanderer",
+      "category": "travel",
+      "subCategory": "student",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 79,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 12490715,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 695,
+        "illustrativeMax": 6634,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight cancellation",
+        "Trip interruption",
+        "Adventure sports (add-on)",
+        "Medical emergencies abroad",
+        "Flight delay",
+        "COVID-19 cover",
+        "Pre-existing disease (optional)"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 90.25,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Zero deductible option",
+        "Baggage delay cover"
+      ],
+      "sourceUrl": "https://www.tataaig.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "new-india-assurance-travel-complete-yfq",
+      "insurerName": "The New India Assurance Co. Ltd.",
+      "insurerSlug": "new-india-assurance",
+      "productName": "Travel Complete",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 80,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 16643596,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 555,
+        "illustrativeMax": 7918,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "24x7 assistance",
+        "Pre-existing disease (optional)",
+        "Trip interruption",
+        "Flight delay",
+        "Passport loss",
+        "Baggage delay",
+        "Trip cancellation"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 94.47,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless hospitalization abroad",
+        "Schengen visa compliant",
+        "Baggage delay cover"
+      ],
+      "sourceUrl": "https://www.newindia.co.in",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "digit-journey-elite-4jq",
+      "insurerName": "Go Digit General Insurance Ltd.",
+      "insurerSlug": "digit",
+      "productName": "Journey Elite",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 80,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 15032398,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 691,
+        "illustrativeMax": 6788,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Baggage loss",
+        "Trip interruption",
+        "Trip cancellation",
+        "COVID-19 cover",
+        "Passport loss",
+        "Personal liability",
+        "Baggage delay",
+        "Flight delay",
+        "24x7 assistance",
+        "Pre-existing disease (optional)"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 95.24,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Schengen visa compliant",
+        "Zero deductible option",
+        "Trip cancellation cover",
+        "Annual multi-trip option",
+        "Worldwide 24x7 assistance"
+      ],
+      "sourceUrl": "https://www.godigit.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "royal-sundaram-travel-essential-anq",
+      "insurerName": "Royal Sundaram General Insurance Co. Ltd.",
+      "insurerSlug": "royal-sundaram",
+      "productName": "Travel Essential",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 14612136,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 409,
+        "illustrativeMax": 6481,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "COVID-19 cover",
+        "Pre-existing disease (optional)",
+        "Passport loss",
+        "Trip interruption",
+        "Trip cancellation",
+        "24x7 assistance"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "War and nuclear risks",
+        "Pregnancy complications",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 97.41,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless hospitalization abroad",
+        "Annual multi-trip option",
+        "Worldwide 24x7 assistance",
+        "Schengen visa compliant",
+        "Trip cancellation cover"
+      ],
+      "sourceUrl": "https://www.royalsundaram.in",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "reliance-general-premium-voyage-grq",
+      "insurerName": "Reliance General Insurance Company Ltd.",
+      "insurerSlug": "reliance-general",
+      "productName": "Premium Voyage",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 13446326,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 435,
+        "illustrativeMax": 5817,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Baggage loss",
+        "Trip cancellation",
+        "Adventure sports (add-on)",
+        "Passport loss",
+        "Trip interruption",
+        "COVID-19 cover",
+        "Flight delay"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 97.58,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Zero deductible option",
+        "Cashless hospitalization abroad"
+      ],
+      "sourceUrl": "https://www.reliancegeneral.co.in",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "sbi-general-world-protect-mvq",
+      "insurerName": "SBI General Insurance Company Ltd.",
+      "insurerSlug": "sbi-general",
+      "productName": "World Protect",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 71,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 16443296,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 468,
+        "illustrativeMax": 7200,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight delay",
+        "Medical emergencies abroad",
+        "COVID-19 cover",
+        "Adventure sports (add-on)",
+        "Baggage loss",
+        "Pre-existing disease (optional)",
+        "Baggage delay",
+        "Personal liability"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "Self-inflicted injuries",
+        "High-risk sports without add-on",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 90.95,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Baggage delay cover",
+        "Annual multi-trip option",
+        "Cashless hospitalization abroad"
+      ],
+      "sourceUrl": "https://www.sbigeneral.in",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "in"
     }
   ]

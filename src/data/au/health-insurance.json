@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -585,6 +585,1360 @@
       "confidenceScore": "high",
       "notes": "",
       "countryCode": "au"
+    },
+    {
+      "id": "medibank-gold-shield-djm",
+      "insurerName": "Medibank Private",
+      "insurerSlug": "medibank",
+      "productName": "Gold Shield",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 67,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1730664,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1660,
+        "illustrativeMax": 3239,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre-hospitalization (30-60 days)",
+        "Post-hospitalization (60-180 days)",
+        "No room rent sub-limits",
+        "Vaccination cover",
+        "Maternity benefits",
+        "AYUSH treatments",
+        "Domiciliary hospitalization"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery (unless medically necessary)",
+        "Pre-existing diseases during waiting period",
+        "Substance abuse treatment",
+        "Experimental treatments",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 97.31,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "OPD wellness package",
+        "Day 1 PED cover (optional)",
+        "No pre-policy medical check (under 45)",
+        "Premium discount for claim-free years"
+      ],
+      "sourceUrl": "https://www.medibank.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "40 months",
+        "specific": "15 months"
+      }
+    },
+    {
+      "id": "bupa-au-platinum-care-jnm",
+      "insurerName": "Bupa Australia",
+      "insurerSlug": "bupa-au",
+      "productName": "Platinum Care",
+      "category": "health",
+      "subCategory": "group",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1103386,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1558,
+        "illustrativeMax": 5031,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Organ donor expenses",
+        "Maternity benefits",
+        "Modern treatments (robotic surgery, etc.)",
+        "No room rent sub-limits",
+        "New-born baby cover",
+        "Restoration of sum insured"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 90.09,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Premium discount for claim-free years",
+        "Lifetime renewal",
+        "OPD wellness package",
+        "Day 1 PED cover (optional)",
+        "Cashless at network hospitals"
+      ],
+      "sourceUrl": "https://www.bupa.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "24 months",
+        "specific": "22 months"
+      }
+    },
+    {
+      "id": "hbf-elite-health-prm",
+      "insurerName": "HBF Health",
+      "insurerSlug": "hbf",
+      "productName": "Elite Health",
+      "category": "health",
+      "subCategory": "senior-citizen",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1218303,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1700,
+        "illustrativeMax": 4866,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Organ donor expenses",
+        "Maternity benefits",
+        "Pre-hospitalization (30-60 days)",
+        "Post-hospitalization (60-180 days)",
+        "Vaccination cover",
+        "Day care procedures",
+        "No room rent sub-limits",
+        "Restoration of sum insured"
+      ],
+      "keyExclusions": [
+        "Dental treatment (unless accident)",
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 97.8,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "Cashless at network hospitals",
+        "Premium discount for claim-free years"
+      ],
+      "sourceUrl": "https://www.hbf.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "34 months",
+        "specific": "12 months"
+      }
+    },
+    {
+      "id": "hcf-family-floater-plus-vvm",
+      "insurerName": "Hospitals Contribution Fund of Australia",
+      "insurerSlug": "hcf",
+      "productName": "Family Floater Plus",
+      "category": "health",
+      "subCategory": "critical-illness",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 71,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1135333,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1828,
+        "illustrativeMax": 4109,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "New-born baby cover",
+        "Day care procedures",
+        "Restoration of sum insured",
+        "Mental health coverage",
+        "AYUSH treatments"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Experimental treatments",
+        "Pre-existing diseases during waiting period",
+        "Substance abuse treatment",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 99.16,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Global emergency cover",
+        "Second medical opinion included",
+        "No room rent capping",
+        "Day 1 PED cover (optional)",
+        "No pre-policy medical check (under 45)"
+      ],
+      "sourceUrl": "https://www.hcf.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "26 months",
+        "specific": "17 months"
+      }
+    },
+    {
+      "id": "nib-wellness-premier-1zm",
+      "insurerName": "nib Health Funds",
+      "insurerSlug": "nib",
+      "productName": "Wellness Premier",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1150013,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2127,
+        "illustrativeMax": 3457,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Vaccination cover",
+        "No room rent sub-limits",
+        "Ambulance charges",
+        "Annual health check-up",
+        "Pre-hospitalization (30-60 days)",
+        "Modern treatments (robotic surgery, etc.)",
+        "Domiciliary hospitalization",
+        "Post-hospitalization (60-180 days)",
+        "Restoration of sum insured",
+        "Day care procedures"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Substance abuse treatment",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 91.56,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Global emergency cover",
+        "Automatic sum insured restoration",
+        "Consumables covered",
+        "Day 1 PED cover (optional)"
+      ],
+      "sourceUrl": "https://www.nib.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "30 months",
+        "specific": "18 months"
+      }
+    },
+    {
+      "id": "medibank-total-protect-83m",
+      "insurerName": "Medibank Private",
+      "insurerSlug": "medibank",
+      "productName": "Total Protect",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 79,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1180679,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1849,
+        "illustrativeMax": 4675,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Ambulance charges",
+        "Annual health check-up",
+        "No room rent sub-limits",
+        "Vaccination cover",
+        "Restoration of sum insured",
+        "In-patient hospitalization",
+        "Post-hospitalization (60-180 days)",
+        "Domiciliary hospitalization",
+        "Maternity benefits",
+        "Pre-hospitalization (30-60 days)"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 93.98,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Automatic sum insured restoration",
+        "OPD wellness package",
+        "Consumables covered"
+      ],
+      "sourceUrl": "https://www.medibank.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "35 months",
+        "specific": "22 months"
+      }
+    },
+    {
+      "id": "bupa-au-medisure-advantage-e7m",
+      "insurerName": "Bupa Australia",
+      "insurerSlug": "bupa-au",
+      "productName": "MediSure Advantage",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 80,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1265100,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2078,
+        "illustrativeMax": 3821,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Pre-hospitalization (30-60 days)",
+        "In-patient hospitalization",
+        "Mental health coverage",
+        "Annual health check-up",
+        "Ambulance charges",
+        "Organ donor expenses",
+        "Day care procedures",
+        "No room rent sub-limits",
+        "Post-hospitalization (60-180 days)"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 91.45,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Day 1 PED cover (optional)",
+        "Cashless at network hospitals",
+        "No copay up to age 60"
+      ],
+      "sourceUrl": "https://www.bupa.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "30 months",
+        "specific": "22 months"
+      }
+    },
+    {
+      "id": "hbf-health-elite-kbm",
+      "insurerName": "HBF Health",
+      "insurerSlug": "hbf",
+      "productName": "Health Elite",
+      "category": "health",
+      "subCategory": "senior-citizen",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 73,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1783489,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1222,
+        "illustrativeMax": 4798,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "No room rent sub-limits",
+        "New-born baby cover",
+        "Annual health check-up",
+        "Pre-hospitalization (30-60 days)",
+        "Restoration of sum insured",
+        "Domiciliary hospitalization",
+        "Modern treatments (robotic surgery, etc.)",
+        "Ambulance charges"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 99.32,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No pre-policy medical check (under 45)",
+        "Second medical opinion included",
+        "No copay up to age 60",
+        "Automatic sum insured restoration"
+      ],
+      "sourceUrl": "https://www.hbf.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "34 months",
+        "specific": "20 months"
+      }
+    },
+    {
+      "id": "hcf-comprehensive-care-qfm",
+      "insurerName": "Hospitals Contribution Fund of Australia",
+      "insurerSlug": "hcf",
+      "productName": "Comprehensive Care",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1197465,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1752,
+        "illustrativeMax": 3210,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "New-born baby cover",
+        "Restoration of sum insured",
+        "Post-hospitalization (60-180 days)",
+        "Pre-hospitalization (30-60 days)",
+        "Annual health check-up",
+        "In-patient hospitalization",
+        "No room rent sub-limits"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 93.51,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Premium discount for claim-free years",
+        "Second medical opinion included",
+        "Global emergency cover",
+        "No room rent capping"
+      ],
+      "sourceUrl": "https://www.hcf.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "36 months",
+        "specific": "14 months"
+      }
+    },
+    {
+      "id": "nib-smart-health-saver-wjm",
+      "insurerName": "nib Health Funds",
+      "insurerSlug": "nib",
+      "productName": "Smart Health Saver",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1924134,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1587,
+        "illustrativeMax": 4741,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Modern treatments (robotic surgery, etc.)",
+        "Vaccination cover",
+        "Post-hospitalization (60-180 days)",
+        "Restoration of sum insured",
+        "Maternity benefits",
+        "Mental health coverage"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 96.25,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Day 1 PED cover (optional)",
+        "Lifetime renewal",
+        "Cashless at network hospitals",
+        "Automatic sum insured restoration",
+        "No pre-policy medical check (under 45)"
+      ],
+      "sourceUrl": "https://www.nib.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "41 months",
+        "specific": "21 months"
+      }
+    },
+    {
+      "id": "medibank-ultra-protect-2nm",
+      "insurerName": "Medibank Private",
+      "insurerSlug": "medibank",
+      "productName": "Ultra Protect",
+      "category": "health",
+      "subCategory": "group",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 74,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1937937,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1854,
+        "illustrativeMax": 4343,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Ambulance charges",
+        "New-born baby cover",
+        "Organ donor expenses",
+        "Maternity benefits",
+        "Mental health coverage",
+        "No room rent sub-limits",
+        "Day care procedures"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)",
+        "Pre-existing diseases during waiting period",
+        "Dental treatment (unless accident)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 95.51,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "OPD wellness package",
+        "Consumables covered",
+        "Automatic sum insured restoration",
+        "No room rent capping",
+        "Day 1 PED cover (optional)"
+      ],
+      "sourceUrl": "https://www.medibank.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "27 months",
+        "specific": "22 months"
+      }
+    },
+    {
+      "id": "bupa-au-supreme-shield-8rm",
+      "insurerName": "Bupa Australia",
+      "insurerSlug": "bupa-au",
+      "productName": "Supreme Shield",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 78,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1564919,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1665,
+        "illustrativeMax": 5076,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Domiciliary hospitalization",
+        "In-patient hospitalization",
+        "Pre-hospitalization (30-60 days)",
+        "Modern treatments (robotic surgery, etc.)",
+        "AYUSH treatments",
+        "No room rent sub-limits",
+        "Mental health coverage",
+        "Organ donor expenses",
+        "Post-hospitalization (60-180 days)"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Substance abuse treatment",
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 96.54,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Consumables covered",
+        "Day 1 PED cover (optional)",
+        "No room rent capping",
+        "Cashless at network hospitals"
+      ],
+      "sourceUrl": "https://www.bupa.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "46 months",
+        "specific": "20 months"
+      }
+    },
+    {
+      "id": "hbf-family-guardian-evm",
+      "insurerName": "HBF Health",
+      "insurerSlug": "hbf",
+      "productName": "Family Guardian",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1468423,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1469,
+        "illustrativeMax": 3148,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Vaccination cover",
+        "Day care procedures",
+        "Organ donor expenses",
+        "No room rent sub-limits",
+        "Restoration of sum insured",
+        "Annual health check-up",
+        "New-born baby cover",
+        "Post-hospitalization (60-180 days)",
+        "Pre-hospitalization (30-60 days)"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Experimental treatments",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 94.29,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Second medical opinion included",
+        "Lifetime renewal",
+        "Cashless at network hospitals",
+        "No copay up to age 60"
+      ],
+      "sourceUrl": "https://www.hbf.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "33 months",
+        "specific": "20 months"
+      }
+    },
+    {
+      "id": "hcf-secure-health-kzm",
+      "insurerName": "Hospitals Contribution Fund of Australia",
+      "insurerSlug": "hcf",
+      "productName": "Secure Health",
+      "category": "health",
+      "subCategory": "group",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 73,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1063880,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1322,
+        "illustrativeMax": 4141,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "No room rent sub-limits",
+        "Pre-hospitalization (30-60 days)",
+        "In-patient hospitalization",
+        "AYUSH treatments",
+        "Modern treatments (robotic surgery, etc.)",
+        "Domiciliary hospitalization"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Substance abuse treatment",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 95.25,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "Cashless at network hospitals",
+        "No copay up to age 60",
+        "Automatic sum insured restoration"
+      ],
+      "sourceUrl": "https://www.hcf.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "28 months",
+        "specific": "21 months"
+      }
+    },
+    {
+      "id": "nib-premier-wellness-r3m",
+      "insurerName": "nib Health Funds",
+      "insurerSlug": "nib",
+      "productName": "Premier Wellness",
+      "category": "health",
+      "subCategory": "senior-citizen",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1030066,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1487,
+        "illustrativeMax": 4371,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Day care procedures",
+        "Pre-hospitalization (30-60 days)",
+        "In-patient hospitalization",
+        "Modern treatments (robotic surgery, etc.)",
+        "Post-hospitalization (60-180 days)",
+        "No room rent sub-limits",
+        "Mental health coverage"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)",
+        "Substance abuse treatment",
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 90.59,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No copay up to age 60",
+        "Global emergency cover",
+        "Lifetime renewal",
+        "Premium discount for claim-free years"
+      ],
+      "sourceUrl": "https://www.nib.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "47 months",
+        "specific": "21 months"
+      }
+    },
+    {
+      "id": "medibank-active-care-x7m",
+      "insurerName": "Medibank Private",
+      "insurerSlug": "medibank",
+      "productName": "Active Care",
+      "category": "health",
+      "subCategory": "critical-illness",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 67,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1802574,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1829,
+        "illustrativeMax": 3577,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Pre-hospitalization (30-60 days)",
+        "New-born baby cover",
+        "Day care procedures",
+        "Organ donor expenses",
+        "Ambulance charges",
+        "Vaccination cover",
+        "In-patient hospitalization",
+        "Maternity benefits",
+        "AYUSH treatments"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 92.63,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless at network hospitals",
+        "No room rent capping",
+        "Second medical opinion included",
+        "Consumables covered",
+        "Automatic sum insured restoration"
+      ],
+      "sourceUrl": "https://www.medibank.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "28 months",
+        "specific": "21 months"
+      }
+    },
+    {
+      "id": "bupa-au-diamond-health-plan-3bm",
+      "insurerName": "Bupa Australia",
+      "insurerSlug": "bupa-au",
+      "productName": "Diamond Health Plan",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 68,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1431567,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1803,
+        "illustrativeMax": 3633,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Day care procedures",
+        "Domiciliary hospitalization",
+        "AYUSH treatments",
+        "No room rent sub-limits",
+        "Ambulance charges",
+        "Modern treatments (robotic surgery, etc.)",
+        "Maternity benefits",
+        "In-patient hospitalization"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 94.86,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Global emergency cover",
+        "Cashless at network hospitals",
+        "OPD wellness package",
+        "Premium discount for claim-free years",
+        "Day 1 PED cover (optional)"
+      ],
+      "sourceUrl": "https://www.bupa.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "45 months",
+        "specific": "21 months"
+      }
+    },
+    {
+      "id": "hbf-signature-health-9fm",
+      "insurerName": "HBF Health",
+      "insurerSlug": "hbf",
+      "productName": "Signature Health",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1125465,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1400,
+        "illustrativeMax": 4412,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Restoration of sum insured",
+        "Domiciliary hospitalization",
+        "No room rent sub-limits",
+        "New-born baby cover",
+        "Annual health check-up",
+        "Ambulance charges",
+        "Mental health coverage"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 96.13,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No pre-policy medical check (under 45)",
+        "Premium discount for claim-free years",
+        "Global emergency cover",
+        "No copay up to age 60"
+      ],
+      "sourceUrl": "https://www.hbf.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "21 months"
+      }
     }
   ]
 }

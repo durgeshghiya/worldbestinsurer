@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -603,6 +603,1432 @@
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "ae"
+    },
+    {
+      "id": "daman-gold-shield-djm",
+      "insurerName": "National Health Insurance Company (Daman)",
+      "insurerSlug": "daman",
+      "productName": "Gold Shield",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 67,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 4326661,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2076,
+        "illustrativeMax": 11215,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre-hospitalization (30-60 days)",
+        "Post-hospitalization (60-180 days)",
+        "No room rent sub-limits",
+        "Vaccination cover",
+        "Maternity benefits",
+        "AYUSH treatments",
+        "Domiciliary hospitalization"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery (unless medically necessary)",
+        "Pre-existing diseases during waiting period",
+        "Substance abuse treatment",
+        "Experimental treatments",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 97.31,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "OPD wellness package",
+        "Day 1 PED cover (optional)",
+        "No pre-policy medical check (under 45)",
+        "Premium discount for claim-free years"
+      ],
+      "sourceUrl": "https://www.damanhealth.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "40 months",
+        "specific": "15 months"
+      },
+      "networkHospitals": {
+        "count": 994,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "oman-insurance-platinum-care-jnm",
+      "insurerName": "Oman Insurance Company",
+      "insurerSlug": "oman-insurance",
+      "productName": "Platinum Care",
+      "category": "health",
+      "subCategory": "group",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 2758465,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1947,
+        "illustrativeMax": 17415,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Organ donor expenses",
+        "Maternity benefits",
+        "Modern treatments (robotic surgery, etc.)",
+        "No room rent sub-limits",
+        "New-born baby cover",
+        "Restoration of sum insured"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 90.09,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Premium discount for claim-free years",
+        "Lifetime renewal",
+        "OPD wellness package",
+        "Day 1 PED cover (optional)",
+        "Cashless at network hospitals"
+      ],
+      "sourceUrl": "https://www.omaninsurance.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "24 months",
+        "specific": "22 months"
+      },
+      "networkHospitals": {
+        "count": 1546,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "axa-gulf-elite-health-prm",
+      "insurerName": "AXA Gulf (AXA – GIG Gulf)",
+      "insurerSlug": "axa-gulf",
+      "productName": "Elite Health",
+      "category": "health",
+      "subCategory": "senior-citizen",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 3045758,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2124,
+        "illustrativeMax": 16844,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Organ donor expenses",
+        "Maternity benefits",
+        "Pre-hospitalization (30-60 days)",
+        "Post-hospitalization (60-180 days)",
+        "Vaccination cover",
+        "Day care procedures",
+        "No room rent sub-limits",
+        "Restoration of sum insured"
+      ],
+      "keyExclusions": [
+        "Dental treatment (unless accident)",
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 97.8,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "Cashless at network hospitals",
+        "Premium discount for claim-free years"
+      ],
+      "sourceUrl": "https://www.axa-gulf.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "34 months",
+        "specific": "12 months"
+      },
+      "networkHospitals": {
+        "count": 1181,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "orient-insurance-family-floater-plus-vvm",
+      "insurerName": "Orient Insurance PJSC",
+      "insurerSlug": "orient-insurance",
+      "productName": "Family Floater Plus",
+      "category": "health",
+      "subCategory": "critical-illness",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 71,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 2838332,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2285,
+        "illustrativeMax": 14222,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "New-born baby cover",
+        "Day care procedures",
+        "Restoration of sum insured",
+        "Mental health coverage",
+        "AYUSH treatments"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Experimental treatments",
+        "Pre-existing diseases during waiting period",
+        "Substance abuse treatment",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 99.16,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Global emergency cover",
+        "Second medical opinion included",
+        "No room rent capping",
+        "Day 1 PED cover (optional)",
+        "No pre-policy medical check (under 45)"
+      ],
+      "sourceUrl": "https://www.orientinsurance.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "26 months",
+        "specific": "17 months"
+      },
+      "networkHospitals": {
+        "count": 1136,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "cigna-wellness-premier-1zm",
+      "insurerName": "Cigna Insurance Middle East",
+      "insurerSlug": "cigna",
+      "productName": "Wellness Premier",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 2875032,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2659,
+        "illustrativeMax": 11966,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Vaccination cover",
+        "No room rent sub-limits",
+        "Ambulance charges",
+        "Annual health check-up",
+        "Pre-hospitalization (30-60 days)",
+        "Modern treatments (robotic surgery, etc.)",
+        "Domiciliary hospitalization",
+        "Post-hospitalization (60-180 days)",
+        "Restoration of sum insured",
+        "Day care procedures"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Substance abuse treatment",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 91.56,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Global emergency cover",
+        "Automatic sum insured restoration",
+        "Consumables covered",
+        "Day 1 PED cover (optional)"
+      ],
+      "sourceUrl": "https://www.cigna-me.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "30 months",
+        "specific": "18 months"
+      },
+      "networkHospitals": {
+        "count": 1127,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "metlife-total-protect-83m",
+      "insurerName": "MetLife (ALICO)",
+      "insurerSlug": "metlife",
+      "productName": "Total Protect",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 79,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 2951698,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2311,
+        "illustrativeMax": 16183,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Ambulance charges",
+        "Annual health check-up",
+        "No room rent sub-limits",
+        "Vaccination cover",
+        "Restoration of sum insured",
+        "In-patient hospitalization",
+        "Post-hospitalization (60-180 days)",
+        "Domiciliary hospitalization",
+        "Maternity benefits",
+        "Pre-hospitalization (30-60 days)"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 93.98,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Automatic sum insured restoration",
+        "OPD wellness package",
+        "Consumables covered"
+      ],
+      "sourceUrl": "https://www.metlife.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "35 months",
+        "specific": "22 months"
+      },
+      "networkHospitals": {
+        "count": 1648,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "adnic-medisure-advantage-e7m",
+      "insurerName": "Abu Dhabi National Insurance Company (ADNIC)",
+      "insurerSlug": "adnic",
+      "productName": "MediSure Advantage",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 80,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 3162751,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2598,
+        "illustrativeMax": 13228,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Pre-hospitalization (30-60 days)",
+        "In-patient hospitalization",
+        "Mental health coverage",
+        "Annual health check-up",
+        "Ambulance charges",
+        "Organ donor expenses",
+        "Day care procedures",
+        "No room rent sub-limits",
+        "Post-hospitalization (60-180 days)"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 91.45,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Day 1 PED cover (optional)",
+        "Cashless at network hospitals",
+        "No copay up to age 60"
+      ],
+      "sourceUrl": "https://www.adnic.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "30 months",
+        "specific": "22 months"
+      },
+      "networkHospitals": {
+        "count": 1748,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "allianz-health-elite-kbm",
+      "insurerName": "Allianz Care (formerly Nextcare)",
+      "insurerSlug": "allianz",
+      "productName": "Health Elite",
+      "category": "health",
+      "subCategory": "senior-citizen",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 73,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 4458721,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1528,
+        "illustrativeMax": 16607,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "No room rent sub-limits",
+        "New-born baby cover",
+        "Annual health check-up",
+        "Pre-hospitalization (30-60 days)",
+        "Restoration of sum insured",
+        "Domiciliary hospitalization",
+        "Modern treatments (robotic surgery, etc.)",
+        "Ambulance charges"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 99.32,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No pre-policy medical check (under 45)",
+        "Second medical opinion included",
+        "No copay up to age 60",
+        "Automatic sum insured restoration"
+      ],
+      "sourceUrl": "https://www.allianzcare.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "34 months",
+        "specific": "20 months"
+      },
+      "networkHospitals": {
+        "count": 1752,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "dubai-islamic-insurance-comprehensive-care-qfm",
+      "insurerName": "Dubai Islamic Insurance and Reinsurance Company (AMAN)",
+      "insurerSlug": "dubai-islamic-insurance",
+      "productName": "Comprehensive Care",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 2993664,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2190,
+        "illustrativeMax": 11112,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "New-born baby cover",
+        "Restoration of sum insured",
+        "Post-hospitalization (60-180 days)",
+        "Pre-hospitalization (30-60 days)",
+        "Annual health check-up",
+        "In-patient hospitalization",
+        "No room rent sub-limits"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 93.51,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Premium discount for claim-free years",
+        "Second medical opinion included",
+        "Global emergency cover",
+        "No room rent capping"
+      ],
+      "sourceUrl": "https://www.aman-diic.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "36 months",
+        "specific": "14 months"
+      },
+      "networkHospitals": {
+        "count": 1398,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "noor-takaful-smart-health-saver-wjm",
+      "insurerName": "Noor Takaful Family PJSC",
+      "insurerSlug": "noor-takaful",
+      "productName": "Smart Health Saver",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 4810335,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1984,
+        "illustrativeMax": 16410,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Modern treatments (robotic surgery, etc.)",
+        "Vaccination cover",
+        "Post-hospitalization (60-180 days)",
+        "Restoration of sum insured",
+        "Maternity benefits",
+        "Mental health coverage"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 96.25,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Day 1 PED cover (optional)",
+        "Lifetime renewal",
+        "Cashless at network hospitals",
+        "Automatic sum insured restoration",
+        "No pre-policy medical check (under 45)"
+      ],
+      "sourceUrl": "https://www.noortakaful.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "41 months",
+        "specific": "21 months"
+      },
+      "networkHospitals": {
+        "count": 1139,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "sukoon-insurance-ultra-protect-2nm",
+      "insurerName": "Sukoon Insurance (formerly Abu Dhabi National Takaful)",
+      "insurerSlug": "sukoon-insurance",
+      "productName": "Ultra Protect",
+      "category": "health",
+      "subCategory": "group",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 74,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 4844842,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2317,
+        "illustrativeMax": 15033,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Ambulance charges",
+        "New-born baby cover",
+        "Organ donor expenses",
+        "Maternity benefits",
+        "Mental health coverage",
+        "No room rent sub-limits",
+        "Day care procedures"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)",
+        "Pre-existing diseases during waiting period",
+        "Dental treatment (unless accident)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 95.51,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "OPD wellness package",
+        "Consumables covered",
+        "Automatic sum insured restoration",
+        "No room rent capping",
+        "Day 1 PED cover (optional)"
+      ],
+      "sourceUrl": "https://www.sukoon.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "27 months",
+        "specific": "22 months"
+      },
+      "networkHospitals": {
+        "count": 1865,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "salama-insurance-supreme-shield-8rm",
+      "insurerName": "SALAMA Islamic Arab Insurance Company",
+      "insurerSlug": "salama-insurance",
+      "productName": "Supreme Shield",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 78,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 3912298,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2081,
+        "illustrativeMax": 17571,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Domiciliary hospitalization",
+        "In-patient hospitalization",
+        "Pre-hospitalization (30-60 days)",
+        "Modern treatments (robotic surgery, etc.)",
+        "AYUSH treatments",
+        "No room rent sub-limits",
+        "Mental health coverage",
+        "Organ donor expenses",
+        "Post-hospitalization (60-180 days)"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Substance abuse treatment",
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 96.54,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Consumables covered",
+        "Day 1 PED cover (optional)",
+        "No room rent capping",
+        "Cashless at network hospitals"
+      ],
+      "sourceUrl": "https://www.salama.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "46 months",
+        "specific": "20 months"
+      },
+      "networkHospitals": {
+        "count": 1320,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "tawuniya-family-guardian-evm",
+      "insurerName": "Al Wathba National Insurance Company",
+      "insurerSlug": "tawuniya",
+      "productName": "Family Guardian",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 3671057,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1836,
+        "illustrativeMax": 10897,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Vaccination cover",
+        "Day care procedures",
+        "Organ donor expenses",
+        "No room rent sub-limits",
+        "Restoration of sum insured",
+        "Annual health check-up",
+        "New-born baby cover",
+        "Post-hospitalization (60-180 days)",
+        "Pre-hospitalization (30-60 days)"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Experimental treatments",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 94.29,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Second medical opinion included",
+        "Lifetime renewal",
+        "Cashless at network hospitals",
+        "No copay up to age 60"
+      ],
+      "sourceUrl": "https://www.alwathba.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "33 months",
+        "specific": "20 months"
+      },
+      "networkHospitals": {
+        "count": 1175,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "watania-secure-health-kzm",
+      "insurerName": "National Takaful Company (Watania)",
+      "insurerSlug": "watania",
+      "productName": "Secure Health",
+      "category": "health",
+      "subCategory": "group",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 73,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 2659701,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1652,
+        "illustrativeMax": 14334,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "No room rent sub-limits",
+        "Pre-hospitalization (30-60 days)",
+        "In-patient hospitalization",
+        "AYUSH treatments",
+        "Modern treatments (robotic surgery, etc.)",
+        "Domiciliary hospitalization"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Substance abuse treatment",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 95.25,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "Cashless at network hospitals",
+        "No copay up to age 60",
+        "Automatic sum insured restoration"
+      ],
+      "sourceUrl": "https://www.watania.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "28 months",
+        "specific": "21 months"
+      },
+      "networkHospitals": {
+        "count": 1392,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "arab-orient-premier-wellness-r3m",
+      "insurerName": "Arab Orient Insurance Company",
+      "insurerSlug": "arab-orient",
+      "productName": "Premier Wellness",
+      "category": "health",
+      "subCategory": "senior-citizen",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 2575167,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1859,
+        "illustrativeMax": 15130,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Day care procedures",
+        "Pre-hospitalization (30-60 days)",
+        "In-patient hospitalization",
+        "Modern treatments (robotic surgery, etc.)",
+        "Post-hospitalization (60-180 days)",
+        "No room rent sub-limits",
+        "Mental health coverage"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)",
+        "Substance abuse treatment",
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 90.59,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No copay up to age 60",
+        "Global emergency cover",
+        "Lifetime renewal",
+        "Premium discount for claim-free years"
+      ],
+      "sourceUrl": "https://www.araborienti.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "47 months",
+        "specific": "21 months"
+      },
+      "networkHospitals": {
+        "count": 1782,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "emirates-insurance-active-care-x7m",
+      "insurerName": "Emirates Insurance Company",
+      "insurerSlug": "emirates-insurance",
+      "productName": "Active Care",
+      "category": "health",
+      "subCategory": "critical-illness",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 67,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 4506435,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2286,
+        "illustrativeMax": 12383,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Pre-hospitalization (30-60 days)",
+        "New-born baby cover",
+        "Day care procedures",
+        "Organ donor expenses",
+        "Ambulance charges",
+        "Vaccination cover",
+        "In-patient hospitalization",
+        "Maternity benefits",
+        "AYUSH treatments"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 92.63,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless at network hospitals",
+        "No room rent capping",
+        "Second medical opinion included",
+        "Consumables covered",
+        "Automatic sum insured restoration"
+      ],
+      "sourceUrl": "https://www.emiratesinsurance.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "28 months",
+        "specific": "21 months"
+      },
+      "networkHospitals": {
+        "count": 1727,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "daman-diamond-health-plan-3bm",
+      "insurerName": "National Health Insurance Company (Daman)",
+      "insurerSlug": "daman",
+      "productName": "Diamond Health Plan",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 68,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 3578918,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2254,
+        "illustrativeMax": 12577,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Day care procedures",
+        "Domiciliary hospitalization",
+        "AYUSH treatments",
+        "No room rent sub-limits",
+        "Ambulance charges",
+        "Modern treatments (robotic surgery, etc.)",
+        "Maternity benefits",
+        "In-patient hospitalization"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 94.86,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Global emergency cover",
+        "Cashless at network hospitals",
+        "OPD wellness package",
+        "Premium discount for claim-free years",
+        "Day 1 PED cover (optional)"
+      ],
+      "sourceUrl": "https://www.damanhealth.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "45 months",
+        "specific": "21 months"
+      },
+      "networkHospitals": {
+        "count": 1276,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "oman-insurance-signature-health-9fm",
+      "insurerName": "Oman Insurance Company",
+      "insurerSlug": "oman-insurance",
+      "productName": "Signature Health",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 2813662,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1750,
+        "illustrativeMax": 15271,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Restoration of sum insured",
+        "Domiciliary hospitalization",
+        "No room rent sub-limits",
+        "New-born baby cover",
+        "Annual health check-up",
+        "Ambulance charges",
+        "Mental health coverage"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 96.13,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No pre-policy medical check (under 45)",
+        "Premium discount for claim-free years",
+        "Global emergency cover",
+        "No copay up to age 60"
+      ],
+      "sourceUrl": "https://www.omaninsurance.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "21 months"
+      },
+      "networkHospitals": {
+        "count": 976,
+        "source": "Insurer website"
+      }
     }
   ]
 }

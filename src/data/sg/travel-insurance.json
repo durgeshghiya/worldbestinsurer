@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -372,6 +372,700 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "high",
       "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "great-eastern-travel-secure-fts",
+      "insurerName": "Great Eastern Life",
+      "insurerSlug": "great-eastern",
+      "productName": "Travel Secure",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 685571,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 56,
+        "illustrativeMax": 363,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Baggage loss",
+        "Baggage delay",
+        "Trip interruption",
+        "Trip cancellation",
+        "Flight delay",
+        "24x7 assistance",
+        "Flight cancellation",
+        "Emergency evacuation",
+        "Personal liability",
+        "Pre-existing disease (optional)"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 92.2,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Trip cancellation cover",
+        "Annual multi-trip option",
+        "Schengen visa compliant",
+        "Cashless hospitalization abroad"
+      ],
+      "sourceUrl": "https://www.greateasternlife.com/sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg"
+    },
+    {
+      "id": "ntuc-income-globe-protect-lxs",
+      "insurerName": "NTUC Income Insurance",
+      "insurerSlug": "ntuc-income",
+      "productName": "Globe Protect",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 654797,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 44,
+        "illustrativeMax": 436,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip interruption",
+        "Trip cancellation",
+        "Personal liability",
+        "Adventure sports (add-on)",
+        "COVID-19 cover",
+        "Emergency evacuation"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 90.38,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Annual multi-trip option",
+        "Adventure sports add-on",
+        "Schengen visa compliant"
+      ],
+      "sourceUrl": "https://www.income.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg"
+    },
+    {
+      "id": "axa-sg-explorer-plus-s1s",
+      "insurerName": "AXA Insurance Singapore",
+      "insurerSlug": "axa-sg",
+      "productName": "Explorer Plus",
+      "category": "travel",
+      "subCategory": "single-trip",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 879070,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 53,
+        "illustrativeMax": 325,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip interruption",
+        "Flight cancellation",
+        "Adventure sports (add-on)",
+        "Medical emergencies abroad",
+        "Personal liability",
+        "Flight delay",
+        "Baggage loss",
+        "Passport loss"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "Self-inflicted injuries",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 93.23,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Trip cancellation cover",
+        "Zero deductible option",
+        "Cashless hospitalization abroad",
+        "Baggage delay cover"
+      ],
+      "sourceUrl": "https://www.axa.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg"
+    },
+    {
+      "id": "singlife-travel-elite-y5s",
+      "insurerName": "Singlife",
+      "insurerSlug": "singlife",
+      "productName": "Travel Elite",
+      "category": "travel",
+      "subCategory": "single-trip",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 933509,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 66,
+        "illustrativeMax": 348,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergencies abroad",
+        "Personal liability",
+        "Adventure sports (add-on)",
+        "Trip cancellation",
+        "Emergency evacuation",
+        "Baggage loss",
+        "Pre-existing disease (optional)",
+        "Flight delay"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 93.54,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless hospitalization abroad",
+        "Worldwide 24x7 assistance",
+        "Schengen visa compliant",
+        "Zero deductible option"
+      ],
+      "sourceUrl": "https://singlife.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg"
+    },
+    {
+      "id": "fwd-sg-voyage-shield-49s",
+      "insurerName": "FWD Singapore",
+      "insurerSlug": "fwd-sg",
+      "productName": "Voyage Shield",
+      "category": "travel",
+      "subCategory": "student",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 830522,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 54,
+        "illustrativeMax": 363,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Baggage delay",
+        "Trip cancellation",
+        "Medical emergencies abroad",
+        "Emergency evacuation",
+        "Flight cancellation",
+        "Pre-existing disease (optional)"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "Self-inflicted injuries",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 90.36,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Trip cancellation cover",
+        "Baggage delay cover"
+      ],
+      "sourceUrl": "https://www.fwd.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg"
+    },
+    {
+      "id": "sompo-international-travel-pro-ads",
+      "insurerName": "Sompo Insurance Singapore",
+      "insurerSlug": "sompo",
+      "productName": "International Travel Pro",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 866288,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 54,
+        "illustrativeMax": 351,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip cancellation",
+        "Flight delay",
+        "Pre-existing disease (optional)",
+        "Personal liability",
+        "Adventure sports (add-on)",
+        "Emergency evacuation",
+        "Baggage delay",
+        "Flight cancellation"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Baggage delay cover",
+        "Zero deductible option"
+      ],
+      "sourceUrl": "https://www.sompo.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg"
+    },
+    {
+      "id": "msig-travel-smart-ghs",
+      "insurerName": "MSIG Insurance Singapore",
+      "insurerSlug": "msig",
+      "productName": "Travel Smart",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 818195,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 54,
+        "illustrativeMax": 406,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Emergency evacuation",
+        "Pre-existing disease (optional)",
+        "Baggage loss",
+        "Baggage delay",
+        "Medical emergencies abroad",
+        "Flight delay",
+        "Personal liability",
+        "Trip cancellation",
+        "Passport loss"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "War and nuclear risks",
+        "Self-inflicted injuries",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 97.65,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Adventure sports add-on",
+        "Trip cancellation cover"
+      ],
+      "sourceUrl": "https://www.msig.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg"
+    },
+    {
+      "id": "allianz-sg-journey-secure-mls",
+      "insurerName": "Allianz Global Assistance Singapore",
+      "insurerSlug": "allianz-sg",
+      "productName": "Journey Secure",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 78,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 828469,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 57,
+        "illustrativeMax": 294,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight cancellation",
+        "Trip cancellation",
+        "Trip interruption",
+        "Personal liability",
+        "Adventure sports (add-on)",
+        "COVID-19 cover"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "High-risk sports without add-on",
+        "Pre-existing diseases (unless declared)",
+        "War and nuclear risks",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 92.66,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero deductible option",
+        "Schengen visa compliant",
+        "Annual multi-trip option"
+      ],
+      "sourceUrl": "https://www.allianz-travel.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg"
+    },
+    {
+      "id": "great-eastern-globe-trotter-gold-sps",
+      "insurerName": "Great Eastern Life",
+      "insurerSlug": "great-eastern",
+      "productName": "Globe Trotter Gold",
+      "category": "travel",
+      "subCategory": "senior",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 525804,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 51,
+        "illustrativeMax": 288,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergencies abroad",
+        "Trip cancellation",
+        "COVID-19 cover",
+        "Passport loss",
+        "Baggage delay",
+        "Trip interruption"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "War and nuclear risks",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 94.52,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Schengen visa compliant",
+        "Worldwide 24x7 assistance",
+        "Baggage delay cover",
+        "Trip cancellation cover"
+      ],
+      "sourceUrl": "https://www.greateasternlife.com/sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg"
+    },
+    {
+      "id": "ntuc-income-travel-classic-yts",
+      "insurerName": "NTUC Income Insurance",
+      "insurerSlug": "ntuc-income",
+      "productName": "Travel Classic",
+      "category": "travel",
+      "subCategory": "student",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 876676,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 59,
+        "illustrativeMax": 445,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight delay",
+        "Trip cancellation",
+        "Flight cancellation",
+        "Personal liability",
+        "24x7 assistance",
+        "Emergency evacuation",
+        "Adventure sports (add-on)",
+        "Baggage delay"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 92.08,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Baggage delay cover",
+        "Worldwide 24x7 assistance",
+        "Annual multi-trip option"
+      ],
+      "sourceUrl": "https://www.income.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "sg"
     }
   ]

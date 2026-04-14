@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -359,6 +359,709 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "db-insurance-comprehensive-drive-erd",
+      "insurerName": "DB Insurance Co., Ltd.",
+      "insurerSlug": "db-insurance",
+      "productName": "Comprehensive Drive",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 30000000,
+        "max": 494897994,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 995033,
+        "illustrativeMax": 1591482,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Tyre protect",
+        "Own damage cover",
+        "Third-party liability",
+        "Personal accident cover",
+        "Zero depreciation cover",
+        "Loss of keys cover",
+        "Engine protect"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Consequential loss",
+        "Mechanical/electrical breakdown",
+        "Normal wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 91.82,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "24x7 roadside assistance",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.idbins.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "kb-insurance-secure-motor-plus-kvd",
+      "insurerName": "KB Insurance Co., Ltd.",
+      "insurerSlug": "kb-insurance",
+      "productName": "Secure Motor Plus",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 30000000,
+        "max": 381274476,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 727125,
+        "illustrativeMax": 1973824,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Personal accident cover",
+        "Engine protect",
+        "Zero depreciation cover",
+        "Tyre protect",
+        "Key replacement",
+        "Return to invoice",
+        "Loss of keys cover"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Normal wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 97.14,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Personal accident cover included",
+        "Zero paperwork renewal",
+        "Return to invoice add-on",
+        "Instant claim settlement",
+        "24x7 roadside assistance"
+      ],
+      "sourceUrl": "https://www.kbinsure.co.kr/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "meritz-fire-auto-shield-gold-qzd",
+      "insurerName": "Meritz Fire & Marine Insurance",
+      "insurerSlug": "meritz-fire",
+      "productName": "Auto Shield Gold",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 30000000,
+        "max": 262118680,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 969721,
+        "illustrativeMax": 1734888,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Tyre protect",
+        "Return to invoice",
+        "Engine protect",
+        "Personal accident cover",
+        "Roadside assistance",
+        "Key replacement",
+        "Third-party liability"
+      ],
+      "keyExclusions": [
+        "Mechanical/electrical breakdown",
+        "Consequential loss",
+        "Driving without valid license"
+      ],
+      "claimSettlement": {
+        "ratio": 98.91,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Personal accident cover included",
+        "Return to invoice add-on",
+        "24x7 roadside assistance",
+        "Cashless repairs at 5000+ garages"
+      ],
+      "sourceUrl": "https://www.meritzfire.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "hyundai-marine-drive-easy-x3d",
+      "insurerName": "Hyundai Marine & Fire Insurance",
+      "insurerSlug": "hyundai-marine",
+      "productName": "Drive Easy",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 30000000,
+        "max": 377124844,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1030264,
+        "illustrativeMax": 1688519,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage cover",
+        "Third-party liability",
+        "Personal accident cover",
+        "Engine protect",
+        "Roadside assistance",
+        "Return to invoice",
+        "Key replacement",
+        "NCB protection",
+        "Consumables cover"
+      ],
+      "keyExclusions": [
+        "Mechanical/electrical breakdown",
+        "Driving without valid license",
+        "Normal wear and tear",
+        "Driving under influence"
+      ],
+      "claimSettlement": {
+        "ratio": 98.03,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "Engine protect available",
+        "Return to invoice add-on"
+      ],
+      "sourceUrl": "https://www.hi.co.kr/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "samsung-fire-zero-depreciation-plus-37d",
+      "insurerName": "Samsung Fire & Marine Insurance",
+      "insurerSlug": "samsung-fire",
+      "productName": "Zero Depreciation Plus",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 30000000,
+        "max": 362980768,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 753947,
+        "illustrativeMax": 1709094,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Key replacement",
+        "Personal accident cover",
+        "Zero depreciation cover",
+        "Engine protect",
+        "Third-party liability",
+        "Roadside assistance"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown",
+        "Driving without valid license",
+        "Consequential loss",
+        "Driving under influence"
+      ],
+      "claimSettlement": {
+        "ratio": 98.98,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "NCB protect optional",
+        "Cashless repairs at 5000+ garages",
+        "Return to invoice add-on",
+        "24x7 roadside assistance",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.samsungfire.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "nh-insurance-premium-auto-cover-9bd",
+      "insurerName": "NH Insurance (NongHyup)",
+      "insurerSlug": "nh-insurance",
+      "productName": "Premium Auto Cover",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 30000000,
+        "max": 364603265,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 861615,
+        "illustrativeMax": 1449656,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage cover",
+        "Third-party liability",
+        "Consumables cover",
+        "Key replacement",
+        "Roadside assistance",
+        "NCB protection",
+        "Personal accident cover"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 95.06,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Instant claim settlement",
+        "Return to invoice add-on",
+        "24x7 roadside assistance"
+      ],
+      "sourceUrl": "https://www.nhlife.co.kr/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "db-insurance-total-motor-protect-ffd",
+      "insurerName": "DB Insurance Co., Ltd.",
+      "insurerSlug": "db-insurance",
+      "productName": "Total Motor Protect",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 30000000,
+        "max": 391766234,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 889320,
+        "illustrativeMax": 1765932,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Key replacement",
+        "Own damage cover",
+        "NCB protection",
+        "Engine protect",
+        "Return to invoice",
+        "Third-party liability",
+        "Roadside assistance",
+        "Consumables cover"
+      ],
+      "keyExclusions": [
+        "Consequential loss",
+        "Driving without valid license",
+        "Driving under influence",
+        "Normal wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 93.99,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Return to Invoice",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Instant claim settlement",
+        "Return to invoice add-on",
+        "Cashless repairs at 5000+ garages",
+        "Engine protect available"
+      ],
+      "sourceUrl": "https://www.idbins.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "kb-insurance-smartdrive-classic-ljd",
+      "insurerName": "KB Insurance Co., Ltd.",
+      "insurerSlug": "kb-insurance",
+      "productName": "SmartDrive Classic",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 30000000,
+        "max": 478173056,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 780271,
+        "illustrativeMax": 2135247,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Own damage cover",
+        "Third-party liability",
+        "Tyre protect",
+        "Key replacement",
+        "Consumables cover",
+        "Engine protect",
+        "Personal accident cover"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Mechanical/electrical breakdown",
+        "Normal wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 98.75,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Engine protect available",
+        "Personal accident cover included",
+        "Zero paperwork renewal",
+        "NCB protect optional",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.kbinsure.co.kr/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "meritz-fire-elite-motor-rnd",
+      "insurerName": "Meritz Fire & Marine Insurance",
+      "insurerSlug": "meritz-fire",
+      "productName": "Elite Motor",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 30000000,
+        "max": 359880921,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 650496,
+        "illustrativeMax": 2025181,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Roadside assistance",
+        "NCB protection",
+        "Loss of keys cover",
+        "Key replacement",
+        "Engine protect",
+        "Zero depreciation cover",
+        "Personal accident cover",
+        "Third-party liability",
+        "Tyre protect"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Mechanical/electrical breakdown",
+        "Normal wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 99.41,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Personal accident cover included",
+        "Return to invoice add-on",
+        "NCB protect optional",
+        "Zero paperwork renewal"
+      ],
+      "sourceUrl": "https://www.meritzfire.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "hyundai-marine-car-guard-premier-xrd",
+      "insurerName": "Hyundai Marine & Fire Insurance",
+      "insurerSlug": "hyundai-marine",
+      "productName": "Car Guard Premier",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 30000000,
+        "max": 416160618,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 872979,
+        "illustrativeMax": 1503654,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Key replacement",
+        "Zero depreciation cover",
+        "Own damage cover",
+        "Return to invoice",
+        "Third-party liability",
+        "Consumables cover",
+        "Engine protect"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Driving without valid license",
+        "Driving under influence",
+        "Mechanical/electrical breakdown",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 91.05,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Instant claim settlement",
+        "Engine protect available",
+        "NCB protect optional",
+        "Personal accident cover included"
+      ],
+      "sourceUrl": "https://www.hi.co.kr/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "kr"
     }
   ]

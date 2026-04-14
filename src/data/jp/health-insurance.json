@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -481,6 +481,1136 @@
       "confidenceScore": "high",
       "notes": "",
       "countryCode": "jp"
+    },
+    {
+      "id": "nippon-life-gold-shield-ehv",
+      "insurerName": "Nippon Life Insurance Company",
+      "insurerSlug": "nippon-life",
+      "productName": "Gold Shield",
+      "category": "health",
+      "subCategory": "senior-citizen",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 3000000,
+        "max": 64179275,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 36735,
+        "illustrativeMax": 301261,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Organ donor expenses",
+        "In-patient hospitalization",
+        "AYUSH treatments",
+        "New-born baby cover",
+        "Annual health check-up",
+        "Domiciliary hospitalization",
+        "Maternity benefits",
+        "Restoration of sum insured",
+        "Pre-hospitalization (30-60 days)",
+        "Ambulance charges"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery (unless medically necessary)",
+        "Pre-existing diseases during waiting period",
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 95.41,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "Consumables covered",
+        "Second medical opinion included",
+        "Cashless at network hospitals",
+        "No copay up to age 60"
+      ],
+      "sourceUrl": "https://www.nissay.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "27 months",
+        "specific": "20 months"
+      }
+    },
+    {
+      "id": "dai-ichi-life-platinum-care-klv",
+      "insurerName": "Dai-ichi Life Holdings",
+      "insurerSlug": "dai-ichi-life",
+      "productName": "Platinum Care",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 3000000,
+        "max": 76023058,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 50701,
+        "illustrativeMax": 230428,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "AYUSH treatments",
+        "Organ donor expenses",
+        "Post-hospitalization (60-180 days)",
+        "Domiciliary hospitalization",
+        "No room rent sub-limits",
+        "Day care procedures",
+        "Ambulance charges",
+        "Pre-hospitalization (30-60 days)",
+        "Annual health check-up"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Experimental treatments",
+        "Dental treatment (unless accident)",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 92.5,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "No copay up to age 60",
+        "Consumables covered"
+      ],
+      "sourceUrl": "https://www.dai-ichi-life.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "32 months",
+        "specific": "12 months"
+      }
+    },
+    {
+      "id": "meiji-yasuda-elite-health-qpv",
+      "insurerName": "Meiji Yasuda Life Insurance Company",
+      "insurerSlug": "meiji-yasuda",
+      "productName": "Elite Health",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 71,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 3000000,
+        "max": 60868230,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 34329,
+        "illustrativeMax": 338988,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "No room rent sub-limits",
+        "In-patient hospitalization",
+        "Restoration of sum insured",
+        "Mental health coverage",
+        "Pre-hospitalization (30-60 days)",
+        "Post-hospitalization (60-180 days)"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)",
+        "Experimental treatments",
+        "Pre-existing diseases during waiting period",
+        "Substance abuse treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 94.5,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "Second medical opinion included",
+        "Global emergency cover",
+        "Consumables covered"
+      ],
+      "sourceUrl": "https://www.meijiyasuda.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "45 months",
+        "specific": "19 months"
+      }
+    },
+    {
+      "id": "sumitomo-life-family-floater-plus-wtv",
+      "insurerName": "Sumitomo Life Insurance Company",
+      "insurerSlug": "sumitomo-life",
+      "productName": "Family Floater Plus",
+      "category": "health",
+      "subCategory": "senior-citizen",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 3000000,
+        "max": 69970256,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 33232,
+        "illustrativeMax": 272056,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Pre-hospitalization (30-60 days)",
+        "Restoration of sum insured",
+        "Day care procedures",
+        "Vaccination cover",
+        "New-born baby cover",
+        "Ambulance charges",
+        "In-patient hospitalization",
+        "Mental health coverage"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries",
+        "Substance abuse treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 90.87,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No copay up to age 60",
+        "Global emergency cover",
+        "Consumables covered"
+      ],
+      "sourceUrl": "https://www.sumitomolife.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "35 months",
+        "specific": "14 months"
+      }
+    },
+    {
+      "id": "aflac-jp-wellness-premier-2xv",
+      "insurerName": "Aflac Life Insurance Japan",
+      "insurerSlug": "aflac-jp",
+      "productName": "Wellness Premier",
+      "category": "health",
+      "subCategory": "group",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 76,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 3000000,
+        "max": 72624557,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 43891,
+        "illustrativeMax": 317939,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "AYUSH treatments",
+        "In-patient hospitalization",
+        "New-born baby cover",
+        "Day care procedures",
+        "Modern treatments (robotic surgery, etc.)",
+        "Maternity benefits",
+        "No room rent sub-limits"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Substance abuse treatment",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 96.54,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Automatic sum insured restoration",
+        "No room rent capping",
+        "Global emergency cover",
+        "OPD wellness package"
+      ],
+      "sourceUrl": "https://www.aflac.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "31 months",
+        "specific": "13 months"
+      }
+    },
+    {
+      "id": "metlife-jp-total-protect-91v",
+      "insurerName": "MetLife Insurance K.K.",
+      "insurerSlug": "metlife-jp",
+      "productName": "Total Protect",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 67,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 3000000,
+        "max": 68905060,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 37339,
+        "illustrativeMax": 230593,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Annual health check-up",
+        "Domiciliary hospitalization",
+        "Vaccination cover",
+        "Organ donor expenses",
+        "Day care procedures",
+        "Mental health coverage",
+        "AYUSH treatments"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 91.62,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Lifetime renewal",
+        "No copay up to age 60",
+        "Cashless at network hospitals",
+        "No room rent capping"
+      ],
+      "sourceUrl": "https://www.metlife.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "30 months",
+        "specific": "24 months"
+      }
+    },
+    {
+      "id": "sony-life-medisure-advantage-f5v",
+      "insurerName": "Sony Life Insurance Company",
+      "insurerSlug": "sony-life",
+      "productName": "MediSure Advantage",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 3000000,
+        "max": 74161212,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 39533,
+        "illustrativeMax": 269935,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Pre-hospitalization (30-60 days)",
+        "Day care procedures",
+        "Annual health check-up",
+        "Maternity benefits",
+        "Vaccination cover",
+        "Restoration of sum insured",
+        "No room rent sub-limits",
+        "Post-hospitalization (60-180 days)",
+        "Domiciliary hospitalization",
+        "In-patient hospitalization"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 99,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Lifetime renewal",
+        "OPD wellness package",
+        "Consumables covered"
+      ],
+      "sourceUrl": "https://www.sonylife.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "43 months",
+        "specific": "14 months"
+      }
+    },
+    {
+      "id": "orix-life-health-elite-l9v",
+      "insurerName": "Orix Life Insurance",
+      "insurerSlug": "orix-life",
+      "productName": "Health Elite",
+      "category": "health",
+      "subCategory": "group",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 3000000,
+        "max": 53334578,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 52293,
+        "illustrativeMax": 241089,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Domiciliary hospitalization",
+        "Post-hospitalization (60-180 days)",
+        "New-born baby cover",
+        "Restoration of sum insured",
+        "No room rent sub-limits",
+        "Ambulance charges",
+        "Organ donor expenses"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Pre-existing diseases during waiting period",
+        "Dental treatment (unless accident)",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 95.24,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Day 1 PED cover (optional)",
+        "Premium discount for claim-free years",
+        "No pre-policy medical check (under 45)",
+        "No copay up to age 60",
+        "Lifetime renewal"
+      ],
+      "sourceUrl": "https://www.orixlife.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "33 months",
+        "specific": "22 months"
+      }
+    },
+    {
+      "id": "lifenet-comprehensive-care-rdv",
+      "insurerName": "Lifenet Insurance Company",
+      "insurerSlug": "lifenet",
+      "productName": "Comprehensive Care",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 80,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 3000000,
+        "max": 65071051,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 37549,
+        "illustrativeMax": 279036,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Post-hospitalization (60-180 days)",
+        "AYUSH treatments",
+        "New-born baby cover",
+        "Maternity benefits",
+        "Mental health coverage",
+        "Modern treatments (robotic surgery, etc.)"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Dental treatment (unless accident)",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 99.16,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Premium discount for claim-free years",
+        "Day 1 PED cover (optional)",
+        "Lifetime renewal",
+        "No copay up to age 60"
+      ],
+      "sourceUrl": "https://www.lifenet-seimei.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "40 months",
+        "specific": "12 months"
+      }
+    },
+    {
+      "id": "axa-direct-jp-smart-health-saver-xhv",
+      "insurerName": "AXA Direct Life / AXA Direct Non-Life",
+      "insurerSlug": "axa-direct-jp",
+      "productName": "Smart Health Saver",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 74,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 3000000,
+        "max": 93290088,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 40472,
+        "illustrativeMax": 271558,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Organ donor expenses",
+        "No room rent sub-limits",
+        "AYUSH treatments",
+        "Vaccination cover",
+        "Annual health check-up",
+        "Ambulance charges",
+        "Modern treatments (robotic surgery, etc.)",
+        "Restoration of sum insured",
+        "Maternity benefits"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Pre-existing diseases during waiting period",
+        "Dental treatment (unless accident)",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 96.19,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No copay up to age 60",
+        "Global emergency cover",
+        "Day 1 PED cover (optional)",
+        "Second medical opinion included",
+        "OPD wellness package"
+      ],
+      "sourceUrl": "https://www.axa-direct.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "39 months",
+        "specific": "15 months"
+      }
+    },
+    {
+      "id": "nippon-life-ultra-protect-3lv",
+      "insurerName": "Nippon Life Insurance Company",
+      "insurerSlug": "nippon-life",
+      "productName": "Ultra Protect",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 3000000,
+        "max": 99277153,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 51839,
+        "illustrativeMax": 300067,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Mental health coverage",
+        "No room rent sub-limits",
+        "AYUSH treatments",
+        "Annual health check-up",
+        "Restoration of sum insured",
+        "In-patient hospitalization",
+        "Domiciliary hospitalization",
+        "Vaccination cover"
+      ],
+      "keyExclusions": [
+        "Dental treatment (unless accident)",
+        "Experimental treatments",
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 91.67,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "Cashless at network hospitals",
+        "Lifetime renewal"
+      ],
+      "sourceUrl": "https://www.nissay.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "28 months",
+        "specific": "24 months"
+      }
+    },
+    {
+      "id": "dai-ichi-life-supreme-shield-9pv",
+      "insurerName": "Dai-ichi Life Holdings",
+      "insurerSlug": "dai-ichi-life",
+      "productName": "Supreme Shield",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 73,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 3000000,
+        "max": 57572350,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 30878,
+        "illustrativeMax": 369801,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Pre-hospitalization (30-60 days)",
+        "In-patient hospitalization",
+        "No room rent sub-limits",
+        "Annual health check-up",
+        "Mental health coverage",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Day care procedures"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 92.02,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Automatic sum insured restoration",
+        "Second medical opinion included",
+        "Day 1 PED cover (optional)"
+      ],
+      "sourceUrl": "https://www.dai-ichi-life.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "44 months",
+        "specific": "24 months"
+      }
+    },
+    {
+      "id": "meiji-yasuda-family-guardian-ftv",
+      "insurerName": "Meiji Yasuda Life Insurance Company",
+      "insurerSlug": "meiji-yasuda",
+      "productName": "Family Guardian",
+      "category": "health",
+      "subCategory": "critical-illness",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 79,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 3000000,
+        "max": 96912183,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 48833,
+        "illustrativeMax": 286131,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Organ donor expenses",
+        "New-born baby cover",
+        "Restoration of sum insured",
+        "AYUSH treatments",
+        "Maternity benefits",
+        "In-patient hospitalization",
+        "Vaccination cover",
+        "Post-hospitalization (60-180 days)",
+        "Modern treatments (robotic surgery, etc.)"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)",
+        "Substance abuse treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 95.28,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "OPD wellness package",
+        "No copay up to age 60",
+        "Global emergency cover"
+      ],
+      "sourceUrl": "https://www.meijiyasuda.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "36 months",
+        "specific": "15 months"
+      }
+    },
+    {
+      "id": "sumitomo-life-secure-health-lxv",
+      "insurerName": "Sumitomo Life Insurance Company",
+      "insurerSlug": "sumitomo-life",
+      "productName": "Secure Health",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 73,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 3000000,
+        "max": 95612617,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 33556,
+        "illustrativeMax": 346858,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Post-hospitalization (60-180 days)",
+        "Maternity benefits",
+        "Vaccination cover",
+        "No room rent sub-limits",
+        "Pre-hospitalization (30-60 days)",
+        "Restoration of sum insured",
+        "AYUSH treatments",
+        "Annual health check-up"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 90.22,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "Cashless at network hospitals",
+        "Automatic sum insured restoration",
+        "Lifetime renewal"
+      ],
+      "sourceUrl": "https://www.sumitomolife.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "45 months",
+        "specific": "15 months"
+      }
+    },
+    {
+      "id": "aflac-jp-premier-wellness-s1v",
+      "insurerName": "Aflac Life Insurance Japan",
+      "insurerSlug": "aflac-jp",
+      "productName": "Premier Wellness",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 3000000,
+        "max": 97567478,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 31531,
+        "illustrativeMax": 260205,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Ambulance charges",
+        "AYUSH treatments",
+        "No room rent sub-limits",
+        "Day care procedures",
+        "Restoration of sum insured",
+        "Annual health check-up",
+        "Organ donor expenses",
+        "Mental health coverage"
+      ],
+      "keyExclusions": [
+        "Dental treatment (unless accident)",
+        "Substance abuse treatment",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 94.24,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Lifetime renewal",
+        "Global emergency cover",
+        "OPD wellness package",
+        "Second medical opinion included",
+        "No pre-policy medical check (under 45)"
+      ],
+      "sourceUrl": "https://www.aflac.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "47 months",
+        "specific": "16 months"
+      }
     }
   ]
 }

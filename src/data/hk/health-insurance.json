@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -463,6 +463,1203 @@
       "confidenceScore": "high",
       "notes": "",
       "countryCode": "hk"
+    },
+    {
+      "id": "aia-hk-gold-shield-ea9",
+      "insurerName": "AIA International Limited (Hong Kong)",
+      "insurerSlug": "aia-hk",
+      "productName": "Gold Shield",
+      "category": "health",
+      "subCategory": "senior-citizen",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 73,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 10038026,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 4605,
+        "illustrativeMax": 31248,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "AYUSH treatments",
+        "Organ donor expenses",
+        "Post-hospitalization (60-180 days)",
+        "Mental health coverage",
+        "No room rent sub-limits",
+        "Annual health check-up",
+        "Modern treatments (robotic surgery, etc.)"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 92.05,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Premium discount for claim-free years",
+        "No room rent capping",
+        "Cashless at network hospitals"
+      ],
+      "sourceUrl": "https://www.aia.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "41 months",
+        "specific": "24 months"
+      },
+      "networkHospitals": {
+        "count": 73,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "prudential-hk-platinum-care-ke9",
+      "insurerName": "Prudential Hong Kong Limited",
+      "insurerSlug": "prudential-hk",
+      "productName": "Platinum Care",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 68,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 16977367,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 5719,
+        "illustrativeMax": 41662,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Vaccination cover",
+        "Maternity benefits",
+        "Modern treatments (robotic surgery, etc.)",
+        "In-patient hospitalization",
+        "Restoration of sum insured",
+        "New-born baby cover"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Substance abuse treatment",
+        "Cosmetic surgery (unless medically necessary)",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 96.76,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No pre-policy medical check (under 45)",
+        "No room rent capping",
+        "Cashless at network hospitals",
+        "Lifetime renewal",
+        "Day 1 PED cover (optional)"
+      ],
+      "sourceUrl": "https://www.prudential.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "43 months",
+        "specific": "16 months"
+      },
+      "networkHospitals": {
+        "count": 63,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "manulife-hk-elite-health-qi9",
+      "insurerName": "Manulife (International) Limited",
+      "insurerSlug": "manulife-hk",
+      "productName": "Elite Health",
+      "category": "health",
+      "subCategory": "group",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 11752963,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 5107,
+        "illustrativeMax": 40672,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Restoration of sum insured",
+        "Pre-hospitalization (30-60 days)",
+        "Annual health check-up",
+        "Maternity benefits",
+        "No room rent sub-limits",
+        "Domiciliary hospitalization",
+        "Day care procedures",
+        "Mental health coverage",
+        "Ambulance charges"
+      ],
+      "keyExclusions": [
+        "Dental treatment (unless accident)",
+        "Pre-existing diseases during waiting period",
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)",
+        "Substance abuse treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 96.26,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No pre-policy medical check (under 45)",
+        "Day 1 PED cover (optional)",
+        "Lifetime renewal",
+        "Second medical opinion included",
+        "Cashless at network hospitals"
+      ],
+      "sourceUrl": "https://www.manulife.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "41 months",
+        "specific": "12 months"
+      },
+      "networkHospitals": {
+        "count": 66,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "axa-hk-family-floater-plus-wm9",
+      "insurerName": "AXA General Insurance Hong Kong",
+      "insurerSlug": "axa-hk",
+      "productName": "Family Floater Plus",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 12555340,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 7038,
+        "illustrativeMax": 32910,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Post-hospitalization (60-180 days)",
+        "New-born baby cover",
+        "Vaccination cover",
+        "Restoration of sum insured",
+        "Domiciliary hospitalization",
+        "Day care procedures"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Substance abuse treatment",
+        "Dental treatment (unless accident)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 92.59,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Automatic sum insured restoration",
+        "No room rent capping",
+        "Premium discount for claim-free years"
+      ],
+      "sourceUrl": "https://www.axa.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "42 months",
+        "specific": "12 months"
+      },
+      "networkHospitals": {
+        "count": 66,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "bupa-hk-wellness-premier-2q9",
+      "insurerName": "Bupa (Asia) Limited",
+      "insurerSlug": "bupa-hk",
+      "productName": "Wellness Premier",
+      "category": "health",
+      "subCategory": "group",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 80,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 13182583,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 6302,
+        "illustrativeMax": 32925,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Vaccination cover",
+        "Post-hospitalization (60-180 days)",
+        "Organ donor expenses",
+        "New-born baby cover",
+        "Mental health coverage",
+        "Restoration of sum insured"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 91.45,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Premium discount for claim-free years",
+        "OPD wellness package",
+        "Day 1 PED cover (optional)",
+        "No room rent capping"
+      ],
+      "sourceUrl": "https://www.bupa.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "43 months",
+        "specific": "17 months"
+      },
+      "networkHospitals": {
+        "count": 67,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "fwd-hk-total-protect-8u9",
+      "insurerName": "FWD Life Insurance Company (Bermuda) Limited",
+      "insurerSlug": "fwd-hk",
+      "productName": "Total Protect",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 67,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 12093077,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 5576,
+        "illustrativeMax": 41068,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Modern treatments (robotic surgery, etc.)",
+        "AYUSH treatments",
+        "Ambulance charges",
+        "Mental health coverage",
+        "Organ donor expenses"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery (unless medically necessary)",
+        "Experimental treatments",
+        "Substance abuse treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 98.91,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Global emergency cover",
+        "Cashless at network hospitals",
+        "Day 1 PED cover (optional)",
+        "No copay up to age 60"
+      ],
+      "sourceUrl": "https://www.fwd.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "30 months",
+        "specific": "22 months"
+      },
+      "networkHospitals": {
+        "count": 48,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "cigna-hk-medisure-advantage-ey9",
+      "insurerName": "Cigna Worldwide Life Insurance Company Limited",
+      "insurerSlug": "cigna-hk",
+      "productName": "MediSure Advantage",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 77,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 13271816,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 4470,
+        "illustrativeMax": 41495,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "No room rent sub-limits",
+        "Day care procedures",
+        "Annual health check-up",
+        "In-patient hospitalization",
+        "New-born baby cover",
+        "Modern treatments (robotic surgery, etc.)",
+        "Organ donor expenses",
+        "Pre-hospitalization (30-60 days)",
+        "Ambulance charges",
+        "Vaccination cover"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 92.81,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Premium discount for claim-free years",
+        "No pre-policy medical check (under 45)",
+        "Lifetime renewal",
+        "OPD wellness package",
+        "Day 1 PED cover (optional)"
+      ],
+      "sourceUrl": "https://www.cigna.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "29 months",
+        "specific": "24 months"
+      },
+      "networkHospitals": {
+        "count": 64,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "sun-life-hk-health-elite-l29",
+      "insurerName": "Sun Life Hong Kong Limited",
+      "insurerSlug": "sun-life-hk",
+      "productName": "Health Elite",
+      "category": "health",
+      "subCategory": "critical-illness",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 10330319,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 4377,
+        "illustrativeMax": 31295,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Pre-hospitalization (30-60 days)",
+        "No room rent sub-limits",
+        "In-patient hospitalization",
+        "AYUSH treatments",
+        "Maternity benefits",
+        "Restoration of sum insured",
+        "Annual health check-up",
+        "Post-hospitalization (60-180 days)",
+        "Organ donor expenses",
+        "Vaccination cover"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 95,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Consumables covered",
+        "No room rent capping",
+        "Cashless at network hospitals",
+        "No copay up to age 60",
+        "Automatic sum insured restoration"
+      ],
+      "sourceUrl": "https://www.sunlife.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "31 months",
+        "specific": "24 months"
+      },
+      "networkHospitals": {
+        "count": 46,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "zurich-hk-comprehensive-care-r69",
+      "insurerName": "Zurich Insurance (Hong Kong)",
+      "insurerSlug": "zurich-hk",
+      "productName": "Comprehensive Care",
+      "category": "health",
+      "subCategory": "senior-citizen",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 77,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 12388960,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 6598,
+        "illustrativeMax": 32484,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Pre-hospitalization (30-60 days)",
+        "Post-hospitalization (60-180 days)",
+        "Day care procedures",
+        "Ambulance charges",
+        "Annual health check-up",
+        "AYUSH treatments",
+        "Restoration of sum insured",
+        "Organ donor expenses"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries",
+        "Substance abuse treatment",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 93.89,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Premium discount for claim-free years",
+        "No pre-policy medical check (under 45)",
+        "Automatic sum insured restoration",
+        "OPD wellness package"
+      ],
+      "sourceUrl": "https://www.zurich.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "39 months",
+        "specific": "23 months"
+      },
+      "networkHospitals": {
+        "count": 41,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "hsbc-life-hk-smart-health-saver-xa9",
+      "insurerName": "HSBC Life (International) Limited",
+      "insurerSlug": "hsbc-life-hk",
+      "productName": "Smart Health Saver",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 79,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 10771439,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 7022,
+        "illustrativeMax": 41915,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Domiciliary hospitalization",
+        "New-born baby cover",
+        "AYUSH treatments",
+        "Annual health check-up",
+        "Ambulance charges",
+        "Modern treatments (robotic surgery, etc.)",
+        "No room rent sub-limits",
+        "Vaccination cover"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Substance abuse treatment",
+        "Dental treatment (unless accident)",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 96.05,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No copay up to age 60",
+        "Global emergency cover",
+        "Second medical opinion included",
+        "OPD wellness package"
+      ],
+      "sourceUrl": "https://www.hsbc.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "41 months",
+        "specific": "22 months"
+      },
+      "networkHospitals": {
+        "count": 65,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "aia-hk-ultra-protect-3e9",
+      "insurerName": "AIA International Limited (Hong Kong)",
+      "insurerSlug": "aia-hk",
+      "productName": "Ultra Protect",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 73,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 15857101,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 6662,
+        "illustrativeMax": 31854,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "New-born baby cover",
+        "AYUSH treatments",
+        "Vaccination cover",
+        "Organ donor expenses",
+        "Domiciliary hospitalization",
+        "Ambulance charges",
+        "Mental health coverage",
+        "Annual health check-up",
+        "Day care procedures",
+        "No room rent sub-limits"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Substance abuse treatment",
+        "Experimental treatments",
+        "Dental treatment (unless accident)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 91.34,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "Day 1 PED cover (optional)",
+        "Cashless at network hospitals"
+      ],
+      "sourceUrl": "https://www.aia.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "45 months",
+        "specific": "17 months"
+      },
+      "networkHospitals": {
+        "count": 71,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "prudential-hk-supreme-shield-9i9",
+      "insurerName": "Prudential Hong Kong Limited",
+      "insurerSlug": "prudential-hk",
+      "productName": "Supreme Shield",
+      "category": "health",
+      "subCategory": "critical-illness",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 17550720,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 5082,
+        "illustrativeMax": 40995,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Day care procedures",
+        "Modern treatments (robotic surgery, etc.)",
+        "AYUSH treatments",
+        "Post-hospitalization (60-180 days)",
+        "Annual health check-up",
+        "No room rent sub-limits",
+        "Organ donor expenses",
+        "Vaccination cover"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Dental treatment (unless accident)",
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 95.86,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Premium discount for claim-free years",
+        "Global emergency cover",
+        "Consumables covered",
+        "No copay up to age 60",
+        "No pre-policy medical check (under 45)"
+      ],
+      "sourceUrl": "https://www.prudential.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "29 months",
+        "specific": "24 months"
+      },
+      "networkHospitals": {
+        "count": 71,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "manulife-hk-family-guardian-fm9",
+      "insurerName": "Manulife (International) Limited",
+      "insurerSlug": "manulife-hk",
+      "productName": "Family Guardian",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 78,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 15931925,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 4440,
+        "illustrativeMax": 35445,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Modern treatments (robotic surgery, etc.)",
+        "Post-hospitalization (60-180 days)",
+        "New-born baby cover",
+        "Organ donor expenses",
+        "Ambulance charges",
+        "Pre-hospitalization (30-60 days)"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)",
+        "Pre-existing diseases during waiting period"
+      ],
+      "claimSettlement": {
+        "ratio": 91.62,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "Global emergency cover",
+        "Consumables covered",
+        "Cashless at network hospitals",
+        "No pre-policy medical check (under 45)"
+      ],
+      "sourceUrl": "https://www.manulife.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "27 months",
+        "specific": "15 months"
+      },
+      "networkHospitals": {
+        "count": 39,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "axa-hk-secure-health-lq9",
+      "insurerName": "AXA General Insurance Hong Kong",
+      "insurerSlug": "axa-hk",
+      "productName": "Secure Health",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 10019839,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 5372,
+        "illustrativeMax": 28093,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Organ donor expenses",
+        "Mental health coverage",
+        "In-patient hospitalization",
+        "Pre-hospitalization (30-60 days)",
+        "Annual health check-up",
+        "Restoration of sum insured",
+        "Domiciliary hospitalization",
+        "New-born baby cover",
+        "Post-hospitalization (60-180 days)",
+        "Day care procedures"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Self-inflicted injuries",
+        "Experimental treatments",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 91.36,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No pre-policy medical check (under 45)",
+        "Global emergency cover",
+        "Cashless at network hospitals",
+        "No room rent capping",
+        "Consumables covered"
+      ],
+      "sourceUrl": "https://www.axa.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "32 months",
+        "specific": "22 months"
+      },
+      "networkHospitals": {
+        "count": 66,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "bupa-hk-premier-wellness-ru9",
+      "insurerName": "Bupa (Asia) Limited",
+      "insurerSlug": "bupa-hk",
+      "productName": "Premier Wellness",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 17745802,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 6249,
+        "illustrativeMax": 37757,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Restoration of sum insured",
+        "Post-hospitalization (60-180 days)",
+        "Day care procedures",
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Vaccination cover",
+        "Annual health check-up",
+        "Mental health coverage"
+      ],
+      "keyExclusions": [
+        "Dental treatment (unless accident)",
+        "Substance abuse treatment",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 98.31,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Second medical opinion included",
+        "Premium discount for claim-free years",
+        "Day 1 PED cover (optional)",
+        "OPD wellness package",
+        "Lifetime renewal"
+      ],
+      "sourceUrl": "https://www.bupa.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "37 months",
+        "specific": "16 months"
+      },
+      "networkHospitals": {
+        "count": 67,
+        "source": "Insurer website"
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -473,6 +473,843 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "high",
       "notes": "",
+      "countryCode": "au"
+    },
+    {
+      "id": "hbf-comprehensive-drive-dpb",
+      "insurerName": "HBF Health",
+      "insurerSlug": "hbf",
+      "productName": "Comprehensive Drive",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 20000,
+        "max": 263347,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1160,
+        "illustrativeMax": 2129,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Consumables cover",
+        "Own damage cover",
+        "Tyre protect",
+        "Zero depreciation cover",
+        "Roadside assistance",
+        "Third-party liability",
+        "Engine protect"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 90.95,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Return to invoice add-on",
+        "Instant claim settlement",
+        "Engine protect available"
+      ],
+      "sourceUrl": "https://www.hbf.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au"
+    },
+    {
+      "id": "allianz-au-secure-motor-plus-jtb",
+      "insurerName": "Allianz Australia",
+      "insurerSlug": "allianz-au",
+      "productName": "Secure Motor Plus",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 20000,
+        "max": 334910,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 814,
+        "illustrativeMax": 2281,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Engine protect",
+        "Personal accident cover",
+        "Consumables cover",
+        "Roadside assistance",
+        "Key replacement",
+        "Zero depreciation cover",
+        "Third-party liability",
+        "Own damage cover"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown",
+        "Consequential loss",
+        "Driving under influence"
+      ],
+      "claimSettlement": {
+        "ratio": 94.76,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Return to Invoice",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "Return to invoice add-on",
+        "24x7 roadside assistance",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.allianz.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au"
+    },
+    {
+      "id": "aami-auto-shield-gold-pxb",
+      "insurerName": "AAMI",
+      "insurerSlug": "aami",
+      "productName": "Auto Shield Gold",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 20000,
+        "max": 303902,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 727,
+        "illustrativeMax": 1785,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage cover",
+        "Return to invoice",
+        "Third-party liability",
+        "Personal accident cover",
+        "Zero depreciation cover",
+        "NCB protection",
+        "Loss of keys cover",
+        "Tyre protect"
+      ],
+      "keyExclusions": [
+        "Consequential loss",
+        "Normal wear and tear",
+        "Driving without valid license",
+        "Driving under influence"
+      ],
+      "claimSettlement": {
+        "ratio": 90.88,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Return to Invoice"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "NCB protect optional",
+        "Zero paperwork renewal",
+        "Engine protect available"
+      ],
+      "sourceUrl": "https://www.aami.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au"
+    },
+    {
+      "id": "nrma-drive-easy-w1b",
+      "insurerName": "NRMA Insurance",
+      "insurerSlug": "nrma",
+      "productName": "Drive Easy",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 20000,
+        "max": 313407,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 953,
+        "illustrativeMax": 2047,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Tyre protect",
+        "Roadside assistance",
+        "Loss of keys cover",
+        "Engine protect",
+        "Key replacement",
+        "Zero depreciation cover",
+        "Return to invoice",
+        "Personal accident cover",
+        "Consumables cover"
+      ],
+      "keyExclusions": [
+        "Mechanical/electrical breakdown",
+        "Driving under influence",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 96.95,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero paperwork renewal",
+        "NCB protect optional",
+        "Personal accident cover included"
+      ],
+      "sourceUrl": "https://www.nrma.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au"
+    },
+    {
+      "id": "suncorp-zero-depreciation-plus-25b",
+      "insurerName": "Suncorp Group",
+      "insurerSlug": "suncorp",
+      "productName": "Zero Depreciation Plus",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 20000,
+        "max": 276811,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1187,
+        "illustrativeMax": 1957,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Third-party liability",
+        "NCB protection",
+        "Tyre protect",
+        "Return to invoice",
+        "Loss of keys cover",
+        "Personal accident cover",
+        "Roadside assistance",
+        "Engine protect"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 94.95,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Engine protect available",
+        "Cashless repairs at 5000+ garages",
+        "NCB protect optional",
+        "Personal accident cover included",
+        "24x7 roadside assistance"
+      ],
+      "sourceUrl": "https://www.suncorp.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au"
+    },
+    {
+      "id": "qbe-premium-auto-cover-89b",
+      "insurerName": "QBE Insurance Group",
+      "insurerSlug": "qbe",
+      "productName": "Premium Auto Cover",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 20000,
+        "max": 484826,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 796,
+        "illustrativeMax": 1888,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Key replacement",
+        "NCB protection",
+        "Tyre protect",
+        "Return to invoice",
+        "Roadside assistance",
+        "Engine protect"
+      ],
+      "keyExclusions": [
+        "Mechanical/electrical breakdown",
+        "Driving under influence",
+        "Normal wear and tear",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 91.52,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Return to invoice add-on",
+        "Cashless repairs at 5000+ garages",
+        "Zero paperwork renewal",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.qbe.com/au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au"
+    },
+    {
+      "id": "budget-direct-total-motor-protect-edb",
+      "insurerName": "Budget Direct",
+      "insurerSlug": "budget-direct",
+      "productName": "Total Motor Protect",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 20000,
+        "max": 386857,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 922,
+        "illustrativeMax": 2377,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Own damage cover",
+        "Loss of keys cover",
+        "Key replacement",
+        "Third-party liability",
+        "Engine protect"
+      ],
+      "keyExclusions": [
+        "Mechanical/electrical breakdown",
+        "Consequential loss",
+        "Normal wear and tear",
+        "Driving without valid license",
+        "Driving under influence"
+      ],
+      "claimSettlement": {
+        "ratio": 92.76,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero paperwork renewal",
+        "Cashless repairs at 5000+ garages",
+        "Return to invoice add-on",
+        "24x7 roadside assistance"
+      ],
+      "sourceUrl": "https://www.budgetdirect.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au"
+    },
+    {
+      "id": "hbf-smartdrive-classic-khb",
+      "insurerName": "HBF Health",
+      "insurerSlug": "hbf",
+      "productName": "SmartDrive Classic",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 20000,
+        "max": 344741,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 725,
+        "illustrativeMax": 2586,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Roadside assistance",
+        "Own damage cover",
+        "Tyre protect",
+        "Third-party liability",
+        "Key replacement",
+        "Loss of keys cover",
+        "Engine protect"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Consequential loss",
+        "Normal wear and tear",
+        "Driving without valid license",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 91.14,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "NCB protect optional",
+        "Instant claim settlement",
+        "Personal accident cover included"
+      ],
+      "sourceUrl": "https://www.hbf.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au"
+    },
+    {
+      "id": "allianz-au-elite-motor-qlb",
+      "insurerName": "Allianz Australia",
+      "insurerSlug": "allianz-au",
+      "productName": "Elite Motor",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 20000,
+        "max": 484589,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 807,
+        "illustrativeMax": 2635,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "NCB protection",
+        "Own damage cover",
+        "Loss of keys cover",
+        "Consumables cover",
+        "Engine protect",
+        "Roadside assistance",
+        "Third-party liability",
+        "Personal accident cover"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Mechanical/electrical breakdown",
+        "Normal wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 97.3,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Engine protect available",
+        "Personal accident cover included",
+        "24x7 roadside assistance"
+      ],
+      "sourceUrl": "https://www.allianz.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au"
+    },
+    {
+      "id": "aami-car-guard-premier-wpb",
+      "insurerName": "AAMI",
+      "insurerSlug": "aami",
+      "productName": "Car Guard Premier",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 20000,
+        "max": 456554,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1114,
+        "illustrativeMax": 2727,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Tyre protect",
+        "Personal accident cover",
+        "Key replacement",
+        "Third-party liability",
+        "NCB protection",
+        "Return to invoice",
+        "Own damage cover",
+        "Loss of keys cover"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Normal wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 94.8,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Return to Invoice",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "NCB protect optional",
+        "Return to invoice add-on",
+        "Zero paperwork renewal",
+        "Cashless repairs at 5000+ garages"
+      ],
+      "sourceUrl": "https://www.aami.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au"
+    },
+    {
+      "id": "nrma-auto-saver-2tb",
+      "insurerName": "NRMA Insurance",
+      "insurerSlug": "nrma",
+      "productName": "Auto Saver",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 20000,
+        "max": 392607,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1192,
+        "illustrativeMax": 2278,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Personal accident cover",
+        "Key replacement",
+        "Loss of keys cover",
+        "Roadside assistance",
+        "Third-party liability"
+      ],
+      "keyExclusions": [
+        "Mechanical/electrical breakdown",
+        "Driving without valid license",
+        "Consequential loss",
+        "Normal wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 98.46,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "NCB protect optional",
+        "Cashless repairs at 5000+ garages",
+        "Zero paperwork renewal"
+      ],
+      "sourceUrl": "https://www.nrma.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "au"
+    },
+    {
+      "id": "suncorp-drivesure-advantage-8xb",
+      "insurerName": "Suncorp Group",
+      "insurerSlug": "suncorp",
+      "productName": "DriveSure Advantage",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 20000,
+        "max": 354294,
+        "options": [],
+        "currency": "AUD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1042,
+        "illustrativeMax": 1688,
+        "assumptions": "35yo Australian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "NCB protection",
+        "Return to invoice",
+        "Key replacement",
+        "Loss of keys cover",
+        "Zero depreciation cover",
+        "Engine protect"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Normal wear and tear",
+        "Consequential loss",
+        "Driving under influence",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 90.61,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "NCB protect optional",
+        "Zero paperwork renewal",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.suncorp.com.au/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "au"
     }
   ]

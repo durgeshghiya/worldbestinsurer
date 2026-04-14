@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -371,6 +371,712 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "db-insurance-travel-secure-ezc",
+      "insurerName": "DB Insurance Co., Ltd.",
+      "insurerSlug": "db-insurance",
+      "productName": "Travel Secure",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 347286548,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 48327,
+        "illustrativeMax": 272592,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip interruption",
+        "Trip cancellation",
+        "COVID-19 cover",
+        "Emergency evacuation",
+        "24x7 assistance",
+        "Pre-existing disease (optional)"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 95.83,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero deductible option",
+        "Schengen visa compliant",
+        "Adventure sports add-on",
+        "Baggage delay cover"
+      ],
+      "sourceUrl": "https://www.idbins.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "kb-insurance-globe-protect-l3c",
+      "insurerName": "KB Insurance Co., Ltd.",
+      "insurerSlug": "kb-insurance",
+      "productName": "Globe Protect",
+      "category": "travel",
+      "subCategory": "senior",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 445613925,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 41083,
+        "illustrativeMax": 258513,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip cancellation",
+        "Emergency evacuation",
+        "Flight delay",
+        "Passport loss",
+        "Baggage loss",
+        "Adventure sports (add-on)",
+        "COVID-19 cover",
+        "24x7 assistance"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "War and nuclear risks",
+        "Pregnancy complications",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 90.56,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Adventure sports add-on",
+        "Annual multi-trip option",
+        "Worldwide 24x7 assistance",
+        "Baggage delay cover",
+        "Schengen visa compliant"
+      ],
+      "sourceUrl": "https://www.kbinsure.co.kr/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "meritz-fire-explorer-plus-r7c",
+      "insurerName": "Meritz Fire & Marine Insurance",
+      "insurerSlug": "meritz-fire",
+      "productName": "Explorer Plus",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 77,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 395998473,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 50528,
+        "illustrativeMax": 390765,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Personal liability",
+        "24x7 assistance",
+        "Trip cancellation",
+        "Flight delay",
+        "Emergency evacuation",
+        "Medical emergencies abroad",
+        "Baggage delay"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "Pre-existing diseases (unless declared)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 94.28,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Baggage delay cover",
+        "Adventure sports add-on",
+        "Zero deductible option",
+        "Annual multi-trip option"
+      ],
+      "sourceUrl": "https://www.meritzfire.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "hyundai-marine-travel-elite-xbc",
+      "insurerName": "Hyundai Marine & Fire Insurance",
+      "insurerSlug": "hyundai-marine",
+      "productName": "Travel Elite",
+      "category": "travel",
+      "subCategory": "single-trip",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 390745271,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 44318,
+        "illustrativeMax": 383064,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "COVID-19 cover",
+        "Baggage loss",
+        "Trip interruption",
+        "Adventure sports (add-on)",
+        "Baggage delay",
+        "Flight delay",
+        "Pre-existing disease (optional)",
+        "24x7 assistance",
+        "Trip cancellation",
+        "Emergency evacuation"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 92.6,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Schengen visa compliant",
+        "Cashless hospitalization abroad",
+        "Worldwide 24x7 assistance",
+        "Zero deductible option",
+        "Annual multi-trip option"
+      ],
+      "sourceUrl": "https://www.hi.co.kr/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "samsung-fire-voyage-shield-3fc",
+      "insurerName": "Samsung Fire & Marine Insurance",
+      "insurerSlug": "samsung-fire",
+      "productName": "Voyage Shield",
+      "category": "travel",
+      "subCategory": "single-trip",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 68,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 363729830,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 44390,
+        "illustrativeMax": 347571,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergencies abroad",
+        "24x7 assistance",
+        "Emergency evacuation",
+        "Adventure sports (add-on)",
+        "Baggage loss",
+        "Passport loss",
+        "Flight delay",
+        "COVID-19 cover"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Pregnancy complications",
+        "Pre-existing diseases (unless declared)",
+        "High-risk sports without add-on",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 97.85,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero deductible option",
+        "Worldwide 24x7 assistance",
+        "Annual multi-trip option"
+      ],
+      "sourceUrl": "https://www.samsungfire.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "nh-insurance-international-travel-pro-9jc",
+      "insurerName": "NH Insurance (NongHyup)",
+      "insurerSlug": "nh-insurance",
+      "productName": "International Travel Pro",
+      "category": "travel",
+      "subCategory": "student",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 290064596,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 41673,
+        "illustrativeMax": 336618,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Pre-existing disease (optional)",
+        "Trip interruption",
+        "Medical emergencies abroad",
+        "Flight delay",
+        "Baggage loss",
+        "Emergency evacuation",
+        "Adventure sports (add-on)",
+        "24x7 assistance"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "Pregnancy complications",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 94.1,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Baggage delay cover",
+        "Zero deductible option",
+        "Worldwide 24x7 assistance",
+        "Adventure sports add-on",
+        "Trip cancellation cover"
+      ],
+      "sourceUrl": "https://www.nhlife.co.kr/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "db-insurance-travel-smart-fnc",
+      "insurerName": "DB Insurance Co., Ltd.",
+      "insurerSlug": "db-insurance",
+      "productName": "Travel Smart",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 71,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 493279692,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 39813,
+        "illustrativeMax": 383090,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "COVID-19 cover",
+        "Flight delay",
+        "Medical emergencies abroad",
+        "Personal liability",
+        "Flight cancellation",
+        "Baggage delay",
+        "Passport loss",
+        "Trip interruption",
+        "Baggage loss"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Pregnancy complications",
+        "Pre-existing diseases (unless declared)",
+        "War and nuclear risks",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 97.83,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Schengen visa compliant",
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Trip cancellation cover"
+      ],
+      "sourceUrl": "https://www.idbins.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "kb-insurance-journey-secure-lrc",
+      "insurerName": "KB Insurance Co., Ltd.",
+      "insurerSlug": "kb-insurance",
+      "productName": "Journey Secure",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 74,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 380476586,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 46256,
+        "illustrativeMax": 398710,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip interruption",
+        "Medical emergencies abroad",
+        "Adventure sports (add-on)",
+        "Emergency evacuation",
+        "Personal liability",
+        "Passport loss",
+        "Trip cancellation",
+        "Flight cancellation"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "Pregnancy complications",
+        "War and nuclear risks",
+        "Self-inflicted injuries",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 92.63,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Baggage delay cover",
+        "Schengen visa compliant",
+        "Trip cancellation cover",
+        "Zero deductible option"
+      ],
+      "sourceUrl": "https://www.kbinsure.co.kr/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "meritz-fire-globe-trotter-gold-rvc",
+      "insurerName": "Meritz Fire & Marine Insurance",
+      "insurerSlug": "meritz-fire",
+      "productName": "Globe Trotter Gold",
+      "category": "travel",
+      "subCategory": "student",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 71,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 487289993,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 35074,
+        "illustrativeMax": 338191,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip interruption",
+        "Flight delay",
+        "Trip cancellation",
+        "Baggage delay",
+        "Emergency evacuation",
+        "Pre-existing disease (optional)",
+        "Personal liability",
+        "Baggage loss",
+        "COVID-19 cover"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 96.34,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Baggage delay cover",
+        "Zero deductible option"
+      ],
+      "sourceUrl": "https://www.meritzfire.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "hyundai-marine-travel-classic-xzc",
+      "insurerName": "Hyundai Marine & Fire Insurance",
+      "insurerSlug": "hyundai-marine",
+      "productName": "Travel Classic",
+      "category": "travel",
+      "subCategory": "single-trip",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 280244180,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 39621,
+        "illustrativeMax": 365397,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip cancellation",
+        "Flight delay",
+        "Medical emergencies abroad",
+        "Pre-existing disease (optional)",
+        "COVID-19 cover",
+        "Passport loss",
+        "Adventure sports (add-on)",
+        "Baggage loss",
+        "Trip interruption",
+        "Flight cancellation"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "High-risk sports without add-on",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 96.21,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Schengen visa compliant",
+        "Worldwide 24x7 assistance",
+        "Baggage delay cover",
+        "Annual multi-trip option"
+      ],
+      "sourceUrl": "https://www.hi.co.kr/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "kr"
     }
   ]

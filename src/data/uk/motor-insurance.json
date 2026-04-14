@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -592,6 +592,1059 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "aviva-comprehensive-drive-ftf",
+      "insurerName": "Aviva plc",
+      "insurerSlug": "aviva",
+      "productName": "Comprehensive Drive",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1291161,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 720,
+        "illustrativeMax": 1146,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Third-party liability",
+        "Engine protect",
+        "Tyre protect",
+        "Key replacement",
+        "NCB protection",
+        "Consumables cover",
+        "Own damage cover",
+        "Zero depreciation cover",
+        "Personal accident cover"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Consequential loss",
+        "Mechanical/electrical breakdown",
+        "Normal wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 95.29,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Return to invoice add-on",
+        "Instant claim settlement",
+        "Engine protect available",
+        "NCB protect optional",
+        "24x7 roadside assistance"
+      ],
+      "sourceUrl": "https://www.aviva.co.uk",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "zurich-uk-secure-motor-plus-lxf",
+      "insurerName": "Zurich Assurance Ltd",
+      "insurerSlug": "zurich-uk",
+      "productName": "Secure Motor Plus",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1627708,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 484,
+        "illustrativeMax": 1058,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Tyre protect",
+        "Roadside assistance",
+        "Engine protect",
+        "Zero depreciation cover",
+        "Personal accident cover",
+        "Return to invoice",
+        "Loss of keys cover",
+        "NCB protection"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Driving under influence",
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 92.99,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero paperwork renewal",
+        "Personal accident cover included",
+        "Cashless repairs at 5000+ garages",
+        "Return to invoice add-on"
+      ],
+      "sourceUrl": "https://www.zurich.co.uk",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "lv-auto-shield-gold-s1f",
+      "insurerName": "Liverpool Victoria (LV=)",
+      "insurerSlug": "lv",
+      "productName": "Auto Shield Gold",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1939160,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 628,
+        "illustrativeMax": 1424,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Engine protect",
+        "Return to invoice",
+        "NCB protection",
+        "Third-party liability",
+        "Key replacement",
+        "Roadside assistance"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 95.9,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero paperwork renewal",
+        "Cashless repairs at 5000+ garages",
+        "24x7 roadside assistance",
+        "NCB protect optional",
+        "Personal accident cover included"
+      ],
+      "sourceUrl": "https://www.lv.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "admiral-drive-easy-y5f",
+      "insurerName": "Admiral Group plc",
+      "insurerSlug": "admiral",
+      "productName": "Drive Easy",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1330991,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 605,
+        "illustrativeMax": 1422,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Consumables cover",
+        "Roadside assistance",
+        "Personal accident cover",
+        "Tyre protect",
+        "Own damage cover",
+        "NCB protection",
+        "Zero depreciation cover",
+        "Third-party liability",
+        "Key replacement"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Consequential loss",
+        "Normal wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 93.18,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Return to Invoice",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Personal accident cover included",
+        "Instant claim settlement",
+        "Engine protect available",
+        "Cashless repairs at 5000+ garages",
+        "Zero paperwork renewal"
+      ],
+      "sourceUrl": "https://www.admiral.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "direct-line-zero-depreciation-plus-49f",
+      "insurerName": "Direct Line Insurance Group plc",
+      "insurerSlug": "direct-line",
+      "productName": "Zero Depreciation Plus",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1874402,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 683,
+        "illustrativeMax": 1076,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Loss of keys cover",
+        "Return to invoice",
+        "Key replacement",
+        "Consumables cover",
+        "Personal accident cover",
+        "Tyre protect"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Driving under influence",
+        "Consequential loss",
+        "Driving without valid license",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 97.32,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "Return to invoice add-on",
+        "Instant claim settlement",
+        "NCB protect optional"
+      ],
+      "sourceUrl": "https://www.directline.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "churchill-premium-auto-cover-adf",
+      "insurerName": "Churchill Insurance (Direct Line Group)",
+      "insurerSlug": "churchill",
+      "productName": "Premium Auto Cover",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1845560,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 623,
+        "illustrativeMax": 1170,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Tyre protect",
+        "Return to invoice",
+        "Third-party liability",
+        "Engine protect",
+        "Own damage cover",
+        "Loss of keys cover",
+        "NCB protection"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Consequential loss",
+        "Driving under influence",
+        "Mechanical/electrical breakdown",
+        "Normal wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 96.28,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Return to Invoice",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Engine protect available",
+        "Zero paperwork renewal",
+        "Return to invoice add-on",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.churchill.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "more-than-total-motor-protect-ghf",
+      "insurerName": "MORE TH>N (RSA Group / Intact)",
+      "insurerSlug": "more-than",
+      "productName": "Total Motor Protect",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1844170,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 412,
+        "illustrativeMax": 1481,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Return to invoice",
+        "Own damage cover",
+        "Zero depreciation cover",
+        "Consumables cover",
+        "Roadside assistance",
+        "Engine protect",
+        "Third-party liability",
+        "NCB protection"
+      ],
+      "keyExclusions": [
+        "Consequential loss",
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 98.6,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Instant claim settlement",
+        "Cashless repairs at 5000+ garages",
+        "Personal accident cover included",
+        "24x7 roadside assistance"
+      ],
+      "sourceUrl": "https://www.morethan.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "hastings-direct-smartdrive-classic-mlf",
+      "insurerName": "Hastings Insurance Services Limited",
+      "insurerSlug": "hastings-direct",
+      "productName": "SmartDrive Classic",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1635650,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 517,
+        "illustrativeMax": 1350,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Personal accident cover",
+        "Roadside assistance",
+        "Consumables cover",
+        "Third-party liability",
+        "NCB protection",
+        "Return to invoice",
+        "Key replacement",
+        "Own damage cover",
+        "Zero depreciation cover"
+      ],
+      "keyExclusions": [
+        "Mechanical/electrical breakdown",
+        "Driving without valid license",
+        "Normal wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 91.39,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "NCB protect optional",
+        "Return to invoice add-on",
+        "Cashless repairs at 5000+ garages"
+      ],
+      "sourceUrl": "https://www.hastingsdirect.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "esure-elite-motor-spf",
+      "insurerName": "esure Group plc",
+      "insurerSlug": "esure",
+      "productName": "Elite Motor",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1252399,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 467,
+        "illustrativeMax": 1581,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Tyre protect",
+        "Personal accident cover",
+        "Zero depreciation cover",
+        "Consumables cover",
+        "NCB protection",
+        "Engine protect",
+        "Third-party liability"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Normal wear and tear",
+        "Driving under influence"
+      ],
+      "claimSettlement": {
+        "ratio": 95,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Instant claim settlement",
+        "Personal accident cover included",
+        "Zero paperwork renewal",
+        "NCB protect optional"
+      ],
+      "sourceUrl": "https://www.esure.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "by-miles-car-guard-premier-ytf",
+      "insurerName": "By Miles Ltd",
+      "insurerSlug": "by-miles",
+      "productName": "Car Guard Premier",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1425029,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 634,
+        "illustrativeMax": 974,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Consumables cover",
+        "Return to invoice",
+        "Own damage cover",
+        "Loss of keys cover",
+        "Third-party liability",
+        "NCB protection"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Driving under influence",
+        "Mechanical/electrical breakdown",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 91.95,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "24x7 roadside assistance",
+        "Engine protect available"
+      ],
+      "sourceUrl": "https://www.bymiles.co.uk",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "aviva-auto-saver-4xf",
+      "insurerName": "Aviva plc",
+      "insurerSlug": "aviva",
+      "productName": "Auto Saver",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1554019,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 642,
+        "illustrativeMax": 1227,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage cover",
+        "NCB protection",
+        "Loss of keys cover",
+        "Engine protect",
+        "Consumables cover",
+        "Roadside assistance"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Mechanical/electrical breakdown",
+        "Driving without valid license",
+        "Normal wear and tear",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 93.54,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Return to Invoice",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Return to invoice add-on",
+        "NCB protect optional",
+        "Zero paperwork renewal",
+        "Instant claim settlement",
+        "Engine protect available"
+      ],
+      "sourceUrl": "https://www.aviva.co.uk",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "zurich-uk-drivesure-advantage-b1f",
+      "insurerName": "Zurich Assurance Ltd",
+      "insurerSlug": "zurich-uk",
+      "productName": "DriveSure Advantage",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1801669,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 700,
+        "illustrativeMax": 1057,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Consumables cover",
+        "Own damage cover",
+        "Tyre protect",
+        "Key replacement",
+        "Engine protect",
+        "Zero depreciation cover",
+        "Return to invoice",
+        "NCB protection",
+        "Third-party liability"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Driving under influence",
+        "Mechanical/electrical breakdown",
+        "Normal wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 93.4,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Return to Invoice",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Personal accident cover included",
+        "Return to invoice add-on",
+        "NCB protect optional",
+        "Engine protect available"
+      ],
+      "sourceUrl": "https://www.zurich.co.uk",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "lv-motor-elite-h5f",
+      "insurerName": "Liverpool Victoria (LV=)",
+      "insurerSlug": "lv",
+      "productName": "Motor Elite",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1112600,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 650,
+        "illustrativeMax": 1554,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Return to invoice",
+        "NCB protection",
+        "Consumables cover",
+        "Roadside assistance",
+        "Tyre protect",
+        "Personal accident cover",
+        "Third-party liability",
+        "Key replacement"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 99.43,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Return to invoice add-on",
+        "Engine protect available",
+        "Personal accident cover included",
+        "NCB protect optional"
+      ],
+      "sourceUrl": "https://www.lv.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "admiral-safe-drive-plus-n9f",
+      "insurerName": "Admiral Group plc",
+      "insurerSlug": "admiral",
+      "productName": "Safe Drive Plus",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1687627,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 689,
+        "illustrativeMax": 1515,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Key replacement",
+        "Third-party liability",
+        "Tyre protect",
+        "Roadside assistance",
+        "Personal accident cover",
+        "Loss of keys cover",
+        "Consumables cover",
+        "Zero depreciation cover"
+      ],
+      "keyExclusions": [
+        "Consequential loss",
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 97.44,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "NCB protect optional",
+        "Personal accident cover included",
+        "24x7 roadside assistance"
+      ],
+      "sourceUrl": "https://www.admiral.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "direct-line-auto-complete-tdf",
+      "insurerName": "Direct Line Insurance Group plc",
+      "insurerSlug": "direct-line",
+      "productName": "Auto Complete",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1179760,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 468,
+        "illustrativeMax": 1255,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Personal accident cover",
+        "Loss of keys cover",
+        "Consumables cover",
+        "Key replacement",
+        "NCB protection",
+        "Third-party liability",
+        "Return to invoice"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 93.38,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Personal accident cover included",
+        "NCB protect optional",
+        "Return to invoice add-on"
+      ],
+      "sourceUrl": "https://www.directline.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "uk"
     }
   ]

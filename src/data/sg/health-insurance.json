@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -590,6 +590,1437 @@
       "confidenceScore": "high",
       "notes": "",
       "countryCode": "sg"
+    },
+    {
+      "id": "aia-gold-shield-fg4",
+      "insurerName": "AIA Singapore",
+      "insurerSlug": "aia",
+      "productName": "Gold Shield",
+      "category": "health",
+      "subCategory": "group",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 2338899,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 586,
+        "illustrativeMax": 6199,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Mental health coverage",
+        "Annual health check-up",
+        "In-patient hospitalization",
+        "New-born baby cover",
+        "Pre-hospitalization (30-60 days)",
+        "Modern treatments (robotic surgery, etc.)",
+        "No room rent sub-limits",
+        "Domiciliary hospitalization"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Substance abuse treatment",
+        "Dental treatment (unless accident)",
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 99.18,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "Day 1 PED cover (optional)",
+        "Second medical opinion included",
+        "Premium discount for claim-free years",
+        "No copay up to age 60"
+      ],
+      "sourceUrl": "https://www.aia.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "19 months"
+      },
+      "networkHospitals": {
+        "count": 59,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "prudential-platinum-care-lk4",
+      "insurerName": "Prudential Singapore",
+      "insurerSlug": "prudential",
+      "productName": "Platinum Care",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 74,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1779984,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 860,
+        "illustrativeMax": 4942,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Restoration of sum insured",
+        "New-born baby cover",
+        "Domiciliary hospitalization",
+        "Post-hospitalization (60-180 days)",
+        "In-patient hospitalization",
+        "AYUSH treatments",
+        "Day care procedures"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery (unless medically necessary)",
+        "Experimental treatments",
+        "Pre-existing diseases during waiting period"
+      ],
+      "claimSettlement": {
+        "ratio": 96.67,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "Cashless at network hospitals",
+        "Lifetime renewal"
+      ],
+      "sourceUrl": "https://www.prudential.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "30 months",
+        "specific": "12 months"
+      },
+      "networkHospitals": {
+        "count": 76,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "great-eastern-elite-health-ro4",
+      "insurerName": "Great Eastern Life",
+      "insurerSlug": "great-eastern",
+      "productName": "Elite Health",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 2156504,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 571,
+        "illustrativeMax": 6339,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Day care procedures",
+        "AYUSH treatments",
+        "Annual health check-up",
+        "Restoration of sum insured",
+        "Post-hospitalization (60-180 days)",
+        "Domiciliary hospitalization",
+        "Organ donor expenses",
+        "Maternity benefits",
+        "Mental health coverage",
+        "In-patient hospitalization"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 95.06,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless at network hospitals",
+        "Second medical opinion included",
+        "No pre-policy medical check (under 45)",
+        "Automatic sum insured restoration",
+        "No room rent capping"
+      ],
+      "sourceUrl": "https://www.greateasternlife.com/sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "44 months",
+        "specific": "19 months"
+      },
+      "networkHospitals": {
+        "count": 68,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "ntuc-income-family-floater-plus-xs4",
+      "insurerName": "NTUC Income Insurance",
+      "insurerSlug": "ntuc-income",
+      "productName": "Family Floater Plus",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 76,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1715005,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 719,
+        "illustrativeMax": 4888,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Day care procedures",
+        "Ambulance charges",
+        "Maternity benefits",
+        "Post-hospitalization (60-180 days)",
+        "Restoration of sum insured",
+        "Domiciliary hospitalization"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 95.71,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "Cashless at network hospitals",
+        "OPD wellness package",
+        "Global emergency cover",
+        "Automatic sum insured restoration"
+      ],
+      "sourceUrl": "https://www.income.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "25 months",
+        "specific": "23 months"
+      },
+      "networkHospitals": {
+        "count": 47,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "axa-sg-wellness-premier-3w4",
+      "insurerName": "AXA Insurance Singapore",
+      "insurerSlug": "axa-sg",
+      "productName": "Wellness Premier",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 2874453,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 708,
+        "illustrativeMax": 6251,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Day care procedures",
+        "In-patient hospitalization",
+        "Mental health coverage",
+        "Organ donor expenses",
+        "Annual health check-up",
+        "Domiciliary hospitalization",
+        "AYUSH treatments"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)",
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 92.75,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No copay up to age 60",
+        "No room rent capping",
+        "Cashless at network hospitals",
+        "Global emergency cover",
+        "No pre-policy medical check (under 45)"
+      ],
+      "sourceUrl": "https://www.axa.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "32 months",
+        "specific": "21 months"
+      },
+      "networkHospitals": {
+        "count": 49,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "singlife-total-protect-a04",
+      "insurerName": "Singlife",
+      "insurerSlug": "singlife",
+      "productName": "Total Protect",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 71,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 2445706,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 519,
+        "illustrativeMax": 4337,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Ambulance charges",
+        "Organ donor expenses",
+        "Maternity benefits",
+        "Post-hospitalization (60-180 days)",
+        "Domiciliary hospitalization",
+        "In-patient hospitalization",
+        "New-born baby cover",
+        "No room rent sub-limits",
+        "Day care procedures"
+      ],
+      "keyExclusions": [
+        "Dental treatment (unless accident)",
+        "Substance abuse treatment",
+        "Pre-existing diseases during waiting period",
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 91.47,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Global emergency cover",
+        "Cashless at network hospitals",
+        "No room rent capping"
+      ],
+      "sourceUrl": "https://singlife.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "45 months",
+        "specific": "20 months"
+      },
+      "networkHospitals": {
+        "count": 44,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "fwd-sg-medisure-advantage-g44",
+      "insurerName": "FWD Singapore",
+      "insurerSlug": "fwd-sg",
+      "productName": "MediSure Advantage",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 76,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1601005,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 624,
+        "illustrativeMax": 4256,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Organ donor expenses",
+        "Domiciliary hospitalization",
+        "Vaccination cover",
+        "Restoration of sum insured",
+        "New-born baby cover",
+        "Maternity benefits",
+        "In-patient hospitalization",
+        "AYUSH treatments",
+        "Mental health coverage"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Substance abuse treatment",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 97.5,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Day 1 PED cover (optional)",
+        "No pre-policy medical check (under 45)",
+        "Lifetime renewal"
+      ],
+      "sourceUrl": "https://www.fwd.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "33 months",
+        "specific": "15 months"
+      },
+      "networkHospitals": {
+        "count": 82,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "hsbc-life-health-elite-m84",
+      "insurerName": "HSBC Life Singapore",
+      "insurerSlug": "hsbc-life",
+      "productName": "Health Elite",
+      "category": "health",
+      "subCategory": "group",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 68,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 2094081,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 635,
+        "illustrativeMax": 6483,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "New-born baby cover",
+        "In-patient hospitalization",
+        "Organ donor expenses",
+        "Post-hospitalization (60-180 days)",
+        "Annual health check-up",
+        "Maternity benefits",
+        "Ambulance charges"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)",
+        "Self-inflicted injuries",
+        "Substance abuse treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 99.35,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "OPD wellness package",
+        "Cashless at network hospitals",
+        "Second medical opinion included",
+        "No room rent capping",
+        "Lifetime renewal"
+      ],
+      "sourceUrl": "https://www.insurance.hsbc.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "29 months",
+        "specific": "13 months"
+      },
+      "networkHospitals": {
+        "count": 30,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "manulife-sg-comprehensive-care-sc4",
+      "insurerName": "Manulife Singapore",
+      "insurerSlug": "manulife-sg",
+      "productName": "Comprehensive Care",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1933972,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 751,
+        "illustrativeMax": 4255,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Post-hospitalization (60-180 days)",
+        "Restoration of sum insured",
+        "New-born baby cover",
+        "Organ donor expenses",
+        "In-patient hospitalization",
+        "No room rent sub-limits",
+        "Day care procedures",
+        "Ambulance charges",
+        "Vaccination cover",
+        "Pre-hospitalization (30-60 days)"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 98.19,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Automatic sum insured restoration",
+        "Day 1 PED cover (optional)",
+        "No pre-policy medical check (under 45)"
+      ],
+      "sourceUrl": "https://www.manulife.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "32 months",
+        "specific": "19 months"
+      },
+      "networkHospitals": {
+        "count": 83,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "raffles-health-smart-health-saver-yg4",
+      "insurerName": "Raffles Health Insurance",
+      "insurerSlug": "raffles-health",
+      "productName": "Smart Health Saver",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 2386862,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 526,
+        "illustrativeMax": 4181,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "AYUSH treatments",
+        "Day care procedures",
+        "In-patient hospitalization",
+        "Modern treatments (robotic surgery, etc.)",
+        "New-born baby cover",
+        "Annual health check-up"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)",
+        "Substance abuse treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 97.58,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "OPD wellness package",
+        "Second medical opinion included",
+        "No room rent capping",
+        "Lifetime renewal",
+        "Premium discount for claim-free years"
+      ],
+      "sourceUrl": "https://www.raffleshealthinsurance.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "45 months",
+        "specific": "16 months"
+      },
+      "networkHospitals": {
+        "count": 35,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "aia-ultra-protect-4k4",
+      "insurerName": "AIA Singapore",
+      "insurerSlug": "aia",
+      "productName": "Ultra Protect",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1890505,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 595,
+        "illustrativeMax": 6056,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Restoration of sum insured",
+        "Post-hospitalization (60-180 days)",
+        "Day care procedures",
+        "Ambulance charges",
+        "Domiciliary hospitalization",
+        "Pre-hospitalization (30-60 days)",
+        "Mental health coverage"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Experimental treatments",
+        "Dental treatment (unless accident)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 95.16,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Consumables covered",
+        "Automatic sum insured restoration",
+        "Cashless at network hospitals",
+        "No pre-policy medical check (under 45)",
+        "Global emergency cover"
+      ],
+      "sourceUrl": "https://www.aia.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "27 months",
+        "specific": "19 months"
+      },
+      "networkHospitals": {
+        "count": 50,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "prudential-supreme-shield-ao4",
+      "insurerName": "Prudential Singapore",
+      "insurerSlug": "prudential",
+      "productName": "Supreme Shield",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 67,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 2728317,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 584,
+        "illustrativeMax": 5885,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "No room rent sub-limits",
+        "Post-hospitalization (60-180 days)",
+        "Restoration of sum insured",
+        "Mental health coverage",
+        "Day care procedures",
+        "Maternity benefits",
+        "Pre-hospitalization (30-60 days)",
+        "Ambulance charges"
+      ],
+      "keyExclusions": [
+        "Dental treatment (unless accident)",
+        "Cosmetic surgery (unless medically necessary)",
+        "Substance abuse treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 98.33,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Day 1 PED cover (optional)",
+        "No pre-policy medical check (under 45)",
+        "Automatic sum insured restoration",
+        "No copay up to age 60"
+      ],
+      "sourceUrl": "https://www.prudential.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "24 months",
+        "specific": "21 months"
+      },
+      "networkHospitals": {
+        "count": 30,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "great-eastern-family-guardian-gs4",
+      "insurerName": "Great Eastern Life",
+      "insurerSlug": "great-eastern",
+      "productName": "Family Guardian",
+      "category": "health",
+      "subCategory": "critical-illness",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 67,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1685412,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 780,
+        "illustrativeMax": 5166,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Pre-hospitalization (30-60 days)",
+        "Day care procedures",
+        "Mental health coverage",
+        "Domiciliary hospitalization",
+        "In-patient hospitalization",
+        "Maternity benefits",
+        "No room rent sub-limits",
+        "Post-hospitalization (60-180 days)",
+        "Ambulance charges",
+        "Vaccination cover"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Substance abuse treatment",
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)",
+        "Pre-existing diseases during waiting period"
+      ],
+      "claimSettlement": {
+        "ratio": 99.2,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Global emergency cover",
+        "Day 1 PED cover (optional)",
+        "Second medical opinion included"
+      ],
+      "sourceUrl": "https://www.greateasternlife.com/sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "37 months",
+        "specific": "17 months"
+      },
+      "networkHospitals": {
+        "count": 83,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "ntuc-income-secure-health-mw4",
+      "insurerName": "NTUC Income Insurance",
+      "insurerSlug": "ntuc-income",
+      "productName": "Secure Health",
+      "category": "health",
+      "subCategory": "critical-illness",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 2826203,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 729,
+        "illustrativeMax": 4425,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "AYUSH treatments",
+        "Pre-hospitalization (30-60 days)",
+        "Organ donor expenses",
+        "Maternity benefits",
+        "Vaccination cover"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)",
+        "Substance abuse treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 90.02,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No copay up to age 60",
+        "Automatic sum insured restoration",
+        "No pre-policy medical check (under 45)",
+        "Consumables covered",
+        "Day 1 PED cover (optional)"
+      ],
+      "sourceUrl": "https://www.income.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "37 months",
+        "specific": "23 months"
+      },
+      "networkHospitals": {
+        "count": 32,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "axa-sg-premier-wellness-t04",
+      "insurerName": "AXA Insurance Singapore",
+      "insurerSlug": "axa-sg",
+      "productName": "Premier Wellness",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 73,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1968315,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 575,
+        "illustrativeMax": 4584,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Day care procedures",
+        "No room rent sub-limits",
+        "Maternity benefits",
+        "AYUSH treatments",
+        "Modern treatments (robotic surgery, etc.)",
+        "In-patient hospitalization",
+        "Annual health check-up",
+        "New-born baby cover",
+        "Restoration of sum insured"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)",
+        "Pre-existing diseases during waiting period",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 90.53,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Lifetime renewal",
+        "No copay up to age 60",
+        "Global emergency cover"
+      ],
+      "sourceUrl": "https://www.axa.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "32 months",
+        "specific": "24 months"
+      },
+      "networkHospitals": {
+        "count": 72,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "singlife-active-care-z44",
+      "insurerName": "Singlife",
+      "insurerSlug": "singlife",
+      "productName": "Active Care",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 2535861,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 695,
+        "illustrativeMax": 6311,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Organ donor expenses",
+        "In-patient hospitalization",
+        "Restoration of sum insured",
+        "Ambulance charges",
+        "Modern treatments (robotic surgery, etc.)",
+        "AYUSH treatments"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 91.1,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Day 1 PED cover (optional)",
+        "Global emergency cover",
+        "No pre-policy medical check (under 45)"
+      ],
+      "sourceUrl": "https://singlife.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "34 months",
+        "specific": "17 months"
+      },
+      "networkHospitals": {
+        "count": 34,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "fwd-sg-diamond-health-plan-584",
+      "insurerName": "FWD Singapore",
+      "insurerSlug": "fwd-sg",
+      "productName": "Diamond Health Plan",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 71,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 1952869,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 668,
+        "illustrativeMax": 4389,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Mental health coverage",
+        "Pre-hospitalization (30-60 days)",
+        "Day care procedures",
+        "Restoration of sum insured",
+        "Ambulance charges",
+        "Modern treatments (robotic surgery, etc.)",
+        "Post-hospitalization (60-180 days)"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 91.44,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "Cashless at network hospitals",
+        "No copay up to age 60"
+      ],
+      "sourceUrl": "https://www.fwd.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "45 months",
+        "specific": "23 months"
+      },
+      "networkHospitals": {
+        "count": 86,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "hsbc-life-signature-health-bc4",
+      "insurerName": "HSBC Life Singapore",
+      "insurerSlug": "hsbc-life",
+      "productName": "Signature Health",
+      "category": "health",
+      "subCategory": "group",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 68,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 250000,
+        "max": 2666677,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 586,
+        "illustrativeMax": 4540,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Post-hospitalization (60-180 days)",
+        "Modern treatments (robotic surgery, etc.)",
+        "Ambulance charges",
+        "Domiciliary hospitalization",
+        "Restoration of sum insured",
+        "Vaccination cover"
+      ],
+      "keyExclusions": [
+        "Dental treatment (unless accident)",
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Substance abuse treatment",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 96.16,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No copay up to age 60",
+        "No room rent capping",
+        "No pre-policy medical check (under 45)",
+        "Cashless at network hospitals",
+        "OPD wellness package"
+      ],
+      "sourceUrl": "https://www.insurance.hsbc.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "25 months",
+        "specific": "13 months"
+      },
+      "networkHospitals": {
+        "count": 49,
+        "source": "Insurer website"
+      }
     }
   ]
 }

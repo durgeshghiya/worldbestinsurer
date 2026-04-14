@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -482,6 +482,1136 @@
       "confidenceScore": "high",
       "notes": "",
       "countryCode": "de"
+    },
+    {
+      "id": "allianz-de-gold-shield-dv1",
+      "insurerName": "Allianz SE",
+      "insurerSlug": "allianz-de",
+      "productName": "Gold Shield",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 4323107,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2724,
+        "illustrativeMax": 5900,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "New-born baby cover",
+        "Maternity benefits",
+        "Organ donor expenses",
+        "Pre-hospitalization (30-60 days)",
+        "Ambulance charges",
+        "Annual health check-up",
+        "Domiciliary hospitalization",
+        "Vaccination cover"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 95.15,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Second medical opinion included",
+        "Automatic sum insured restoration",
+        "No pre-policy medical check (under 45)"
+      ],
+      "sourceUrl": "https://www.allianz.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "42 months",
+        "specific": "12 months"
+      }
+    },
+    {
+      "id": "dkv-platinum-care-jz1",
+      "insurerName": "DKV Deutsche Krankenversicherung (ERGO)",
+      "insurerSlug": "dkv",
+      "productName": "Platinum Care",
+      "category": "health",
+      "subCategory": "critical-illness",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 3447796,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2176,
+        "illustrativeMax": 6944,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "New-born baby cover",
+        "Day care procedures",
+        "Organ donor expenses",
+        "Maternity benefits",
+        "Ambulance charges",
+        "In-patient hospitalization"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Pre-existing diseases during waiting period",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 93.05,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No pre-policy medical check (under 45)",
+        "Second medical opinion included",
+        "OPD wellness package",
+        "Day 1 PED cover (optional)"
+      ],
+      "sourceUrl": "https://www.dkv.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "44 months",
+        "specific": "21 months"
+      }
+    },
+    {
+      "id": "axa-de-elite-health-q31",
+      "insurerName": "AXA Germany",
+      "insurerSlug": "axa-de",
+      "productName": "Elite Health",
+      "category": "health",
+      "subCategory": "critical-illness",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 4006775,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2444,
+        "illustrativeMax": 5075,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Mental health coverage",
+        "Organ donor expenses",
+        "Day care procedures",
+        "AYUSH treatments",
+        "Vaccination cover",
+        "Post-hospitalization (60-180 days)",
+        "Restoration of sum insured",
+        "Pre-hospitalization (30-60 days)",
+        "No room rent sub-limits",
+        "Modern treatments (robotic surgery, etc.)"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)",
+        "Experimental treatments",
+        "Substance abuse treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 95.11,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "No copay up to age 60",
+        "Global emergency cover"
+      ],
+      "sourceUrl": "https://www.axa.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "24 months"
+      }
+    },
+    {
+      "id": "debeka-family-floater-plus-w71",
+      "insurerName": "Debeka Versicherungsgruppe",
+      "insurerSlug": "debeka",
+      "productName": "Family Floater Plus",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 79,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 4567834,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2562,
+        "illustrativeMax": 6433,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Domiciliary hospitalization",
+        "In-patient hospitalization",
+        "Modern treatments (robotic surgery, etc.)",
+        "Restoration of sum insured",
+        "Mental health coverage",
+        "Pre-hospitalization (30-60 days)",
+        "Maternity benefits",
+        "AYUSH treatments",
+        "Organ donor expenses"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Substance abuse treatment",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 94.91,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Lifetime renewal",
+        "Consumables covered",
+        "Day 1 PED cover (optional)"
+      ],
+      "sourceUrl": "https://www.debeka.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "46 months",
+        "specific": "17 months"
+      }
+    },
+    {
+      "id": "signal-iduna-wellness-premier-2b1",
+      "insurerName": "SIGNAL IDUNA Gruppe",
+      "insurerSlug": "signal-iduna",
+      "productName": "Wellness Premier",
+      "category": "health",
+      "subCategory": "senior-citizen",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 67,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 2762916,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2231,
+        "illustrativeMax": 6423,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Organ donor expenses",
+        "AYUSH treatments",
+        "Restoration of sum insured",
+        "Annual health check-up",
+        "Pre-hospitalization (30-60 days)",
+        "Mental health coverage",
+        "Day care procedures"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)",
+        "Pre-existing diseases during waiting period"
+      ],
+      "claimSettlement": {
+        "ratio": 92.42,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "OPD wellness package",
+        "No room rent capping",
+        "Consumables covered",
+        "Premium discount for claim-free years"
+      ],
+      "sourceUrl": "https://www.signal-iduna.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "43 months",
+        "specific": "24 months"
+      }
+    },
+    {
+      "id": "huk-coburg-total-protect-8f1",
+      "insurerName": "HUK-COBURG Versicherungsgruppe",
+      "insurerSlug": "huk-coburg",
+      "productName": "Total Protect",
+      "category": "health",
+      "subCategory": "group",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 78,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 2556732,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2468,
+        "illustrativeMax": 6543,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Restoration of sum insured",
+        "In-patient hospitalization",
+        "New-born baby cover",
+        "Organ donor expenses",
+        "Mental health coverage",
+        "Pre-hospitalization (30-60 days)",
+        "Modern treatments (robotic surgery, etc.)",
+        "No room rent sub-limits",
+        "Vaccination cover",
+        "Day care procedures"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Dental treatment (unless accident)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 90.83,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Global emergency cover",
+        "Consumables covered",
+        "Lifetime renewal",
+        "Day 1 PED cover (optional)",
+        "Automatic sum insured restoration"
+      ],
+      "sourceUrl": "https://www.huk.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "28 months",
+        "specific": "18 months"
+      }
+    },
+    {
+      "id": "gothaer-medisure-advantage-ej1",
+      "insurerName": "Gothaer Versicherungsbank",
+      "insurerSlug": "gothaer",
+      "productName": "MediSure Advantage",
+      "category": "health",
+      "subCategory": "senior-citizen",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 2746077,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2219,
+        "illustrativeMax": 5794,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Day care procedures",
+        "Restoration of sum insured",
+        "Pre-hospitalization (30-60 days)",
+        "Mental health coverage",
+        "Ambulance charges",
+        "Vaccination cover",
+        "Post-hospitalization (60-180 days)",
+        "Modern treatments (robotic surgery, etc.)",
+        "In-patient hospitalization"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Substance abuse treatment",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 95.42,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "OPD wellness package",
+        "No copay up to age 60",
+        "Lifetime renewal"
+      ],
+      "sourceUrl": "https://www.gothaer.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "41 months",
+        "specific": "18 months"
+      }
+    },
+    {
+      "id": "barmenia-health-elite-kn1",
+      "insurerName": "Barmenia Versicherungen",
+      "insurerSlug": "barmenia",
+      "productName": "Health Elite",
+      "category": "health",
+      "subCategory": "critical-illness",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 4711500,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2885,
+        "illustrativeMax": 4479,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "Organ donor expenses",
+        "Maternity benefits",
+        "AYUSH treatments",
+        "Annual health check-up",
+        "Modern treatments (robotic surgery, etc.)",
+        "Vaccination cover",
+        "Restoration of sum insured"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery (unless medically necessary)",
+        "Pre-existing diseases during waiting period",
+        "Dental treatment (unless accident)",
+        "Substance abuse treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 97.45,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Consumables covered",
+        "Cashless at network hospitals",
+        "Global emergency cover"
+      ],
+      "sourceUrl": "https://www.barmenia.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "39 months",
+        "specific": "20 months"
+      }
+    },
+    {
+      "id": "hallesche-comprehensive-care-qr1",
+      "insurerName": "Hallesche Krankenversicherung (ALH Group)",
+      "insurerSlug": "hallesche",
+      "productName": "Comprehensive Care",
+      "category": "health",
+      "subCategory": "critical-illness",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 71,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 4411143,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2852,
+        "illustrativeMax": 4910,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "New-born baby cover",
+        "No room rent sub-limits",
+        "Pre-hospitalization (30-60 days)",
+        "Post-hospitalization (60-180 days)",
+        "Vaccination cover",
+        "Mental health coverage"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Pre-existing diseases during waiting period",
+        "Substance abuse treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 98.04,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No copay up to age 60",
+        "Automatic sum insured restoration",
+        "Day 1 PED cover (optional)"
+      ],
+      "sourceUrl": "https://www.hallesche.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "30 months",
+        "specific": "18 months"
+      }
+    },
+    {
+      "id": "continentale-smart-health-saver-wv1",
+      "insurerName": "Continentale Versicherungsverbund",
+      "insurerSlug": "continentale",
+      "productName": "Smart Health Saver",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 76,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 4273251,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2867,
+        "illustrativeMax": 5739,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Annual health check-up",
+        "Ambulance charges",
+        "Pre-hospitalization (30-60 days)",
+        "Organ donor expenses",
+        "In-patient hospitalization",
+        "New-born baby cover",
+        "Maternity benefits",
+        "Day care procedures",
+        "No room rent sub-limits"
+      ],
+      "keyExclusions": [
+        "Dental treatment (unless accident)",
+        "Self-inflicted injuries",
+        "Pre-existing diseases during waiting period",
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 91.78,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Day 1 PED cover (optional)",
+        "Lifetime renewal",
+        "No pre-policy medical check (under 45)",
+        "OPD wellness package"
+      ],
+      "sourceUrl": "https://www.continentale.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "32 months",
+        "specific": "12 months"
+      }
+    },
+    {
+      "id": "allianz-de-ultra-protect-2z1",
+      "insurerName": "Allianz SE",
+      "insurerSlug": "allianz-de",
+      "productName": "Ultra Protect",
+      "category": "health",
+      "subCategory": "senior-citizen",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 76,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 3545106,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2956,
+        "illustrativeMax": 5110,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Organ donor expenses",
+        "Day care procedures",
+        "New-born baby cover",
+        "Post-hospitalization (60-180 days)",
+        "Pre-hospitalization (30-60 days)",
+        "Modern treatments (robotic surgery, etc.)"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery (unless medically necessary)",
+        "Substance abuse treatment",
+        "Pre-existing diseases during waiting period",
+        "Dental treatment (unless accident)",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 90.11,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Second medical opinion included",
+        "Premium discount for claim-free years",
+        "Cashless at network hospitals",
+        "Global emergency cover",
+        "Lifetime renewal"
+      ],
+      "sourceUrl": "https://www.allianz.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "35 months",
+        "specific": "14 months"
+      }
+    },
+    {
+      "id": "dkv-supreme-shield-931",
+      "insurerName": "DKV Deutsche Krankenversicherung (ERGO)",
+      "insurerSlug": "dkv",
+      "productName": "Supreme Shield",
+      "category": "health",
+      "subCategory": "senior-citizen",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 77,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 4799720,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1978,
+        "illustrativeMax": 6259,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Organ donor expenses",
+        "In-patient hospitalization",
+        "Maternity benefits",
+        "Pre-hospitalization (30-60 days)",
+        "Domiciliary hospitalization",
+        "Restoration of sum insured",
+        "Post-hospitalization (60-180 days)",
+        "New-born baby cover"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery (unless medically necessary)",
+        "Experimental treatments",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 92.95,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Day 1 PED cover (optional)",
+        "Premium discount for claim-free years",
+        "Automatic sum insured restoration",
+        "OPD wellness package",
+        "Cashless at network hospitals"
+      ],
+      "sourceUrl": "https://www.dkv.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "42 months",
+        "specific": "14 months"
+      }
+    },
+    {
+      "id": "axa-de-family-guardian-f71",
+      "insurerName": "AXA Germany",
+      "insurerSlug": "axa-de",
+      "productName": "Family Guardian",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 2939089,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2590,
+        "illustrativeMax": 5379,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Annual health check-up",
+        "Domiciliary hospitalization",
+        "Ambulance charges",
+        "AYUSH treatments",
+        "New-born baby cover",
+        "Modern treatments (robotic surgery, etc.)"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery (unless medically necessary)",
+        "Substance abuse treatment",
+        "Dental treatment (unless accident)",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 93.85,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "OPD wellness package",
+        "Consumables covered",
+        "Second medical opinion included",
+        "Automatic sum insured restoration",
+        "Global emergency cover"
+      ],
+      "sourceUrl": "https://www.axa.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "45 months",
+        "specific": "23 months"
+      }
+    },
+    {
+      "id": "debeka-secure-health-lb1",
+      "insurerName": "Debeka Versicherungsgruppe",
+      "insurerSlug": "debeka",
+      "productName": "Secure Health",
+      "category": "health",
+      "subCategory": "senior-citizen",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 76,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 4812633,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 3213,
+        "illustrativeMax": 6309,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Organ donor expenses",
+        "In-patient hospitalization",
+        "Pre-hospitalization (30-60 days)",
+        "Restoration of sum insured",
+        "New-born baby cover",
+        "Modern treatments (robotic surgery, etc.)",
+        "Day care procedures",
+        "AYUSH treatments",
+        "No room rent sub-limits",
+        "Vaccination cover"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Experimental treatments",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 97.81,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless at network hospitals",
+        "Second medical opinion included",
+        "OPD wellness package"
+      ],
+      "sourceUrl": "https://www.debeka.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "37 months",
+        "specific": "19 months"
+      }
+    },
+    {
+      "id": "signal-iduna-premier-wellness-rf1",
+      "insurerName": "SIGNAL IDUNA Gruppe",
+      "insurerSlug": "signal-iduna",
+      "productName": "Premier Wellness",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 3180161,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2881,
+        "illustrativeMax": 6985,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Maternity benefits",
+        "In-patient hospitalization",
+        "Mental health coverage",
+        "Pre-hospitalization (30-60 days)",
+        "Domiciliary hospitalization",
+        "Modern treatments (robotic surgery, etc.)",
+        "Restoration of sum insured",
+        "Vaccination cover"
+      ],
+      "keyExclusions": [
+        "Dental treatment (unless accident)",
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 95.18,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Lifetime renewal",
+        "Cashless at network hospitals",
+        "No copay up to age 60"
+      ],
+      "sourceUrl": "https://www.signal-iduna.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "45 months",
+        "specific": "24 months"
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -382,6 +382,727 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "oman-insurance-term-smart-dxa",
+      "insurerName": "Oman Insurance Company",
+      "insurerSlug": "oman-insurance",
+      "productName": "Term Smart",
+      "category": "term-life",
+      "subCategory": "joint-term",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 55,
+        "renewableUpTo": "age 79"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 3997390,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 962,
+        "illustrativeMax": 8208,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Whole life option",
+        "Return of premium option",
+        "Death benefit",
+        "Waiver of premium on disability (rider)",
+        "Critical illness rider",
+        "Accidental death benefit (rider)",
+        "Terminal illness benefit"
+      ],
+      "keyExclusions": [
+        "Death due to suicide within first 12 months",
+        "Death due to alcohol/drug abuse"
+      ],
+      "claimSettlement": {
+        "ratio": 98.38,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Waiver of Premium"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 31,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Medical test via home visit",
+        "Level premium for entire term",
+        "Multiple payout options (lump sum / monthly)",
+        "Spouse cover option"
+      ],
+      "sourceUrl": "https://www.omaninsurance.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae"
+    },
+    {
+      "id": "axa-gulf-click-2-protect-k1a",
+      "insurerName": "AXA Gulf (AXA – GIG Gulf)",
+      "insurerSlug": "axa-gulf",
+      "productName": "Click 2 Protect",
+      "category": "term-life",
+      "subCategory": "increasing-cover",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 64,
+        "renewableUpTo": "age 76"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 3348182,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 845,
+        "illustrativeMax": 6732,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Terminal illness benefit",
+        "Waiver of premium on disability (rider)",
+        "Return of premium option",
+        "Increasing cover option",
+        "Death benefit",
+        "Accidental death benefit (rider)",
+        "Critical illness rider"
+      ],
+      "keyExclusions": [
+        "Death due to suicide within first 12 months",
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to alcohol/drug abuse"
+      ],
+      "claimSettlement": {
+        "ratio": 91.75,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 34,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Online purchase discount",
+        "Multiple payout options (lump sum / monthly)",
+        "High claim settlement ratio"
+      ],
+      "sourceUrl": "https://www.axa-gulf.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae"
+    },
+    {
+      "id": "cigna-life-shield-plus-q5a",
+      "insurerName": "Cigna Insurance Middle East",
+      "insurerSlug": "cigna",
+      "productName": "Life Shield Plus",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 58,
+        "renewableUpTo": "age 85"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 3266848,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 905,
+        "illustrativeMax": 6659,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Return of premium option",
+        "Critical illness rider",
+        "Waiver of premium on disability (rider)",
+        "Increasing cover option"
+      ],
+      "keyExclusions": [
+        "Death due to alcohol/drug abuse",
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to suicide within first 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 90.26,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Waiver of Premium",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 32,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Cover up to age 85",
+        "Spouse cover option",
+        "Medical test via home visit",
+        "Level premium for entire term",
+        "Online purchase discount"
+      ],
+      "sourceUrl": "https://www.cigna-me.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae"
+    },
+    {
+      "id": "metlife-pure-term-premier-w9a",
+      "insurerName": "MetLife (ALICO)",
+      "insurerSlug": "metlife",
+      "productName": "Pure Term Premier",
+      "category": "term-life",
+      "subCategory": "joint-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 64,
+        "renewableUpTo": "age 75"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 2735789,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 628,
+        "illustrativeMax": 6082,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Return of premium option",
+        "Whole life option",
+        "Accidental death benefit (rider)",
+        "Terminal illness benefit",
+        "Waiver of premium on disability (rider)"
+      ],
+      "keyExclusions": [
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to alcohol/drug abuse"
+      ],
+      "claimSettlement": {
+        "ratio": 96.01,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Waiver of Premium"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 39,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Medical test via home visit",
+        "High claim settlement ratio",
+        "Cover up to age 85"
+      ],
+      "sourceUrl": "https://www.metlife.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae"
+    },
+    {
+      "id": "noor-takaful-total-life-cover-2da",
+      "insurerName": "Noor Takaful Family PJSC",
+      "insurerSlug": "noor-takaful",
+      "productName": "Total Life Cover",
+      "category": "term-life",
+      "subCategory": "increasing-cover",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 60,
+        "renewableUpTo": "age 78"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 4061759,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 828,
+        "illustrativeMax": 7579,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Increasing cover option",
+        "Death benefit",
+        "Whole life option",
+        "Return of premium option",
+        "Waiver of premium on disability (rider)",
+        "Terminal illness benefit",
+        "Critical illness rider"
+      ],
+      "keyExclusions": [
+        "Death due to alcohol/drug abuse",
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to suicide within first 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 95.84,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Critical Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 35,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Medical test via home visit",
+        "High claim settlement ratio",
+        "Cover enhancement at life stages",
+        "Spouse cover option",
+        "Multiple payout options (lump sum / monthly)"
+      ],
+      "sourceUrl": "https://www.noortakaful.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae"
+    },
+    {
+      "id": "zurich-term-elite-8ha",
+      "insurerName": "Zurich International Life",
+      "insurerSlug": "zurich",
+      "productName": "Term Elite",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 60,
+        "renewableUpTo": "age 82"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 2888394,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 894,
+        "illustrativeMax": 7367,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Terminal illness benefit",
+        "Accidental death benefit (rider)",
+        "Waiver of premium on disability (rider)",
+        "Critical illness rider"
+      ],
+      "keyExclusions": [
+        "Death due to suicide within first 12 months",
+        "Death due to alcohol/drug abuse"
+      ],
+      "claimSettlement": {
+        "ratio": 94.09,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Critical Illness",
+        "Waiver of Premium",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 39,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Cover up to age 85",
+        "Multiple payout options (lump sum / monthly)",
+        "High claim settlement ratio"
+      ],
+      "sourceUrl": "https://www.zurich.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae"
+    },
+    {
+      "id": "fwd-secure-life-ela",
+      "insurerName": "FWD Takaful",
+      "insurerSlug": "fwd",
+      "productName": "Secure Life",
+      "category": "term-life",
+      "subCategory": "whole-life",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 58,
+        "renewableUpTo": "age 85"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 4672116,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 679,
+        "illustrativeMax": 7779,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Return of premium option",
+        "Death benefit",
+        "Increasing cover option",
+        "Terminal illness benefit"
+      ],
+      "keyExclusions": [
+        "Death due to suicide within first 12 months",
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to alcohol/drug abuse"
+      ],
+      "claimSettlement": {
+        "ratio": 99.43,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Waiver of Premium",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 31,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Cover enhancement at life stages",
+        "High claim settlement ratio",
+        "Level premium for entire term",
+        "Cover up to age 85",
+        "Online purchase discount"
+      ],
+      "sourceUrl": "https://www.fwd.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae"
+    },
+    {
+      "id": "salama-insurance-legacy-protect-kpa",
+      "insurerName": "SALAMA Islamic Arab Insurance Company",
+      "insurerSlug": "salama-insurance",
+      "productName": "Legacy Protect",
+      "category": "term-life",
+      "subCategory": "joint-term",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 59,
+        "renewableUpTo": "age 79"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 4194641,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 765,
+        "illustrativeMax": 8343,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Terminal illness benefit",
+        "Critical illness rider",
+        "Return of premium option",
+        "Waiver of premium on disability (rider)",
+        "Accidental death benefit (rider)"
+      ],
+      "keyExclusions": [
+        "Death due to alcohol/drug abuse",
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to suicide within first 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 93.32,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Waiver of Premium"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 39,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Cover up to age 85",
+        "Cover enhancement at life stages",
+        "Multiple payout options (lump sum / monthly)",
+        "Level premium for entire term"
+      ],
+      "sourceUrl": "https://www.salama.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae"
+    },
+    {
+      "id": "oman-insurance-life-guardian-qta",
+      "insurerName": "Oman Insurance Company",
+      "insurerSlug": "oman-insurance",
+      "productName": "Life Guardian",
+      "category": "term-life",
+      "subCategory": "joint-term",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 61,
+        "renewableUpTo": "age 80"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 4468367,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 674,
+        "illustrativeMax": 7385,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Accidental death benefit (rider)",
+        "Increasing cover option",
+        "Death benefit",
+        "Waiver of premium on disability (rider)",
+        "Whole life option",
+        "Return of premium option"
+      ],
+      "keyExclusions": [
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to alcohol/drug abuse"
+      ],
+      "claimSettlement": {
+        "ratio": 92.24,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Waiver of Premium"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 40,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Cover enhancement at life stages",
+        "Spouse cover option",
+        "Multiple payout options (lump sum / monthly)"
+      ],
+      "sourceUrl": "https://www.omaninsurance.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae"
+    },
+    {
+      "id": "axa-gulf-term-classic-wxa",
+      "insurerName": "AXA Gulf (AXA – GIG Gulf)",
+      "insurerSlug": "axa-gulf",
+      "productName": "Term Classic",
+      "category": "term-life",
+      "subCategory": "return-of-premium",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 56,
+        "renewableUpTo": "age 84"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 3694209,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 821,
+        "illustrativeMax": 5435,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Critical illness rider",
+        "Terminal illness benefit",
+        "Return of premium option",
+        "Accidental death benefit (rider)",
+        "Waiver of premium on disability (rider)",
+        "Increasing cover option"
+      ],
+      "keyExclusions": [
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to alcohol/drug abuse",
+        "Death due to suicide within first 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 93.32,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 35,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "High claim settlement ratio",
+        "Level premium for entire term",
+        "Cover up to age 85"
+      ],
+      "sourceUrl": "https://www.axa-gulf.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "ae"
     }
   ]

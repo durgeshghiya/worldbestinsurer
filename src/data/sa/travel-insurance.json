@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -373,6 +373,700 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
+      "countryCode": "sa"
+    },
+    {
+      "id": "bupa-arabia-travel-secure-fts",
+      "insurerName": "Bupa Arabia for Cooperative Insurance",
+      "insurerSlug": "bupa-arabia",
+      "productName": "Travel Secure",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 342785,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 105,
+        "illustrativeMax": 645,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Baggage loss",
+        "Baggage delay",
+        "Trip interruption",
+        "Trip cancellation",
+        "Flight delay",
+        "24x7 assistance",
+        "Flight cancellation",
+        "Emergency evacuation",
+        "Personal liability",
+        "Pre-existing disease (optional)"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 92.2,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Trip cancellation cover",
+        "Annual multi-trip option",
+        "Schengen visa compliant",
+        "Cashless hospitalization abroad"
+      ],
+      "sourceUrl": "https://www.bupa.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa"
+    },
+    {
+      "id": "tawuniya-globe-protect-lxs",
+      "insurerName": "The Company for Cooperative Insurance (Tawuniya)",
+      "insurerSlug": "tawuniya",
+      "productName": "Globe Protect",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 327398,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 82,
+        "illustrativeMax": 775,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip interruption",
+        "Trip cancellation",
+        "Personal liability",
+        "Adventure sports (add-on)",
+        "COVID-19 cover",
+        "Emergency evacuation"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 90.38,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Annual multi-trip option",
+        "Adventure sports add-on",
+        "Schengen visa compliant"
+      ],
+      "sourceUrl": "https://www.tawuniya.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa"
+    },
+    {
+      "id": "medgulf-explorer-plus-s1s",
+      "insurerName": "Mediterranean & Gulf Insurance and Reinsurance (MedGulf)",
+      "insurerSlug": "medgulf",
+      "productName": "Explorer Plus",
+      "category": "travel",
+      "subCategory": "single-trip",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 439535,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 100,
+        "illustrativeMax": 577,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip interruption",
+        "Flight cancellation",
+        "Adventure sports (add-on)",
+        "Medical emergencies abroad",
+        "Personal liability",
+        "Flight delay",
+        "Baggage loss",
+        "Passport loss"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "Self-inflicted injuries",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 93.23,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Trip cancellation cover",
+        "Zero deductible option",
+        "Cashless hospitalization abroad",
+        "Baggage delay cover"
+      ],
+      "sourceUrl": "https://www.medgulf.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa"
+    },
+    {
+      "id": "axa-coop-sa-travel-elite-y5s",
+      "insurerName": "AXA Cooperative Insurance Company",
+      "insurerSlug": "axa-coop-sa",
+      "productName": "Travel Elite",
+      "category": "travel",
+      "subCategory": "single-trip",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 466755,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 123,
+        "illustrativeMax": 619,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergencies abroad",
+        "Personal liability",
+        "Adventure sports (add-on)",
+        "Trip cancellation",
+        "Emergency evacuation",
+        "Baggage loss",
+        "Pre-existing disease (optional)",
+        "Flight delay"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 93.54,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless hospitalization abroad",
+        "Worldwide 24x7 assistance",
+        "Schengen visa compliant",
+        "Zero deductible option"
+      ],
+      "sourceUrl": "https://www.axa.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa"
+    },
+    {
+      "id": "walaa-voyage-shield-49s",
+      "insurerName": "Walaa Cooperative Insurance Company",
+      "insurerSlug": "walaa",
+      "productName": "Voyage Shield",
+      "category": "travel",
+      "subCategory": "student",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 415261,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 102,
+        "illustrativeMax": 645,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Baggage delay",
+        "Trip cancellation",
+        "Medical emergencies abroad",
+        "Emergency evacuation",
+        "Flight cancellation",
+        "Pre-existing disease (optional)"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "Self-inflicted injuries",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 90.36,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Trip cancellation cover",
+        "Baggage delay cover"
+      ],
+      "sourceUrl": "https://www.walaa.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa"
+    },
+    {
+      "id": "gulf-union-international-travel-pro-ads",
+      "insurerName": "Gulf Union Cooperative Insurance Company",
+      "insurerSlug": "gulf-union",
+      "productName": "International Travel Pro",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 433144,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 100,
+        "illustrativeMax": 624,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip cancellation",
+        "Flight delay",
+        "Pre-existing disease (optional)",
+        "Personal liability",
+        "Adventure sports (add-on)",
+        "Emergency evacuation",
+        "Baggage delay",
+        "Flight cancellation"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 91,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Baggage delay cover",
+        "Zero deductible option"
+      ],
+      "sourceUrl": "https://www.gulfunion.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa"
+    },
+    {
+      "id": "saico-travel-smart-ghs",
+      "insurerName": "Saudi Arabian Cooperative Insurance Company (SAICO)",
+      "insurerSlug": "saico",
+      "productName": "Travel Smart",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 409097,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 102,
+        "illustrativeMax": 721,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Emergency evacuation",
+        "Pre-existing disease (optional)",
+        "Baggage loss",
+        "Baggage delay",
+        "Medical emergencies abroad",
+        "Flight delay",
+        "Personal liability",
+        "Trip cancellation",
+        "Passport loss"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "War and nuclear risks",
+        "Self-inflicted injuries",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 97.65,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Adventure sports add-on",
+        "Trip cancellation cover"
+      ],
+      "sourceUrl": "https://www.saico.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa"
+    },
+    {
+      "id": "malath-journey-secure-mls",
+      "insurerName": "Malath Cooperative Insurance Company",
+      "insurerSlug": "malath",
+      "productName": "Journey Secure",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 78,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 414234,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 106,
+        "illustrativeMax": 524,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight cancellation",
+        "Trip cancellation",
+        "Trip interruption",
+        "Personal liability",
+        "Adventure sports (add-on)",
+        "COVID-19 cover"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "High-risk sports without add-on",
+        "Pre-existing diseases (unless declared)",
+        "War and nuclear risks",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 92.66,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero deductible option",
+        "Schengen visa compliant",
+        "Annual multi-trip option"
+      ],
+      "sourceUrl": "https://www.malath.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa"
+    },
+    {
+      "id": "alrajhi-takaful-globe-trotter-gold-sps",
+      "insurerName": "Al Rajhi Company for Cooperative Insurance (Al Rajhi Takaful)",
+      "insurerSlug": "alrajhi-takaful",
+      "productName": "Globe Trotter Gold",
+      "category": "travel",
+      "subCategory": "senior",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 262902,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 96,
+        "illustrativeMax": 513,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergencies abroad",
+        "Trip cancellation",
+        "COVID-19 cover",
+        "Passport loss",
+        "Baggage delay",
+        "Trip interruption"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "War and nuclear risks",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 94.52,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Schengen visa compliant",
+        "Worldwide 24x7 assistance",
+        "Baggage delay cover",
+        "Trip cancellation cover"
+      ],
+      "sourceUrl": "https://www.alrajhitakaful.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa"
+    },
+    {
+      "id": "rsa-saudi-travel-classic-yts",
+      "insurerName": "Al Alamiya for Cooperative Insurance (RSA Saudi)",
+      "insurerSlug": "rsa-saudi",
+      "productName": "Travel Classic",
+      "category": "travel",
+      "subCategory": "student",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 438338,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 111,
+        "illustrativeMax": 791,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight delay",
+        "Trip cancellation",
+        "Flight cancellation",
+        "Personal liability",
+        "24x7 assistance",
+        "Emergency evacuation",
+        "Adventure sports (add-on)",
+        "Baggage delay"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 92.08,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Baggage delay cover",
+        "Worldwide 24x7 assistance",
+        "Annual multi-trip option"
+      ],
+      "sourceUrl": "https://www.rsasaudi.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "sa"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -364,6 +364,719 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
+      "countryCode": "hk"
+    },
+    {
+      "id": "aia-hk-travel-secure-enx",
+      "insurerName": "AIA International Limited (Hong Kong)",
+      "insurerSlug": "aia-hk",
+      "productName": "Travel Secure",
+      "category": "travel",
+      "subCategory": "student",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 4647393,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 234,
+        "illustrativeMax": 1846,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Baggage loss",
+        "Medical emergencies abroad",
+        "Trip interruption",
+        "Passport loss",
+        "Personal liability",
+        "Adventure sports (add-on)",
+        "Flight cancellation"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "Self-inflicted injuries",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 96.79,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Worldwide 24x7 assistance",
+        "Schengen visa compliant"
+      ],
+      "sourceUrl": "https://www.aia.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk"
+    },
+    {
+      "id": "axa-hk-globe-protect-krx",
+      "insurerName": "AXA General Insurance Hong Kong",
+      "insurerSlug": "axa-hk",
+      "productName": "Globe Protect",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 2600456,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 204,
+        "illustrativeMax": 1745,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight cancellation",
+        "Baggage loss",
+        "Trip interruption",
+        "Pre-existing disease (optional)",
+        "Flight delay",
+        "Baggage delay",
+        "Adventure sports (add-on)",
+        "COVID-19 cover"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 97.39,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Zero deductible option",
+        "Annual multi-trip option"
+      ],
+      "sourceUrl": "https://www.axa.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk"
+    },
+    {
+      "id": "bupa-hk-explorer-plus-qvx",
+      "insurerName": "Bupa (Asia) Limited",
+      "insurerSlug": "bupa-hk",
+      "productName": "Explorer Plus",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 67,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 2778962,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 181,
+        "illustrativeMax": 1698,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Passport loss",
+        "Baggage delay",
+        "Adventure sports (add-on)",
+        "Trip interruption",
+        "Trip cancellation",
+        "Baggage loss"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "Pregnancy complications",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 90.99,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Adventure sports add-on",
+        "Worldwide 24x7 assistance",
+        "Baggage delay cover",
+        "Annual multi-trip option"
+      ],
+      "sourceUrl": "https://www.bupa.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk"
+    },
+    {
+      "id": "fwd-hk-travel-elite-wzx",
+      "insurerName": "FWD Life Insurance Company (Bermuda) Limited",
+      "insurerSlug": "fwd-hk",
+      "productName": "Travel Elite",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 76,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 4715669,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 222,
+        "illustrativeMax": 1630,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight cancellation",
+        "Medical emergencies abroad",
+        "Adventure sports (add-on)",
+        "24x7 assistance",
+        "Trip interruption",
+        "Personal liability",
+        "Passport loss",
+        "Flight delay",
+        "COVID-19 cover",
+        "Baggage loss"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "Pre-existing diseases (unless declared)",
+        "Self-inflicted injuries",
+        "High-risk sports without add-on",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 91.26,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Trip cancellation cover",
+        "Baggage delay cover",
+        "Zero deductible option"
+      ],
+      "sourceUrl": "https://www.fwd.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk"
+    },
+    {
+      "id": "cigna-hk-voyage-shield-33x",
+      "insurerName": "Cigna Worldwide Life Insurance Company Limited",
+      "insurerSlug": "cigna-hk",
+      "productName": "Voyage Shield",
+      "category": "travel",
+      "subCategory": "single-trip",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 79,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 4235038,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 242,
+        "illustrativeMax": 1942,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Emergency evacuation",
+        "Passport loss",
+        "Medical emergencies abroad",
+        "Trip cancellation",
+        "Flight delay",
+        "Pre-existing disease (optional)",
+        "Baggage loss"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "Self-inflicted injuries",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 97.05,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Adventure sports add-on",
+        "Cashless hospitalization abroad",
+        "Schengen visa compliant",
+        "Trip cancellation cover"
+      ],
+      "sourceUrl": "https://www.cigna.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk"
+    },
+    {
+      "id": "zurich-hk-international-travel-pro-97x",
+      "insurerName": "Zurich Insurance (Hong Kong)",
+      "insurerSlug": "zurich-hk",
+      "productName": "International Travel Pro",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 79,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 4129926,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 163,
+        "illustrativeMax": 2113,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergencies abroad",
+        "Flight cancellation",
+        "Passport loss",
+        "COVID-19 cover",
+        "Emergency evacuation",
+        "24x7 assistance",
+        "Pre-existing disease (optional)",
+        "Personal liability",
+        "Trip cancellation",
+        "Flight delay"
+      ],
+      "keyExclusions": [
+        "War and nuclear risks",
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 95.29,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Trip cancellation cover",
+        "Cashless hospitalization abroad",
+        "Annual multi-trip option"
+      ],
+      "sourceUrl": "https://www.zurich.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk"
+    },
+    {
+      "id": "hsbc-life-hk-travel-smart-fbx",
+      "insurerName": "HSBC Life (International) Limited",
+      "insurerSlug": "hsbc-life-hk",
+      "productName": "Travel Smart",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 3793703,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 221,
+        "illustrativeMax": 2150,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Adventure sports (add-on)",
+        "Flight delay",
+        "Medical emergencies abroad",
+        "Baggage loss",
+        "Trip interruption",
+        "Pre-existing disease (optional)",
+        "Emergency evacuation",
+        "Passport loss",
+        "Trip cancellation"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Pregnancy complications",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 90.84,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Adventure sports add-on",
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Zero deductible option"
+      ],
+      "sourceUrl": "https://www.hsbc.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk"
+    },
+    {
+      "id": "msig-hk-journey-secure-lfx",
+      "insurerName": "MSIG Insurance (Hong Kong) Limited",
+      "insurerSlug": "msig-hk",
+      "productName": "Journey Secure",
+      "category": "travel",
+      "subCategory": "senior",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 3583460,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 265,
+        "illustrativeMax": 1788,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Passport loss",
+        "Baggage delay",
+        "Trip interruption",
+        "Trip cancellation",
+        "Emergency evacuation",
+        "Flight cancellation",
+        "Pre-existing disease (optional)",
+        "Flight delay",
+        "COVID-19 cover"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 92.94,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Schengen visa compliant",
+        "Adventure sports add-on",
+        "Baggage delay cover",
+        "Zero deductible option",
+        "Trip cancellation cover"
+      ],
+      "sourceUrl": "https://www.msig.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk"
+    },
+    {
+      "id": "aia-hk-globe-trotter-gold-rjx",
+      "insurerName": "AIA International Limited (Hong Kong)",
+      "insurerSlug": "aia-hk",
+      "productName": "Globe Trotter Gold",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 73,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 4004918,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 205,
+        "illustrativeMax": 1667,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Pre-existing disease (optional)",
+        "Trip cancellation",
+        "Emergency evacuation",
+        "Flight delay",
+        "Flight cancellation",
+        "Adventure sports (add-on)",
+        "Passport loss",
+        "Medical emergencies abroad"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "High-risk sports without add-on",
+        "War and nuclear risks",
+        "Self-inflicted injuries",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 91.5,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Trip cancellation cover",
+        "Baggage delay cover",
+        "Schengen visa compliant",
+        "Annual multi-trip option",
+        "Worldwide 24x7 assistance"
+      ],
+      "sourceUrl": "https://www.aia.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk"
+    },
+    {
+      "id": "axa-hk-travel-classic-xnx",
+      "insurerName": "AXA General Insurance Hong Kong",
+      "insurerSlug": "axa-hk",
+      "productName": "Travel Classic",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 500000,
+        "max": 4996160,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 193,
+        "illustrativeMax": 1723,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight cancellation",
+        "Trip interruption",
+        "Medical emergencies abroad",
+        "24x7 assistance",
+        "Pre-existing disease (optional)",
+        "Baggage delay",
+        "Personal liability",
+        "Flight delay"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "War and nuclear risks",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 98.66,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero deductible option",
+        "Baggage delay cover",
+        "Annual multi-trip option",
+        "Worldwide 24x7 assistance",
+        "Adventure sports add-on"
+      ],
+      "sourceUrl": "https://www.axa.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "hk"
     }
   ]

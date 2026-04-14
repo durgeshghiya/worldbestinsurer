@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -361,6 +361,838 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
+      "countryCode": "de"
+    },
+    {
+      "id": "allianz-de-comprehensive-drive-e0q",
+      "insurerName": "Allianz SE",
+      "insurerSlug": "allianz-de",
+      "productName": "Comprehensive Drive",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 661254,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 526,
+        "illustrativeMax": 1254,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Loss of keys cover",
+        "Personal accident cover",
+        "Roadside assistance",
+        "Tyre protect",
+        "Key replacement"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 93.15,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Return to Invoice",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Engine protect available",
+        "Cashless repairs at 5000+ garages",
+        "Zero paperwork renewal"
+      ],
+      "sourceUrl": "https://www.allianz.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "ergo-secure-motor-plus-k4q",
+      "insurerName": "ERGO Group (Munich Re)",
+      "insurerSlug": "ergo",
+      "productName": "Secure Motor Plus",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 914800,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 514,
+        "illustrativeMax": 1333,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Consumables cover",
+        "Loss of keys cover",
+        "Tyre protect",
+        "Return to invoice",
+        "Third-party liability",
+        "NCB protection"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Driving without valid license",
+        "Driving under influence",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 92.39,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero paperwork renewal",
+        "Engine protect available",
+        "Instant claim settlement",
+        "Return to invoice add-on",
+        "Personal accident cover included"
+      ],
+      "sourceUrl": "https://www.ergo.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "axa-de-auto-shield-gold-q8q",
+      "insurerName": "AXA Germany",
+      "insurerSlug": "axa-de",
+      "productName": "Auto Shield Gold",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 749800,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 464,
+        "illustrativeMax": 1319,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Consumables cover",
+        "Return to invoice",
+        "NCB protection",
+        "Loss of keys cover",
+        "Own damage cover",
+        "Engine protect",
+        "Tyre protect"
+      ],
+      "keyExclusions": [
+        "Consequential loss",
+        "Driving without valid license",
+        "Normal wear and tear",
+        "Driving under influence",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 95.73,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "Personal accident cover included",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.axa.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "huk-coburg-drive-easy-wcq",
+      "insurerName": "HUK-COBURG Versicherungsgruppe",
+      "insurerSlug": "huk-coburg",
+      "productName": "Drive Easy",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 540042,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 420,
+        "illustrativeMax": 1164,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Key replacement",
+        "Tyre protect",
+        "Zero depreciation cover",
+        "Engine protect",
+        "Third-party liability",
+        "Own damage cover",
+        "NCB protection",
+        "Consumables cover",
+        "Roadside assistance"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown",
+        "Driving under influence",
+        "Driving without valid license"
+      ],
+      "claimSettlement": {
+        "ratio": 97.83,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Return to Invoice",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Instant claim settlement",
+        "Cashless repairs at 5000+ garages",
+        "Return to invoice add-on",
+        "Personal accident cover included"
+      ],
+      "sourceUrl": "https://www.huk.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "gothaer-zero-depreciation-plus-2gq",
+      "insurerName": "Gothaer Versicherungsbank",
+      "insurerSlug": "gothaer",
+      "productName": "Zero Depreciation Plus",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 786127,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 408,
+        "illustrativeMax": 1231,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Third-party liability",
+        "Own damage cover",
+        "Loss of keys cover",
+        "NCB protection",
+        "Key replacement",
+        "Personal accident cover",
+        "Zero depreciation cover",
+        "Tyre protect"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Driving without valid license",
+        "Driving under influence"
+      ],
+      "claimSettlement": {
+        "ratio": 96.58,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Personal accident cover included",
+        "Zero paperwork renewal",
+        "Return to invoice add-on",
+        "Instant claim settlement",
+        "Engine protect available"
+      ],
+      "sourceUrl": "https://www.gothaer.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "cosmosdirekt-premium-auto-cover-8kq",
+      "insurerName": "CosmosDirekt (Generali)",
+      "insurerSlug": "cosmosdirekt",
+      "productName": "Premium Auto Cover",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 797302,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 549,
+        "illustrativeMax": 1230,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Loss of keys cover",
+        "Third-party liability",
+        "Key replacement",
+        "Roadside assistance",
+        "Consumables cover",
+        "Own damage cover",
+        "Tyre protect"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Consequential loss",
+        "Driving under influence",
+        "Mechanical/electrical breakdown",
+        "Driving without valid license"
+      ],
+      "claimSettlement": {
+        "ratio": 91.91,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero paperwork renewal",
+        "Engine protect available",
+        "NCB protect optional"
+      ],
+      "sourceUrl": "https://www.cosmosdirekt.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "adac-total-motor-protect-eoq",
+      "insurerName": "ADAC Autoversicherung (Zurich)",
+      "insurerSlug": "adac",
+      "productName": "Total Motor Protect",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 711821,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 655,
+        "illustrativeMax": 1310,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Loss of keys cover",
+        "Own damage cover",
+        "Return to invoice",
+        "Consumables cover",
+        "Zero depreciation cover",
+        "Engine protect"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 93.78,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero paperwork renewal",
+        "Cashless repairs at 5000+ garages",
+        "Personal accident cover included",
+        "Return to invoice add-on",
+        "24x7 roadside assistance"
+      ],
+      "sourceUrl": "https://www.adac.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "devk-smartdrive-classic-ksq",
+      "insurerName": "DEVK Versicherungen",
+      "insurerSlug": "devk",
+      "productName": "SmartDrive Classic",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 979409,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 580,
+        "illustrativeMax": 1282,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Roadside assistance",
+        "Loss of keys cover",
+        "NCB protection",
+        "Personal accident cover",
+        "Third-party liability",
+        "Engine protect",
+        "Key replacement"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 97.76,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "Engine protect available",
+        "24x7 roadside assistance",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.devk.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "rv-elite-motor-qwq",
+      "insurerName": "R+V Versicherung",
+      "insurerSlug": "rv",
+      "productName": "Elite Motor",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 674752,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 473,
+        "illustrativeMax": 1048,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Personal accident cover",
+        "Third-party liability",
+        "NCB protection",
+        "Own damage cover",
+        "Return to invoice",
+        "Loss of keys cover",
+        "Engine protect",
+        "Zero depreciation cover",
+        "Roadside assistance"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Normal wear and tear",
+        "Driving without valid license",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 92.19,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Engine protect available",
+        "NCB protect optional",
+        "Return to invoice add-on"
+      ],
+      "sourceUrl": "https://www.ruv.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "allianz-de-car-guard-premier-x0q",
+      "insurerName": "Allianz SE",
+      "insurerSlug": "allianz-de",
+      "productName": "Car Guard Premier",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 580692,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 518,
+        "illustrativeMax": 1476,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Third-party liability",
+        "NCB protection",
+        "Roadside assistance",
+        "Tyre protect",
+        "Loss of keys cover"
+      ],
+      "keyExclusions": [
+        "Consequential loss",
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown",
+        "Driving without valid license",
+        "Driving under influence"
+      ],
+      "claimSettlement": {
+        "ratio": 90.39,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "NCB protect optional",
+        "Zero paperwork renewal",
+        "Personal accident cover included"
+      ],
+      "sourceUrl": "https://www.allianz.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "ergo-auto-saver-34q",
+      "insurerName": "ERGO Group (Munich Re)",
+      "insurerSlug": "ergo",
+      "productName": "Auto Saver",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 825048,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 668,
+        "illustrativeMax": 992,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Loss of keys cover",
+        "Personal accident cover",
+        "Third-party liability",
+        "Engine protect",
+        "Own damage cover",
+        "Zero depreciation cover",
+        "Tyre protect",
+        "Key replacement",
+        "NCB protection"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown",
+        "Driving without valid license"
+      ],
+      "claimSettlement": {
+        "ratio": 91.24,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Instant claim settlement",
+        "Engine protect available",
+        "NCB protect optional",
+        "Personal accident cover included"
+      ],
+      "sourceUrl": "https://www.ergo.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "de"
+    },
+    {
+      "id": "axa-de-drivesure-advantage-98q",
+      "insurerName": "AXA Germany",
+      "insurerSlug": "axa-de",
+      "productName": "DriveSure Advantage",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 737660,
+        "options": [],
+        "currency": "EUR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 695,
+        "illustrativeMax": 1433,
+        "assumptions": "35yo German resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Loss of keys cover",
+        "Consumables cover",
+        "Own damage cover",
+        "Zero depreciation cover",
+        "Engine protect",
+        "NCB protection"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Normal wear and tear",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 96.09,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Return to Invoice",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero paperwork renewal",
+        "Personal accident cover included",
+        "Engine protect available",
+        "Return to invoice add-on"
+      ],
+      "sourceUrl": "https://www.axa.de/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "de"
     }
   ]

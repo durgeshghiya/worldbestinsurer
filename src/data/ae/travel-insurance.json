@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -357,6 +357,698 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
+      "countryCode": "ae"
+    },
+    {
+      "id": "oman-insurance-travel-secure-dxa",
+      "insurerName": "Oman Insurance Company",
+      "insurerSlug": "oman-insurance",
+      "productName": "Travel Secure",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 399739,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 128,
+        "illustrativeMax": 821,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight cancellation",
+        "Passport loss",
+        "Personal liability",
+        "Trip interruption",
+        "Emergency evacuation",
+        "Medical emergencies abroad",
+        "24x7 assistance",
+        "Baggage loss",
+        "Baggage delay",
+        "COVID-19 cover"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 93.85,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Trip cancellation cover",
+        "Cashless hospitalization abroad",
+        "Schengen visa compliant",
+        "Worldwide 24x7 assistance"
+      ],
+      "sourceUrl": "https://www.omaninsurance.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae"
+    },
+    {
+      "id": "axa-gulf-globe-protect-k1a",
+      "insurerName": "AXA Gulf (AXA – GIG Gulf)",
+      "insurerSlug": "axa-gulf",
+      "productName": "Globe Protect",
+      "category": "travel",
+      "subCategory": "student",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 78,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 334818,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 113,
+        "illustrativeMax": 673,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Emergency evacuation",
+        "Adventure sports (add-on)",
+        "Trip cancellation",
+        "Pre-existing disease (optional)",
+        "Trip interruption",
+        "Flight cancellation"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "War and nuclear risks",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 91.29,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Adventure sports add-on",
+        "Cashless hospitalization abroad",
+        "Schengen visa compliant",
+        "Annual multi-trip option",
+        "Trip cancellation cover"
+      ],
+      "sourceUrl": "https://www.axa-gulf.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae"
+    },
+    {
+      "id": "orient-insurance-explorer-plus-q5a",
+      "insurerName": "Orient Insurance PJSC",
+      "insurerSlug": "orient-insurance",
+      "productName": "Explorer Plus",
+      "category": "travel",
+      "subCategory": "single-trip",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 326685,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 121,
+        "illustrativeMax": 666,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight delay",
+        "24x7 assistance",
+        "Flight cancellation",
+        "Adventure sports (add-on)",
+        "Baggage delay",
+        "Baggage loss"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "War and nuclear risks",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 98.83,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Cashless hospitalization abroad",
+        "Schengen visa compliant",
+        "Zero deductible option"
+      ],
+      "sourceUrl": "https://www.orientinsurance.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae"
+    },
+    {
+      "id": "cigna-travel-elite-w9a",
+      "insurerName": "Cigna Insurance Middle East",
+      "insurerSlug": "cigna",
+      "productName": "Travel Elite",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 78,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 273579,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 83,
+        "illustrativeMax": 608,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Pre-existing disease (optional)",
+        "Flight delay",
+        "Baggage delay",
+        "Trip cancellation",
+        "Adventure sports (add-on)",
+        "Flight cancellation",
+        "Medical emergencies abroad",
+        "Passport loss",
+        "Baggage loss"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Pregnancy complications",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 90.14,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Zero deductible option",
+        "Schengen visa compliant"
+      ],
+      "sourceUrl": "https://www.cigna-me.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae"
+    },
+    {
+      "id": "metlife-voyage-shield-2da",
+      "insurerName": "MetLife (ALICO)",
+      "insurerSlug": "metlife",
+      "productName": "Voyage Shield",
+      "category": "travel",
+      "subCategory": "senior",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 406176,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 110,
+        "illustrativeMax": 758,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "COVID-19 cover",
+        "Pre-existing disease (optional)",
+        "Flight cancellation",
+        "Medical emergencies abroad",
+        "Passport loss",
+        "Adventure sports (add-on)",
+        "Personal liability",
+        "24x7 assistance",
+        "Emergency evacuation"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 92.71,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero deductible option",
+        "Cashless hospitalization abroad",
+        "Worldwide 24x7 assistance"
+      ],
+      "sourceUrl": "https://www.metlife.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae"
+    },
+    {
+      "id": "adnic-international-travel-pro-8ha",
+      "insurerName": "Abu Dhabi National Insurance Company (ADNIC)",
+      "insurerSlug": "adnic",
+      "productName": "International Travel Pro",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 73,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 288839,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 119,
+        "illustrativeMax": 737,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergencies abroad",
+        "Emergency evacuation",
+        "COVID-19 cover",
+        "Trip interruption",
+        "Trip cancellation",
+        "Pre-existing disease (optional)",
+        "Baggage loss",
+        "Adventure sports (add-on)"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "Self-inflicted injuries",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 96.3,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Adventure sports add-on",
+        "Cashless hospitalization abroad",
+        "Zero deductible option",
+        "Worldwide 24x7 assistance"
+      ],
+      "sourceUrl": "https://www.adnic.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae"
+    },
+    {
+      "id": "emirates-insurance-travel-smart-ela",
+      "insurerName": "Emirates Insurance Company",
+      "insurerSlug": "emirates-insurance",
+      "productName": "Travel Smart",
+      "category": "travel",
+      "subCategory": "senior",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 467212,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 90,
+        "illustrativeMax": 778,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Pre-existing disease (optional)",
+        "Flight cancellation",
+        "Trip cancellation",
+        "Flight delay",
+        "Trip interruption",
+        "Emergency evacuation",
+        "Medical emergencies abroad",
+        "Baggage loss",
+        "Baggage delay",
+        "Personal liability"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "Self-inflicted injuries",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 98.82,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero deductible option",
+        "Cashless hospitalization abroad",
+        "Worldwide 24x7 assistance"
+      ],
+      "sourceUrl": "https://www.emiratesinsurance.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae"
+    },
+    {
+      "id": "oman-insurance-journey-secure-kpa",
+      "insurerName": "Oman Insurance Company",
+      "insurerSlug": "oman-insurance",
+      "productName": "Journey Secure",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 71,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 419464,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 102,
+        "illustrativeMax": 835,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergencies abroad",
+        "Baggage delay",
+        "Trip interruption",
+        "Flight cancellation",
+        "Personal liability",
+        "Baggage loss",
+        "COVID-19 cover"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "Self-inflicted injuries",
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 93.96,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Baggage delay cover",
+        "Trip cancellation cover",
+        "Zero deductible option",
+        "Cashless hospitalization abroad"
+      ],
+      "sourceUrl": "https://www.omaninsurance.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae"
+    },
+    {
+      "id": "axa-gulf-globe-trotter-gold-qta",
+      "insurerName": "AXA Gulf (AXA – GIG Gulf)",
+      "insurerSlug": "axa-gulf",
+      "productName": "Globe Trotter Gold",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 74,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 446837,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 90,
+        "illustrativeMax": 739,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "24x7 assistance",
+        "Flight delay",
+        "Personal liability",
+        "Pre-existing disease (optional)",
+        "Medical emergencies abroad",
+        "Baggage loss",
+        "Adventure sports (add-on)"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Pregnancy complications",
+        "War and nuclear risks",
+        "Pre-existing diseases (unless declared)",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 94.99,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Baggage delay cover",
+        "Annual multi-trip option",
+        "Worldwide 24x7 assistance"
+      ],
+      "sourceUrl": "https://www.axa-gulf.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ae"
+    },
+    {
+      "id": "orient-insurance-travel-classic-wxa",
+      "insurerName": "Orient Insurance PJSC",
+      "insurerSlug": "orient-insurance",
+      "productName": "Travel Classic",
+      "category": "travel",
+      "subCategory": "student",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 369421,
+        "options": [],
+        "currency": "AED"
+      },
+      "premiumRange": {
+        "illustrativeMin": 109,
+        "illustrativeMax": 543,
+        "assumptions": "35yo UAE resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Pre-existing disease (optional)",
+        "Baggage delay",
+        "Flight cancellation",
+        "Medical emergencies abroad",
+        "24x7 assistance",
+        "Adventure sports (add-on)",
+        "Emergency evacuation"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "Self-inflicted injuries",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 98.33,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Schengen visa compliant",
+        "Adventure sports add-on",
+        "Baggage delay cover"
+      ],
+      "sourceUrl": "https://www.orientinsurance.ae/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "ae"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -364,6 +364,713 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "high",
       "notes": "",
+      "countryCode": "sg"
+    },
+    {
+      "id": "ntuc-income-comprehensive-drive-flt",
+      "insurerName": "NTUC Income Insurance",
+      "insurerSlug": "ntuc-income",
+      "productName": "Comprehensive Drive",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 471801,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1750,
+        "illustrativeMax": 2770,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "NCB protection",
+        "Engine protect",
+        "Consumables cover",
+        "Personal accident cover",
+        "Roadside assistance",
+        "Third-party liability"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Mechanical/electrical breakdown",
+        "Consequential loss",
+        "Normal wear and tear",
+        "Driving under influence"
+      ],
+      "claimSettlement": {
+        "ratio": 99,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Return to invoice add-on",
+        "Cashless repairs at 5000+ garages",
+        "24x7 roadside assistance"
+      ],
+      "sourceUrl": "https://www.income.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg"
+    },
+    {
+      "id": "axa-sg-secure-motor-plus-lpt",
+      "insurerName": "AXA Insurance Singapore",
+      "insurerSlug": "axa-sg",
+      "productName": "Secure Motor Plus",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 339405,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1681,
+        "illustrativeMax": 4216,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "NCB protection",
+        "Zero depreciation cover",
+        "Roadside assistance",
+        "Third-party liability",
+        "Own damage cover",
+        "Engine protect",
+        "Return to invoice",
+        "Loss of keys cover",
+        "Personal accident cover"
+      ],
+      "keyExclusions": [
+        "Mechanical/electrical breakdown",
+        "Driving without valid license",
+        "Normal wear and tear",
+        "Driving under influence",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 99.19,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "24x7 roadside assistance",
+        "Cashless repairs at 5000+ garages",
+        "Zero paperwork renewal"
+      ],
+      "sourceUrl": "https://www.axa.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg"
+    },
+    {
+      "id": "fwd-sg-auto-shield-gold-rtt",
+      "insurerName": "FWD Singapore",
+      "insurerSlug": "fwd-sg",
+      "productName": "Auto Shield Gold",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 331407,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2095,
+        "illustrativeMax": 3716,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage cover",
+        "Third-party liability",
+        "Return to invoice",
+        "Tyre protect",
+        "Zero depreciation cover",
+        "Personal accident cover"
+      ],
+      "keyExclusions": [
+        "Consequential loss",
+        "Driving under influence",
+        "Driving without valid license"
+      ],
+      "claimSettlement": {
+        "ratio": 95.53,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Return to Invoice"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Personal accident cover included",
+        "Return to invoice add-on",
+        "24x7 roadside assistance"
+      ],
+      "sourceUrl": "https://www.fwd.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg"
+    },
+    {
+      "id": "tokio-marine-drive-easy-xxt",
+      "insurerName": "Tokio Marine Life Insurance Singapore",
+      "insurerSlug": "tokio-marine",
+      "productName": "Drive Easy",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 271772,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1457,
+        "illustrativeMax": 3766,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Loss of keys cover",
+        "Tyre protect",
+        "Own damage cover",
+        "Roadside assistance",
+        "NCB protection",
+        "Zero depreciation cover",
+        "Consumables cover",
+        "Third-party liability",
+        "Engine protect"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Driving under influence",
+        "Consequential loss",
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 95.36,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Engine protect available",
+        "NCB protect optional",
+        "Return to invoice add-on",
+        "Instant claim settlement",
+        "24x7 roadside assistance"
+      ],
+      "sourceUrl": "https://www.tokiomarine.com/sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg"
+    },
+    {
+      "id": "directasia-zero-depreciation-plus-41t",
+      "insurerName": "DirectAsia Insurance",
+      "insurerSlug": "directasia",
+      "productName": "Zero Depreciation Plus",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 273494,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1769,
+        "illustrativeMax": 3915,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Return to invoice",
+        "Third-party liability",
+        "Zero depreciation cover",
+        "NCB protection",
+        "Roadside assistance",
+        "Key replacement",
+        "Tyre protect",
+        "Own damage cover",
+        "Loss of keys cover"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Consequential loss",
+        "Driving without valid license"
+      ],
+      "claimSettlement": {
+        "ratio": 90.57,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Instant claim settlement",
+        "Zero paperwork renewal",
+        "Return to invoice add-on",
+        "NCB protect optional"
+      ],
+      "sourceUrl": "https://www.directasia.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg"
+    },
+    {
+      "id": "etiqa-premium-auto-cover-a5t",
+      "insurerName": "Etiqa Insurance Singapore",
+      "insurerSlug": "etiqa",
+      "productName": "Premium Auto Cover",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 268707,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1447,
+        "illustrativeMax": 3024,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage cover",
+        "Third-party liability",
+        "Loss of keys cover",
+        "NCB protection",
+        "Return to invoice",
+        "Personal accident cover",
+        "Zero depreciation cover",
+        "Tyre protect"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Mechanical/electrical breakdown",
+        "Driving under influence",
+        "Normal wear and tear",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 96.36,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "Return to invoice add-on",
+        "Engine protect available",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.etiqa.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg"
+    },
+    {
+      "id": "sompo-total-motor-protect-g9t",
+      "insurerName": "Sompo Insurance Singapore",
+      "insurerSlug": "sompo",
+      "productName": "Total Motor Protect",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 480569,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1609,
+        "illustrativeMax": 4414,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Consumables cover",
+        "Zero depreciation cover",
+        "Tyre protect",
+        "Personal accident cover",
+        "NCB protection",
+        "Loss of keys cover",
+        "Third-party liability",
+        "Return to invoice",
+        "Key replacement"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Consequential loss",
+        "Mechanical/electrical breakdown",
+        "Normal wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 97.66,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "Return to invoice add-on",
+        "24x7 roadside assistance",
+        "Personal accident cover included"
+      ],
+      "sourceUrl": "https://www.sompo.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg"
+    },
+    {
+      "id": "msig-smartdrive-classic-mdt",
+      "insurerName": "MSIG Insurance Singapore",
+      "insurerSlug": "msig",
+      "productName": "SmartDrive Classic",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 497051,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1893,
+        "illustrativeMax": 3658,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Consumables cover",
+        "Personal accident cover",
+        "Roadside assistance",
+        "Key replacement",
+        "Loss of keys cover",
+        "Engine protect",
+        "Third-party liability",
+        "NCB protection"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Consequential loss",
+        "Driving without valid license"
+      ],
+      "claimSettlement": {
+        "ratio": 94.1,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Engine protect available",
+        "Cashless repairs at 5000+ garages",
+        "Zero paperwork renewal"
+      ],
+      "sourceUrl": "https://www.msig.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg"
+    },
+    {
+      "id": "ntuc-income-elite-motor-sht",
+      "insurerName": "NTUC Income Insurance",
+      "insurerSlug": "ntuc-income",
+      "productName": "Elite Motor",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 354232,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1998,
+        "illustrativeMax": 2780,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Consumables cover",
+        "Own damage cover",
+        "Return to invoice",
+        "Roadside assistance",
+        "Third-party liability",
+        "Tyre protect",
+        "NCB protection",
+        "Personal accident cover"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Normal wear and tear",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 95.53,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "24x7 roadside assistance",
+        "Zero paperwork renewal",
+        "Personal accident cover included",
+        "Return to invoice add-on"
+      ],
+      "sourceUrl": "https://www.income.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sg"
+    },
+    {
+      "id": "axa-sg-car-guard-premier-ylt",
+      "insurerName": "AXA Insurance Singapore",
+      "insurerSlug": "axa-sg",
+      "productName": "Car Guard Premier",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 323726,
+        "options": [],
+        "currency": "SGD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1882,
+        "illustrativeMax": 3954,
+        "assumptions": "35yo Singapore resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Roadside assistance",
+        "Own damage cover",
+        "Key replacement",
+        "NCB protection",
+        "Third-party liability",
+        "Personal accident cover",
+        "Loss of keys cover",
+        "Zero depreciation cover"
+      ],
+      "keyExclusions": [
+        "Mechanical/electrical breakdown",
+        "Normal wear and tear",
+        "Consequential loss",
+        "Driving without valid license",
+        "Driving under influence"
+      ],
+      "claimSettlement": {
+        "ratio": 98.48,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Return to Invoice"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "24x7 roadside assistance",
+        "Cashless repairs at 5000+ garages",
+        "Personal accident cover included",
+        "Zero paperwork renewal"
+      ],
+      "sourceUrl": "https://www.axa.com.sg/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "sg"
     }
   ]

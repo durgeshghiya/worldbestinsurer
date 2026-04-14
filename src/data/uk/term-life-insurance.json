@@ -1,6 +1,6 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -585,6 +585,1088 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "high",
       "notes": "",
+      "countryCode": "uk"
+    },
+    {
+      "id": "aviva-term-smart-g1e",
+      "insurerName": "Aviva plc",
+      "insurerSlug": "aviva",
+      "productName": "Term Smart",
+      "category": "term-life",
+      "subCategory": "increasing-cover",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 56,
+        "renewableUpTo": "age 77"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 706358,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 86,
+        "illustrativeMax": 454,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Critical illness rider",
+        "Whole life option",
+        "Death benefit",
+        "Terminal illness benefit"
+      ],
+      "keyExclusions": [
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to suicide within first 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 98.55,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 32,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Multiple payout options (lump sum / monthly)",
+        "Online purchase discount",
+        "High claim settlement ratio",
+        "Spouse cover option",
+        "Medical test via home visit"
+      ],
+      "sourceUrl": "https://www.aviva.co.uk",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "vitality-life-click-2-protect-m5e",
+      "insurerName": "VitalityLife",
+      "insurerSlug": "vitality-life",
+      "productName": "Click 2 Protect",
+      "category": "term-life",
+      "subCategory": "whole-life",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 61,
+        "renewableUpTo": "age 76"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 889350,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 62,
+        "illustrativeMax": 584,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Critical illness rider",
+        "Return of premium option",
+        "Terminal illness benefit"
+      ],
+      "keyExclusions": [
+        "Death due to alcohol/drug abuse",
+        "Death due to pre-existing conditions not disclosed"
+      ],
+      "claimSettlement": {
+        "ratio": 92.46,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Critical Illness",
+        "Waiver of Premium",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 31,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "High claim settlement ratio",
+        "Level premium for entire term",
+        "Multiple payout options (lump sum / monthly)"
+      ],
+      "sourceUrl": "https://www.vitality.co.uk/life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "legal-and-general-life-shield-plus-s9e",
+      "insurerName": "Legal & General Assurance Society Limited",
+      "insurerSlug": "legal-and-general",
+      "productName": "Life Shield Plus",
+      "category": "term-life",
+      "subCategory": "return-of-premium",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 57,
+        "renewableUpTo": "age 85"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 890776,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 90,
+        "illustrativeMax": 454,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Return of premium option",
+        "Whole life option",
+        "Death benefit",
+        "Critical illness rider"
+      ],
+      "keyExclusions": [
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to suicide within first 12 months",
+        "Death due to alcohol/drug abuse"
+      ],
+      "claimSettlement": {
+        "ratio": 90.92,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Critical Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 32,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Medical test via home visit",
+        "High claim settlement ratio",
+        "Cover enhancement at life stages",
+        "Spouse cover option",
+        "Multiple payout options (lump sum / monthly)"
+      ],
+      "sourceUrl": "https://www.legalandgeneral.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "royal-london-pure-term-premier-yde",
+      "insurerName": "Royal London",
+      "insurerSlug": "royal-london",
+      "productName": "Pure Term Premier",
+      "category": "term-life",
+      "subCategory": "joint-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 60,
+        "renewableUpTo": "age 83"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 554956,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 104,
+        "illustrativeMax": 369,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Increasing cover option",
+        "Whole life option",
+        "Terminal illness benefit",
+        "Accidental death benefit (rider)",
+        "Return of premium option",
+        "Critical illness rider",
+        "Death benefit"
+      ],
+      "keyExclusions": [
+        "Death due to suicide within first 12 months",
+        "Death due to pre-existing conditions not disclosed"
+      ],
+      "claimSettlement": {
+        "ratio": 90.64,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Waiver of Premium"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 33,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Cover up to age 85",
+        "Multiple payout options (lump sum / monthly)",
+        "Spouse cover option",
+        "Level premium for entire term"
+      ],
+      "sourceUrl": "https://www.royallondon.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "zurich-uk-total-life-cover-4he",
+      "insurerName": "Zurich Assurance Ltd",
+      "insurerSlug": "zurich-uk",
+      "productName": "Total Life Cover",
+      "category": "term-life",
+      "subCategory": "increasing-cover",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 57,
+        "renewableUpTo": "age 80"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 964070,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 107,
+        "illustrativeMax": 496,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Increasing cover option",
+        "Terminal illness benefit",
+        "Accidental death benefit (rider)",
+        "Waiver of premium on disability (rider)",
+        "Return of premium option"
+      ],
+      "keyExclusions": [
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to suicide within first 12 months",
+        "Death due to alcohol/drug abuse"
+      ],
+      "claimSettlement": {
+        "ratio": 94.58,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 32,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Multiple payout options (lump sum / monthly)",
+        "Cover up to age 85",
+        "Cover enhancement at life stages",
+        "Medical test via home visit",
+        "Spouse cover option"
+      ],
+      "sourceUrl": "https://www.zurich.co.uk",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "lv-term-elite-ale",
+      "insurerName": "Liverpool Victoria (LV=)",
+      "insurerSlug": "lv",
+      "productName": "Term Elite",
+      "category": "term-life",
+      "subCategory": "whole-life",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 55,
+        "renewableUpTo": "age 78"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 701761,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 69,
+        "illustrativeMax": 474,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Whole life option",
+        "Terminal illness benefit",
+        "Death benefit",
+        "Return of premium option",
+        "Accidental death benefit (rider)",
+        "Critical illness rider"
+      ],
+      "keyExclusions": [
+        "Death due to alcohol/drug abuse",
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to suicide within first 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 94.04,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Waiver of Premium",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 39,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Cover up to age 85",
+        "Multiple payout options (lump sum / monthly)",
+        "Spouse cover option",
+        "Cover enhancement at life stages"
+      ],
+      "sourceUrl": "https://www.lv.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "scottish-widows-secure-life-gpe",
+      "insurerName": "Scottish Widows Limited",
+      "insurerSlug": "scottish-widows",
+      "productName": "Secure Life",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 61,
+        "renewableUpTo": "age 75"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 971774,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 74,
+        "illustrativeMax": 416,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Return of premium option",
+        "Critical illness rider",
+        "Waiver of premium on disability (rider)",
+        "Whole life option",
+        "Accidental death benefit (rider)",
+        "Terminal illness benefit",
+        "Death benefit"
+      ],
+      "keyExclusions": [
+        "Death due to suicide within first 12 months",
+        "Death due to pre-existing conditions not disclosed"
+      ],
+      "claimSettlement": {
+        "ratio": 92.31,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 37,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Cover up to age 85",
+        "Level premium for entire term",
+        "Online purchase discount",
+        "Spouse cover option"
+      ],
+      "sourceUrl": "https://www.scottishwidows.co.uk",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "aig-life-uk-legacy-protect-mte",
+      "insurerName": "AIG Life Limited",
+      "insurerSlug": "aig-life-uk",
+      "productName": "Legacy Protect",
+      "category": "term-life",
+      "subCategory": "return-of-premium",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 60,
+        "renewableUpTo": "age 76"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 578239,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 72,
+        "illustrativeMax": 507,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Whole life option",
+        "Terminal illness benefit",
+        "Critical illness rider"
+      ],
+      "keyExclusions": [
+        "Death due to alcohol/drug abuse",
+        "Death due to suicide within first 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 98.06,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Waiver of Premium",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 34,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Cover up to age 85",
+        "Online purchase discount",
+        "Level premium for entire term"
+      ],
+      "sourceUrl": "https://www.aiglife.co.uk",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "guardian-life-guardian-sxe",
+      "insurerName": "Guardian Financial Services Limited",
+      "insurerSlug": "guardian",
+      "productName": "Life Guardian",
+      "category": "term-life",
+      "subCategory": "joint-term",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 63,
+        "renewableUpTo": "age 85"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 787156,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 95,
+        "illustrativeMax": 406,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Whole life option",
+        "Terminal illness benefit",
+        "Waiver of premium on disability (rider)",
+        "Increasing cover option",
+        "Critical illness rider",
+        "Accidental death benefit (rider)"
+      ],
+      "keyExclusions": [
+        "Death due to alcohol/drug abuse",
+        "Death due to suicide within first 12 months",
+        "Death due to pre-existing conditions not disclosed"
+      ],
+      "claimSettlement": {
+        "ratio": 92.6,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [],
+      "policyTenure": {
+        "min": 1,
+        "max": 35,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Medical test via home visit",
+        "Multiple payout options (lump sum / monthly)",
+        "Spouse cover option"
+      ],
+      "sourceUrl": "https://www.guardian1821.co.uk",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "aviva-term-classic-z1e",
+      "insurerName": "Aviva plc",
+      "insurerSlug": "aviva",
+      "productName": "Term Classic",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 56,
+        "renewableUpTo": "age 76"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 970410,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 62,
+        "illustrativeMax": 431,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Return of premium option",
+        "Waiver of premium on disability (rider)",
+        "Whole life option",
+        "Death benefit",
+        "Critical illness rider",
+        "Terminal illness benefit",
+        "Accidental death benefit (rider)"
+      ],
+      "keyExclusions": [
+        "Death due to alcohol/drug abuse",
+        "Death due to suicide within first 12 months",
+        "Death due to pre-existing conditions not disclosed"
+      ],
+      "claimSettlement": {
+        "ratio": 98.65,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Critical Illness",
+        "Waiver of Premium"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 34,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Spouse cover option",
+        "Multiple payout options (lump sum / monthly)",
+        "Online purchase discount",
+        "Cover enhancement at life stages"
+      ],
+      "sourceUrl": "https://www.aviva.co.uk",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "vitality-life-elite-term-pro-55e",
+      "insurerName": "VitalityLife",
+      "insurerSlug": "vitality-life",
+      "productName": "Elite Term Pro",
+      "category": "term-life",
+      "subCategory": "return-of-premium",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 56,
+        "renewableUpTo": "age 82"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 777805,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 83,
+        "illustrativeMax": 548,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Return of premium option",
+        "Waiver of premium on disability (rider)",
+        "Whole life option",
+        "Death benefit",
+        "Terminal illness benefit"
+      ],
+      "keyExclusions": [
+        "Death due to suicide within first 12 months",
+        "Death due to pre-existing conditions not disclosed"
+      ],
+      "claimSettlement": {
+        "ratio": 96.4,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 35,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "High claim settlement ratio",
+        "Cover enhancement at life stages",
+        "Spouse cover option"
+      ],
+      "sourceUrl": "https://www.vitality.co.uk/life-insurance",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "legal-and-general-smartlife-term-b9e",
+      "insurerName": "Legal & General Assurance Society Limited",
+      "insurerSlug": "legal-and-general",
+      "productName": "SmartLife Term",
+      "category": "term-life",
+      "subCategory": "return-of-premium",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 61,
+        "renewableUpTo": "age 77"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 836831,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 77,
+        "illustrativeMax": 425,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Terminal illness benefit",
+        "Death benefit",
+        "Critical illness rider",
+        "Accidental death benefit (rider)",
+        "Increasing cover option",
+        "Whole life option"
+      ],
+      "keyExclusions": [
+        "Death due to alcohol/drug abuse",
+        "Death due to pre-existing conditions not disclosed"
+      ],
+      "claimSettlement": {
+        "ratio": 94.72,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Waiver of Premium"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 31,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Spouse cover option",
+        "Cover up to age 85",
+        "Cover enhancement at life stages",
+        "Level premium for entire term",
+        "Online purchase discount"
+      ],
+      "sourceUrl": "https://www.legalandgeneral.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "royal-london-premium-term-hde",
+      "insurerName": "Royal London",
+      "insurerSlug": "royal-london",
+      "productName": "Premium Term",
+      "category": "term-life",
+      "subCategory": "joint-term",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 57,
+        "renewableUpTo": "age 78"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 539160,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 74,
+        "illustrativeMax": 582,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Critical illness rider",
+        "Accidental death benefit (rider)",
+        "Waiver of premium on disability (rider)",
+        "Increasing cover option",
+        "Terminal illness benefit",
+        "Death benefit"
+      ],
+      "keyExclusions": [
+        "Death due to suicide within first 12 months",
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to alcohol/drug abuse"
+      ],
+      "claimSettlement": {
+        "ratio": 91.4,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Waiver of Premium",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 38,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "High claim settlement ratio",
+        "Level premium for entire term",
+        "Spouse cover option"
+      ],
+      "sourceUrl": "https://www.royallondon.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "zurich-uk-term-max-nhe",
+      "insurerName": "Zurich Assurance Ltd",
+      "insurerSlug": "zurich-uk",
+      "productName": "Term Max",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 63,
+        "renewableUpTo": "age 78"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 684950,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 75,
+        "illustrativeMax": 575,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Critical illness rider",
+        "Return of premium option",
+        "Waiver of premium on disability (rider)",
+        "Accidental death benefit (rider)",
+        "Increasing cover option",
+        "Terminal illness benefit",
+        "Death benefit"
+      ],
+      "keyExclusions": [
+        "Death due to alcohol/drug abuse",
+        "Death due to pre-existing conditions not disclosed"
+      ],
+      "claimSettlement": {
+        "ratio": 97.35,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Waiver of Premium"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 34,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Spouse cover option",
+        "Cover enhancement at life stages",
+        "High claim settlement ratio"
+      ],
+      "sourceUrl": "https://www.zurich.co.uk",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "uk"
+    },
+    {
+      "id": "lv-life-secure-plus-tle",
+      "insurerName": "Liverpool Victoria (LV=)",
+      "insurerSlug": "lv",
+      "productName": "Life Secure Plus",
+      "category": "term-life",
+      "subCategory": "increasing-cover",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 61,
+        "renewableUpTo": "age 83"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 654399,
+        "options": [],
+        "currency": "GBP"
+      },
+      "premiumRange": {
+        "illustrativeMin": 87,
+        "illustrativeMax": 589,
+        "assumptions": "35yo, standard risk, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Return of premium option",
+        "Increasing cover option",
+        "Waiver of premium on disability (rider)",
+        "Death benefit",
+        "Accidental death benefit (rider)",
+        "Whole life option",
+        "Critical illness rider"
+      ],
+      "keyExclusions": [
+        "Death due to suicide within first 12 months",
+        "Death due to pre-existing conditions not disclosed"
+      ],
+      "claimSettlement": {
+        "ratio": 97.3,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Waiver of Premium",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 38,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Cover up to age 85",
+        "Level premium for entire term",
+        "High claim settlement ratio"
+      ],
+      "sourceUrl": "https://www.lv.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "uk"
     }
   ]

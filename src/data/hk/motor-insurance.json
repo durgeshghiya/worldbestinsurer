@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -359,6 +359,714 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
+      "countryCode": "hk"
+    },
+    {
+      "id": "aia-hk-comprehensive-drive-efy",
+      "insurerName": "AIA International Limited (Hong Kong)",
+      "insurerSlug": "aia-hk",
+      "productName": "Comprehensive Drive",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1270394,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 4308,
+        "illustrativeMax": 12634,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Roadside assistance",
+        "NCB protection",
+        "Loss of keys cover",
+        "Engine protect",
+        "Return to invoice",
+        "Zero depreciation cover"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Mechanical/electrical breakdown",
+        "Normal wear and tear",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 92.44,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Return to Invoice",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Return to invoice add-on",
+        "Cashless repairs at 5000+ garages",
+        "Engine protect available",
+        "Zero paperwork renewal",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.aia.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk"
+    },
+    {
+      "id": "axa-hk-secure-motor-plus-kjy",
+      "insurerName": "AXA General Insurance Hong Kong",
+      "insurerSlug": "axa-hk",
+      "productName": "Secure Motor Plus",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1205079,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 4753,
+        "illustrativeMax": 10645,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "NCB protection",
+        "Loss of keys cover",
+        "Personal accident cover",
+        "Tyre protect",
+        "Engine protect",
+        "Consumables cover",
+        "Roadside assistance"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown",
+        "Driving without valid license"
+      ],
+      "claimSettlement": {
+        "ratio": 90.5,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "24x7 roadside assistance",
+        "Return to invoice add-on",
+        "NCB protect optional",
+        "Personal accident cover included"
+      ],
+      "sourceUrl": "https://www.axa.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk"
+    },
+    {
+      "id": "bupa-hk-auto-shield-gold-qny",
+      "insurerName": "Bupa (Asia) Limited",
+      "insurerSlug": "bupa-hk",
+      "productName": "Auto Shield Gold",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1279719,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 3861,
+        "illustrativeMax": 10457,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Loss of keys cover",
+        "Personal accident cover",
+        "Consumables cover",
+        "NCB protection",
+        "Key replacement"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Driving without valid license",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 91.57,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Engine protect available",
+        "Personal accident cover included",
+        "Cashless repairs at 5000+ garages",
+        "Return to invoice add-on",
+        "24x7 roadside assistance"
+      ],
+      "sourceUrl": "https://www.bupa.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk"
+    },
+    {
+      "id": "fwd-hk-drive-easy-wry",
+      "insurerName": "FWD Life Insurance Company (Bermuda) Limited",
+      "insurerSlug": "fwd-hk",
+      "productName": "Drive Easy",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 981789,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 5656,
+        "illustrativeMax": 11691,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Key replacement",
+        "Tyre protect",
+        "Return to invoice",
+        "Third-party liability",
+        "NCB protection",
+        "Engine protect"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Normal wear and tear",
+        "Consequential loss",
+        "Driving without valid license",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 97.32,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Instant claim settlement",
+        "Return to invoice add-on",
+        "Zero paperwork renewal"
+      ],
+      "sourceUrl": "https://www.fwd.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk"
+    },
+    {
+      "id": "zurich-hk-zero-depreciation-plus-2vy",
+      "insurerName": "Zurich Insurance (Hong Kong)",
+      "insurerSlug": "zurich-hk",
+      "productName": "Zero Depreciation Plus",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1353678,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 3618,
+        "illustrativeMax": 11348,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Roadside assistance",
+        "Consumables cover",
+        "NCB protection",
+        "Zero depreciation cover",
+        "Third-party liability",
+        "Own damage cover",
+        "Loss of keys cover",
+        "Tyre protect"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Mechanical/electrical breakdown",
+        "Normal wear and tear",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 90.1,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Personal accident cover included",
+        "Zero paperwork renewal",
+        "Engine protect available"
+      ],
+      "sourceUrl": "https://www.zurich.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk"
+    },
+    {
+      "id": "msig-hk-premium-auto-cover-8zy",
+      "insurerName": "MSIG Insurance (Hong Kong) Limited",
+      "insurerSlug": "msig-hk",
+      "productName": "Premium Auto Cover",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 866445,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 3931,
+        "illustrativeMax": 10390,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage cover",
+        "Zero depreciation cover",
+        "Tyre protect",
+        "Roadside assistance",
+        "Key replacement",
+        "Consumables cover",
+        "Engine protect",
+        "Third-party liability"
+      ],
+      "keyExclusions": [
+        "Consequential loss",
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown",
+        "Driving without valid license"
+      ],
+      "claimSettlement": {
+        "ratio": 96.8,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Personal accident cover included",
+        "Cashless repairs at 5000+ garages",
+        "Engine protect available"
+      ],
+      "sourceUrl": "https://www.msig.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk"
+    },
+    {
+      "id": "qbe-hk-total-motor-protect-f3y",
+      "insurerName": "QBE Hongkong & Shanghai Insurance Limited",
+      "insurerSlug": "qbe-hk",
+      "productName": "Total Motor Protect",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1304070,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 5509,
+        "illustrativeMax": 11084,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Loss of keys cover",
+        "Third-party liability",
+        "Consumables cover",
+        "Personal accident cover",
+        "Own damage cover"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Consequential loss",
+        "Mechanical/electrical breakdown",
+        "Normal wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 92.91,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero paperwork renewal",
+        "Cashless repairs at 5000+ garages",
+        "Engine protect available",
+        "Personal accident cover included"
+      ],
+      "sourceUrl": "https://www.qbe.com/hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk"
+    },
+    {
+      "id": "directasia-hk-smartdrive-classic-l7y",
+      "insurerName": "DirectAsia Insurance Hong Kong",
+      "insurerSlug": "directasia-hk",
+      "productName": "SmartDrive Classic",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 755653,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 3748,
+        "illustrativeMax": 14401,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Key replacement",
+        "Engine protect",
+        "Roadside assistance",
+        "Loss of keys cover",
+        "Zero depreciation cover",
+        "Own damage cover"
+      ],
+      "keyExclusions": [
+        "Mechanical/electrical breakdown",
+        "Normal wear and tear",
+        "Driving without valid license",
+        "Driving under influence"
+      ],
+      "claimSettlement": {
+        "ratio": 96.34,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "Instant claim settlement",
+        "Return to invoice add-on",
+        "Personal accident cover included"
+      ],
+      "sourceUrl": "https://www.directasia.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk"
+    },
+    {
+      "id": "aia-hk-elite-motor-rby",
+      "insurerName": "AIA International Limited (Hong Kong)",
+      "insurerSlug": "aia-hk",
+      "productName": "Elite Motor",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1471536,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 4420,
+        "illustrativeMax": 12391,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Personal accident cover",
+        "Third-party liability",
+        "Consumables cover",
+        "NCB protection",
+        "Roadside assistance",
+        "Tyre protect",
+        "Loss of keys cover",
+        "Engine protect",
+        "Own damage cover"
+      ],
+      "keyExclusions": [
+        "Consequential loss",
+        "Driving under influence",
+        "Normal wear and tear",
+        "Driving without valid license"
+      ],
+      "claimSettlement": {
+        "ratio": 98.9,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Engine protect available",
+        "24x7 roadside assistance",
+        "Zero paperwork renewal",
+        "Personal accident cover included",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.aia.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "hk"
+    },
+    {
+      "id": "axa-hk-car-guard-premier-xfy",
+      "insurerName": "AXA General Insurance Hong Kong",
+      "insurerSlug": "axa-hk",
+      "productName": "Car Guard Premier",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 100000,
+        "max": 1385945,
+        "options": [],
+        "currency": "HKD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 4063,
+        "illustrativeMax": 13662,
+        "assumptions": "35yo Hong Kong resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Personal accident cover",
+        "Zero depreciation cover",
+        "Tyre protect",
+        "Key replacement",
+        "Own damage cover",
+        "Third-party liability"
+      ],
+      "keyExclusions": [
+        "Mechanical/electrical breakdown",
+        "Normal wear and tear",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 94.34,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Return to Invoice",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Personal accident cover included",
+        "Engine protect available",
+        "Cashless repairs at 5000+ garages",
+        "24x7 roadside assistance",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.axa.com.hk/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "hk"
     }
   ]

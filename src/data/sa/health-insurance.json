@@ -1,6 +1,6 @@
 {
   "category": "health",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -478,6 +478,1203 @@
       "confidenceScore": "high",
       "notes": "",
       "countryCode": "sa"
+    },
+    {
+      "id": "bupa-arabia-gold-shield-fg4",
+      "insurerName": "Bupa Arabia for Cooperative Insurance",
+      "insurerSlug": "bupa-arabia",
+      "productName": "Gold Shield",
+      "category": "health",
+      "subCategory": "group",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 3898164,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1641,
+        "illustrativeMax": 17166,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Mental health coverage",
+        "Annual health check-up",
+        "In-patient hospitalization",
+        "New-born baby cover",
+        "Pre-hospitalization (30-60 days)",
+        "Modern treatments (robotic surgery, etc.)",
+        "No room rent sub-limits",
+        "Domiciliary hospitalization"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Substance abuse treatment",
+        "Dental treatment (unless accident)",
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 99.18,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "Day 1 PED cover (optional)",
+        "Second medical opinion included",
+        "Premium discount for claim-free years",
+        "No copay up to age 60"
+      ],
+      "sourceUrl": "https://www.bupa.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "48 months",
+        "specific": "19 months"
+      },
+      "networkHospitals": {
+        "count": 492,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "tawuniya-platinum-care-lk4",
+      "insurerName": "The Company for Cooperative Insurance (Tawuniya)",
+      "insurerSlug": "tawuniya",
+      "productName": "Platinum Care",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 74,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 2966641,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2407,
+        "illustrativeMax": 13685,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Restoration of sum insured",
+        "New-born baby cover",
+        "Domiciliary hospitalization",
+        "Post-hospitalization (60-180 days)",
+        "In-patient hospitalization",
+        "AYUSH treatments",
+        "Day care procedures"
+      ],
+      "keyExclusions": [
+        "Cosmetic surgery (unless medically necessary)",
+        "Experimental treatments",
+        "Pre-existing diseases during waiting period"
+      ],
+      "claimSettlement": {
+        "ratio": 96.67,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "Cashless at network hospitals",
+        "Lifetime renewal"
+      ],
+      "sourceUrl": "https://www.tawuniya.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "30 months",
+        "specific": "12 months"
+      },
+      "networkHospitals": {
+        "count": 661,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "medgulf-elite-health-ro4",
+      "insurerName": "Mediterranean & Gulf Insurance and Reinsurance (MedGulf)",
+      "insurerSlug": "medgulf",
+      "productName": "Elite Health",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 3594173,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1598,
+        "illustrativeMax": 17553,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Day care procedures",
+        "AYUSH treatments",
+        "Annual health check-up",
+        "Restoration of sum insured",
+        "Post-hospitalization (60-180 days)",
+        "Domiciliary hospitalization",
+        "Organ donor expenses",
+        "Maternity benefits",
+        "Mental health coverage",
+        "In-patient hospitalization"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 95.06,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless at network hospitals",
+        "Second medical opinion included",
+        "No pre-policy medical check (under 45)",
+        "Automatic sum insured restoration",
+        "No room rent capping"
+      ],
+      "sourceUrl": "https://www.medgulf.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "44 months",
+        "specific": "19 months"
+      },
+      "networkHospitals": {
+        "count": 581,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "axa-coop-sa-family-floater-plus-xs4",
+      "insurerName": "AXA Cooperative Insurance Company",
+      "insurerSlug": "axa-coop-sa",
+      "productName": "Family Floater Plus",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 76,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 2858342,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2012,
+        "illustrativeMax": 13536,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Day care procedures",
+        "Ambulance charges",
+        "Maternity benefits",
+        "Post-hospitalization (60-180 days)",
+        "Restoration of sum insured",
+        "Domiciliary hospitalization"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 95.71,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No room rent capping",
+        "Cashless at network hospitals",
+        "OPD wellness package",
+        "Global emergency cover",
+        "Automatic sum insured restoration"
+      ],
+      "sourceUrl": "https://www.axa.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "25 months",
+        "specific": "23 months"
+      },
+      "networkHospitals": {
+        "count": 373,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "walaa-wellness-premier-3w4",
+      "insurerName": "Walaa Cooperative Insurance Company",
+      "insurerSlug": "walaa",
+      "productName": "Wellness Premier",
+      "category": "health",
+      "subCategory": "super-top-up",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 4790755,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1983,
+        "illustrativeMax": 17310,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Day care procedures",
+        "In-patient hospitalization",
+        "Mental health coverage",
+        "Organ donor expenses",
+        "Annual health check-up",
+        "Domiciliary hospitalization",
+        "AYUSH treatments"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)",
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 92.75,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No copay up to age 60",
+        "No room rent capping",
+        "Cashless at network hospitals",
+        "Global emergency cover",
+        "No pre-policy medical check (under 45)"
+      ],
+      "sourceUrl": "https://www.walaa.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "32 months",
+        "specific": "21 months"
+      },
+      "networkHospitals": {
+        "count": 393,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "gulf-union-total-protect-a04",
+      "insurerName": "Gulf Union Cooperative Insurance Company",
+      "insurerSlug": "gulf-union",
+      "productName": "Total Protect",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 71,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 4076177,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1453,
+        "illustrativeMax": 12011,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Ambulance charges",
+        "Organ donor expenses",
+        "Maternity benefits",
+        "Post-hospitalization (60-180 days)",
+        "Domiciliary hospitalization",
+        "In-patient hospitalization",
+        "New-born baby cover",
+        "No room rent sub-limits",
+        "Day care procedures"
+      ],
+      "keyExclusions": [
+        "Dental treatment (unless accident)",
+        "Substance abuse treatment",
+        "Pre-existing diseases during waiting period",
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)"
+      ],
+      "claimSettlement": {
+        "ratio": 91.47,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Global emergency cover",
+        "Cashless at network hospitals",
+        "No room rent capping"
+      ],
+      "sourceUrl": "https://www.gulfunion.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "45 months",
+        "specific": "20 months"
+      },
+      "networkHospitals": {
+        "count": 338,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "saico-medisure-advantage-g44",
+      "insurerName": "Saudi Arabian Cooperative Insurance Company (SAICO)",
+      "insurerSlug": "saico",
+      "productName": "MediSure Advantage",
+      "category": "health",
+      "subCategory": "family-floater",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 76,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 2668342,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1748,
+        "illustrativeMax": 11785,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Organ donor expenses",
+        "Domiciliary hospitalization",
+        "Vaccination cover",
+        "Restoration of sum insured",
+        "New-born baby cover",
+        "Maternity benefits",
+        "In-patient hospitalization",
+        "AYUSH treatments",
+        "Mental health coverage"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Substance abuse treatment",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 97.5,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Day 1 PED cover (optional)",
+        "No pre-policy medical check (under 45)",
+        "Lifetime renewal"
+      ],
+      "sourceUrl": "https://www.saico.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "33 months",
+        "specific": "15 months"
+      },
+      "networkHospitals": {
+        "count": 715,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "malath-health-elite-m84",
+      "insurerName": "Malath Cooperative Insurance Company",
+      "insurerSlug": "malath",
+      "productName": "Health Elite",
+      "category": "health",
+      "subCategory": "group",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 68,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 3490136,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1778,
+        "illustrativeMax": 17953,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "New-born baby cover",
+        "In-patient hospitalization",
+        "Organ donor expenses",
+        "Post-hospitalization (60-180 days)",
+        "Annual health check-up",
+        "Maternity benefits",
+        "Ambulance charges"
+      ],
+      "keyExclusions": [
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)",
+        "Self-inflicted injuries",
+        "Substance abuse treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 99.35,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "OPD wellness package",
+        "Cashless at network hospitals",
+        "Second medical opinion included",
+        "No room rent capping",
+        "Lifetime renewal"
+      ],
+      "sourceUrl": "https://www.malath.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "29 months",
+        "specific": "13 months"
+      },
+      "networkHospitals": {
+        "count": 201,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "alrajhi-takaful-comprehensive-care-sc4",
+      "insurerName": "Al Rajhi Company for Cooperative Insurance (Al Rajhi Takaful)",
+      "insurerSlug": "alrajhi-takaful",
+      "productName": "Comprehensive Care",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 3223287,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2103,
+        "illustrativeMax": 11784,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Post-hospitalization (60-180 days)",
+        "Restoration of sum insured",
+        "New-born baby cover",
+        "Organ donor expenses",
+        "In-patient hospitalization",
+        "No room rent sub-limits",
+        "Day care procedures",
+        "Ambulance charges",
+        "Vaccination cover",
+        "Pre-hospitalization (30-60 days)"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Experimental treatments"
+      ],
+      "claimSettlement": {
+        "ratio": 98.19,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Automatic sum insured restoration",
+        "Day 1 PED cover (optional)",
+        "No pre-policy medical check (under 45)"
+      ],
+      "sourceUrl": "https://www.alrajhitakaful.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "32 months",
+        "specific": "19 months"
+      },
+      "networkHospitals": {
+        "count": 727,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "solidarity-sa-smart-health-saver-yg4",
+      "insurerName": "Solidarity Saudi Takaful",
+      "insurerSlug": "solidarity-sa",
+      "productName": "Smart Health Saver",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 72,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 3978103,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1472,
+        "illustrativeMax": 11580,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "AYUSH treatments",
+        "Day care procedures",
+        "In-patient hospitalization",
+        "Modern treatments (robotic surgery, etc.)",
+        "New-born baby cover",
+        "Annual health check-up"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)",
+        "Dental treatment (unless accident)",
+        "Substance abuse treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 97.58,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "OPD Cover",
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "OPD wellness package",
+        "Second medical opinion included",
+        "No room rent capping",
+        "Lifetime renewal",
+        "Premium discount for claim-free years"
+      ],
+      "sourceUrl": "https://www.solidarity.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "45 months",
+        "specific": "16 months"
+      },
+      "networkHospitals": {
+        "count": 255,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "allianz-sf-ultra-protect-4k4",
+      "insurerName": "Allianz Saudi Fransi Cooperative Insurance",
+      "insurerSlug": "allianz-sf",
+      "productName": "Ultra Protect",
+      "category": "health",
+      "subCategory": "individual",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 3150842,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1666,
+        "illustrativeMax": 16769,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Restoration of sum insured",
+        "Post-hospitalization (60-180 days)",
+        "Day care procedures",
+        "Ambulance charges",
+        "Domiciliary hospitalization",
+        "Pre-hospitalization (30-60 days)",
+        "Mental health coverage"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases during waiting period",
+        "Cosmetic surgery (unless medically necessary)",
+        "Experimental treatments",
+        "Dental treatment (unless accident)",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 95.16,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident",
+        "OPD Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Consumables covered",
+        "Automatic sum insured restoration",
+        "Cashless at network hospitals",
+        "No pre-policy medical check (under 45)",
+        "Global emergency cover"
+      ],
+      "sourceUrl": "https://www.allianzsf.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "27 months",
+        "specific": "19 months"
+      },
+      "networkHospitals": {
+        "count": 400,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "acig-supreme-shield-ao4",
+      "insurerName": "Allied Cooperative Insurance Group (ACIG)",
+      "insurerSlug": "acig",
+      "productName": "Supreme Shield",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 67,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 4547196,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1635,
+        "illustrativeMax": 16297,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "No room rent sub-limits",
+        "Post-hospitalization (60-180 days)",
+        "Restoration of sum insured",
+        "Mental health coverage",
+        "Day care procedures",
+        "Maternity benefits",
+        "Pre-hospitalization (30-60 days)",
+        "Ambulance charges"
+      ],
+      "keyExclusions": [
+        "Dental treatment (unless accident)",
+        "Cosmetic surgery (unless medically necessary)",
+        "Substance abuse treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 98.33,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Personal Accident"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Day 1 PED cover (optional)",
+        "No pre-policy medical check (under 45)",
+        "Automatic sum insured restoration",
+        "No copay up to age 60"
+      ],
+      "sourceUrl": "https://www.acig.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "24 months",
+        "specific": "21 months"
+      },
+      "networkHospitals": {
+        "count": 201,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "bupa-arabia-family-guardian-gs4",
+      "insurerName": "Bupa Arabia for Cooperative Insurance",
+      "insurerSlug": "bupa-arabia",
+      "productName": "Family Guardian",
+      "category": "health",
+      "subCategory": "critical-illness",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 67,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 2809021,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2185,
+        "illustrativeMax": 14305,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Pre-hospitalization (30-60 days)",
+        "Day care procedures",
+        "Mental health coverage",
+        "Domiciliary hospitalization",
+        "In-patient hospitalization",
+        "Maternity benefits",
+        "No room rent sub-limits",
+        "Post-hospitalization (60-180 days)",
+        "Ambulance charges",
+        "Vaccination cover"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Substance abuse treatment",
+        "Experimental treatments",
+        "Cosmetic surgery (unless medically necessary)",
+        "Pre-existing diseases during waiting period"
+      ],
+      "claimSettlement": {
+        "ratio": 99.2,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Maternity Cover"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Global emergency cover",
+        "Day 1 PED cover (optional)",
+        "Second medical opinion included"
+      ],
+      "sourceUrl": "https://www.bupa.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "37 months",
+        "specific": "17 months"
+      },
+      "networkHospitals": {
+        "count": 724,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "tawuniya-secure-health-mw4",
+      "insurerName": "The Company for Cooperative Insurance (Tawuniya)",
+      "insurerSlug": "tawuniya",
+      "productName": "Secure Health",
+      "category": "health",
+      "subCategory": "critical-illness",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 4710338,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2041,
+        "illustrativeMax": 12254,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "In-patient hospitalization",
+        "AYUSH treatments",
+        "Pre-hospitalization (30-60 days)",
+        "Organ donor expenses",
+        "Maternity benefits",
+        "Vaccination cover"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Dental treatment (unless accident)",
+        "Substance abuse treatment"
+      ],
+      "claimSettlement": {
+        "ratio": 90.02,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "No copay up to age 60",
+        "Automatic sum insured restoration",
+        "No pre-policy medical check (under 45)",
+        "Consumables covered",
+        "Day 1 PED cover (optional)"
+      ],
+      "sourceUrl": "https://www.tawuniya.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "37 months",
+        "specific": "23 months"
+      },
+      "networkHospitals": {
+        "count": 229,
+        "source": "Insurer website"
+      }
+    },
+    {
+      "id": "medgulf-premier-wellness-t04",
+      "insurerName": "Mediterranean & Gulf Insurance and Reinsurance (MedGulf)",
+      "insurerSlug": "medgulf",
+      "productName": "Premier Wellness",
+      "category": "health",
+      "subCategory": "top-up",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 73,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 150000,
+        "max": 3280525,
+        "options": [],
+        "currency": "SAR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1611,
+        "illustrativeMax": 12694,
+        "assumptions": "35yo Saudi resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Day care procedures",
+        "No room rent sub-limits",
+        "Maternity benefits",
+        "AYUSH treatments",
+        "Modern treatments (robotic surgery, etc.)",
+        "In-patient hospitalization",
+        "Annual health check-up",
+        "New-born baby cover",
+        "Restoration of sum insured"
+      ],
+      "keyExclusions": [
+        "Substance abuse treatment",
+        "Self-inflicted injuries",
+        "Cosmetic surgery (unless medically necessary)",
+        "Pre-existing diseases during waiting period",
+        "Dental treatment (unless accident)"
+      ],
+      "claimSettlement": {
+        "ratio": 90.53,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Lifetime renewal",
+        "No copay up to age 60",
+        "Global emergency cover"
+      ],
+      "sourceUrl": "https://www.medgulf.com.sa/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "sa",
+      "waitingPeriod": {
+        "initial": "30 days",
+        "preExisting": "32 months",
+        "specific": "24 months"
+      },
+      "networkHospitals": {
+        "count": 616,
+        "source": "Insurer website"
+      }
     }
   ]
 }

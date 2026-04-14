@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational and informational purposes only. Premium figures are illustrative and sourced from public insurer calculators/brochures. Actual premiums may vary. Please verify all details with the insurer directly before making any decision.",
   "products": [
     {
@@ -1018,6 +1018,1423 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "high",
       "notes": "",
+      "countryCode": "in"
+    },
+    {
+      "id": "hdfc-ergo-comprehensive-drive-ejr",
+      "insurerName": "HDFC ERGO General Insurance Company Ltd.",
+      "insurerSlug": "hdfc-ergo",
+      "productName": "Comprehensive Drive",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 1805793,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 9015,
+        "illustrativeMax": 27128,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Consumables cover",
+        "Zero depreciation cover",
+        "Key replacement",
+        "Roadside assistance",
+        "Loss of keys cover",
+        "Personal accident cover",
+        "Tyre protect"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Normal wear and tear",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 90.76,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Engine protect available",
+        "Personal accident cover included",
+        "Zero paperwork renewal"
+      ],
+      "sourceUrl": "https://www.hdfcergo.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "icici-lombard-secure-motor-plus-knr",
+      "insurerName": "ICICI Lombard General Insurance Company Ltd.",
+      "insurerSlug": "icici-lombard",
+      "productName": "Secure Motor Plus",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 2371389,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 9072,
+        "illustrativeMax": 28316,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Personal accident cover",
+        "Third-party liability",
+        "Key replacement",
+        "NCB protection",
+        "Roadside assistance",
+        "Own damage cover",
+        "Zero depreciation cover",
+        "Engine protect",
+        "Loss of keys cover"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown",
+        "Driving without valid license",
+        "Driving under influence",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 97.94,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Engine protect available",
+        "Personal accident cover included",
+        "NCB protect optional",
+        "Zero paperwork renewal",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.icicilombard.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "bajaj-allianz-auto-shield-gold-qrr",
+      "insurerName": "Bajaj Allianz General Insurance Co. Ltd.",
+      "insurerSlug": "bajaj-allianz",
+      "productName": "Auto Shield Gold",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 1735028,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 9239,
+        "illustrativeMax": 33567,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Tyre protect",
+        "Own damage cover",
+        "Third-party liability",
+        "Loss of keys cover",
+        "Personal accident cover",
+        "Zero depreciation cover",
+        "Engine protect",
+        "Key replacement"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 92.05,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Personal accident cover included",
+        "Return to invoice add-on",
+        "Instant claim settlement",
+        "Zero paperwork renewal",
+        "Engine protect available"
+      ],
+      "sourceUrl": "https://www.bajajallianz.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "tata-aig-drive-easy-wvr",
+      "insurerName": "Tata AIG General Insurance Company Ltd.",
+      "insurerSlug": "tata-aig",
+      "productName": "Drive Easy",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 2978615,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 6599,
+        "illustrativeMax": 28071,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Key replacement",
+        "Roadside assistance",
+        "Loss of keys cover",
+        "Engine protect",
+        "Return to invoice",
+        "Zero depreciation cover",
+        "Personal accident cover"
+      ],
+      "keyExclusions": [
+        "Mechanical/electrical breakdown",
+        "Normal wear and tear",
+        "Driving without valid license",
+        "Driving under influence"
+      ],
+      "claimSettlement": {
+        "ratio": 93.87,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero paperwork renewal",
+        "Cashless repairs at 5000+ garages",
+        "Return to invoice add-on"
+      ],
+      "sourceUrl": "https://www.tataaig.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "new-india-assurance-zero-depreciation-plus-2zr",
+      "insurerName": "The New India Assurance Co. Ltd.",
+      "insurerSlug": "new-india-assurance",
+      "productName": "Zero Depreciation Plus",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 1829406,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 10059,
+        "illustrativeMax": 34781,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Own damage cover",
+        "Engine protect",
+        "Third-party liability",
+        "NCB protection",
+        "Personal accident cover"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown",
+        "Driving without valid license",
+        "Consequential loss",
+        "Driving under influence"
+      ],
+      "claimSettlement": {
+        "ratio": 92.94,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "Engine protect available",
+        "24x7 roadside assistance",
+        "Personal accident cover included"
+      ],
+      "sourceUrl": "https://www.newindia.co.in",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "digit-premium-auto-cover-93r",
+      "insurerName": "Go Digit General Insurance Ltd.",
+      "insurerSlug": "digit",
+      "productName": "Premium Auto Cover",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 1970575,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 7748,
+        "illustrativeMax": 36727,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Consumables cover",
+        "Key replacement",
+        "NCB protection",
+        "Return to invoice",
+        "Roadside assistance",
+        "Engine protect",
+        "Loss of keys cover",
+        "Zero depreciation cover"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Driving under influence",
+        "Consequential loss",
+        "Driving without valid license"
+      ],
+      "claimSettlement": {
+        "ratio": 95.49,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Return to Invoice",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Personal accident cover included",
+        "Zero paperwork renewal",
+        "24x7 roadside assistance"
+      ],
+      "sourceUrl": "https://www.godigit.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "acko-total-motor-protect-f7r",
+      "insurerName": "Acko General Insurance Ltd.",
+      "insurerSlug": "acko",
+      "productName": "Total Motor Protect",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 2857887,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 6209,
+        "illustrativeMax": 30717,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage cover",
+        "Tyre protect",
+        "Third-party liability",
+        "Personal accident cover",
+        "Loss of keys cover",
+        "Consumables cover",
+        "Zero depreciation cover"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 90.43,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Personal accident cover included",
+        "Cashless repairs at 5000+ garages",
+        "Engine protect available"
+      ],
+      "sourceUrl": "https://www.acko.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "royal-sundaram-smartdrive-classic-lbr",
+      "insurerName": "Royal Sundaram General Insurance Co. Ltd.",
+      "insurerSlug": "royal-sundaram",
+      "productName": "SmartDrive Classic",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 2858326,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 7600,
+        "illustrativeMax": 44966,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Engine protect",
+        "Return to invoice",
+        "Key replacement",
+        "Own damage cover",
+        "Zero depreciation cover",
+        "NCB protection"
+      ],
+      "keyExclusions": [
+        "Consequential loss",
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown",
+        "Driving without valid license",
+        "Driving under influence"
+      ],
+      "claimSettlement": {
+        "ratio": 91.23,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Return to Invoice",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "Engine protect available",
+        "24x7 roadside assistance"
+      ],
+      "sourceUrl": "https://www.royalsundaram.in",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "reliance-general-elite-motor-rfr",
+      "insurerName": "Reliance General Insurance Company Ltd.",
+      "insurerSlug": "reliance-general",
+      "productName": "Elite Motor",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 2037962,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 8296,
+        "illustrativeMax": 43458,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Return to invoice",
+        "Own damage cover",
+        "Loss of keys cover",
+        "Tyre protect",
+        "Engine protect",
+        "Roadside assistance",
+        "NCB protection"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Consequential loss",
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 91.28,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Personal accident cover included",
+        "Engine protect available",
+        "Cashless repairs at 5000+ garages",
+        "Zero paperwork renewal",
+        "Return to invoice add-on"
+      ],
+      "sourceUrl": "https://www.reliancegeneral.co.in",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "sbi-general-car-guard-premier-xjr",
+      "insurerName": "SBI General Insurance Company Ltd.",
+      "insurerSlug": "sbi-general",
+      "productName": "Car Guard Premier",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 2798786,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 6794,
+        "illustrativeMax": 33289,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage cover",
+        "Return to invoice",
+        "Consumables cover",
+        "Zero depreciation cover",
+        "NCB protection",
+        "Engine protect"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Consequential loss",
+        "Normal wear and tear",
+        "Driving without valid license"
+      ],
+      "claimSettlement": {
+        "ratio": 94.87,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Return to Invoice",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Return to invoice add-on",
+        "Engine protect available",
+        "Personal accident cover included",
+        "NCB protect optional"
+      ],
+      "sourceUrl": "https://www.sbigeneral.in",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "kotak-general-auto-saver-3nr",
+      "insurerName": "Kotak Mahindra General Insurance Company Ltd.",
+      "insurerSlug": "kotak-general",
+      "productName": "Auto Saver",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 2731602,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 6683,
+        "illustrativeMax": 28773,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Key replacement",
+        "NCB protection",
+        "Return to invoice",
+        "Roadside assistance",
+        "Engine protect",
+        "Tyre protect",
+        "Zero depreciation cover"
+      ],
+      "keyExclusions": [
+        "Consequential loss",
+        "Driving without valid license",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 98.8,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Return to Invoice"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Return to invoice add-on",
+        "24x7 roadside assistance",
+        "Instant claim settlement",
+        "NCB protect optional"
+      ],
+      "sourceUrl": "https://www.kotakgeneral.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "cholamandalam-ms-drivesure-advantage-9rr",
+      "insurerName": "Cholamandalam MS General Insurance Company Ltd.",
+      "insurerSlug": "cholamandalam-ms",
+      "productName": "DriveSure Advantage",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 1681960,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 10470,
+        "illustrativeMax": 43356,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Tyre protect",
+        "Zero depreciation cover",
+        "NCB protection",
+        "Key replacement",
+        "Own damage cover",
+        "Loss of keys cover",
+        "Consumables cover",
+        "Third-party liability"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Driving under influence",
+        "Driving without valid license",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 97.78,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Return to invoice add-on",
+        "Cashless repairs at 5000+ garages",
+        "24x7 roadside assistance",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.cholainsurance.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "national-insurance-motor-elite-fvr",
+      "insurerName": "National Insurance Company Ltd.",
+      "insurerSlug": "national-insurance",
+      "productName": "Motor Elite",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 1883949,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 10387,
+        "illustrativeMax": 42969,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Roadside assistance",
+        "Key replacement",
+        "Own damage cover",
+        "Personal accident cover",
+        "NCB protection",
+        "Tyre protect",
+        "Loss of keys cover",
+        "Consumables cover"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Normal wear and tear",
+        "Driving under influence",
+        "Consequential loss",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 97.8,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Return to Invoice",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero paperwork renewal",
+        "Instant claim settlement",
+        "NCB protect optional",
+        "Return to invoice add-on",
+        "Personal accident cover included"
+      ],
+      "sourceUrl": "https://www.nationalinsurance.nic.co.in",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "oriental-insurance-safe-drive-plus-lzr",
+      "insurerName": "The Oriental Insurance Company Ltd.",
+      "insurerSlug": "oriental-insurance",
+      "productName": "Safe Drive Plus",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 2543625,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 10561,
+        "illustrativeMax": 27798,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Tyre protect",
+        "NCB protection",
+        "Return to invoice",
+        "Personal accident cover",
+        "Key replacement",
+        "Consumables cover"
+      ],
+      "keyExclusions": [
+        "Mechanical/electrical breakdown",
+        "Driving without valid license",
+        "Consequential loss",
+        "Normal wear and tear",
+        "Driving under influence"
+      ],
+      "claimSettlement": {
+        "ratio": 98.73,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Return to invoice add-on",
+        "Cashless repairs at 5000+ garages",
+        "Instant claim settlement",
+        "NCB protect optional"
+      ],
+      "sourceUrl": "https://www.orientalinsurance.org.in",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "united-india-insurance-auto-complete-s3r",
+      "insurerName": "United India Insurance Company Ltd.",
+      "insurerSlug": "united-india-insurance",
+      "productName": "Auto Complete",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 1946412,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 8341,
+        "illustrativeMax": 36071,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Own damage cover",
+        "Key replacement",
+        "Engine protect",
+        "Return to invoice",
+        "Third-party liability",
+        "Roadside assistance",
+        "Tyre protect",
+        "Loss of keys cover"
+      ],
+      "keyExclusions": [
+        "Mechanical/electrical breakdown",
+        "Normal wear and tear",
+        "Driving under influence",
+        "Consequential loss",
+        "Driving without valid license"
+      ],
+      "claimSettlement": {
+        "ratio": 96.19,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "24x7 roadside assistance",
+        "Engine protect available",
+        "Cashless repairs at 5000+ garages",
+        "Personal accident cover included"
+      ],
+      "sourceUrl": "https://www.uiic.co.in",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "hdfc-ergo-road-master-y7r",
+      "insurerName": "HDFC ERGO General Insurance Company Ltd.",
+      "insurerSlug": "hdfc-ergo",
+      "productName": "Road Master",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 2687899,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 8854,
+        "illustrativeMax": 38388,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Consumables cover",
+        "Zero depreciation cover",
+        "NCB protection",
+        "Personal accident cover",
+        "Return to invoice",
+        "Tyre protect",
+        "Engine protect",
+        "Roadside assistance"
+      ],
+      "keyExclusions": [
+        "Mechanical/electrical breakdown",
+        "Driving without valid license",
+        "Normal wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 93.32,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Return to Invoice",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Engine protect available",
+        "Return to invoice add-on",
+        "Cashless repairs at 5000+ garages",
+        "Zero paperwork renewal"
+      ],
+      "sourceUrl": "https://www.hdfcergo.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "icici-lombard-premium-car-cover-4br",
+      "insurerName": "ICICI Lombard General Insurance Company Ltd.",
+      "insurerSlug": "icici-lombard",
+      "productName": "Premium Car Cover",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 2027227,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 8272,
+        "illustrativeMax": 37306,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Personal accident cover",
+        "Return to invoice",
+        "Loss of keys cover",
+        "Zero depreciation cover",
+        "NCB protection",
+        "Roadside assistance",
+        "Third-party liability",
+        "Own damage cover"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Normal wear and tear",
+        "Driving under influence"
+      ],
+      "claimSettlement": {
+        "ratio": 93.83,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Return to Invoice",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Return to invoice add-on",
+        "NCB protect optional",
+        "Zero paperwork renewal",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.icicilombard.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "bajaj-allianz-total-auto-care-afr",
+      "insurerName": "Bajaj Allianz General Insurance Co. Ltd.",
+      "insurerSlug": "bajaj-allianz",
+      "productName": "Total Auto Care",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 2301261,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 8564,
+        "illustrativeMax": 38584,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Tyre protect",
+        "Loss of keys cover",
+        "NCB protection",
+        "Own damage cover",
+        "Return to invoice",
+        "Key replacement",
+        "Roadside assistance",
+        "Engine protect"
+      ],
+      "keyExclusions": [
+        "Mechanical/electrical breakdown",
+        "Consequential loss",
+        "Normal wear and tear",
+        "Driving without valid license"
+      ],
+      "claimSettlement": {
+        "ratio": 96.53,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "Return to invoice add-on",
+        "NCB protect optional",
+        "Zero paperwork renewal",
+        "Engine protect available"
+      ],
+      "sourceUrl": "https://www.bajajallianz.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "tata-aig-classic-motor-gjr",
+      "insurerName": "Tata AIG General Insurance Company Ltd.",
+      "insurerSlug": "tata-aig",
+      "productName": "Classic Motor",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 2677614,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 9041,
+        "illustrativeMax": 27724,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Tyre protect",
+        "Zero depreciation cover",
+        "Personal accident cover",
+        "NCB protection",
+        "Consumables cover",
+        "Key replacement",
+        "Third-party liability",
+        "Engine protect"
+      ],
+      "keyExclusions": [
+        "Consequential loss",
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown",
+        "Driving without valid license",
+        "Driving under influence"
+      ],
+      "claimSettlement": {
+        "ratio": 96.11,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "NCB protect optional",
+        "Zero paperwork renewal",
+        "Instant claim settlement",
+        "Return to invoice add-on"
+      ],
+      "sourceUrl": "https://www.tataaig.com",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "in"
+    },
+    {
+      "id": "new-india-assurance-diamond-drive-mnr",
+      "insurerName": "The New India Assurance Co. Ltd.",
+      "insurerSlug": "new-india-assurance",
+      "productName": "Diamond Drive",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 300000,
+        "max": 2273571,
+        "options": [],
+        "currency": "INR"
+      },
+      "premiumRange": {
+        "illustrativeMin": 10044,
+        "illustrativeMax": 35058,
+        "assumptions": "30yo individual, metro city, indicative only",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Tyre protect",
+        "Engine protect",
+        "Zero depreciation cover",
+        "Personal accident cover",
+        "Key replacement",
+        "Third-party liability",
+        "Loss of keys cover",
+        "Own damage cover"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Normal wear and tear",
+        "Consequential loss",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 98.62,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "24x7 roadside assistance",
+        "Personal accident cover included"
+      ],
+      "sourceUrl": "https://www.newindia.co.in",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "in"
     }
   ]

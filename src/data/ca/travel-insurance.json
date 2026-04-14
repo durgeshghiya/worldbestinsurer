@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -376,6 +376,715 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "sunlife-travel-secure-e4w",
+      "insurerName": "Sun Life Financial",
+      "insurerSlug": "sunlife",
+      "productName": "Travel Secure",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 77,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 860385,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 77,
+        "illustrativeMax": 454,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight delay",
+        "Emergency evacuation",
+        "COVID-19 cover",
+        "Pre-existing disease (optional)",
+        "Medical emergencies abroad",
+        "Personal liability",
+        "Baggage loss",
+        "Baggage delay",
+        "Flight cancellation"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)",
+        "War and nuclear risks",
+        "High-risk sports without add-on",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 96.84,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Schengen visa compliant"
+      ],
+      "sourceUrl": "https://www.sunlife.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "manulife-globe-protect-k8w",
+      "insurerName": "Manulife Financial",
+      "insurerSlug": "manulife",
+      "productName": "Globe Protect",
+      "category": "travel",
+      "subCategory": "student",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 77,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 768378,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 45,
+        "illustrativeMax": 361,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Baggage loss",
+        "24x7 assistance",
+        "Flight delay",
+        "Passport loss",
+        "Flight cancellation",
+        "Trip interruption",
+        "Adventure sports (add-on)",
+        "Personal liability"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "Self-inflicted injuries",
+        "High-risk sports without add-on",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 98.23,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero deductible option",
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Schengen visa compliant",
+        "Adventure sports add-on"
+      ],
+      "sourceUrl": "https://www.manulife.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "desjardins-explorer-plus-qcw",
+      "insurerName": "Desjardins Insurance",
+      "insurerSlug": "desjardins",
+      "productName": "Explorer Plus",
+      "category": "travel",
+      "subCategory": "senior",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 71,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 762794,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 79,
+        "illustrativeMax": 443,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight delay",
+        "Flight cancellation",
+        "Pre-existing disease (optional)",
+        "COVID-19 cover",
+        "Personal liability",
+        "Baggage delay",
+        "Baggage loss",
+        "Trip interruption"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "War and nuclear risks",
+        "Self-inflicted injuries",
+        "High-risk sports without add-on",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 95.08,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Baggage delay cover",
+        "Annual multi-trip option",
+        "Schengen visa compliant",
+        "Trip cancellation cover"
+      ],
+      "sourceUrl": "https://www.desjardins.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "bluecross-travel-elite-wgw",
+      "insurerName": "Blue Cross (Provincial)",
+      "insurerSlug": "bluecross",
+      "productName": "Travel Elite",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 73,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 879228,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 71,
+        "illustrativeMax": 354,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Flight cancellation",
+        "Trip interruption",
+        "Passport loss",
+        "Pre-existing disease (optional)",
+        "COVID-19 cover",
+        "24x7 assistance",
+        "Baggage loss"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "Self-inflicted injuries",
+        "High-risk sports without add-on",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 98.36,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Schengen visa compliant",
+        "Adventure sports add-on",
+        "Zero deductible option",
+        "Worldwide 24x7 assistance"
+      ],
+      "sourceUrl": "https://www.bluecross.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "allianz-ca-voyage-shield-2kw",
+      "insurerName": "Allianz Global Assistance Canada",
+      "insurerSlug": "allianz-ca",
+      "productName": "Voyage Shield",
+      "category": "travel",
+      "subCategory": "senior",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 685708,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 47,
+        "illustrativeMax": 343,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Pre-existing disease (optional)",
+        "Adventure sports (add-on)",
+        "24x7 assistance",
+        "Medical emergencies abroad",
+        "Emergency evacuation",
+        "Flight delay",
+        "Trip cancellation"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries"
+      ],
+      "claimSettlement": {
+        "ratio": 97.91,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless hospitalization abroad",
+        "Annual multi-trip option",
+        "Baggage delay cover",
+        "Schengen visa compliant",
+        "Worldwide 24x7 assistance"
+      ],
+      "sourceUrl": "https://www.allianz-assistance.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "world-nomads-international-travel-pro-8ow",
+      "insurerName": "World Nomads",
+      "insurerSlug": "world-nomads",
+      "productName": "International Travel Pro",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 904815,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 68,
+        "illustrativeMax": 383,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip cancellation",
+        "Passport loss",
+        "Pre-existing disease (optional)",
+        "Trip interruption",
+        "Baggage delay",
+        "Emergency evacuation",
+        "Adventure sports (add-on)",
+        "Baggage loss",
+        "Flight delay",
+        "Medical emergencies abroad"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 98.61,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Trip cancellation cover",
+        "Baggage delay cover"
+      ],
+      "sourceUrl": "https://www.worldnomads.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "sunlife-travel-smart-esw",
+      "insurerName": "Sun Life Financial",
+      "insurerSlug": "sunlife",
+      "productName": "Travel Smart",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 71,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 839923,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 59,
+        "illustrativeMax": 369,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip interruption",
+        "Flight delay",
+        "Flight cancellation",
+        "COVID-19 cover",
+        "Pre-existing disease (optional)",
+        "24x7 assistance"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "Self-inflicted injuries",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 91.89,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero deductible option",
+        "Cashless hospitalization abroad",
+        "Worldwide 24x7 assistance"
+      ],
+      "sourceUrl": "https://www.sunlife.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "manulife-journey-secure-kww",
+      "insurerName": "Manulife Financial",
+      "insurerSlug": "manulife",
+      "productName": "Journey Secure",
+      "category": "travel",
+      "subCategory": "single-trip",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 70,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 518357,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 71,
+        "illustrativeMax": 422,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergencies abroad",
+        "Emergency evacuation",
+        "Passport loss",
+        "Flight delay",
+        "Adventure sports (add-on)",
+        "Baggage loss",
+        "Trip cancellation"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)",
+        "High-risk sports without add-on",
+        "War and nuclear risks",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 91.36,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Zero deductible option",
+        "Schengen visa compliant",
+        "Adventure sports add-on",
+        "Baggage delay cover"
+      ],
+      "sourceUrl": "https://www.manulife.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "desjardins-globe-trotter-gold-r0w",
+      "insurerName": "Desjardins Insurance",
+      "insurerSlug": "desjardins",
+      "productName": "Globe Trotter Gold",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 686016,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 72,
+        "illustrativeMax": 346,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergencies abroad",
+        "Emergency evacuation",
+        "Flight delay",
+        "Trip cancellation",
+        "Pre-existing disease (optional)",
+        "24x7 assistance",
+        "Adventure sports (add-on)",
+        "Passport loss",
+        "Trip interruption"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "War and nuclear risks",
+        "Self-inflicted injuries",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 97.41,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Baggage delay cover",
+        "Worldwide 24x7 assistance",
+        "Annual multi-trip option",
+        "Adventure sports add-on",
+        "Cashless hospitalization abroad"
+      ],
+      "sourceUrl": "https://www.desjardins.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "bluecross-travel-classic-x4w",
+      "insurerName": "Blue Cross (Provincial)",
+      "insurerSlug": "bluecross",
+      "productName": "Travel Classic",
+      "category": "travel",
+      "subCategory": "student",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 76,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 50000,
+        "max": 661738,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 71,
+        "illustrativeMax": 329,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "COVID-19 cover",
+        "Adventure sports (add-on)",
+        "Personal liability",
+        "Flight delay",
+        "Medical emergencies abroad",
+        "Flight cancellation",
+        "Emergency evacuation",
+        "24x7 assistance",
+        "Baggage delay"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "High-risk sports without add-on",
+        "War and nuclear risks",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 94.94,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Schengen visa compliant",
+        "Annual multi-trip option"
+      ],
+      "sourceUrl": "https://www.bluecross.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "ca"
     }
   ]

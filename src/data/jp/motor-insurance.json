@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -361,6 +361,723 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "high",
       "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "tokio-marine-comprehensive-drive-enk",
+      "insurerName": "Tokio Marine & Nichido Fire Insurance",
+      "insurerSlug": "tokio-marine",
+      "productName": "Comprehensive Drive",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 5000000,
+        "max": 69258245,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 67572,
+        "illustrativeMax": 149737,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Personal accident cover",
+        "Roadside assistance",
+        "Consumables cover",
+        "Loss of keys cover",
+        "Own damage cover",
+        "Third-party liability",
+        "Return to invoice",
+        "Key replacement",
+        "Zero depreciation cover"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Driving without valid license",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 93.71,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "NCB protect optional",
+        "Return to invoice add-on",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.tokiomarine-nichido.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp"
+    },
+    {
+      "id": "sompo-secure-motor-plus-krk",
+      "insurerName": "Sompo Japan Insurance",
+      "insurerSlug": "sompo",
+      "productName": "Secure Motor Plus",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 5000000,
+        "max": 87615598,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 79612,
+        "illustrativeMax": 160088,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Loss of keys cover",
+        "Own damage cover",
+        "Third-party liability",
+        "Key replacement",
+        "Zero depreciation cover",
+        "Roadside assistance",
+        "Tyre protect"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Driving under influence",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 98.97,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "Engine protect available",
+        "24x7 roadside assistance",
+        "Return to invoice add-on",
+        "NCB protect optional"
+      ],
+      "sourceUrl": "https://www.sompo-japan.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp"
+    },
+    {
+      "id": "mitsui-sumitomo-auto-shield-gold-qvk",
+      "insurerName": "Mitsui Sumitomo Insurance",
+      "insurerSlug": "mitsui-sumitomo",
+      "productName": "Auto Shield Gold",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 5000000,
+        "max": 94294528,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 73926,
+        "illustrativeMax": 108056,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "NCB protection",
+        "Engine protect",
+        "Return to invoice",
+        "Zero depreciation cover",
+        "Consumables cover",
+        "Personal accident cover",
+        "Key replacement",
+        "Loss of keys cover",
+        "Roadside assistance"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Consequential loss",
+        "Normal wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 99.03,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "24x7 roadside assistance",
+        "NCB protect optional"
+      ],
+      "sourceUrl": "https://www.ms-ins.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp"
+    },
+    {
+      "id": "axa-direct-jp-drive-easy-wzk",
+      "insurerName": "AXA Direct Life / AXA Direct Non-Life",
+      "insurerSlug": "axa-direct-jp",
+      "productName": "Drive Easy",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 5000000,
+        "max": 68539712,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 68742,
+        "illustrativeMax": 176985,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Loss of keys cover",
+        "Tyre protect",
+        "Own damage cover",
+        "Zero depreciation cover",
+        "Consumables cover",
+        "Personal accident cover",
+        "Roadside assistance",
+        "Third-party liability",
+        "Return to invoice"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 94.22,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Engine protect available",
+        "Personal accident cover included",
+        "NCB protect optional"
+      ],
+      "sourceUrl": "https://www.axa-direct.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp"
+    },
+    {
+      "id": "zurich-jp-zero-depreciation-plus-33k",
+      "insurerName": "Zurich Insurance Japan",
+      "insurerSlug": "zurich-jp",
+      "productName": "Zero Depreciation Plus",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 5000000,
+        "max": 59547250,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 72138,
+        "illustrativeMax": 141787,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Tyre protect",
+        "Consumables cover",
+        "Engine protect",
+        "Return to invoice",
+        "Zero depreciation cover",
+        "Loss of keys cover"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Driving under influence",
+        "Consequential loss",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 92.83,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Return to Invoice"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Return to invoice add-on",
+        "Personal accident cover included",
+        "NCB protect optional"
+      ],
+      "sourceUrl": "https://www.zurich.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp"
+    },
+    {
+      "id": "sbi-insurance-jp-premium-auto-cover-97k",
+      "insurerName": "SBI Insurance Group",
+      "insurerSlug": "sbi-insurance-jp",
+      "productName": "Premium Auto Cover",
+      "category": "motor",
+      "subCategory": "third-party",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 5000000,
+        "max": 97351811,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 45109,
+        "illustrativeMax": 127957,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage cover",
+        "Consumables cover",
+        "Loss of keys cover",
+        "Zero depreciation cover",
+        "Return to invoice",
+        "NCB protection",
+        "Engine protect",
+        "Key replacement"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Mechanical/electrical breakdown",
+        "Driving under influence",
+        "Normal wear and tear",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 93.4,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "24x7 roadside assistance",
+        "Instant claim settlement",
+        "Return to invoice add-on",
+        "Engine protect available"
+      ],
+      "sourceUrl": "https://www.sbisonpo.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp"
+    },
+    {
+      "id": "tokio-marine-total-motor-protect-fbk",
+      "insurerName": "Tokio Marine & Nichido Fire Insurance",
+      "insurerSlug": "tokio-marine",
+      "productName": "Total Motor Protect",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 5000000,
+        "max": 81928281,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 45133,
+        "illustrativeMax": 176091,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Return to invoice",
+        "Loss of keys cover",
+        "Roadside assistance",
+        "Consumables cover",
+        "Zero depreciation cover",
+        "Key replacement",
+        "Third-party liability",
+        "Own damage cover"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Mechanical/electrical breakdown",
+        "Normal wear and tear",
+        "Driving under influence",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 93.49,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "NCB protect optional",
+        "Cashless repairs at 5000+ garages",
+        "Return to invoice add-on",
+        "Personal accident cover included",
+        "Zero paperwork renewal"
+      ],
+      "sourceUrl": "https://www.tokiomarine-nichido.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp"
+    },
+    {
+      "id": "sompo-smartdrive-classic-lfk",
+      "insurerName": "Sompo Japan Insurance",
+      "insurerSlug": "sompo",
+      "productName": "SmartDrive Classic",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 5000000,
+        "max": 55519020,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 73273,
+        "illustrativeMax": 170547,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Personal accident cover",
+        "Third-party liability",
+        "Own damage cover",
+        "Loss of keys cover",
+        "Roadside assistance",
+        "Zero depreciation cover",
+        "Consumables cover"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown",
+        "Driving without valid license",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 99.07,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Return to invoice add-on",
+        "Cashless repairs at 5000+ garages",
+        "Zero paperwork renewal",
+        "24x7 roadside assistance",
+        "Personal accident cover included"
+      ],
+      "sourceUrl": "https://www.sompo-japan.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp"
+    },
+    {
+      "id": "mitsui-sumitomo-elite-motor-rjk",
+      "insurerName": "Mitsui Sumitomo Insurance",
+      "insurerSlug": "mitsui-sumitomo",
+      "productName": "Elite Motor",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 5000000,
+        "max": 82963837,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 70014,
+        "illustrativeMax": 148945,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage cover",
+        "Return to invoice",
+        "Loss of keys cover",
+        "NCB protection",
+        "Third-party liability",
+        "Personal accident cover",
+        "Zero depreciation cover"
+      ],
+      "keyExclusions": [
+        "Consequential loss",
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown",
+        "Driving without valid license"
+      ],
+      "claimSettlement": {
+        "ratio": 97.11,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero paperwork renewal",
+        "Instant claim settlement",
+        "Return to invoice add-on",
+        "Personal accident cover included",
+        "NCB protect optional"
+      ],
+      "sourceUrl": "https://www.ms-ins.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp"
+    },
+    {
+      "id": "axa-direct-jp-car-guard-premier-xnk",
+      "insurerName": "AXA Direct Life / AXA Direct Non-Life",
+      "insurerSlug": "axa-direct-jp",
+      "productName": "Car Guard Premier",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 5000000,
+        "max": 74009023,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 79520,
+        "illustrativeMax": 166126,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Third-party liability",
+        "NCB protection",
+        "Zero depreciation cover",
+        "Engine protect",
+        "Loss of keys cover",
+        "Tyre protect",
+        "Consumables cover",
+        "Roadside assistance",
+        "Personal accident cover"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Driving under influence",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 93.43,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero paperwork renewal",
+        "Cashless repairs at 5000+ garages",
+        "24x7 roadside assistance",
+        "Engine protect available"
+      ],
+      "sourceUrl": "https://www.axa-direct.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "jp"
     }
   ]

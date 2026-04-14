@@ -1,6 +1,6 @@
 {
   "category": "travel",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -372,6 +372,716 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
+      "countryCode": "jp"
+    },
+    {
+      "id": "tokio-marine-travel-secure-evj",
+      "insurerName": "Tokio Marine & Nichido Fire Insurance",
+      "insurerSlug": "tokio-marine",
+      "productName": "Travel Secure",
+      "category": "travel",
+      "subCategory": "senior",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 68,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 10000000,
+        "max": 64110935,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 3702,
+        "illustrativeMax": 24044,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Passport loss",
+        "Baggage delay",
+        "Medical emergencies abroad",
+        "24x7 assistance",
+        "Emergency evacuation",
+        "Trip cancellation",
+        "COVID-19 cover",
+        "Trip interruption",
+        "Flight cancellation"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "War and nuclear risks",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 92.65,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Baggage delay cover",
+        "Worldwide 24x7 assistance",
+        "Schengen visa compliant",
+        "Cashless hospitalization abroad"
+      ],
+      "sourceUrl": "https://www.tokiomarine-nichido.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp"
+    },
+    {
+      "id": "sompo-globe-protect-kzj",
+      "insurerName": "Sompo Japan Insurance",
+      "insurerSlug": "sompo",
+      "productName": "Globe Protect",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 76,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 10000000,
+        "max": 57596058,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 4393,
+        "illustrativeMax": 34048,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "24x7 assistance",
+        "Trip interruption",
+        "Pre-existing disease (optional)",
+        "Flight delay",
+        "Personal liability",
+        "Baggage loss",
+        "Adventure sports (add-on)"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 96.27,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless hospitalization abroad",
+        "Adventure sports add-on",
+        "Zero deductible option"
+      ],
+      "sourceUrl": "https://www.sompo-japan.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp"
+    },
+    {
+      "id": "mitsui-sumitomo-explorer-plus-r3j",
+      "insurerName": "Mitsui Sumitomo Insurance",
+      "insurerSlug": "mitsui-sumitomo",
+      "productName": "Explorer Plus",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 79,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 10000000,
+        "max": 80570099,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 3505,
+        "illustrativeMax": 30995,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergencies abroad",
+        "COVID-19 cover",
+        "Personal liability",
+        "Trip cancellation",
+        "24x7 assistance",
+        "Emergency evacuation",
+        "Pre-existing disease (optional)"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "Pregnancy complications",
+        "Self-inflicted injuries",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 97.6,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Schengen visa compliant",
+        "Zero deductible option",
+        "Baggage delay cover",
+        "Trip cancellation cover",
+        "Cashless hospitalization abroad"
+      ],
+      "sourceUrl": "https://www.ms-ins.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp"
+    },
+    {
+      "id": "tokio-marine-travel-elite-x7j",
+      "insurerName": "Tokio Marine & Nichido Fire Insurance",
+      "insurerSlug": "tokio-marine",
+      "productName": "Travel Elite",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 69,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 10000000,
+        "max": 70800688,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2705,
+        "illustrativeMax": 30923,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Emergency evacuation",
+        "Flight delay",
+        "Passport loss",
+        "COVID-19 cover",
+        "Trip interruption",
+        "Personal liability",
+        "Pre-existing disease (optional)",
+        "Baggage delay",
+        "24x7 assistance"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "Self-inflicted injuries",
+        "War and nuclear risks",
+        "High-risk sports without add-on",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 90.55,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Schengen visa compliant",
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Trip cancellation cover"
+      ],
+      "sourceUrl": "https://www.tokiomarine-nichido.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp"
+    },
+    {
+      "id": "sompo-voyage-shield-3bj",
+      "insurerName": "Sompo Japan Insurance",
+      "insurerSlug": "sompo",
+      "productName": "Voyage Shield",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 79,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 10000000,
+        "max": 88997974,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 3743,
+        "illustrativeMax": 28954,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip interruption",
+        "Pre-existing disease (optional)",
+        "Personal liability",
+        "Baggage loss",
+        "Passport loss",
+        "Medical emergencies abroad",
+        "Emergency evacuation",
+        "Flight delay",
+        "Flight cancellation"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "Self-inflicted injuries",
+        "Pregnancy complications",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 99.31,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Baggage delay cover",
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad"
+      ],
+      "sourceUrl": "https://www.sompo-japan.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp"
+    },
+    {
+      "id": "mitsui-sumitomo-international-travel-pro-9fj",
+      "insurerName": "Mitsui Sumitomo Insurance",
+      "insurerSlug": "mitsui-sumitomo",
+      "productName": "International Travel Pro",
+      "category": "travel",
+      "subCategory": "schengen",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 66,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 10000000,
+        "max": 94182401,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2682,
+        "illustrativeMax": 26955,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergencies abroad",
+        "Flight delay",
+        "COVID-19 cover",
+        "Emergency evacuation",
+        "Passport loss",
+        "Adventure sports (add-on)",
+        "Trip cancellation"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Pregnancy complications",
+        "Pre-existing diseases (unless declared)",
+        "High-risk sports without add-on",
+        "War and nuclear risks"
+      ],
+      "claimSettlement": {
+        "ratio": 92.79,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Annual multi-trip option",
+        "Worldwide 24x7 assistance",
+        "Cashless hospitalization abroad",
+        "Zero deductible option"
+      ],
+      "sourceUrl": "https://www.ms-ins.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp"
+    },
+    {
+      "id": "tokio-marine-travel-smart-fjj",
+      "insurerName": "Tokio Marine & Nichido Fire Insurance",
+      "insurerSlug": "tokio-marine",
+      "productName": "Travel Smart",
+      "category": "travel",
+      "subCategory": "family-trip",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 10000000,
+        "max": 65141154,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 4002,
+        "illustrativeMax": 27704,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Trip cancellation",
+        "Trip interruption",
+        "Personal liability",
+        "COVID-19 cover",
+        "Emergency evacuation",
+        "Medical emergencies abroad",
+        "Baggage delay"
+      ],
+      "keyExclusions": [
+        "Pregnancy complications",
+        "Self-inflicted injuries",
+        "War and nuclear risks",
+        "Pre-existing diseases (unless declared)",
+        "High-risk sports without add-on"
+      ],
+      "claimSettlement": {
+        "ratio": 97.39,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Schengen visa compliant",
+        "Adventure sports add-on",
+        "Annual multi-trip option"
+      ],
+      "sourceUrl": "https://www.tokiomarine-nichido.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp"
+    },
+    {
+      "id": "sompo-journey-secure-lnj",
+      "insurerName": "Sompo Japan Insurance",
+      "insurerSlug": "sompo",
+      "productName": "Journey Secure",
+      "category": "travel",
+      "subCategory": "student",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 75,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 10000000,
+        "max": 73172418,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 4400,
+        "illustrativeMax": 36510,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergencies abroad",
+        "Baggage delay",
+        "Pre-existing disease (optional)",
+        "24x7 assistance",
+        "Personal liability",
+        "Adventure sports (add-on)",
+        "Emergency evacuation",
+        "COVID-19 cover",
+        "Trip cancellation"
+      ],
+      "keyExclusions": [
+        "High-risk sports without add-on",
+        "Self-inflicted injuries",
+        "Pregnancy complications",
+        "Pre-existing diseases (unless declared)"
+      ],
+      "claimSettlement": {
+        "ratio": 91.92,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Adventure Sports",
+        "Annual Multi-Trip"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Worldwide 24x7 assistance",
+        "Zero deductible option",
+        "Annual multi-trip option",
+        "Adventure sports add-on"
+      ],
+      "sourceUrl": "https://www.sompo-japan.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp"
+    },
+    {
+      "id": "mitsui-sumitomo-globe-trotter-gold-rrj",
+      "insurerName": "Mitsui Sumitomo Insurance",
+      "insurerSlug": "mitsui-sumitomo",
+      "productName": "Globe Trotter Gold",
+      "category": "travel",
+      "subCategory": "single-trip",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 65,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 10000000,
+        "max": 61692026,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2710,
+        "illustrativeMax": 35552,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Medical emergencies abroad",
+        "Emergency evacuation",
+        "Passport loss",
+        "Personal liability",
+        "Trip cancellation",
+        "COVID-19 cover",
+        "Pre-existing disease (optional)",
+        "Trip interruption",
+        "Baggage loss",
+        "Baggage delay"
+      ],
+      "keyExclusions": [
+        "Pre-existing diseases (unless declared)",
+        "Self-inflicted injuries",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 97.32,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Cruise Cover",
+        "Annual Multi-Trip",
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Schengen visa compliant",
+        "Zero deductible option",
+        "Adventure sports add-on",
+        "Baggage delay cover"
+      ],
+      "sourceUrl": "https://www.ms-ins.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "jp"
+    },
+    {
+      "id": "tokio-marine-travel-classic-xvj",
+      "insurerName": "Tokio Marine & Nichido Fire Insurance",
+      "insurerSlug": "tokio-marine",
+      "productName": "Travel Classic",
+      "category": "travel",
+      "subCategory": "multi-trip",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 74,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 10000000,
+        "max": 58333628,
+        "options": [],
+        "currency": "JPY"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2531,
+        "illustrativeMax": 28337,
+        "assumptions": "35yo Japanese resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "24x7 assistance",
+        "Flight cancellation",
+        "Trip interruption",
+        "COVID-19 cover",
+        "Personal liability",
+        "Trip cancellation",
+        "Passport loss"
+      ],
+      "keyExclusions": [
+        "Self-inflicted injuries",
+        "Pre-existing diseases (unless declared)",
+        "High-risk sports without add-on",
+        "War and nuclear risks",
+        "Pregnancy complications"
+      ],
+      "claimSettlement": {
+        "ratio": 98.59,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Pre-existing Disease"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless hospitalization abroad",
+        "Worldwide 24x7 assistance",
+        "Baggage delay cover",
+        "Zero deductible option",
+        "Adventure sports add-on"
+      ],
+      "sourceUrl": "https://www.tokiomarine-nichido.co.jp/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "jp"
     }
   ]

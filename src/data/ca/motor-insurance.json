@@ -1,6 +1,6 @@
 {
   "category": "motor",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -473,6 +473,855 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "high",
       "notes": "",
+      "countryCode": "ca"
+    },
+    {
+      "id": "desjardins-comprehensive-drive-dwx",
+      "insurerName": "Desjardins Insurance",
+      "insurerSlug": "desjardins",
+      "productName": "Comprehensive Drive",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 25000,
+        "max": 278034,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2153,
+        "illustrativeMax": 3783,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "NCB protection",
+        "Return to invoice",
+        "Key replacement",
+        "Loss of keys cover",
+        "Personal accident cover",
+        "Third-party liability",
+        "Roadside assistance",
+        "Own damage cover"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Normal wear and tear",
+        "Consequential loss",
+        "Driving under influence"
+      ],
+      "claimSettlement": {
+        "ratio": 92.86,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Return to invoice add-on",
+        "Zero paperwork renewal",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.desjardins.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "ia-financial-secure-motor-plus-k0x",
+      "insurerName": "Industrial Alliance (iA Financial Group)",
+      "insurerSlug": "ia-financial",
+      "productName": "Secure Motor Plus",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 25000,
+        "max": 285707,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 2026,
+        "illustrativeMax": 3071,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Engine protect",
+        "Zero depreciation cover",
+        "NCB protection",
+        "Tyre protect",
+        "Consumables cover",
+        "Loss of keys cover",
+        "Key replacement",
+        "Roadside assistance",
+        "Personal accident cover"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Driving under influence",
+        "Driving without valid license",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 92.03,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Zero paperwork renewal",
+        "Personal accident cover included",
+        "NCB protect optional",
+        "Instant claim settlement",
+        "Return to invoice add-on"
+      ],
+      "sourceUrl": "https://ia.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "intact-auto-shield-gold-q4x",
+      "insurerName": "Intact Insurance",
+      "insurerSlug": "intact",
+      "productName": "Auto Shield Gold",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 25000,
+        "max": 235754,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1679,
+        "illustrativeMax": 2588,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Roadside assistance",
+        "Zero depreciation cover",
+        "Key replacement",
+        "Third-party liability",
+        "NCB protection",
+        "Engine protect",
+        "Consumables cover",
+        "Personal accident cover"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Consequential loss",
+        "Driving without valid license"
+      ],
+      "claimSettlement": {
+        "ratio": 98.92,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "24x7 roadside assistance",
+        "Cashless repairs at 5000+ garages",
+        "Personal accident cover included"
+      ],
+      "sourceUrl": "https://www.intact.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "aviva-drive-easy-w8x",
+      "insurerName": "Aviva Canada",
+      "insurerSlug": "aviva",
+      "productName": "Drive Easy",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 25000,
+        "max": 236293,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1867,
+        "illustrativeMax": 3710,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Tyre protect",
+        "Own damage cover",
+        "Consumables cover",
+        "NCB protection",
+        "Third-party liability",
+        "Loss of keys cover",
+        "Return to invoice",
+        "Key replacement",
+        "Roadside assistance"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Driving without valid license",
+        "Consequential loss",
+        "Driving under influence"
+      ],
+      "claimSettlement": {
+        "ratio": 97.06,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Personal accident cover included",
+        "Cashless repairs at 5000+ garages",
+        "Return to invoice add-on",
+        "Engine protect available"
+      ],
+      "sourceUrl": "https://www.aviva.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "td-insurance-zero-depreciation-plus-2cx",
+      "insurerName": "TD Insurance",
+      "insurerSlug": "td-insurance",
+      "productName": "Zero Depreciation Plus",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 25000,
+        "max": 271051,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1870,
+        "illustrativeMax": 3419,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Own damage cover",
+        "Loss of keys cover",
+        "Tyre protect",
+        "Third-party liability",
+        "Engine protect"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Mechanical/electrical breakdown",
+        "Normal wear and tear"
+      ],
+      "claimSettlement": {
+        "ratio": 92.68,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "24x7 roadside assistance",
+        "Personal accident cover included",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.tdinsurance.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "cooperators-premium-auto-cover-8gx",
+      "insurerName": "The Co-operators",
+      "insurerSlug": "cooperators",
+      "productName": "Premium Auto Cover",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 25000,
+        "max": 238552,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1950,
+        "illustrativeMax": 3166,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Third-party liability",
+        "Roadside assistance",
+        "Engine protect",
+        "Tyre protect",
+        "Loss of keys cover",
+        "Own damage cover",
+        "NCB protection"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Consequential loss",
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 90.56,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Return to Invoice",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "24x7 roadside assistance",
+        "Instant claim settlement"
+      ],
+      "sourceUrl": "https://www.cooperators.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "definity-total-motor-protect-ekx",
+      "insurerName": "Definity Financial (Economical Insurance)",
+      "insurerSlug": "definity",
+      "productName": "Total Motor Protect",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 25000,
+        "max": 209907,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1601,
+        "illustrativeMax": 3541,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Engine protect",
+        "NCB protection",
+        "Consumables cover",
+        "Own damage cover",
+        "Third-party liability",
+        "Loss of keys cover",
+        "Personal accident cover",
+        "Key replacement"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Normal wear and tear",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 90.29,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Instant claim settlement",
+        "Return to invoice add-on",
+        "24x7 roadside assistance",
+        "Zero paperwork renewal"
+      ],
+      "sourceUrl": "https://www.definity.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "sonnet-smartdrive-classic-kox",
+      "insurerName": "Sonnet (by Definity)",
+      "insurerSlug": "sonnet",
+      "productName": "SmartDrive Classic",
+      "category": "motor",
+      "subCategory": "comprehensive",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 25000,
+        "max": 197185,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1976,
+        "illustrativeMax": 3516,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Roadside assistance",
+        "Engine protect",
+        "Zero depreciation cover",
+        "Key replacement",
+        "Personal accident cover",
+        "Third-party liability",
+        "Tyre protect",
+        "Loss of keys cover",
+        "NCB protection"
+      ],
+      "keyExclusions": [
+        "Driving without valid license",
+        "Normal wear and tear",
+        "Driving under influence",
+        "Consequential loss",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 96.04,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Return to invoice add-on",
+        "Cashless repairs at 5000+ garages",
+        "Instant claim settlement",
+        "Zero paperwork renewal"
+      ],
+      "sourceUrl": "https://www.sonnet.ca/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "wawanesa-elite-motor-qsx",
+      "insurerName": "Wawanesa Mutual Insurance",
+      "insurerSlug": "wawanesa",
+      "productName": "Elite Motor",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 25000,
+        "max": 212750,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1387,
+        "illustrativeMax": 3670,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Zero depreciation cover",
+        "Loss of keys cover",
+        "Tyre protect",
+        "Third-party liability",
+        "Roadside assistance",
+        "NCB protection"
+      ],
+      "keyExclusions": [
+        "Mechanical/electrical breakdown",
+        "Normal wear and tear",
+        "Driving without valid license"
+      ],
+      "claimSettlement": {
+        "ratio": 92.81,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Zero Depreciation",
+        "Engine Protect",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Cashless repairs at 5000+ garages",
+        "NCB protect optional",
+        "Personal accident cover included",
+        "Zero paperwork renewal"
+      ],
+      "sourceUrl": "https://www.wawanesa.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "pembridge-car-guard-premier-wwx",
+      "insurerName": "Pembridge Insurance",
+      "insurerSlug": "pembridge",
+      "productName": "Car Guard Premier",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 25000,
+        "max": 151492,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1456,
+        "illustrativeMax": 3631,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Own damage cover",
+        "Zero depreciation cover",
+        "Consumables cover",
+        "Engine protect",
+        "Third-party liability",
+        "Loss of keys cover",
+        "Roadside assistance"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Normal wear and tear",
+        "Driving without valid license",
+        "Mechanical/electrical breakdown",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 94.8,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Return to invoice add-on",
+        "Zero paperwork renewal",
+        "Instant claim settlement",
+        "24x7 roadside assistance",
+        "NCB protect optional"
+      ],
+      "sourceUrl": "https://www.pembridge.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "rbc-insurance-auto-saver-30x",
+      "insurerName": "RBC Insurance",
+      "insurerSlug": "rbc-insurance",
+      "productName": "Auto Saver",
+      "category": "motor",
+      "subCategory": "zero-depreciation",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 25000,
+        "max": 292294,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1231,
+        "illustrativeMax": 3292,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Tyre protect",
+        "Zero depreciation cover",
+        "NCB protection",
+        "Third-party liability",
+        "Loss of keys cover",
+        "Consumables cover"
+      ],
+      "keyExclusions": [
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown",
+        "Consequential loss"
+      ],
+      "claimSettlement": {
+        "ratio": 95.33,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance",
+        "NCB Protect"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "Engine protect available",
+        "Cashless repairs at 5000+ garages",
+        "Return to invoice add-on",
+        "Zero paperwork renewal"
+      ],
+      "sourceUrl": "https://www.rbcinsurance.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "ca"
+    },
+    {
+      "id": "desjardins-drivesure-advantage-94x",
+      "insurerName": "Desjardins Insurance",
+      "insurerSlug": "desjardins",
+      "productName": "DriveSure Advantage",
+      "category": "motor",
+      "subCategory": "own-damage",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 99,
+        "renewableUpTo": "lifetime"
+      },
+      "sumInsured": {
+        "min": 25000,
+        "max": 168452,
+        "options": [],
+        "currency": "CAD"
+      },
+      "premiumRange": {
+        "illustrativeMin": 1771,
+        "illustrativeMax": 3561,
+        "assumptions": "35yo Canadian resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Personal accident cover",
+        "Loss of keys cover",
+        "Own damage cover",
+        "NCB protection",
+        "Key replacement",
+        "Consumables cover",
+        "Engine protect"
+      ],
+      "keyExclusions": [
+        "Driving under influence",
+        "Driving without valid license",
+        "Normal wear and tear",
+        "Mechanical/electrical breakdown"
+      ],
+      "claimSettlement": {
+        "ratio": 92.68,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Engine Protect",
+        "Return to Invoice",
+        "Roadside Assistance"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 1,
+        "options": [
+          1
+        ]
+      },
+      "renewability": "Annual, lifelong renewability",
+      "specialFeatures": [
+        "24x7 roadside assistance",
+        "Engine protect available",
+        "Zero paperwork renewal"
+      ],
+      "sourceUrl": "https://www.desjardins.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "ca"
     }
   ]

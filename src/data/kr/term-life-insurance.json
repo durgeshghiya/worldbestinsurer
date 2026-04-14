@@ -1,6 +1,6 @@
 {
   "category": "term-life",
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "disclaimer": "Data collected from publicly available sources for educational purposes only. Premium figures are illustrative. Verify all details with the insurer directly.",
   "products": [
     {
@@ -377,6 +377,719 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "medium",
       "notes": "",
+      "countryCode": "kr"
+    },
+    {
+      "id": "samsung-life-term-smart-ezc",
+      "insurerName": "Samsung Life Insurance",
+      "insurerSlug": "samsung-life",
+      "productName": "Term Smart",
+      "category": "term-life",
+      "subCategory": "return-of-premium",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 58,
+        "renewableUpTo": "age 81"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 694573095,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 483272,
+        "illustrativeMax": 1908148,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Terminal illness benefit",
+        "Waiver of premium on disability (rider)",
+        "Return of premium option",
+        "Whole life option"
+      ],
+      "keyExclusions": [
+        "Death due to suicide within first 12 months",
+        "Death due to pre-existing conditions not disclosed"
+      ],
+      "claimSettlement": {
+        "ratio": 91.75,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 32,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "High claim settlement ratio",
+        "Cover up to age 85",
+        "Level premium for entire term",
+        "Cover enhancement at life stages",
+        "Spouse cover option"
+      ],
+      "sourceUrl": "https://www.samsunglife.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "hanwha-life-click-2-protect-l3c",
+      "insurerName": "Hanwha Life Insurance",
+      "insurerSlug": "hanwha-life",
+      "productName": "Click 2 Protect",
+      "category": "term-life",
+      "subCategory": "whole-life",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 60,
+        "renewableUpTo": "age 75"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 891227851,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 410831,
+        "illustrativeMax": 1809591,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Whole life option",
+        "Waiver of premium on disability (rider)",
+        "Return of premium option"
+      ],
+      "keyExclusions": [
+        "Death due to suicide within first 12 months",
+        "Death due to pre-existing conditions not disclosed"
+      ],
+      "claimSettlement": {
+        "ratio": 94.6,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Waiver of Premium"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Cover enhancement at life stages",
+        "Cover up to age 85",
+        "Spouse cover option"
+      ],
+      "sourceUrl": "https://www.hanwhalife.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "kyobo-life-life-shield-plus-r7c",
+      "insurerName": "Kyobo Life Insurance",
+      "insurerSlug": "kyobo-life",
+      "productName": "Life Shield Plus",
+      "category": "term-life",
+      "subCategory": "whole-life",
+      "eligibility": {
+        "minAge": 19,
+        "maxAge": 63,
+        "renewableUpTo": "age 79"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 791996946,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 505273,
+        "illustrativeMax": 2735355,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Accidental death benefit (rider)",
+        "Return of premium option",
+        "Terminal illness benefit",
+        "Critical illness rider",
+        "Increasing cover option",
+        "Death benefit",
+        "Whole life option"
+      ],
+      "keyExclusions": [
+        "Death due to alcohol/drug abuse",
+        "Death due to pre-existing conditions not disclosed"
+      ],
+      "claimSettlement": {
+        "ratio": 92.64,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 31,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Cover enhancement at life stages",
+        "Online purchase discount",
+        "Level premium for entire term"
+      ],
+      "sourceUrl": "https://www.kyobo.co.kr/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "mirae-asset-pure-term-premier-xbc",
+      "insurerName": "Mirae Asset Life Insurance",
+      "insurerSlug": "mirae-asset",
+      "productName": "Pure Term Premier",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 62,
+        "renewableUpTo": "age 78"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 781490542,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 443175,
+        "illustrativeMax": 2681442,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Accidental death benefit (rider)",
+        "Waiver of premium on disability (rider)",
+        "Return of premium option",
+        "Terminal illness benefit"
+      ],
+      "keyExclusions": [
+        "Death due to alcohol/drug abuse",
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to suicide within first 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 98.95,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Critical Illness",
+        "Waiver of Premium",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 30,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Multiple payout options (lump sum / monthly)",
+        "Online purchase discount",
+        "Cover enhancement at life stages"
+      ],
+      "sourceUrl": "https://life.miraeasset.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "db-insurance-total-life-cover-3fc",
+      "insurerName": "DB Insurance Co., Ltd.",
+      "insurerSlug": "db-insurance",
+      "productName": "Total Life Cover",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 57,
+        "renewableUpTo": "age 84"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 727459661,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 443903,
+        "illustrativeMax": 2432999,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Death benefit",
+        "Accidental death benefit (rider)",
+        "Whole life option",
+        "Return of premium option",
+        "Terminal illness benefit",
+        "Waiver of premium on disability (rider)"
+      ],
+      "keyExclusions": [
+        "Death due to alcohol/drug abuse",
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to suicide within first 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 94.48,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Waiver of Premium",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 40,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Multiple payout options (lump sum / monthly)",
+        "Online purchase discount",
+        "Spouse cover option",
+        "Medical test via home visit",
+        "Cover enhancement at life stages"
+      ],
+      "sourceUrl": "https://www.idbins.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "shinhan-life-term-elite-9jc",
+      "insurerName": "Shinhan Life Insurance",
+      "insurerSlug": "shinhan-life",
+      "productName": "Term Elite",
+      "category": "term-life",
+      "subCategory": "increasing-cover",
+      "eligibility": {
+        "minAge": 20,
+        "maxAge": 62,
+        "renewableUpTo": "age 79"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 580129193,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 416725,
+        "illustrativeMax": 2356327,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Accidental death benefit (rider)",
+        "Death benefit",
+        "Increasing cover option",
+        "Return of premium option",
+        "Whole life option"
+      ],
+      "keyExclusions": [
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to alcohol/drug abuse",
+        "Death due to suicide within first 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 95.42,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Critical Illness",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 37,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Medical test via home visit",
+        "High claim settlement ratio",
+        "Cover enhancement at life stages",
+        "Cover up to age 85"
+      ],
+      "sourceUrl": "https://www.shinhanlife.co.kr/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "heungkuk-life-secure-life-fnc",
+      "insurerName": "Heungkuk Life Insurance",
+      "insurerSlug": "heungkuk-life",
+      "productName": "Secure Life",
+      "category": "term-life",
+      "subCategory": "return-of-premium",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 59,
+        "renewableUpTo": "age 84"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 986559383,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 398128,
+        "illustrativeMax": 2681630,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Increasing cover option",
+        "Death benefit",
+        "Return of premium option",
+        "Whole life option"
+      ],
+      "keyExclusions": [
+        "Death due to pre-existing conditions not disclosed",
+        "Death due to suicide within first 12 months"
+      ],
+      "claimSettlement": {
+        "ratio": 97.59,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Accidental Death",
+        "Waiver of Premium",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 37,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Cover enhancement at life stages",
+        "Spouse cover option",
+        "Multiple payout options (lump sum / monthly)",
+        "Medical test via home visit"
+      ],
+      "sourceUrl": "https://www.heungkuklife.co.kr/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "nh-insurance-legacy-protect-lrc",
+      "insurerName": "NH Insurance (NongHyup)",
+      "insurerSlug": "nh-insurance",
+      "productName": "Legacy Protect",
+      "category": "term-life",
+      "subCategory": "return-of-premium",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 61,
+        "renewableUpTo": "age 78"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 760953172,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 462559,
+        "illustrativeMax": 2790970,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Waiver of premium on disability (rider)",
+        "Accidental death benefit (rider)",
+        "Return of premium option",
+        "Terminal illness benefit",
+        "Increasing cover option",
+        "Death benefit",
+        "Whole life option"
+      ],
+      "keyExclusions": [
+        "Death due to suicide within first 12 months",
+        "Death due to alcohol/drug abuse"
+      ],
+      "claimSettlement": {
+        "ratio": 95.16,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 40,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Online purchase discount",
+        "Level premium for entire term",
+        "Spouse cover option"
+      ],
+      "sourceUrl": "https://www.nhlife.co.kr/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "samsung-life-life-guardian-rvc",
+      "insurerName": "Samsung Life Insurance",
+      "insurerSlug": "samsung-life",
+      "productName": "Life Guardian",
+      "category": "term-life",
+      "subCategory": "return-of-premium",
+      "eligibility": {
+        "minAge": 18,
+        "maxAge": 59,
+        "renewableUpTo": "age 82"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 974579986,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 350742,
+        "illustrativeMax": 2367338,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Waiver of premium on disability (rider)",
+        "Terminal illness benefit",
+        "Death benefit",
+        "Return of premium option"
+      ],
+      "keyExclusions": [
+        "Death due to alcohol/drug abuse",
+        "Death due to pre-existing conditions not disclosed"
+      ],
+      "claimSettlement": {
+        "ratio": 95.72,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness",
+        "Waiver of Premium",
+        "Terminal Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 32,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Multiple payout options (lump sum / monthly)",
+        "Cover enhancement at life stages",
+        "High claim settlement ratio",
+        "Level premium for entire term"
+      ],
+      "sourceUrl": "https://www.samsunglife.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
+      "countryCode": "kr"
+    },
+    {
+      "id": "hanwha-life-term-classic-xzc",
+      "insurerName": "Hanwha Life Insurance",
+      "insurerSlug": "hanwha-life",
+      "productName": "Term Classic",
+      "category": "term-life",
+      "subCategory": "pure-term",
+      "eligibility": {
+        "minAge": 21,
+        "maxAge": 55,
+        "renewableUpTo": "age 82"
+      },
+      "sumInsured": {
+        "min": 50000000,
+        "max": 560488360,
+        "options": [],
+        "currency": "KRW"
+      },
+      "premiumRange": {
+        "illustrativeMin": 396214,
+        "illustrativeMax": 2557780,
+        "assumptions": "35yo Korean resident, annual premium",
+        "isVerified": false
+      },
+      "keyInclusions": [
+        "Waiver of premium on disability (rider)",
+        "Whole life option",
+        "Accidental death benefit (rider)",
+        "Return of premium option",
+        "Terminal illness benefit"
+      ],
+      "keyExclusions": [
+        "Death due to suicide within first 12 months",
+        "Death due to pre-existing conditions not disclosed"
+      ],
+      "claimSettlement": {
+        "ratio": 97.7,
+        "year": "FY2023-24",
+        "source": "Insurer / Regulator"
+      },
+      "riders": [
+        "Critical Illness"
+      ],
+      "policyTenure": {
+        "min": 1,
+        "max": 40,
+        "options": [
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40
+        ]
+      },
+      "renewability": "Level term, not renewable post expiry",
+      "specialFeatures": [
+        "Cover up to age 85",
+        "Cover enhancement at life stages",
+        "High claim settlement ratio",
+        "Medical test via home visit"
+      ],
+      "sourceUrl": "https://www.hanwhalife.com/",
+      "sourceType": "official-website",
+      "lastVerified": "2026-04-14",
+      "confidenceScore": "medium",
+      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "kr"
     }
   ]
