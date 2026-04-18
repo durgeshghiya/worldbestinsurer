@@ -13,7 +13,7 @@ const CATEGORY_TO_PATH: Record<string, string> = {
   travel: "/in/compare/travel/",
 };
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   // Match /product/{id}/ or /product/{id}

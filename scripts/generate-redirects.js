@@ -1,6 +1,6 @@
 /**
  * Generate a redirect map for removed product/insurer URLs.
- * Reads /tmp/removed-products.txt and outputs a TypeScript map for use in middleware.
+ * Reads /tmp/removed-products.txt and outputs a TypeScript map for use in proxy.ts.
  */
 const fs = require("fs");
 const path = require("path");
