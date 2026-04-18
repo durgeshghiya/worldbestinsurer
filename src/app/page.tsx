@@ -42,8 +42,12 @@ export default function HomePage() {
           </h1>
 
           {/* Subline */}
-          <p className="text-[15px] sm:text-[17px] text-gray-400 mb-10">
-            {totalProducts}+ plans &middot; {activeCountries.length} countries &middot; verified data
+          <p className="text-[15px] sm:text-[17px] text-gray-500 mb-10">
+            {totalProducts}+ plans
+            <span className="mx-2 text-gray-300">&middot;</span>
+            {activeCountries.length} countries
+            <span className="mx-2 text-gray-300">&middot;</span>
+            verified data
           </p>
 
           {/* Dropdowns + button */}
