@@ -48,25 +48,6 @@ export async function POST(request: NextRequest) {
       console.error("[leads] email send failed:", e)
     );
 
-    // Non-critical /tmp write
-    try {
-      const fs = await import("fs");
-      const path = await import("path");
-      const tmpPath = path.join(
-        process.env.VERCEL ? "/tmp" : path.join(process.cwd(), "data"),
-        "leads.json"
-      );
-      const dir = path.dirname(tmpPath);
-      if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-      const existing = fs.existsSync(tmpPath)
-        ? JSON.parse(fs.readFileSync(tmpPath, "utf-8"))
-        : [];
-      existing.push(lead);
-      fs.writeFileSync(tmpPath, JSON.stringify(existing, null, 2), "utf-8");
-    } catch (fsErr) {
-      console.warn("[leads] /tmp write skipped:", fsErr);
-    }
-
     return NextResponse.json({
       success: true,
       message: "Thank you! We'll connect you with the insurer shortly.",
