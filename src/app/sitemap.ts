@@ -5,6 +5,7 @@ import {
   generateVSPairs,
   generateInsurerVSPairs,
   getArticles,
+  getCities,
 } from "@/lib/generators";
 
 const BASE = "https://worldbestinsurer.com";
@@ -107,6 +108,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "monthly",
         priority: 0.4,
       });
+    }
+
+    // City × category compare pages. Include tier-1 and tier-2 cities (skip the
+    // long-tail tier-3 towns that have no real search demand — submitting 2,300
+    // thin city URLs per country would water down site-quality signals). The
+    // route is dynamicParams=true so any slug in getCities(cc) resolves.
+    const cities = getCities(cc).filter((c) => (c.tier ?? 3) <= 2).slice(0, 50);
+    for (const city of cities) {
+      for (const cat of ["health", "term-life", "motor", "travel"]) {
+        entries.push({
+          url: `${BASE}/${cc}/compare/${cat}/in/${city.slug}`,
+          lastModified: now,
+          changeFrequency: "monthly",
+          priority: 0.4,
+        });
+      }
     }
   }
 

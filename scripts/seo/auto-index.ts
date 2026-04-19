@@ -192,41 +192,10 @@ async function submitIndexNow(urls: string[]): Promise<{ success: number; failed
   return { success, failed };
 }
 
-// ---- Google Search Console API (ping sitemap) ----
-async function pingSitemap(): Promise<boolean> {
-  try {
-    const resp = await fetch(
-      `https://www.google.com/ping?sitemap=${encodeURIComponent(`${DOMAIN}/sitemap.xml`)}`
-    );
-    if (resp.ok) {
-      console.log("  ✅ Google: Sitemap ping successful");
-      return true;
-    }
-    console.log(`  ❌ Google: Sitemap ping failed (${resp.status})`);
-    return false;
-  } catch (err) {
-    console.log(`  ❌ Google: Sitemap ping error — ${err}`);
-    return false;
-  }
-}
-
-// ---- Bing Webmaster ping ----
-async function pingBingSitemap(): Promise<boolean> {
-  try {
-    const resp = await fetch(
-      `https://www.bing.com/ping?sitemap=${encodeURIComponent(`${DOMAIN}/sitemap.xml`)}`
-    );
-    if (resp.ok) {
-      console.log("  ✅ Bing: Sitemap ping successful");
-      return true;
-    }
-    console.log(`  ❌ Bing: Sitemap ping failed (${resp.status})`);
-    return false;
-  } catch (err) {
-    console.log(`  ❌ Bing: Sitemap ping error — ${err}`);
-    return false;
-  }
-}
+// Google's /ping?sitemap= endpoint was retired in June 2023; Bing's in 2022.
+// They now return 404/410 respectively. Sitemap re-reads on Google happen via
+// Search Console submission (manual) or the Indexing API (not applicable to
+// this site's content types). No code-level alternative exists.
 
 // ---- Priority-based URL selection ----
 function prioritizeURLs(urls: string[]): string[] {
@@ -301,13 +270,10 @@ async function main() {
     console.log(`📌 Submitting top ${allUrls.length} priority URLs\n`);
   }
 
-  // 1. Ping Google sitemap
-  console.log("🔔 Pinging search engines with sitemap...\n");
-  await pingSitemap();
-  await pingBingSitemap();
-
-  // 2. Submit via IndexNow (Bing, Yandex, Seznam, Naver)
-  console.log("\n📤 Submitting to IndexNow (Bing, Yandex, Seznam, Naver)...\n");
+  // Submit via IndexNow (Bing, Yandex, Seznam, Naver). Google's and Bing's
+  // /ping?sitemap= endpoints are retired — only IndexNow still accepts URL
+  // submissions, and only non-Google engines consume it.
+  console.log("📤 Submitting to IndexNow (Bing, Yandex, Seznam, Naver)...\n");
   const indexNowResult = await submitIndexNow(allUrls);
 
   // 3. Update state
@@ -336,9 +302,8 @@ async function main() {
   // Summary
   console.log("\n\x1b[32m══════════════════════════════════════════\x1b[0m");
   console.log(`\x1b[32m✅ Indexing complete!\x1b[0m`);
-  console.log(`   Google sitemap: pinged`);
-  console.log(`   Bing sitemap: pinged`);
   console.log(`   IndexNow: ${indexNowResult.success} submitted, ${indexNowResult.failed} failed`);
+  console.log(`   Google: submit sitemap in Search Console (no API path for this site)`);
   console.log(`   Total submitted today: ${state.dailyCount}`);
   console.log(`   Total all-time: ${state.totalSubmitted}`);
   console.log("\x1b[32m══════════════════════════════════════════\x1b[0m\n");
