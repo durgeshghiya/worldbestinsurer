@@ -97,10 +97,31 @@ export default function RootLayout({
       <head>
         <meta name="theme-color" content="#6366f1" />
         <link rel="alternate" hrefLang="en" href="https://worldbestinsurer.com" />
-        {/* Defer AdSense + GA4 until after page loads — improves LCP */}
+        {/* Google Consent Mode v2 — denied by default in EEA/UK/CH, granted elsewhere.
+            Funding Choices CMP (loaded below) shows a banner in regulated regions and
+            calls gtag('consent','update',...) once the user responds. */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `window.addEventListener('load',function(){setTimeout(function(){var a=document.createElement('script');a.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4984848270074853';a.async=true;a.crossOrigin='anonymous';document.head.appendChild(a);var g=document.createElement('script');g.src='https://www.googletagmanager.com/gtag/js?id=G-PGW5QZ146V';g.async=true;document.head.appendChild(g);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-PGW5QZ146V');},2000)});`,
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500,region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','GB','IS','LI','NO','CH']});gtag('set','ads_data_redaction',true);gtag('set','url_passthrough',true);gtag('js',new Date());gtag('config','G-PGW5QZ146V');`,
+          }}
+        />
+        {/* Funding Choices — Google's certified CMP. Shows GDPR consent banner in
+            EEA/UK/CH automatically; does nothing elsewhere. ers=1 defers ads until
+            consent is known. Requires a published GDPR message in AdSense console. */}
+        <script
+          async
+          src="https://fundingchoicesmessages.google.com/i/pub-4984848270074853?ers=1"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){function s(){if(!window.frames.googlefcPresent){if(document.body){var f=document.createElement('iframe');f.style='width:0;height:0;border:none;z-index:-1000;left:-1000px;top:-1000px';f.style.display='none';f.name='googlefcPresent';document.body.appendChild(f);}else{setTimeout(s,0);}}}s();})();`,
+          }}
+        />
+        {/* Defer AdSense + GA4 network fetches until after load — improves LCP.
+            Consent Mode governs whether either actually reads/writes cookies. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.addEventListener('load',function(){setTimeout(function(){var a=document.createElement('script');a.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4984848270074853';a.async=true;a.crossOrigin='anonymous';document.head.appendChild(a);var g=document.createElement('script');g.src='https://www.googletagmanager.com/gtag/js?id=G-PGW5QZ146V';g.async=true;document.head.appendChild(g);},2000)});`,
           }}
         />
       </head>
