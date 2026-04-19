@@ -8,7 +8,7 @@
 
 import { getAllProducts, getAllInsurers, getCategories } from "./data";
 import { VALID_COUNTRY_CODES } from "./countries";
-import type { InsuranceProduct, Category } from "./types";
+import type { InsuranceProduct, Category, Insurer } from "./types";
 
 // ---- VS Comparison Pairs ----
 export interface VSPair {
@@ -66,6 +66,35 @@ export function getVSPairBySlug(
     if (pair) return pair;
   }
   return undefined;
+}
+
+// ---- Insurer VS Pairs ----
+export interface InsurerPair {
+  slug: string;
+  insurerA: Insurer;
+  insurerB: Insurer;
+  countryCode: string;
+}
+
+/**
+ * Generate all pairwise insurer-vs-insurer comparisons for a country.
+ * Used by both the sitemap and `/[country]/vs/insurer/[slug]` route so
+ * they stay in lockstep — no 404s from sitemap/route drift.
+ */
+export function generateInsurerVSPairs(countryCode: string): InsurerPair[] {
+  const insurers = getAllInsurers(countryCode);
+  const pairs: InsurerPair[] = [];
+  for (let i = 0; i < insurers.length; i++) {
+    for (let j = i + 1; j < insurers.length; j++) {
+      pairs.push({
+        slug: `${insurers[i].slug}-vs-${insurers[j].slug}`,
+        insurerA: insurers[i],
+        insurerB: insurers[j],
+        countryCode,
+      });
+    }
+  }
+  return pairs;
 }
 
 // ---- City Pages ----

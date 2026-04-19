@@ -5,10 +5,11 @@ import { ArrowLeft, Check, X, ExternalLink, AlertCircle } from "lucide-react";
 import { generateVSPairs, getVSPairBySlug } from "@/lib/generators";
 import { formatCompact, freshnessLabel, cn } from "@/lib/utils";
 
-export const dynamicParams = true;
+// Only prerendered slugs resolve; unknown slugs 404 at routing (no runtime cost).
+// Kept in lockstep with sitemap.ts so Google never discovers a URL that won't resolve.
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // Pre-build top 50 VS pairs. Rest rendered on-demand.
   return generateVSPairs().slice(0, 50).map((p) => ({ slug: p.slug }));
 }
 

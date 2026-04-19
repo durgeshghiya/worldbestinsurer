@@ -2,42 +2,11 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, ChevronRight, ExternalLink, Building2, Calendar, Shield, Activity } from "lucide-react";
-import { getAllInsurers, getInsurerBySlug, getProductsByInsurer } from "@/lib/data";
+import { getInsurerBySlug, getProductsByInsurer } from "@/lib/data";
 import { getCountryByCode, VALID_COUNTRY_CODES } from "@/lib/countries";
+import { generateInsurerVSPairs, type InsurerPair } from "@/lib/generators";
 import { formatCompact } from "@/lib/utils";
 import { BreadcrumbSchema } from "@/components/StructuredData";
-import type { Insurer } from "@/lib/types";
-
-/* ────────────────────────────────────────────────────────── */
-/*  Generate all insurer-vs-insurer pairs per country         */
-/* ────────────────────────────────────────────────────────── */
-
-interface InsurerPair {
-  slug: string;
-  insurerA: Insurer;
-  insurerB: Insurer;
-  countryCode: string;
-}
-
-function generateInsurerVSPairs(countryCode: string): InsurerPair[] {
-  const insurers = getAllInsurers(countryCode);
-  const pairs: InsurerPair[] = [];
-
-  for (let i = 0; i < insurers.length; i++) {
-    for (let j = i + 1; j < insurers.length; j++) {
-      const a = insurers[i];
-      const b = insurers[j];
-      pairs.push({
-        slug: `${a.slug}-vs-${b.slug}`,
-        insurerA: a,
-        insurerB: b,
-        countryCode,
-      });
-    }
-  }
-
-  return pairs;
-}
 
 function findInsurerPair(slug: string, countryCode: string): InsurerPair | undefined {
   // Parse slug: "hdfc-life-vs-icici-prudential"
@@ -82,7 +51,7 @@ export async function generateStaticParams() {
   return params;
 }
 
-export const dynamicParams = true;
+export const dynamicParams = false;
 
 /* ────────────────────────────────────────────────────────── */
 /*  Metadata                                                  */

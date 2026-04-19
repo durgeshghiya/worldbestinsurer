@@ -6,10 +6,11 @@ import { generateVSPairs, getVSPairBySlug } from "@/lib/generators";
 import { getCountryByCode, VALID_COUNTRY_CODES } from "@/lib/countries";
 import { formatCompact } from "@/lib/utils";
 
-export const dynamicParams = true;
+// Only prerendered slugs resolve; unknown slugs 404 at routing (no runtime cost).
+// Kept in lockstep with sitemap.ts so Google never discovers a URL that won't resolve.
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // Only pre-build top 50 VS pairs per country. Rest rendered on-demand.
   const params: { country: string; slug: string }[] = [];
   for (const cc of VALID_COUNTRY_CODES) {
     for (const p of generateVSPairs(cc).slice(0, 50)) {

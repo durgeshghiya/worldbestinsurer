@@ -1,8 +1,11 @@
 import type { MetadataRoute } from "next";
-import { getAllProducts, getAllInsurers, getCategories } from "@/lib/data";
+import { getAllProducts, getAllInsurers } from "@/lib/data";
 import { VALID_COUNTRY_CODES } from "@/lib/countries";
-import { generateVSPairs } from "@/lib/generators";
-import { getArticles } from "@/lib/generators";
+import {
+  generateVSPairs,
+  generateInsurerVSPairs,
+  getArticles,
+} from "@/lib/generators";
 
 const BASE = "https://worldbestinsurer.com";
 
@@ -84,9 +87,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       });
     }
 
-    // VS pages (limit to first 500 per country to avoid sitemap bloat)
-    const vsPairs = generateVSPairs(cc).slice(0, 500);
-    for (const pair of vsPairs) {
+    // VS pages — MUST match the slice in /[country]/vs/[slug]/generateStaticParams.
+    // If these diverge, Google discovers URLs that 404 (dynamicParams = false on the
+    // route means unknown slugs are rejected at routing).
+    for (const pair of generateVSPairs(cc).slice(0, 50)) {
       entries.push({
         url: `${BASE}/${cc}/vs/${pair.slug}`,
         lastModified: now,
@@ -95,17 +99,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
       });
     }
 
-    // Insurer VS pages (pairwise, limit top 30 insurers per country)
-    for (let i = 0; i < insurers.length && i < 30; i++) {
-      for (let j = i + 1; j < insurers.length && j < 30; j++) {
-        entries.push({
-          url: `${BASE}/${cc}/vs/insurer/${insurers[i].slug}-vs-${insurers[j].slug}`,
-          lastModified: now,
-          changeFrequency: "monthly",
-          priority: 0.4,
-        });
-      }
+    // Insurer VS pages — same contract with /[country]/vs/insurer/[slug].
+    for (const pair of generateInsurerVSPairs(cc).slice(0, 100)) {
+      entries.push({
+        url: `${BASE}/${cc}/vs/insurer/${pair.slug}`,
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.4,
+      });
     }
+  }
+
+  // Top-level /vs/[slug] mirrors the India-only slice in /vs/[slug].
+  for (const pair of generateVSPairs().slice(0, 50)) {
+    entries.push({
+      url: `${BASE}/vs/${pair.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.4,
+    });
   }
 
   // ── Learn articles ──
