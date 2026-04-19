@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ExternalLink, MapPin, Calendar, Building2, TrendingUp } from "lucide-react";
 import Breadcrumb from "@/components/Breadcrumb";
 import { getAllInsurers, getProductsByInsurer } from "@/lib/data";
+import { AdSlot } from "@/components/AdSlot";
 
 export const metadata: Metadata = {
   title: "Insurance Companies Directory — 248+ Insurers in 12 Countries",
@@ -24,6 +25,8 @@ export default function InsurersPage() {
           plans, and key metrics. All data is from publicly available sources.
         </p>
       </div>
+
+      <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_INSURERS_TOP} format="horizontal" className="mb-6" />
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {insurers.map((insurer) => {

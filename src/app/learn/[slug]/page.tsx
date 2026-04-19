@@ -5,6 +5,7 @@ import { ArrowLeft, Clock, User, CalendarDays } from "lucide-react";
 import { getArticles, getArticleBySlug } from "@/lib/generators";
 import WaitlistForm from "@/components/WaitlistForm";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/StructuredData";
+import { AdSlot } from "@/components/AdSlot";
 
 export async function generateStaticParams() {
   return getArticles().map((a) => ({ slug: a.slug }));
@@ -80,6 +81,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <p key={i} className="mb-4">{sentences.join(". ")}{sentences[sentences.length - 1].endsWith(".") ? "" : "."}</p>
           ))}
         </div>
+
+        <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_LEARN_ARTICLE_END} className="my-8" />
 
         <div className="mt-8 p-5 bg-surface-sunken rounded-xl border border-border-light">
           <p className="text-[11px] text-text-tertiary leading-relaxed">
