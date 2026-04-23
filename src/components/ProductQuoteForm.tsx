@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import Link from "next/link";
 import { Phone, Mail, User, Shield, Lock, Check, Loader2, CheckCircle2 } from "lucide-react";
 
 interface ProductQuoteFormProps {
@@ -120,7 +121,7 @@ export default function ProductQuoteForm({
         {/* Consent */}
         <p className="text-[10px] text-text-tertiary leading-relaxed">
           By submitting, you agree to be contacted by {insurerName} or a partner regarding this product. See our{" "}
-          <a href="/privacy-policy" className="text-primary hover:underline">Privacy Policy</a>.
+          <Link href="/privacy-policy" className="text-primary hover:underline">Privacy Policy</Link>.
         </p>
 
         <button

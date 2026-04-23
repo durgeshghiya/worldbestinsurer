@@ -72,7 +72,10 @@ export default function SearchModal({ items }: SearchModalProps) {
     return () => window.removeEventListener("keydown", handler);
   }, []);
 
-  /* ── Focus input when opened ── */
+  /* ── Focus input when opened; reset state each time ── */
+  // Resetting query/selected index on open is an intentional UX behavior
+  // (fresh search each time the modal opens), not a cascading render bug.
+  /* eslint-disable react-hooks/set-state-in-effect */
   useEffect(() => {
     if (open) {
       setTimeout(() => inputRef.current?.focus(), 100);
@@ -80,6 +83,7 @@ export default function SearchModal({ items }: SearchModalProps) {
       setSelectedIndex(0);
     }
   }, [open]);
+  /* eslint-enable react-hooks/set-state-in-effect */
 
   /* ── Filter results ── */
   const results = useMemo(() => {

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { InsuranceProduct } from "@/lib/types";
 
 /**
@@ -95,9 +96,9 @@ export default function ProductEditorial({
       </div>
       <p className="mt-4 text-[11px] text-text-tertiary">
         Analysis by{" "}
-        <a href="/author/editorial-team" className="text-primary hover:underline">
+        <Link href="/author/editorial-team" className="text-primary hover:underline">
           WBI Editorial Team
-        </a>{" "}
+        </Link>{" "}
         · Last verified: {p.lastVerified} · Confidence: {p.confidenceScore}
       </p>
     </div>

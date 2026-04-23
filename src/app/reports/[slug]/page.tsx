@@ -115,9 +115,9 @@ export default async function ReportPage({
         <div className="flex flex-wrap items-center gap-4 text-[12px] text-text-tertiary py-4 border-t border-b border-border">
           <span className="flex items-center gap-1.5">
             <User className="w-3.5 h-3.5" />
-            <a href="/author/editorial-team" className="hover:text-primary transition-colors">
+            <Link href="/author/editorial-team" className="hover:text-primary transition-colors">
               {report.author}
-            </a>
+            </Link>
           </span>
           <span className="flex items-center gap-1.5">
             <Calendar className="w-3.5 h-3.5" />

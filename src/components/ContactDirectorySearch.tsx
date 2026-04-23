@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import { Search, X, Filter } from "lucide-react";
 import ContactCard from "./ContactCard";
-import type { Insurer } from "@/lib/types";
+import type { Insurer, Category } from "@/lib/types";
 
 const COUNTRY_FLAGS: Record<string, string> = {
   in: "🇮🇳",
@@ -55,7 +55,7 @@ export default function ContactDirectorySearch({ insurers, countries }: Props) {
   const filtered = useMemo(() => {
     return insurers.filter((ins) => {
       if (selectedCountry && ins.countryCode !== selectedCountry) return false;
-      if (selectedCategory && !ins.categories.includes(selectedCategory as any)) return false;
+      if (selectedCategory && !ins.categories.includes(selectedCategory as Category)) return false;
       if (search) {
         const q = search.toLowerCase();
         const countryName = COUNTRY_NAMES[ins.countryCode]?.toLowerCase() || "";

@@ -6,7 +6,7 @@
  * NOT exact quotes — clearly labelled as estimates.
  */
 
-import type { InsuranceProduct, Category } from "./types";
+import type { InsuranceProduct } from "./types";
 
 export interface PremiumInputs {
   age: number;

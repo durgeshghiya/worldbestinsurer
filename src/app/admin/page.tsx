@@ -19,9 +19,17 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
+const STALE_THRESHOLD_DAYS = 90;
+const MS_PER_DAY = 1000 * 60 * 60 * 24;
+
 export default function AdminPage() {
   const products = getAllProducts();
   const insurers = getAllInsurers();
+  // This is a server component — Date.now() runs once per request (or at build
+  // time for SSG), not on every client re-render, so the purity rule's concern
+  // about unstable renders doesn't apply here.
+  // eslint-disable-next-line react-hooks/purity
+  const renderedAtMs = Date.now();
 
   const stats = {
     totalProducts: products.length,
@@ -31,9 +39,9 @@ export default function AdminPage() {
     lowConfidence: products.filter((p) => p.confidenceScore === "low").length,
     staleRecords: products.filter((p) => {
       const days = Math.floor(
-        (Date.now() - new Date(p.lastVerified).getTime()) / (1000 * 60 * 60 * 24)
+        (renderedAtMs - new Date(p.lastVerified).getTime()) / MS_PER_DAY
       );
-      return days > 90;
+      return days > STALE_THRESHOLD_DAYS;
     }).length,
   };
 

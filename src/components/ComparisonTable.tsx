@@ -149,9 +149,9 @@ export default function ComparisonTable({ products, category }: Props) {
                 {compared.map((p) => (
                   <td key={p.id} className="p-3">
                     <div className="flex flex-col gap-1.5">
-                      {(p as any).quoteUrl && (
+                      {(p as { quoteUrl?: string }).quoteUrl && (
                         <a
-                          href={(p as any).quoteUrl as string}
+                          href={(p as { quoteUrl?: string }).quoteUrl!}
                           target="_blank"
                           rel="noopener noreferrer nofollow"
                           className="text-[11.5px] px-3 py-1.5 font-semibold bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors flex items-center justify-center gap-1"

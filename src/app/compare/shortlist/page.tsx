@@ -1,25 +1,14 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, Share2, MessageCircle, Copy, Check } from "lucide-react";
-import { useState, useEffect } from "react";
-import type { InsuranceProduct } from "@/lib/types";
+import { ArrowLeft, MessageCircle, Copy, Check } from "lucide-react";
 
 function ShortlistContent() {
   const searchParams = useSearchParams();
   const productIds = (searchParams.get("products") || "").split(",").filter(Boolean);
-  const [products, setProducts] = useState<InsuranceProduct[]>([]);
-  const [loading, setLoading] = useState(true);
   const [copied, setCopied] = useState(false);
-
-  useEffect(() => {
-    // Fetch products from a simple client-side approach:
-    // We'll read from window.__NEXT_DATA__ or just display the IDs
-    // For a static site, we load the data via an API call
-    setLoading(false);
-  }, []);
 
   if (productIds.length === 0) {
     return (

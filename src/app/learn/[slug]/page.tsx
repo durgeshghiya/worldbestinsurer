@@ -60,7 +60,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         <div className="flex items-center gap-4 py-4 border-t border-b border-border mb-8 text-[12px] text-text-tertiary">
           <span className="flex items-center gap-1.5">
             <User className="w-3.5 h-3.5" />
-            <a href="/author/editorial-team" className="hover:text-primary transition-colors">WBI Editorial Team</a>
+            <Link href="/author/editorial-team" className="hover:text-primary transition-colors">WBI Editorial Team</Link>
           </span>
           <span className="w-px h-4 bg-border" />
           <span className="flex items-center gap-1.5">

@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
+import fs from "fs";
+import path from "path";
 
 /**
  * Reviews API (Vercel-compatible)
@@ -17,8 +19,6 @@ interface Review {
 
 function readReviews(): Review[] {
   try {
-    const fs = require("fs");
-    const path = require("path");
     const tmpPath = path.join(
       process.env.VERCEL ? "/tmp" : path.join(process.cwd(), "data"),
       "reviews.json"
@@ -89,8 +89,6 @@ export async function POST(request: NextRequest) {
 
     // Non-critical /tmp write
     try {
-      const fs = await import("fs");
-      const path = await import("path");
       const tmpPath = path.join(
         process.env.VERCEL ? "/tmp" : path.join(process.cwd(), "data"),
         "reviews.json"

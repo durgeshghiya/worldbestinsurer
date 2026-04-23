@@ -16,12 +16,16 @@ interface ShortlistItem {
 export function useShortlist() {
   const [items, setItems] = useState<ShortlistItem[]>([]);
 
+  // Hydrating from localStorage on mount is the canonical pattern for client-
+  // only persisted state. The extra render is one-time and intentional.
+  /* eslint-disable react-hooks/set-state-in-effect */
   useEffect(() => {
     try {
       const stored = localStorage.getItem(STORAGE_KEY);
       if (stored) setItems(JSON.parse(stored));
     } catch { /* ignore */ }
   }, []);
+  /* eslint-enable react-hooks/set-state-in-effect */
 
   function save(newItems: ShortlistItem[]) {
     setItems(newItems);

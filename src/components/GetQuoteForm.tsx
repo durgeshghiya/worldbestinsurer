@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import {
   ArrowRight,
   Check,
@@ -248,7 +249,7 @@ export default function GetQuoteForm() {
           {/* Consent */}
           <p className="text-[10px] text-text-tertiary leading-relaxed">
             By submitting, you agree to be contacted by our insurance partners regarding your request. See our{" "}
-            <a href="/privacy-policy" className="text-primary hover:underline">Privacy Policy</a>.
+            <Link href="/privacy-policy" className="text-primary hover:underline">Privacy Policy</Link>.
           </p>
 
           {/* Submit */}
