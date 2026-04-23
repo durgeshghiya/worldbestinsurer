@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Heart, Shield, Car, Plane, ChevronRight, Globe2, TrendingUp, Database, Users } from "lucide-react";
+import { Heart, Shield, Car, Plane, ChevronRight, Globe2, TrendingUp, Database, Users } from "lucide-react";
 import { getCountryByCode, getActiveCountries, VALID_COUNTRY_CODES } from "@/lib/countries";
 import { getAllProducts, getAllInsurers, getCategories } from "@/lib/data";
 import WaitlistForm from "@/components/WaitlistForm";

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import {
-  Target, Eye, Shield, Users, ArrowRight, Heart,
+  Target, Eye, Shield, ArrowRight, Heart,
   CheckCircle2, XCircle, Sparkles, Rocket, BookOpen, Globe,
 } from "lucide-react";
 import TiltCard from "@/components/TiltCard";

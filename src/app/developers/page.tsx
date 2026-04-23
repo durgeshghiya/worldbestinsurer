@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { Code2, Key, Zap, Shield, Globe, ArrowRight } from "lucide-react";
+import { Code2, Key, Zap, Shield, Globe} from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Developer API — World Best Insurer",

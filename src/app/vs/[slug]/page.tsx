@@ -1,9 +1,9 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowLeft, Check, X, ExternalLink, AlertCircle } from "lucide-react";
+import { ArrowLeft, Check, AlertCircle } from "lucide-react";
 import { generateVSPairs, getVSPairBySlug } from "@/lib/generators";
-import { formatCompact, freshnessLabel, cn } from "@/lib/utils";
+import { formatCompact} from "@/lib/utils";
 
 // Only prerendered slugs resolve; unknown slugs 404 at routing (no runtime cost).
 // Kept in lockstep with sitemap.ts so Google never discovers a URL that won't resolve.

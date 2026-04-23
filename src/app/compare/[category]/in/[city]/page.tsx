@@ -2,9 +2,9 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, ArrowUpRight, Check, AlertCircle, MapPin } from "lucide-react";
-import { getProductsByCategory, categories } from "@/lib/data";
-import { generateCityParams, getCityBySlug } from "@/lib/generators";
-import { formatCompact, cn } from "@/lib/utils";
+import { getProductsByCategory } from "@/lib/data";
+import { getCityBySlug } from "@/lib/generators";
+import { formatCompact} from "@/lib/utils";
 import type { Category } from "@/lib/types";
 
 const validCategories = ["health", "term-life", "motor", "travel"];
@@ -53,7 +53,6 @@ export default async function CityComparePage({
 
   const catName = categoryNames[category] ?? category;
   const products = getProductsByCategory(category as Category);
-  const cat = categories.find((c) => c.slug === category);
 
   return (
     <div className="mx-auto max-w-[1280px] px-5 lg:px-8 py-10">

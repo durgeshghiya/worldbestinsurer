@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Heart, Shield, Car, Plane, ArrowUpRight, ChevronRight } from "lucide-react";
+import { Heart, Shield, Car, Plane, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { CategoryInfo } from "@/lib/types";
 

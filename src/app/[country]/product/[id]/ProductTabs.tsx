@@ -18,7 +18,6 @@ import { formatCompact } from "@/lib/utils";
 
 interface ProductTabsProps {
   product: InsuranceProduct;
-  countryCode: string;
   similarProducts: InsuranceProduct[];
 }
 
@@ -26,7 +25,6 @@ type Tab = "overview" | "exclusions" | "claims" | "compare";
 
 export default function ProductTabs({
   product: p,
-  countryCode,
   similarProducts,
 }: ProductTabsProps) {
   const [activeTab, setActiveTab] = useState<Tab>("overview");

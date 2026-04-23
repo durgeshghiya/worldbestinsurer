@@ -3,8 +3,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import {
   ArrowLeft,
-  Check,
-  ExternalLink,
   AlertCircle,
   Clock,
   Shield,
@@ -13,12 +11,9 @@ import {
   RefreshCw,
   ChevronRight,
   Phone,
-  Mail,
-  User,
   Award,
   Info,
   Layers,
-  Lock,
 } from "lucide-react";
 import { getAllProducts, getProductById, getProductsByCategory } from "@/lib/data";
 import { getCountryByCode, VALID_COUNTRY_CODES } from "@/lib/countries";
@@ -223,7 +218,6 @@ export default async function CountryProductPage({
             {/* =========================================================== */}
             <ProductTabs
               product={p}
-              countryCode={p.countryCode}
               similarProducts={similarProducts}
             />
 

@@ -9,7 +9,6 @@ import {
   AlertCircle,
   Shield,
   Clock,
-  Heart,
   Star,
 } from "lucide-react";
 import { getAllProducts, getProductById, formatCurrencyFull, formatCurrency } from "@/lib/data";

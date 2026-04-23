@@ -11,7 +11,6 @@ import {
 } from "lucide-react";
 import { BreadcrumbSchema } from "@/components/StructuredData";
 import { computeInsights } from "@/lib/insights";
-import { formatCurrency } from "@/lib/utils";
 
 import InsightsHero from "@/components/insights/InsightsHero";
 import CSRChart from "@/components/insights/CSRChart";

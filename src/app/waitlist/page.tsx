@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Bell, Zap, Shield, BarChart3, Users, Sparkles } from "lucide-react";
+import { Bell, Zap, Shield, BarChart3, Sparkles } from "lucide-react";
 import WaitlistForm from "@/components/WaitlistForm";
 import TiltCard from "@/components/TiltCard";
 import ScrollReveal from "@/components/immersive/ScrollReveal";

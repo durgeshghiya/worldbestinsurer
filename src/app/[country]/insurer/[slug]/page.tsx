@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowLeft, ExternalLink, MapPin, Calendar, Building2, TrendingUp, ArrowUpRight, Phone, Mail, Headphones, PhoneCall, AlertCircle } from "lucide-react";
+import { ArrowLeft, ExternalLink, MapPin, Calendar, Building2, TrendingUp, ArrowUpRight, Mail, Headphones, PhoneCall, AlertCircle } from "lucide-react";
 import CopyButton from "@/components/CopyButton";
 import { getAllInsurers, getInsurerBySlug, getProductsByInsurer } from "@/lib/data";
 import { getCountryByCode, VALID_COUNTRY_CODES } from "@/lib/countries";

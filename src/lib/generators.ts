@@ -6,7 +6,7 @@
  * provided they default to "in" (India) for backward compatibility.
  */
 
-import { getAllProducts, getAllInsurers, getCategories } from "./data";
+import { getAllProducts, getAllInsurers} from "./data";
 import { VALID_COUNTRY_CODES } from "./countries";
 import type { InsuranceProduct, Category, Insurer } from "./types";
 

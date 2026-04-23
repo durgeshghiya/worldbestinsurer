@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowLeft, ChevronRight, ExternalLink, Building2, Calendar, Shield, Activity } from "lucide-react";
+import { ArrowLeft, Building2, Calendar, Shield, Activity } from "lucide-react";
 import { getInsurerBySlug, getProductsByInsurer } from "@/lib/data";
 import { getCountryByCode, VALID_COUNTRY_CODES } from "@/lib/countries";
 import { generateInsurerVSPairs, type InsurerPair } from "@/lib/generators";

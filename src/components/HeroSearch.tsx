@@ -135,7 +135,7 @@ export default function HeroSearch() {
                     <p className="text-[11px] text-white/20 mt-1">Press Enter to search globally</p>
                   </div>
                 ) : (
-                  filtered.map((s, i) => (
+                  filtered.map((s) => (
                     <button
                       key={s.text}
                       onClick={() => {

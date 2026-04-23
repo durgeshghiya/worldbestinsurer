@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Heart, Shield, Car, Plane, Globe, ArrowRight, ChevronRight, BarChart2 } from "lucide-react";
-import { categories, getProductsByCategory } from "@/lib/data";
+import { getProductsByCategory } from "@/lib/data";
 import { countries } from "@/lib/countries";
 import { BreadcrumbSchema, FAQSchema } from "@/components/StructuredData";
 import Breadcrumb from "@/components/Breadcrumb";

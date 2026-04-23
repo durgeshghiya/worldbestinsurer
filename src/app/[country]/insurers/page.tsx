@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowUpRight, MapPin, Calendar, TrendingUp, ExternalLink } from "lucide-react";
+import { MapPin, Calendar, TrendingUp, ExternalLink } from "lucide-react";
 import { getAllInsurers } from "@/lib/data";
 import { getCountryByCode, VALID_COUNTRY_CODES } from "@/lib/countries";
 

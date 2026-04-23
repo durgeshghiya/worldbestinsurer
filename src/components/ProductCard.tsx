@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Check, ExternalLink, AlertCircle, ArrowUpRight, TrendingUp, Users, Calendar } from "lucide-react";
+import { Check, ExternalLink, ArrowUpRight, TrendingUp, Users, Calendar } from "lucide-react";
 import { cn, formatCompact, freshnessLabel } from "@/lib/utils";
 import type { InsuranceProduct } from "@/lib/types";
 

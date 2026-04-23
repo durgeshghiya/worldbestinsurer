@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Star, ThumbsUp, ChevronDown, Loader2, CheckCircle2 } from "lucide-react";
+import { Star, ChevronDown, Loader2, CheckCircle2 } from "lucide-react";
 
 interface Review {
   id: string;

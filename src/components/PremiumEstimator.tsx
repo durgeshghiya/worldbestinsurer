@@ -30,22 +30,25 @@ export default function PremiumEstimator({
   const [destination, setDestination] = useState<"asia" | "europe" | "americas" | "global">("asia");
   const [showResults, setShowResults] = useState(false);
 
-  const inputs: PremiumInputs = {
-    age,
-    familyType,
-    sumInsuredTier,
-    gender,
-    smoker,
-    vehicleAge,
-    coverType,
-    tripDuration,
-    destination,
-  };
+  const inputs: PremiumInputs = useMemo(
+    () => ({
+      age,
+      familyType,
+      sumInsuredTier,
+      gender,
+      smoker,
+      vehicleAge,
+      coverType,
+      tripDuration,
+      destination,
+    }),
+    [age, familyType, sumInsuredTier, gender, smoker, vehicleAge, coverType, tripDuration, destination]
+  );
 
   const estimates = useMemo(() => {
     if (!showResults) return [];
     return estimateAllPremiums(products, inputs);
-  }, [showResults, age, familyType, sumInsuredTier, gender, smoker, vehicleAge, coverType, tripDuration, destination, products]);
+  }, [showResults, inputs, products]);
 
   const fmt = (n: number) => `${currencySymbol}${n.toLocaleString()}`;
 

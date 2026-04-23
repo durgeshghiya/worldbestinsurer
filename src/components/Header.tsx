@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 import {
   Menu, X, ChevronDown, Heart, Shield, Car, Plane,
-  ArrowRight, Sparkles, Globe, ArrowUpRight, Search,
+  ArrowRight, Sparkles, Globe, Search,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 

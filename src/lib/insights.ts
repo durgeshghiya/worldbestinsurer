@@ -10,7 +10,7 @@ import {
   getProductsByInsurer,
   getCategoryLastUpdated,
 } from "./data";
-import type { InsuranceProduct, Insurer, Category } from "./types";
+import type { Category } from "./types";
 
 // ---------------------------------------------------------------------------
 // Types

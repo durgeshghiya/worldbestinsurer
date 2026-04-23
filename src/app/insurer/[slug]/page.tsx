@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ArrowLeft, ExternalLink, MapPin, Calendar, Building2, TrendingUp, ArrowUpRight, Phone, Mail, Headphones, PhoneCall, AlertCircle } from "lucide-react";
 import CopyButton from "@/components/CopyButton";
 import { getAllInsurers, getInsurerBySlug, getProductsByInsurer } from "@/lib/data";
-import { cn, formatCompact } from "@/lib/utils";
+import { formatCompact } from "@/lib/utils";
 
 export async function generateStaticParams() {
   return getAllInsurers().map((i) => ({ slug: i.slug }));

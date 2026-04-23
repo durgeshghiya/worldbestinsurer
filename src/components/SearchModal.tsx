@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Search, X, Heart, Shield, Car, Plane, Building2, BookOpen,
-  Globe, ArrowRight, Command, CornerDownLeft, TrendingUp,
+  Globe, Command, CornerDownLeft, TrendingUp,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 

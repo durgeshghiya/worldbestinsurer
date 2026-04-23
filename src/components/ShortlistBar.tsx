@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { X, Share2, Copy, Check, MessageCircle } from "lucide-react";
+import { X, Copy, Check, MessageCircle } from "lucide-react";
 
 const STORAGE_KEY = "wbi_shortlist";
 
@@ -60,7 +60,7 @@ export function AddToShortlistButton({
 }: {
   product: { id: string; productName: string; insurerName: string; countryCode: string };
 }) {
-  const { items, add, remove, has } = useShortlist();
+  const { add, remove, has } = useShortlist();
   const isAdded = has(product.id);
 
   return (

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, ArrowUpRight, Check, AlertCircle, MapPin } from "lucide-react";
 import { getProductsByCategory } from "@/lib/data";
-import { generateCityParams, getCityBySlug } from "@/lib/generators";
+import { getCityBySlug } from "@/lib/generators";
 import { getCountryByCode } from "@/lib/countries";
 import { formatCompact } from "@/lib/utils";
 import type { Category } from "@/lib/types";

@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, Clock, User, CalendarDays } from "lucide-react";
 import { getArticles, getArticleBySlug } from "@/lib/generators";
-import WaitlistForm from "@/components/WaitlistForm";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/StructuredData";
 import { AdSlot } from "@/components/AdSlot";
 

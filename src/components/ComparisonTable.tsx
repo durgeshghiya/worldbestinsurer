@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Check, X, ExternalLink, AlertCircle, ArrowUpRight, ChevronDown } from "lucide-react";
+import { Check, ExternalLink, AlertCircle, ArrowUpRight, ChevronDown } from "lucide-react";
 import Link from "next/link";
 import { cn, formatCompact, freshnessLabel } from "@/lib/utils";
 import type { InsuranceProduct, Category } from "@/lib/types";
