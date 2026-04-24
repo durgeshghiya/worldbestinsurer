@@ -1,0 +1,54 @@
+{
+  "slug": "section-80d-health-insurance-tax-deduction",
+  "title": "Section 80D Health Insurance Tax Deduction: The Complete 2026 Guide",
+  "excerpt": "Section 80D lets you deduct health insurance premiums — up to Rs 1 lakh a year if both you and your senior-citizen parents are covered. Here are the exact limits, the cash-payment trap, and the new-vs-old-regime wrinkle that sinks most first-time filers.",
+  "publishedAt": "2026-04-24",
+  "lastUpdated": "2026-04-24",
+  "author": "WBI Editorial Team",
+  "category": "Tax Planning",
+  "tags": ["Section 80D", "Health Insurance", "Tax Deduction", "Preventive Check-up"],
+  "readTime": "7 min",
+  "sections": [
+    {
+      "heading": "The short answer",
+      "body": "Section 80D of the Income Tax Act, 1961, allows a deduction for health insurance premiums paid for yourself, your spouse, your dependent children, and your parents. The total you can claim ranges from Rs 25,000 at minimum up to Rs 1,00,000 if both you and your parents are senior citizens. The deduction is available only under the old tax regime — if you file under the new (default) regime, you get no Section 80D benefit at all. Premiums must be paid by non-cash methods; cash payments are disqualified, with one small exception for preventive check-ups."
+    },
+    {
+      "heading": "Who qualifies as \u2018family\u2019 under 80D",
+      "body": "Two buckets exist, each with its own ceiling. The first bucket covers you, your spouse, and your dependent children — whether minor or adult, studying or earning, as long as they are dependent on you. The second bucket covers your parents, whether or not they are financially dependent on you. Parents-in-law, siblings, uncles, and aunts do not qualify even if you pay their premiums. For a Hindu Undivided Family (HUF), premiums paid for any member of the family qualify under the HUF's own 80D filing, with the same limits."
+    },
+    {
+      "heading": "The limits, broken down for 2025-26",
+      "body": "Self, spouse, and dependent children under 60: up to Rs 25,000 a year. If any of these three is a senior citizen (60 or older), the ceiling rises to Rs 50,000. Parents under 60: an additional Rs 25,000. Parents aged 60 or above: an additional Rs 50,000. The maximum combined deduction you can claim is therefore Rs 1,00,000 — which applies only when both you (or your spouse) and your parents are senior citizens. Younger families with younger parents typically claim Rs 50,000 total (Rs 25k + Rs 25k)."
+    },
+    {
+      "heading": "Preventive health check-ups — the Rs 5,000 side benefit",
+      "body": "Within each of the above ceilings, up to Rs 5,000 can be claimed for preventive health check-ups — the annual diagnostic packages sold by most hospitals. The check-up deduction is included in the main limit, not on top of it, so if you have already used your full Rs 25,000 on insurance premium, a preventive check-up adds nothing. One important exception: preventive check-ups are the only 80D expense that can be paid in cash and still qualify. Every other payment must be traceable — UPI, net banking, card, or cheque."
+    },
+    {
+      "heading": "The cash-payment trap",
+      "body": "The single most common reason a 80D claim gets rejected during scrutiny is a cash payment. Section 80D(2B) explicitly requires non-cash payment for insurance premiums. Paying the agent in cash and keeping a receipt does not work; the Assessing Officer will disallow the deduction. If you bought a policy through a family agent who settles in cash, switch the payment to online renewal next year — policies renewed after 1 April can still qualify for the full year's deduction. For elderly parents who cannot use digital payments, pay from your account directly to the insurer; the premium is attributed to whoever owns the policy, not whoever funds the payment."
+    },
+    {
+      "heading": "Old regime vs new regime — the regime default",
+      "body": "Since the Finance Act 2023, the new tax regime is the default for every individual taxpayer. Under the new regime, Section 80D is unavailable, along with most other Chapter VI-A deductions — 80C, 80CCD(1B), HRA exemption, home loan interest, and so on. To claim 80D, you must explicitly opt for the old regime by filing Form 10-IEA before your return. Salaried employees can switch each year freely. Business and professional income filers have restrictions on how often they can flip regimes. For most salaried taxpayers with parents in their 60s, paying Rs 40,000+ in combined health premiums, the old regime with 80D and HRA still beats the new regime's lower slabs — but do the arithmetic on both before deciding."
+    },
+    {
+      "heading": "A worked example",
+      "body": "Ramesh is 34, earns Rs 18 lakh a year, and is in the 30 percent tax bracket. He pays Rs 22,000 for a family floater covering himself, his wife, and their 3-year-old daughter. His parents (both 67) are covered by a separate senior-citizen policy costing Rs 48,000 a year, which Ramesh pays. Ramesh also pays Rs 3,500 for an annual diagnostic check-up at his own hospital. Under Section 80D, Ramesh claims Rs 22,000 (family) + Rs 48,000 (senior parents) + Rs 3,500 (check-up, within parent ceiling since he has Rs 2,000 headroom left) = Rs 73,500 total. At 30 percent, this saves Ramesh Rs 22,050 in tax for the year. If Ramesh stayed in the new regime instead, he would save nothing — the Rs 73,500 of premium is still a real cost, just without tax relief."
+    },
+    {
+      "heading": "Common mistakes to avoid",
+      "body": "First, do not claim employer-paid group mediclaim premium — the deduction belongs to the employer, not you. Second, if your CTC includes a health insurance component but it is not reflected on your payslip as a direct deduction from salary, you cannot claim it. Third, do not claim premium for in-laws, siblings, or adult independent children — these are not covered, regardless of who pays. Fourth, the deduction is based on the amount paid in the financial year, not the policy period — if you renew in March for a policy starting April, the full premium still counts for the March financial year. Fifth, keep the insurer's premium receipt or bank statement ready for three years; scrutiny notices for 80D claims typically arrive 18-24 months after filing."
+    },
+    {
+      "heading": "How 80D combines with other deductions",
+      "body": "Section 80D stacks on top of Section 80C (life insurance, PPF, ELSS, up to Rs 1.5 lakh) and Section 80CCD(1B) (additional Rs 50,000 for NPS). A salaried 34-year-old with Rs 1.5 lakh in 80C investments, Rs 50,000 in NPS, Rs 73,500 in 80D claims like Ramesh's above, plus HRA and standard deduction can easily push total exemptions past Rs 4 lakh — at which point the old regime usually beats the new regime by Rs 40,000 to Rs 60,000 a year in tax saved. For readers without HRA or NPS, the new regime's lower slabs tend to win even with full 80D used. Run both calculations on any reputable income tax calculator before choosing a regime for the year."
+    }
+  ],
+  "sources": [
+    { "title": "Income Tax Act, 1961 — Section 80D", "url": "https://incometaxindia.gov.in/pages/acts/income-tax-act.aspx" },
+    { "title": "Finance Act 2023 — New regime default", "url": "https://egazette.gov.in/" },
+    { "title": "IRDAI — List of registered health insurers", "url": "https://irdai.gov.in/companies" }
+  ]
+}

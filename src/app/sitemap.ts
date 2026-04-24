@@ -7,6 +7,7 @@ import {
   getArticles,
   getCities,
 } from "@/lib/generators";
+import { getAllFinanceArticles } from "@/lib/finance";
 
 const BASE = "https://worldbestinsurer.com";
 
@@ -143,6 +144,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entries.push({
       url: `${BASE}/learn/${article.slug}`,
       lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.6,
+    });
+  }
+
+  // ── Finance section ──
+  entries.push({
+    url: `${BASE}/finance`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.7,
+  });
+  for (const fa of getAllFinanceArticles()) {
+    entries.push({
+      url: `${BASE}/finance/${fa.slug}`,
+      // Use the article's own lastUpdated so Google sees real freshness on
+      // re-crawl, not a build timestamp that bumps every deploy.
+      lastModified: new Date(fa.lastUpdated).toISOString(),
       changeFrequency: "monthly",
       priority: 0.6,
     });
