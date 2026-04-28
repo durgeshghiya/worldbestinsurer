@@ -38,9 +38,14 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
   const c = getCountryByCode(country);
   const catName = categoryNames[category];
   if (!city || !c || !catName) return {};
+  // See top-level /compare/[category]/in/[city] for the rationale: tier-3
+  // city pages are templated and thin, so we tell Google not to index
+  // them. Tier-1 and tier-2 stay indexable.
+  const indexable = (city.tier ?? 3) <= 2;
   return {
     title: `${catName} in ${city.name}, ${c.name} — Compare Plans`,
     description: `Compare ${catName.toLowerCase()} plans in ${city.name}, ${city.state}. ${c.name} insurance comparison.`,
+    robots: indexable ? undefined : { index: false, follow: true },
   };
 }
 

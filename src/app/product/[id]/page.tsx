@@ -11,8 +11,9 @@ import {
   Clock,
   Star,
 } from "lucide-react";
-import { getAllProducts, getProductById, formatCurrencyFull, formatCurrency } from "@/lib/data";
+import { getAllProducts, getProductById, getProductsByCategory, formatCurrencyFull, formatCurrency } from "@/lib/data";
 import { ProductSchema, BreadcrumbSchema } from "@/components/StructuredData";
+import ProductEditorial from "@/components/ProductEditorial";
 
 export async function generateStaticParams() {
   return getAllProducts().map((p) => ({ id: p.id }));
@@ -68,6 +69,11 @@ export default async function ProductPage({
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const quoteUrl: string | undefined = (product as any).quoteUrl;
   const insurerShort = product.insurerName.split(" ").slice(0, 2).join(" ");
+  // Peers in same category & country, used by ProductEditorial for
+  // percentile-based comparative analysis.
+  const peers = getProductsByCategory(product.category).filter(
+    (q) => q.countryCode === product.countryCode
+  );
 
   const categoryLabels: Record<string, string> = {
     health: "Health Insurance",
@@ -276,6 +282,17 @@ export default async function ProductPage({
                 </li>
               ))}
             </ul>
+          </div>
+
+          {/* Editorial analysis — peer-aware, 400-600 words of unique prose
+              per product. The biggest single lever for AdSense thin-content
+              compliance and for ranking competitive long-tail queries. */}
+          <div className="bg-white rounded-xl border border-border p-6">
+            <ProductEditorial
+              product={product}
+              countryName="India"
+              peers={peers}
+            />
           </div>
         </div>
 

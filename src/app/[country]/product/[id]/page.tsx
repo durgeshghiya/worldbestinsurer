@@ -71,7 +71,8 @@ export default async function CountryProductPage({
   const freshness = freshnessLabel(p.lastVerified);
 
   // Get similar products from same category and country
-  const similarProducts = getProductsByCategory(p.category, p.countryCode)
+  const peersInCategory = getProductsByCategory(p.category, p.countryCode);
+  const similarProducts = peersInCategory
     .filter((sp) => sp.id !== p.id)
     .slice(0, 4);
 
@@ -224,7 +225,7 @@ export default async function CountryProductPage({
             {/* =========================================================== */}
             {/*  EDITORIAL ANALYSIS                                         */}
             {/* =========================================================== */}
-            <ProductEditorial product={p} countryName={c.name} />
+            <ProductEditorial product={p} countryName={c.name} peers={peersInCategory} />
 
             {/* =========================================================== */}
             {/*  REVIEWS                                                     */}
