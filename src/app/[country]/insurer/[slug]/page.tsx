@@ -5,6 +5,7 @@ import { ArrowLeft, ExternalLink, MapPin, Calendar, Building2, TrendingUp, Arrow
 import CopyButton from "@/components/CopyButton";
 import { getAllInsurers, getInsurerBySlug, getProductsByInsurer } from "@/lib/data";
 import { getCountryByCode, VALID_COUNTRY_CODES } from "@/lib/countries";
+import InsurerEditorial from "@/components/InsurerEditorial";
 import { formatCompact } from "@/lib/utils";
 
 export async function generateStaticParams() {
@@ -35,6 +36,7 @@ export default async function CountryInsurerPage({ params }: { params: Promise<{
   if (!insurer || !c) notFound();
 
   const products = getProductsByInsurer(slug, country);
+  const peers = getAllInsurers(country);
 
   return (
     <div className="mx-auto max-w-[1280px] px-5 lg:px-8 py-10">
@@ -196,7 +198,14 @@ export default async function CountryInsurerPage({ params }: { params: Promise<{
         ))}
       </div>
 
-      <div className="p-4 bg-surface-sunken rounded-xl text-[11px] text-text-tertiary">
+      <InsurerEditorial
+        insurer={insurer}
+        countryName={c.name}
+        peers={peers}
+        products={products}
+      />
+
+      <div className="mt-10 p-4 bg-surface-sunken rounded-xl text-[11px] text-text-tertiary">
         All data is from publicly available sources. Visit the insurer&apos;s official website for current information.
       </div>
     </div>

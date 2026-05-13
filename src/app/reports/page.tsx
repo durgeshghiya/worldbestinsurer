@@ -30,15 +30,31 @@ export default function ReportsIndexPage() {
       <h1 className="text-[28px] sm:text-[36px] font-bold text-text-primary tracking-[-0.02em] mb-3">
         Market Reports
       </h1>
-      <p className="text-[14px] text-text-secondary mb-4 max-w-2xl">
-        Original research from the WBI editorial team. We analyze 390+ insurance
-        products across 12 countries to surface the trends, pricing patterns, and
-        market shifts that matter to consumers.
+      <p className="text-[15px] text-text-secondary mb-5 max-w-2xl leading-relaxed">
+        Original research from the WBI editorial team. We analyse over 1,000
+        insurance products across 12 countries to surface the trends, pricing
+        patterns, and market shifts that matter to consumers — written for
+        anyone who has to actually buy a policy rather than for the industry
+        itself.
       </p>
-      <p className="text-[13px] text-text-tertiary mb-10 max-w-2xl">
-        Every report combines our product database with public regulatory data
-        (IRDAI, NAIC, FCA) and official insurer filings. We do not sell insurance
-        — our analysis is independent and unbiased.
+      <p className="text-[14px] text-text-secondary mb-5 max-w-2xl leading-relaxed">
+        Every report combines our internal product database with public
+        regulatory data (IRDAI in India, NAIC in the US, FCA in the UK, APRA
+        in Australia, MAS in Singapore, BaFin in Germany, and the equivalents
+        in our other markets) and official insurer annual filings. We do not
+        sell insurance and we do not take affiliate fees — the analysis is
+        independent. When numbers differ between sources we cite both and
+        explain which we treat as primary; when data is contested or stale we
+        flag it rather than pretending the picture is clearer than it is.
+      </p>
+      <p className="text-[13px] text-text-tertiary mb-10 max-w-2xl leading-relaxed">
+        Reports update annually as regulator filings publish, with the year
+        marked in the title. To suggest a country, category, or topic for the
+        next report cycle, use the{" "}
+        <Link href="/contact" className="text-primary hover:underline">
+          contact page
+        </Link>
+        .
       </p>
 
       <div className="space-y-4">

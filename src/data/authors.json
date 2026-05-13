@@ -5,8 +5,18 @@
       "name": "WBI Editorial Team",
       "role": "Insurance Research & Analysis",
       "credentials": "Certified Insurance Analysts",
-      "bio": "The World Best Insurer editorial team researches, verifies, and publishes insurance comparison data across 12 countries. Our analysts hold professional insurance qualifications and source all data from official insurer websites, regulatory filings, and policy documents. Every product listing is verified against the insurer's own published materials and assigned a confidence score.",
-      "expertise": ["Health Insurance", "Term Life Insurance", "Motor Insurance", "Travel Insurance", "Regulatory Compliance", "Claim Settlement Analysis"],
+      "bio": "The World Best Insurer editorial team researches, verifies, and publishes insurance comparison data across 12 markets — India, the United States, United Kingdom, United Arab Emirates, Singapore, Canada, Australia, Germany, Saudi Arabia, Japan, South Korea, and Hong Kong. Every product record in our database is sourced from one of three primary places: the regulator's filing (IRDAI in India, NAIC in the US, FCA in the UK, APRA in Australia, MAS in Singapore, BaFin in Germany, IA in Hong Kong, and the equivalents in our other markets), the insurer's own published policy wording and rate card, or the insurer's annual report for financial-strength and claim-settlement metrics. We do not source from third-party aggregators, secondary blogs, or sales material. Records carry a confidence score reflecting whether all relevant fields were verified within the last ninety days against primary sources, and a 'Last verified' date that lets readers see how fresh each record is. When we find an error we correct it and bump the verification timestamp publicly. Our editorial position is straightforward: we do not sell insurance, we do not take affiliate fees, and we do not accept paid placement. Every link on the site that leads to an insurer leads to the insurer's own domain — we are not in that transaction. This is a comparison platform for buyers, not a sales funnel for insurers. The team's analytical work is published in three formats: the Learn section covers practical how-to and buying guides; the Reports section runs annual deep-dives on specific markets and categories; the Finance section publishes weekly research on the financial planning angles a buyer should understand before choosing between two otherwise-comparable plans. The product database itself — the comparison tables you see on /compare and on individual product pages — is updated continuously rather than on a publishing schedule. Methodology is published openly at /methodology.",
+      "expertise": [
+        "Health Insurance",
+        "Term Life Insurance",
+        "Motor Insurance",
+        "Travel Insurance",
+        "Regulatory Compliance (IRDAI, FCA, NAIC, APRA, MAS, BaFin)",
+        "Claim Settlement Analysis",
+        "Premium Benchmarking",
+        "Policy Wording Interpretation",
+        "Cross-Market Comparative Analysis"
+      ],
       "articlesWritten": 121,
       "countriesCovered": 12,
       "linkedIn": null
@@ -16,8 +26,15 @@
       "name": "Durgesh Ghiya",
       "role": "Founder & Lead Analyst",
       "credentials": "Insurance Technology Specialist",
-      "bio": "Durgesh founded World Best Insurer to bring transparency to insurance comparison globally. He leads the data verification process and oversees the platform's expansion across 12 markets. His focus is on building AI-driven tools that help consumers understand complex insurance products through clear, verified data.",
-      "expertise": ["Insurance Technology", "Data Verification", "Cross-Market Analysis", "AI-Driven Insurance Research"],
+      "bio": "Durgesh founded World Best Insurer to bring transparency to insurance comparison globally. He leads the data verification process and oversees the platform's expansion across the twelve markets currently in coverage. His background is in technology and product, with the past two years focused entirely on the engineering and editorial workflows that make a comparison site honest at scale: how to source product data without paying for it (regulator filings, policy wordings, annual reports), how to verify it without manual checking of every record (confidence scoring, automated re-verification on lastVerified deltas), and how to publish it without dragging buyers into a sales funnel (no affiliate links, no email gate to see prices, no fake urgency on rates). The editorial standard he holds the team to is the same one he applies personally: cite primary sources, mark every claim with a confidence level, fix mistakes publicly when readers point them out, and refuse paid placement no matter how the request is dressed up. The product database now spans over 1,000 individual plans across 12 country markets; the goal of the platform is universal cover by Vision 2047 in India's regulator's own language — not because World Best Insurer will sell that cover, but because the comparison tool that lets buyers find the right policy is part of the infrastructure that makes mass coverage possible.",
+      "expertise": [
+        "Insurance Technology",
+        "Data Verification & Confidence Scoring",
+        "Cross-Market Analysis",
+        "AI-Driven Insurance Research",
+        "Editorial Workflow at Scale",
+        "Comparison Platform Architecture"
+      ],
       "articlesWritten": 45,
       "countriesCovered": 12,
       "linkedIn": null

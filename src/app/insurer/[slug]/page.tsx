@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowLeft, ExternalLink, MapPin, Calendar, Building2, TrendingUp, ArrowUpRight, Phone, Mail, Headphones, PhoneCall, AlertCircle } from "lucide-react";
 import CopyButton from "@/components/CopyButton";
 import { getAllInsurers, getInsurerBySlug, getProductsByInsurer } from "@/lib/data";
+import InsurerEditorial from "@/components/InsurerEditorial";
 import { formatCompact } from "@/lib/utils";
 
 export async function generateStaticParams() {
@@ -26,6 +27,10 @@ export default async function InsurerPage({ params }: { params: Promise<{ slug: 
   if (!insurer) notFound();
 
   const products = getProductsByInsurer(slug);
+  // Peer set for InsurerEditorial — same country, excluding self.
+  const peers = getAllInsurers().filter(
+    (i) => i.countryCode === insurer.countryCode
+  );
 
   return (
     <div className="mx-auto max-w-[1280px] px-5 lg:px-8 py-10">
@@ -202,7 +207,17 @@ export default async function InsurerPage({ params }: { params: Promise<{ slug: 
         ))}
       </div>
 
-      <div className="p-4 bg-surface-sunken rounded-xl text-[11px] text-text-tertiary">
+      {/* Peer-aware editorial — ~400-500 words of unique analysis per
+          insurer comparing CSR, breadth, network, and product mix
+          against in-country peers. */}
+      <InsurerEditorial
+        insurer={insurer}
+        countryName="India"
+        peers={peers}
+        products={products}
+      />
+
+      <div className="mt-10 p-4 bg-surface-sunken rounded-xl text-[11px] text-text-tertiary">
         All data is from publicly available sources. Claim settlement ratios are indicative. Visit the insurer&apos;s official website for current information.
       </div>
     </div>

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Heart, Shield, Car, Plane, ChevronRight, Globe2, TrendingUp, Database, Users } from "lucide-react";
 import { getCountryByCode, getActiveCountries, VALID_COUNTRY_CODES } from "@/lib/countries";
 import { getAllProducts, getAllInsurers, getCategories } from "@/lib/data";
+import { COUNTRY_NARRATIVE } from "@/lib/country-narrative";
 import WaitlistForm from "@/components/WaitlistForm";
 import { FAQSchema, BreadcrumbSchema } from "@/components/StructuredData";
 
@@ -126,8 +127,68 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
         )}
       </section>
 
+      {/* Market editorial — substantive per-country prose, hand-written.
+          Adds ~700 words of unique content per country hub, which together
+          with the catalog stats above lifts these pages well above
+          AdSense's thin-content threshold. */}
+      {(() => {
+        const n = COUNTRY_NARRATIVE[country];
+        if (!n) return null;
+        return (
+          <section className="border-t border-border bg-surface-sunken/40">
+            <div className="mx-auto max-w-[860px] px-5 lg:px-8 py-16 space-y-10">
+              <div>
+                <p className="text-[11px] font-semibold text-primary uppercase tracking-[0.12em] mb-3">
+                  01 — Market overview
+                </p>
+                <h2 className="text-[22px] sm:text-[26px] font-bold text-text-primary tracking-[-0.02em] mb-4">
+                  Insurance in {c.name}
+                </h2>
+                <p className="text-[15px] text-text-secondary leading-[1.8]">
+                  {n.marketOverview}
+                </p>
+              </div>
+              <div>
+                <p className="text-[11px] font-semibold text-primary uppercase tracking-[0.12em] mb-3">
+                  02 — Regulatory context
+                </p>
+                <h2 className="text-[22px] sm:text-[26px] font-bold text-text-primary tracking-[-0.02em] mb-4">
+                  Who regulates insurance in {c.name}
+                </h2>
+                <p className="text-[15px] text-text-secondary leading-[1.8]">
+                  {n.regulatoryContext}
+                </p>
+              </div>
+              <div>
+                <p className="text-[11px] font-semibold text-primary uppercase tracking-[0.12em] mb-3">
+                  03 — Practical notes
+                </p>
+                <h2 className="text-[22px] sm:text-[26px] font-bold text-text-primary tracking-[-0.02em] mb-4">
+                  What to know before you compare
+                </h2>
+                <p className="text-[15px] text-text-secondary leading-[1.8]">
+                  {n.practicalNotes}
+                </p>
+              </div>
+              <div className="pt-4 border-t border-border-light text-[12px] text-text-tertiary">
+                Editorial by{" "}
+                <Link href="/author/editorial-team" className="text-primary hover:underline">
+                  WBI Editorial Team
+                </Link>
+                {" "}· Methodology:{" "}
+                <Link href="/methodology" className="text-primary hover:underline">
+                  how we research markets
+                </Link>
+                . Data verified against {c.regulator} publications and
+                published insurer filings.
+              </div>
+            </div>
+          </section>
+        );
+      })()}
+
       {/* Other countries */}
-      <section className="mx-auto max-w-[1320px] px-5 lg:px-8 pb-16">
+      <section className="mx-auto max-w-[1320px] px-5 lg:px-8 pb-16 pt-12">
         <h3 className="text-[16px] font-bold text-text-primary mb-4">Explore other markets</h3>
         <div className="flex flex-wrap gap-2">
           {getActiveCountries().filter((ac) => ac.code !== country).slice(0, 8).map((ac) => (

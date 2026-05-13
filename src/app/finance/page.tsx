@@ -29,14 +29,42 @@ export default function FinanceIndexPage() {
         <p className="text-[11px] font-semibold text-primary uppercase tracking-[0.12em] mb-2">
           Finance · Weekly
         </p>
-        <h1 className="text-[32px] sm:text-[40px] font-bold text-text-primary tracking-[-0.02em] leading-tight mb-3">
+        <h1 className="text-[32px] sm:text-[40px] font-bold text-text-primary tracking-[-0.02em] leading-tight mb-4">
           Finance research for insurance decisions
         </h1>
-        <p className="text-[15px] text-text-secondary leading-relaxed max-w-[640px]">
+        <p className="text-[15px] text-text-secondary leading-relaxed max-w-[640px] mb-4">
           One deep-researched guide a week on the finance side of insurance —
           tax deductions, investment-linked products, retirement planning, and
-          regulatory changes. Sourced from IRDAI, Income Tax Act, and official
-          insurer filings. No AI slop, no daily filler.
+          regulatory changes that move premium rates. Sourced from primary
+          documents: the Income Tax Act, IRDAI filings, official insurer
+          annual reports, and regulator circulars. No AI-generated filler, no
+          daily churn.
+        </p>
+        <p className="text-[14px] text-text-secondary leading-relaxed max-w-[640px] mb-4">
+          The articles here complement the broader{" "}
+          <Link href="/learn" className="text-primary hover:underline">
+            Learn section
+          </Link>{" "}
+          and the{" "}
+          <Link href="/reports" className="text-primary hover:underline">
+            market reports
+          </Link>{" "}
+          — Learn covers how to buy insurance, Reports covers the macro
+          picture, and Finance covers the financial planning angles a buyer
+          should understand before choosing between two otherwise-comparable
+          plans. We publish one piece a week rather than several a day
+          because Google&apos;s Helpful Content guidance is unambiguous about
+          scaled AI content, and one researched guide outperforms ten
+          shallow ones in search.
+        </p>
+        <p className="text-[13px] text-text-tertiary leading-relaxed max-w-[640px]">
+          Topics are chosen from queries we see ranking weakly in Search
+          Console — places where we can write a more useful answer than what
+          currently appears in results. To suggest a topic, use the{" "}
+          <Link href="/contact" className="text-primary hover:underline">
+            contact page
+          </Link>
+          .
         </p>
       </div>
 
