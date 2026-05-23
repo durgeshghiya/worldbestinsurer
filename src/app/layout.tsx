@@ -62,7 +62,12 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true },
   alternates: {
-    canonical: "https://worldbestinsurer.com",
+    // No layout-level canonical. In Next.js, a child `metadata` block
+    // that doesn't override `alternates.canonical` inherits the parent's
+    // value verbatim — so a layout-level "https://worldbestinsurer.com"
+    // makes every page without its own canonical claim the homepage as
+    // the canonical, which is exactly the SEO/AdSense bug we just hit.
+    // Each route sets its own canonical via `generateMetadata`.
     languages: {
       "en": "https://worldbestinsurer.com",
       "en-IN": "https://worldbestinsurer.com/in/",

@@ -21,6 +21,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${pair.productA.productName} vs ${pair.productB.productName}`,
     description: `Compare ${pair.productA.productName} and ${pair.productB.productName}. Side-by-side feature comparison for Indian consumers.`,
+    alternates: {
+      canonical: `https://worldbestinsurer.com/vs/${slug}`,
+    },
   };
 }
 

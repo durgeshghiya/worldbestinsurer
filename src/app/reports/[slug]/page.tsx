@@ -44,6 +44,7 @@ export async function generateMetadata({
   return {
     title: `${report.title} — World Best Insurer Research`,
     description: report.subtitle,
+    alternates: { canonical: `https://worldbestinsurer.com/reports/${slug}` },
   };
 }
 

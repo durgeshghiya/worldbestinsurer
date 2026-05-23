@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Contact World Best Insurer",
   description:
     "Get in touch with World Best Insurer. Ask questions about insurance, report data issues, or explore partnership opportunities.",
+  alternates: { canonical: "https://worldbestinsurer.com/contact" },
 };
 
 export default function ContactPage() {
@@ -22,6 +23,47 @@ export default function ContactPage() {
         </h1>
         <p className="text-[14px] text-text-tertiary max-w-md mx-auto">
           Have a question, feedback, or want to explore a partnership? We&apos;d love to hear from you.
+        </p>
+      </div>
+
+      {/* Substantive intro — three short sections covering who should write,
+          what to expect, and what we cannot help with. Replaces the
+          previously sparse contact stub. */}
+      <div className="max-w-[760px] mx-auto mb-12 text-[14px] text-text-secondary leading-[1.85] space-y-4">
+        <p>
+          World Best Insurer is an independent comparison platform covering
+          1,000+ insurance plans across 12 countries. The contact form below
+          is the right place to write if you have spotted a data error in one
+          of our product listings, want to suggest a topic for a future Learn
+          article or Market Report, are exploring API access or another
+          partnership, or simply want to ask a question about how the site
+          works. Every message goes to the editorial team — there is no sales
+          intermediary in between.
+        </p>
+        <p>
+          Most messages get a reply within 24 hours on weekdays and within 48
+          hours on weekends. If you are writing in to report a data error,
+          please include the specific page URL and the field you believe is
+          incorrect along with the source you are checking against. Data
+          corrections jump to the top of the queue because every record on the
+          site is supposed to be auditable against a primary source; if one
+          is not, we want to fix it before another reader hits the same
+          inaccuracy.
+        </p>
+        <p>
+          What we cannot help with: we cannot give you personalised insurance
+          advice, recommend a specific plan for your situation, quote
+          premiums on behalf of an insurer, or intervene in a claim dispute.
+          We are not licensed brokers, agents, or advisors — we publish data
+          and let you decide. For policy-specific questions or claim issues,
+          you need to contact the insurer directly (their customer-care
+          numbers are listed on every{" "}
+          <Link href="/insurers" className="text-primary hover:underline">
+            insurer profile page
+          </Link>
+          ). For tax questions, consult a chartered accountant or tax
+          professional in your jurisdiction. For licensed insurance advice,
+          consult a registered advisor.
         </p>
       </div>
 

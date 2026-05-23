@@ -54,6 +54,9 @@ export async function generateMetadata({
       c.name,
       "insurance comparison",
     ],
+    alternates: {
+      canonical: `https://worldbestinsurer.com/${country}/product/${id}`,
+    },
   };
 }
 

@@ -44,6 +44,9 @@ export async function generateMetadata({
     title: `${catName} in ${city.name} — Compare Plans`,
     description: `Compare ${catName.toLowerCase()} plans available in ${city.name}, ${city.state}. Side-by-side comparison of top insurers for ${city.name} residents.`,
     robots: indexable ? undefined : { index: false, follow: true },
+    alternates: {
+      canonical: `https://worldbestinsurer.com/compare/${category}/in/${citySlug}`,
+    },
   };
 }
 

@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
   return {
     title: `Compare Insurance in ${c.name} — World Best Insurer`,
     description: `Compare health, life, motor, and travel insurance plans in ${c.name}. Transparent data from ${c.name}'s leading insurers.`,
+    alternates: { canonical: `https://worldbestinsurer.com/${country}` },
   };
 }
 

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllProducts, getAllInsurers } from "@/lib/data";
 import { getActiveCountries } from "@/lib/countries";
@@ -8,6 +9,10 @@ import {
   WebsiteSchema,
 } from "@/components/StructuredData";
 import HomeSelector from "@/components/HomeSelector";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "https://worldbestinsurer.com" },
+};
 
 export default function HomePage() {
   const totalProducts = getAllProducts().length;

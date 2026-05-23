@@ -18,6 +18,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${insurer.shortName} Insurance Plans`,
     description: `Explore ${insurer.shortName} insurance plans on World Best Insurer. Compare products, view claim settlement ratio, and more.`,
+    alternates: {
+      canonical: `https://worldbestinsurer.com/insurer/${slug}`,
+    },
   };
 }
 

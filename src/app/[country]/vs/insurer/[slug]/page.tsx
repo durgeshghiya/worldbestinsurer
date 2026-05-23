@@ -7,6 +7,7 @@ import { getCountryByCode, VALID_COUNTRY_CODES } from "@/lib/countries";
 import { generateInsurerVSPairs, type InsurerPair } from "@/lib/generators";
 import { formatCompact } from "@/lib/utils";
 import { BreadcrumbSchema } from "@/components/StructuredData";
+import InsurerVSEditorial from "@/components/InsurerVSEditorial";
 
 function findInsurerPair(slug: string, countryCode: string): InsurerPair | undefined {
   // Parse slug: "hdfc-life-vs-icici-prudential"
@@ -71,6 +72,9 @@ export async function generateMetadata({
   return {
     title: `${a.shortName} vs ${b.shortName} — Insurance Comparison in ${c.name}`,
     description: `Compare ${a.name} and ${b.name} side by side. Claim settlement ratio, products, network hospitals, and more in ${c.name}.`,
+    alternates: {
+      canonical: `https://worldbestinsurer.com/${country}/vs/insurer/${slug}`,
+    },
   };
 }
 
@@ -297,8 +301,19 @@ export default async function InsurerVSPage({
         </div>
       )}
 
+      {/* Editorial analysis — 300-500 words of unique comparison-specific
+          prose per insurer pair. Lifts these 1,166 pages from ~290-word
+          thin-content territory into AdSense-acceptable density. */}
+      <InsurerVSEditorial
+        a={a}
+        b={b}
+        productsA={productsA}
+        productsB={productsB}
+        countryName={c.name}
+      />
+
       {/* ─── Disclaimer ─── */}
-      <div className="p-4 bg-surface-sunken rounded-xl text-[11px] text-text-tertiary leading-relaxed">
+      <div className="mt-10 p-4 bg-surface-sunken rounded-xl text-[11px] text-text-tertiary leading-relaxed">
         Data sourced from official insurer websites and regulatory publications.
         Claim settlement ratios are from publicly available regulatory reports.
         Verify all information directly with the insurers.{" "}

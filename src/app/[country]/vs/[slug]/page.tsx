@@ -29,6 +29,9 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
   return {
     title: `${pair.productA.productName} vs ${pair.productB.productName} — ${c.name}`,
     description: `Compare ${pair.productA.productName} and ${pair.productB.productName} in ${c.name}. Side-by-side feature comparison.`,
+    alternates: {
+      canonical: `https://worldbestinsurer.com/${country}/vs/${slug}`,
+    },
   };
 }
 
