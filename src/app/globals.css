@@ -5,10 +5,11 @@
    A premium, editorial design with depth and precision.
    ═══════════════════════════════════════════════════════════════ */
 
-@font-face {
-  font-family: 'Satoshi';
-  src: url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap');
-}
+/* Satoshi was previously declared via a broken @font-face (its src pointed
+   at a Fontshare CSS URL, not a font file) so it never actually loaded —
+   every page has always rendered in Geist. Removed rather than fixed: Geist
+   is already self-hosted via next/font with zero layout shift, and adding a
+   third-party font fetch would regress LCP for no visual gain. */
 
 :root {
   /* ── Core palette: deep navy + warm copper accents ── */
@@ -138,7 +139,7 @@
   --color-motor-light: var(--motor-light);
   --color-travel: var(--travel);
   --color-travel-light: var(--travel-light);
-  --font-sans: 'Satoshi', var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  --font-sans: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
   --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 }
 
