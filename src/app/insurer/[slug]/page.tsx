@@ -5,6 +5,7 @@ import { ArrowLeft, ExternalLink, MapPin, Calendar, Building2, TrendingUp, Arrow
 import CopyButton from "@/components/CopyButton";
 import { getAllInsurers, getInsurerBySlug, getProductsByInsurer } from "@/lib/data";
 import InsurerEditorial from "@/components/InsurerEditorial";
+import { AdSlot } from "@/components/AdSlot";
 import { formatCompact } from "@/lib/utils";
 
 export async function generateStaticParams() {
@@ -219,6 +220,8 @@ export default async function InsurerPage({ params }: { params: Promise<{ slug: 
         peers={peers}
         products={products}
       />
+
+      <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_INSURER_END} className="my-10" />
 
       <div className="mt-10 p-4 bg-surface-sunken rounded-xl text-[11px] text-text-tertiary">
         All data is from publicly available sources. Claim settlement ratios are indicative. Visit the insurer&apos;s official website for current information.

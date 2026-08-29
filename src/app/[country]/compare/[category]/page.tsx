@@ -5,6 +5,7 @@ import { AlertCircle, Clock, Database, Heart, Shield, Car, Plane, ArrowRight, Sp
 import ProductCard from "@/components/ProductCard";
 import ComparisonTable from "@/components/ComparisonTable";
 import PremiumEstimator from "@/components/PremiumEstimator";
+import { AdSlot } from "@/components/AdSlot";
 import { getProductsByCategory, getCategoryDisclaimer, getCategoryLastUpdated, getCategories } from "@/lib/data";
 import { getCountryByCode, VALID_COUNTRY_CODES } from "@/lib/countries";
 import type { Category } from "@/lib/types";
@@ -129,6 +130,8 @@ export default async function CountryComparePage({ params }: { params: Promise<{
                 <ComparisonTable products={products} category={category as Category} />
               </div>
             </div>
+            <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_COMPARE_MID} className="mb-14" />
+
             <div>
               <h2 className="text-[20px] font-bold text-text-primary mb-6">All {cat?.name} Plans in {c.name}</h2>
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 stagger-children">

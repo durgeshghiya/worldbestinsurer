@@ -22,6 +22,7 @@ import { ProductSchema, BreadcrumbSchema } from "@/components/StructuredData";
 import ProductTabs from "./ProductTabs";
 import ProductQuoteForm from "@/components/ProductQuoteForm";
 import ProductEditorial from "@/components/ProductEditorial";
+import { AdSlot } from "@/components/AdSlot";
 import ReviewSection from "@/components/ReviewSection";
 import AffiliateLink from "@/components/AffiliateLink";
 
@@ -225,10 +226,22 @@ export default async function CountryProductPage({
               similarProducts={similarProducts}
             />
 
+            {/* In-content placement: sits between the spec tables and the
+                editorial, i.e. after the reader has had real content. */}
+            <AdSlot
+              slot={process.env.NEXT_PUBLIC_AD_SLOT_PRODUCT_MID}
+              className="my-8"
+            />
+
             {/* =========================================================== */}
             {/*  EDITORIAL ANALYSIS                                         */}
             {/* =========================================================== */}
             <ProductEditorial product={p} countryName={c.name} peers={peersInCategory} />
+
+            <AdSlot
+              slot={process.env.NEXT_PUBLIC_AD_SLOT_PRODUCT_END}
+              className="my-8"
+            />
 
             {/* =========================================================== */}
             {/*  REVIEWS                                                     */}

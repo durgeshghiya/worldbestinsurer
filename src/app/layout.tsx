@@ -122,11 +122,16 @@ export default function RootLayout({
             __html: `(function(){function s(){if(!window.frames.googlefcPresent){if(document.body){var f=document.createElement('iframe');f.style='width:0;height:0;border:none;z-index:-1000;left:-1000px;top:-1000px';f.style.display='none';f.name='googlefcPresent';document.body.appendChild(f);}else{setTimeout(s,0);}}}s();})();`,
           }}
         />
-        {/* Defer AdSense + GA4 network fetches until after load — improves LCP.
-            Consent Mode governs whether either actually reads/writes cookies. */}
+        {/* Defer AdSense + GA4 network fetches so they never contend with LCP,
+            but fire them as early as is safe — whichever comes first of: the
+            first user interaction, browser idle after load, or a 1.5s cap.
+            A flat "load + 2s" delay (the previous behaviour) meant short
+            sessions ended before the ad ever requested, costing impressions
+            for no measurable Core Web Vitals gain.
+            Consent Mode governs whether either may read/write cookies. */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `window.addEventListener('load',function(){setTimeout(function(){var a=document.createElement('script');a.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4984848270074853';a.async=true;a.crossOrigin='anonymous';document.head.appendChild(a);var g=document.createElement('script');g.src='https://www.googletagmanager.com/gtag/js?id=G-PGW5QZ146V';g.async=true;document.head.appendChild(g);},2000)});`,
+            __html: `(function(){var f=false;function boot(){if(f)return;f=true;var a=document.createElement('script');a.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4984848270074853';a.async=true;a.crossOrigin='anonymous';document.head.appendChild(a);var g=document.createElement('script');g.src='https://www.googletagmanager.com/gtag/js?id=G-PGW5QZ146V';g.async=true;document.head.appendChild(g);}['pointerdown','keydown','touchstart','scroll'].forEach(function(e){window.addEventListener(e,boot,{once:true,passive:true});});window.addEventListener('load',function(){if('requestIdleCallback' in window){requestIdleCallback(boot,{timeout:1500});}else{setTimeout(boot,800);}});})();`,
           }}
         />
       </head>

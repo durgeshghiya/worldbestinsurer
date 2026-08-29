@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, Calendar, Clock, User} from "lucide-react";
 import { BreadcrumbSchema } from "@/components/StructuredData";
+import { AdSlot } from "@/components/AdSlot";
 
 // Load all reports
 import healthIndiaReport from "@/data/reports/health-insurance-india-2026.json";
@@ -163,6 +164,8 @@ export default async function ReportPage({
           </section>
         ))}
       </div>
+
+      <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_REPORT_END} className="my-10" />
 
       {/* CTA */}
       <div className="mt-12 p-6 bg-surface rounded-2xl border border-border text-center">

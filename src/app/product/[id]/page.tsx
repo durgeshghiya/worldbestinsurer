@@ -14,6 +14,7 @@ import {
 import { getAllProducts, getProductById, getProductsByCategory, formatCurrencyFull, formatCurrency } from "@/lib/data";
 import { ProductSchema, BreadcrumbSchema } from "@/components/StructuredData";
 import ProductEditorial from "@/components/ProductEditorial";
+import { AdSlot } from "@/components/AdSlot";
 
 export async function generateStaticParams() {
   return getAllProducts().map((p) => ({ id: p.id }));
@@ -284,6 +285,11 @@ export default async function ProductPage({
             </ul>
           </div>
 
+          <AdSlot
+            slot={process.env.NEXT_PUBLIC_AD_SLOT_PRODUCT_MID}
+            className="my-2"
+          />
+
           {/* Editorial analysis — peer-aware, 400-600 words of unique prose
               per product. The biggest single lever for AdSense thin-content
               compliance and for ranking competitive long-tail queries. */}
@@ -294,6 +300,11 @@ export default async function ProductPage({
               peers={peers}
             />
           </div>
+
+          <AdSlot
+            slot={process.env.NEXT_PUBLIC_AD_SLOT_PRODUCT_END}
+            className="my-2"
+          />
         </div>
 
         {/* Sidebar */}

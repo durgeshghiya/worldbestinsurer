@@ -6,6 +6,7 @@ import { getProductsByCategory } from "@/lib/data";
 import { countries } from "@/lib/countries";
 import { BreadcrumbSchema, FAQSchema } from "@/components/StructuredData";
 import Breadcrumb from "@/components/Breadcrumb";
+import { AdSlot } from "@/components/AdSlot";
 
 // Editorial market overview per category — adds original analysis for AdSense quality
 const categoryOverview: Record<string, { headline: string; body: string; stats: { label: string; value: string }[] }> = {
@@ -275,6 +276,10 @@ export default async function CompareCategoryPage({
           })}
         </div>
       </section>
+
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_COMPARE_MID} className="my-10" />
+      </div>
 
       {/* FAQ Section */}
       {categoryFAQs[category] && (

@@ -5,6 +5,7 @@ import { ArrowLeft, Check, AlertCircle } from "lucide-react";
 import { generateVSPairs, getVSPairBySlug } from "@/lib/generators";
 import { formatCompact} from "@/lib/utils";
 import VSEditorial from "@/components/VSEditorial";
+import { AdSlot } from "@/components/AdSlot";
 
 // Only prerendered slugs resolve; unknown slugs 404 at routing (no runtime cost).
 // Kept in lockstep with sitemap.ts so Google never discovers a URL that won't resolve.
@@ -101,6 +102,8 @@ export default async function VSPage({ params }: { params: Promise<{ slug: strin
       </div>
 
       <VSEditorial a={a} b={b} countryName="India" />
+
+      <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_VS_END} className="my-8" />
 
       <div className="mt-6 p-4 bg-warning-light rounded-xl flex items-start gap-2.5">
         <AlertCircle className="w-4 h-4 text-warning mt-0.5 shrink-0" />

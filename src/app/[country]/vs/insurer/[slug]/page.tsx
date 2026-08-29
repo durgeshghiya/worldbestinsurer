@@ -8,6 +8,7 @@ import { generateInsurerVSPairs, type InsurerPair } from "@/lib/generators";
 import { formatCompact } from "@/lib/utils";
 import { BreadcrumbSchema } from "@/components/StructuredData";
 import InsurerVSEditorial from "@/components/InsurerVSEditorial";
+import { AdSlot } from "@/components/AdSlot";
 
 function findInsurerPair(slug: string, countryCode: string): InsurerPair | undefined {
   // Parse slug: "hdfc-life-vs-icici-prudential"
@@ -311,6 +312,8 @@ export default async function InsurerVSPage({
         productsB={productsB}
         countryName={c.name}
       />
+
+      <AdSlot slot={process.env.NEXT_PUBLIC_AD_SLOT_VS_END} className="my-8" />
 
       {/* ─── Disclaimer ─── */}
       <div className="mt-10 p-4 bg-surface-sunken rounded-xl text-[11px] text-text-tertiary leading-relaxed">
