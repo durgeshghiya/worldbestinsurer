@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Shield, Lock, Eye, Bell, Trash2, Mail } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://worldbestinsurer.com/privacy-policy" },
   title: "Privacy Policy — World Best Insurer",
   description:
     "World Best Insurer's Privacy Policy. Learn how we collect, use, and protect your personal information in compliance with the DPDP Act 2023 and IT Act 2000.",

@@ -10,6 +10,7 @@ import AnimatedBackground from "@/components/AnimatedBackground";
 import SectionDivider from "@/components/SectionDivider";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://worldbestinsurer.com/about" },
   title: "About World Best Insurer",
   description: "World Best Insurer is India's smart insurance comparison and education platform. Learn about our mission, approach, and future plans.",
 };

@@ -10,6 +10,7 @@ import AnimatedBackground from "@/components/AnimatedBackground";
 import SectionDivider from "@/components/SectionDivider";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://worldbestinsurer.com/methodology" },
   title: "Data Methodology",
   description: "How World Best Insurer sources, verifies, and presents insurance comparison data. Our methodology for transparent, trustworthy comparisons.",
 };

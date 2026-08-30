@@ -38,6 +38,9 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
   return {
     title: `Compare ${cat.name} in ${c.name}`,
     description: `Compare ${cat.name.toLowerCase()} plans from ${c.name}'s leading insurers. Side-by-side comparison with verified data.`,
+    alternates: {
+      canonical: `https://worldbestinsurer.com/${country}/compare/${category}`,
+    },
   };
 }
 

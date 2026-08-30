@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Code2, Key, Zap, Shield, Globe} from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://worldbestinsurer.com/developers" },
   title: "Developer API — World Best Insurer",
   description:
     "Access insurance comparison data via REST API. Products, insurers, and comparison data across 12 countries. Free tier: 100 requests/day.",

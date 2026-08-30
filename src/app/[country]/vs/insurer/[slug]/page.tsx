@@ -76,6 +76,8 @@ export async function generateMetadata({
     alternates: {
       canonical: `https://worldbestinsurer.com/${country}/vs/insurer/${slug}`,
     },
+    // De-indexed — see docs/index-strategy.md.
+    robots: { index: false, follow: true },
   };
 }
 

@@ -6,6 +6,7 @@ import ScrollReveal from "@/components/immersive/ScrollReveal";
 import AnimatedBackground from "@/components/AnimatedBackground";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://worldbestinsurer.com/learn" },
   title: "Insurance Guides & Education — 121 Expert Articles",
   description:
     "121 insurance guides covering health, term life, motor & travel insurance in India. Learn about claim settlement ratios, premium calculations, tax benefits, and more.",

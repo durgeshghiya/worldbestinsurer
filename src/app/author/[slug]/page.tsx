@@ -35,6 +35,7 @@ export async function generateMetadata({
   return {
     title: `${author.name} — ${author.role} at World Best Insurer`,
     description: author.bio.slice(0, 160),
+    alternates: { canonical: `https://worldbestinsurer.com/author/${slug}` },
   };
 }
 

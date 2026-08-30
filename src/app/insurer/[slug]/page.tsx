@@ -19,8 +19,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${insurer.shortName} Insurance Plans`,
     description: `Explore ${insurer.shortName} insurance plans on World Best Insurer. Compare products, view claim settlement ratio, and more.`,
+    // Duplicates /[country]/insurer/[slug]; canonical to the country-scoped
+    // page so the two stop competing. See docs/index-strategy.md.
     alternates: {
-      canonical: `https://worldbestinsurer.com/insurer/${slug}`,
+      canonical: `https://worldbestinsurer.com/${insurer.countryCode}/insurer/${slug}`,
     },
   };
 }

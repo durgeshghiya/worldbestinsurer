@@ -33,6 +33,8 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
     alternates: {
       canonical: `https://worldbestinsurer.com/${country}/vs/${slug}`,
     },
+    // De-indexed — see docs/index-strategy.md.
+    robots: { index: false, follow: true },
   };
 }
 

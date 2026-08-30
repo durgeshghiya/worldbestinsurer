@@ -25,6 +25,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     alternates: {
       canonical: `https://worldbestinsurer.com/vs/${slug}`,
     },
+    // Deliberately de-indexed. See docs/index-strategy.md — pairwise VS URLs
+    // are combinatorial permutations, not pages anyone searches for, and at
+    // scale they read to Google as programmatically generated filler.
+    // `follow` is kept so internal link equity still flows to the product
+    // pages these link out to.
+    robots: { index: false, follow: true },
   };
 }
 

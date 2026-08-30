@@ -49,8 +49,14 @@ export async function generateMetadata({
       `${product.subCategory} insurance India`,
       "insurance comparison India",
     ],
+    // This route duplicates /[country]/product/[id] — `getProductById`
+    // without a country code resolves the same record, so every product was
+    // being published at two URLs with two different templates. Point the
+    // canonical at the country-scoped page (the richer of the two: tabs,
+    // reviews, country context) so Google consolidates rather than picking
+    // one arbitrarily. See docs/index-strategy.md.
     alternates: {
-      canonical: `https://worldbestinsurer.com/product/${product.id}`,
+      canonical: `https://worldbestinsurer.com/${product.countryCode}/product/${product.id}`,
     },
   };
 }

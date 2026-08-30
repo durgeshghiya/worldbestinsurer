@@ -21,6 +21,7 @@ import CityHeatmap from "@/components/insights/CityHeatmap";
 import DataFreshness from "@/components/insights/DataFreshness";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://worldbestinsurer.com/insights" },
   title: "India Insurance Market Insights — Data Dashboard",
   description:
     "Explore India's insurance landscape with data-driven insights. Claim settlement ratios, premium ranges, coverage analysis across 97 products from 34 insurers.",

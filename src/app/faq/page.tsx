@@ -4,6 +4,7 @@ import { HelpCircle, Heart, Shield, Car, Plane, Globe, ChevronRight } from "luci
 import { FAQSchema, BreadcrumbSchema } from "@/components/StructuredData";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://worldbestinsurer.com/faq" },
   title: "Frequently Asked Questions — World Best Insurer",
   description:
     "Answers to 40+ common questions about health insurance, term life, motor, and travel insurance. Compare plans, understand claim ratios, and make smarter insurance decisions.",

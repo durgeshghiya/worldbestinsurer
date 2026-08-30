@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://worldbestinsurer.com/disclaimer" },
   title: "Disclaimer, Privacy Policy & Terms of Use",
   description: "Legal disclaimers, privacy policy, and terms of use for the World Best Insurer comparison platform.",
 };

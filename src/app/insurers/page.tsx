@@ -6,6 +6,7 @@ import { getAllInsurers, getProductsByInsurer } from "@/lib/data";
 import { AdSlot } from "@/components/AdSlot";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://worldbestinsurer.com/insurers" },
   title: "Insurance Companies Directory — 248+ Insurers in 12 Countries",
   description: "Browse 248+ insurance companies across India, US, UK, UAE & 8 more countries. Compare claim settlement ratios, network hospitals, headquarters, and product offerings.",
 };

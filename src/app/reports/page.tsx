@@ -12,6 +12,7 @@ import travelGlobalReport from "@/data/reports/travel-insurance-global-2026.json
 const reports = [healthIndiaReport, motorIndiaReport, healthUsReport, travelGlobalReport];
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://worldbestinsurer.com/reports" },
   title: "Insurance Market Reports — World Best Insurer",
   description:
     "Original research and market analysis from the World Best Insurer editorial team. Data-driven reports on insurance markets across 12 countries.",

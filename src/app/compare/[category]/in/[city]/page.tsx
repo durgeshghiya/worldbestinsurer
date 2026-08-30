@@ -34,16 +34,14 @@ export async function generateMetadata({
   const city = getCityBySlug(citySlug);
   const catName = categoryNames[category];
   if (!city || !catName) return {};
-  // Tier-3 cities are too thin to deserve an indexable per-page entry —
-  // the catalog data is identical except for the city name. Tell Google
-  // not to index them so the indexable surface stays dense and editorial.
-  // Tier-1 and tier-2 cities still index, since those have meaningful
-  // search demand.
-  const indexable = (city.tier ?? 3) <= 2;
+  // De-indexed at every tier. The tier-1/2 carve-out was tried and did not
+  // earn clicks: the plan data on a city page is identical to the national
+  // page except for the city name in the copy, so these are near-duplicates
+  // at ~1,200 URLs. See docs/index-strategy.md.
   return {
     title: `${catName} in ${city.name} — Compare Plans`,
     description: `Compare ${catName.toLowerCase()} plans available in ${city.name}, ${city.state}. Side-by-side comparison of top insurers for ${city.name} residents.`,
-    robots: indexable ? undefined : { index: false, follow: true },
+    robots: { index: false, follow: true },
     alternates: {
       canonical: `https://worldbestinsurer.com/compare/${category}/in/${citySlug}`,
     },

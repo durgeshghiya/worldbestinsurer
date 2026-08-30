@@ -5,6 +5,7 @@ import { VALID_COUNTRY_CODES } from "@/lib/countries";
 import ContactDirectorySearch from "@/components/ContactDirectorySearch";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://worldbestinsurer.com/contact-directory" },
   title: "Insurer Contact Directory — Phone, Email & Helplines",
   description:
     "Contact details for 248+ insurance companies across 12 countries. Find phone numbers, emails, claim helplines, grievance contacts, and social media links.",
