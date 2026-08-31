@@ -1,0 +1,222 @@
+{
+  "slug": "health-insurance-claim-rejected-india-what-to-do",
+  "title": "Your Health Insurance Claim Was Rejected in India. Here Is Exactly What to Do Next.",
+  "excerpt": "A rejected claim is not the end of the matter. India has a three-step escalation path that costs nothing to use, runs on fixed statutory deadlines, and ends with an award that is binding on the insurer. This is the sequence, the deadlines, and the arguments that actually work.",
+  "publishedAt": "2026-08-30",
+  "lastUpdated": "2026-08-30",
+  "author": "WBI Editorial Team",
+  "category": "Claims",
+  "tags": [
+    "Claims",
+    "IRDAI",
+    "Ombudsman",
+    "India",
+    "Consumer Rights"
+  ],
+  "readTime": "11 min",
+  "keyTakeaways": [
+    "Get the repudiation in writing with the specific policy clause cited. Without that you cannot escalate, and insurers are required to give it.",
+    "The ladder is fixed: the insurer's Grievance Redressal Officer (15 days to respond), then IRDAI's Bima Bharosa portal, then the Insurance Ombudsman.",
+    "The Ombudsman is free, needs no lawyer, handles disputes up to Rs 50 lakh, and its award binds the insurer — which must comply within 30 days.",
+    "If your policy has run 60 continuous months, the moratorium clause blocks rejection on non-disclosure or misrepresentation grounds entirely, except for established fraud.",
+    "You have one year from the insurer's final rejection to reach the Ombudsman. Miss that window and your only route left is a consumer court."
+  ],
+  "sections": [
+    {
+      "heading": "The short answer",
+      "body": "A rejection letter from a health insurer is a first position, not a verdict. India runs a three-tier grievance system that any policyholder can use without a lawyer and without paying a fee, and each tier has a deadline the insurer is obliged to meet. You start with the insurer's own Grievance Redressal Officer, escalate to IRDAI's Bima Bharosa portal if that goes nowhere, and finish at the Insurance Ombudsman, whose award is binding on the insurer for disputes up to Rs 50 lakh.",
+      "paragraphs": [
+        "What decides the outcome is not persistence but whether the ground the insurer cited actually holds under the policy wording and the current IRDAI rules. Several of the grounds insurers still use routinely have been narrowed or removed since the May 2024 Master Circular. Knowing which one you are facing tells you whether to fight, negotiate, or accept."
+      ]
+    },
+    {
+      "heading": "Step zero: get the rejection in writing, with the clause cited",
+      "body": "A phone call from a TPA saying the claim is denied is not a repudiation. Insurers are required to communicate rejection in writing and to state the specific policy condition or exclusion relied on. Ask for that letter and do not proceed without it, because every stage above this one asks you what the insurer said and which clause it invoked.",
+      "paragraphs": [
+        "Alongside it, request the claim file: the discharge summary the hospital submitted, the TPA's assessment sheet, and any medical opinion the insurer relied on. Insurers frequently reject on the strength of a single line in a hospital record — a doctor's throwaway note about a symptom the patient mentioned years ago becomes the evidence for a pre-existing disease that was never diagnosed. You cannot rebut that note until you have seen it."
+      ],
+      "callout": {
+        "label": "Do this first",
+        "text": "Put the request in email, not on a call. Every deadline in this article runs from a dated written communication, and a call log is not one."
+      }
+    },
+    {
+      "heading": "Identify which ground you are actually facing",
+      "body": "Almost every health claim rejection in India falls into one of seven buckets. They are not equally defensible, and treating them all the same is the most common mistake policyholders make. The table below is the honest version — where you have a real argument and where you mostly do not.",
+      "table": {
+        "headers": [
+          "Ground cited",
+          "What it means",
+          "Where you stand"
+        ],
+        "rows": [
+          [
+            "Pre-existing disease not disclosed",
+            "Insurer says you had the condition before buying and did not declare it",
+            "Contestable. The burden is on the insurer to show you knew. An undiagnosed condition is not a PED, and after 60 months the moratorium clause blocks this ground outright."
+          ],
+          [
+            "Waiting period not served",
+            "The illness falls inside the 30-day, 24-month or 36-month waiting window",
+            "Usually holds if the dates are right. Check the dates yourself — insurers sometimes count from the wrong policy year after a renewal or a port."
+          ],
+          [
+            "Permanent exclusion",
+            "The condition is listed as never covered in your policy schedule",
+            "Holds, if it is genuinely written into your schedule. Exclusions must be specific and disclosed at issuance, not invented at claim time."
+          ],
+          [
+            "Policy lapsed",
+            "Premium was unpaid on the date of hospitalisation",
+            "Holds, unless you were inside the grace period. Check your renewal receipt date against the admission date."
+          ],
+          [
+            "Not a valid hospitalisation",
+            "Stay was under 24 hours, or treatment was OPT/OPD",
+            "Holds unless the procedure is on your policy's day-care list. Check that list — it typically runs to well over a hundred procedures."
+          ],
+          [
+            "Delayed intimation",
+            "You told the insurer too late",
+            "Weak ground on its own. IRDAI has directed insurers not to repudiate otherwise-valid claims purely for delayed intimation where the delay is explicable."
+          ],
+          [
+            "Short settlement, not rejection",
+            "Claim paid, but far less than billed",
+            "A different fight. This is usually a room-rent sub-limit and proportionate deduction, and the arithmetic is checkable."
+          ]
+        ],
+        "caption": "The last row is not technically a rejection, but it is the most common reason people believe their insurance failed them."
+      }
+    },
+    {
+      "heading": "The escalation ladder, with the clocks",
+      "body": "Each rung has a defined response window. The point of knowing them is that the expiry of one window is what unlocks the next rung — you do not have to wait indefinitely for an insurer that has gone quiet.",
+      "bullets": [
+        "Write to the insurer's Grievance Redressal Officer. Every IRDAI-licensed insurer must publish a named GRO with contact details on its website and in your policy document. The GRO must respond within 15 days.",
+        "If there is no response in 15 days, or the response does not address the substance, file on IRDAI's Bima Bharosa portal at bimabharosa.irdai.gov.in. Complaints are tracked centrally and the insurer must respond through the portal. This step is not a decision-making forum, but it creates a regulator-visible record and frequently produces a reversal on its own.",
+        "If the matter is still unresolved 30 days after you complained to the insurer, take it to the Insurance Ombudsman for your region. This is the tier with teeth."
+      ],
+      "ordered": true,
+      "paragraphs": [
+        "Skipping straight to the Ombudsman does not work — it will ask whether you approached the insurer first and will return the complaint if you did not. The 15-day GRO letter is therefore not a formality to be skipped; it is what makes the rest admissible."
+      ]
+    },
+    {
+      "heading": "What the Insurance Ombudsman can and cannot do",
+      "body": "The Ombudsman is a quasi-judicial body constituted under the Insurance Ombudsman Rules, 2017 (amended 2021). It is free, it requires no legal representation, and it is designed for exactly this dispute. Its jurisdiction covers claim repudiation, short settlement, delay in settlement, premium disputes, mis-selling, and policy servicing failures.",
+      "table": {
+        "headers": [
+          "Feature",
+          "Position"
+        ],
+        "rows": [
+          [
+            "Cost to complain",
+            "Free. No fee, no lawyer required."
+          ],
+          [
+            "Monetary limit",
+            "Disputes valued up to Rs 50 lakh."
+          ],
+          [
+            "When you can file",
+            "After 30 days from your complaint to the insurer, and within one year of the insurer's final rejection."
+          ],
+          [
+            "Time to decide",
+            "An award is generally passed within three months of receiving all required documents."
+          ],
+          [
+            "Binding on insurer",
+            "Yes, if you accept it. The insurer must comply within 30 days and faces a penalty for each day of delay beyond that."
+          ],
+          [
+            "Binding on you",
+            "No. If you reject the award, you keep your right to go to a consumer forum or civil court."
+          ]
+        ]
+      },
+      "paragraphs": [
+        "That last asymmetry is the reason this route is worth using even when you think the amount is small. The award binds the insurer but not you, so you give up nothing by trying. The realistic downside is time, not risk."
+      ],
+      "callout": {
+        "label": "The one-year deadline",
+        "text": "The clock runs from the insurer's final rejection, not from the hospitalisation. Diarise it the day the repudiation letter arrives."
+      }
+    },
+    {
+      "heading": "The moratorium clause: the strongest argument most people have never heard of",
+      "body": "Under the IRDAI (Insurance Products) Regulations, 2024, no health insurance policy or claim can be contested on grounds of non-disclosure or misrepresentation once the policy has completed 60 months of continuous coverage. The only carve-outs are established fraud and the policy's written permanent exclusions.",
+      "paragraphs": [
+        "This period was cut from 96 months to 60 months by IRDAI's circular of 29 May 2024, and it carries forward when you port or migrate a policy — so five years of continuous cover across two different insurers still counts. If your policy has crossed that line and the rejection letter cites a pre-existing condition you supposedly failed to declare, the ground is not available to the insurer at all. Say so explicitly, by name, in your GRO letter.",
+        "Two things to be precise about. Continuous means without a break in cover, so a lapsed year resets the count. And the moratorium does not create coverage for something the policy never covered — a permanent exclusion written into your schedule survives it."
+      ]
+    },
+    {
+      "heading": "Writing the complaint so it lands",
+      "body": "Grievance officers and Ombudsman offices read a great many of these. The ones that get resolved quickly are short, dated, and cite the clause rather than describing the distress. Structure it like a claim file, not a letter of complaint.",
+      "bullets": [
+        "Policy number, claim number, dates of admission and discharge, and the hospital name — in the first three lines.",
+        "The exact ground the insurer cited, quoted from the repudiation letter with its date and reference number.",
+        "Your rebuttal, tied to a document: the policy schedule, a clause reference, a treating doctor's certificate, or the date arithmetic that shows the waiting period was served.",
+        "The specific relief sought, as a rupee figure. Not 'please reconsider' but 'settle Rs 2,84,500 being the admissible amount under claim number X'.",
+        "Attachments listed and numbered. Repudiation letter, policy schedule, discharge summary, final bill, payment proof, GRO correspondence."
+      ],
+      "paragraphs": [
+        "If you are rebutting a pre-existing disease finding, the single most useful document is a letter from the treating doctor stating when the condition was first diagnosed. Insurers infer prior knowledge from a symptom mentioned in a history; a dated diagnosis rebuts the inference. Nothing else in the file does that work as well."
+      ]
+    },
+    {
+      "heading": "When you probably do not have a case",
+      "body": "It is worth being straight about this, because the fastest way to waste three months is to escalate a claim that was correctly declined. If the treatment falls squarely inside a waiting period you had not served, if the procedure appears in the permanent exclusions on your own policy schedule, if the premium genuinely went unpaid past the grace period, or if the admission was under 24 hours and the procedure is not on the day-care list — the insurer is applying the contract as written.",
+      "paragraphs": [
+        "In those situations the productive move is not an appeal but a review of the policy itself at renewal: a plan without that exclusion, a higher sum insured, or a port to an insurer whose waiting periods you have already partly served. Portability preserves the waiting-period credit you have accumulated, which is the part most people do not realise they are throwing away when they simply buy a fresh policy elsewhere."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does complaining to the Insurance Ombudsman cost anything?",
+      "answer": "No. The Ombudsman process is free of charge and does not require a lawyer. You file the complaint yourself using the prescribed form, attach your documents, and attend a hearing if one is called."
+    },
+    {
+      "question": "Can I go to the Ombudsman straight away without writing to the insurer?",
+      "answer": "No. The Ombudsman requires that you first complained to the insurer and either received an unsatisfactory reply or no reply within 30 days. This is why the letter to the Grievance Redressal Officer matters — it is what makes the later complaint admissible."
+    },
+    {
+      "question": "What if the disputed amount is more than Rs 50 lakh?",
+      "answer": "The Ombudsman's jurisdiction is capped at Rs 50 lakh, so a larger dispute goes to a consumer commission or civil court instead. Most retail health claims fall well inside the cap."
+    },
+    {
+      "question": "My insurer rejected the claim saying I had a pre-existing disease I never knew about. Is that allowed?",
+      "answer": "A condition you had never been diagnosed with and had no reason to know about is difficult for an insurer to establish as a non-disclosed pre-existing disease, and the burden of proof sits with the insurer. A dated certificate from the treating doctor stating when the condition was first diagnosed is the most effective rebuttal. Separately, if your policy has completed 60 months of continuous coverage, the moratorium clause removes the non-disclosure ground entirely except in cases of established fraud."
+    },
+    {
+      "question": "The insurer paid only part of my bill. Is that a rejection I can escalate?",
+      "answer": "Short settlement is escalable through the same three-tier process. In practice most short settlements come from a room-rent sub-limit triggering a proportionate deduction across the whole bill, which is arithmetic you can check yourself before you complain — and certain heads such as medicines, implants and diagnostics should not be reduced that way."
+    },
+    {
+      "question": "How long does the whole process take?",
+      "answer": "Budget 15 days at the Grievance Redressal Officer stage, a further few weeks if you route through Bima Bharosa, and up to three months at the Ombudsman from the point all documents are in. Many disputes resolve at the first or second rung well before that."
+    }
+  ],
+  "sources": [
+    {
+      "title": "IRDAI Master Circular on Health Insurance Business (IRDAI/HLT/CIR/PRO/84/5/2024, 29 May 2024)",
+      "url": "https://irdai.gov.in/"
+    },
+    {
+      "title": "Insurance Ombudsman — IRDAI Policyholder Portal",
+      "url": "https://policyholder.gov.in/ombudsman"
+    },
+    {
+      "title": "Bima Bharosa Grievance Management System — IRDAI",
+      "url": "https://bimabharosa.irdai.gov.in/"
+    },
+    {
+      "title": "Insurance Ombudsman Rules, 2017 (as amended 2021)",
+      "url": "https://policyholder.gov.in/ombudsman"
+    }
+  ]
+}

@@ -14,9 +14,33 @@
 import fs from "fs";
 import path from "path";
 
+export interface FinanceTable {
+  caption?: string;
+  headers: string[];
+  rows: string[][];
+}
+
+/**
+ * A section is a heading plus one or more prose paragraphs. Everything after
+ * `body` is optional, so older articles that predate these fields render
+ * unchanged.
+ */
 export interface FinanceSection {
   heading: string;
+  /** Lead paragraph. Additional paragraphs go in `paragraphs`. */
   body: string;
+  paragraphs?: string[];
+  /** Rendered after the prose. `ordered` switches ol/ul. */
+  bullets?: string[];
+  ordered?: boolean;
+  table?: FinanceTable;
+  /** Pull-out box for the one thing a reader must not miss. */
+  callout?: { label: string; text: string };
+}
+
+export interface FinanceFAQ {
+  question: string;
+  answer: string;
 }
 
 export interface FinanceSource {
@@ -34,7 +58,11 @@ export interface FinanceArticle {
   category: string;
   tags: string[];
   readTime: string;
+  /** Optional summary box rendered above the body. */
+  keyTakeaways?: string[];
   sections: FinanceSection[];
+  /** Rendered as an accordion-free Q&A block and emitted as FAQPage schema. */
+  faq?: FinanceFAQ[];
   sources: FinanceSource[];
 }
 

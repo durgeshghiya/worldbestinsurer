@@ -1,0 +1,174 @@
+{
+  "slug": "cashless-vs-reimbursement-claim-india-timelines",
+  "title": "Cashless or Reimbursement? The Timelines Your Insurer Is Actually Bound By",
+  "excerpt": "Since May 2024 an Indian health insurer has one hour to approve a cashless request and three hours to clear your discharge. Reimbursement runs on a different and much slower clock. Knowing which one applies — and what happens when it is missed — is the difference between waiting and being paid.",
+  "publishedAt": "2026-08-30",
+  "lastUpdated": "2026-08-30",
+  "author": "WBI Editorial Team",
+  "category": "Claims",
+  "tags": [
+    "Claims",
+    "IRDAI",
+    "Cashless",
+    "India",
+    "TPA"
+  ],
+  "readTime": "10 min",
+  "keyTakeaways": [
+    "Cashless pre-authorisation must be issued within one hour of a complete request from the hospital.",
+    "Final discharge authorisation must come within three hours. Costs arising from a delay beyond that are the insurer's to bear, not yours.",
+    "Reimbursement runs on a 30-day decision clock from the last necessary document, with interest payable at bank rate plus 2 per cent when the insurer is late.",
+    "'Cashless Everywhere' extends cashless treatment to non-network hospitals — but it is an industry council commitment, not a statutory IRDAI mandate, so enforceability is weaker.",
+    "Whichever route you take, the document that decides the claim is the discharge summary. Read it before you leave the hospital."
+  ],
+  "sections": [
+    {
+      "heading": "The short answer",
+      "body": "Cashless means the insurer settles directly with the hospital and you walk out having paid only what is not covered. Reimbursement means you pay the hospital in full and claim the money back afterwards. Both are valid routes to the same policy benefit, but they run on entirely different clocks, and the gap between them is measured in weeks.",
+      "paragraphs": [
+        "The May 2024 IRDAI Master Circular on Health Insurance Business put hard limits on the cashless clock for the first time. Those limits are the most useful thing a policyholder in a hospital corridor can know, because they convert an open-ended wait into a deadline you can point at."
+      ]
+    },
+    {
+      "heading": "The two clocks, side by side",
+      "body": "The asymmetry here is the whole point. Cashless is fast because the insurer is deciding while you are still in the bed; reimbursement is slow because the money has already left your account and the urgency is entirely yours.",
+      "table": {
+        "headers": [
+          "",
+          "Cashless",
+          "Reimbursement"
+        ],
+        "rows": [
+          [
+            "Who pays the hospital",
+            "The insurer, directly",
+            "You, in full, at discharge"
+          ],
+          [
+            "Initial authorisation",
+            "Within 1 hour of a complete request",
+            "Not applicable"
+          ],
+          [
+            "Final discharge clearance",
+            "Within 3 hours",
+            "Not applicable"
+          ],
+          [
+            "Decision on the claim",
+            "At authorisation",
+            "Within 30 days of the last necessary document"
+          ],
+          [
+            "If the insurer is late",
+            "Costs of the delay fall on the insurer",
+            "Interest payable at bank rate plus 2 per cent"
+          ],
+          [
+            "Money out of your pocket",
+            "Only exclusions and deductions",
+            "The entire bill, for weeks"
+          ],
+          [
+            "Where it can go wrong",
+            "Hospital is out of network, or the request is incomplete",
+            "A missing document restarts the wait"
+          ]
+        ]
+      },
+      "callout": {
+        "label": "The three-hour rule",
+        "text": "If you are medically cleared and stuck waiting for the TPA to sign off the final bill, the three-hour clock is what you cite. Costs arising because the insurer ran past it are the insurer's to absorb."
+      }
+    },
+    {
+      "heading": "Making cashless work: the request has to be complete",
+      "body": "The one-hour clock starts when the insurer receives a complete pre-authorisation request, not when the hospital first sends something. In practice most delays blamed on the insurer begin as an incomplete form sitting in a hospital insurance desk. The single most effective thing a family member can do is to shorten that gap.",
+      "bullets": [
+        "Give the hospital your policy number and health card at admission, not after the procedure is scheduled.",
+        "Ask the insurance desk to confirm, in writing or by message, the exact time the pre-authorisation request was transmitted. That timestamp is what the one-hour clock runs from.",
+        "Check that the treating doctor's line of treatment and provisional diagnosis are filled in. A blank clinical section is the most common reason a request comes back as incomplete.",
+        "For a planned procedure, start 48 to 72 hours ahead. There is no reason to do this at the admission counter.",
+        "Keep the TPA's reference number. Every follow-up call is faster with it and unproductive without it."
+      ],
+      "paragraphs": [
+        "If the hospital is unwilling to give you the transmission timestamp, that itself is informative. It usually means the request has not gone yet."
+      ]
+    },
+    {
+      "heading": "Cashless Everywhere, and its honest limits",
+      "body": "The General Insurance Council launched 'Cashless Everywhere' in January 2024 so that policyholders could obtain cashless treatment at hospitals outside their insurer's network. The conditions are specific: intimate the insurer at least 48 hours before a planned admission, or within 48 hours of an emergency admission, and the hospital must have at least 15 beds and be registered under the Clinical Establishments Act.",
+      "paragraphs": [
+        "There is a caveat worth being clear about, because it is rarely stated. Cashless Everywhere is a commitment by the industry council and its member insurers rather than an independent statutory directive from IRDAI. That distinction matters when it fails: a breach of the 2024 Master Circular's one-hour and three-hour rules is a regulatory matter you can escalate on that basis, while a refusal under Cashless Everywhere is closer to a service failure. It is still worth invoking, and it works often enough to ask for. Just do not build a hospital admission plan on the assumption that it is guaranteed.",
+        "The practical implication is unchanged: if the treatment is planned and the hospital is in your insurer's network, use the network. Network cashless is the route with the firmest regulatory backing behind it."
+      ]
+    },
+    {
+      "heading": "When reimbursement is the only option",
+      "body": "Emergencies at non-network hospitals, treatment abroad, and admissions where cashless was denied all end up here. The route is slower but it is not weaker — a reimbursement claim carries exactly the same contractual entitlement, and it is decided on documents rather than on a phone call.",
+      "bullets": [
+        "Intimate the insurer as early as you can, even before you have the paperwork. Intimation and submission are two different steps.",
+        "Collect the originals before you leave: itemised final bill, payment receipts, discharge summary, all investigation reports, and the pharmacy invoices with prescriptions attached.",
+        "Read the discharge summary before you leave the hospital. It is the document the claim turns on, and a stray line about a long-standing condition is what generates a pre-existing disease rejection months later. If it misstates your history, ask for a correction while you are still there.",
+        "Submit everything at once. The 30-day clock runs from the last necessary document, so a piecemeal submission simply resets your own wait.",
+        "Keep a copy of every page you hand over, and get an acknowledgement with a date."
+      ],
+      "callout": {
+        "label": "Interest is payable",
+        "text": "Where the insurer misses the settlement timeline, interest at bank rate plus 2 per cent is due from the date of intimation to the date of payment. It is rarely paid unless asked for. Ask for it in writing."
+      }
+    },
+    {
+      "heading": "What a denial at the pre-authorisation stage does not mean",
+      "body": "A rejected cashless request is not a rejected claim. It is common for an insurer to decline cashless because the diagnosis needs review, the hospital is outside the network, or the documentation submitted at admission was thin — and then to settle the same episode on reimbursement once the full file is in front of it.",
+      "paragraphs": [
+        "So when cashless is refused mid-admission, the correct move is to switch tracks rather than to argue. Pay the hospital, take every original document with you, and file for reimbursement. Note the reason given for the cashless denial and keep it, because if the reimbursement claim is later rejected on a different ground, the inconsistency is a point in your favour.",
+        "If the reimbursement claim is then rejected outright, the three-tier grievance route opens: the insurer's Grievance Redressal Officer with 15 days to respond, IRDAI's Bima Bharosa portal, and finally the Insurance Ombudsman, whose award binds the insurer for disputes up to Rs 50 lakh."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How long can an insurer take to approve a cashless request?",
+      "answer": "One hour from receipt of a complete pre-authorisation request from the hospital, under the IRDAI Master Circular on Health Insurance Business dated 29 May 2024. Final authorisation at discharge must be granted within three hours."
+    },
+    {
+      "question": "What happens if the insurer misses the three-hour discharge deadline?",
+      "answer": "Additional costs arising from the delay are to be borne by the insurer rather than by the patient. Record the times: when the hospital sent the final bill and when authorisation actually arrived."
+    },
+    {
+      "question": "Can I claim reimbursement if cashless was denied?",
+      "answer": "Yes. A cashless denial is a decision about the payment route at that moment, not a final decision on the claim. Pay the hospital, collect all original documents, and file a reimbursement claim with the full file."
+    },
+    {
+      "question": "Does Cashless Everywhere mean any hospital must offer cashless?",
+      "answer": "Not quite. It is a General Insurance Council initiative under which member insurers extend cashless to non-network hospitals, subject to prior intimation of 48 hours for planned admissions or within 48 hours for emergencies, and to the hospital having at least 15 beds and Clinical Establishments Act registration. It is an industry commitment rather than a standalone statutory mandate, so it is worth invoking but not worth relying on absolutely."
+    },
+    {
+      "question": "How long does a reimbursement claim take?",
+      "answer": "The insurer must decide within 30 days of receiving the last necessary document. Submitting an incomplete file is what stretches this in practice, because the clock effectively restarts when the outstanding document finally arrives."
+    },
+    {
+      "question": "Is the discharge summary really that important?",
+      "answer": "It is the single most consequential document in the file. Insurers read it for the duration and history of the condition, and a line describing a symptom as long-standing is the usual origin of a pre-existing disease rejection. Read it at the hospital and ask for a correction there if it is inaccurate."
+    }
+  ],
+  "sources": [
+    {
+      "title": "IRDAI Master Circular on Health Insurance Business (IRDAI/HLT/CIR/PRO/84/5/2024, 29 May 2024)",
+      "url": "https://irdai.gov.in/"
+    },
+    {
+      "title": "General Insurance Council — Launch of 'Cashless Everywhere'",
+      "url": "https://www.gicouncil.in/news-media/events/press-release-launch-of-cashless-everywhere/"
+    },
+    {
+      "title": "Bima Bharosa Grievance Management System — IRDAI",
+      "url": "https://bimabharosa.irdai.gov.in/"
+    },
+    {
+      "title": "Insurance Ombudsman — IRDAI Policyholder Portal",
+      "url": "https://policyholder.gov.in/ombudsman"
+    }
+  ]
+}

@@ -186,6 +186,9 @@ export default function Header() {
             <Link href="/learn" className="px-3 py-1.5 text-[13px] font-medium text-text-secondary hover:text-text-primary hover:bg-surface-sunken rounded-lg transition-all">
               Learn
             </Link>
+            <Link href="/finance" className="px-3 py-1.5 text-[13px] font-medium text-text-secondary hover:text-text-primary hover:bg-surface-sunken rounded-lg transition-all">
+              Finance
+            </Link>
             <Link href="/insights" className="px-3 py-1.5 text-[13px] font-medium text-text-secondary hover:text-text-primary hover:bg-surface-sunken rounded-lg transition-all">
               Insights
             </Link>
@@ -273,6 +276,7 @@ export default function Header() {
                 { name: "Insurers", href: "/insurers" },
                 { name: "Contact Directory", href: "/contact-directory" },
                 { name: "Learn", href: "/learn" },
+                { name: "Finance", href: "/finance" },
                 { name: "Insights", href: "/insights" },
                 { name: "About", href: "/about" },
                 { name: "Contact", href: "/contact" },

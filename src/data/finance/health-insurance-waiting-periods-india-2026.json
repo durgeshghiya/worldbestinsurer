@@ -1,0 +1,154 @@
+{
+  "slug": "health-insurance-waiting-periods-india-2026",
+  "title": "Every Health Insurance Waiting Period in India, and the Date Each One Ends",
+  "excerpt": "Four separate clocks run on an Indian health policy at once — 30 days, 24 months, 36 months and 60 months — and they measure different things. Most claim disputes in the first few years come down to someone counting from the wrong start date.",
+  "publishedAt": "2026-08-30",
+  "lastUpdated": "2026-08-30",
+  "author": "WBI Editorial Team",
+  "category": "Policy Basics",
+  "tags": [
+    "Health Insurance",
+    "IRDAI",
+    "Waiting Period",
+    "India",
+    "Portability"
+  ],
+  "readTime": "9 min",
+  "keyTakeaways": [
+    "IRDAI capped the pre-existing disease waiting period at 36 months from 1 April 2024, down from 48.",
+    "The 30-day initial waiting period does not apply to accidents. Hospitalisation from an accident is covered from day one.",
+    "Specific listed conditions such as cataract, hernia and joint replacement usually carry their own 24-month clock, separate from the PED clock.",
+    "At 60 months of continuous coverage the moratorium bites: the insurer can no longer contest the policy or a claim for non-disclosure, except for established fraud.",
+    "Porting a policy carries your served waiting periods with you. Buying a fresh policy from a new insurer throws them away."
+  ],
+  "sections": [
+    {
+      "heading": "The short answer",
+      "body": "A health insurance policy in India does not switch on all at once. Different categories of illness become claimable at different points, and the four clocks run in parallel rather than in sequence. A claim inside the first year is not automatically invalid, and a claim after four years is not automatically safe — what matters is which clock governs the specific condition being treated.",
+      "paragraphs": [
+        "The rules tightened in the consumer's favour in 2024. The maximum pre-existing disease waiting period came down from 48 months to 36, and the moratorium after which an insurer loses the right to contest a policy came down from 96 months to 60. Anyone working from pre-2024 assumptions is being more pessimistic than the current rules require."
+      ]
+    },
+    {
+      "heading": "The four clocks",
+      "body": "Each of these begins on the date the policy commenced, and each is measured in continuous coverage — a lapse resets the count. They are not alternatives; a single condition can sit under more than one of them, in which case the longest applicable period governs.",
+      "table": {
+        "headers": [
+          "Clock",
+          "Length",
+          "What it covers",
+          "Key exception"
+        ],
+        "rows": [
+          [
+            "Initial waiting period",
+            "30 days",
+            "All illness-related hospitalisation at the very start of a fresh policy",
+            "Accidents are covered from day one"
+          ],
+          [
+            "Specific disease or procedure",
+            "Typically 24 months",
+            "A named list — commonly cataract, hernia, piles, kidney stones, joint replacement",
+            "The list is policy-specific; read your own schedule"
+          ],
+          [
+            "Pre-existing disease",
+            "Up to 36 months",
+            "Conditions you had, or were diagnosed with, before the policy began",
+            "Capped at 36 months since 1 April 2024; many plans set it shorter"
+          ],
+          [
+            "Moratorium",
+            "60 months",
+            "Not a waiting period — the point after which the insurer cannot contest for non-disclosure",
+            "Established fraud and written permanent exclusions survive it"
+          ]
+        ],
+        "caption": "Maternity benefit, where offered, runs on its own separate clock — commonly nine months to four years depending on the plan."
+      }
+    },
+    {
+      "heading": "What actually counts as pre-existing",
+      "body": "This is where most disputes originate, and the definition is narrower than insurers' claim letters often imply. A pre-existing disease is a condition, ailment or injury that was diagnosed by a physician, or for which medical advice or treatment was received, before the policy commenced. The operative words are diagnosed, advised, or treated.",
+      "paragraphs": [
+        "A condition you had but that had never been diagnosed and for which you had never sought advice does not sit comfortably inside that definition, and the burden of establishing otherwise rests on the insurer. In practice insurers infer prior knowledge from a line in a hospital record — a history section noting that a symptom had been present for some years. A dated certificate from the treating doctor stating when the condition was first diagnosed is the document that rebuts the inference, and it is far easier to obtain while the patient is still under that doctor's care.",
+        "Disclose everything at proposal stage regardless. A disclosed pre-existing condition costs you a waiting period, which is finite and knowable. An undisclosed one gives the insurer a repudiation ground for the next five years, which is a far worse trade."
+      ],
+      "callout": {
+        "label": "Count from the right date",
+        "text": "The clock runs from the commencement of continuous coverage, not from your most recent renewal. Insurers occasionally recount from the wrong policy year after a renewal or a port. Check the dates yourself against your first policy schedule."
+      }
+    },
+    {
+      "heading": "The 60-month moratorium, and why it is not a waiting period",
+      "body": "The moratorium is frequently listed alongside waiting periods and it is a different kind of thing entirely. A waiting period governs when a condition becomes claimable. The moratorium governs when the insurer loses the ability to reopen the question of what you told it at the outset.",
+      "paragraphs": [
+        "Under the IRDAI (Insurance Products) Regulations, 2024, once a health policy has completed 60 months of continuous coverage, neither the policy nor a claim under it can be contested on grounds of non-disclosure or misrepresentation. The exceptions are established fraud and the permanent exclusions written into the policy schedule. IRDAI reduced this from 96 months by its circular of 29 May 2024.",
+        "It carries forward on portability and migration, which is the detail most people miss. Five years of unbroken cover across two insurers still completes the moratorium; the credit belongs to the coverage history, not to the current insurer. And because it is measured in continuous coverage, a single lapsed renewal restarts it — which makes an unpaid premium in year four an expensive administrative slip."
+      ]
+    },
+    {
+      "heading": "Portability: the credit you are probably throwing away",
+      "body": "If you have served three years of a pre-existing disease waiting period with one insurer and then buy a fresh policy from another because the premium looked better, you start again at zero. Porting the existing policy instead carries the served waiting periods across.",
+      "bullets": [
+        "Apply to the new insurer at least 30 days before your renewal date. Leaving it to the last week is the usual reason a port fails.",
+        "Waiting-period credit transfers up to the sum insured you already held. The increment on a higher sum insured may carry a fresh waiting period on the increased portion.",
+        "Your accumulated no-claim bonus is generally portable too, though the mechanics differ by insurer.",
+        "The new insurer can underwrite you afresh and may decline or load the premium. Do not cancel the existing policy until the port is confirmed in writing.",
+        "Moratorium months travel with you, so a port does not reset the five-year non-contestability clock."
+      ],
+      "paragraphs": [
+        "The arithmetic is worth doing explicitly. A premium saving of a few thousand rupees a year is a poor trade for resetting a 36-month pre-existing disease clock, and that is the trade most people make without realising they are making it."
+      ]
+    },
+    {
+      "heading": "Buying now versus buying later",
+      "body": "Because every clock runs on elapsed continuous coverage rather than on age or on claims, the cost of delay is not measured in premium. It is measured in the years of exposure you accept before the policy becomes fully useful for exactly the conditions most likely to affect you later.",
+      "paragraphs": [
+        "This is also why the 2024 removal of the maximum entry age for health insurance matters less than it appears. Being able to buy at any age is a genuine improvement, but somebody buying their first policy at seventy still has 36 months of pre-existing disease exposure and 60 months to the moratorium ahead of them. The clocks do not shorten with urgency.",
+        "The practical conclusion is unglamorous: the cheapest year to start a health policy is always the current one, and the most valuable feature of an existing policy is usually not its benefit list but the number of months it has already run."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the maximum waiting period for pre-existing diseases in India?",
+      "answer": "36 months of continuous coverage. IRDAI reduced the cap from 48 months with effect from 1 April 2024, and individual plans may offer shorter periods than the cap."
+    },
+    {
+      "question": "Am I covered for an accident during the 30-day initial waiting period?",
+      "answer": "Yes. The 30-day initial waiting period applies to illness-related hospitalisation. Hospitalisation arising from an accident is covered from the first day of the policy."
+    },
+    {
+      "question": "Does the waiting period restart when I renew my policy?",
+      "answer": "No, provided the renewal is continuous. The clocks run on unbroken coverage from the original commencement date. A lapse in cover, however, does reset them — which is why paying within the grace period matters more than it seems."
+    },
+    {
+      "question": "Do waiting periods transfer if I change insurers?",
+      "answer": "They do if you port the policy, up to the sum insured you already held. If you simply buy a new policy from another insurer instead of porting, you start all waiting periods again from zero."
+    },
+    {
+      "question": "What is the difference between a waiting period and the moratorium?",
+      "answer": "A waiting period determines when a particular condition becomes claimable. The moratorium determines when the insurer loses the right to contest the policy or a claim on grounds of non-disclosure or misrepresentation, which happens after 60 months of continuous coverage, subject to established fraud and permanent exclusions."
+    },
+    {
+      "question": "Can an insurer add a waiting period at renewal?",
+      "answer": "Waiting periods and exclusions must be disclosed at issuance and appear in your policy schedule. A restriction that surfaces for the first time at claim stage, having never appeared in the schedule, is a point to raise with the insurer's Grievance Redressal Officer."
+    }
+  ],
+  "sources": [
+    {
+      "title": "IRDAI (Insurance Products) Regulations, 2024",
+      "url": "https://irdai.gov.in/"
+    },
+    {
+      "title": "IRDAI Master Circular on Health Insurance Business (IRDAI/HLT/CIR/PRO/84/5/2024, 29 May 2024)",
+      "url": "https://irdai.gov.in/"
+    },
+    {
+      "title": "Health Insurance Portability — IRDAI Policyholder Portal",
+      "url": "https://policyholder.gov.in/"
+    }
+  ]
+}

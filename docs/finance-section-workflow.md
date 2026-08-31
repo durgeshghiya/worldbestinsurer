@@ -43,8 +43,34 @@ omitted.
 | `category`     |    ✓     | Tax Planning, Monetary Policy, Investments, etc.     |
 | `tags`         |    ✓     | 3–6 short tags; show as chips on the article page.   |
 | `readTime`     |    ✓     | Human-readable — `"7 min"` is the convention.        |
-| `sections[]`   |    ✓     | Each = `{ heading, body }`. 6–10 sections ideal.     |
+| `sections[]`   |    ✓     | Each needs `heading` + `body`. 6–10 sections ideal.  |
+| `keyTakeaways` |          | 4–6 one-line facts. Renders as a summary box on top. |
+| `faq[]`        |          | Each = `{ question, answer }`. Emits `FAQPage` schema.|
 | `sources[]`    |    ✓     | Each = `{ title, url }`. Primary sources only.       |
+
+### Optional structure inside a section
+
+`heading` and `body` are the only required keys. Everything below is
+optional and was added in August 2026 so an article can carry structure
+instead of running as an unbroken column of paragraphs. Older articles
+that omit them render exactly as before.
+
+| Key           | Shape                              | Use it for                      |
+| ------------- | ---------------------------------- | ------------------------------- |
+| `paragraphs`  | `string[]`                         | Further paragraphs after `body`. |
+| `bullets`     | `string[]`                         | Checklists, steps, conditions.  |
+| `ordered`     | `boolean`                          | Numbers the bullets instead of dotting them. |
+| `table`       | `{ caption?, headers[], rows[][] }`| Anything comparative or numeric. Scrolls horizontally on mobile. |
+| `callout`     | `{ label, text }`                  | The one thing a reader must not miss. |
+
+Reach for a table whenever the answer is comparative — limits by tier,
+deadlines by claim type, a worked bill broken down by line. A table is
+also the part of a page most likely to be pulled into a featured snippet,
+which is the realistic route to a first click on a new page.
+
+**Check the arithmetic in any worked example before publishing.** If a
+table contains derived numbers, compute them in a script rather than by
+hand; a wrong number in a table is worse than no table.
 
 ## Weekly cadence
 

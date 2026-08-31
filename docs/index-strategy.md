@@ -107,6 +107,57 @@ all. Fixed in the same commit as this document.
    the next cut is to a curated subset (flagship plans, high-confidence
    records, primary markets) rather than the whole catalog.
 
+## Step two: content that can actually win a click (Aug 2026)
+
+Contraction removed the pages that were dragging. It could not, by itself,
+create a reason to click. Search Console for the 90 days to 30 Aug 2026
+made the gap explicit — the top ten queries by impressions were **all
+navigational brand terms with zero clicks**:
+
+| Query | Impressions | Avg position |
+| --- | ---: | ---: |
+| wpa health insurance | 273 | 60.6 |
+| staysure insurance | 240 | 20.2 |
+| desjardins auto insurance | 235 | 63.5 |
+| auto insurance geico | 185 | **8.0** |
+| allianz car insurance | 183 | 12.1 |
+| manulife term life insurance | 167 | 46.7 |
+| suncorp car insurance | 159 | 11.2 |
+
+`auto insurance geico` is the one that settles the argument. We rank at
+position **8** — page one — on 185 impressions, and take **zero** clicks.
+The ranking page is `/us/product/geico-auto/`. The searcher typed a company
+name because they want geico.com; no comparison page wins that click at any
+position. The entire impression base is traffic we can never convert.
+
+So the target has to change from insurer names to **questions with answers**.
+The first cluster covers the Indian health claim lifecycle, chosen because
+the questions have definite, checkable answers in IRDAI regulation, the
+searcher explicitly wants a third party rather than their insurer, and the
+2024 rule changes mean much of what ranks today is out of date:
+
+| Page | Targets |
+| --- | --- |
+| `/finance/health-insurance-claim-rejected-india-what-to-do` | The GRO → Bima Bharosa → Ombudsman ladder, with statutory deadlines |
+| `/finance/room-rent-limit-proportionate-deduction-health-insurance` | Worked line-by-line arithmetic; which heads may not be scaled |
+| `/finance/health-insurance-waiting-periods-india-2026` | The four clocks, post-2024 limits, portability credit |
+| `/finance/cashless-vs-reimbursement-claim-india-timelines` | The 1-hour / 3-hour rules and what a breach entitles you to |
+
+These four interlink, cite primary regulation, and each one answers a
+question a person types intending to *read* rather than to navigate. That
+is the test from rule 2 below, applied deliberately for the first time.
+
+Two supporting changes shipped with them. The `FinanceArticle` schema gained
+optional `keyTakeaways`, `paragraphs`, `bullets`, `table`, `callout` and
+`faq` fields, so an article can carry structure instead of a wall of
+paragraphs — and `faq` also emits `FAQPage` structured data. Separately,
+**`/finance` was not linked from the header or footer at all**; the section
+was reachable only through the sitemap. It is now in both.
+
+Do not read early impression movement on these as success. The metric is
+clicks, and four pages against a 1,530-page index will take weeks to show
+anything.
+
 ## Expected behaviour after deploy
 
 Search Console will report a large rise in "Excluded by 'noindex' tag" and
