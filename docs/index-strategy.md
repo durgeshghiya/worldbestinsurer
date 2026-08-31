@@ -147,6 +147,34 @@ These four interlink, cite primary regulation, and each one answers a
 question a person types intending to *read* rather than to navigate. That
 is the test from rule 2 below, applied deliberately for the first time.
 
+A second batch followed the same day, extending the approach into the two
+other markets where the site already has impressions. UK first, because
+`wpa health insurance` and `staysure insurance` are the two largest
+impression sources on the whole domain — the brand queries are unwinnable,
+but the topical association with UK health and travel cover is real and
+worth building on. US second, because it is the highest-CPC health
+vertical and the product catalogue already covers it.
+
+| Page | Market | Targets |
+| --- | --- | --- |
+| `/finance/deductible-copay-coinsurance-out-of-pocket-maximum-explained` | US | One year of bills run through all four cost-sharing mechanisms |
+| `/finance/hmo-ppo-epo-pos-health-plan-networks-compared` | US | Referrals and out-of-network cover as a two-by-two |
+| `/finance/hsa-vs-fsa-vs-hra-2026-2027-limits` | US | Ownership, portability, and both years' IRS limits |
+| `/finance/uk-private-medical-insurance-underwriting-moratorium-vs-full` | UK | Moratorium vs FMU, and the CPME transfer |
+| `/finance/uk-travel-insurance-pre-existing-conditions-declaring` | UK | Medical screening and the FCA signposting threshold |
+| `/finance/health-insurance-portability-india-guide` | IN | The 30-day window and what transfers |
+| `/finance/no-claim-bonus-health-insurance-india` | IN | What one claim costs against what it recovers |
+
+Two of these carry figures published *after* the authoring model's
+training cutoff — IRS Rev. Proc. 2026-24 (29 May 2026) and the FCA's rise
+of the travel signposting threshold from £100 to £200 on 1 January 2026.
+Currency is a genuine ranking advantage on this kind of query, and it is
+worth re-checking both every year rather than letting the pages go stale.
+
+**Every worked example is computed in a script before publishing, never
+estimated.** A wrong number in a table is worse than no table, and these
+pages are being published specifically on a claim to accuracy.
+
 Two supporting changes shipped with them. The `FinanceArticle` schema gained
 optional `keyTakeaways`, `paragraphs`, `bullets`, `table`, `callout` and
 `faq` fields, so an article can carry structure instead of a wall of
