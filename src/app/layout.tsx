@@ -86,6 +86,11 @@ export const metadata: Metadata = {
   },
   other: {
     "theme-color": "#6366f1",
+    // AdSense site verification. The ad script itself is injected lazily further
+    // down for Core Web Vitals, which leaves nothing for a reviewer to find in the
+    // markup — this tag is Google's own alternative verification method and closes
+    // that gap without costing a request.
+    "google-adsense-account": "ca-pub-4984848270074853",
   },
 };
 

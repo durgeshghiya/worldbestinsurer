@@ -5,33 +5,11 @@ import { ArrowLeft, Calendar, Clock, User} from "lucide-react";
 import { BreadcrumbSchema } from "@/components/StructuredData";
 import { AdSlot } from "@/components/AdSlot";
 
-// Load all reports
-import healthIndiaReport from "@/data/reports/health-insurance-india-2026.json";
-import motorIndiaReport from "@/data/reports/motor-insurance-india-2026.json";
-import healthUsReport from "@/data/reports/health-insurance-us-2026.json";
-import travelGlobalReport from "@/data/reports/travel-insurance-global-2026.json";
+import { getAllReports, getReportBySlug } from "@/lib/reports";
 
-interface ReportSection {
-  heading: string;
-  body: string;
-}
-
-interface Report {
-  slug: string;
-  title: string;
-  subtitle: string;
-  publishedAt: string;
-  author: string;
-  category: string;
-  country: string;
-  readTime: string;
-  sections: ReportSection[];
-}
-
-const reports: Report[] = [healthIndiaReport, motorIndiaReport, healthUsReport, travelGlobalReport];
 
 export async function generateStaticParams() {
-  return reports.map((r) => ({ slug: r.slug }));
+  return getAllReports().map((r) => ({ slug: r.slug }));
 }
 
 export async function generateMetadata({
@@ -40,7 +18,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const report = reports.find((r) => r.slug === slug);
+  const report = getReportBySlug(slug);
   if (!report) return {};
   return {
     title: `${report.title} — World Best Insurer Research`,
@@ -55,7 +33,7 @@ export default async function ReportPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const report = reports.find((r) => r.slug === slug);
+  const report = getReportBySlug(slug);
   if (!report) notFound();
 
   return (

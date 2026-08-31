@@ -1,8 +1,9 @@
 import type { MetadataRoute } from "next";
 import { getAllProducts, getAllInsurers } from "@/lib/data";
 import { VALID_COUNTRY_CODES } from "@/lib/countries";
-import { getArticles } from "@/lib/generators";
+import { getIndexableArticles } from "@/lib/generators";
 import { getAllFinanceArticles } from "@/lib/finance";
+import { getAllReports } from "@/lib/reports";
 
 const BASE = "https://worldbestinsurer.com";
 
@@ -91,7 +92,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   // ── Learn articles ──
-  const articles = getArticles();
+  const articles = getIndexableArticles();
   for (const article of articles) {
     entries.push({
       url: `${BASE}/learn/${article.slug}`,
@@ -134,12 +135,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "weekly",
     priority: 0.7,
   });
-  entries.push({
-    url: `${BASE}/reports/health-insurance-india-2026`,
-    lastModified: now,
-    changeFrequency: "monthly",
-    priority: 0.7,
-  });
+  for (const r of getAllReports()) {
+    entries.push({
+      url: `${BASE}/reports/${r.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    });
+  }
 
   // ── Author pages ──
   entries.push({

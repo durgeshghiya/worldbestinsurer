@@ -4,6 +4,8 @@ import Link from "next/link";
 import { ArrowLeft, BookOpen, Globe, Award, ChevronRight } from "lucide-react";
 import { BreadcrumbSchema } from "@/components/StructuredData";
 import { getArticles } from "@/lib/generators";
+import { getAllFinanceArticles } from "@/lib/finance";
+import { getAllReports } from "@/lib/reports";
 import authorData from "@/data/authors.json";
 
 interface Author {
@@ -13,7 +15,6 @@ interface Author {
   credentials: string;
   bio: string;
   expertise: string[];
-  articlesWritten: number;
   countriesCovered: number;
   linkedIn: string | null;
 }
@@ -48,6 +49,10 @@ export default async function AuthorPage({
   const author = authors.find((a) => a.slug === slug);
   if (!author) notFound();
 
+  // Derived from what is actually published rather than stored on the profile.
+  // These were previously hard-coded numbers that did not reconcile with the site.
+  const publishedCount =
+    getArticles().length + getAllFinanceArticles().length + getAllReports().length;
   const allArticles = getArticles().slice(0, 8);
 
   return (
@@ -103,8 +108,8 @@ export default async function AuthorPage({
       <div className="grid grid-cols-3 gap-4 mb-8">
         <div className="bg-surface rounded-xl border border-border p-4 text-center">
           <BookOpen className="w-4 h-4 text-text-tertiary mx-auto mb-1.5" />
-          <p className="text-[18px] font-bold text-text-primary">{author.articlesWritten}</p>
-          <p className="text-[10px] text-text-tertiary">Articles</p>
+          <p className="text-[18px] font-bold text-text-primary">{publishedCount}</p>
+          <p className="text-[10px] text-text-tertiary">Published pieces</p>
         </div>
         <div className="bg-surface rounded-xl border border-border p-4 text-center">
           <Globe className="w-4 h-4 text-text-tertiary mx-auto mb-1.5" />
@@ -113,8 +118,8 @@ export default async function AuthorPage({
         </div>
         <div className="bg-surface rounded-xl border border-border p-4 text-center">
           <Award className="w-4 h-4 text-text-tertiary mx-auto mb-1.5" />
-          <p className="text-[18px] font-bold text-text-primary">High</p>
-          <p className="text-[10px] text-text-tertiary">Confidence</p>
+          <p className="text-[18px] font-bold text-text-primary">0</p>
+          <p className="text-[10px] text-text-tertiary">Affiliate deals</p>
         </div>
       </div>
 
@@ -166,7 +171,7 @@ export default async function AuthorPage({
             href="/learn"
             className="text-[13px] text-primary font-medium hover:underline"
           >
-            View all {author.articlesWritten} articles →
+            View all {getArticles().length} guides →
           </Link>
         </div>
       </div>

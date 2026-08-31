@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, Clock, User, CalendarDays } from "lucide-react";
-import { getArticles, getArticleBySlug } from "@/lib/generators";
+import { getArticles, getArticleBySlug, isArticleIndexable } from "@/lib/generators";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/StructuredData";
 import { AdSlot } from "@/components/AdSlot";
 
@@ -18,6 +18,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: article.title,
     description: article.excerpt,
     alternates: { canonical: `https://worldbestinsurer.com/learn/${slug}` },
+    // Thin articles stay live and linkable but are withheld from search until
+    // they are expanded. See LEARN_INDEX_MIN_WORDS.
+    ...(isArticleIndexable(article)
+      ? {}
+      : { robots: { index: false, follow: true } }),
   };
 }
 

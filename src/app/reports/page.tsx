@@ -3,13 +3,7 @@ import Link from "next/link";
 import { FileText, ArrowRight, Calendar } from "lucide-react";
 import { BreadcrumbSchema } from "@/components/StructuredData";
 
-// Load all reports
-import healthIndiaReport from "@/data/reports/health-insurance-india-2026.json";
-import motorIndiaReport from "@/data/reports/motor-insurance-india-2026.json";
-import healthUsReport from "@/data/reports/health-insurance-us-2026.json";
-import travelGlobalReport from "@/data/reports/travel-insurance-global-2026.json";
-
-const reports = [healthIndiaReport, motorIndiaReport, healthUsReport, travelGlobalReport];
+import { getAllReports } from "@/lib/reports";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://worldbestinsurer.com/reports" },
@@ -19,6 +13,8 @@ export const metadata: Metadata = {
 };
 
 export default function ReportsIndexPage() {
+  const reports = getAllReports();
+
   return (
     <div className="mx-auto max-w-[800px] px-5 lg:px-8 py-10">
       <BreadcrumbSchema

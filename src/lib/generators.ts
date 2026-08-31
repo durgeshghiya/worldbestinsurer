@@ -181,8 +181,32 @@ export interface Article {
   content: string;
 }
 
+/**
+ * Minimum body length for a Learn article to be a candidate for search.
+ *
+ * 132 of the 134 articles sit between 85 and 304 words, with 130 of them
+ * clustered in a 200-299 band — a uniformity that reads as content produced to
+ * a length target rather than to answer a question. Short pages are not
+ * penalised as such, but at this length in a YMYL vertical they cannot win a
+ * click, and en masse they dilute the domain. They stay live and `follow`, so
+ * internal link equity still flows; they are simply not offered to search.
+ *
+ * Raise an article past this threshold and it re-enters the index and the
+ * sitemap automatically. Nothing else needs editing.
+ */
+export const LEARN_INDEX_MIN_WORDS = 500;
+
+export function isArticleIndexable(article: Article): boolean {
+  return article.content.trim().split(/\s+/).length >= LEARN_INDEX_MIN_WORDS;
+}
+
 export function getArticles(): Article[] {
   return articles;
+}
+
+/** Learn articles substantial enough to advertise to search engines. */
+export function getIndexableArticles(): Article[] {
+  return articles.filter(isArticleIndexable);
 }
 
 export function getArticleBySlug(slug: string): Article | undefined {

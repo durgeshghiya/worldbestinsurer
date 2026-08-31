@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://worldbestinsurer.com/privacy-policy" },
   title: "Privacy Policy — World Best Insurer",
   description:
-    "World Best Insurer's Privacy Policy. Learn how we collect, use, and protect your personal information in compliance with the DPDP Act 2023 and IT Act 2000.",
+    "How World Best Insurer collects, uses and protects your data — including advertising cookies served by Google AdSense, and your rights under the DPDP Act, GDPR and CCPA.",
 };
 
 export default function PrivacyPolicyPage() {
-  const lastUpdated = "13 April 2026";
+  const lastUpdated = "31 August 2026";
 
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-10">
@@ -62,7 +62,7 @@ export default function PrivacyPolicyPage() {
           </li>
           <li>
             <a href="#cookies" className="hover:underline">
-              5. Cookies and Tracking
+              5. Cookies, Tracking and Advertising
             </a>
           </li>
           <li>
@@ -78,6 +78,9 @@ export default function PrivacyPolicyPage() {
           <li>
             <a href="#children" className="hover:underline">
               8. Children&apos;s Privacy
+            </a>
+            <a href="#security" className="hover:underline">
+              9. Security
             </a>
           </li>
           <li>
@@ -230,8 +233,14 @@ export default function PrivacyPolicyPage() {
             </li>
           </ul>
           <p className="mt-4">
-            We do <strong>not</strong> use your data for targeted advertising,
-            profiling for insurance sales, or selling your data to third parties.
+            We do <strong>not</strong> sell your personal data, and we do not
+            profile you for insurance sales or share your details with insurers
+            or brokers. We do display advertising served by Google, which may be
+            personalised using cookies — see{" "}
+            <a href="#cookies" className="text-primary hover:underline">
+              section 5
+            </a>{" "}
+            for what that involves and how to turn it off.
           </p>
         </section>
 
@@ -269,7 +278,7 @@ export default function PrivacyPolicyPage() {
         {/* 5. Cookies */}
         <section id="cookies">
           <h2 className="text-xl font-bold text-text-primary mb-4">
-            5. Cookies and Tracking Technologies
+            5. Cookies, Tracking and Advertising
           </h2>
           <p className="mb-3">
             We use cookies and similar tracking technologies to enhance your
@@ -296,6 +305,67 @@ export default function PrivacyPolicyPage() {
                 website. We use tools like Google Analytics with IP
                 anonymisation enabled. You can opt out via your browser settings
                 or ad-opt-out tools.
+              </p>
+            </div>
+            <div className="p-4 bg-surface rounded-xl border border-border">
+              <p className="font-medium text-text-primary mb-1">
+                Advertising Cookies
+              </p>
+              <p className="mb-3">
+                This site displays advertising served by Google AdSense. Google
+                is a third-party vendor and uses cookies — including the
+                DoubleClick cookie — to serve ads based on your prior visits to
+                this and other websites. Third-party vendors and ad networks
+                that Google works with may also place and read cookies on your
+                device. We do not control those cookies and we do not receive
+                the personal data they collect.
+              </p>
+              <p className="mb-3">
+                You can turn off personalised advertising at{" "}
+                <a
+                  href="https://adssettings.google.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  Google Ads Settings
+                </a>
+                , opt out of a wider set of vendors at{" "}
+                <a
+                  href="https://optout.aboutads.info/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  aboutads.info
+                </a>{" "}
+                or, in Europe,{" "}
+                <a
+                  href="https://www.youronlinechoices.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  Your Online Choices
+                </a>
+                . Turning off personalisation does not remove ads; it makes them
+                less relevant. How Google uses data from sites that use its
+                services is described at{" "}
+                <a
+                  href="https://policies.google.com/technologies/partner-sites"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  policies.google.com/technologies/partner-sites
+                </a>
+                .
+              </p>
+              <p>
+                Visitors in the EEA, the UK and Switzerland are shown a consent
+                banner before any advertising or analytics cookie is set, and
+                nothing is stored until you choose. You can reopen that banner
+                at any time to change your answer.
               </p>
             </div>
           </div>
@@ -377,6 +447,44 @@ export default function PrivacyPolicyPage() {
               privacy@worldbestinsurer.com
             </a>
             . We will respond within 30 days.
+          </p>
+
+          <h3 className="text-base font-semibold text-text-primary mt-6 mb-2">
+            If you are in the EEA, the UK or Switzerland (GDPR)
+          </h3>
+          <p className="mb-3">
+            You additionally have the right to object to processing, the right
+            to restrict processing, and the right to data portability. Where we
+            rely on consent — which is the basis for all advertising and
+            analytics cookies in these regions — you may withdraw it at any time
+            without affecting the lawfulness of processing carried out
+            beforehand. Our other lawful bases are legitimate interests, for
+            site security and aggregate analytics, and contract, where you have
+            asked us to respond to you.
+          </p>
+          <p className="mb-3">
+            No advertising or analytics cookie is set in these regions until you
+            consent through the banner. You also have the right to lodge a
+            complaint with your national supervisory authority.
+          </p>
+
+          <h3 className="text-base font-semibold text-text-primary mt-6 mb-2">
+            If you are a California resident (CCPA/CPRA)
+          </h3>
+          <p>
+            You have the right to know what personal information is collected
+            and for what purpose, the right to delete it, the right to correct
+            it, and the right to opt out of its sale or sharing. We do not sell
+            personal information as that term is defined under the CCPA. Because
+            we serve personalised advertising, the use of advertising cookies
+            may constitute &quot;sharing&quot; for cross-context behavioural
+            advertising — you can opt out using the links in{" "}
+            <a href="#cookies" className="text-primary hover:underline">
+              section 5
+            </a>
+            , or by enabling a Global Privacy Control signal in your browser,
+            which we honour. We will not discriminate against you for exercising
+            any of these rights.
           </p>
         </section>
 
