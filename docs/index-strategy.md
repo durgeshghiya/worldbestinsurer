@@ -99,13 +99,16 @@ all. Fixed in the same commit as this document.
 2. **New indexable pages must answer a question someone actually types.**
    The test is not word count; it is whether a human would pick this
    result.
-3. **Do not resubmit to AdSense yet.** Give Google 6–8 weeks to drop the
-   de-indexed URLs and re-assess the domain, and only resubmit once
-   Search Console shows clicks — not impressions — moving.
-4. **Products are on probation.** 1,065 templated pages is still a lot
-   relative to the editorial base. If clicks have not moved in ~8 weeks,
-   the next cut is to a curated subset (flagship plans, high-confidence
-   records, primary markets) rather than the whole catalog.
+3. **Do not resubmit to AdSense yet.** The three blocking policy issues
+   found in the 31 Aug audit are fixed, but the composition problem is not.
+   Resubmit only after the product-page cut in rule 4 has landed and Search
+   Console shows "Crawled — currently not indexed" falling.
+4. **Products are no longer on probation — the cut is now the priority.**
+   At 93.1% of the index against 17 editorial pages, the catalog is the
+   composition problem. Cut to a curated subset: flagship plans, records
+   with a high confidence score and a recent `lastVerified`, primary
+   markets. Everything else goes `noindex, follow` and leaves the sitemap,
+   exactly as the VS pages did.
 
 ## Step two: content that can actually win a click (Aug 2026)
 
@@ -185,6 +188,50 @@ was reachable only through the sitemap. It is now in both.
 Do not read early impression movement on these as success. The metric is
 clicks, and four pages against a 1,530-page index will take weeks to show
 anything.
+
+## The AdSense audit, 31 Aug 2026 — and what it actually found
+
+A full pre-resubmission audit was run against AdSense program policy, Google's
+structured data policy, and Search Console. It found that the diagnosis in this
+document was incomplete. Two rejections had been read as a verdict on writing
+quality and answered with writing. The likelier reading is below.
+
+**The blocker was a policy violation, not a quality judgement.**
+`deriveRating()` in `StructuredData.tsx` computed a star rating from a scoring
+formula and generated the review count *from a hash of the product ID* —
+`12 + (hash % 88)`. That shipped as `AggregateRating` on all 1,065 product
+pages, asserting 12–99 genuine user reviews averaging up to 4.9. None existed,
+and the rating was never rendered to visitors, so the markup did not correspond
+to visible content either. Fabricated review markup is a listed cause of the
+"Spammy structured markup" manual action. Removed.
+
+Two more would each have justified a rejection on their own. The privacy policy
+stated *"We do not use your data for targeted advertising"* while the site ran
+AdSense with personalisation, and never named AdSense, DoubleClick, GDPR or
+CCPA. And the AdSense snippet existed only as a string inside the lazy loader —
+no static tag, no meta tag — so a reviewer could find no ad code at all. Both
+fixed.
+
+**Removing thin content made the ratio worse, and that is the real lesson.**
+132 of 134 Learn articles were under 300 words, 130 of them clustered in a
+200–299 band. They were de-indexed (`noindex, follow`, out of the sitemap,
+reversible by crossing `LEARN_INDEX_MIN_WORDS`). The effect on composition:
+
+| | Before | After |
+| --- | ---: | ---: |
+| Indexed URLs | 1,541 | 1,411 |
+| Templated share | 85.2% | **93.1%** |
+| Indexed editorial pages | 147 | 17 |
+| …of which substantial | 15 | **17 (all)** |
+
+Every indexed editorial page is now genuinely long-form. But the templated
+share went *up*, because a ratio cannot be fixed by shrinking its numerator.
+
+**This makes rule 4 the binding constraint, not an option.** 1,065 product
+pages against 17 editorial ones is the whole problem now, and no realistic
+volume of writing closes that gap — matching the product count would take years.
+The next structural move is cutting the catalog to a curated subset, and it
+should happen before the next resubmission rather than after another wait.
 
 ## Expected behaviour after deploy
 
