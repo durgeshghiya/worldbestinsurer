@@ -1,0 +1,143 @@
+{
+  "slug": "hmo-ppo-epo-pos-health-plan-networks-compared",
+  "title": "HMO, PPO, EPO, POS: What Each Network Type Actually Costs You in Freedom and Money",
+  "excerpt": "The four letters in front of a US health plan decide whether you need a referral, whether out-of-network care is covered at all, and how much you pay for the privilege of choosing your own doctor. The differences are simpler than the acronyms suggest.",
+  "publishedAt": "2026-08-31",
+  "lastUpdated": "2026-08-31",
+  "author": "WBI Editorial Team",
+  "category": "Policy Basics",
+  "tags": [
+    "Health Insurance",
+    "United States",
+    "Networks",
+    "HMO",
+    "PPO"
+  ],
+  "readTime": "8 min",
+  "keyTakeaways": [
+    "Two questions separate all four types: do you need a referral to see a specialist, and is out-of-network care covered at all?",
+    "HMO: referral required, essentially no out-of-network cover. Cheapest premiums, least freedom.",
+    "PPO: no referral, out-of-network covered at a worse rate. Most freedom, highest premiums.",
+    "EPO: no referral, but no out-of-network cover. A middle option that suits people who are happy inside a network.",
+    "POS: referral required, but out-of-network is covered. The mirror image of an EPO, and the rarest of the four."
+  ],
+  "sections": [
+    {
+      "heading": "The short answer",
+      "body": "All four plan types build a network of doctors and hospitals that have agreed discounted rates with the insurer. What separates them is only two things: whether you must go through a primary care physician to reach a specialist, and whether the plan pays anything at all when you go outside the network. Every other difference follows from those two answers.",
+      "paragraphs": [
+        "Once you see it as a two-by-two grid rather than four unrelated products, choosing becomes much easier — you are really deciding how much you value referral-free access and out-of-network coverage, and how much extra premium each is worth to you."
+      ]
+    },
+    {
+      "heading": "The grid",
+      "body": "Read this as the definition rather than as a generalisation. These are the structural features of each plan type, not tendencies.",
+      "table": {
+        "headers": [
+          "",
+          "Referral needed?",
+          "Out-of-network covered?",
+          "Typical premium",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "HMO",
+            "Yes",
+            "No, except emergencies",
+            "Lowest",
+            "Predictable needs, happy with a local network, want the lowest premium"
+          ],
+          [
+            "EPO",
+            "No",
+            "No, except emergencies",
+            "Low to moderate",
+            "Want specialist access without referrals but do not need to leave the network"
+          ],
+          [
+            "POS",
+            "Yes",
+            "Yes, at a higher cost share",
+            "Moderate",
+            "Want a coordinating GP but occasional out-of-network access"
+          ],
+          [
+            "PPO",
+            "No",
+            "Yes, at a higher cost share",
+            "Highest",
+            "Frequent travel, established specialists, or an out-of-area provider you will not give up"
+          ]
+        ],
+        "caption": "Emergency care is covered regardless of network on all four types under federal rules."
+      },
+      "callout": {
+        "label": "The expensive mistake",
+        "text": "On an HMO or EPO, out-of-network care is generally not covered at a worse rate — it is not covered at all. The bill is entirely yours, and it does not count toward your out-of-pocket maximum."
+      }
+    },
+    {
+      "heading": "What a referral requirement actually means day to day",
+      "body": "On an HMO or a POS plan you nominate a primary care physician, and that doctor is the gateway to specialist care. To see a dermatologist or an orthopaedist you first see your PCP, who issues a referral. Without it, the specialist visit is typically not covered even though the specialist is inside the network.",
+      "paragraphs": [
+        "This is administratively real rather than nominal. It adds an appointment and a delay to every specialist episode, and referrals frequently carry an expiry date or a visit count. For somebody managing a chronic condition with a standing specialist relationship, that friction is significant and recurring. For somebody who sees a specialist once every few years, it is a minor cost in exchange for a meaningfully lower premium.",
+        "The counter-argument for referrals is worth stating fairly. A coordinating physician who sees your whole record is a genuine clinical benefit, not merely a cost-control device, and it is the model most of the rest of the world uses."
+      ]
+    },
+    {
+      "heading": "What out-of-network coverage is worth",
+      "body": "On a PPO or POS plan, going outside the network does not void your coverage — it moves you to a second, worse set of terms. There is usually a separate and higher out-of-network deductible, a higher coinsurance rate, and a separate out-of-network out-of-pocket maximum that can be several times the in-network figure.",
+      "paragraphs": [
+        "There is also a subtler cost. Insurers reimburse out-of-network care against an internal 'allowed amount' rather than against what the provider actually charges, and you can be billed for the difference. So a plan paying 60% out-of-network is paying 60% of its own allowed amount, not 60% of the bill in front of you. On a large claim the effective share can be far below what the percentage implies.",
+        "The federal No Surprises Act removed much of this risk for emergency care and for out-of-network clinicians working inside in-network facilities — the anaesthetist you did not choose, for example. It does not protect you when you deliberately choose an out-of-network provider for planned care."
+      ]
+    },
+    {
+      "heading": "Choosing between them without guessing",
+      "body": "The decision is usually settled by a handful of specific facts about your own circumstances rather than by a general preference for flexibility.",
+      "bullets": [
+        "List the doctors you actually intend to keep. Check each one against the network directory of every plan you are considering, by name, before you enrol. This single step decides most cases.",
+        "Count your specialist visits in a typical year. If the answer is more than three or four, the referral overhead on an HMO or POS starts to matter.",
+        "Ask where you spend time. Someone splitting the year across states, or with a child at college elsewhere, is buying something real with a PPO.",
+        "Check the hospital, not just the physicians. An in-network doctor with admitting privileges only at an out-of-network hospital is a trap that surfaces at the worst moment.",
+        "Compare the out-of-pocket maximums, not the premiums. A PPO's freedom is worth little if its worst case is beyond what you could absorb."
+      ],
+      "paragraphs": [
+        "Network directories are frequently out of date, so confirm directly with the practice that they are in-network for the specific plan — not merely that they 'take' the insurer. Insurers run several networks of different sizes under the same brand, and being in one is no guarantee of being in another."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is emergency care covered if I go to an out-of-network hospital?",
+      "answer": "Yes. Federal rules require emergency care to be covered at in-network cost-sharing levels regardless of the plan type or the hospital's network status, and the No Surprises Act limits balance billing in those situations. This applies to HMOs and EPOs as well, despite their general lack of out-of-network coverage."
+    },
+    {
+      "question": "What is the practical difference between an EPO and a PPO?",
+      "answer": "Neither requires a referral to see a specialist. The difference is entirely about leaving the network: a PPO covers out-of-network care at a worse cost share, while an EPO generally does not cover it at all outside emergencies. An EPO is essentially a PPO with the out-of-network benefit removed, which is why it costs less."
+    },
+    {
+      "question": "Can I change my primary care physician on an HMO?",
+      "answer": "Yes, and usually at any time through the insurer's website or member services. The change typically takes effect at the start of the following month, so do not schedule a referral-dependent appointment in the gap."
+    },
+    {
+      "question": "Which plan type is cheapest?",
+      "answer": "HMOs generally carry the lowest premiums because the narrow network and the referral requirement give the insurer the most control over cost. But premium alone is the wrong comparison — a cheaper HMO whose network excludes your existing specialist may cost far more in practice than a PPO that includes them."
+    },
+    {
+      "question": "Do all four types exist in every market?",
+      "answer": "No. Availability varies considerably by state and by whether you are buying on the individual marketplace or through an employer. POS plans in particular have become uncommon, and some marketplaces are dominated almost entirely by HMOs and EPOs."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Health insurance plan and network types — HealthCare.gov",
+      "url": "https://www.healthcare.gov/choose-a-plan/plan-types/"
+    },
+    {
+      "title": "No Surprises Act — Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/nosurprises"
+    }
+  ]
+}

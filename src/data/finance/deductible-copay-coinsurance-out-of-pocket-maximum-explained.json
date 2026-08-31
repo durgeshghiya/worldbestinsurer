@@ -1,0 +1,234 @@
+{
+  "slug": "deductible-copay-coinsurance-out-of-pocket-maximum-explained",
+  "title": "Deductible, Copay, Coinsurance, Out-of-Pocket Maximum: One Year of Bills, Worked Through",
+  "excerpt": "Four numbers decide what a US health plan actually costs you, and they do not apply in the order most people assume. Here is a single year of real medical bills run through all four, dollar by dollar, so you can see exactly where each one takes over.",
+  "publishedAt": "2026-08-31",
+  "lastUpdated": "2026-08-31",
+  "author": "WBI Editorial Team",
+  "category": "Policy Basics",
+  "tags": [
+    "Health Insurance",
+    "United States",
+    "Cost Sharing",
+    "ACA"
+  ],
+  "readTime": "10 min",
+  "keyTakeaways": [
+    "The deductible is what you pay before the plan starts sharing costs. Copays often sit outside it and apply from day one.",
+    "Coinsurance is a percentage you keep paying after the deductible is met — it is not the end of your spending.",
+    "The out-of-pocket maximum is the number that actually caps your year. Once you hit it, covered in-network care costs you nothing more.",
+    "Premiums never count toward the out-of-pocket maximum, and neither does anything out-of-network on most plans.",
+    "For 2026 the ACA caps out-of-pocket maximums at $10,600 for an individual and $21,200 for a family."
+  ],
+  "sections": [
+    {
+      "heading": "The short answer",
+      "body": "A US health plan shares costs with you in four stages, and the confusion comes from the fact that they overlap rather than run one after another. Copays typically apply immediately. The deductible is what you pay in full before the plan contributes to most services. Coinsurance is the percentage split that kicks in after the deductible. And the out-of-pocket maximum is the hard ceiling that ends all of it for the year.",
+      "paragraphs": [
+        "Most plan comparisons focus on the premium and the deductible because those are the two numbers on the front of the brochure. Neither tells you what a bad year costs. The out-of-pocket maximum does, and it is the number to compare first when you are choosing between plans."
+      ]
+    },
+    {
+      "heading": "The four terms, precisely",
+      "body": "These are not interchangeable, and plans use them in combination. The distinction that trips people up most often is between a copay and coinsurance: one is a flat fee, the other is a percentage, and a plan will usually apply both to different services.",
+      "table": {
+        "headers": [
+          "Term",
+          "What it is",
+          "When it applies"
+        ],
+        "rows": [
+          [
+            "Premium",
+            "The monthly bill to keep the plan active",
+            "Every month, whether or not you use care. Never counts toward the out-of-pocket maximum."
+          ],
+          [
+            "Copay",
+            "A flat fee per visit or prescription — say $30 to see a GP",
+            "Usually from day one, often before the deductible is met. Counts toward the out-of-pocket maximum."
+          ],
+          [
+            "Deductible",
+            "What you pay in full before the plan starts sharing most costs",
+            "Resets every plan year. Preventive care and copay services are commonly carved out."
+          ],
+          [
+            "Coinsurance",
+            "Your percentage share after the deductible — commonly 20%",
+            "Continues until you hit the out-of-pocket maximum."
+          ],
+          [
+            "Out-of-pocket maximum",
+            "The annual ceiling on what you can be charged for covered in-network care",
+            "Once reached, the plan pays 100% of covered in-network care for the rest of the year."
+          ]
+        ]
+      },
+      "callout": {
+        "label": "The one people miss",
+        "text": "Hitting your deductible does not mean care becomes free. It means coinsurance starts. Free comes at the out-of-pocket maximum, which is usually two to three times higher."
+      }
+    },
+    {
+      "heading": "A year of care, dollar by dollar",
+      "body": "Take a plan with a $3,000 deductible, 20% coinsurance, a $30 primary-care copay, a $60 specialist copay, and a $9,200 out-of-pocket maximum. Now run a year through it: four GP visits, two specialist visits, a round of lab work billed at $800, an MRI billed at $2,500, and a surgery billed at $40,000.",
+      "table": {
+        "headers": [
+          "Event",
+          "Billed",
+          "How it is treated",
+          "You pay",
+          "Running total"
+        ],
+        "rows": [
+          [
+            "4 x primary care visit",
+            "$240",
+            "Copay, outside the deductible",
+            "$240",
+            "$240"
+          ],
+          [
+            "2 x specialist visit",
+            "included above",
+            "Copay, outside the deductible",
+            "included",
+            "$240"
+          ],
+          [
+            "Lab work",
+            "$800",
+            "Deductible — you pay in full",
+            "$800",
+            "$1,040"
+          ],
+          [
+            "MRI",
+            "$2,500",
+            "$2,200 finishes the deductible; the last $300 at 20%",
+            "$2,260",
+            "$3,300"
+          ],
+          [
+            "Surgery",
+            "$40,000",
+            "20% coinsurance would be $8,000, but only $5,900 of headroom remains",
+            "$5,900",
+            "$9,200"
+          ],
+          [
+            "Everything else that year",
+            "any amount",
+            "Out-of-pocket maximum reached",
+            "$0",
+            "$9,200"
+          ]
+        ],
+        "caption": "Total billed $43,540. You pay $9,200. The plan pays $34,340. Illustrative figures — check your own plan's Summary of Benefits and Coverage."
+      },
+      "paragraphs": [
+        "Two things are worth pulling out of that table. First, the surgery is where the plan finally does the heavy lifting — the coinsurance would have been $8,000, but the out-of-pocket maximum cut it to $5,900 and absorbed the rest. Second, once the ceiling was reached in that one admission, the remainder of the year cost nothing. Somebody with a chronic condition or a scheduled procedure often hits the maximum early and then has a year of effectively free covered care, which is precisely the opposite of the intuition that a high-deductible year is a uniformly expensive one."
+      ]
+    },
+    {
+      "heading": "What does not count toward the ceiling",
+      "body": "The out-of-pocket maximum is a real cap, but it is a cap on a specific category of spending, and the exclusions are where people get an unpleasant surprise in December.",
+      "bullets": [
+        "Premiums. You keep paying them all year regardless, and they never move you closer to the ceiling.",
+        "Out-of-network care, on most plans. Some plans have a separate and much higher out-of-network maximum; many HMOs and EPOs do not cover it at all outside emergencies.",
+        "Balance billing — the gap between what an out-of-network provider charges and what the plan considers reasonable.",
+        "Anything the plan does not cover at all. A service excluded from the policy does not accrue toward the maximum no matter how much you spend on it.",
+        "Costs above a plan-imposed limit on a specific benefit, where the plan uses one."
+      ],
+      "paragraphs": [
+        "The federal No Surprises Act closed off a large share of the balance-billing problem for emergency care and for out-of-network providers working at in-network facilities, which was historically the single biggest source of unexpected bills. It does not cover every situation, so the network status of a planned provider is still worth confirming in writing before a scheduled procedure."
+      ]
+    },
+    {
+      "heading": "The 2026 legal ceilings",
+      "body": "Plans set their own numbers, but not freely — ACA-compliant plans cannot set an out-of-pocket maximum above a federal limit, and plans designed to pair with a Health Savings Account have to sit inside a different and tighter set of bounds.",
+      "table": {
+        "headers": [
+          "Limit",
+          "2026 self-only",
+          "2026 family"
+        ],
+        "rows": [
+          [
+            "ACA maximum out-of-pocket cap",
+            "$10,600",
+            "$21,200"
+          ],
+          [
+            "HDHP minimum deductible (to qualify for an HSA)",
+            "$1,700",
+            "$3,400"
+          ],
+          [
+            "HDHP maximum out-of-pocket",
+            "$8,500",
+            "$17,000"
+          ]
+        ],
+        "caption": "HDHP figures from IRS Revenue Procedure 2025-19. ACA cap set by HHS for the 2026 plan year."
+      },
+      "paragraphs": [
+        "The HDHP row is the counter-intuitive one. A plan marketed as high-deductible is required to have a *lower* out-of-pocket maximum than the ACA ceiling — $8,500 against $10,600 for an individual in 2026. So a high-deductible plan can genuinely have a better worst case than a low-deductible one, while feeling worse in an ordinary year. That trade is the whole decision."
+      ]
+    },
+    {
+      "heading": "How to actually compare two plans",
+      "body": "Premium plus deductible is the comparison most people run, and it answers the wrong question. It tells you what a quiet year costs while ignoring what a bad one does. Run three scenarios instead, because the ranking usually changes between them.",
+      "bullets": [
+        "The quiet year: twelve months of premium, plus a couple of copays. This is where low-deductible plans and high premiums look worst.",
+        "The moderate year: twelve months of premium, plus enough care to clear the deductible and generate some coinsurance. This is the realistic middle and where most families actually land.",
+        "The bad year: twelve months of premium plus the full out-of-pocket maximum. This is your true worst case, and it is the number that determines whether an unlucky year is an inconvenience or a financial emergency.",
+        "If the plan qualifies for an HSA, subtract the tax saving on your expected contribution from its annual cost before comparing. It is real money and it materially changes the ranking."
+      ],
+      "paragraphs": [
+        "Do the third calculation even if you are healthy. The entire function of insurance is the bad year; the quiet year is the one you could have self-funded. A plan that wins on the quiet-year arithmetic and loses badly on the bad-year arithmetic is a plan optimised for the scenario you did not buy insurance for."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does my premium count toward my deductible or out-of-pocket maximum?",
+      "answer": "No. Premiums are the cost of holding the plan and sit entirely outside both. You can hit your out-of-pocket maximum in March and still owe premiums every month for the rest of the year."
+    },
+    {
+      "question": "Once I meet my deductible, is my care free?",
+      "answer": "No — that is the most common misunderstanding. Meeting the deductible starts coinsurance, so you typically still pay a percentage, commonly 20%. Care becomes free only when you reach the out-of-pocket maximum."
+    },
+    {
+      "question": "Do copays count toward the deductible?",
+      "answer": "Usually not, though they generally do count toward the out-of-pocket maximum. Many plans deliberately place primary care and generic prescriptions on a copay outside the deductible so routine care stays affordable before the deductible is met. Your Summary of Benefits and Coverage states which services are treated this way."
+    },
+    {
+      "question": "What is the highest out-of-pocket maximum a plan can have in 2026?",
+      "answer": "For ACA-compliant plans, $10,600 for an individual and $21,200 for a family. Plans designed to pair with an HSA are held to a lower ceiling of $8,500 and $17,000 respectively."
+    },
+    {
+      "question": "Does the family deductible mean each person has to meet it individually?",
+      "answer": "It depends on whether the plan uses embedded or aggregate deductibles. With an embedded deductible, each individual has their own lower deductible within the family total, so one person can start receiving benefits before the family figure is reached. With an aggregate deductible, common on family HDHPs, the entire family amount must be met before the plan pays for anyone. Check which one your plan uses — it is a large practical difference."
+    },
+    {
+      "question": "Does the out-of-pocket maximum reset each year?",
+      "answer": "Yes, along with the deductible, at the start of each plan year. A plan year is not always a calendar year, particularly with employer coverage, so confirm the reset date before scheduling an expensive procedure near what you assume is year-end."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Out-of-pocket maximum / limit — HealthCare.gov glossary",
+      "url": "https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/"
+    },
+    {
+      "title": "IRS Revenue Procedure 2025-19 — 2026 HSA and HDHP inflation-adjusted limits",
+      "url": "https://www.irs.gov/"
+    },
+    {
+      "title": "No Surprises Act — Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/nosurprises"
+    }
+  ]
+}

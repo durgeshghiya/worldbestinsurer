@@ -1,0 +1,212 @@
+{
+  "slug": "hsa-vs-fsa-vs-hra-2026-2027-limits",
+  "title": "HSA vs FSA vs HRA: Which Account Keeps Your Money, and the 2026–2027 Limits",
+  "excerpt": "Three tax-advantaged accounts, three completely different answers to the question of what happens to unspent money. One is yours forever and can be invested. One largely disappears at year end. One was never yours to begin with.",
+  "publishedAt": "2026-08-31",
+  "lastUpdated": "2026-08-31",
+  "author": "WBI Editorial Team",
+  "category": "Tax Planning",
+  "tags": [
+    "HSA",
+    "FSA",
+    "United States",
+    "Tax Planning",
+    "Health Insurance"
+  ],
+  "readTime": "9 min",
+  "keyTakeaways": [
+    "HSA: yours permanently, rolls over, invests, portable between jobs — but requires a qualifying high-deductible health plan.",
+    "FSA: employer-owned, mostly use-it-or-lose-it, and forfeited when you leave the job. No HDHP requirement.",
+    "HRA: funded entirely by the employer. You never contribute and you cannot take it with you.",
+    "2026 HSA limits are $4,400 self-only and $8,750 family; 2027 rises to $4,500 and $9,000.",
+    "The HSA is the only one of the three that is triple tax-advantaged, and after 65 it behaves much like a retirement account."
+  ],
+  "sections": [
+    {
+      "heading": "The short answer",
+      "body": "All three let you pay medical costs with money that has not been taxed. The differences that matter are about ownership and time. An HSA is your property, compounds indefinitely and follows you between employers. An FSA belongs to your employer's plan, largely expires each year, and is generally forfeited when you leave. An HRA is employer money that reimburses your expenses and never becomes yours at all.",
+      "paragraphs": [
+        "If you are eligible for an HSA, it is almost always the strongest of the three, and the reason is not the immediate tax deduction — it is that unspent money keeps compounding for decades."
+      ]
+    },
+    {
+      "heading": "Side by side",
+      "body": "Eligibility is the first filter. You cannot simply choose an HSA; it requires enrolment in a qualifying high-deductible health plan, and you cannot contribute while covered by most other health plans or once enrolled in Medicare.",
+      "table": {
+        "headers": [
+          "",
+          "HSA",
+          "FSA",
+          "HRA"
+        ],
+        "rows": [
+          [
+            "Who funds it",
+            "You, your employer, or both",
+            "You, usually via salary deferral",
+            "Employer only"
+          ],
+          [
+            "Requires an HDHP?",
+            "Yes",
+            "No",
+            "No"
+          ],
+          [
+            "Unspent money at year end",
+            "Rolls over in full, forever",
+            "Forfeited, beyond a small carryover or grace period",
+            "Employer decides; often rolls over, sometimes not"
+          ],
+          [
+            "Can it be invested?",
+            "Yes, once above a minimum balance",
+            "No",
+            "No"
+          ],
+          [
+            "Portable if you change jobs",
+            "Yes — the account is yours",
+            "No, generally forfeited",
+            "No"
+          ],
+          [
+            "Available in full on day one",
+            "No, only what has been contributed",
+            "Yes, the full annual election",
+            "Per employer design"
+          ],
+          [
+            "After age 65",
+            "Non-medical withdrawals allowed at ordinary income tax, no penalty",
+            "Not applicable",
+            "Not applicable"
+          ]
+        ]
+      },
+      "callout": {
+        "label": "The FSA's one advantage",
+        "text": "Your entire annual FSA election is available from the first day of the plan year, even though you fund it monthly. If you need a $3,000 procedure in January, an FSA has the money and a new HSA does not."
+      }
+    },
+    {
+      "heading": "The 2026 and 2027 numbers",
+      "body": "Contribution ceilings are set annually by the IRS. The 2027 HSA and HDHP figures were published in Revenue Procedure 2026-24 on 29 May 2026, so both years are known and you can plan across them.",
+      "table": {
+        "headers": [
+          "Limit",
+          "2026",
+          "2027"
+        ],
+        "rows": [
+          [
+            "HSA contribution — self-only",
+            "$4,400",
+            "$4,500"
+          ],
+          [
+            "HSA contribution — family",
+            "$8,750",
+            "$9,000"
+          ],
+          [
+            "HSA catch-up, age 55+",
+            "$1,000",
+            "$1,000"
+          ],
+          [
+            "HDHP minimum deductible — self-only",
+            "$1,700",
+            "$1,750"
+          ],
+          [
+            "HDHP minimum deductible — family",
+            "$3,400",
+            "$3,500"
+          ],
+          [
+            "HDHP maximum out-of-pocket — self-only",
+            "$8,500",
+            "announced with the plan year"
+          ],
+          [
+            "Health FSA contribution",
+            "$3,400",
+            "announced late in the prior year"
+          ],
+          [
+            "Health FSA carryover",
+            "$680",
+            "announced late in the prior year"
+          ]
+        ],
+        "caption": "HSA and HDHP figures from IRS Rev. Proc. 2025-19 (2026) and Rev. Proc. 2026-24 (2027). The catch-up contribution is fixed by statute and not inflation-indexed."
+      },
+      "paragraphs": [
+        "One detail worth knowing about the catch-up: it is per person, not per account. A married couple both aged 55 or over can each make a $1,000 catch-up contribution, but they cannot both do so into the same HSA — the second contribution needs an account in the other spouse's name."
+      ]
+    },
+    {
+      "heading": "Why the HSA is described as triple tax-advantaged",
+      "body": "Three separate tax breaks apply to the same dollar, and the combination is unusual in the US tax code. Contributions reduce taxable income. Growth inside the account is untaxed. And withdrawals for qualified medical expenses are untaxed as well.",
+      "paragraphs": [
+        "A 401(k) gives you the first two but taxes withdrawals. A Roth gives you the last two but not the deduction. The HSA gives all three, and contributions made through payroll also escape FICA, which no retirement account does.",
+        "The strategy this enables is straightforward and widely underused: contribute the maximum, pay current medical costs from ordinary cash flow rather than from the account, invest the balance, and let it compound. There is no deadline for reimbursing yourself — a qualified expense from 2026 can be reimbursed tax-free in 2050, provided you keep the receipt. The account effectively becomes a retirement vehicle with better tax treatment than any of the dedicated ones.",
+        "After 65 the constraint loosens further. Non-medical withdrawals become permitted at ordinary income tax rates with no penalty, which is exactly how a traditional IRA behaves — while medical withdrawals remain entirely tax-free."
+      ]
+    },
+    {
+      "heading": "When an FSA is still the right answer",
+      "body": "The FSA is the weaker instrument in the abstract, but plenty of people are not choosing in the abstract. If your health plan is not HDHP-qualifying, an HSA is simply unavailable and the comparison ends there.",
+      "bullets": [
+        "You have no HDHP option, so the FSA is the only pre-tax route available to you.",
+        "You have a known, dated expense — orthodontics, a planned procedure, or predictable prescriptions — where the full-election-on-day-one feature is worth more than portability.",
+        "You want a dependent care FSA, which is a separate account with its own limit and has no HSA equivalent.",
+        "You are already contributing the HSA maximum and your employer offers a limited-purpose FSA for dental and vision, which can be held alongside an HSA."
+      ],
+      "paragraphs": [
+        "Where an FSA is the right call, size the election deliberately. Estimate conservatively rather than optimistically, because the downside of over-electing is forfeiture and the downside of under-electing is merely paying some costs with taxed money. Check too whether your plan offers the carryover or the grace period — a plan may offer one or the other, never both."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I have an HSA and an FSA at the same time?",
+      "answer": "Not a general-purpose health FSA — that disqualifies you from contributing to an HSA. You can, however, combine an HSA with a limited-purpose FSA restricted to dental and vision expenses, or with a dependent care FSA, since neither counts as disqualifying coverage."
+    },
+    {
+      "question": "What happens to my HSA if I change jobs?",
+      "answer": "Nothing. The account is your property and moves with you regardless of employer. You can keep contributing as long as you remain covered by a qualifying HDHP, and if you stop being covered you keep the balance and can still spend it on qualified expenses — you simply cannot add to it."
+    },
+    {
+      "question": "Do I lose my FSA money if I leave my job mid-year?",
+      "answer": "Generally yes, for expenses incurred after your last day, though COBRA continuation of the FSA is sometimes available. There is an asymmetry worth knowing: because the full election is available from day one, someone who spends the whole balance early and then leaves is usually not required to repay the difference."
+    },
+    {
+      "question": "Can I invest my HSA?",
+      "answer": "Most custodians allow it once the balance exceeds a threshold, commonly between $1,000 and $2,000, after which you can hold funds much as you would in a brokerage account. Many account holders never switch this on and leave the balance in cash, which forfeits the largest part of the account's advantage."
+    },
+    {
+      "question": "What is the deadline for contributing to an HSA for a given year?",
+      "answer": "The federal tax filing deadline for that year, typically 15 April of the following year — the same rule that applies to IRA contributions. You can therefore still top up a prior year's HSA after the calendar year has ended."
+    },
+    {
+      "question": "Are HSA withdrawals for non-medical expenses ever allowed?",
+      "answer": "Yes, but before 65 they are taxed as income and carry a 20% penalty. From 65 onward the penalty disappears and only ordinary income tax applies, which makes the account function much like a traditional IRA while keeping medical withdrawals entirely tax-free."
+    }
+  ],
+  "sources": [
+    {
+      "title": "IRS Revenue Procedure 2025-19 — 2026 HSA and HDHP limits",
+      "url": "https://www.irs.gov/"
+    },
+    {
+      "title": "IRS Revenue Procedure 2026-24 — 2027 HSA, HDHP and EBHRA limits",
+      "url": "https://www.irs.gov/"
+    },
+    {
+      "title": "IRS Publication 969 — Health Savings Accounts and Other Tax-Favored Health Plans",
+      "url": "https://www.irs.gov/publications/p969"
+    }
+  ]
+}

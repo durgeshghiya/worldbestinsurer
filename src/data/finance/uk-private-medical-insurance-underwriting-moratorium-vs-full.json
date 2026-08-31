@@ -1,0 +1,145 @@
+{
+  "slug": "uk-private-medical-insurance-underwriting-moratorium-vs-full",
+  "title": "Moratorium or Full Medical Underwriting? The UK Health Insurance Choice You Make Once",
+  "excerpt": "UK insurers offer two ways to handle your medical history, and the one you pick at the outset decides whether you find out about exclusions now or at the moment you claim. There is also a third option that most buyers switching insurer are never told about.",
+  "publishedAt": "2026-08-31",
+  "lastUpdated": "2026-08-31",
+  "author": "WBI Editorial Team",
+  "category": "Policy Basics",
+  "tags": [
+    "Health Insurance",
+    "United Kingdom",
+    "Underwriting",
+    "PMI"
+  ],
+  "readTime": "8 min",
+  "keyTakeaways": [
+    "Moratorium underwriting asks no medical questions up front and excludes conditions from roughly the last five years — but you only learn what is excluded when you claim.",
+    "Full medical underwriting asks everything now and gives you a written list of exclusions before you buy. Certainty, at the cost of a longer application.",
+    "Under moratorium, an excluded condition can come back into cover once you have gone a continuous period — commonly two years — without treatment, symptoms, medication or advice for it.",
+    "Switching insurer normally restarts the clock. A CPME transfer carries your existing underwriting across so it does not.",
+    "A break in cover of more than about two to four weeks generally destroys the ability to transfer. Never cancel the old policy before the new one is confirmed."
+  ],
+  "sections": [
+    {
+      "heading": "The short answer",
+      "body": "Private medical insurance in the UK does not cover conditions you already have. Every insurer agrees on that; where they differ is when they tell you which ones. Moratorium underwriting defers the conversation to claim time and applies a standard rule. Full medical underwriting has the conversation now and gives you a definitive written list.",
+      "paragraphs": [
+        "Neither is more generous than the other in the abstract. The choice is between a fast application with uncertainty later, and a slow application with certainty now — and which is right depends almost entirely on how complicated your medical history is."
+      ]
+    },
+    {
+      "heading": "The two routes compared",
+      "body": "The practical difference shows up at two moments: when you apply, and when you claim. Everything else is detail.",
+      "table": {
+        "headers": [
+          "",
+          "Moratorium",
+          "Full medical underwriting"
+        ],
+        "rows": [
+          [
+            "Medical questions at application",
+            "None, or very few",
+            "A detailed history, sometimes with a GP report"
+          ],
+          [
+            "Time to get covered",
+            "Minutes",
+            "Days to weeks"
+          ],
+          [
+            "Do you know your exclusions?",
+            "No — assessed when you claim",
+            "Yes, listed in writing before you buy"
+          ],
+          [
+            "What is excluded",
+            "Conditions treated, medicated, or advised on in roughly the last five years",
+            "Specific named conditions the insurer has assessed"
+          ],
+          [
+            "Can exclusions be lifted?",
+            "Yes, typically after two continuous clear years",
+            "Sometimes, by review on request — not automatic"
+          ],
+          [
+            "Best suited to",
+            "A clean or simple recent history",
+            "A significant history, where certainty matters"
+          ]
+        ],
+        "caption": "Look-back and clear-period lengths vary by insurer. Five years back and two years clear are the common defaults, not universal rules."
+      },
+      "callout": {
+        "label": "The moratorium trap",
+        "text": "Moratorium feels easier because nobody asks you anything. That is exactly the risk — the assessment still happens, just at the moment you are ill and making a claim, rather than while you are comparing policies."
+      }
+    },
+    {
+      "heading": "How a moratorium exclusion lifts",
+      "body": "This is the part worth understanding properly, because it is the mechanism that eventually turns a moratorium policy into something close to full cover. A pre-existing condition is excluded, but not permanently. Once you have gone a continuous qualifying period — most commonly two years — without treatment, medication, symptoms, or medical advice for that condition, it generally comes back into cover.",
+      "paragraphs": [
+        "The clause is stricter than people assume. All four triggers reset the clock, not just treatment. A repeat prescription counts. A GP conversation counts. Symptoms you mentioned but did nothing about can count. A condition managed with ongoing medication therefore never clears, because the medication itself keeps restarting the period.",
+        "That gives a clear rule of thumb. Moratorium works well for a resolved, historic problem — an old injury, an infection long since cleared. It works poorly for anything chronic and ongoing, where full medical underwriting at least tells you where you stand."
+      ]
+    },
+    {
+      "heading": "Switching insurer without losing your history",
+      "body": "This is the most valuable thing in this article and the least well known. If you simply buy a new policy from a different insurer, you are a new customer with a new moratorium, and years of accumulated clear time are gone. A Continuing Personal Medical Exclusions transfer — CPME — carries your existing underwriting basis and your accrued history across to the new insurer instead.",
+      "bullets": [
+        "Ask for CPME or 'switch' terms explicitly when you get a quote. It is frequently not offered unless requested by name.",
+        "Your current policy must have been written on a moratorium or full medical underwriting basis for a transfer to be possible.",
+        "Do not allow a gap. Insurers generally permit only a short break — commonly somewhere between two and four weeks — and a longer one ends the option.",
+        "Never cancel the existing policy until the new one is confirmed in writing on transfer terms.",
+        "Expect the new insurer to apply its own rules to anything that arose during the gap, however brief."
+      ],
+      "paragraphs": [
+        "The financial logic is straightforward. Someone three years into a moratorium policy who switches naively for a lower premium is trading a modest annual saving for the loss of three years of accrued clear time — and potentially for the re-exclusion of a condition that had already come back into cover."
+      ]
+    },
+    {
+      "heading": "What neither route will cover",
+      "body": "Underwriting basis determines how your personal history is treated. It has no bearing on the standard exclusions that sit in essentially every UK private medical policy, and those catch more people than pre-existing conditions do.",
+      "bullets": [
+        "Chronic conditions as an ongoing category. PMI is built around acute conditions that respond to treatment; long-term management of a chronic illness is generally the NHS's role.",
+        "Accident and emergency. PMI is not an alternative to A&E, and emergency admission goes through the NHS.",
+        "Normal pregnancy and childbirth, though complications are sometimes covered.",
+        "Cosmetic treatment, and self-inflicted injury.",
+        "Anything requiring a GP referral that you have not obtained. Most policies require a referral before treatment, and skipping it is a common reason for a declined claim."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Which is better, moratorium or full medical underwriting?",
+      "answer": "Neither is universally better. Moratorium suits a clean or simple recent history and gets you covered immediately. Full medical underwriting suits anyone with a significant history, because it converts uncertainty into a written list of exclusions you can read before committing."
+    },
+    {
+      "question": "How long is the moratorium period?",
+      "answer": "Most UK insurers look back around five years for pre-existing conditions and require two continuous years free of treatment, medication, symptoms and advice before a condition returns to cover. Both periods vary by insurer, so check the specific policy wording."
+    },
+    {
+      "question": "Does a repeat prescription reset my moratorium clock?",
+      "answer": "Generally yes. Medication is one of the triggers, alongside treatment, symptoms and medical advice. This is why a chronic condition managed with ongoing medication typically never clears a moratorium."
+    },
+    {
+      "question": "Can I switch insurer without a new moratorium?",
+      "answer": "Yes, through a CPME transfer, which moves your existing underwriting basis and accrued history to the new insurer. You must ask for it by name, your current policy must be on a moratorium or full medical underwriting basis, and you cannot leave a meaningful gap between policies."
+    },
+    {
+      "question": "Will private medical insurance cover a condition I already have?",
+      "answer": "Not initially, under either underwriting route. Under moratorium it may come back into cover after the required clear period. Under full medical underwriting it will be named as an exclusion, though some insurers will review an exclusion on request after several claim-free years."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Financial Conduct Authority — insurance conduct rules",
+      "url": "https://www.fca.org.uk/"
+    },
+    {
+      "title": "MoneyHelper — private medical insurance guidance",
+      "url": "https://www.moneyhelper.org.uk/"
+    }
+  ]
+}

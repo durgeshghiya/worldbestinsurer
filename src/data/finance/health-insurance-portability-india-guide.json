@@ -1,0 +1,162 @@
+{
+  "slug": "health-insurance-portability-india-guide",
+  "title": "Porting Your Health Insurance in India: The 30-Day Window and What Transfers With You",
+  "excerpt": "Switching insurer without porting throws away every waiting period you have already served. Porting keeps them — but only if you apply inside a narrow window and do not cancel the old policy first.",
+  "publishedAt": "2026-08-31",
+  "lastUpdated": "2026-08-31",
+  "author": "WBI Editorial Team",
+  "category": "Policy Basics",
+  "tags": [
+    "Health Insurance",
+    "India",
+    "Portability",
+    "IRDAI"
+  ],
+  "readTime": "8 min",
+  "keyTakeaways": [
+    "Apply to the new insurer at least 30 days before your renewal date. Leaving it later is the single most common reason a port fails.",
+    "Waiting periods already served transfer with you, up to the sum insured you currently hold.",
+    "Accumulated moratorium months transfer too, so porting does not restart the 60-month non-contestability clock.",
+    "The new insurer can underwrite you afresh and may decline or load the premium. Nothing is guaranteed until it accepts in writing.",
+    "Never cancel the existing policy before the port is confirmed. A lapse destroys everything you were trying to preserve."
+  ],
+  "sections": [
+    {
+      "heading": "The short answer",
+      "body": "Portability lets you move to a different insurer while keeping the credit you have built up under your existing policy. Waiting periods you have already served — the 30-day initial period, the specific-disease period, and the pre-existing disease period — carry across rather than starting again. So does the moratorium clock.",
+      "paragraphs": [
+        "The alternative, which a great many people take by accident, is to let the old policy lapse and simply buy a new one from whoever quoted the lowest premium. That resets every clock to zero. Someone three years into a 36-month pre-existing disease waiting period who does this has given up the entire benefit of those three years in exchange for a premium saving that is usually a small fraction of its value."
+      ]
+    },
+    {
+      "heading": "The timeline, which is where ports fail",
+      "body": "Portability is governed by dates more than by anything else, and the process has to start well before your renewal falls due. Insurers need time to obtain your claim history from the outgoing insurer and to underwrite you.",
+      "bullets": [
+        "At least 45 days before renewal: decide, and start comparing. This is comfortable rather than mandatory.",
+        "At least 30 days before renewal: submit the portability application to the new insurer. This is the hard deadline.",
+        "The new insurer requests your medical and claim history from the existing insurer, which is required to provide it.",
+        "The new insurer underwrites and responds. If it does not respond within the prescribed period, it is generally taken to have accepted.",
+        "Only once you hold written acceptance should the old policy be allowed to lapse."
+      ],
+      "ordered": true,
+      "callout": {
+        "label": "Do not cancel first",
+        "text": "The old policy must remain in force until the new one incepts. A gap in cover is what turns a port into a fresh purchase, with every waiting period back at zero."
+      }
+    },
+    {
+      "heading": "What transfers, and what does not",
+      "body": "Portability preserves accrued credit. It does not preserve your premium, your benefit structure, or any guarantee of acceptance — those are matters for the new insurer.",
+      "table": {
+        "headers": [
+          "Item",
+          "Transfers?",
+          "Detail"
+        ],
+        "rows": [
+          [
+            "Initial 30-day waiting period",
+            "Yes",
+            "If already served, it is not reimposed."
+          ],
+          [
+            "Specific-disease waiting period",
+            "Yes",
+            "Credit for months already completed."
+          ],
+          [
+            "Pre-existing disease waiting period",
+            "Yes",
+            "Credit up to the sum insured you currently hold."
+          ],
+          [
+            "Moratorium months",
+            "Yes",
+            "The 60-month non-contestability clock continues rather than restarting."
+          ],
+          [
+            "No-claim / cumulative bonus",
+            "Usually",
+            "Commonly carried as additional sum insured. Mechanics differ by insurer."
+          ],
+          [
+            "Increase in sum insured",
+            "No",
+            "The increment is typically treated as fresh cover with its own waiting period."
+          ],
+          [
+            "Your premium",
+            "No",
+            "Priced by the new insurer on its own rates and your current age."
+          ],
+          [
+            "Guaranteed acceptance",
+            "No",
+            "The new insurer underwrites you and may decline or load."
+          ]
+        ]
+      },
+      "paragraphs": [
+        "The sum insured line deserves attention. If you port a Rs 5 lakh policy and simultaneously raise cover to Rs 10 lakh, the waiting-period credit generally attaches to the original Rs 5 lakh and the additional Rs 5 lakh may carry a fresh waiting period. That is not a reason to avoid increasing cover — it is a reason to know which part of the claim is protected in the interim."
+      ]
+    },
+    {
+      "heading": "When porting is worth the trouble",
+      "body": "Portability exists to remove the lock-in that made people stay with a poor insurer purely to protect their accrued waiting periods. It is worth using when the problem with your current policy is structural rather than merely a matter of price.",
+      "bullets": [
+        "A room rent sub-limit or co-payment your current insurer will not remove, and which will quietly reduce every future claim.",
+        "A pattern of slow or disputed settlements, or a claim experience that has left you without confidence in the insurer.",
+        "A network that does not include the hospitals you would actually use.",
+        "A benefit you now need — restoration, maternity, a higher sum insured — that the current plan cannot offer at any price.",
+        "A materially better product at a comparable premium, where the difference is in the wording rather than the marketing."
+      ],
+      "paragraphs": [
+        "Price alone is a weak reason. Health insurance premiums rise with age and medical inflation regardless of insurer, and a saving obtained by moving to a plan with tighter sub-limits is not a saving at all. Compare the policy wording — room rent treatment, co-payment, disease sub-limits, the day-care list — before comparing the premium."
+      ]
+    },
+    {
+      "heading": "If the new insurer declines",
+      "body": "This is a real possibility, particularly where your health has changed since you first bought cover, and it is the reason the sequencing matters so much. A declined port is only a problem if you have already given up the existing policy.",
+      "paragraphs": [
+        "Because the old policy is still in force while the application is assessed, a refusal simply means you renew where you are and try again another year, having lost nothing. Handled the other way round — cancelling first — a refusal leaves you uninsured, and any condition diagnosed in the interval becomes pre-existing for whatever you buy next.",
+        "It is also worth remembering that a decline is the new insurer's commercial judgment, not a verdict on your entitlement. Your existing insurer must still offer renewal, and renewability of a health policy is not contingent on your having stayed claim-free."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "When should I apply to port my health insurance?",
+      "answer": "At least 30 days before your existing policy's renewal date. Applying inside that window is the most common reason ports are rejected on process grounds, so aim to start comparing around 45 days out."
+    },
+    {
+      "question": "Do my waiting periods start again if I port?",
+      "answer": "No. Waiting periods already served transfer to the new insurer, up to the sum insured you currently hold. This is the entire point of porting, and it is what you forfeit by simply buying a new policy instead."
+    },
+    {
+      "question": "Can the new insurer refuse to accept my port?",
+      "answer": "Yes. Portability preserves your accrued credit but does not guarantee acceptance — the new insurer underwrites you and may decline or apply a loading. This is precisely why you must not cancel the existing policy until the new one is confirmed in writing."
+    },
+    {
+      "question": "Does porting reset the 60-month moratorium?",
+      "answer": "No. Accumulated months of continuous coverage carry forward, so five years of unbroken cover across two insurers still completes the moratorium. What does reset it is a break in cover."
+    },
+    {
+      "question": "Can I increase my sum insured when I port?",
+      "answer": "You can, but the waiting-period credit generally attaches only to the sum insured you already held. The increase is typically treated as fresh cover with its own waiting period, so plan around a period in which the top-up portion is not fully claimable."
+    },
+    {
+      "question": "Does my no-claim bonus transfer?",
+      "answer": "Usually, most often as additional sum insured rather than as a premium discount, though the exact mechanics differ between insurers. Confirm in writing how the incoming insurer will treat it before you commit."
+    }
+  ],
+  "sources": [
+    {
+      "title": "IRDAI Master Circular on Health Insurance Business (IRDAI/HLT/CIR/PRO/84/5/2024, 29 May 2024)",
+      "url": "https://irdai.gov.in/"
+    },
+    {
+      "title": "Health insurance portability — IRDAI Policyholder Portal",
+      "url": "https://policyholder.gov.in/"
+    }
+  ]
+}
