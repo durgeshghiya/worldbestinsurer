@@ -103,12 +103,12 @@ all. Fixed in the same commit as this document.
    found in the 31 Aug audit are fixed, but the composition problem is not.
    Resubmit only after the product-page cut in rule 4 has landed and Search
    Console shows "Crawled — currently not indexed" falling.
-4. **Products are no longer on probation — the cut is now the priority.**
-   At 93.1% of the index against 17 editorial pages, the catalog is the
-   composition problem. Cut to a curated subset: flagship plans, records
-   with a high confidence score and a recent `lastVerified`, primary
-   markets. Everything else goes `noindex, follow` and leaves the sitemap,
-   exactly as the VS pages did.
+4. **Done — the catalog was cut on 1 Sep 2026.** 573 unsourceable products
+   were deleted and the remaining 492 carry no unverified statistics. The
+   standing rule now: a product may only be published if it deep-links to a
+   source, and a regulatory statistic may only be displayed when its
+   `verified` flag is true. Never substitute a plausible number for a
+   missing one — withhold the field instead.
 
 ## Step two: content that can actually win a click (Aug 2026)
 
@@ -232,6 +232,69 @@ pages against 17 editorial ones is the whole problem now, and no realistic
 volume of writing closes that gap — matching the product count would take years.
 The next structural move is cutting the catalog to a curated subset, and it
 should happen before the next resubmission rather than after another wait.
+
+## The catalogue cut, 1 Sep 2026 — what the verification model found
+
+Modelling the products to define a verification bar found that the bar was not
+the problem. **573 of the 1,065 products — 54% — could not be sourced at all,
+and they were attributed to real, named insurers.** "Gold Shield" from
+UnitedHealthcare, "Platinum Care" from Anthem BCBS, "Elite Health" from Aetna,
+"Family Floater Plus" from Cigna — the last being an Indian product concept
+pasted onto a US insurer.
+
+The split was not a judgement call about how the records read. Every
+independent signal agreed:
+
+| Signal | Tier A (151) | Tier B (341) | Tier C (573) |
+| --- | ---: | ---: | ---: |
+| Deep-linked source | 100% | partial | **3%** |
+| Flagged high confidence | 100% | some | **0%** |
+| Carries "illustrative listing" note | low | 19% | **100%** |
+| Round sum-insured figure | typical | typical | **0%** |
+
+They are deleted, not de-indexed. `noindex` would have left invented financial
+products published under real companies' names; it addresses Google, not the
+problem. All 573 redirect 301 to the relevant compare page via
+`REMOVED_PRODUCT_MAP` and `src/proxy.ts`.
+
+### Claim settlement ratios are withheld everywhere
+
+A claim settlement ratio is an insurer-level regulatory statistic — one figure
+per insurer per financial year. Products from the same insurer carried
+different values in **91% of cases even in tier A** (Kaiser Permanente US: 92,
+93.15, 96.14, 96.55). 939 ratios spanned 431 distinct values across 100 decimal
+fractions. That is generated noise, and it was cited on-page to "IRDAI /
+Insurer website".
+
+Product-level `claimSettlement` is now null on all survivors. At insurer level
+every published value was unverified, so the value is withheld until
+`verified === true`, and Insights withholds the average rather than computing
+one from nothing. **No substitute figures were invented.** The stat reappears
+automatically when someone verifies it against the regulator's filing.
+
+### Regulatory corrections applied
+
+- 44 India products stated a PED waiting period above the 36-month cap IRDAI
+  set on 1 April 2024. Capped.
+- 2 surviving US health products stated a PED waiting period at all. The ACA
+  prohibits pre-existing condition exclusions; the field now says so.
+- 12 insurers stored `networkHospitals` as an object, rendering "NaN K+
+  hospitals". 8 normalised; 4 US entries withheld because they hold provider
+  counts (UnitedHealthcare: 1,300,000) and the US has ~6,100 hospitals total.
+
+### Where the index landed
+
+| | Before cut | After |
+| --- | ---: | ---: |
+| Indexed URLs | 1,411 | **838** |
+| Products | 1,065 | **492** |
+| Templated share | 93.1% | **88.3%** |
+| Editorial share | 1.2% | 2.0% |
+
+Templated share improved but is still 88%. That is expected: the cut removed
+bad data, it did not add good pages. **The editorial base is now the only
+remaining lever** — 17 substantial pages is too few regardless of how clean the
+catalogue is, and rule 4 below is now satisfied while rule 2 is not.
 
 ## Expected behaviour after deploy
 
