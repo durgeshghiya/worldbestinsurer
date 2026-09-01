@@ -13,10 +13,7 @@
       "established": 1976,
       "website": "https://www.medibank.com.au/",
       "claimSettlementRatio": null,
-      "networkHospitals": {
-        "count": 500,
-        "note": "Agreement hospitals nationally"
-      },
+      "networkHospitals": 500,
       "categories": [
         "health",
         "travel"
@@ -38,10 +35,7 @@
       "established": 1947,
       "website": "https://www.bupa.com.au/",
       "claimSettlementRatio": null,
-      "networkHospitals": {
-        "count": 600,
-        "note": "Agreement hospitals nationally"
-      },
+      "networkHospitals": 600,
       "categories": [
         "health",
         "travel"

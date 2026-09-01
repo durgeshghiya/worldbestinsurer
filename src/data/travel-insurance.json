@@ -19,7 +19,12 @@
         "min": 50000,
         "max": 500000,
         "currency": "USD",
-        "options": [50000, 100000, 250000, 500000]
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 800,
@@ -55,7 +60,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip or annual",
       "specialFeatures": [
@@ -86,7 +94,12 @@
         "min": 25000,
         "max": 250000,
         "currency": "USD",
-        "options": [25000, 50000, 100000, 250000]
+        "options": [
+          25000,
+          50000,
+          100000,
+          250000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 500,
@@ -118,7 +131,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip or annual",
       "specialFeatures": [
@@ -149,7 +165,12 @@
         "min": 50000,
         "max": 500000,
         "currency": "USD",
-        "options": [50000, 100000, 250000, 500000]
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 700,
@@ -183,7 +204,11 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip", "Student"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip",
+          "Student"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -214,7 +239,12 @@
         "min": 100000,
         "max": 1000000,
         "currency": "INR",
-        "options": [100000, 250000, 500000, 1000000]
+        "options": [
+          100000,
+          250000,
+          500000,
+          1000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 200,
@@ -244,7 +274,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -275,7 +308,13 @@
         "min": 50000,
         "max": 1000000,
         "currency": "USD",
-        "options": [50000, 100000, 250000, 500000, 1000000]
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000,
+          1000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 900,
@@ -308,7 +347,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -339,7 +381,11 @@
         "min": 100000,
         "max": 500000,
         "currency": "USD",
-        "options": [100000, 250000, 500000]
+        "options": [
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 5000,
@@ -373,7 +419,9 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip"]
+        "options": [
+          "Single trip"
+        ]
       },
       "renewability": "Per academic year",
       "specialFeatures": [
@@ -404,7 +452,12 @@
         "min": 50000,
         "max": 500000,
         "currency": "USD",
-        "options": [50000, 100000, 250000, 500000]
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 700,
@@ -438,7 +491,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -469,7 +525,11 @@
         "min": 100000,
         "max": 500000,
         "currency": "INR",
-        "options": [100000, 250000, 500000]
+        "options": [
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 150,
@@ -499,7 +559,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -530,7 +593,12 @@
         "min": 50000,
         "max": 500000,
         "currency": "USD",
-        "options": [50000, 100000, 250000, 500000]
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 600,
@@ -563,7 +631,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -594,7 +665,13 @@
         "min": 25000,
         "max": 500000,
         "currency": "USD",
-        "options": [25000, 50000, 100000, 250000, 500000]
+        "options": [
+          25000,
+          50000,
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 600,
@@ -628,7 +705,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -659,7 +739,12 @@
         "min": 50000,
         "max": 500000,
         "currency": "USD",
-        "options": [50000, 100000, 250000, 500000]
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 600,
@@ -691,7 +776,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -722,7 +810,12 @@
         "min": 50000,
         "max": 500000,
         "currency": "USD",
-        "options": [50000, 100000, 250000, 500000]
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 650,
@@ -755,7 +848,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -786,7 +882,12 @@
         "min": 50000,
         "max": 500000,
         "currency": "USD",
-        "options": [50000, 100000, 250000, 500000]
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 700,
@@ -815,7 +916,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -846,7 +950,12 @@
         "min": 50000,
         "max": 500000,
         "currency": "USD",
-        "options": [50000, 100000, 250000, 500000]
+        "options": [
+          50000,
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 650,
@@ -879,7 +988,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -910,7 +1022,11 @@
         "min": 100000,
         "max": 500000,
         "currency": "INR",
-        "options": [100000, 250000, 500000]
+        "options": [
+          100000,
+          250000,
+          500000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 150,
@@ -940,7 +1056,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [
@@ -971,7 +1090,12 @@
         "min": 100000,
         "max": 1000000,
         "currency": "INR",
-        "options": [100000, 250000, 500000, 1000000]
+        "options": [
+          100000,
+          250000,
+          500000,
+          1000000
+        ]
       },
       "premiumRange": {
         "illustrativeMin": 200,
@@ -1002,7 +1126,10 @@
       "policyTenure": {
         "min": null,
         "max": null,
-        "options": ["Single trip", "Annual multi-trip"]
+        "options": [
+          "Single trip",
+          "Annual multi-trip"
+        ]
       },
       "renewability": "Per trip/annual",
       "specialFeatures": [

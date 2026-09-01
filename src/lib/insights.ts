@@ -212,7 +212,9 @@ export function computeInsights(): InsightsData {
   const listedCount = insurers.filter((i) => i.listed).length;
 
   const marketStats: MarketStat[] = [
-    { label: "Avg. Claim Settlement Ratio", value: `${avgCSR.toFixed(1)}%`, note: "Across all insurers", icon: "TrendingUp" },
+    ...(csrValues.length > 0
+      ? [{ label: "Avg. Claim Settlement Ratio", value: `${avgCSR.toFixed(1)}%`, note: `Across ${csrValues.length} verified insurers`, icon: "TrendingUp" }]
+      : []),
     { label: "Max Network Hospitals", value: maxNetwork.toLocaleString(), note: "Health insurance", icon: "Building2" },
     { label: "Premium Range", value: `₹${globalPremiumMin.toLocaleString()} – ₹${globalPremiumMax.toLocaleString()}`, note: "Illustrative, all categories", icon: "IndianRupee" },
     { label: "Max Sum Insured", value: `₹${(maxSumInsured / 10000000).toFixed(0)} Cr`, note: "Highest coverage available", icon: "Shield" },
@@ -221,16 +223,23 @@ export function computeInsights(): InsightsData {
   ];
 
   // ── CSR Analysis ──
+  // Only insurers whose ratio has actually been verified against the
+  // regulator's filing appear here. Unverified values are stored as null, so
+  // this list is empty until that verification work is done — which is the
+  // intended behaviour, not a bug.
   const insurerCSRs: InsurerCSR[] = insurers
-    .filter((i) => i.claimSettlementRatio?.value > 0)
-    .map((i) => ({
-      slug: i.slug,
-      shortName: i.shortName,
-      csr: i.claimSettlementRatio.value,
-      year: i.claimSettlementRatio.year,
-      type: i.type,
-      productCount: getProductsByInsurer(i.slug, "in").length,
-    }))
+    .flatMap((i) => {
+      const csr = i.claimSettlementRatio?.value;
+      if (csr == null || csr <= 0) return [];
+      return [{
+        slug: i.slug,
+        shortName: i.shortName,
+        csr,
+        year: i.claimSettlementRatio.year,
+        type: i.type,
+        productCount: getProductsByInsurer(i.slug, "in").length,
+      }];
+    })
     .sort((a, b) => b.csr - a.csr);
 
   const csrBuckets: CSRBucket[] = [

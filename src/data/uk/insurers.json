@@ -18,10 +18,7 @@
         "year": null,
         "verified": false
       },
-      "networkHospitals": {
-        "count": 500,
-        "source": "Bupa recognised facilities (approximate)"
-      },
+      "networkHospitals": 500,
       "description": "UK's leading private health insurer. International presence in 190 countries.",
       "countryCode": "uk",
       "contact": {
@@ -51,10 +48,7 @@
         "year": null,
         "verified": false
       },
-      "networkHospitals": {
-        "count": 400,
-        "source": "AXA Health recognised providers (approximate)"
-      },
+      "networkHospitals": 400,
       "description": "Major UK PMI provider. Part of AXA Group (France).",
       "countryCode": "uk",
       "contact": {
@@ -81,10 +75,7 @@
         "year": null,
         "verified": false
       },
-      "networkHospitals": {
-        "count": 350,
-        "source": "Aviva recognised hospitals (approximate)"
-      },
+      "networkHospitals": 350,
       "description": "UK's largest insurer by gross written premiums. Multi-line across life, health, general.",
       "countryCode": "uk",
       "contact": {

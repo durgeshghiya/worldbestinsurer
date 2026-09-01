@@ -137,11 +137,7 @@
         "Extreme sports",
         "War"
       ],
-      "claimSettlement": {
-        "ratio": 91,
-        "year": "2024",
-        "source": "AFCA"
-      },
+      "claimSettlement": null,
       "riders": [
         "Snow sports",
         "Adventure activities",
@@ -205,11 +201,7 @@
         "Extreme sports",
         "War"
       ],
-      "claimSettlement": {
-        "ratio": 91,
-        "year": "2024",
-        "source": "AFCA"
-      },
+      "claimSettlement": null,
       "riders": [
         "Snow sports",
         "Adventure sports",
@@ -274,11 +266,7 @@
         "Extreme sports",
         "War"
       ],
-      "claimSettlement": {
-        "ratio": 92,
-        "year": "2024",
-        "source": "AFCA"
-      },
+      "claimSettlement": null,
       "riders": [
         "Adventure sports",
         "Snow sports",
@@ -342,11 +330,7 @@
         "Extreme sports without rider",
         "War"
       ],
-      "claimSettlement": {
-        "ratio": 90,
-        "year": "2024",
-        "source": "AFCA"
-      },
+      "claimSettlement": null,
       "riders": [
         "Adventure sports",
         "Winter sports",
@@ -414,11 +398,7 @@
         "High-risk sports without add-on",
         "Self-inflicted injuries"
       ],
-      "claimSettlement": {
-        "ratio": 93.85,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Adventure Sports",
         "Cruise Cover",
@@ -439,348 +419,6 @@
         "Worldwide 24x7 assistance"
       ],
       "sourceUrl": "https://www.medibank.com.au/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "au"
-    },
-    {
-      "id": "bupa-au-globe-protect-k1a",
-      "insurerName": "Bupa Australia",
-      "insurerSlug": "bupa-au",
-      "productName": "Globe Protect",
-      "category": "travel",
-      "subCategory": "student",
-      "eligibility": {
-        "minAge": 21,
-        "maxAge": 78,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 669636,
-        "options": [],
-        "currency": "AUD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 70,
-        "illustrativeMax": 449,
-        "assumptions": "35yo Australian resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Emergency evacuation",
-        "Adventure sports (add-on)",
-        "Trip cancellation",
-        "Pre-existing disease (optional)",
-        "Trip interruption",
-        "Flight cancellation"
-      ],
-      "keyExclusions": [
-        "High-risk sports without add-on",
-        "War and nuclear risks",
-        "Pregnancy complications"
-      ],
-      "claimSettlement": {
-        "ratio": 91.29,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Pre-existing Disease"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Adventure sports add-on",
-        "Cashless hospitalization abroad",
-        "Schengen visa compliant",
-        "Annual multi-trip option",
-        "Trip cancellation cover"
-      ],
-      "sourceUrl": "https://www.bupa.com.au/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "au"
-    },
-    {
-      "id": "hcf-explorer-plus-q5a",
-      "insurerName": "Hospitals Contribution Fund of Australia",
-      "insurerSlug": "hcf",
-      "productName": "Explorer Plus",
-      "category": "travel",
-      "subCategory": "single-trip",
-      "eligibility": {
-        "minAge": 20,
-        "maxAge": 70,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 653369,
-        "options": [],
-        "currency": "AUD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 76,
-        "illustrativeMax": 444,
-        "assumptions": "35yo Australian resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Flight delay",
-        "24x7 assistance",
-        "Flight cancellation",
-        "Adventure sports (add-on)",
-        "Baggage delay",
-        "Baggage loss"
-      ],
-      "keyExclusions": [
-        "Pregnancy complications",
-        "War and nuclear risks",
-        "High-risk sports without add-on"
-      ],
-      "claimSettlement": {
-        "ratio": 98.83,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Adventure Sports",
-        "Cruise Cover",
-        "Pre-existing Disease"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Annual multi-trip option",
-        "Cashless hospitalization abroad",
-        "Schengen visa compliant",
-        "Zero deductible option"
-      ],
-      "sourceUrl": "https://www.hcf.com.au/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "au"
-    },
-    {
-      "id": "nib-travel-elite-w9a",
-      "insurerName": "nib Health Funds",
-      "insurerSlug": "nib",
-      "productName": "Travel Elite",
-      "category": "travel",
-      "subCategory": "family-trip",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 78,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 547158,
-        "options": [],
-        "currency": "AUD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 52,
-        "illustrativeMax": 405,
-        "assumptions": "35yo Australian resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Pre-existing disease (optional)",
-        "Flight delay",
-        "Baggage delay",
-        "Trip cancellation",
-        "Adventure sports (add-on)",
-        "Flight cancellation",
-        "Medical emergencies abroad",
-        "Passport loss",
-        "Baggage loss"
-      ],
-      "keyExclusions": [
-        "Self-inflicted injuries",
-        "Pregnancy complications",
-        "High-risk sports without add-on"
-      ],
-      "claimSettlement": {
-        "ratio": 90.14,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Adventure Sports",
-        "Cruise Cover",
-        "Annual Multi-Trip"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Worldwide 24x7 assistance",
-        "Zero deductible option",
-        "Schengen visa compliant"
-      ],
-      "sourceUrl": "https://www.nib.com.au/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "au"
-    },
-    {
-      "id": "zurich-au-voyage-shield-2da",
-      "insurerName": "Zurich Australia",
-      "insurerSlug": "zurich-au",
-      "productName": "Voyage Shield",
-      "category": "travel",
-      "subCategory": "senior",
-      "eligibility": {
-        "minAge": 19,
-        "maxAge": 72,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 812352,
-        "options": [],
-        "currency": "AUD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 69,
-        "illustrativeMax": 505,
-        "assumptions": "35yo Australian resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "COVID-19 cover",
-        "Pre-existing disease (optional)",
-        "Flight cancellation",
-        "Medical emergencies abroad",
-        "Passport loss",
-        "Adventure sports (add-on)",
-        "Personal liability",
-        "24x7 assistance",
-        "Emergency evacuation"
-      ],
-      "keyExclusions": [
-        "High-risk sports without add-on",
-        "Self-inflicted injuries",
-        "Pre-existing diseases (unless declared)"
-      ],
-      "claimSettlement": {
-        "ratio": 92.71,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Adventure Sports"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Zero deductible option",
-        "Cashless hospitalization abroad",
-        "Worldwide 24x7 assistance"
-      ],
-      "sourceUrl": "https://www.zurich.com.au/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "au"
-    },
-    {
-      "id": "allianz-au-international-travel-pro-8ha",
-      "insurerName": "Allianz Australia",
-      "insurerSlug": "allianz-au",
-      "productName": "International Travel Pro",
-      "category": "travel",
-      "subCategory": "multi-trip",
-      "eligibility": {
-        "minAge": 20,
-        "maxAge": 73,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 577679,
-        "options": [],
-        "currency": "AUD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 75,
-        "illustrativeMax": 491,
-        "assumptions": "35yo Australian resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Medical emergencies abroad",
-        "Emergency evacuation",
-        "COVID-19 cover",
-        "Trip interruption",
-        "Trip cancellation",
-        "Pre-existing disease (optional)",
-        "Baggage loss",
-        "Adventure sports (add-on)"
-      ],
-      "keyExclusions": [
-        "Pre-existing diseases (unless declared)",
-        "Self-inflicted injuries",
-        "High-risk sports without add-on"
-      ],
-      "claimSettlement": {
-        "ratio": 96.3,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Adventure Sports",
-        "Annual Multi-Trip"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Adventure sports add-on",
-        "Cashless hospitalization abroad",
-        "Zero deductible option",
-        "Worldwide 24x7 assistance"
-      ],
-      "sourceUrl": "https://www.allianz.com.au/",
       "sourceType": "official-website",
       "lastVerified": "2026-04-14",
       "confidenceScore": "medium",
@@ -828,11 +466,7 @@
         "Self-inflicted injuries",
         "High-risk sports without add-on"
       ],
-      "claimSettlement": {
-        "ratio": 98.82,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Adventure Sports",
         "Annual Multi-Trip",
@@ -898,11 +532,7 @@
         "High-risk sports without add-on",
         "War and nuclear risks"
       ],
-      "claimSettlement": {
-        "ratio": 93.96,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Adventure Sports",
         "Pre-existing Disease"
@@ -969,11 +599,7 @@
         "Pre-existing diseases (unless declared)",
         "High-risk sports without add-on"
       ],
-      "claimSettlement": {
-        "ratio": 94.99,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Cruise Cover",
         "Annual Multi-Trip"
@@ -1036,11 +662,7 @@
         "Self-inflicted injuries",
         "High-risk sports without add-on"
       ],
-      "claimSettlement": {
-        "ratio": 98.33,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Cruise Cover",
         "Annual Multi-Trip"

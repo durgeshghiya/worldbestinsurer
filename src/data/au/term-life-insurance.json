@@ -143,11 +143,7 @@
         "Suicide within 13 months",
         "Non-disclosure"
       ],
-      "claimSettlement": {
-        "ratio": 96,
-        "year": "2024",
-        "source": "APRA"
-      },
+      "claimSettlement": null,
       "riders": [
         "Total & Permanent Disability",
         "Income Protection",
@@ -207,11 +203,7 @@
         "Suicide within 13 months",
         "Non-disclosure"
       ],
-      "claimSettlement": {
-        "ratio": 96,
-        "year": "2024",
-        "source": "APRA"
-      },
+      "claimSettlement": null,
       "riders": [
         "TPD",
         "Trauma",
@@ -269,11 +261,7 @@
         "Suicide within 13 months",
         "Non-disclosure"
       ],
-      "claimSettlement": {
-        "ratio": 95,
-        "year": "2024",
-        "source": "APRA"
-      },
+      "claimSettlement": null,
       "riders": [
         "TPD",
         "Critical Illness",
@@ -332,11 +320,7 @@
         "Suicide within 13 months",
         "Non-disclosure"
       ],
-      "claimSettlement": {
-        "ratio": 95,
-        "year": "2024",
-        "source": "APRA"
-      },
+      "claimSettlement": null,
       "riders": [
         "TPD",
         "Critical Illness",
@@ -395,11 +379,7 @@
         "Suicide within 13 months",
         "Non-disclosure"
       ],
-      "claimSettlement": {
-        "ratio": 97,
-        "year": "2024",
-        "source": "APRA"
-      },
+      "claimSettlement": null,
       "riders": [
         "TPD",
         "Critical Illness",
@@ -459,11 +439,7 @@
         "Suicide within 13 months",
         "Non-disclosure"
       ],
-      "claimSettlement": {
-        "ratio": 96,
-        "year": "2024",
-        "source": "APRA"
-      },
+      "claimSettlement": null,
       "riders": [
         "TPD",
         "Trauma",
@@ -525,11 +501,7 @@
         "Death due to suicide within first 12 months",
         "Death due to alcohol/drug abuse"
       ],
-      "claimSettlement": {
-        "ratio": 98.38,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Critical Illness",
         "Waiver of Premium"
@@ -555,367 +527,6 @@
         "Spouse cover option"
       ],
       "sourceUrl": "https://www.nib.com.au/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "au"
-    },
-    {
-      "id": "aia-au-click-2-protect-k1a",
-      "insurerName": "AIA Australia",
-      "insurerSlug": "aia-au",
-      "productName": "Click 2 Protect",
-      "category": "term-life",
-      "subCategory": "increasing-cover",
-      "eligibility": {
-        "minAge": 21,
-        "maxAge": 64,
-        "renewableUpTo": "age 76"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 1339273,
-        "options": [],
-        "currency": "AUD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 352,
-        "illustrativeMax": 1870,
-        "assumptions": "35yo Australian resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Terminal illness benefit",
-        "Waiver of premium on disability (rider)",
-        "Return of premium option",
-        "Increasing cover option",
-        "Death benefit",
-        "Accidental death benefit (rider)",
-        "Critical illness rider"
-      ],
-      "keyExclusions": [
-        "Death due to suicide within first 12 months",
-        "Death due to pre-existing conditions not disclosed",
-        "Death due to alcohol/drug abuse"
-      ],
-      "claimSettlement": {
-        "ratio": 91.75,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Terminal Illness"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 34,
-        "options": [
-          10,
-          15,
-          20,
-          25,
-          30,
-          35,
-          40
-        ]
-      },
-      "renewability": "Level term, not renewable post expiry",
-      "specialFeatures": [
-        "Online purchase discount",
-        "Multiple payout options (lump sum / monthly)",
-        "High claim settlement ratio"
-      ],
-      "sourceUrl": "https://www.aia.com.au/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "au"
-    },
-    {
-      "id": "tal-life-shield-plus-q5a",
-      "insurerName": "TAL",
-      "insurerSlug": "tal",
-      "productName": "Life Shield Plus",
-      "category": "term-life",
-      "subCategory": "pure-term",
-      "eligibility": {
-        "minAge": 20,
-        "maxAge": 58,
-        "renewableUpTo": "age 85"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 1306739,
-        "options": [],
-        "currency": "AUD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 377,
-        "illustrativeMax": 1850,
-        "assumptions": "35yo Australian resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Return of premium option",
-        "Critical illness rider",
-        "Waiver of premium on disability (rider)",
-        "Increasing cover option"
-      ],
-      "keyExclusions": [
-        "Death due to alcohol/drug abuse",
-        "Death due to pre-existing conditions not disclosed",
-        "Death due to suicide within first 12 months"
-      ],
-      "claimSettlement": {
-        "ratio": 90.26,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Waiver of Premium",
-        "Terminal Illness"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 32,
-        "options": [
-          10,
-          15,
-          20,
-          25,
-          30,
-          35,
-          40
-        ]
-      },
-      "renewability": "Level term, not renewable post expiry",
-      "specialFeatures": [
-        "Cover up to age 85",
-        "Spouse cover option",
-        "Medical test via home visit",
-        "Level premium for entire term",
-        "Online purchase discount"
-      ],
-      "sourceUrl": "https://www.tal.com.au/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "au"
-    },
-    {
-      "id": "mlc-life-pure-term-premier-w9a",
-      "insurerName": "MLC Life Insurance",
-      "insurerSlug": "mlc-life",
-      "productName": "Pure Term Premier",
-      "category": "term-life",
-      "subCategory": "joint-term",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 64,
-        "renewableUpTo": "age 75"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 1094315,
-        "options": [],
-        "currency": "AUD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 262,
-        "illustrativeMax": 1689,
-        "assumptions": "35yo Australian resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Return of premium option",
-        "Whole life option",
-        "Accidental death benefit (rider)",
-        "Terminal illness benefit",
-        "Waiver of premium on disability (rider)"
-      ],
-      "keyExclusions": [
-        "Death due to pre-existing conditions not disclosed",
-        "Death due to alcohol/drug abuse"
-      ],
-      "claimSettlement": {
-        "ratio": 96.01,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Accidental Death",
-        "Waiver of Premium"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 39,
-        "options": [
-          10,
-          15,
-          20,
-          25,
-          30,
-          35,
-          40
-        ]
-      },
-      "renewability": "Level term, not renewable post expiry",
-      "specialFeatures": [
-        "Medical test via home visit",
-        "High claim settlement ratio",
-        "Cover up to age 85"
-      ],
-      "sourceUrl": "https://www.mlcinsurance.com.au/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "au"
-    },
-    {
-      "id": "zurich-au-total-life-cover-2da",
-      "insurerName": "Zurich Australia",
-      "insurerSlug": "zurich-au",
-      "productName": "Total Life Cover",
-      "category": "term-life",
-      "subCategory": "increasing-cover",
-      "eligibility": {
-        "minAge": 19,
-        "maxAge": 60,
-        "renewableUpTo": "age 78"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 1624704,
-        "options": [],
-        "currency": "AUD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 345,
-        "illustrativeMax": 2105,
-        "assumptions": "35yo Australian resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Increasing cover option",
-        "Death benefit",
-        "Whole life option",
-        "Return of premium option",
-        "Waiver of premium on disability (rider)",
-        "Terminal illness benefit",
-        "Critical illness rider"
-      ],
-      "keyExclusions": [
-        "Death due to alcohol/drug abuse",
-        "Death due to pre-existing conditions not disclosed",
-        "Death due to suicide within first 12 months"
-      ],
-      "claimSettlement": {
-        "ratio": 95.84,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Accidental Death",
-        "Critical Illness"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 35,
-        "options": [
-          10,
-          15,
-          20,
-          25,
-          30,
-          35,
-          40
-        ]
-      },
-      "renewability": "Level term, not renewable post expiry",
-      "specialFeatures": [
-        "Medical test via home visit",
-        "High claim settlement ratio",
-        "Cover enhancement at life stages",
-        "Spouse cover option",
-        "Multiple payout options (lump sum / monthly)"
-      ],
-      "sourceUrl": "https://www.zurich.com.au/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "au"
-    },
-    {
-      "id": "allianz-au-term-elite-8ha",
-      "insurerName": "Allianz Australia",
-      "insurerSlug": "allianz-au",
-      "productName": "Term Elite",
-      "category": "term-life",
-      "subCategory": "pure-term",
-      "eligibility": {
-        "minAge": 20,
-        "maxAge": 60,
-        "renewableUpTo": "age 82"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 1155357,
-        "options": [],
-        "currency": "AUD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 372,
-        "illustrativeMax": 2046,
-        "assumptions": "35yo Australian resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Death benefit",
-        "Terminal illness benefit",
-        "Accidental death benefit (rider)",
-        "Waiver of premium on disability (rider)",
-        "Critical illness rider"
-      ],
-      "keyExclusions": [
-        "Death due to suicide within first 12 months",
-        "Death due to alcohol/drug abuse"
-      ],
-      "claimSettlement": {
-        "ratio": 94.09,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Accidental Death",
-        "Critical Illness",
-        "Waiver of Premium",
-        "Terminal Illness"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 39,
-        "options": [
-          10,
-          15,
-          20,
-          25,
-          30,
-          35,
-          40
-        ]
-      },
-      "renewability": "Level term, not renewable post expiry",
-      "specialFeatures": [
-        "Cover up to age 85",
-        "Multiple payout options (lump sum / monthly)",
-        "High claim settlement ratio"
-      ],
-      "sourceUrl": "https://www.allianz.com.au/",
       "sourceType": "official-website",
       "lastVerified": "2026-04-14",
       "confidenceScore": "medium",
@@ -957,11 +568,7 @@
         "Death due to pre-existing conditions not disclosed",
         "Death due to alcohol/drug abuse"
       ],
-      "claimSettlement": {
-        "ratio": 99.43,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Waiver of Premium",
         "Terminal Illness"
@@ -1030,11 +637,7 @@
         "Death due to pre-existing conditions not disclosed",
         "Death due to suicide within first 12 months"
       ],
-      "claimSettlement": {
-        "ratio": 93.32,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Critical Illness",
         "Waiver of Premium"
@@ -1102,11 +705,7 @@
         "Death due to pre-existing conditions not disclosed",
         "Death due to alcohol/drug abuse"
       ],
-      "claimSettlement": {
-        "ratio": 92.24,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Accidental Death",
         "Waiver of Premium"
@@ -1174,11 +773,7 @@
         "Death due to alcohol/drug abuse",
         "Death due to suicide within first 12 months"
       ],
-      "claimSettlement": {
-        "ratio": 93.32,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Accidental Death",
         "Terminal Illness"
@@ -1203,145 +798,6 @@
         "Cover up to age 85"
       ],
       "sourceUrl": "https://www.tal.com.au/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "au"
-    },
-    {
-      "id": "mlc-life-elite-term-pro-31a",
-      "insurerName": "MLC Life Insurance",
-      "insurerSlug": "mlc-life",
-      "productName": "Elite Term Pro",
-      "category": "term-life",
-      "subCategory": "joint-term",
-      "eligibility": {
-        "minAge": 20,
-        "maxAge": 61,
-        "renewableUpTo": "age 81"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 1768544,
-        "options": [],
-        "currency": "AUD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 431,
-        "illustrativeMax": 2441,
-        "assumptions": "35yo Australian resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Death benefit",
-        "Increasing cover option",
-        "Whole life option",
-        "Accidental death benefit (rider)",
-        "Terminal illness benefit"
-      ],
-      "keyExclusions": [
-        "Death due to alcohol/drug abuse",
-        "Death due to pre-existing conditions not disclosed"
-      ],
-      "claimSettlement": {
-        "ratio": 96.22,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Terminal Illness"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 30,
-        "options": [
-          10,
-          15,
-          20,
-          25,
-          30,
-          35,
-          40
-        ]
-      },
-      "renewability": "Level term, not renewable post expiry",
-      "specialFeatures": [
-        "Spouse cover option",
-        "Multiple payout options (lump sum / monthly)",
-        "Medical test via home visit",
-        "Cover enhancement at life stages"
-      ],
-      "sourceUrl": "https://www.mlcinsurance.com.au/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "au"
-    },
-    {
-      "id": "zurich-au-smartlife-term-95a",
-      "insurerName": "Zurich Australia",
-      "insurerSlug": "zurich-au",
-      "productName": "SmartLife Term",
-      "category": "term-life",
-      "subCategory": "whole-life",
-      "eligibility": {
-        "minAge": 20,
-        "maxAge": 65,
-        "renewableUpTo": "age 75"
-      },
-      "sumInsured": {
-        "min": 100000,
-        "max": 1868482,
-        "options": [],
-        "currency": "AUD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 343,
-        "illustrativeMax": 1980,
-        "assumptions": "35yo Australian resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Return of premium option",
-        "Death benefit",
-        "Terminal illness benefit",
-        "Whole life option"
-      ],
-      "keyExclusions": [
-        "Death due to suicide within first 12 months",
-        "Death due to pre-existing conditions not disclosed"
-      ],
-      "claimSettlement": {
-        "ratio": 92.54,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Accidental Death",
-        "Critical Illness"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 35,
-        "options": [
-          10,
-          15,
-          20,
-          25,
-          30,
-          35,
-          40
-        ]
-      },
-      "renewability": "Level term, not renewable post expiry",
-      "specialFeatures": [
-        "Cover up to age 85",
-        "Online purchase discount",
-        "Cover enhancement at life stages"
-      ],
-      "sourceUrl": "https://www.zurich.com.au/",
       "sourceType": "official-website",
       "lastVerified": "2026-04-14",
       "confidenceScore": "medium",

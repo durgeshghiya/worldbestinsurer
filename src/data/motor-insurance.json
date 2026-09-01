@@ -44,11 +44,7 @@
         "War/nuclear perils",
         "Driving without valid license"
       ],
-      "claimSettlement": {
-        "ratio": 71.0,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
+      "claimSettlement": null,
       "networkHospitals": null,
       "riders": [
         "Zero depreciation cover",
@@ -62,7 +58,10 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 3]
+        "options": [
+          1,
+          3
+        ]
       },
       "renewability": "Annual renewal",
       "specialFeatures": [
@@ -116,11 +115,7 @@
         "Driving without valid license",
         "Consequential loss"
       ],
-      "claimSettlement": {
-        "ratio": 71.0,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
+      "claimSettlement": null,
       "networkHospitals": null,
       "riders": [
         "Zero depreciation",
@@ -132,7 +127,11 @@
       "policyTenure": {
         "min": 1,
         "max": 5,
-        "options": [1, 3, 5]
+        "options": [
+          1,
+          3,
+          5
+        ]
       },
       "renewability": "Annual renewal",
       "specialFeatures": [
@@ -186,11 +185,7 @@
         "Driving without valid license",
         "Consequential loss"
       ],
-      "claimSettlement": {
-        "ratio": 83.0,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
+      "claimSettlement": null,
       "networkHospitals": null,
       "riders": [
         "Zero depreciation",
@@ -203,7 +198,10 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 3]
+        "options": [
+          1,
+          3
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
@@ -256,11 +254,7 @@
         "DUI-related damage",
         "Driving without valid license"
       ],
-      "claimSettlement": {
-        "ratio": 83.0,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
+      "claimSettlement": null,
       "networkHospitals": null,
       "riders": [
         "Zero depreciation",
@@ -271,7 +265,11 @@
       "policyTenure": {
         "min": 1,
         "max": 5,
-        "options": [1, 3, 5]
+        "options": [
+          1,
+          3,
+          5
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
@@ -324,11 +322,7 @@
         "DUI-related damage",
         "Driving without valid license"
       ],
-      "claimSettlement": {
-        "ratio": 78.0,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
+      "claimSettlement": null,
       "networkHospitals": null,
       "riders": [
         "Zero depreciation",
@@ -341,7 +335,10 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 3]
+        "options": [
+          1,
+          3
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
@@ -394,11 +391,7 @@
         "DUI",
         "Driving without valid license"
       ],
-      "claimSettlement": {
-        "ratio": 78.0,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
+      "claimSettlement": null,
       "networkHospitals": null,
       "riders": [
         "Zero depreciation",
@@ -409,7 +402,11 @@
       "policyTenure": {
         "min": 1,
         "max": 5,
-        "options": [1, 3, 5]
+        "options": [
+          1,
+          3,
+          5
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
@@ -462,11 +459,7 @@
         "Driving without valid license",
         "War/nuclear perils"
       ],
-      "claimSettlement": {
-        "ratio": 77.0,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
+      "claimSettlement": null,
       "networkHospitals": null,
       "riders": [
         "Zero depreciation",
@@ -480,7 +473,10 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 3]
+        "options": [
+          1,
+          3
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
@@ -533,11 +529,7 @@
         "DUI",
         "Driving without valid license"
       ],
-      "claimSettlement": {
-        "ratio": 77.0,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
+      "claimSettlement": null,
       "networkHospitals": null,
       "riders": [
         "Zero depreciation",
@@ -549,7 +541,11 @@
       "policyTenure": {
         "min": 1,
         "max": 5,
-        "options": [1, 3, 5]
+        "options": [
+          1,
+          3,
+          5
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
@@ -605,11 +601,7 @@
         "Driving without valid license",
         "War/nuclear risk"
       ],
-      "claimSettlement": {
-        "ratio": 91.0,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
+      "claimSettlement": null,
       "networkHospitals": null,
       "riders": [
         "Zero depreciation",
@@ -620,7 +612,9 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1]
+        "options": [
+          1
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
@@ -674,11 +668,7 @@
         "Driving without valid license",
         "Consequential loss"
       ],
-      "claimSettlement": {
-        "ratio": 84.0,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
+      "claimSettlement": null,
       "networkHospitals": null,
       "riders": [
         "Zero depreciation",
@@ -691,7 +681,10 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 3]
+        "options": [
+          1,
+          3
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
@@ -744,11 +737,7 @@
         "DUI",
         "Driving without valid license"
       ],
-      "claimSettlement": {
-        "ratio": 84.0,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
+      "claimSettlement": null,
       "networkHospitals": null,
       "riders": [
         "Zero depreciation",
@@ -759,7 +748,11 @@
       "policyTenure": {
         "min": 1,
         "max": 5,
-        "options": [1, 3, 5]
+        "options": [
+          1,
+          3,
+          5
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
@@ -813,11 +806,7 @@
         "Driving without valid license",
         "Consequential loss"
       ],
-      "claimSettlement": {
-        "ratio": 80.0,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
+      "claimSettlement": null,
       "networkHospitals": null,
       "riders": [
         "Zero depreciation",
@@ -829,7 +818,10 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 3]
+        "options": [
+          1,
+          3
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
@@ -882,11 +874,7 @@
         "DUI",
         "Driving without valid license"
       ],
-      "claimSettlement": {
-        "ratio": 80.0,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
+      "claimSettlement": null,
       "networkHospitals": null,
       "riders": [
         "Zero depreciation",
@@ -896,7 +884,11 @@
       "policyTenure": {
         "min": 1,
         "max": 5,
-        "options": [1, 3, 5]
+        "options": [
+          1,
+          3,
+          5
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
@@ -948,11 +940,7 @@
         "DUI-related damage",
         "Driving without valid license"
       ],
-      "claimSettlement": {
-        "ratio": 80.0,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
+      "claimSettlement": null,
       "networkHospitals": null,
       "riders": [
         "Zero depreciation",
@@ -965,7 +953,10 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 3]
+        "options": [
+          1,
+          3
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
@@ -1018,11 +1009,7 @@
         "DUI",
         "Driving without valid license"
       ],
-      "claimSettlement": {
-        "ratio": 85.0,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
+      "claimSettlement": null,
       "networkHospitals": null,
       "riders": [
         "Zero depreciation",
@@ -1034,7 +1021,10 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 3]
+        "options": [
+          1,
+          3
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
@@ -1087,11 +1077,7 @@
         "DUI",
         "Driving without valid license"
       ],
-      "claimSettlement": {
-        "ratio": 82.0,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
+      "claimSettlement": null,
       "networkHospitals": null,
       "riders": [
         "Zero depreciation",
@@ -1103,7 +1089,10 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 3]
+        "options": [
+          1,
+          3
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
@@ -1156,11 +1145,7 @@
         "DUI",
         "Driving without valid license"
       ],
-      "claimSettlement": {
-        "ratio": 79.0,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
+      "claimSettlement": null,
       "networkHospitals": null,
       "riders": [
         "Zero depreciation",
@@ -1172,7 +1157,10 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 3]
+        "options": [
+          1,
+          3
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
@@ -1225,11 +1213,7 @@
         "DUI",
         "Driving without valid license"
       ],
-      "claimSettlement": {
-        "ratio": 81.0,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
+      "claimSettlement": null,
       "networkHospitals": null,
       "riders": [
         "Zero depreciation",
@@ -1241,7 +1225,10 @@
       "policyTenure": {
         "min": 1,
         "max": 3,
-        "options": [1, 3]
+        "options": [
+          1,
+          3
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [
@@ -1296,11 +1283,7 @@
         "Driving without valid license",
         "War/nuclear risk"
       ],
-      "claimSettlement": {
-        "ratio": 88.0,
-        "year": "FY2023-24",
-        "source": "Unverified"
-      },
+      "claimSettlement": null,
       "networkHospitals": null,
       "riders": [
         "Zero depreciation",
@@ -1311,7 +1294,9 @@
       "policyTenure": {
         "min": 1,
         "max": 1,
-        "options": [1]
+        "options": [
+          1
+        ]
       },
       "renewability": "Annual",
       "specialFeatures": [

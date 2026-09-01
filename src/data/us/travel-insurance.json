@@ -183,11 +183,7 @@
         "Extreme sports without rider",
         "War zones"
       ],
-      "claimSettlement": {
-        "ratio": 90,
-        "year": "2024",
-        "source": "AM Best"
-      },
+      "claimSettlement": null,
       "riders": [
         "CFAR upgrade",
         "Adventure sports",
@@ -247,11 +243,7 @@
         "Pre-existing (without waiver)",
         "War"
       ],
-      "claimSettlement": {
-        "ratio": 89,
-        "year": "2024",
-        "source": "AM Best"
-      },
+      "claimSettlement": null,
       "riders": [
         "CFAR",
         "Pre-existing waiver",
@@ -312,11 +304,7 @@
         "Pre-existing (without waiver)",
         "Extreme sports"
       ],
-      "claimSettlement": {
-        "ratio": 90,
-        "year": "2024",
-        "source": "AM Best"
-      },
+      "claimSettlement": null,
       "riders": [
         "CFAR",
         "Pre-existing waiver",
@@ -377,11 +365,7 @@
         "Trip cancellation (not included by default)",
         "Extreme sports without upgrade"
       ],
-      "claimSettlement": {
-        "ratio": 88,
-        "year": "2024",
-        "source": "AM Best"
-      },
+      "claimSettlement": null,
       "riders": [
         "Trip cancellation upgrade",
         "Higher medical limits"
@@ -440,11 +424,7 @@
         "Pre-existing (without waiver)",
         "War"
       ],
-      "claimSettlement": {
-        "ratio": 93,
-        "year": "2024",
-        "source": "AM Best A++"
-      },
+      "claimSettlement": null,
       "riders": [
         "CFAR",
         "Pre-existing waiver",
@@ -467,355 +447,6 @@
       "lastVerified": "2026-04-13",
       "confidenceScore": "high",
       "notes": "",
-      "countryCode": "us"
-    },
-    {
-      "id": "allianz-travel-travel-secure-g1e",
-      "insurerName": "Allianz Travel Insurance (Allianz Global Assistance)",
-      "insurerSlug": "allianz-travel",
-      "productName": "Travel Secure",
-      "category": "travel",
-      "subCategory": "senior",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 66,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 353179,
-        "options": [],
-        "currency": "USD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 57,
-        "illustrativeMax": 265,
-        "assumptions": "40yo, monthly premium before subsidies",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Baggage delay",
-        "Trip cancellation",
-        "Personal liability",
-        "COVID-19 cover",
-        "Passport loss",
-        "Emergency evacuation",
-        "24x7 assistance",
-        "Trip interruption",
-        "Flight cancellation",
-        "Pre-existing disease (optional)"
-      ],
-      "keyExclusions": [
-        "Pregnancy complications",
-        "War and nuclear risks",
-        "High-risk sports without add-on",
-        "Self-inflicted injuries",
-        "Pre-existing diseases (unless declared)"
-      ],
-      "claimSettlement": {
-        "ratio": 92.3,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Annual Multi-Trip"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Annual multi-trip option",
-        "Zero deductible option",
-        "Cashless hospitalization abroad",
-        "Baggage delay cover",
-        "Trip cancellation cover"
-      ],
-      "sourceUrl": "https://www.allianztravelinsurance.com",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "us"
-    },
-    {
-      "id": "world-nomads-globe-protect-m5e",
-      "insurerName": "World Nomads Group Pty Ltd",
-      "insurerSlug": "world-nomads",
-      "productName": "Globe Protect",
-      "category": "travel",
-      "subCategory": "schengen",
-      "eligibility": {
-        "minAge": 20,
-        "maxAge": 74,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 444675,
-        "options": [],
-        "currency": "USD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 41,
-        "illustrativeMax": 341,
-        "assumptions": "40yo, monthly premium before subsidies",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Passport loss",
-        "24x7 assistance",
-        "Baggage loss",
-        "Trip cancellation",
-        "Emergency evacuation",
-        "Personal liability",
-        "Pre-existing disease (optional)"
-      ],
-      "keyExclusions": [
-        "War and nuclear risks",
-        "Self-inflicted injuries",
-        "Pre-existing diseases (unless declared)",
-        "Pregnancy complications",
-        "High-risk sports without add-on"
-      ],
-      "claimSettlement": {
-        "ratio": 91.17,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Cruise Cover",
-        "Pre-existing Disease"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Adventure sports add-on",
-        "Baggage delay cover",
-        "Cashless hospitalization abroad"
-      ],
-      "sourceUrl": "https://www.worldnomads.com",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "us"
-    },
-    {
-      "id": "travel-guard-aig-explorer-plus-s9e",
-      "insurerName": "Travel Guard (AIG Travel)",
-      "insurerSlug": "travel-guard-aig",
-      "productName": "Explorer Plus",
-      "category": "travel",
-      "subCategory": "multi-trip",
-      "eligibility": {
-        "minAge": 19,
-        "maxAge": 68,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 445388,
-        "options": [],
-        "currency": "USD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 60,
-        "illustrativeMax": 265,
-        "assumptions": "40yo, monthly premium before subsidies",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "COVID-19 cover",
-        "Pre-existing disease (optional)",
-        "Flight cancellation",
-        "Trip cancellation",
-        "24x7 assistance",
-        "Passport loss"
-      ],
-      "keyExclusions": [
-        "Pregnancy complications",
-        "High-risk sports without add-on",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": {
-        "ratio": 99.5,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Adventure Sports",
-        "Cruise Cover",
-        "Annual Multi-Trip",
-        "Pre-existing Disease"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Baggage delay cover",
-        "Schengen visa compliant",
-        "Cashless hospitalization abroad",
-        "Adventure sports add-on"
-      ],
-      "sourceUrl": "https://www.travelguard.com",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "us"
-    },
-    {
-      "id": "berkshire-hathaway-travel-travel-elite-yde",
-      "insurerName": "Berkshire Hathaway Travel Protection",
-      "insurerSlug": "berkshire-hathaway-travel",
-      "productName": "Travel Elite",
-      "category": "travel",
-      "subCategory": "family-trip",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 72,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 277478,
-        "options": [],
-        "currency": "USD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 69,
-        "illustrativeMax": 215,
-        "assumptions": "40yo, monthly premium before subsidies",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Flight delay",
-        "Emergency evacuation",
-        "Trip interruption",
-        "Passport loss",
-        "COVID-19 cover",
-        "Flight cancellation"
-      ],
-      "keyExclusions": [
-        "Pre-existing diseases (unless declared)",
-        "Self-inflicted injuries",
-        "War and nuclear risks"
-      ],
-      "claimSettlement": {
-        "ratio": 96.96,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Cruise Cover",
-        "Pre-existing Disease"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Adventure sports add-on",
-        "Baggage delay cover",
-        "Zero deductible option",
-        "Worldwide 24x7 assistance"
-      ],
-      "sourceUrl": "https://www.bhtp.com",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "us"
-    },
-    {
-      "id": "allianz-travel-voyage-shield-4he",
-      "insurerName": "Allianz Travel Insurance (Allianz Global Assistance)",
-      "insurerSlug": "allianz-travel",
-      "productName": "Voyage Shield",
-      "category": "travel",
-      "subCategory": "senior",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 69,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 482035,
-        "options": [],
-        "currency": "USD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 71,
-        "illustrativeMax": 289,
-        "assumptions": "40yo, monthly premium before subsidies",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Emergency evacuation",
-        "Medical emergencies abroad",
-        "Flight cancellation",
-        "COVID-19 cover",
-        "Flight delay",
-        "24x7 assistance",
-        "Personal liability",
-        "Baggage loss"
-      ],
-      "keyExclusions": [
-        "Pre-existing diseases (unless declared)",
-        "War and nuclear risks",
-        "Pregnancy complications",
-        "Self-inflicted injuries",
-        "High-risk sports without add-on"
-      ],
-      "claimSettlement": {
-        "ratio": 94.85,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Adventure Sports",
-        "Annual Multi-Trip"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Annual multi-trip option",
-        "Worldwide 24x7 assistance",
-        "Adventure sports add-on",
-        "Cashless hospitalization abroad"
-      ],
-      "sourceUrl": "https://www.allianztravelinsurance.com",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
       "countryCode": "us"
     },
     {
@@ -858,11 +489,7 @@
         "Self-inflicted injuries",
         "Pre-existing diseases (unless declared)"
       ],
-      "claimSettlement": {
-        "ratio": 92.63,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Adventure Sports",
         "Cruise Cover"
@@ -925,11 +552,7 @@
         "Pregnancy complications",
         "War and nuclear risks"
       ],
-      "claimSettlement": {
-        "ratio": 90.47,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Adventure Sports",
         "Cruise Cover",
@@ -999,11 +622,7 @@
         "Pre-existing diseases (unless declared)",
         "High-risk sports without add-on"
       ],
-      "claimSettlement": {
-        "ratio": 91.55,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Adventure Sports",
         "Cruise Cover",
@@ -1070,11 +689,7 @@
         "High-risk sports without add-on",
         "Self-inflicted injuries"
       ],
-      "claimSettlement": {
-        "ratio": 98.91,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Adventure Sports",
         "Cruise Cover",
@@ -1094,221 +709,6 @@
         "Schengen visa compliant"
       ],
       "sourceUrl": "https://www.allianztravelinsurance.com",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "us"
-    },
-    {
-      "id": "world-nomads-travel-classic-z1e",
-      "insurerName": "World Nomads Group Pty Ltd",
-      "insurerSlug": "world-nomads",
-      "productName": "Travel Classic",
-      "category": "travel",
-      "subCategory": "single-trip",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 66,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 485205,
-        "options": [],
-        "currency": "USD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 41,
-        "illustrativeMax": 251,
-        "assumptions": "40yo, monthly premium before subsidies",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Personal liability",
-        "Adventure sports (add-on)",
-        "Pre-existing disease (optional)",
-        "Baggage loss",
-        "Emergency evacuation",
-        "Flight delay",
-        "Trip interruption",
-        "24x7 assistance",
-        "Flight cancellation",
-        "COVID-19 cover"
-      ],
-      "keyExclusions": [
-        "High-risk sports without add-on",
-        "Self-inflicted injuries",
-        "Pre-existing diseases (unless declared)",
-        "Pregnancy complications",
-        "War and nuclear risks"
-      ],
-      "claimSettlement": {
-        "ratio": 91.28,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Cruise Cover",
-        "Pre-existing Disease"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Trip cancellation cover",
-        "Adventure sports add-on",
-        "Schengen visa compliant",
-        "Zero deductible option",
-        "Baggage delay cover"
-      ],
-      "sourceUrl": "https://www.worldnomads.com",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "us"
-    },
-    {
-      "id": "travel-guard-aig-vacation-guard-55e",
-      "insurerName": "Travel Guard (AIG Travel)",
-      "insurerSlug": "travel-guard-aig",
-      "productName": "Vacation Guard",
-      "category": "travel",
-      "subCategory": "multi-trip",
-      "eligibility": {
-        "minAge": 21,
-        "maxAge": 67,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 388902,
-        "options": [],
-        "currency": "USD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 56,
-        "illustrativeMax": 320,
-        "assumptions": "40yo, monthly premium before subsidies",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Adventure sports (add-on)",
-        "Baggage delay",
-        "Medical emergencies abroad",
-        "Passport loss",
-        "Flight cancellation",
-        "Baggage loss",
-        "Personal liability",
-        "Emergency evacuation",
-        "24x7 assistance"
-      ],
-      "keyExclusions": [
-        "Pre-existing diseases (unless declared)",
-        "War and nuclear risks",
-        "Pregnancy complications",
-        "High-risk sports without add-on",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": {
-        "ratio": 96.27,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Adventure Sports"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Zero deductible option",
-        "Adventure sports add-on",
-        "Baggage delay cover"
-      ],
-      "sourceUrl": "https://www.travelguard.com",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "us"
-    },
-    {
-      "id": "berkshire-hathaway-travel-travel-premier-b9e",
-      "insurerName": "Berkshire Hathaway Travel Protection",
-      "insurerSlug": "berkshire-hathaway-travel",
-      "productName": "Travel Premier",
-      "category": "travel",
-      "subCategory": "multi-trip",
-      "eligibility": {
-        "minAge": 19,
-        "maxAge": 75,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 418416,
-        "options": [],
-        "currency": "USD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 51,
-        "illustrativeMax": 248,
-        "assumptions": "40yo, monthly premium before subsidies",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Emergency evacuation",
-        "24x7 assistance",
-        "Flight delay",
-        "Trip cancellation",
-        "Personal liability",
-        "Passport loss",
-        "Adventure sports (add-on)",
-        "Medical emergencies abroad"
-      ],
-      "keyExclusions": [
-        "High-risk sports without add-on",
-        "Pregnancy complications",
-        "Self-inflicted injuries",
-        "War and nuclear risks"
-      ],
-      "claimSettlement": {
-        "ratio": 92.32,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Adventure Sports",
-        "Cruise Cover",
-        "Annual Multi-Trip"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Worldwide 24x7 assistance",
-        "Cashless hospitalization abroad",
-        "Trip cancellation cover",
-        "Baggage delay cover"
-      ],
-      "sourceUrl": "https://www.bhtp.com",
       "sourceType": "official-website",
       "lastVerified": "2026-04-14",
       "confidenceScore": "medium",
@@ -1354,11 +754,7 @@
         "Pre-existing diseases (unless declared)",
         "Pregnancy complications"
       ],
-      "claimSettlement": {
-        "ratio": 93.2,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Adventure Sports",
         "Cruise Cover"
@@ -1425,11 +821,7 @@
         "High-risk sports without add-on",
         "Pre-existing diseases (unless declared)"
       ],
-      "claimSettlement": {
-        "ratio": 93.06,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Adventure Sports"
       ],
@@ -1495,11 +887,7 @@
         "Pre-existing diseases (unless declared)",
         "War and nuclear risks"
       ],
-      "claimSettlement": {
-        "ratio": 97.51,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Pre-existing Disease"
       ],

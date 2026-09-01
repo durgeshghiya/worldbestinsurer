@@ -13,10 +13,7 @@
       "established": 1931,
       "website": "https://www.aia.com.hk/",
       "claimSettlementRatio": null,
-      "networkHospitals": {
-        "count": 12,
-        "note": "Major private hospitals in HK"
-      },
+      "networkHospitals": 12,
       "categories": [
         "health",
         "term-life",
@@ -104,10 +101,7 @@
       "established": 1976,
       "website": "https://www.bupa.com.hk/",
       "claimSettlementRatio": null,
-      "networkHospitals": {
-        "count": 12,
-        "note": "Private hospitals in HK"
-      },
+      "networkHospitals": 12,
       "categories": [
         "health",
         "motor",

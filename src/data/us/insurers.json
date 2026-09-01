@@ -18,10 +18,7 @@
         "year": null,
         "verified": false
       },
-      "networkHospitals": {
-        "count": 1300000,
-        "source": "UHC website (providers and facilities)"
-      },
+      "networkHospitals": null,
       "description": "Largest health insurer in the US by enrollment. Subsidiary of UnitedHealth Group.",
       "countryCode": "us",
       "contact": {
@@ -45,10 +42,7 @@
         "year": null,
         "verified": false
       },
-      "networkHospitals": {
-        "count": 700000,
-        "source": "Anthem network estimate"
-      },
+      "networkHospitals": null,
       "description": "Second-largest health insurer. Part of Elevance Health (formerly Anthem Inc).",
       "countryCode": "us",
       "contact": {
@@ -72,10 +66,7 @@
         "year": null,
         "verified": false
       },
-      "networkHospitals": {
-        "count": 700000,
-        "source": "Aetna network estimate"
-      },
+      "networkHospitals": null,
       "description": "Major health insurer, acquired by CVS Health in 2018. Integrated with CVS pharmacy.",
       "countryCode": "us",
       "contact": {
@@ -101,10 +92,7 @@
         "year": null,
         "verified": false
       },
-      "networkHospitals": {
-        "count": 900000,
-        "source": "Cigna OAP network estimate"
-      },
+      "networkHospitals": null,
       "description": "Global health services company. Merged with Express Scripts for pharmacy integration.",
       "countryCode": "us",
       "contact": {
@@ -156,10 +144,7 @@
         "year": null,
         "verified": false
       },
-      "networkHospitals": {
-        "count": 39,
-        "source": "Kaiser hospitals (integrated system)"
-      },
+      "networkHospitals": 39,
       "description": "Largest integrated managed care organization in the US. Available in select states.",
       "countryCode": "us",
       "contact": {

@@ -184,11 +184,7 @@
         "Pre-existing (underwriting)",
         "Self-inflicted injuries"
       ],
-      "claimSettlement": {
-        "ratio": 92,
-        "year": "2024",
-        "source": "FSS Korea"
-      },
+      "claimSettlement": null,
       "riders": [
         "Critical illness upgrade",
         "Disability income"
@@ -249,11 +245,7 @@
         "Pre-existing",
         "Self-inflicted"
       ],
-      "claimSettlement": {
-        "ratio": 92,
-        "year": "2024",
-        "source": "FSS Korea"
-      },
+      "claimSettlement": null,
       "riders": [
         "CI upgrade",
         "Disability income"
@@ -314,11 +306,7 @@
         "Pre-existing",
         "Self-inflicted"
       ],
-      "claimSettlement": {
-        "ratio": 92,
-        "year": "2024",
-        "source": "FSS Korea"
-      },
+      "claimSettlement": null,
       "riders": [
         "Critical illness",
         "Disability income"
@@ -379,11 +367,7 @@
         "Pre-existing",
         "Self-inflicted"
       ],
-      "claimSettlement": {
-        "ratio": 93,
-        "year": "2024",
-        "source": "FSS Korea"
-      },
+      "claimSettlement": null,
       "riders": [
         "CI upgrade",
         "Disability income"
@@ -444,11 +428,7 @@
         "Pre-existing",
         "Self-inflicted"
       ],
-      "claimSettlement": {
-        "ratio": 91,
-        "year": "2024",
-        "source": "FSS Korea"
-      },
+      "claimSettlement": null,
       "riders": [
         "CI upgrade",
         "Agricultural worker special rates"
@@ -513,11 +493,7 @@
         "Cosmetic surgery (unless medically necessary)",
         "Substance abuse treatment"
       ],
-      "claimSettlement": {
-        "ratio": 97.35,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Critical Illness",
         "Personal Accident"
@@ -587,11 +563,7 @@
         "Substance abuse treatment",
         "Experimental treatments"
       ],
-      "claimSettlement": {
-        "ratio": 95.37,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Critical Illness",
         "Personal Accident"
@@ -663,11 +635,7 @@
         "Pre-existing diseases during waiting period",
         "Cosmetic surgery (unless medically necessary)"
       ],
-      "claimSettlement": {
-        "ratio": 93.1,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Critical Illness",
         "Personal Accident",
@@ -737,11 +705,7 @@
         "Dental treatment (unless accident)",
         "Substance abuse treatment"
       ],
-      "claimSettlement": {
-        "ratio": 99.09,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Critical Illness",
         "Personal Accident",
@@ -771,232 +735,6 @@
         "initial": "30 days",
         "preExisting": "27 months",
         "specific": "17 months"
-      }
-    },
-    {
-      "id": "db-insurance-wellness-premier-31o",
-      "insurerName": "DB Insurance Co., Ltd.",
-      "insurerSlug": "db-insurance",
-      "productName": "Wellness Premier",
-      "category": "health",
-      "subCategory": "senior-citizen",
-      "eligibility": {
-        "minAge": 21,
-        "maxAge": 65,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 30000000,
-        "max": 485210907,
-        "options": [],
-        "currency": "KRW"
-      },
-      "premiumRange": {
-        "illustrativeMin": 718737,
-        "illustrativeMax": 2432076,
-        "assumptions": "35yo Korean resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Domiciliary hospitalization",
-        "Restoration of sum insured",
-        "In-patient hospitalization",
-        "Maternity benefits",
-        "No room rent sub-limits",
-        "Modern treatments (robotic surgery, etc.)"
-      ],
-      "keyExclusions": [
-        "Cosmetic surgery (unless medically necessary)",
-        "Substance abuse treatment",
-        "Pre-existing diseases during waiting period",
-        "Dental treatment (unless accident)"
-      ],
-      "claimSettlement": {
-        "ratio": 93.34,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Critical Illness",
-        "Personal Accident",
-        "OPD Cover",
-        "Maternity Cover"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Global emergency cover",
-        "No room rent capping",
-        "Cashless at network hospitals"
-      ],
-      "sourceUrl": "https://www.idbins.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "kr",
-      "waitingPeriod": {
-        "initial": "30 days",
-        "preExisting": "44 months",
-        "specific": "14 months"
-      }
-    },
-    {
-      "id": "kb-insurance-total-protect-95o",
-      "insurerName": "KB Insurance Co., Ltd.",
-      "insurerSlug": "kb-insurance",
-      "productName": "Total Protect",
-      "category": "health",
-      "subCategory": "senior-citizen",
-      "eligibility": {
-        "minAge": 19,
-        "maxAge": 70,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 30000000,
-        "max": 461096001,
-        "options": [],
-        "currency": "KRW"
-      },
-      "premiumRange": {
-        "illustrativeMin": 463201,
-        "illustrativeMax": 3739583,
-        "assumptions": "35yo Korean resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Vaccination cover",
-        "New-born baby cover",
-        "Day care procedures",
-        "Post-hospitalization (60-180 days)",
-        "AYUSH treatments",
-        "Restoration of sum insured",
-        "Domiciliary hospitalization",
-        "In-patient hospitalization",
-        "Organ donor expenses",
-        "Ambulance charges"
-      ],
-      "keyExclusions": [
-        "Pre-existing diseases during waiting period",
-        "Self-inflicted injuries",
-        "Experimental treatments",
-        "Substance abuse treatment"
-      ],
-      "claimSettlement": {
-        "ratio": 95.22,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Critical Illness",
-        "OPD Cover"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "No room rent capping",
-        "OPD wellness package",
-        "Second medical opinion included"
-      ],
-      "sourceUrl": "https://www.kbinsure.co.kr/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "kr",
-      "waitingPeriod": {
-        "initial": "30 days",
-        "preExisting": "37 months",
-        "specific": "16 months"
-      }
-    },
-    {
-      "id": "meritz-fire-medisure-advantage-f9o",
-      "insurerName": "Meritz Fire & Marine Insurance",
-      "insurerSlug": "meritz-fire",
-      "productName": "MediSure Advantage",
-      "category": "health",
-      "subCategory": "individual",
-      "eligibility": {
-        "minAge": 20,
-        "maxAge": 74,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 30000000,
-        "max": 306204171,
-        "options": [],
-        "currency": "KRW"
-      },
-      "premiumRange": {
-        "illustrativeMin": 647477,
-        "illustrativeMax": 2446173,
-        "assumptions": "35yo Korean resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Vaccination cover",
-        "Modern treatments (robotic surgery, etc.)",
-        "Mental health coverage",
-        "Organ donor expenses",
-        "Post-hospitalization (60-180 days)",
-        "Restoration of sum insured",
-        "Pre-hospitalization (30-60 days)",
-        "Annual health check-up",
-        "Maternity benefits"
-      ],
-      "keyExclusions": [
-        "Substance abuse treatment",
-        "Self-inflicted injuries",
-        "Cosmetic surgery (unless medically necessary)"
-      ],
-      "claimSettlement": {
-        "ratio": 98.15,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Critical Illness",
-        "OPD Cover",
-        "Maternity Cover"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Cashless at network hospitals",
-        "Day 1 PED cover (optional)",
-        "No room rent capping",
-        "No copay up to age 60"
-      ],
-      "sourceUrl": "https://www.meritzfire.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "kr",
-      "waitingPeriod": {
-        "initial": "30 days",
-        "preExisting": "45 months",
-        "specific": "18 months"
       }
     },
     {
@@ -1040,11 +778,7 @@
         "Self-inflicted injuries",
         "Dental treatment (unless accident)"
       ],
-      "claimSettlement": {
-        "ratio": 97.3,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "OPD Cover",
         "Maternity Cover"
@@ -1116,11 +850,7 @@
         "Dental treatment (unless accident)",
         "Pre-existing diseases during waiting period"
       ],
-      "claimSettlement": {
-        "ratio": 95.09,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Critical Illness",
         "OPD Cover",
@@ -1192,11 +922,7 @@
         "Self-inflicted injuries",
         "Cosmetic surgery (unless medically necessary)"
       ],
-      "claimSettlement": {
-        "ratio": 95.14,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Critical Illness",
         "OPD Cover",
@@ -1227,162 +953,6 @@
         "initial": "30 days",
         "preExisting": "31 months",
         "specific": "13 months"
-      }
-    },
-    {
-      "id": "samsung-life-ultra-protect-3po",
-      "insurerName": "Samsung Life Insurance",
-      "insurerSlug": "samsung-life",
-      "productName": "Ultra Protect",
-      "category": "health",
-      "subCategory": "top-up",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 70,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 30000000,
-        "max": 477057760,
-        "options": [],
-        "currency": "KRW"
-      },
-      "premiumRange": {
-        "illustrativeMin": 445214,
-        "illustrativeMax": 3513199,
-        "assumptions": "35yo Korean resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Day care procedures",
-        "Organ donor expenses",
-        "Modern treatments (robotic surgery, etc.)",
-        "Post-hospitalization (60-180 days)",
-        "Annual health check-up",
-        "Pre-hospitalization (30-60 days)",
-        "In-patient hospitalization",
-        "Ambulance charges",
-        "Restoration of sum insured",
-        "Domiciliary hospitalization"
-      ],
-      "keyExclusions": [
-        "Cosmetic surgery (unless medically necessary)",
-        "Substance abuse treatment",
-        "Pre-existing diseases during waiting period",
-        "Dental treatment (unless accident)",
-        "Experimental treatments"
-      ],
-      "claimSettlement": {
-        "ratio": 98.8,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Critical Illness",
-        "Personal Accident"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Automatic sum insured restoration",
-        "Consumables covered",
-        "No copay up to age 60",
-        "Premium discount for claim-free years"
-      ],
-      "sourceUrl": "https://www.samsunglife.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "kr",
-      "waitingPeriod": {
-        "initial": "30 days",
-        "preExisting": "27 months",
-        "specific": "20 months"
-      }
-    },
-    {
-      "id": "hanwha-life-supreme-shield-9to",
-      "insurerName": "Hanwha Life Insurance",
-      "insurerSlug": "hanwha-life",
-      "productName": "Supreme Shield",
-      "category": "health",
-      "subCategory": "critical-illness",
-      "eligibility": {
-        "minAge": 19,
-        "maxAge": 78,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 30000000,
-        "max": 353109675,
-        "options": [],
-        "currency": "KRW"
-      },
-      "premiumRange": {
-        "illustrativeMin": 480681,
-        "illustrativeMax": 3451088,
-        "assumptions": "35yo Korean resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Ambulance charges",
-        "Organ donor expenses",
-        "Mental health coverage",
-        "Modern treatments (robotic surgery, etc.)",
-        "Domiciliary hospitalization",
-        "No room rent sub-limits",
-        "Annual health check-up",
-        "In-patient hospitalization",
-        "Pre-hospitalization (30-60 days)"
-      ],
-      "keyExclusions": [
-        "Dental treatment (unless accident)",
-        "Experimental treatments",
-        "Substance abuse treatment",
-        "Self-inflicted injuries"
-      ],
-      "claimSettlement": {
-        "ratio": 90.05,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Critical Illness",
-        "OPD Cover",
-        "Maternity Cover"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Day 1 PED cover (optional)",
-        "OPD wellness package",
-        "Second medical opinion included",
-        "Lifetime renewal",
-        "Global emergency cover"
-      ],
-      "sourceUrl": "https://www.hanwhalife.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "kr",
-      "waitingPeriod": {
-        "initial": "30 days",
-        "preExisting": "40 months",
-        "specific": "12 months"
       }
     },
     {
@@ -1426,11 +996,7 @@
         "Self-inflicted injuries",
         "Experimental treatments"
       ],
-      "claimSettlement": {
-        "ratio": 98.19,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
+      "claimSettlement": null,
       "riders": [
         "Critical Illness",
         "Personal Accident",
@@ -1460,158 +1026,6 @@
         "initial": "30 days",
         "preExisting": "32 months",
         "specific": "12 months"
-      }
-    },
-    {
-      "id": "mirae-asset-secure-health-m1o",
-      "insurerName": "Mirae Asset Life Insurance",
-      "insurerSlug": "mirae-asset",
-      "productName": "Secure Health",
-      "category": "health",
-      "subCategory": "top-up",
-      "eligibility": {
-        "minAge": 20,
-        "maxAge": 68,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 30000000,
-        "max": 316364993,
-        "options": [],
-        "currency": "KRW"
-      },
-      "premiumRange": {
-        "illustrativeMin": 529113,
-        "illustrativeMax": 2960474,
-        "assumptions": "35yo Korean resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "No room rent sub-limits",
-        "AYUSH treatments",
-        "Mental health coverage",
-        "Annual health check-up",
-        "Ambulance charges",
-        "Domiciliary hospitalization",
-        "Restoration of sum insured",
-        "Modern treatments (robotic surgery, etc.)",
-        "Vaccination cover"
-      ],
-      "keyExclusions": [
-        "Dental treatment (unless accident)",
-        "Experimental treatments",
-        "Substance abuse treatment",
-        "Pre-existing diseases during waiting period"
-      ],
-      "claimSettlement": {
-        "ratio": 94.55,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Critical Illness",
-        "Maternity Cover"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Second medical opinion included",
-        "OPD wellness package",
-        "Day 1 PED cover (optional)",
-        "Lifetime renewal",
-        "No pre-policy medical check (under 45)"
-      ],
-      "sourceUrl": "https://life.miraeasset.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "kr",
-      "waitingPeriod": {
-        "initial": "30 days",
-        "preExisting": "41 months",
-        "specific": "21 months"
-      }
-    },
-    {
-      "id": "db-insurance-premier-wellness-s5o",
-      "insurerName": "DB Insurance Co., Ltd.",
-      "insurerSlug": "db-insurance",
-      "productName": "Premier Wellness",
-      "category": "health",
-      "subCategory": "individual",
-      "eligibility": {
-        "minAge": 18,
-        "maxAge": 77,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 30000000,
-        "max": 253398963,
-        "options": [],
-        "currency": "KRW"
-      },
-      "premiumRange": {
-        "illustrativeMin": 665125,
-        "illustrativeMax": 3052494,
-        "assumptions": "35yo Korean resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Ambulance charges",
-        "Day care procedures",
-        "Restoration of sum insured",
-        "Maternity benefits",
-        "Domiciliary hospitalization",
-        "Annual health check-up",
-        "Post-hospitalization (60-180 days)"
-      ],
-      "keyExclusions": [
-        "Pre-existing diseases during waiting period",
-        "Experimental treatments",
-        "Self-inflicted injuries",
-        "Cosmetic surgery (unless medically necessary)",
-        "Dental treatment (unless accident)"
-      ],
-      "claimSettlement": {
-        "ratio": 91.79,
-        "year": "FY2023-24",
-        "source": "Insurer / Regulator"
-      },
-      "riders": [
-        "Critical Illness",
-        "Personal Accident"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Consumables covered",
-        "Automatic sum insured restoration",
-        "Day 1 PED cover (optional)",
-        "Global emergency cover"
-      ],
-      "sourceUrl": "https://www.idbins.com/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "kr",
-      "waitingPeriod": {
-        "initial": "30 days",
-        "preExisting": "41 months",
-        "specific": "13 months"
       }
     }
   ]

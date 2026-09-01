@@ -14,7 +14,7 @@
       "established": 2000,
       "listed": true,
       "claimSettlementRatio": {
-        "value": 98.5,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -47,7 +47,7 @@
       "established": 2001,
       "listed": true,
       "claimSettlementRatio": {
-        "value": 97.8,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -80,7 +80,7 @@
       "established": 2000,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 99.2,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -112,7 +112,7 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 98.6,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -140,7 +140,7 @@
       "established": 2001,
       "listed": true,
       "claimSettlementRatio": {
-        "value": 96.4,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -168,7 +168,7 @@
       "established": 1956,
       "listed": true,
       "claimSettlementRatio": {
-        "value": 98.3,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -195,7 +195,7 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 98.1,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -223,7 +223,7 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 97.5,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -251,7 +251,7 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 98,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -279,7 +279,7 @@
       "established": 2008,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 96.8,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -306,7 +306,7 @@
       "established": 2011,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 97,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -333,7 +333,7 @@
       "established": 2015,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 95,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -360,7 +360,7 @@
       "established": 2000,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 97.5,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -388,7 +388,7 @@
       "established": 2008,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 96,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -415,7 +415,7 @@
       "established": 2006,
       "listed": true,
       "claimSettlementRatio": {
-        "value": 65.47,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -449,7 +449,7 @@
       "established": 2012,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 77.5,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -477,7 +477,7 @@
       "established": 2008,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 56,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -505,7 +505,7 @@
       "established": 2016,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 62,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -532,7 +532,7 @@
       "established": 2013,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 69,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -561,7 +561,7 @@
       "established": 2002,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 71,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -592,7 +592,7 @@
       "established": 2001,
       "listed": true,
       "claimSettlementRatio": {
-        "value": 83,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -622,7 +622,7 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 78,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -652,7 +652,7 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 77,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -682,7 +682,7 @@
       "established": 1919,
       "listed": true,
       "claimSettlementRatio": {
-        "value": 91,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -711,7 +711,7 @@
       "established": 2017,
       "listed": true,
       "claimSettlementRatio": {
-        "value": 84,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -743,7 +743,7 @@
       "established": 2016,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 80,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -771,7 +771,7 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 80,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -800,7 +800,7 @@
       "established": 2000,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 85,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -829,7 +829,7 @@
       "established": 2009,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 82,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -857,7 +857,7 @@
       "established": 2015,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 79,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -885,7 +885,7 @@
       "established": 2002,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 81,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -913,7 +913,7 @@
       "established": 1906,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 88,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -941,7 +941,7 @@
       "established": 1947,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 86,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },
@@ -969,7 +969,7 @@
       "established": 1938,
       "listed": false,
       "claimSettlementRatio": {
-        "value": 89,
+        "value": null,
         "year": "FY2023-24",
         "verified": false
       },

@@ -109,7 +109,11 @@ export interface Insurer {
   headquarters: string;
   established: number;
   listed: boolean;
-  claimSettlementRatio: { value: number; year: string; verified: boolean };
+  // `value` is null until the figure is verified against the regulator's own
+  // filing. It was previously populated with unsourced numbers that varied per
+  // product for the same insurer; every render site guards on `?.value`, so a
+  // null simply withholds the stat.
+  claimSettlementRatio: { value: number | null; year: string; verified: boolean };
   networkHospitals: number | null;
   description: string;
   countryCode: string;
