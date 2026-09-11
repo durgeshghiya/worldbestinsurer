@@ -79,7 +79,7 @@ export default async function InsurerPage({ params }: { params: Promise<{ slug: 
           <div className="bg-surface rounded-xl border border-border p-5">
             <Building2 className="w-4 h-4 text-primary mb-2" />
             <p className="text-[11px] text-text-tertiary">Network Hospitals</p>
-            <p className="text-[15px] font-semibold text-text-primary">{(insurer.networkHospitals / 1000).toFixed(0)}K+</p>
+            <p className="text-[15px] font-semibold text-text-primary">{insurer.networkHospitals >= 1000 ? `${Math.round(insurer.networkHospitals / 1000)}K+` : `${insurer.networkHospitals}`}</p>
           </div>
         )}
       </div>

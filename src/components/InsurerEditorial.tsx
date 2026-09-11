@@ -130,11 +130,33 @@ function buildLede(
       ? `We currently track ${products.length} ${products.length === 1 ? "product" : "products"} from ${(ins.shortName || ins.name)} on World Best Insurer.`
       : "";
   return (
-    `${(ins.shortName || ins.name)} is ${ins.type === "private" ? "a private" : "a"} insurer headquartered in ${ins.headquarters || "an undisclosed location"}` +
+    `${(ins.shortName || ins.name)} is ${describeType(ins.type)} headquartered in ${ins.headquarters || "an undisclosed location"}` +
     (ins.established ? `, established in ${ins.established} — ${yearsActive} years in the market` : "") +
     `. The company operates in ${country} across ${cats}. ` +
     productLine
   );
+}
+
+/**
+ * `type` holds the line of business (health, life, general, takaful, ...), not
+ * an ownership model. A previous ternary tested it for "private", which it
+ * never is, so every insurer page read "is a insurer". This renders the field
+ * as written and picks the right article.
+ */
+function describeType(type: string | undefined): string {
+  const label = (
+    {
+      "multi-line": "multi-line",
+      "life-health": "life and health",
+      "health-travel": "health and travel",
+      "standalone-health": "standalone health",
+      "general-digital": "digital general",
+      "health-tpa": "health",
+    } as Record<string, string>
+  )[type ?? ""] ?? (type ?? "");
+  if (!label) return "an insurer";
+  const article = /^[aeiou]/i.test(label) ? "an" : "a";
+  return `${article} ${label} insurer`;
 }
 
 function buildTrackRecordParagraph(
@@ -142,9 +164,14 @@ function buildTrackRecordParagraph(
   stats: PeerStats | null
 ): string | null {
   if (!ins.claimSettlementRatio?.value) {
+    // We withhold our own claim-settlement figure until it is verified against
+    // the regulator's filing. Saying the INSURER does not disclose would be a
+    // claim about them that we cannot support, and in several cases is simply
+    // untrue — the gap is ours, so say that instead.
     return (
-      `Public claim settlement data for ${(ins.shortName || ins.name)} is not currently disclosed in regulator filings we can verify; this is itself a signal worth weighing. ` +
-      `Insurers that publish settlement ratios annually and let those numbers be audited against complaints data tend to be the easier ones to plan around.`
+      `We do not publish a claim settlement ratio for ${(ins.shortName || ins.name)} yet. ` +
+      `Our figure for this insurer has not been verified against the regulator's own filing, and we would rather show nothing than a number we cannot stand behind. ` +
+      `The insurer's published annual report and its regulator's disclosures are the right primary sources until we have.`
     );
   }
 

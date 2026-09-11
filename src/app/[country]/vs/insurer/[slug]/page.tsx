@@ -195,7 +195,7 @@ export default async function InsurerVSPage({
           icon={<Shield className="w-3.5 h-3.5" />}
         />
         <CompareRow
-          label="Products in {c.name}"
+          label={`Products in ${c.name}`}
           valA={String(productsA.length)}
           valB={String(productsB.length)}
         />

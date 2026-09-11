@@ -231,8 +231,10 @@ export default function ProductTabs({
             ) : (
               <div className="bg-surface rounded-2xl border border-border p-8 text-center">
                 <Info className="w-8 h-8 text-text-tertiary mx-auto mb-3" />
-                <p className="text-[14px] text-text-tertiary">
-                  Claim settlement information is not yet available for this product.
+                <p className="text-[14px] text-text-tertiary leading-relaxed">
+                  We publish a claim settlement ratio only once it is verified
+                  against the regulator&apos;s own filing. We do not have a
+                  verified figure for this product yet.
                 </p>
               </div>
             )}

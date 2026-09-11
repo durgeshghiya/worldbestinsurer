@@ -189,7 +189,21 @@ export default async function CountryInsurerPage({ params }: { params: Promise<{
         </div>
       )}
 
-      <h2 className="text-[20px] font-bold text-text-primary mb-4">Products on World Best Insurer ({products.length})</h2>
+      <h2 className="text-[20px] font-bold text-text-primary mb-4">
+        {products.length > 0
+          ? `Products on World Best Insurer (${products.length})`
+          : "Products on World Best Insurer"}
+      </h2>
+      {products.length === 0 && (
+        <div className="mb-8 p-6 bg-surface-sunken rounded-xl border border-border-light">
+          <p className="text-[14px] text-text-secondary leading-relaxed">
+            We do not currently list any plans from this insurer. Records that
+            could not be traced to a primary source were removed rather than
+            published, so a short list here reflects what we can verify, not the
+            insurer&apos;s actual range.
+          </p>
+        </div>
+      )}
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
         {products.map((p) => (
           <Link key={p.id} href={`/${country}/product/${p.id}`}

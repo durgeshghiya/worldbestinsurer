@@ -214,7 +214,7 @@ export default async function ProductPage({
               <div className="bg-white rounded-xl border border-border p-5">
                 <p className="text-xs text-muted mb-1">Network Hospitals</p>
                 <p className="text-xl font-bold text-foreground">
-                  {(product.networkHospitals.count / 1000).toFixed(0)}K+
+                  {product.networkHospitals.count >= 1000 ? `${Math.round(product.networkHospitals.count / 1000)}K+` : `${product.networkHospitals.count}`}
                 </p>
                 <p className="text-[10px] text-muted mt-1">
                   {product.networkHospitals.source}

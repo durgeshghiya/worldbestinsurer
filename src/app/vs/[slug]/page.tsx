@@ -82,7 +82,7 @@ export default async function VSPage({ params }: { params: Promise<{ slug: strin
               </>
             )}
             {(a.networkHospitals || b.networkHospitals) && (
-              <R label="Network hospitals" va={a.networkHospitals ? `${(a.networkHospitals.count/1000).toFixed(0)}K+` : "N/A"} vb={b.networkHospitals ? `${(b.networkHospitals.count/1000).toFixed(0)}K+` : "N/A"} />
+              <R label="Network hospitals" va={a.networkHospitals ? (a.networkHospitals.count >= 1000 ? `${Math.round(a.networkHospitals.count/1000)}K+` : `${a.networkHospitals.count}`) : "N/A"} vb={b.networkHospitals ? (b.networkHospitals.count >= 1000 ? `${Math.round(b.networkHospitals.count/1000)}K+` : `${b.networkHospitals.count}`) : "N/A"} />
             )}
             <tr className="hover:bg-surface-sunken/50">
               <td className="p-4 text-[12px] font-medium text-text-secondary">Key features</td>

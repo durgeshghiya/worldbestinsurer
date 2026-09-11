@@ -103,12 +103,19 @@ export default function InsightsPage() {
         </div>
       </section>
 
-      {/* ── CSR Analysis ── */}
-      <CSRChart
-        insurerCSRs={data.insurerCSRs}
-        csrBuckets={data.csrBuckets}
-        categoryAvgCSRs={data.categoryAvgCSRs}
-      />
+      {/* ── CSR Analysis ──
+          Claim settlement ratios are withheld until verified against the
+          regulator's filing, so this section has no data to show. Rendering it
+          empty produced four "0 insurers" cards and four "N/A" averages under a
+          heading promising analysis. It returns on its own once any ratio is
+          verified. */}
+      {data.insurerCSRs.length > 0 && (
+        <CSRChart
+          insurerCSRs={data.insurerCSRs}
+          csrBuckets={data.csrBuckets}
+          categoryAvgCSRs={data.categoryAvgCSRs}
+        />
+      )}
 
       {/* ── Category Deep Dive ── */}
       <CategoryBreakdown categories={data.categoryInsights} />

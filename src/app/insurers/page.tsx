@@ -71,7 +71,7 @@ export default function InsurersPage() {
                 {insurer.networkHospitals && (
                   <div className="flex items-center gap-1.5 text-muted">
                     <Building2 className="w-3.5 h-3.5" />
-                    {(insurer.networkHospitals / 1000).toFixed(0)}K+ hospitals
+                    {insurer.networkHospitals >= 1000 ? `${Math.round(insurer.networkHospitals / 1000)}K+` : `${insurer.networkHospitals}`} hospitals
                   </div>
                 )}
               </div>
