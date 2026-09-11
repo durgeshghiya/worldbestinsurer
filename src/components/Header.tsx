@@ -65,7 +65,7 @@ export default function Header() {
       <nav className="mx-auto max-w-[1280px] px-5 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* ── Logo ── */}
-          <Link href="/" className="flex items-center gap-3 group">
+          <Link href="/" className="flex items-center gap-3 group shrink-0">
             <div className="relative w-8 h-8 rounded-lg overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-[#1a1a2e] via-primary to-[#1a1a2e] group-hover:from-primary group-hover:via-accent group-hover:to-primary transition-all duration-700" />
               <span className="relative flex items-center justify-center w-full h-full text-white font-black text-[10px] tracking-[0.05em]">
@@ -73,14 +73,14 @@ export default function Header() {
               </span>
             </div>
             <div className="hidden sm:block">
-              <span className="text-[15px] font-bold tracking-[-0.03em] text-text-primary leading-none">
+              <span className="block whitespace-nowrap text-[15px] font-bold tracking-[-0.03em] text-text-primary leading-none">
                 World Best Insurer
               </span>
             </div>
           </Link>
 
           {/* ── Desktop Nav ── */}
-          <div className="hidden lg:flex items-center gap-1">
+          <div className="hidden xl:flex items-center gap-1">
             {/* Country */}
             <div className="relative" ref={countryRef}>
               <button
@@ -198,7 +198,7 @@ export default function Header() {
           </div>
 
           {/* ── Desktop CTA ── */}
-          <div className="hidden lg:flex items-center gap-2">
+          <div className="hidden xl:flex items-center gap-2 shrink-0">
             {/* Search trigger — opens Cmd+K modal */}
             <button
               onClick={() => window.dispatchEvent(new KeyboardEvent("keydown", { key: "k", metaKey: true }))}
@@ -225,7 +225,7 @@ export default function Header() {
 
           {/* ── Mobile toggle ── */}
           <button
-            className="lg:hidden p-2 -mr-2 text-text-secondary hover:text-text-primary rounded-lg"
+            className="xl:hidden p-2 -mr-2 text-text-secondary hover:text-text-primary rounded-lg"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle navigation"
           >
@@ -235,7 +235,7 @@ export default function Header() {
 
         {/* ── Mobile menu ── */}
         {mobileOpen && (
-          <div className="lg:hidden py-4 border-t border-border-light animate-fade-in">
+          <div className="xl:hidden py-4 border-t border-border-light animate-fade-in">
             <p className="px-3 py-2 text-[10px] font-bold text-text-tertiary uppercase tracking-[0.15em]">Markets</p>
             <div className="grid grid-cols-3 gap-1 mb-3">
               {countries.map((c) => (
