@@ -71,7 +71,7 @@ export async function generateMetadata({
 
   const { insurerA: a, insurerB: b } = pair;
   return {
-    title: `${a.shortName} vs ${b.shortName} — Insurance Comparison in ${c.name}`,
+    title: `${(a.shortName || a.name)} vs ${(b.shortName || b.name)} — Insurance Comparison in ${c.name}`,
     description: `Compare ${a.name} and ${b.name} side by side. Claim settlement ratio, products, network hospitals, and more in ${c.name}.`,
     alternates: {
       canonical: `https://worldbestinsurer.com/${country}/vs/insurer/${slug}`,
@@ -110,7 +110,7 @@ export default async function InsurerVSPage({
           { name: "Home", url: "https://worldbestinsurer.com" },
           { name: c.name, url: `https://worldbestinsurer.com/${country}` },
           { name: "Insurers", url: `https://worldbestinsurer.com/${country}/insurers` },
-          { name: `${a.shortName} vs ${b.shortName}`, url: `https://worldbestinsurer.com/${country}/vs/insurer/${slug}` },
+          { name: `${(a.shortName || a.name)} vs ${(b.shortName || b.name)}`, url: `https://worldbestinsurer.com/${country}/vs/insurer/${slug}` },
         ]}
       />
 
@@ -124,18 +124,18 @@ export default async function InsurerVSPage({
             mainEntity: [
               {
                 "@type": "Question",
-                name: `Which is better, ${a.shortName} or ${b.shortName}?`,
+                name: `Which is better, ${(a.shortName || a.name)} or ${(b.shortName || b.name)}?`,
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: `The better choice depends on your needs. ${a.shortName} has a claim settlement ratio of ${a.claimSettlementRatio?.value ?? "N/A"}% while ${b.shortName} has ${b.claimSettlementRatio?.value ?? "N/A"}%. ${a.shortName} offers ${productsA.length} products and ${b.shortName} offers ${productsB.length} products in ${c.name}. Compare specific plans on World Best Insurer.`,
+                  text: `The better choice depends on your needs. ${(a.shortName || a.name)} has a claim settlement ratio of ${a.claimSettlementRatio?.value ?? "N/A"}% while ${(b.shortName || b.name)} has ${b.claimSettlementRatio?.value ?? "N/A"}%. ${(a.shortName || a.name)} offers ${productsA.length} products and ${(b.shortName || b.name)} offers ${productsB.length} products in ${c.name}. Compare specific plans on World Best Insurer.`,
                 },
               },
               {
                 "@type": "Question",
-                name: `How does ${a.shortName} claim settlement compare to ${b.shortName}?`,
+                name: `How does ${(a.shortName || a.name)} claim settlement compare to ${(b.shortName || b.name)}?`,
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: `${a.shortName} has a claim settlement ratio of ${a.claimSettlementRatio?.value ?? "data not available"}%${a.claimSettlementRatio?.year ? ` (${a.claimSettlementRatio.year})` : ""}. ${b.shortName} has a claim settlement ratio of ${b.claimSettlementRatio?.value ?? "data not available"}%${b.claimSettlementRatio?.year ? ` (${b.claimSettlementRatio.year})` : ""}.`,
+                  text: `${(a.shortName || a.name)} has a claim settlement ratio of ${a.claimSettlementRatio?.value ?? "data not available"}%${a.claimSettlementRatio?.year ? ` (${a.claimSettlementRatio.year})` : ""}. ${(b.shortName || b.name)} has a claim settlement ratio of ${b.claimSettlementRatio?.value ?? "data not available"}%${b.claimSettlementRatio?.year ? ` (${b.claimSettlementRatio.year})` : ""}.`,
                 },
               },
             ],
@@ -152,7 +152,7 @@ export default async function InsurerVSPage({
 
       {/* Title */}
       <h1 className="text-[26px] sm:text-[36px] font-bold text-text-primary tracking-[-0.02em] mb-2">
-        {a.shortName} vs {b.shortName}
+        {(a.shortName || a.name)} vs {(b.shortName || b.name)}
       </h1>
       <p className="text-[14px] text-text-tertiary mb-10">
         Side-by-side comparison in {c.name}
@@ -166,10 +166,10 @@ export default async function InsurerVSPage({
             Metric
           </div>
           <div className="p-4 text-center">
-            <p className="text-[14px] font-bold text-text-primary">{a.shortName}</p>
+            <p className="text-[14px] font-bold text-text-primary">{(a.shortName || a.name)}</p>
           </div>
           <div className="p-4 text-center">
-            <p className="text-[14px] font-bold text-text-primary">{b.shortName}</p>
+            <p className="text-[14px] font-bold text-text-primary">{(b.shortName || b.name)}</p>
           </div>
         </div>
 
@@ -218,7 +218,7 @@ export default async function InsurerVSPage({
               href={`/${country}/insurer/${a.slug}`}
               className="text-[12px] font-semibold text-primary hover:underline"
             >
-              View {a.shortName} →
+              View {(a.shortName || a.name)} →
             </Link>
           </div>
           <div className="p-4 text-center">
@@ -226,7 +226,7 @@ export default async function InsurerVSPage({
               href={`/${country}/insurer/${b.slug}`}
               className="text-[12px] font-semibold text-primary hover:underline"
             >
-              View {b.shortName} →
+              View {(b.shortName || b.name)} →
             </Link>
           </div>
         </div>
@@ -252,7 +252,7 @@ export default async function InsurerVSPage({
                   {/* A's products */}
                   <div className="space-y-2">
                     <p className="text-[11px] font-semibold text-text-tertiary uppercase tracking-wider mb-1">
-                      {a.shortName}
+                      {(a.shortName || a.name)}
                     </p>
                     {catProductsA.length === 0 ? (
                       <p className="text-[12px] text-text-tertiary italic">No products</p>
@@ -276,7 +276,7 @@ export default async function InsurerVSPage({
                   {/* B's products */}
                   <div className="space-y-2">
                     <p className="text-[11px] font-semibold text-text-tertiary uppercase tracking-wider mb-1">
-                      {b.shortName}
+                      {(b.shortName || b.name)}
                     </p>
                     {catProductsB.length === 0 ? (
                       <p className="text-[12px] text-text-tertiary italic">No products</p>

@@ -40,7 +40,7 @@ export default function InsurersPage() {
               <div className="flex items-start justify-between mb-3">
                 <div>
                   <Link href={`/insurer/${insurer.slug}`} className="text-lg font-semibold text-foreground hover:text-primary transition-colors">
-                    {insurer.shortName}
+                    {(insurer.shortName || insurer.name)}
                   </Link>
                   <p className="text-xs text-muted">{insurer.name}</p>
                 </div>

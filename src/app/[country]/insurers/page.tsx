@@ -44,7 +44,7 @@ export default async function CountryInsurersPage({ params }: { params: Promise<
             <div key={ins.slug} className="card-premium bg-surface rounded-2xl border border-border p-5">
               <div className="flex items-start justify-between mb-3">
                 <div>
-                  <h3 className="text-[15px] font-bold text-text-primary">{ins.shortName}</h3>
+                  <h3 className="text-[15px] font-bold text-text-primary">{(ins.shortName || ins.name)}</h3>
                   <p className="text-[11px] text-text-tertiary">{ins.type}</p>
                 </div>
                 <a href={ins.website} target="_blank" rel="noopener noreferrer"

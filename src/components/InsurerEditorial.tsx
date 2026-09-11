@@ -47,7 +47,7 @@ export default function InsurerEditorial({
   return (
     <section className="mt-10" aria-label="Editorial analysis">
       <h2 className="text-[18px] font-bold text-text-primary mb-4 tracking-[-0.01em]">
-        Our take on {insurer.shortName}
+        Our take on {(insurer.shortName || insurer.name)}
       </h2>
       <div className="text-[14px] text-text-secondary leading-[1.85] space-y-4">
         {paras.map((p, i) => (
@@ -59,7 +59,7 @@ export default function InsurerEditorial({
         <Link href="/author/editorial-team" className="text-primary hover:underline">
           WBI Editorial Team
         </Link>{" "}
-        · Sourced against {insurer.shortName} public filings ·{" "}
+        · Sourced against {(insurer.shortName || insurer.name)} public filings ·{" "}
         <Link href="/methodology" className="text-primary hover:underline">
           how we research insurers
         </Link>
@@ -127,10 +127,10 @@ function buildLede(
         : `${ins.categories.slice(0, -1).join(", ")}, and ${ins.categories[ins.categories.length - 1]}`;
   const productLine =
     products.length > 0
-      ? `We currently track ${products.length} ${products.length === 1 ? "product" : "products"} from ${ins.shortName} on World Best Insurer.`
+      ? `We currently track ${products.length} ${products.length === 1 ? "product" : "products"} from ${(ins.shortName || ins.name)} on World Best Insurer.`
       : "";
   return (
-    `${ins.shortName} is ${ins.type === "private" ? "a private" : "a"} insurer headquartered in ${ins.headquarters || "an undisclosed location"}` +
+    `${(ins.shortName || ins.name)} is ${ins.type === "private" ? "a private" : "a"} insurer headquartered in ${ins.headquarters || "an undisclosed location"}` +
     (ins.established ? `, established in ${ins.established} — ${yearsActive} years in the market` : "") +
     `. The company operates in ${country} across ${cats}. ` +
     productLine
@@ -143,7 +143,7 @@ function buildTrackRecordParagraph(
 ): string | null {
   if (!ins.claimSettlementRatio?.value) {
     return (
-      `Public claim settlement data for ${ins.shortName} is not currently disclosed in regulator filings we can verify; this is itself a signal worth weighing. ` +
+      `Public claim settlement data for ${(ins.shortName || ins.name)} is not currently disclosed in regulator filings we can verify; this is itself a signal worth weighing. ` +
       `Insurers that publish settlement ratios annually and let those numbers be audited against complaints data tend to be the easier ones to plan around.`
     );
   }
@@ -160,12 +160,12 @@ function buildTrackRecordParagraph(
   else band = "below the category median — a meaningful caution";
 
   let body =
-    `${ins.shortName}'s most recent disclosed claim settlement ratio is ${csr}%${year ? ` (${year})` : ""}, which we read as ${band}. `;
+    `${(ins.shortName || ins.name)}'s most recent disclosed claim settlement ratio is ${csr}%${year ? ` (${year})` : ""}, which we read as ${band}. `;
 
   if (med) {
     const diff = csr - med;
     if (diff >= 3)
-      body += `That puts ${ins.shortName} roughly ${diff} percentage points above the median insurer in ${ins.countryCode.toUpperCase()} — a real edge for buyers prioritising claim reliability. `;
+      body += `That puts ${(ins.shortName || ins.name)} roughly ${diff} percentage points above the median insurer in ${ins.countryCode.toUpperCase()} — a real edge for buyers prioritising claim reliability. `;
     else if (diff <= -3)
       body += `That sits roughly ${Math.abs(diff)} percentage points below the median insurer in the country — worth weighing against premium savings, since one denied claim can outweigh many years of lower premiums. `;
     else
@@ -174,7 +174,7 @@ function buildTrackRecordParagraph(
 
   body += verified
     ? `This figure has been verified by our editorial team against the publishing regulator.`
-    : `This figure is reported by ${ins.shortName} but has not yet been verified by our editorial team against the regulator filing; expect to see a verification stamp on the next update cycle.`;
+    : `This figure is reported by ${(ins.shortName || ins.name)} but has not yet been verified by our editorial team against the regulator filing; expect to see a verification stamp on the next update cycle.`;
 
   return body;
 }
@@ -193,7 +193,7 @@ function buildBreadthParagraph(
   else breadthRead = "a single-category specialist";
 
   let body =
-    `${ins.shortName} is ${breadthRead} (${ins.categories.join(", ")}), with ${productCount} ${productCount === 1 ? "product" : "products"} listed in our database for this country. `;
+    `${(ins.shortName || ins.name)} is ${breadthRead} (${ins.categories.join(", ")}), with ${productCount} ${productCount === 1 ? "product" : "products"} listed in our database for this country. `;
 
   if (stats?.categoryMedian) {
     if (catCount > stats.categoryMedian)
@@ -229,7 +229,7 @@ function buildNetworkParagraph(ins: Insurer, stats: PeerStats): string {
     read = `notably smaller than the median peer (${stats.networkMedian.toLocaleString()} hospitals) — verify your preferred hospitals are on the panel before buying`;
 
   return (
-    `For health products, ${ins.shortName} lists a cashless hospital network of ${ins.networkHospitals.toLocaleString()} facilities. ` +
+    `For health products, ${(ins.shortName || ins.name)} lists a cashless hospital network of ${ins.networkHospitals.toLocaleString()} facilities. ` +
     `That is ${read}. Network coverage matters most outside metro cities — the headline number tells you the ceiling, ` +
     `not the actual density wherever you happen to need care, so cross-check with the insurer's online network search before signing.`
   );
@@ -237,11 +237,11 @@ function buildNetworkParagraph(ins: Insurer, stats: PeerStats): string {
 
 function buildHowToReadParagraph(ins: Insurer, country: string): string {
   return (
-    `When evaluating ${ins.shortName} against other insurers in ${country}, the metrics that matter most depend on the policy you are buying. ` +
+    `When evaluating ${(ins.shortName || ins.name)} against other insurers in ${country}, the metrics that matter most depend on the policy you are buying. ` +
     `For term life, claim settlement ratio and financial strength carry the most weight — the policy is worth nothing if the claim is denied at maturity. ` +
     `For health, the network breadth, pre-existing waiting period, and the specific exclusions list matter more than the headline premium difference. ` +
     `For motor, the depreciation schedule and the cashless garage network determine the real economic value of a claim. ` +
     `For travel, the medical evacuation limit and the list of excluded adventure activities are the two clauses to read before buying. ` +
-    `${ins.shortName}'s individual products are listed below — click into any plan to see our peer-aware analysis of where it sits within ${ins.categories[0] ?? "the category"}.`
+    `${(ins.shortName || ins.name)}'s individual products are listed below — click into any plan to see our peer-aware analysis of where it sits within ${ins.categories[0] ?? "the category"}.`
   );
 }

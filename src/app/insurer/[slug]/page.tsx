@@ -17,8 +17,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const insurer = getInsurerBySlug(slug);
   if (!insurer) return {};
   return {
-    title: `${insurer.shortName} Insurance Plans`,
-    description: `Explore ${insurer.shortName} insurance plans on World Best Insurer. Compare products, view claim settlement ratio, and more.`,
+    title: `${(insurer.shortName || insurer.name)} Insurance Plans`,
+    description: `Explore ${(insurer.shortName || insurer.name)} insurance plans on World Best Insurer. Compare products, view claim settlement ratio, and more.`,
     // Duplicates /[country]/insurer/[slug]; canonical to the country-scoped
     // page so the two stop competing. See docs/index-strategy.md.
     alternates: {
@@ -46,7 +46,7 @@ export default async function InsurerPage({ params }: { params: Promise<{ slug: 
 
       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-8">
         <div>
-          <h1 className="text-[28px] sm:text-[36px] font-bold text-text-primary tracking-[-0.02em]">{insurer.shortName}</h1>
+          <h1 className="text-[28px] sm:text-[36px] font-bold text-text-primary tracking-[-0.02em]">{(insurer.shortName || insurer.name)}</h1>
           <p className="text-[14px] text-text-secondary mt-1">{insurer.name}</p>
           <p className="text-[13px] text-text-tertiary mt-2">{insurer.description}</p>
         </div>
@@ -67,7 +67,7 @@ export default async function InsurerPage({ params }: { params: Promise<{ slug: 
           <p className="text-[11px] text-text-tertiary">Established</p>
           <p className="text-[15px] font-semibold text-text-primary">{insurer.established}</p>
         </div>
-        {insurer.claimSettlementRatio && (
+        {insurer.claimSettlementRatio?.value != null && (
           <div className="bg-surface rounded-xl border border-border p-5">
             <TrendingUp className="w-4 h-4 text-primary mb-2" />
             <p className="text-[11px] text-text-tertiary">Claim Settlement Ratio</p>

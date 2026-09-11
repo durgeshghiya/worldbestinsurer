@@ -357,68 +357,6 @@
       "confidenceScore": "medium",
       "notes": "",
       "countryCode": "ca"
-    },
-    {
-      "id": "sunlife-travel-smart-esw",
-      "insurerName": "Sun Life Financial",
-      "insurerSlug": "sunlife",
-      "productName": "Travel Smart",
-      "category": "travel",
-      "subCategory": "family-trip",
-      "eligibility": {
-        "minAge": 19,
-        "maxAge": 71,
-        "renewableUpTo": "lifetime"
-      },
-      "sumInsured": {
-        "min": 50000,
-        "max": 839923,
-        "options": [],
-        "currency": "CAD"
-      },
-      "premiumRange": {
-        "illustrativeMin": 59,
-        "illustrativeMax": 369,
-        "assumptions": "35yo Canadian resident, annual premium",
-        "isVerified": false
-      },
-      "keyInclusions": [
-        "Trip interruption",
-        "Flight delay",
-        "Flight cancellation",
-        "COVID-19 cover",
-        "Pre-existing disease (optional)",
-        "24x7 assistance"
-      ],
-      "keyExclusions": [
-        "Pre-existing diseases (unless declared)",
-        "Self-inflicted injuries",
-        "High-risk sports without add-on"
-      ],
-      "claimSettlement": null,
-      "riders": [
-        "Annual Multi-Trip",
-        "Pre-existing Disease"
-      ],
-      "policyTenure": {
-        "min": 1,
-        "max": 1,
-        "options": [
-          1
-        ]
-      },
-      "renewability": "Annual, lifelong renewability",
-      "specialFeatures": [
-        "Zero deductible option",
-        "Cashless hospitalization abroad",
-        "Worldwide 24x7 assistance"
-      ],
-      "sourceUrl": "https://www.sunlife.ca/",
-      "sourceType": "official-website",
-      "lastVerified": "2026-04-14",
-      "confidenceScore": "medium",
-      "notes": "Illustrative listing based on publicly available insurer information. Verify current pricing and terms on the insurer's official website before purchasing.",
-      "countryCode": "ca"
     }
   ]
 }

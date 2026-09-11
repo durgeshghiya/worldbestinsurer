@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllProducts, getAllInsurers } from "@/lib/data";
+import { getAllProducts, getAllInsurers, getProductsByInsurer } from "@/lib/data";
 import { VALID_COUNTRY_CODES } from "@/lib/countries";
 import { getIndexableArticles } from "@/lib/generators";
 import { getAllFinanceArticles } from "@/lib/finance";
@@ -75,7 +75,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
 
     // Insurer pages
-    const insurers = getAllInsurers(cc);
+    // Only insurers that actually have products — an empty insurer page is
+    // noindexed, and advertising a noindexed URL is a contradictory signal.
+    const insurers = getAllInsurers(cc).filter(
+      (ins) => getProductsByInsurer(ins.slug, cc).length > 0
+    );
     for (const ins of insurers) {
       entries.push({
         url: `${BASE}/${cc}/insurer/${ins.slug}`,
@@ -158,5 +162,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   });
 
-  return entries;
+  // next.config sets trailingSlash: true, so every route canonicalises to a
+  // trailing slash. Emitting the unslashed form made Google follow a 308 on all
+  // 838 sitemap URLs and inflated "Page with redirect" in Search Console.
+  return entries.map((e) => ({
+    ...e,
+    url: e.url.endsWith("/") ? e.url : `${e.url}/`,
+  }));
 }

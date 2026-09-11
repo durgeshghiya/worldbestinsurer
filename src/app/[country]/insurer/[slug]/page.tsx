@@ -25,11 +25,17 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
   const c = getCountryByCode(country);
   if (!insurer || !c) return {};
   return {
-    title: `${insurer.shortName} Insurance Plans in ${c.name}`,
-    description: `Explore ${insurer.shortName} insurance plans on World Best Insurer. Compare products available in ${c.name}.`,
+    title: `${(insurer.shortName || insurer.name)} Insurance Plans in ${c.name}`,
+    description: `Explore ${(insurer.shortName || insurer.name)} insurance plans on World Best Insurer. Compare products available in ${c.name}.`,
     alternates: {
       canonical: `https://worldbestinsurer.com/${country}/insurer/${slug}`,
     },
+    // The catalogue cuts left some insurers with no products at all. Those pages
+    // have nothing to rank for, so they stay live and `follow` but leave search.
+    // They return automatically once the insurer has a sourced product again.
+    ...(getProductsByInsurer(slug, country).length === 0
+      ? { robots: { index: false, follow: true } }
+      : {}),
   };
 }
 
@@ -50,7 +56,7 @@ export default async function CountryInsurerPage({ params }: { params: Promise<{
 
       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-8">
         <div>
-          <h1 className="text-[28px] sm:text-[36px] font-bold text-text-primary tracking-[-0.02em]">{insurer.shortName}</h1>
+          <h1 className="text-[28px] sm:text-[36px] font-bold text-text-primary tracking-[-0.02em]">{(insurer.shortName || insurer.name)}</h1>
           <p className="text-[14px] text-text-secondary mt-1">{insurer.name}</p>
           <p className="text-[13px] text-text-tertiary mt-2">{insurer.description}</p>
         </div>
@@ -71,7 +77,7 @@ export default async function CountryInsurerPage({ params }: { params: Promise<{
           <p className="text-[11px] text-text-tertiary">Established</p>
           <p className="text-[15px] font-semibold text-text-primary">{insurer.established}</p>
         </div>
-        {insurer.claimSettlementRatio && (
+        {insurer.claimSettlementRatio?.value != null && (
           <div className="bg-surface rounded-xl border border-border p-5">
             <TrendingUp className="w-4 h-4 text-primary mb-2" />
             <p className="text-[11px] text-text-tertiary">Claim Settlement Ratio</p>
