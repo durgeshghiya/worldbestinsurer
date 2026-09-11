@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getAllProducts } from "@/lib/data";
 import { Bell, Zap, Shield, BarChart3, Sparkles } from "lucide-react";
 import WaitlistForm from "@/components/WaitlistForm";
 import TiltCard from "@/components/TiltCard";
@@ -34,6 +35,10 @@ const features = [
 ];
 
 export default function WaitlistPage() {
+  // Derived, not hard-coded: the catalog was cut from 1,065 to 492 on 2026-09-01
+  // and the literal "1,000+" became false. Deriving it keeps the claim true.
+  const planCount = getAllProducts().length;
+
   return (
     <div>
       {/* Hero */}
@@ -135,7 +140,7 @@ export default function WaitlistPage() {
         </h2>
         <p>
           World Best Insurer&apos;s public-facing comparison tools — the catalog
-          of 1,000+ plans, the side-by-side comparison tables, the
+          of {planCount} plans, the side-by-side comparison tables, the
           insurer profiles, the editorial section — are free and require
           no account. You do not need to be on this waitlist to use any of
           them. So why does the waitlist exist? Two reasons.

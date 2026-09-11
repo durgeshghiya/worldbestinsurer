@@ -4,6 +4,7 @@ import { FileText, ArrowRight, Calendar } from "lucide-react";
 import { BreadcrumbSchema } from "@/components/StructuredData";
 
 import { getAllReports } from "@/lib/reports";
+import { getAllProducts } from "@/lib/data";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://worldbestinsurer.com/reports" },
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
 
 export default function ReportsIndexPage() {
   const reports = getAllReports();
+  const planCount = getAllProducts().length;
 
   return (
     <div className="mx-auto max-w-[800px] px-5 lg:px-8 py-10">
@@ -28,7 +30,7 @@ export default function ReportsIndexPage() {
         Market Reports
       </h1>
       <p className="text-[15px] text-text-secondary mb-5 max-w-2xl leading-relaxed">
-        Original research from the WBI editorial team. We analyse over 1,000
+        Original research from the WBI editorial team. We analyse {planCount}{" "}
         insurance products across 12 countries to surface the trends, pricing
         patterns, and market shifts that matter to consumers — written for
         anyone who has to actually buy a policy rather than for the industry

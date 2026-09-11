@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getAllProducts } from "@/lib/data";
 import Link from "next/link";
 import { Mail, MessageSquare, HelpCircle, CheckCircle2 } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
@@ -11,6 +12,9 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
+  // Derived rather than stated — see the note in waitlist/page.tsx.
+  const planCount = getAllProducts().length;
+
   return (
     <div className="mx-auto max-w-[1000px] px-5 lg:px-8 py-10">
       {/* Header */}
@@ -31,8 +35,8 @@ export default function ContactPage() {
           previously sparse contact stub. */}
       <div className="max-w-[760px] mx-auto mb-12 text-[14px] text-text-secondary leading-[1.85] space-y-4">
         <p>
-          World Best Insurer is an independent comparison platform covering
-          1,000+ insurance plans across 12 countries. The contact form below
+          World Best Insurer is an independent comparison platform covering{" "}
+          {planCount} insurance plans across 12 countries. The contact form below
           is the right place to write if you have spotted a data error in one
           of our product listings, want to suggest a topic for a future Learn
           article or Market Report, are exploring API access or another
