@@ -296,6 +296,48 @@ bad data, it did not add good pages. **The editorial base is now the only
 remaining lever** — 17 substantial pages is too few regardless of how clean the
 catalogue is, and rule 4 below is now satisfied while rule 2 is not.
 
+## Second cut, 12 Sep 2026 — the first one leaked
+
+An eight-dimension adversarial audit (8 auditors, 3 skeptics per finding) found
+that the 1 Sep cut missed **94 more fabricated products, 19% of the survivors.**
+
+The cause was the selector, and it was mine. It keyed off the ID suffix and
+treated any vowel-initial suffix as a real word, so `-avq`, `-elo` and `-ehv`
+survived while `-rvq` and `-fnq` were deleted. The deterministic tell was
+already in the data and should have been used first: those 94 records, and only
+those, carry `lastVerified: "2026-04-14"` **and** the boilerplate note
+"Illustrative listing based on publicly available insurer information". The two
+sets are identical; every other product has `notes: ""`.
+
+The cohort is the same fabrication as the 573: 36 distinct product names across
+94 records, reused verbatim by unrelated insurers in different countries.
+"Term Smart" was attributed simultaneously to AIA Hong Kong, Oman Insurance,
+HDFC Life, Samsung Life, nib and Nippon Life.
+
+**Rule: select on a data stamp, never on what a random suffix looks like.**
+
+### Three regressions the 1 Sep change introduced
+
+| Regression | Cause |
+| --- | --- |
+| "Claim Settlement Ratio  %" on all 248 insurer pages | The guard tested `claimSettlementRatio` (the object); the withheld field was `.value`. Now tests `?.value != null`. |
+| `<title>undefined Insurance Plans in ...` on 91 pages | 91 insurer records have no `shortName` and it was read unguarded. Falls back to `name` across seven call sites. |
+| 70 insurer pages with zero products | Emptied by the cut. Now `noindex, follow` and out of the sitemap; they return automatically when the insurer regains a sourced product. |
+
+### And one that predated it
+
+`next.config.ts` sets `trailingSlash: true`, but `sitemap.ts` emitted unslashed
+URLs — so Google followed a **308 on 837 of 838** sitemap entries. That is
+visible in Search Console as 4,010 "Page with redirect". Normalised at the
+return; every sitemap URL now answers 200 directly.
+
+| | 1 Sep | 12 Sep |
+| --- | ---: | ---: |
+| Products | 492 | **398** |
+| Sitemap URLs | 838 | **643** |
+| Templated share | 88.3% | **84.8%** |
+| Editorial pages | 17 | 17 |
+
 ## Expected behaviour after deploy
 
 Search Console will report a large rise in "Excluded by 'noindex' tag" and
