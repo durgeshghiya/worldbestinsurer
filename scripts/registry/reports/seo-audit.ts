@@ -108,6 +108,8 @@ async function inspectPage(pathname: string, base: string): Promise<PageFacts> {
   const links = new Set<string>();
   $("a[href]").each((_, el) => {
     const h = $(el).attr("href") ?? "";
+    // /cdn-cgi/ is Cloudflare's (e.g. email obfuscation rewrites mailto: links), not a site route.
+    if (h.startsWith("/cdn-cgi/")) return;
     if (h.startsWith("/") && !h.startsWith("//")) links.add(h.split("#")[0].split("?")[0]);
     else if (h.startsWith(ORIGIN)) links.add(toPath(h));
   });
