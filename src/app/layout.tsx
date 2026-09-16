@@ -91,6 +91,9 @@ export const metadata: Metadata = {
     // markup — this tag is Google's own alternative verification method and closes
     // that gap without costing a request.
     "google-adsense-account": "ca-pub-4984848270074853",
+    // Mitgo (Admitad) ad space ownership check. Verification only — no
+    // affiliate links are active; see src/lib/affiliate.ts.
+    "mitgo-verification": "a51a0fc0-791c-40ee-8c21-225c2bafed06",
   },
 };
 
