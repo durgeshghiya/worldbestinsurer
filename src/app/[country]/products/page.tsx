@@ -149,8 +149,8 @@ export default async function ProductDirectoryPage({ params }: { params: Promise
           the reliable way to confirm that two documents describe the same plan.
         </p>
         <p>
-          This directory lists the {all.length} products on WorldBestInsurer. {withUin.length} show a UIN, each read
-          from the insurer&apos;s own product page and re-checked against it. Where no UIN is shown, we have not yet
+          This directory lists the {all.length} products on WorldBestInsurer. {withUin.length}{" "}
+          show a UIN, each read from the insurer&apos;s own product page and re-checked against it. Where no UIN is shown, we have not yet
           verified one — the table says so rather than guessing.
         </p>
       </div>
