@@ -1,0 +1,115 @@
+[
+  {
+    "id": "hdfc-ergo-identity",
+    "kind": "insurer",
+    "sourceId": "insurer:hdfc-ergo",
+    "url": "https://www.hdfcergo.com/",
+    "subject": {
+      "slug": "hdfc-ergo",
+      "siteSlug": "hdfc-ergo"
+    },
+    "meta": {
+      "segments": [
+        "health",
+        "motor",
+        "travel",
+        "home"
+      ],
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "HDFC ERGO General Insurance Company Limited",
+        "evidence": "© HDFC ERGO General Insurance Company Limited. CIN: U66030MH2007PLC177117."
+      },
+      "insurerType": {
+        "value": "general",
+        "evidence": "IRDAI Registration Number : 146 (Registration type: General Insurance Company)"
+      },
+      "website": {
+        "value": "https://www.hdfcergo.com/",
+        "evidence": ""
+      },
+      "legalName": {
+        "value": "HDFC ERGO General Insurance Company Limited",
+        "evidence": "© HDFC ERGO General Insurance Company Limited. CIN: U66030MH2007PLC177117."
+      },
+      "irdaiRegistrationNumber": {
+        "value": "146",
+        "evidence": "IRDAI Registration Number : 146 (Registration type: General Insurance Company)"
+      },
+      "cin": {
+        "value": "U66030MH2007PLC177117",
+        "evidence": "CIN: U66030MH2007PLC177117"
+      },
+      "headquarters": {
+        "value": "Mumbai",
+        "evidence": "Registered & Corporate Office: 6th Floor, Leela Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059"
+      }
+    }
+  },
+  {
+    "id": "hdfc-ergo-p1",
+    "kind": "product",
+    "sourceId": "insurer:hdfc-ergo",
+    "url": "https://www.hdfcergo.com/health-insurance/optima-secure",
+    "subject": {
+      "slug": "hdfc-ergo-optima-secure",
+      "insurerSlug": "hdfc-ergo",
+      "siteProductId": "hdfc-ergo-optima-secure"
+    },
+    "meta": {
+      "productType": "health-indemnity",
+      "segment": "health",
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "Optima Secure",
+        "evidence": "UIN: my: Optima Secure - HDFHLIP26058V082526"
+      },
+      "uin": {
+        "value": "HDFHLIP26058V082526",
+        "evidence": "UIN: my: Optima Secure - HDFHLIP26058V082526"
+      },
+      "policyTerm": {
+        "value": "1, 2 and 3 years",
+        "evidence": "Tenure: Select policy tenure between 1, 2 and 3 years."
+      },
+      "premiumFrequency": {
+        "value": "monthly, quarterly half-yearly and yearly",
+        "evidence": "You can choose from installment options: monthly, quarterly half-yearly and yearly"
+      },
+      "sumInsured": {
+        "value": "₹5 lacs to 2 crores",
+        "evidence": "Coverage: Choose between wide range of base cover from ₹5 lacs to 2 crores"
+      }
+    }
+  },
+  {
+    "id": "hdfc-ergo-p2",
+    "kind": "product",
+    "sourceId": "insurer:hdfc-ergo",
+    "url": "https://www.hdfcergo.com/travel-insurance",
+    "subject": {
+      "slug": "hdfc-ergo-travel",
+      "insurerSlug": "hdfc-ergo",
+      "siteProductId": "hdfc-ergo-travel"
+    },
+    "meta": {
+      "productType": "travel",
+      "segment": "travel",
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "HDFC ERGO Explorer",
+        "evidence": "Product Name: HDFC ERGO Explorer. UIN: HDFTIOP24042V022425"
+      },
+      "uin": {
+        "value": "HDFTIOP24042V022425",
+        "evidence": "Product Name: HDFC ERGO Explorer. UIN: HDFTIOP24042V022425"
+      }
+    }
+  }
+]

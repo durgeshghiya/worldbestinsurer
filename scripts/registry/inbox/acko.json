@@ -1,0 +1,107 @@
+[
+  {
+    "id": "acko-identity",
+    "kind": "insurer",
+    "sourceId": "insurer:acko",
+    "url": "https://www.acko.com/gi",
+    "notes": "Facts read from the ACKO General Insurance page footer. The acko.com homepage footer prints the CIN of Acko Technology and Services Limited (a different company), so it is not used; the homepage JSON-LD carries a different insurer CIN (U66000MH2016PLC287385) that is not visible text, so the visible CIN on /gi is used.",
+    "subject": {
+      "slug": "acko",
+      "siteSlug": "acko"
+    },
+    "meta": {
+      "segments": [
+        "health",
+        "motor"
+      ],
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "ACKO General Insurance Limited",
+        "evidence": "ACKO General Insurance Limited #36/5, Hustlehub One East, Somasandrapalya 27th Main Rd, Sector 2, HSR Layout, Bengaluru, Karnataka 560102"
+      },
+      "insurerType": {
+        "value": "general",
+        "evidence": "ACKO General Insurance Limited"
+      },
+      "website": {
+        "value": "https://www.acko.com/",
+        "evidence": ""
+      },
+      "legalName": {
+        "value": "ACKO General Insurance Limited",
+        "evidence": "ACKO General Insurance Limited #36/5, Hustlehub One East, Somasandrapalya 27th Main Rd, Sector 2, HSR Layout, Bengaluru, Karnataka 560102"
+      },
+      "irdaiRegistrationNumber": {
+        "value": "157",
+        "evidence": "IRDAI Registration No: 157 Category: Non-Life Insurance"
+      },
+      "cin": {
+        "value": "U66000KA2016PLC138288",
+        "evidence": "CIN: U66000KA2016PLC138288 IRDAI Registration No: 157"
+      },
+      "headquarters": {
+        "value": "Bengaluru",
+        "evidence": "#36/5, Hustlehub One East, Somasandrapalya 27th Main Rd, Sector 2, HSR Layout, Bengaluru, Karnataka 560102"
+      }
+    }
+  },
+  {
+    "id": "acko-p1",
+    "kind": "product",
+    "sourceId": "insurer:acko",
+    "url": "https://www.acko.com/car-insurance/",
+    "notes": "Page also links policy wordings 'Private Car Package' and 'Private Car Policy – Bundled' (acko.com/wp-content/uploads/...), but both answered HTTP 403 to the pipeline's document fetch, so they are omitted. No UIN is printed on this page.",
+    "subject": {
+      "slug": "acko-car-insurance",
+      "insurerSlug": "acko",
+      "siteProductId": "acko-car-insurance"
+    },
+    "meta": {
+      "productType": "motor-private-car",
+      "segment": "motor",
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "ACKO Car Insurance",
+        "evidence": "Here are the inclusions of the ACKO Car Insurance Policy to help you understand what is covered under your policy"
+      }
+    },
+    "documents": [
+      {
+        "kind": "product-information",
+        "title": "Third-party car insurance premium rates",
+        "url": "https://assets.ctfassets.net/uwf0n1j71a7j/7pYo0pth2GUERtOPPdk8yS/0cdee90f92a0f547596a1819c671dfb7/third-party-premium-and-liability.pdf"
+      }
+    ]
+  },
+  {
+    "id": "acko-p2",
+    "kind": "product",
+    "sourceId": "insurer:acko",
+    "url": "https://www.acko.com/health-insurance/",
+    "notes": "Existing site sourceUrl https://www.acko.com/health-insurance/platinum/ returns 404; the plan is described on the main health page, which prints no UIN and links no documents.",
+    "subject": {
+      "slug": "acko-platinum-health",
+      "insurerSlug": "acko",
+      "siteProductId": "acko-platinum-health"
+    },
+    "meta": {
+      "productType": "health-indemnity",
+      "segment": "health",
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "ACKO Platinum Health Plan",
+        "evidence": "ACKO offers two types of health insurance plans: the ACKO Platinum Lite Health Plan and the ACKO Platinum Health Plan."
+      },
+      "sumInsured": {
+        "value": "₹1 Crore and Unlimited",
+        "evidence": "What You Get Extra with ACKO Platinum Health Plan Details Sum Insured ₹1 Crore and Unlimited, never worry about exhausting your coverage"
+      }
+    }
+  }
+]

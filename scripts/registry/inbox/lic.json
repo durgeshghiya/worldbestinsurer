@@ -1,0 +1,109 @@
+[
+  {
+    "id": "lic-identity",
+    "kind": "insurer",
+    "sourceId": "insurer:lic",
+    "url": "https://licindia.in/",
+    "subject": {
+      "slug": "lic",
+      "siteSlug": "lic"
+    },
+    "meta": {
+      "segments": [
+        "life"
+      ],
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "Life Insurance Corporation of India",
+        "evidence": "Corporate Office : Life Insurance Corporation of India 'Yogakshema'"
+      },
+      "insurerType": {
+        "value": "life",
+        "evidence": "Life Insurance Corporation of India"
+      },
+      "website": {
+        "value": "https://licindia.in/",
+        "evidence": ""
+      },
+      "irdaiRegistrationNumber": {
+        "value": "512",
+        "evidence": "IRDAI Reg No- 512"
+      },
+      "headquarters": {
+        "value": "Mumbai",
+        "evidence": "Jeevan Bima Marg, P.O. Box No19953, Mumbai – 400 021"
+      }
+    }
+  },
+  {
+    "id": "lic-p1",
+    "kind": "product",
+    "sourceId": "insurer:lic",
+    "url": "https://licindia.in/lic-s-new-tech-term-954-512n351v01",
+    "notes": "Official page for LIC's New Tech-Term (Plan 954). The page heading prints 512N351V02 while its breadcrumb/title still say 512N351V01; the UIN is taken from the Term Assurance Plans table (UIN No. column), which prints 512N351V02.",
+    "subject": {
+      "slug": "lic-tech-term",
+      "insurerSlug": "lic",
+      "siteProductId": "lic-tech-term"
+    },
+    "meta": {
+      "productType": "term",
+      "segment": "life",
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "LIC's New Tech-Term",
+        "evidence": "Home Products Insurance Plans LIC's New Tech-Term 954"
+      },
+      "uin": {
+        "value": "512N351V02",
+        "url": "https://licindia.in/term-assurance-plans",
+        "evidence": "Sr. No. Product Name Plan No. UIN No. 1 LIC’s Digi Term 876 512N356V02 2 LIC’s Digi Credit Life 878 512N358V01 3 LIC’s Yuva Credit Life 877 512N357V01 4 LIC’s Yuva Term 875 512N355V02 5 LIC's New Tech-Term 954 512N351V02"
+      }
+    },
+    "documents": [
+      {
+        "kind": "brochure",
+        "title": "Sales Brochure",
+        "url": "https://licindia.in/documents/20121/290753/LIC_New+Tech+Term_Sales+Brochure_4+inch+x+9+inch_Eng+%282%29.pdf/d75b9948-b9e3-2ba1-9886-066a1bee6909?t=1741085687365"
+      }
+    ]
+  },
+  {
+    "id": "lic-p2",
+    "kind": "product",
+    "sourceId": "insurer:lic",
+    "url": "https://licindia.in/lic-s-new-jeevan-amar-955-uin-512n350v02",
+    "notes": "Official page for LIC's New Jeevan Amar (Plan 955).",
+    "subject": {
+      "slug": "lic-jeevan-amar",
+      "insurerSlug": "lic",
+      "siteProductId": "lic-jeevan-amar"
+    },
+    "meta": {
+      "productType": "term",
+      "segment": "life",
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "LIC's New Jeevan Amar",
+        "evidence": "Home Products Insurance Plans LIC's New Jeevan Amar 955 UIN 512N350V02"
+      },
+      "uin": {
+        "value": "512N350V02",
+        "evidence": "Home Products Insurance Plans LIC's New Jeevan Amar 955 UIN 512N350V02"
+      }
+    },
+    "documents": [
+      {
+        "kind": "brochure",
+        "title": "Sales Brochure",
+        "url": "https://licindia.in/documents/20121/1500493/LIC_Jeevan+amar_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29.pdf/b75c96c5-0d69-2b23-6c5a-d0c05f6e7b81?t=1751275371576"
+      }
+    ]
+  }
+]

@@ -1,0 +1,114 @@
+name: Registry refresh
+
+# Keeps the India public-data registry current.
+#
+#   daily   03:30 UTC  check-sources     robots.txt status of every source
+#   weekly  Mon 04:00  ingest            re-verify every inbox candidate against its live page
+#                      check-documents   official documents still served, unchanged
+#   monthly 1st 05:00  refresh-statistics data.gov.in API (needs DATA_GOV_IN_API_KEY)
+#
+# Changes are proposed as a pull request, never pushed to master: the registry
+# is reviewed before it reaches the site. Merging triggers the Vercel deploy,
+# which regenerates pages, metadata and sitemaps from the data.
+#
+# Repository setting required: Settings → Actions → General →
+# "Allow GitHub Actions to create and approve pull requests".
+
+on:
+  schedule:
+    - cron: "30 3 * * *"
+    - cron: "0 4 * * 1"
+    - cron: "0 5 1 * *"
+  workflow_dispatch:
+    inputs:
+      job:
+        description: Job to run
+        type: choice
+        options: [check-sources, weekly, refresh-statistics]
+        default: check-sources
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: registry-refresh
+  cancel-in-progress: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Decide which job to run
+        id: pick
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "job=${{ inputs.job }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "0 4 * * 1" ]; then
+            echo "job=weekly" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "0 5 1 * *" ]; then
+            echo "job=refresh-statistics" >> "$GITHUB_OUTPUT"
+          else
+            echo "job=check-sources" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run ${{ steps.pick.outputs.job }}
+        env:
+          DATA_GOV_IN_API_KEY: ${{ secrets.DATA_GOV_IN_API_KEY }}
+        run: |
+          case "${{ steps.pick.outputs.job }}" in
+            weekly)
+              npm run -s registry -- ingest
+              npm run -s registry -- check-documents
+              ;;
+            *)
+              npm run -s registry -- "${{ steps.pick.outputs.job }}"
+              ;;
+          esac
+
+      - name: Validate and report
+        run: |
+          npm run -s registry -- validate
+          npm run -s registry -- quality-report
+
+      - name: Propose changes as a pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- src/data/registry docs/data-quality-report.md; then
+            echo "No registry changes."
+            exit 0
+          fi
+          branch="registry/${{ steps.pick.outputs.job }}-$(date -u +%Y%m%d-%H%M)"
+          git config user.name "wbi-registry-bot"
+          git config user.email "registry-bot@worldbestinsurer.com"
+          git checkout -b "$branch"
+          git add src/data/registry docs/data-quality-report.md
+          git commit -m "registry: ${{ steps.pick.outputs.job }} $(date -u +%Y-%m-%d)"
+          git push origin "$branch"
+          {
+            echo "Automated registry run: \`${{ steps.pick.outputs.job }}\`."
+            echo
+            echo "Every value was re-verified against its source before being written."
+            echo "Review the changelog diff and the review queue in docs/data-quality-report.md before merging."
+            echo
+            echo '```'
+            git diff HEAD~1 --stat
+            echo '```'
+          } > /tmp/pr-body.md
+          gh pr create --base master --head "$branch" \
+            --title "Registry: ${{ steps.pick.outputs.job }} $(date -u +%Y-%m-%d)" \
+            --body-file /tmp/pr-body.md

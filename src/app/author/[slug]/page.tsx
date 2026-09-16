@@ -144,6 +144,28 @@ export default async function AuthorPage({
         </div>
       </div>
 
+      {/* Other contributors */}
+      {authors.some((a) => a.slug !== author.slug) && (
+        <div className="mb-10">
+          <h2 className="text-[16px] font-bold text-text-primary mb-3">Also on the team</h2>
+          <ul className="flex flex-wrap gap-2">
+            {authors
+              .filter((a) => a.slug !== author.slug)
+              .map((a) => (
+                <li key={a.slug}>
+                  <Link
+                    href={`/author/${a.slug}/`}
+                    className="inline-flex flex-col rounded-lg border border-border bg-surface px-3 py-2 hover:border-primary/20 transition-colors"
+                  >
+                    <span className="text-[13px] font-medium text-text-primary">{a.name}</span>
+                    <span className="text-[11px] text-text-tertiary">{a.role}</span>
+                  </Link>
+                </li>
+              ))}
+          </ul>
+        </div>
+      )}
+
       {/* Recent articles */}
       <div>
         <h2 className="text-[16px] font-bold text-text-primary mb-4">Recent Articles</h2>

@@ -7,6 +7,7 @@ import { getAllProducts, getAllInsurers, getCategories } from "@/lib/data";
 import { COUNTRY_NARRATIVE } from "@/lib/country-narrative";
 import WaitlistForm from "@/components/WaitlistForm";
 import { FAQSchema, BreadcrumbSchema } from "@/components/StructuredData";
+import { productDirectoryVerdict, registry, statisticsHubVerdict } from "@/lib/registry";
 
 export async function generateStaticParams() {
   return VALID_COUNTRY_CODES.map((country) => ({ country }));
@@ -183,6 +184,32 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
                 . Data verified against {c.regulator} publications and
                 published insurer filings.
               </div>
+            </div>
+          </section>
+        );
+      })()}
+
+      {/* India: the public-data directories */}
+      {country === "in" && (() => {
+        const reg = registry();
+        const links = [
+          { href: "/in/insurers/", label: "Insurers by IRDAI licence type", show: true },
+          { href: "/in/products/", label: "Product & UIN directory", show: productDirectoryVerdict(reg).indexable },
+          { href: "/in/insurance-statistics/", label: "Published insurance statistics", show: statisticsHubVerdict(reg).indexable },
+        ].filter((l) => l.show);
+        return (
+          <section className="mx-auto max-w-[1320px] px-5 lg:px-8 pt-12">
+            <h3 className="text-[16px] font-bold text-text-primary mb-1">Public insurance data for India</h3>
+            <p className="text-[13px] text-text-secondary mb-4">
+              Registration numbers, product UINs, official documents and published figures — each linked to the source it was read from.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {links.map((l) => (
+                <Link key={l.href} href={l.href}
+                  className="px-4 py-2 text-[13px] font-medium border border-border rounded-xl hover:border-primary/20 hover:text-primary transition-colors">
+                  {l.label}
+                </Link>
+              ))}
             </div>
           </section>
         );

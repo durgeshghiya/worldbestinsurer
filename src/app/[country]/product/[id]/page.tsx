@@ -18,13 +18,23 @@ import {
 import { getAllProducts, getProductById, getProductsByCategory } from "@/lib/data";
 import { getCountryByCode, VALID_COUNTRY_CODES } from "@/lib/countries";
 import { formatCompact, freshnessLabel, cn } from "@/lib/utils";
-import { ProductSchema, BreadcrumbSchema } from "@/components/StructuredData";
+import { ProductSchema, BreadcrumbSchema, JsonLd } from "@/components/StructuredData";
 import ProductTabs from "./ProductTabs";
 import ProductQuoteForm from "@/components/ProductQuoteForm";
 import ProductEditorial from "@/components/ProductEditorial";
 import { AdSlot } from "@/components/AdSlot";
 import ReviewSection from "@/components/ReviewSection";
 import AffiliateLink from "@/components/AffiliateLink";
+import RegistryProductSection from "@/components/registry/RegistryProductSection";
+import {
+  PRODUCT_TYPE_LABEL,
+  formatDate,
+  productVerdict,
+  productView,
+  registry,
+  robotsFor,
+  siteFacts,
+} from "@/lib/registry";
 
 export async function generateStaticParams() {
   const params: { country: string; id: string }[] = [];
@@ -33,7 +43,20 @@ export async function generateStaticParams() {
       params.push({ country: cc, id: p.id });
     }
   }
+  // Registry products with no pre-existing site record get a page too.
+  const site = siteFacts();
+  for (const rp of registry().products) {
+    if (!rp.siteProductId && !site.siteProductExists(rp.slug)) params.push({ country: "in", id: rp.slug });
+  }
   return params;
+}
+
+/** India registry lookup by page id. A site product links via siteProductId. */
+function registryFor(country: string, id: string) {
+  if (country !== "in") return undefined;
+  const reg = registry();
+  const rp = reg.productBySiteId.get(id) ?? reg.productBySlug.get(id);
+  return rp ? { reg, rp, site: siteFacts() } : undefined;
 }
 
 export async function generateMetadata({
@@ -44,20 +67,40 @@ export async function generateMetadata({
   const { country, id } = await params;
   const product = getProductById(id, country);
   const c = getCountryByCode(country);
-  if (!product || !c) return {};
+  const r = registryFor(country, id);
+  if ((!product && !r) || !c) return {};
+  const canonical = `https://worldbestinsurer.com/${country}/product/${id}`;
+
+  if (!product && r) {
+    const v = productView(r.rp, r.reg);
+    const ins = v.insurer?.name.value ?? r.rp.insurerSlug;
+    const uin = r.rp.uin?.value;
+    const title = `${v.name} by ${ins}${uin ? ` — UIN ${uin}` : ""}`;
+    const description =
+      `${v.name} from ${ins}: ${PRODUCT_TYPE_LABEL[r.rp.productType].toLowerCase()} insurance` +
+      (uin ? `, UIN ${uin}` : "") +
+      `. Official documents and product details, each linked to the insurer's own page. Updated ${formatDate(v.updated?.slice(0, 10))}.`;
+    return {
+      title,
+      description,
+      alternates: { canonical },
+      openGraph: { title, description, url: `${canonical}/`, type: "website" },
+      ...robotsFor(productVerdict(id, r.reg, r.site)),
+    };
+  }
+
+  const uin = r?.rp.uin?.value;
   return {
-    title: `${product.productName} by ${product.insurerName} \u2014 ${c.name}`,
-    description: `Compare ${product.productName} features, coverage, premiums, and more. ${c.name} insurance comparison on World Best Insurer.`,
+    title: `${product!.productName} by ${product!.insurerName}${uin ? ` (UIN ${uin})` : ""} \u2014 ${c.name}`,
+    description: `Compare ${product!.productName} by ${product!.insurerName}: features, coverage, premiums, and more${uin ? `. IRDAI UIN ${uin}` : ""}. ${c.name} insurance comparison on World Best Insurer.`,
     keywords: [
-      product.productName,
-      product.insurerName,
-      product.category,
+      product!.productName,
+      product!.insurerName,
+      product!.category,
       c.name,
       "insurance comparison",
     ],
-    alternates: {
-      canonical: `https://worldbestinsurer.com/${country}/product/${id}`,
-    },
+    alternates: { canonical },
   };
 }
 
@@ -69,7 +112,67 @@ export default async function CountryProductPage({
   const { country, id } = await params;
   const product = getProductById(id, country);
   const c = getCountryByCode(country);
-  if (!product || !c) notFound();
+  const r = registryFor(country, id);
+  if (!c || (!product && !r)) notFound();
+
+  // Registry-only product: a data page on the same URL pattern.
+  if (!product && r) {
+    const v = productView(r.rp, r.reg);
+    const ins = v.insurer;
+    return (
+      <div className="mx-auto max-w-[1200px] px-5 lg:px-8 py-10">
+        <BreadcrumbSchema
+          items={[
+            { name: "Home", url: "https://worldbestinsurer.com/" },
+            { name: c.name, url: `https://worldbestinsurer.com/${country}/` },
+            { name: "Products", url: "https://worldbestinsurer.com/in/products/" },
+            { name: v.name, url: `https://worldbestinsurer.com/${country}/product/${id}/` },
+          ]}
+        />
+        {/* Only what the page shows: no price, offer or rating is asserted. */}
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: v.name,
+            url: `https://worldbestinsurer.com/${country}/product/${id}/`,
+            category: `${PRODUCT_TYPE_LABEL[r.rp.productType]} insurance`,
+            ...(ins && { brand: { "@type": "Brand", name: ins.name.value } }),
+            ...(r.rp.uin && {
+              productID: r.rp.uin.value,
+              identifier: { "@type": "PropertyValue", propertyID: "IRDAI UIN", value: r.rp.uin.value },
+            }),
+          }}
+        />
+        <nav className="flex items-center gap-1.5 text-[12px] text-text-tertiary flex-wrap mb-6" aria-label="Breadcrumb">
+          <Link href="/" className="hover:text-primary transition-colors">Home</Link>
+          <ChevronRight className="w-3 h-3" />
+          <Link href={`/${country}`} className="hover:text-primary transition-colors">{c.flag} {c.name}</Link>
+          <ChevronRight className="w-3 h-3" />
+          <Link href="/in/products/" className="hover:text-primary transition-colors">Products</Link>
+          <ChevronRight className="w-3 h-3" />
+          <span className="text-text-secondary">{v.name}</span>
+        </nav>
+        <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-primary">
+          {PRODUCT_TYPE_LABEL[r.rp.productType]}
+        </p>
+        <h1 className="mt-1 text-[28px] sm:text-[36px] font-bold text-text-primary tracking-[-0.02em]">{v.name}</h1>
+        <p className="mt-2 text-[15px] text-text-secondary">
+          {ins ? (
+            <>by <Link href={`/in/insurer/${ins.slug}/`} className="font-medium text-primary hover:underline">{ins.name.value}</Link></>
+          ) : null}
+          {r.rp.uin && <> · UIN <span className="font-mono text-text-primary">{r.rp.uin.value}</span></>}
+        </p>
+        <p className="mt-4 max-w-[70ch] text-[14px] leading-relaxed text-text-secondary">
+          This page lists what the insurer publishes about {v.name}. We do not have premium or benefit figures
+          for this product, so none are shown — read the official documents below for the full terms.
+        </p>
+        <RegistryProductSection product={r.rp} reg={r.reg} site={r.site} />
+      </div>
+    );
+  }
+
+  if (!product) notFound();
   const p = product; // alias for brevity
 
   const freshness = freshnessLabel(p.lastVerified);
@@ -89,7 +192,7 @@ export default async function CountryProductPage({
 
   return (
     <div className="min-h-screen">
-      <ProductSchema product={product} />
+      <ProductSchema product={product} uin={r?.rp.uin?.value} />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://worldbestinsurer.com" },
@@ -225,6 +328,8 @@ export default async function CountryProductPage({
               product={p}
               similarProducts={similarProducts}
             />
+
+            {r && <RegistryProductSection product={r.rp} reg={r.reg} site={r.site} />}
 
             {/* In-content placement: sits between the spec tables and the
                 editorial, i.e. after the reader has had real content. */}

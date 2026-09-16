@@ -101,7 +101,7 @@ export default async function CityComparePage({
         {products.map((p) => (
           <Link
             key={p.id}
-            href={`/product/${p.id}`}
+            href={`/${p.countryCode}/product/${p.id}/`}
             className="group bg-surface rounded-xl border border-border hover:border-primary/15 hover:shadow-md transition-all p-5"
           >
             <div className="flex items-start justify-between mb-2">

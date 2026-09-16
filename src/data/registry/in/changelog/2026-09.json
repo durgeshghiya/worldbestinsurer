@@ -1,0 +1,1000 @@
+[
+ {
+  "at": "2026-09-16T08:59:52.936Z",
+  "job": "ingest",
+  "kind": "insurer",
+  "key": "acko",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.acko.com/gi"
+ },
+ {
+  "at": "2026-09-16T08:59:53.288Z",
+  "job": "ingest",
+  "kind": "insurer",
+  "key": "digit",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.godigit.com/"
+ },
+ {
+  "at": "2026-09-16T08:59:54.820Z",
+  "job": "ingest",
+  "kind": "insurer",
+  "key": "hdfc-ergo",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.hdfcergo.com/"
+ },
+ {
+  "at": "2026-09-16T08:59:55.110Z",
+  "job": "ingest",
+  "kind": "insurer",
+  "key": "lic",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://licindia.in/"
+ },
+ {
+  "at": "2026-09-16T08:59:55.987Z",
+  "job": "ingest",
+  "kind": "insurer",
+  "key": "manipalcigna",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.manipalcigna.com/"
+ },
+ {
+  "at": "2026-09-16T08:59:59.391Z",
+  "job": "ingest",
+  "kind": "insurer",
+  "key": "max-life",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.axismaxlife.com/"
+ },
+ {
+  "at": "2026-09-16T09:00:05.346Z",
+  "job": "ingest",
+  "kind": "insurer",
+  "key": "new-india-assurance",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.newindia.co.in/"
+ },
+ {
+  "at": "2026-09-16T09:00:07.760Z",
+  "job": "ingest",
+  "kind": "insurer",
+  "key": "niva-bupa",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.nivabupa.com/"
+ },
+ {
+  "at": "2026-09-16T09:00:08.030Z",
+  "job": "ingest",
+  "kind": "insurer",
+  "key": "pnb-metlife",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.pnbmetlife.com/"
+ },
+ {
+  "at": "2026-09-16T09:00:08.397Z",
+  "job": "ingest",
+  "kind": "insurer",
+  "key": "tata-aig",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.tataaig.com/"
+ },
+ {
+  "at": "2026-09-16T09:00:09.282Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "f9674eeb29c33191",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.acko.com/car-insurance/"
+ },
+ {
+  "at": "2026-09-16T09:00:09.283Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "acko-car-insurance",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.acko.com/car-insurance/"
+ },
+ {
+  "at": "2026-09-16T09:00:11.713Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "acko-platinum-health",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.acko.com/health-insurance/"
+ },
+ {
+  "at": "2026-09-16T09:00:12.580Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "digit-health-insurance",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.godigit.com/health-insurance"
+ },
+ {
+  "at": "2026-09-16T09:00:13.960Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "digit-happy-traveller-plan",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.godigit.com/international-travel-insurance"
+ },
+ {
+  "at": "2026-09-16T09:00:14.264Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "hdfc-ergo-optima-secure",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.hdfcergo.com/health-insurance/optima-secure"
+ },
+ {
+  "at": "2026-09-16T09:00:16.391Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "hdfc-ergo-travel",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.hdfcergo.com/travel-insurance"
+ },
+ {
+  "at": "2026-09-16T09:00:20.542Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "e94a299d05b7db10",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://licindia.in/lic-s-new-tech-term-954-512n351v01"
+ },
+ {
+  "at": "2026-09-16T09:00:20.543Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "lic-tech-term",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://licindia.in/lic-s-new-tech-term-954-512n351v01"
+ },
+ {
+  "at": "2026-09-16T09:00:24.524Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "9e17790e5524d341",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://licindia.in/lic-s-new-jeevan-amar-955-uin-512n350v02"
+ },
+ {
+  "at": "2026-09-16T09:00:24.525Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "lic-jeevan-amar",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://licindia.in/lic-s-new-jeevan-amar-955-uin-512n350v02"
+ },
+ {
+  "at": "2026-09-16T09:00:25.254Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "manipalcigna-prohealth-prime",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.manipalcigna.com/hospitalization-cover/prohealth-insurance"
+ },
+ {
+  "at": "2026-09-16T09:00:28.927Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "f1a2d2d310e2496b",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.manipalcigna.com/hospitalization-cover/manipalcigna-sarvah"
+ },
+ {
+  "at": "2026-09-16T09:00:28.928Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "manipalcigna-sarvah",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.manipalcigna.com/hospitalization-cover/manipalcigna-sarvah"
+ },
+ {
+  "at": "2026-09-16T09:00:31.380Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "9337473670248a42",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan"
+ },
+ {
+  "at": "2026-09-16T09:00:33.379Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "51f0f3b74f528e0d",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan"
+ },
+ {
+  "at": "2026-09-16T09:00:35.505Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "e982f0f2047c750d",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan"
+ },
+ {
+  "at": "2026-09-16T09:00:37.288Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "c904893b539cf4dd",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan"
+ },
+ {
+  "at": "2026-09-16T09:00:37.289Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "max-life-smart-secure-plus",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan"
+ },
+ {
+  "at": "2026-09-16T09:00:41.535Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "78a16d5b1d7e8ea9",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus"
+ },
+ {
+  "at": "2026-09-16T09:00:43.402Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "17d8aa0f58bfc530",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus"
+ },
+ {
+  "at": "2026-09-16T09:00:45.481Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "7c711db79c3f6d0d",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus"
+ },
+ {
+  "at": "2026-09-16T09:00:47.453Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "261712d228986fc3",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus"
+ },
+ {
+  "at": "2026-09-16T09:00:49.285Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "269902b01bf4e7a1",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus"
+ },
+ {
+  "at": "2026-09-16T09:00:51.286Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "8f20381096d5225b",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus"
+ },
+ {
+  "at": "2026-09-16T09:00:51.287Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "max-life-smart-term-plan-plus",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus"
+ },
+ {
+  "at": "2026-09-16T09:01:02.818Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "4faa52bcf11b2468",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy"
+ },
+ {
+  "at": "2026-09-16T09:01:04.664Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "274d133103251735",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy"
+ },
+ {
+  "at": "2026-09-16T09:01:06.729Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "9cc2173f00b1bd1d",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy"
+ },
+ {
+  "at": "2026-09-16T09:01:10.780Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "37fee69823fe92a1",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy"
+ },
+ {
+  "at": "2026-09-16T09:01:12.302Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "8c6bb1dd36442da7",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy"
+ },
+ {
+  "at": "2026-09-16T09:01:12.303Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "new-india-assurance-arogya-sanjeevani-policy",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy"
+ },
+ {
+  "at": "2026-09-16T09:01:17.920Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "5d336e18a401a51c",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy"
+ },
+ {
+  "at": "2026-09-16T09:01:19.932Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "8a61d65703f534e0",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy"
+ },
+ {
+  "at": "2026-09-16T09:01:22.550Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "693f61ca6d21868c",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy"
+ },
+ {
+  "at": "2026-09-16T09:01:23.784Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "613cf02b04acd9a6",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy"
+ },
+ {
+  "at": "2026-09-16T09:01:25.774Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "a08d8f9782d55891",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy"
+ },
+ {
+  "at": "2026-09-16T09:01:25.775Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "new-india-assurance-janata-mediclaim-policy",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy"
+ },
+ {
+  "at": "2026-09-16T09:01:27.704Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "879ffbc094537f99",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.nivabupa.com/family-health-insurance-plans/reassurev2-insurance.html"
+ },
+ {
+  "at": "2026-09-16T09:01:29.543Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "97c6854a696fc62f",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.nivabupa.com/family-health-insurance-plans/reassurev2-insurance.html"
+ },
+ {
+  "at": "2026-09-16T09:01:32.548Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "7ffa77d95c7ca061",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.nivabupa.com/family-health-insurance-plans/reassurev2-insurance.html"
+ },
+ {
+  "at": "2026-09-16T09:01:32.549Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "niva-bupa-reassure-2",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.nivabupa.com/family-health-insurance-plans/reassurev2-insurance.html"
+ },
+ {
+  "at": "2026-09-16T09:01:32.782Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "niva-bupa-senior-first",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.nivabupa.com/health-insurance-plans/senior-first-get-quote.html"
+ },
+ {
+  "at": "2026-09-16T09:01:35.075Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "ef6625cb050cab35",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html"
+ },
+ {
+  "at": "2026-09-16T09:01:36.894Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "291500d0b8d273ac",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html"
+ },
+ {
+  "at": "2026-09-16T09:01:36.895Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "pnb-metlife-mera-term",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html"
+ },
+ {
+  "at": "2026-09-16T09:01:40.861Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "d27337bb93f582d0",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html"
+ },
+ {
+  "at": "2026-09-16T09:01:42.856Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "1e9c189e4027314f",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html"
+ },
+ {
+  "at": "2026-09-16T09:01:42.856Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "pnb-metlife-saral-jeevan-bima",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html"
+ },
+ {
+  "at": "2026-09-16T09:01:43.215Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "tata-aig-medicare-select",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.tataaig.com/health-insurance/medicare-select"
+ },
+ {
+  "at": "2026-09-16T09:01:49.518Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "b720b538b0368e89",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.tataaig.com/motor-insurance/car-insurance"
+ },
+ {
+  "at": "2026-09-16T09:01:49.519Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "tata-aig-car-insurance",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.tataaig.com/motor-insurance/car-insurance"
+ },
+ {
+  "at": "2026-09-16T09:05:27.696Z",
+  "job": "ingest",
+  "kind": "insurer",
+  "key": "max-life",
+  "field": "formerNames",
+  "from": [
+   {
+    "name": "Max Life Insurance Co. Ltd.",
+    "provenance": {
+     "sourceId": "insurer:max-life",
+     "url": "https://www.axismaxlife.com/",
+     "retrievedAt": "2026-09-16T08:59:59.296Z",
+     "evidence": "Axis Max Life Insurance Limited (formerly known as Max Life Insurance Co. Ltd.)"
+    }
+   }
+  ],
+  "to": [
+   {
+    "name": "Max Life Insurance Co. Ltd.",
+    "provenance": {
+     "sourceId": "insurer:max-life",
+     "url": "https://www.axismaxlife.com/",
+     "retrievedAt": "2026-09-16T09:05:27.601Z",
+     "evidence": "Axis Max Life Insurance Limited (formerly known as Max Life Insurance Co. Ltd.)"
+    }
+   }
+  ],
+  "sourceUrl": "https://www.axismaxlife.com/"
+ },
+ {
+  "at": "2026-09-16T09:06:27.503Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "4faa52bcf11b2468",
+  "field": "contentHash",
+  "from": "18b1924851ae5ffb57e80972a1182d5a4bd93ee442aa7fbdaac4f6d7e680e552",
+  "to": "c1c154327c7a3c58eaac86e62a20e8d55cb22d524bc1b0cdfb34427d0abe945a",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy"
+ },
+ {
+  "at": "2026-09-16T09:06:29.707Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "274d133103251735",
+  "field": "contentHash",
+  "from": "c1c154327c7a3c58eaac86e62a20e8d55cb22d524bc1b0cdfb34427d0abe945a",
+  "to": "e1dd3d57c961002ba5336dc4b82aff687fdc0fd64b8209a25132022f21e48ef0",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy"
+ },
+ {
+  "at": "2026-09-16T09:06:32.106Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "9cc2173f00b1bd1d",
+  "field": "contentHash",
+  "from": "3ad399110358e1105b5f6b6dd3a690abbd69df0d37e96e61ab954771767c5a11",
+  "to": "22b2cc1722060a19e5f66f577cb6e70fa7739fb024cd3790741611a400d42b2e",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy"
+ },
+ {
+  "at": "2026-09-16T09:06:34.530Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "37fee69823fe92a1",
+  "field": "contentHash",
+  "from": "e4eabae03cddff3987b86c8b2da5cc376af63ea9710e3573991625d49c49bc60",
+  "to": "0fc1363c98e13f4529f0e0c4f2c2eb6880fcd7b6f2d91c3b22803afc59e7d937",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy"
+ },
+ {
+  "at": "2026-09-16T09:06:36.282Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "8c6bb1dd36442da7",
+  "field": "contentHash",
+  "from": "83aaabda07cfa62648a5b5226005d5117616e7dee4a08a4715463fa026040dd5",
+  "to": "277cbee7effb13a4efc5a1477aeb1620d402f005890fc33e82a8557f96f9dc66",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy"
+ },
+ {
+  "at": "2026-09-16T09:06:41.450Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "5d336e18a401a51c",
+  "field": "contentHash",
+  "from": "2680e44a9ca7a197f7aff0ed62734e066c55325a041fbf2c3ace85e49c674272",
+  "to": "aef42b53cdeee29b6044fcc386bc96373be9aa08f8b7f71ee2a8e2ad9fc37964",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy"
+ },
+ {
+  "at": "2026-09-16T09:06:43.726Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "8a61d65703f534e0",
+  "field": "contentHash",
+  "from": "ea7789894483d7263a4e7d2f39b4a6ba5227695232eced9127c9991f17a8eab3",
+  "to": "857278ce6be201c65b9dca62a24a4da3bba50146889b0f738d2d2ac8e808350a",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy"
+ },
+ {
+  "at": "2026-09-16T09:06:45.237Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "693f61ca6d21868c",
+  "field": "contentHash",
+  "from": "16610fb03482b59e86d72a1e2ff344e9f16c6cb40478e11a07c4a0b5cb62d6d5",
+  "to": "a03fcb42555749e1784d79f017051f837e85a1a3ddc12743e45d2b51e564a806",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy"
+ },
+ {
+  "at": "2026-09-16T09:06:47.345Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "613cf02b04acd9a6",
+  "field": "contentHash",
+  "from": "fcdfe5ee6281d5d08feda48a2faaccd6d80b659fb18bbd1ffc266f2adbfb7f99",
+  "to": "7e516b5f7822680ad71e39e2894a1658c0f894a741d4c8be112d5c49283f1487",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy"
+ },
+ {
+  "at": "2026-09-16T09:06:49.166Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "a08d8f9782d55891",
+  "field": "contentHash",
+  "from": "78adbb61f33f6653de29db959dc5ce6ded1639f8dfee435a6717b4b12e2defd3",
+  "to": "ae0cd9da187601751548c4b2e353288f1553a7a88095b54ff8d1aa436f4531e9",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy"
+ },
+ {
+  "at": "2026-09-16T09:06:56.533Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "7ffa77d95c7ca061",
+  "field": "contentHash",
+  "from": "3cf7ac69b03a0ce0b2c43d8434ea083f05fd370cf3cbfe9a724d499a0e6c804c",
+  "to": "c50e35903f6e3085fdb9b33cba0effe7d084fd02df3058e23047656856ac6c41",
+  "sourceUrl": "https://www.nivabupa.com/family-health-insurance-plans/reassurev2-insurance.html"
+ },
+ {
+  "at": "2026-09-16T09:07:14.969Z",
+  "job": "ingest",
+  "kind": "statistic",
+  "key": "2fd89dcbc04de8bf",
+  "field": "*",
+  "from": null,
+  "to": 1.84,
+  "sourceUrl": "https://licindia.in/"
+ },
+ {
+  "at": "2026-09-16T09:07:14.969Z",
+  "job": "ingest",
+  "kind": "statistic",
+  "key": "9d879bc8ead1034f",
+  "field": "*",
+  "from": null,
+  "to": 260464,
+  "sourceUrl": "https://licindia.in/"
+ },
+ {
+  "at": "2026-09-16T09:07:14.969Z",
+  "job": "ingest",
+  "kind": "statistic",
+  "key": "b6fe1be648bb122d",
+  "field": "*",
+  "from": null,
+  "to": 65.16,
+  "sourceUrl": "https://licindia.in/"
+ },
+ {
+  "at": "2026-09-16T09:07:14.970Z",
+  "job": "ingest",
+  "kind": "statistic",
+  "key": "2d36661b140ca02f",
+  "field": "*",
+  "from": null,
+  "to": 99.44,
+  "sourceUrl": "https://licindia.in/"
+ },
+ {
+  "at": "2026-09-16T09:07:14.970Z",
+  "job": "ingest",
+  "kind": "statistic",
+  "key": "412a42c8741d5b1d",
+  "field": "*",
+  "from": null,
+  "to": 99.03,
+  "sourceUrl": "https://licindia.in/"
+ },
+ {
+  "at": "2026-09-16T09:07:14.970Z",
+  "job": "ingest",
+  "kind": "statistic",
+  "key": "b9b5264c15af5358",
+  "field": "*",
+  "from": null,
+  "to": 91.37,
+  "sourceUrl": "https://licindia.in/"
+ },
+ {
+  "at": "2026-09-16T09:07:14.970Z",
+  "job": "ingest",
+  "kind": "statistic",
+  "key": "9d37d60d98ec037a",
+  "field": "*",
+  "from": null,
+  "to": 96.43,
+  "sourceUrl": "https://licindia.in/"
+ },
+ {
+  "at": "2026-09-16T09:07:14.970Z",
+  "job": "ingest",
+  "kind": "statistic",
+  "key": "1304705c99cec7ca",
+  "field": "*",
+  "from": null,
+  "to": 0.1,
+  "sourceUrl": "https://licindia.in/"
+ },
+ {
+  "at": "2026-09-16T09:07:14.970Z",
+  "job": "ingest",
+  "kind": "statistic",
+  "key": "05f847838779b260",
+  "field": "*",
+  "from": null,
+  "to": 2.44,
+  "sourceUrl": "https://licindia.in/"
+ },
+ {
+  "at": "2026-09-16T09:07:14.970Z",
+  "job": "ingest",
+  "kind": "statistic",
+  "key": "b6000f7c5f140120",
+  "field": "*",
+  "from": null,
+  "to": 25673,
+  "sourceUrl": "https://licindia.in/"
+ },
+ {
+  "at": "2026-09-16T09:07:14.970Z",
+  "job": "ingest",
+  "kind": "statistic",
+  "key": "b0496c6fc504819a",
+  "field": "*",
+  "from": null,
+  "to": 287098,
+  "sourceUrl": "https://licindia.in/"
+ },
+ {
+  "at": "2026-09-16T09:07:14.970Z",
+  "job": "ingest",
+  "kind": "statistic",
+  "key": "a466acb787195f5c",
+  "field": "*",
+  "from": null,
+  "to": 99.81,
+  "sourceUrl": "https://www.pnbmetlife.com/"
+ },
+ {
+  "at": "2026-09-16T09:10:11.488Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "274d133103251735",
+  "field": "*",
+  "from": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/arogya-sanjeevani/POLICY%20CLAUSES%20Arogya%20Sanjeevani.pdf",
+  "to": "removed: no longer verifies as an official document linked from the product page",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy"
+ },
+ {
+  "at": "2026-09-16T09:10:11.488Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "37fee69823fe92a1",
+  "field": "*",
+  "from": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/arogya-sanjeevani/Proposal%20form%20%20New%20India%20Arogya%20sanjeevani%20policy.pdf",
+  "to": "removed: no longer verifies as an official document linked from the product page",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy"
+ },
+ {
+  "at": "2026-09-16T09:10:11.488Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "4faa52bcf11b2468",
+  "field": "*",
+  "from": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/arogya-sanjeevani/Customer%20Information%20Sheet%20AROGYA%20SANJEEVANI%20POLICY.pdf",
+  "to": "removed: no longer verifies as an official document linked from the product page",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy"
+ },
+ {
+  "at": "2026-09-16T09:10:11.488Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "8c6bb1dd36442da7",
+  "field": "*",
+  "from": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/Claim_Form.pdf",
+  "to": "removed: no longer verifies as an official document linked from the product page",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy"
+ },
+ {
+  "at": "2026-09-16T09:10:11.488Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "9cc2173f00b1bd1d",
+  "field": "*",
+  "from": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/arogya-sanjeevani/Prospectus%20Arogya%20Sanjeevani%20Policy.pdf",
+  "to": "removed: no longer verifies as an official document linked from the product page",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy"
+ },
+ {
+  "at": "2026-09-16T09:10:25.266Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "5d336e18a401a51c",
+  "field": "*",
+  "from": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/janata-mediclaim-policy/Customer%20Information%20Sheet%20JANATA%20MEDICLAIM%20POLICY.pdf",
+  "to": "removed: no longer verifies as an official document linked from the product page",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy"
+ },
+ {
+  "at": "2026-09-16T09:10:25.266Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "613cf02b04acd9a6",
+  "field": "*",
+  "from": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/janata-mediclaim-policy/revised%20Janata%20Mediclaim%20Proposal%20Form%20.pdf",
+  "to": "removed: no longer verifies as an official document linked from the product page",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy"
+ },
+ {
+  "at": "2026-09-16T09:10:25.266Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "693f61ca6d21868c",
+  "field": "*",
+  "from": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/janata-mediclaim-policy/Prospectus%20Janata%20Mediclaim%20Policy.pdf",
+  "to": "removed: no longer verifies as an official document linked from the product page",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy"
+ },
+ {
+  "at": "2026-09-16T09:10:25.266Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "8a61d65703f534e0",
+  "field": "*",
+  "from": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/janata-mediclaim-policy/Policy%20Clause%20Janata%20Mediclaim%20Policy.pdf",
+  "to": "removed: no longer verifies as an official document linked from the product page",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy"
+ },
+ {
+  "at": "2026-09-16T09:10:25.267Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "a08d8f9782d55891",
+  "field": "*",
+  "from": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/janata-mediclaim-policy/janata-med-claim-form.pdf",
+  "to": "removed: no longer verifies as an official document linked from the product page",
+  "sourceUrl": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy"
+ },
+ {
+  "at": "2026-09-16T09:13:25.506Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "7ffa77d95c7ca061",
+  "field": "contentHash",
+  "from": "c50e35903f6e3085fdb9b33cba0effe7d084fd02df3058e23047656856ac6c41",
+  "sourceUrl": "https://www.nivabupa.com/family-health-insurance-plans/reassurev2-insurance.html"
+ },
+ {
+  "at": "2026-09-16T09:13:25.506Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "7ffa77d95c7ca061",
+  "field": "volatile",
+  "to": true,
+  "sourceUrl": "https://www.nivabupa.com/family-health-insurance-plans/reassurev2-insurance.html"
+ }
+]

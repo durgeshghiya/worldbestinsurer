@@ -1,0 +1,112 @@
+[
+  {
+    "id": "niva-bupa-identity",
+    "kind": "insurer",
+    "sourceId": "insurer:niva-bupa",
+    "url": "https://www.nivabupa.com/",
+    "subject": {
+      "slug": "niva-bupa",
+      "siteSlug": "niva-bupa"
+    },
+    "meta": {
+      "segments": ["health", "travel"],
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "Niva Bupa Health Insurance Company Limited",
+        "evidence": "Niva Bupa Health Insurance Company Limited (IRDAI Registration Number 145, Category:Health)"
+      },
+      "insurerType": {
+        "value": "standalone-health",
+        "evidence": "Niva Bupa Health Insurance Company Limited (IRDAI Registration Number 145, Category:Health)"
+      },
+      "website": {
+        "value": "https://www.nivabupa.com/",
+        "evidence": "www.nivabupa.com"
+      },
+      "legalName": {
+        "value": "Niva Bupa Health Insurance Company Limited",
+        "evidence": "Niva Bupa Health Insurance Company Limited (IRDAI Registration Number 145, Category:Health)"
+      },
+      "irdaiRegistrationNumber": {
+        "value": "145",
+        "evidence": "CIN: L66000DL2008PLC182918 IRDAI Registration No. 145"
+      },
+      "cin": {
+        "value": "L66000DL2008PLC182918",
+        "evidence": "CIN: L66000DL2008PLC182918 IRDAI Registration No. 145"
+      },
+      "headquarters": {
+        "value": "Gurgaon",
+        "evidence": "Corporate Office: 3rd Floor, Capital Cyberscape, Sector 59, Gurgaon"
+      }
+    }
+  },
+  {
+    "id": "niva-bupa-p1",
+    "kind": "product",
+    "sourceId": "insurer:niva-bupa",
+    "url": "https://www.nivabupa.com/family-health-insurance-plans/reassurev2-insurance.html",
+    "subject": {
+      "slug": "niva-bupa-reassure-2",
+      "insurerSlug": "niva-bupa",
+      "siteProductId": "niva-bupa-reassure-2"
+    },
+    "meta": {
+      "productType": "health-indemnity",
+      "segment": "health",
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "ReAssure 2.0",
+        "evidence": "Home> Family Health Insurance Plans> ReAssure 2.0 Key features of ReAssure2.0"
+      }
+    },
+    "documents": [
+      {
+        "kind": "brochure",
+        "title": "ReAssure 2.0 Brochure",
+        "url": "https://transactions.nivabupa.com/pages/doc/brochure/ReAssure_2.0_Titanium_plus_&_Platinumplus_SS_with_Deductible.pdf"
+      },
+      {
+        "kind": "policy-wording",
+        "title": "ReAssure 2.0 Policy Wordings",
+        "url": "https://transactions.nivabupa.com/pages/doc/policy_wording/ReAssure-2.0-Policy-Wording.pdf"
+      },
+      {
+        "kind": "proposal-form",
+        "title": "Reassure 2.0 Proposal Form",
+        "url": "https://transactions.nivabupa.com/services/pages/DownloadApplication.aspx?ProductCode=23"
+      }
+    ],
+    "notes": "https://www.nivabupa.com/health-insurance-plans/reassure-2.html redirects here. The page prints no UIN."
+  },
+  {
+    "id": "niva-bupa-p2",
+    "kind": "product",
+    "sourceId": "insurer:niva-bupa",
+    "url": "https://www.nivabupa.com/health-insurance-plans/senior-first-get-quote.html",
+    "subject": {
+      "slug": "niva-bupa-senior-first",
+      "insurerSlug": "niva-bupa"
+    },
+    "meta": {
+      "productType": "health-indemnity",
+      "segment": "health",
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "Niva Bupa Senior First",
+        "evidence": "we curated Niva Bupa Senior First to be a trusted partner"
+      },
+      "eligibility": {
+        "value": "aged 61 and above",
+        "evidence": "we provide an affordable way to secure high-quality medical insurance for those aged 61 and above"
+      }
+    },
+    "notes": "https://www.nivabupa.com/health-insurance-plans/senior-first.html redirects to this product landing page. The page prints no UIN."
+  }
+]

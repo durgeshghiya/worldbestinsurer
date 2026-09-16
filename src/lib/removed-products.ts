@@ -1,6 +1,11 @@
 // Maps removed product IDs to their category, so their URLs 301 to the relevant
 // compare page instead of 404ing. See src/proxy.ts.
 //
+// An id must never be here while a live product uses it: src/proxy.ts would
+// 301 the live page away. Six such stale entries (and one id now re-used by a
+// verified registry product) were removed on 2026-09-16; the registry ingest
+// refuses new slugs that appear in this map.
+//
 // Two waves are recorded here:
 //   2026-04-03  the data rebuild
 //   2026-09-01  the catalogue verification cut — 573 products whose records
@@ -361,7 +366,6 @@ export const REMOVED_PRODUCT_MAP: Record<string, string> = {
   "cigna-travel-global": "travel",
   "cigna-uk-essential-plus-nrq": "health",
   "cigna-uk-family-guardian-gzq": "health",
-  "cigna-uk-health": "health",
   "cigna-uk-total-protect-a7q": "health",
   "cigna-wellness-premier-1zm": "health",
   "clearview-life-cover": "term-life",
@@ -517,7 +521,6 @@ export const REMOVED_PRODUCT_MAP: Record<string, string> = {
   "great-eastern-supreme-health-standard": "health",
   "great-eastern-term-assure": "term-life",
   "great-eastern-travel-secure-fts": "travel",
-  "great-eastern-travel-sg": "travel",
   "greenshield-health-plan": "health",
   "greenshield-secure-health-l78": "health",
   "greenshield-total-protect-8b8": "health",
@@ -658,7 +661,6 @@ export const REMOVED_PRODUCT_MAP: Record<string, string> = {
   "kotak-general-active-care-y22": "health",
   "kotak-general-auto-saver-3nr": "motor",
   "kotak-general-motor": "motor",
-  "kotak-health-premier": "health",
   "kotak-health-secure": "health",
   "kotak-life-e-term": "term-life",
   "kotak-life-life-guardian-rnq": "term-life",
@@ -677,7 +679,6 @@ export const REMOVED_PRODUCT_MAP: Record<string, string> = {
   "liberty-mutual-auto": "motor",
   "liberty-mutual-premium-auto-cover-adf": "motor",
   "liberty-mutual-total-auto-care-bpf": "motor",
-  "lic-jeevan-amar": "term-life",
   "lic-term-diamond-mvq": "term-life",
   "lic-term-elite-9bq": "term-life",
   "lifenet-comprehensive-care-rdv": "health",
@@ -811,7 +812,6 @@ export const REMOVED_PRODUCT_MAP: Record<string, string> = {
   "msig-travel-smart-ghs": "travel",
   "mutual-of-omaha-premium-term-hde": "term-life",
   "mutual-of-omaha-term-life-express": "term-life",
-  "national-insurance-motor": "motor",
   "national-insurance-motor-elite-fvr": "motor",
   "national-insurance-signature-health-aa2": "health",
   "nationwide-auto": "motor",
@@ -854,7 +854,6 @@ export const REMOVED_PRODUCT_MAP: Record<string, string> = {
   "niva-bupa-elite-health-qm2": "health",
   "niva-bupa-health-companion": "health",
   "niva-bupa-lifecare-premium-4u2": "health",
-  "niva-bupa-senior-first": "health",
   "noor-takaful-health": "health",
   "noor-takaful-motor-comprehensive": "motor",
   "noor-takaful-premium-auto-cover-89b": "motor",
@@ -1162,7 +1161,6 @@ export const REMOVED_PRODUCT_MAP: Record<string, string> = {
   "travel-insurance-direct-comprehensive": "travel",
   "travelers-auto": "motor",
   "travelers-elite-motor-spf": "motor",
-  "travelex-travel-select": "travel",
   "uhc-choice-plus-gold": "health",
   "uhc-gold-value": "health",
   "uhc-navigate-silver": "health",

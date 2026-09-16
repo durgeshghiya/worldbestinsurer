@@ -9,6 +9,15 @@ import { AdSlot } from "@/components/AdSlot";
 import { getProductsByCategory, getCategoryDisclaimer, getCategoryLastUpdated, getCategories } from "@/lib/data";
 import { getCountryByCode, VALID_COUNTRY_CODES } from "@/lib/countries";
 import type { Category } from "@/lib/types";
+import {
+  formatDate,
+  latest,
+  productVerdict,
+  registry,
+  siteCategoryFor,
+  siteFacts,
+} from "@/lib/registry";
+import { DataNotice } from "@/components/registry/RegistryBlocks";
 
 const validCategories = ["health", "term-life", "motor", "travel"];
 
@@ -93,6 +102,7 @@ export default async function CountryComparePage({ params }: { params: Promise<{
       </section>
 
       <div className="mx-auto max-w-[1320px] px-5 lg:px-8 py-10">
+        {country === "in" && <VerifiedProducts category={category as Category} />}
         {disclaimer && (
           <div className="mb-8 p-4 bg-amber-50 border border-amber-200/60 rounded-2xl flex items-start gap-3">
             <AlertCircle className="w-5 h-5 text-amber-500 mt-0.5 shrink-0" />
@@ -152,5 +162,64 @@ export default async function CountryComparePage({ params }: { params: Promise<{
         )}
       </div>
     </div>
+  );
+}
+
+/**
+ * India only: products in this category whose UIN has been verified against
+ * the insurer's own page. Links go to indexable product pages only.
+ */
+function VerifiedProducts({ category }: { category: Category }) {
+  const reg = registry();
+  const site = siteFacts();
+  const rows = reg.products
+    .filter((p) => p.uin && siteCategoryFor(p.productType) === category)
+    .map((p) => ({ p, id: p.siteProductId ?? p.slug }))
+    .filter(({ id }) => productVerdict(id, reg, site).indexable)
+    .sort((a, b) => a.p.name.value.localeCompare(b.p.name.value));
+  if (!rows.length) return null;
+  const updated = latest(rows.map(({ p }) => p.updatedAt));
+  const sources = [...new Set(rows.map(({ p }) => reg.sourceById.get(p.uin!.provenance.sourceId)?.name ?? ""))].filter(Boolean);
+  return (
+    <section className="mb-10" aria-labelledby="verified-uin">
+      <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-primary">Official data</p>
+      <h2 id="verified-uin" className="mt-1 mb-2 text-[20px] font-bold text-text-primary">Plans with a verified UIN</h2>
+      <p className="mb-4 max-w-[70ch] text-[14px] text-text-secondary">
+        The IRDAI Unique Identification Number of each plan below was read from the insurer&apos;s own product page.
+        See the full <Link href="/in/products/" className="text-primary hover:underline">product &amp; UIN directory</Link>.
+      </p>
+      <div className="overflow-x-auto rounded-xl border border-border bg-surface">
+        <table className="w-full min-w-[560px] text-left text-[13.5px]">
+          <caption className="sr-only">Plans with a verified IRDAI UIN</caption>
+          <thead>
+            <tr className="border-b border-border bg-surface-sunken/60 text-[11px] uppercase tracking-[0.08em] text-text-tertiary">
+              <th scope="col" className="px-4 py-2.5 font-semibold">Plan</th>
+              <th scope="col" className="px-4 py-2.5 font-semibold">Insurer</th>
+              <th scope="col" className="px-4 py-2.5 font-semibold">UIN</th>
+              <th scope="col" className="px-4 py-2.5 font-semibold">Updated</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map(({ p, id }) => (
+              <tr key={p.slug} className="border-b border-border-light last:border-0">
+                <th scope="row" className="px-4 py-3 font-medium">
+                  <Link href={`/in/product/${id}/`} className="text-text-primary hover:text-primary">{p.name.value}</Link>
+                </th>
+                <td className="px-4 py-3">
+                  <Link href={`/in/insurer/${p.insurerSlug}/`} className="text-text-secondary hover:text-primary">
+                    {reg.insurerBySlug.get(p.insurerSlug)?.name.value ?? p.insurerSlug}
+                  </Link>
+                </td>
+                <td className="px-4 py-3 font-mono text-[12.5px] text-text-primary">{p.uin!.value}</td>
+                <td className="whitespace-nowrap px-4 py-3 text-text-tertiary tabular-nums">{formatDate(p.updatedAt.slice(0, 10))}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <div className="mt-4">
+        <DataNotice updated={updated} sourceNames={sources} />
+      </div>
+    </section>
   );
 }

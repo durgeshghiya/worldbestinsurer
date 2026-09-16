@@ -1,0 +1,442 @@
+[
+  {
+    "id": "17d8aa0f58bfc530",
+    "insurerSlug": "max-life",
+    "productSlug": "max-life-smart-term-plan-plus",
+    "kind": "brochure",
+    "title": "Policy Leaflet",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/STPP-Leaflet.pdf",
+    "contentType": "application/pdf",
+    "contentHash": "a3319b48e2e1eaa568618223a2789f27b3f189c1a38822590dd3967ddcfd1e5d",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:00:43.401Z",
+    "provenance": {
+      "sourceId": "insurer:max-life",
+      "url": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus",
+      "retrievedAt": "2026-09-16T09:00:39.276Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "1e9c189e4027314f",
+    "insurerSlug": "pnb-metlife",
+    "productSlug": "pnb-metlife-saral-jeevan-bima",
+    "kind": "product-information",
+    "title": "Download Leaflet",
+    "url": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/leaflet/PNB-Saral-jeevan-bima.pdf",
+    "contentType": "application/pdf",
+    "contentHash": "0d6ecb236aa476d2b4c9d07e95d11876e9bbe9a4ac60664f14a2936b0824e047",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:01:42.856Z",
+    "provenance": {
+      "sourceId": "insurer:pnb-metlife",
+      "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html",
+      "retrievedAt": "2026-09-16T09:01:38.830Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "261712d228986fc3",
+    "insurerSlug": "max-life",
+    "productSlug": "max-life-smart-term-plan-plus",
+    "kind": "policy-wording",
+    "title": "Policy Document Classic Cover",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/STPP-Policy-Document-Classic-Cover.pdf",
+    "contentType": "application/pdf",
+    "contentHash": "0708730aca0622188a9cf8166c5b0d88ef6f91a7f55088005192626b8f3d38a7",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:00:47.453Z",
+    "provenance": {
+      "sourceId": "insurer:max-life",
+      "url": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus",
+      "retrievedAt": "2026-09-16T09:00:39.276Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "269902b01bf4e7a1",
+    "insurerSlug": "max-life",
+    "productSlug": "max-life-smart-term-plan-plus",
+    "kind": "customer-information-sheet",
+    "title": "Customer Information Sheet",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/STPP-CIS.pdf",
+    "contentType": "application/pdf",
+    "contentHash": "6cea5f104d36743a631ac3a29e3df5a2419c8c67a8deb8c4cda62ba66beaef2a",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:00:49.285Z",
+    "provenance": {
+      "sourceId": "insurer:max-life",
+      "url": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus",
+      "retrievedAt": "2026-09-16T09:00:39.276Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "291500d0b8d273ac",
+    "insurerSlug": "pnb-metlife",
+    "productSlug": "pnb-metlife-mera-term",
+    "kind": "product-information",
+    "title": "Download Leaflet",
+    "url": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/mmtp_plus_leaflet.pdf",
+    "contentType": "application/pdf",
+    "contentHash": "2d6278c51c21dfef438147d138118d1c58325f080505aa5cd92eac325fd6f915",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:01:36.894Z",
+    "provenance": {
+      "sourceId": "insurer:pnb-metlife",
+      "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html",
+      "retrievedAt": "2026-09-16T09:01:32.977Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "51f0f3b74f528e0d",
+    "insurerSlug": "max-life",
+    "productSlug": "max-life-smart-secure-plus",
+    "kind": "brochure",
+    "title": "Policy Leaflet",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/SSPP-Leaflet.pdf",
+    "contentType": "application/pdf",
+    "contentHash": "bbd131050632153a183e1da72cd7636c7851928117e815b2cfe250c38fb473c5",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:00:33.379Z",
+    "provenance": {
+      "sourceId": "insurer:max-life",
+      "url": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan",
+      "retrievedAt": "2026-09-16T09:00:29.341Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "78a16d5b1d7e8ea9",
+    "insurerSlug": "max-life",
+    "productSlug": "max-life-smart-term-plan-plus",
+    "kind": "prospectus",
+    "title": "Policy Prospectus",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/STPP-Prospectus.pdf",
+    "contentType": "application/pdf",
+    "contentHash": "9fec7ada2277171043b20e584b29d151565acdf7003aff1a3e253fe315762b03",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:00:41.534Z",
+    "provenance": {
+      "sourceId": "insurer:max-life",
+      "url": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus",
+      "retrievedAt": "2026-09-16T09:00:39.276Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "7c711db79c3f6d0d",
+    "insurerSlug": "max-life",
+    "productSlug": "max-life-smart-term-plan-plus",
+    "kind": "policy-wording",
+    "title": "Policy Contract",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/STPP-Policy-Document.pdf",
+    "contentType": "application/pdf",
+    "contentHash": "af710ff4ab03dd444d7e2aea793abbcc0d9a426c61719473712efe233a890f38",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:00:45.481Z",
+    "provenance": {
+      "sourceId": "insurer:max-life",
+      "url": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus",
+      "retrievedAt": "2026-09-16T09:00:39.276Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "7ffa77d95c7ca061",
+    "insurerSlug": "niva-bupa",
+    "productSlug": "niva-bupa-reassure-2",
+    "kind": "proposal-form",
+    "title": "Reassure 2.0 Proposal Form",
+    "url": "https://transactions.nivabupa.com/services/pages/DownloadApplication.aspx?ProductCode=23",
+    "contentType": "application/pdf",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:13:24.466Z",
+    "provenance": {
+      "sourceId": "insurer:niva-bupa",
+      "url": "https://www.nivabupa.com/family-health-insurance-plans/reassurev2-insurance.html",
+      "retrievedAt": "2026-09-16T09:06:51.393Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T09:13:24.466Z",
+    "volatile": true
+  },
+  {
+    "id": "879ffbc094537f99",
+    "insurerSlug": "niva-bupa",
+    "productSlug": "niva-bupa-reassure-2",
+    "kind": "brochure",
+    "title": "ReAssure 2.0 Brochure",
+    "url": "https://transactions.nivabupa.com/pages/doc/brochure/ReAssure_2.0_Titanium_plus_&_Platinumplus_SS_with_Deductible.pdf",
+    "contentType": "application/pdf",
+    "contentHash": "c150705246e6c7544d51e9fc2a15f1b90ad9b736b870b4643f2f51e8f06de4f2",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:01:27.703Z",
+    "provenance": {
+      "sourceId": "insurer:niva-bupa",
+      "url": "https://www.nivabupa.com/family-health-insurance-plans/reassurev2-insurance.html",
+      "retrievedAt": "2026-09-16T09:01:26.584Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "8f20381096d5225b",
+    "insurerSlug": "max-life",
+    "productSlug": "max-life-smart-term-plan-plus",
+    "kind": "customer-information-sheet",
+    "title": "Customer Information Sheet - Classic Cover",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/STPP-CIS-Classic-Cover.pdf",
+    "contentType": "application/pdf",
+    "contentHash": "9823f5a069d032f06ecff7378a08aeca44978c3b7ee4454e2f4a0a6a18f54451",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:00:51.285Z",
+    "provenance": {
+      "sourceId": "insurer:max-life",
+      "url": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus",
+      "retrievedAt": "2026-09-16T09:00:39.276Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "9337473670248a42",
+    "insurerSlug": "max-life",
+    "productSlug": "max-life-smart-secure-plus",
+    "kind": "prospectus",
+    "title": "Policy Prospectus",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/SSPP-Prospectus.pdf",
+    "contentType": "application/pdf",
+    "contentHash": "2584c948d83affb92bafaaa0b0ac71cec2cc364d0f8b53ff083bb33fc322e4fb",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:00:31.380Z",
+    "provenance": {
+      "sourceId": "insurer:max-life",
+      "url": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan",
+      "retrievedAt": "2026-09-16T09:00:29.341Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "97c6854a696fc62f",
+    "insurerSlug": "niva-bupa",
+    "productSlug": "niva-bupa-reassure-2",
+    "kind": "policy-wording",
+    "title": "ReAssure 2.0 Policy Wordings",
+    "url": "https://transactions.nivabupa.com/pages/doc/policy_wording/ReAssure-2.0-Policy-Wording.pdf",
+    "contentType": "application/pdf",
+    "contentHash": "bd00c98a432db2c343736278f2c9c787608a036f6ff4eff406ca920286999e0f",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:01:29.543Z",
+    "provenance": {
+      "sourceId": "insurer:niva-bupa",
+      "url": "https://www.nivabupa.com/family-health-insurance-plans/reassurev2-insurance.html",
+      "retrievedAt": "2026-09-16T09:01:26.584Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "9e17790e5524d341",
+    "insurerSlug": "lic",
+    "productSlug": "lic-jeevan-amar",
+    "kind": "brochure",
+    "title": "Sales Brochure",
+    "url": "https://licindia.in/documents/20121/1500493/LIC_Jeevan+amar_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29.pdf/b75c96c5-0d69-2b23-6c5a-d0c05f6e7b81?t=1751275371576",
+    "contentType": "application/pdf",
+    "contentHash": "7366a1733f5cfa6a958e29be70d66c0923d9bbbfa2ed5ca7a5df9fb491333b99",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:00:24.524Z",
+    "provenance": {
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/lic-s-new-jeevan-amar-955-uin-512n350v02",
+      "retrievedAt": "2026-09-16T09:00:22.479Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "b720b538b0368e89",
+    "insurerSlug": "tata-aig",
+    "productSlug": "tata-aig-car-insurance",
+    "kind": "claim-form",
+    "title": "Claim Form (duly filled and signed)",
+    "url": "https://www.tataaig.com/s3/R3_Auto_Secure_Claim_Form_cdf0776d75.pdf",
+    "contentType": "application/pdf",
+    "contentHash": "daf83c2045cea7f4783ecc313a9116e6c19305024b997b230ed4466bde542099",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:01:49.518Z",
+    "provenance": {
+      "sourceId": "insurer:tata-aig",
+      "url": "https://www.tataaig.com/motor-insurance/car-insurance",
+      "retrievedAt": "2026-09-16T09:01:45.346Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "c904893b539cf4dd",
+    "insurerSlug": "max-life",
+    "productSlug": "max-life-smart-secure-plus",
+    "kind": "customer-information-sheet",
+    "title": "Customer Information Sheet",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/SSPP-CIS.pdf",
+    "contentType": "application/pdf",
+    "contentHash": "9b58f574a3d988a9ff8163de0754fb7f190f37175a1999897c8018b5be54253c",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:00:37.288Z",
+    "provenance": {
+      "sourceId": "insurer:max-life",
+      "url": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan",
+      "retrievedAt": "2026-09-16T09:00:29.341Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "d27337bb93f582d0",
+    "insurerSlug": "pnb-metlife",
+    "productSlug": "pnb-metlife-saral-jeevan-bima",
+    "kind": "brochure",
+    "title": "Brochure/Prospectus",
+    "url": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/MSJB_Brochure_new.pdf",
+    "contentType": "application/pdf",
+    "contentHash": "4f26df2082a936d76a5215929f565de7750b823c0b740afb4be37f9cc6032528",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:01:40.861Z",
+    "provenance": {
+      "sourceId": "insurer:pnb-metlife",
+      "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html",
+      "retrievedAt": "2026-09-16T09:01:38.830Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "e94a299d05b7db10",
+    "insurerSlug": "lic",
+    "productSlug": "lic-tech-term",
+    "kind": "brochure",
+    "title": "Sales Brochure",
+    "url": "https://licindia.in/documents/20121/290753/LIC_New+Tech+Term_Sales+Brochure_4+inch+x+9+inch_Eng+%282%29.pdf/d75b9948-b9e3-2ba1-9886-066a1bee6909?t=1741085687365",
+    "contentType": "application/pdf",
+    "contentHash": "ab1bb2ff6c574f44c91d5dc6987a8a463438d5e3db083fb6b4b1c46dbd99d047",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:00:20.541Z",
+    "provenance": {
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/lic-s-new-tech-term-954-512n351v01",
+      "retrievedAt": "2026-09-16T09:00:16.870Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "e982f0f2047c750d",
+    "insurerSlug": "max-life",
+    "productSlug": "max-life-smart-secure-plus",
+    "kind": "policy-wording",
+    "title": "Policy Contract",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/SSPP-Policy-Document.pdf",
+    "contentType": "application/pdf",
+    "contentHash": "0a52e88980abadc80698f50d0b21f47acb29ddf30cd1c8a60382a587c3b6de8f",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:00:35.505Z",
+    "provenance": {
+      "sourceId": "insurer:max-life",
+      "url": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan",
+      "retrievedAt": "2026-09-16T09:00:29.341Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "ef6625cb050cab35",
+    "insurerSlug": "pnb-metlife",
+    "productSlug": "pnb-metlife-mera-term",
+    "kind": "brochure",
+    "title": "Brochure/Prospectus",
+    "url": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/mmtp_plus_brochure.pdf",
+    "contentType": "application/pdf",
+    "contentHash": "712b46924128060bb399d4dd882961be1a643097bad75349bd8e525616829d58",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:01:35.075Z",
+    "provenance": {
+      "sourceId": "insurer:pnb-metlife",
+      "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html",
+      "retrievedAt": "2026-09-16T09:01:32.977Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "f1a2d2d310e2496b",
+    "insurerSlug": "manipalcigna",
+    "productSlug": "manipalcigna-sarvah",
+    "kind": "brochure",
+    "title": "ManipalCigna Sarvah product brochure",
+    "url": "https://www.manipalcigna.com/pdfs/sarvahAccordion.pdf",
+    "contentType": "application/pdf",
+    "contentHash": "bf0040c519e133812d52b1794b858df2a709ba1e6879d4b8d45294b16bc2d631",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:00:28.927Z",
+    "provenance": {
+      "sourceId": "insurer:manipalcigna",
+      "url": "https://www.manipalcigna.com/hospitalization-cover/manipalcigna-sarvah",
+      "retrievedAt": "2026-09-16T09:00:27.018Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "id": "f9674eeb29c33191",
+    "insurerSlug": "acko",
+    "productSlug": "acko-car-insurance",
+    "kind": "product-information",
+    "title": "Third-party car insurance premium rates",
+    "url": "https://assets.ctfassets.net/uwf0n1j71a7j/7pYo0pth2GUERtOPPdk8yS/0cdee90f92a0f547596a1819c671dfb7/third-party-premium-and-liability.pdf",
+    "contentType": "application/pdf",
+    "contentHash": "3563af6605d94ee658719fe5c9e0479defaf2556e08ed1caf1801f2a99f79888",
+    "lastStatus": 200,
+    "lastCheckedAt": "2026-09-16T09:00:09.281Z",
+    "provenance": {
+      "sourceId": "insurer:acko",
+      "url": "https://www.acko.com/car-insurance/",
+      "retrievedAt": "2026-09-16T09:00:08.859Z",
+      "notes": "document linked from this official page"
+    },
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  }
+]

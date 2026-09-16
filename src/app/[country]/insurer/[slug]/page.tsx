@@ -8,6 +8,17 @@ import { getCountryByCode, VALID_COUNTRY_CODES } from "@/lib/countries";
 import InsurerEditorial from "@/components/InsurerEditorial";
 import { AdSlot } from "@/components/AdSlot";
 import { formatCompact } from "@/lib/utils";
+import { BreadcrumbSchema } from "@/components/StructuredData";
+import RegistryInsurerSection from "@/components/registry/RegistryInsurerSection";
+import {
+  INSURER_TYPE_LABEL,
+  formatDate,
+  insurerVerdict,
+  insurerView,
+  registry,
+  robotsFor,
+  siteFacts,
+} from "@/lib/registry";
 
 export async function generateStaticParams() {
   const params: { country: string; slug: string }[] = [];
@@ -16,20 +27,54 @@ export async function generateStaticParams() {
       params.push({ country: cc, slug: i.slug });
     }
   }
+  // Registry insurers that have no pre-existing site record get a page too.
+  const site = siteFacts();
+  for (const ri of registry().insurers) {
+    if (!site.siteInsurerExists(ri.slug)) params.push({ country: "in", slug: ri.slug });
+  }
   return params;
+}
+
+/** India registry lookups; undefined elsewhere so other countries are untouched. */
+function registryFor(country: string, slug: string) {
+  if (country !== "in") return undefined;
+  const reg = registry();
+  const ri = reg.insurerBySlug.get(slug);
+  return ri ? { reg, ri, site: siteFacts() } : undefined;
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ country: string; slug: string }> }): Promise<Metadata> {
   const { country, slug } = await params;
   const insurer = getInsurerBySlug(slug, country);
   const c = getCountryByCode(country);
-  if (!insurer || !c) return {};
+  const r = registryFor(country, slug);
+  if ((!insurer && !r) || !c) return {};
+  const canonical = `https://worldbestinsurer.com/${country}/insurer/${slug}`;
+
+  if (r) {
+    // Title, description and index decision all derive from the record.
+    const v = insurerView(r.ri, r.reg);
+    const reg = r.ri.irdaiRegistrationNumber?.value;
+    const count = v.products.length + (insurer ? getProductsByInsurer(slug, country).length : 0);
+    const title = `${v.name}: Registration, Products & Official Documents`;
+    const description =
+      `${v.name} — ${INSURER_TYPE_LABEL[r.ri.insurerType.value].toLowerCase()}` +
+      (reg ? `, IRDAI registration no. ${reg}` : "") +
+      `. ${count} listed product${count === 1 ? "" : "s"}, official documents and published figures, each linked to its source. ` +
+      `Updated ${formatDate(v.updated?.slice(0, 10))}.`;
+    return {
+      title,
+      description,
+      alternates: { canonical },
+      openGraph: { title, description, url: `${canonical}/`, type: "website" },
+      ...robotsFor(insurerVerdict(slug, r.reg, r.site)),
+    };
+  }
+
   return {
-    title: `${(insurer.shortName || insurer.name)} Insurance Plans in ${c.name}`,
-    description: `Explore ${(insurer.shortName || insurer.name)} insurance plans on World Best Insurer. Compare products available in ${c.name}.`,
-    alternates: {
-      canonical: `https://worldbestinsurer.com/${country}/insurer/${slug}`,
-    },
+    title: `${(insurer!.shortName || insurer!.name)} Insurance Plans in ${c.name}`,
+    description: `Explore ${(insurer!.shortName || insurer!.name)} insurance plans on World Best Insurer. Compare products available in ${c.name}.`,
+    alternates: { canonical },
     // The catalogue cuts left some insurers with no products at all. Those pages
     // have nothing to rank for, so they stay live and `follow` but leave search.
     // They return automatically once the insurer has a sourced product again.
@@ -43,13 +88,61 @@ export default async function CountryInsurerPage({ params }: { params: Promise<{
   const { country, slug } = await params;
   const insurer = getInsurerBySlug(slug, country);
   const c = getCountryByCode(country);
-  if (!insurer || !c) notFound();
+  const r = registryFor(country, slug);
+  if (!c || (!insurer && !r)) notFound();
 
+  const crumbs = (
+    <BreadcrumbSchema
+      items={[
+        { name: "Home", url: "https://worldbestinsurer.com/" },
+        { name: c.name, url: `https://worldbestinsurer.com/${country}/` },
+        { name: "Insurers", url: `https://worldbestinsurer.com/${country}/insurers/` },
+        { name: insurer ? insurer.shortName || insurer.name : r!.ri.name.value, url: `https://worldbestinsurer.com/${country}/insurer/${slug}/` },
+      ]}
+    />
+  );
+
+  // Registry-only insurer: a data page on the same URL pattern.
+  if (!insurer && r) {
+    const ri = r.ri;
+    return (
+      <div className="mx-auto max-w-[1280px] px-5 lg:px-8 py-10">
+        {crumbs}
+        <Link href={`/${country}/insurers`} className="inline-flex items-center gap-1.5 text-[13px] text-text-tertiary hover:text-primary mb-6">
+          <ArrowLeft className="w-3.5 h-3.5" /> {c.flag} All insurers in {c.name}
+        </Link>
+        <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
+          <div>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-primary">
+              {INSURER_TYPE_LABEL[ri.insurerType.value]}
+            </p>
+            <h1 className="mt-1 text-[28px] sm:text-[36px] font-bold text-text-primary tracking-[-0.02em]">{ri.name.value}</h1>
+            {ri.legalName && ri.legalName.value !== ri.name.value && (
+              <p className="text-[14px] text-text-secondary mt-1">{ri.legalName.value}</p>
+            )}
+            <p className="text-[14px] text-text-secondary mt-3 max-w-[70ch] leading-relaxed">
+              {ri.name.value} is listed as {INSURER_TYPE_LABEL[ri.insurerType.value].toLowerCase()}
+              {ri.irdaiRegistrationNumber ? ` with IRDAI registration number ${ri.irdaiRegistrationNumber.value}` : ""}.
+              {" "}The information below is taken from the sources cited beside each value.
+            </p>
+          </div>
+          <a href={ri.website.value} target="_blank" rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 px-4 py-2 text-[13px] font-medium border border-border rounded-lg hover:bg-surface-sunken transition-colors shrink-0">
+            Official website <ExternalLink className="w-3.5 h-3.5" />
+          </a>
+        </div>
+        <RegistryInsurerSection insurer={ri} reg={r.reg} site={r.site} siteProductNames={[]} />
+      </div>
+    );
+  }
+
+  if (!insurer) notFound();
   const products = getProductsByInsurer(slug, country);
   const peers = getAllInsurers(country);
 
   return (
     <div className="mx-auto max-w-[1280px] px-5 lg:px-8 py-10">
+      {crumbs}
       <Link href={`/${country}/insurers`} className="inline-flex items-center gap-1.5 text-[13px] text-text-tertiary hover:text-primary mb-6">
         <ArrowLeft className="w-3.5 h-3.5" /> {c.flag} All insurers in {c.name}
       </Link>
@@ -60,7 +153,7 @@ export default async function CountryInsurerPage({ params }: { params: Promise<{
           <p className="text-[14px] text-text-secondary mt-1">{insurer.name}</p>
           <p className="text-[13px] text-text-tertiary mt-2">{insurer.description}</p>
         </div>
-        <a href={insurer.website} target="_blank" rel="noopener noreferrer"
+        <a href={r?.ri.website.value ?? insurer.website} target="_blank" rel="noopener noreferrer"
           className="inline-flex items-center gap-1.5 px-4 py-2 text-[13px] font-medium border border-border rounded-lg hover:bg-surface-sunken transition-colors shrink-0">
           Official website <ExternalLink className="w-3.5 h-3.5" />
         </a>
@@ -89,7 +182,7 @@ export default async function CountryInsurerPage({ params }: { params: Promise<{
           <div className="bg-surface rounded-xl border border-border p-5">
             <Building2 className="w-4 h-4 text-primary mb-2" />
             <p className="text-[11px] text-text-tertiary">Network</p>
-            <p className="text-[15px] font-semibold text-text-primary">{(insurer.networkHospitals / 1000).toFixed(0)}K+</p>
+            <p className="text-[15px] font-semibold text-text-primary">{insurer.networkHospitals >= 1000 ? `${Math.round(insurer.networkHospitals / 1000)}K+` : insurer.networkHospitals}</p>
           </div>
         )}
       </div>
@@ -221,6 +314,15 @@ export default async function CountryInsurerPage({ params }: { params: Promise<{
           </Link>
         ))}
       </div>
+
+      {r && (
+        <RegistryInsurerSection
+          insurer={r.ri}
+          reg={r.reg}
+          site={r.site}
+          siteProductNames={products.map((p) => p.productName)}
+        />
+      )}
 
       <InsurerEditorial
         insurer={insurer}

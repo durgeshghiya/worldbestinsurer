@@ -38,7 +38,11 @@
     "rank:qa": "tsx scripts/seo/ranking-agent.ts --qa",
     "rank:status": "tsx scripts/seo/ranking-agent.ts --status",
     "rank:schedule": "tsx scripts/seo/ranking-agent.ts --schedule",
-    "snapshot": "node scripts/snapshot-premiums.js"
+    "snapshot": "node scripts/snapshot-premiums.js",
+    "registry": "tsx scripts/registry/cli.ts",
+    "registry:ingest": "tsx scripts/registry/cli.ts ingest",
+    "registry:validate": "tsx scripts/registry/cli.ts validate",
+    "registry:typecheck": "tsc -p scripts/registry/tsconfig.json"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",

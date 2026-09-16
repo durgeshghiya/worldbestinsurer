@@ -5,11 +5,18 @@ import { getCountryByCode } from "@/lib/countries";
 
 const BASE_URL = "https://worldbestinsurer.com";
 
-function JsonLd({ data }: { data: Record<string, unknown> }) {
+/**
+ * Serialise JSON-LD safely. `<` is escaped so a value scraped from an external
+ * page cannot close the script tag; `\u003c` is valid JSON and parses back to
+ * the same string.
+ */
+export function JsonLd({ data }: { data: Record<string, unknown> }) {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(data).replace(/</g, "\\u003c").replace(/\u2028/g, "\\u2028").replace(/\u2029/g, "\\u2029"),
+      }}
     />
   );
 }
@@ -67,8 +74,11 @@ export function WebsiteSchema(): React.ReactNode {
 
 export function ProductSchema({
   product,
+  uin,
 }: {
   product: InsuranceProduct;
+  /** IRDAI UIN, when the registry has one verified for this product. */
+  uin?: string;
 }): React.ReactNode {
   const categoryLabels: Record<string, string> = {
     health: "Health Insurance",
@@ -93,6 +103,10 @@ export function ProductSchema({
         },
         category: categoryLabels[product.category] ?? product.category,
         url: `${BASE_URL}/${product.countryCode}/product/${product.id}`,
+        ...(uin && {
+          productID: uin,
+          identifier: { "@type": "PropertyValue", propertyID: "IRDAI UIN", value: uin },
+        }),
         offers: {
           "@type": "AggregateOffer",
           priceCurrency: currencyCode,

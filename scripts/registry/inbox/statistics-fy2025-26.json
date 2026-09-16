@@ -1,0 +1,350 @@
+[
+  {
+    "id": "lic-fy2025-26-policies-issued",
+    "kind": "statistic",
+    "sourceId": "insurer:lic",
+    "url": "https://licindia.in/",
+    "sourceDate": "2026-09-16",
+    "sourceDateObserved": true,
+    "reportingPeriod": "FY2025-26",
+    "subject": {
+      "scope": "insurer",
+      "insurerSlug": "lic"
+    },
+    "meta": {
+      "metric": "policies-issued",
+      "label": "Policies issued",
+      "unit": "crore"
+    },
+    "facts": {
+      "value": {
+        "value": 1.84,
+        "evidence": "Policies Issued 1.84 Cr."
+      },
+      "period": {
+        "value": "2025-26",
+        "evidence": "Policies Issued 1.84 Cr. 1st yr. premium income ₹ 2,60,464 Cr. Policies Market share 65.16% *As per LIC Report F.Y. 2025-26"
+      }
+    },
+    "notes": "LIC's homepage attributes these figures to 'LIC Report F.Y. 2025-26' and prints no publication date."
+  },
+  {
+    "id": "lic-fy2025-26-fy-premium",
+    "kind": "statistic",
+    "sourceId": "insurer:lic",
+    "url": "https://licindia.in/",
+    "sourceDate": "2026-09-16",
+    "sourceDateObserved": true,
+    "reportingPeriod": "FY2025-26",
+    "subject": {
+      "scope": "insurer",
+      "insurerSlug": "lic"
+    },
+    "meta": {
+      "metric": "first-year-premium-income",
+      "label": "First-year premium income",
+      "unit": "INR crore"
+    },
+    "facts": {
+      "value": {
+        "value": 260464,
+        "evidence": "1st yr. premium income ₹ 2,60,464 Cr."
+      },
+      "period": {
+        "value": "2025-26",
+        "evidence": "Policies Issued 1.84 Cr. 1st yr. premium income ₹ 2,60,464 Cr. Policies Market share 65.16% *As per LIC Report F.Y. 2025-26"
+      }
+    },
+    "notes": "LIC's homepage attributes these figures to 'LIC Report F.Y. 2025-26' and prints no publication date."
+  },
+  {
+    "id": "lic-fy2025-26-market-share",
+    "kind": "statistic",
+    "sourceId": "insurer:lic",
+    "url": "https://licindia.in/",
+    "sourceDate": "2026-09-16",
+    "sourceDateObserved": true,
+    "reportingPeriod": "FY2025-26",
+    "subject": {
+      "scope": "insurer",
+      "insurerSlug": "lic"
+    },
+    "meta": {
+      "metric": "market-share-policies",
+      "label": "Market share (policies)",
+      "unit": "%"
+    },
+    "facts": {
+      "value": {
+        "value": 65.16,
+        "evidence": "Policies Market share 65.16%"
+      },
+      "period": {
+        "value": "2025-26",
+        "evidence": "Policies Issued 1.84 Cr. 1st yr. premium income ₹ 2,60,464 Cr. Policies Market share 65.16% *As per LIC Report F.Y. 2025-26"
+      }
+    },
+    "notes": "LIC's homepage attributes these figures to 'LIC Report F.Y. 2025-26' and prints no publication date."
+  },
+  {
+    "id": "lic-fy2025-26-dcsr-no",
+    "kind": "statistic",
+    "sourceId": "insurer:lic",
+    "url": "https://licindia.in/",
+    "sourceDate": "2026-09-16",
+    "sourceDateObserved": true,
+    "reportingPeriod": "FY2025-26",
+    "subject": {
+      "scope": "insurer",
+      "insurerSlug": "lic"
+    },
+    "meta": {
+      "metric": "death-claim-settlement-ratio-by-number",
+      "label": "Death claim settlement (by number)",
+      "unit": "%"
+    },
+    "facts": {
+      "value": {
+        "value": 99.44,
+        "evidence": "Death Claim settlement 99.44%(on No.)"
+      },
+      "period": {
+        "value": "2025-26",
+        "evidence": "Death Claim settlement 99.44%(on No.)& 99.03%(on Amt.) Maturity Claim settlement 91.37%(on No.)& 96.43%(on Amt.) Instant claim No. of Death Claims Settled 0.10 Cr. No. of Maturity Claims Settled 2.44 Cr. Single day processing Death Claims amount paid ₹ 25,673 Cr. Maturity Claims amount paid ₹ 2,87,098 Cr. 24x7 customer support *As per LIC Report F.Y. 2025-26"
+      }
+    },
+    "notes": "LIC's homepage attributes these figures to 'LIC Report F.Y. 2025-26' and prints no publication date."
+  },
+  {
+    "id": "lic-fy2025-26-dcsr-amt",
+    "kind": "statistic",
+    "sourceId": "insurer:lic",
+    "url": "https://licindia.in/",
+    "sourceDate": "2026-09-16",
+    "sourceDateObserved": true,
+    "reportingPeriod": "FY2025-26",
+    "subject": {
+      "scope": "insurer",
+      "insurerSlug": "lic"
+    },
+    "meta": {
+      "metric": "death-claim-settlement-ratio-by-amount",
+      "label": "Death claim settlement (by amount)",
+      "unit": "%"
+    },
+    "facts": {
+      "value": {
+        "value": 99.03,
+        "evidence": "99.44%(on No.)& 99.03%(on Amt.)"
+      },
+      "period": {
+        "value": "2025-26",
+        "evidence": "Death Claim settlement 99.44%(on No.)& 99.03%(on Amt.) Maturity Claim settlement 91.37%(on No.)& 96.43%(on Amt.) Instant claim No. of Death Claims Settled 0.10 Cr. No. of Maturity Claims Settled 2.44 Cr. Single day processing Death Claims amount paid ₹ 25,673 Cr. Maturity Claims amount paid ₹ 2,87,098 Cr. 24x7 customer support *As per LIC Report F.Y. 2025-26"
+      }
+    },
+    "notes": "LIC's homepage attributes these figures to 'LIC Report F.Y. 2025-26' and prints no publication date."
+  },
+  {
+    "id": "lic-fy2025-26-mcsr-no",
+    "kind": "statistic",
+    "sourceId": "insurer:lic",
+    "url": "https://licindia.in/",
+    "sourceDate": "2026-09-16",
+    "sourceDateObserved": true,
+    "reportingPeriod": "FY2025-26",
+    "subject": {
+      "scope": "insurer",
+      "insurerSlug": "lic"
+    },
+    "meta": {
+      "metric": "maturity-claim-settlement-ratio-by-number",
+      "label": "Maturity claim settlement (by number)",
+      "unit": "%"
+    },
+    "facts": {
+      "value": {
+        "value": 91.37,
+        "evidence": "Maturity Claim settlement 91.37%(on No.)"
+      },
+      "period": {
+        "value": "2025-26",
+        "evidence": "Death Claim settlement 99.44%(on No.)& 99.03%(on Amt.) Maturity Claim settlement 91.37%(on No.)& 96.43%(on Amt.) Instant claim No. of Death Claims Settled 0.10 Cr. No. of Maturity Claims Settled 2.44 Cr. Single day processing Death Claims amount paid ₹ 25,673 Cr. Maturity Claims amount paid ₹ 2,87,098 Cr. 24x7 customer support *As per LIC Report F.Y. 2025-26"
+      }
+    },
+    "notes": "LIC's homepage attributes these figures to 'LIC Report F.Y. 2025-26' and prints no publication date."
+  },
+  {
+    "id": "lic-fy2025-26-mcsr-amt",
+    "kind": "statistic",
+    "sourceId": "insurer:lic",
+    "url": "https://licindia.in/",
+    "sourceDate": "2026-09-16",
+    "sourceDateObserved": true,
+    "reportingPeriod": "FY2025-26",
+    "subject": {
+      "scope": "insurer",
+      "insurerSlug": "lic"
+    },
+    "meta": {
+      "metric": "maturity-claim-settlement-ratio-by-amount",
+      "label": "Maturity claim settlement (by amount)",
+      "unit": "%"
+    },
+    "facts": {
+      "value": {
+        "value": 96.43,
+        "evidence": "91.37%(on No.)& 96.43%(on Amt.)"
+      },
+      "period": {
+        "value": "2025-26",
+        "evidence": "Death Claim settlement 99.44%(on No.)& 99.03%(on Amt.) Maturity Claim settlement 91.37%(on No.)& 96.43%(on Amt.) Instant claim No. of Death Claims Settled 0.10 Cr. No. of Maturity Claims Settled 2.44 Cr. Single day processing Death Claims amount paid ₹ 25,673 Cr. Maturity Claims amount paid ₹ 2,87,098 Cr. 24x7 customer support *As per LIC Report F.Y. 2025-26"
+      }
+    },
+    "notes": "LIC's homepage attributes these figures to 'LIC Report F.Y. 2025-26' and prints no publication date."
+  },
+  {
+    "id": "lic-fy2025-26-death-claims-count",
+    "kind": "statistic",
+    "sourceId": "insurer:lic",
+    "url": "https://licindia.in/",
+    "sourceDate": "2026-09-16",
+    "sourceDateObserved": true,
+    "reportingPeriod": "FY2025-26",
+    "subject": {
+      "scope": "insurer",
+      "insurerSlug": "lic"
+    },
+    "meta": {
+      "metric": "death-claims-settled",
+      "label": "Death claims settled",
+      "unit": "crore"
+    },
+    "facts": {
+      "value": {
+        "value": 0.1,
+        "evidence": "No. of Death Claims Settled 0.10 Cr."
+      },
+      "period": {
+        "value": "2025-26",
+        "evidence": "Death Claim settlement 99.44%(on No.)& 99.03%(on Amt.) Maturity Claim settlement 91.37%(on No.)& 96.43%(on Amt.) Instant claim No. of Death Claims Settled 0.10 Cr. No. of Maturity Claims Settled 2.44 Cr. Single day processing Death Claims amount paid ₹ 25,673 Cr. Maturity Claims amount paid ₹ 2,87,098 Cr. 24x7 customer support *As per LIC Report F.Y. 2025-26"
+      }
+    },
+    "notes": "LIC's homepage attributes these figures to 'LIC Report F.Y. 2025-26' and prints no publication date."
+  },
+  {
+    "id": "lic-fy2025-26-maturity-claims-count",
+    "kind": "statistic",
+    "sourceId": "insurer:lic",
+    "url": "https://licindia.in/",
+    "sourceDate": "2026-09-16",
+    "sourceDateObserved": true,
+    "reportingPeriod": "FY2025-26",
+    "subject": {
+      "scope": "insurer",
+      "insurerSlug": "lic"
+    },
+    "meta": {
+      "metric": "maturity-claims-settled",
+      "label": "Maturity claims settled",
+      "unit": "crore"
+    },
+    "facts": {
+      "value": {
+        "value": 2.44,
+        "evidence": "No. of Maturity Claims Settled 2.44 Cr."
+      },
+      "period": {
+        "value": "2025-26",
+        "evidence": "Death Claim settlement 99.44%(on No.)& 99.03%(on Amt.) Maturity Claim settlement 91.37%(on No.)& 96.43%(on Amt.) Instant claim No. of Death Claims Settled 0.10 Cr. No. of Maturity Claims Settled 2.44 Cr. Single day processing Death Claims amount paid ₹ 25,673 Cr. Maturity Claims amount paid ₹ 2,87,098 Cr. 24x7 customer support *As per LIC Report F.Y. 2025-26"
+      }
+    },
+    "notes": "LIC's homepage attributes these figures to 'LIC Report F.Y. 2025-26' and prints no publication date."
+  },
+  {
+    "id": "lic-fy2025-26-death-claims-paid",
+    "kind": "statistic",
+    "sourceId": "insurer:lic",
+    "url": "https://licindia.in/",
+    "sourceDate": "2026-09-16",
+    "sourceDateObserved": true,
+    "reportingPeriod": "FY2025-26",
+    "subject": {
+      "scope": "insurer",
+      "insurerSlug": "lic"
+    },
+    "meta": {
+      "metric": "death-claims-amount-paid",
+      "label": "Death claims amount paid",
+      "unit": "INR crore"
+    },
+    "facts": {
+      "value": {
+        "value": 25673,
+        "evidence": "Death Claims amount paid ₹ 25,673 Cr."
+      },
+      "period": {
+        "value": "2025-26",
+        "evidence": "Death Claim settlement 99.44%(on No.)& 99.03%(on Amt.) Maturity Claim settlement 91.37%(on No.)& 96.43%(on Amt.) Instant claim No. of Death Claims Settled 0.10 Cr. No. of Maturity Claims Settled 2.44 Cr. Single day processing Death Claims amount paid ₹ 25,673 Cr. Maturity Claims amount paid ₹ 2,87,098 Cr. 24x7 customer support *As per LIC Report F.Y. 2025-26"
+      }
+    },
+    "notes": "LIC's homepage attributes these figures to 'LIC Report F.Y. 2025-26' and prints no publication date."
+  },
+  {
+    "id": "lic-fy2025-26-maturity-claims-paid",
+    "kind": "statistic",
+    "sourceId": "insurer:lic",
+    "url": "https://licindia.in/",
+    "sourceDate": "2026-09-16",
+    "sourceDateObserved": true,
+    "reportingPeriod": "FY2025-26",
+    "subject": {
+      "scope": "insurer",
+      "insurerSlug": "lic"
+    },
+    "meta": {
+      "metric": "maturity-claims-amount-paid",
+      "label": "Maturity claims amount paid",
+      "unit": "INR crore"
+    },
+    "facts": {
+      "value": {
+        "value": 287098,
+        "evidence": "Maturity Claims amount paid ₹ 2,87,098 Cr."
+      },
+      "period": {
+        "value": "2025-26",
+        "evidence": "Death Claim settlement 99.44%(on No.)& 99.03%(on Amt.) Maturity Claim settlement 91.37%(on No.)& 96.43%(on Amt.) Instant claim No. of Death Claims Settled 0.10 Cr. No. of Maturity Claims Settled 2.44 Cr. Single day processing Death Claims amount paid ₹ 25,673 Cr. Maturity Claims amount paid ₹ 2,87,098 Cr. 24x7 customer support *As per LIC Report F.Y. 2025-26"
+      }
+    },
+    "notes": "LIC's homepage attributes these figures to 'LIC Report F.Y. 2025-26' and prints no publication date."
+  },
+  {
+    "id": "pnb-metlife-fy2025-26-dcsr",
+    "kind": "statistic",
+    "sourceId": "insurer:pnb-metlife",
+    "url": "https://www.pnbmetlife.com/",
+    "sourceDate": "2026-09-16",
+    "sourceDateObserved": true,
+    "reportingPeriod": "FY2025-26",
+    "subject": {
+      "scope": "insurer",
+      "insurerSlug": "pnb-metlife"
+    },
+    "meta": {
+      "metric": "individual-death-claim-settlement-ratio",
+      "label": "Individual death claim settlement ratio",
+      "unit": "%"
+    },
+    "facts": {
+      "value": {
+        "value": 99.81,
+        "evidence": "99.81% Individual Death Claim Settlement Ratio"
+      },
+      "period": {
+        "value": "2025-26",
+        "evidence": "Strong Claim Performanceα: 99.81% Individual Death Claim Settlement Ratio (FY 2025-26)"
+      }
+    },
+    "notes": "Footnote on the same page: 'As per latest annual audited figures reported to IRDAI for FY 25-26.' No publication date printed."
+  }
+]

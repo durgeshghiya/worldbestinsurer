@@ -166,7 +166,7 @@ interface Sourced<T> { value: T; provenance: Provenance }
 | `products.json` | `slug` | insurer, name, **UIN**, product type, segment, status (active / withdrawn), policy term, eligibility, premium frequency, sum insured, link to existing site product |
 | `documents.json` | `id` | kind (policy wording, prospectus, brochure, CIS, proposal form, claim form, disclosure), title, **official URL only**, content hash, last HTTP status |
 | `statistics.json` | `id` | scope, metric, value, unit, reporting period, provenance with `sourceDate` required. **Append-only**; a restatement is a new record with `supersedes` |
-| `changelog.jsonl` | — | append-only field-level history of every change |
+| `changelog/<YYYY-MM>.json` | — | append-only field-level history of every change, sharded by month |
 | `review-queue.json` | `id` | records the validators refused to auto-accept |
 | `_meta.json` | — | schema version, last run per job |
 
@@ -325,3 +325,46 @@ URLs whose content actually changed.
 inbox or a connector → `npm run registry:ingest` → validation → PR → merge →
 Vercel builds → the page, metadata, JSON-LD, internal links and sitemap entry
 all derive from the record. No HTML is written by hand.
+
+## 16. Status (2026-09-16)
+
+Phases 1–15 are implemented. The phase 15 audit passes: 0 errors and 1 warning
+(`/sg/insurers/` has 121 words; it is a real directory and is not padded).
+
+| Measure | Result |
+| --- | --- |
+| Registry | 10 insurers, 20 products, 22 documents, 12 statistics, 18 sources; 0 validation errors, empty review queue |
+| Ingest idempotency | second pass: 0 changes, identical data hash |
+| Sitemaps | index + 6 children, 660 URLs, every one 200, indexable, self-canonical |
+| Existing URLs | all 646 pre-change sitemap URLs still return 200 |
+| Formerly redirected | 6 live products that `removed-products.ts` had 301'd now return 200 |
+
+Audit fixes made on the way to a pass:
+
+- Product cards, comparison tables, VS pages and the calculator linked to the
+  legacy `/product/{id}` URL, whose canonical is `/{cc}/product/{id}/`. The
+  canonical pages had no internal links (96 orphans). Links now point at the
+  canonical URL; the legacy route still serves and still canonicalises.
+- `/in/products/` linked insurer names to 9 insurer pages that do not exist.
+  Insurer links now use `insurerVerdict`, like the insurer directory.
+- The Durgesh Ghiya author page had no inbound link. Author pages now link to
+  each other.
+- Three product pages shared a meta description with a same-named product from
+  another insurer. The description now names the insurer.
+- The audit itself joined adjacent block elements without whitespace, which
+  hid the "Source:" label and undercounted words. Fixed in `seo-audit.ts`.
+
+Before phase 16 (scale):
+
+- Set `ADMIN_PASSWORD` in Vercel. Without it `/admin/` returns 404 in production.
+- Register a data.gov.in key as the `DATA_GOV_IN_API_KEY` secret and add
+  resource ids to `scripts/registry/sources/data-gov-in.config.json`.
+- Enable "Allow GitHub Actions to create and approve pull requests".
+- Delete the unused `GOOGLE_SERVICE_ACCOUNT` secret.
+- IRDAI and six insurers that refuse automated requests (HDFC Life, SBI Life,
+  ICICI Prudential, ICICI Lombard, Star Health, Care Health) are manual-inbox only.
+- Official public disclosures (NL/L forms) are PDFs; a PDF text extractor is
+  needed before the statistics connector can read them.
+- UIN prefix check: insurers formed by merger can file products under the
+  predecessor's registration number (HDFC ERGO motor uses 125). Such products
+  are rejected until the insurer record carries its former registration numbers.

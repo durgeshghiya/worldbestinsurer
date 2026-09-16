@@ -77,11 +77,11 @@ export default function VSEditorial({
           WBI Editorial Team
         </Link>{" "}
         ·{" "}
-        <Link href={`/product/${a.id}`} className="text-primary hover:underline">
+        <Link href={`/${a.countryCode}/product/${a.id}/`} className="text-primary hover:underline">
           {a.productName} details
         </Link>{" "}
         ·{" "}
-        <Link href={`/product/${b.id}`} className="text-primary hover:underline">
+        <Link href={`/${b.countryCode}/product/${b.id}/`} className="text-primary hover:underline">
           {b.productName} details
         </Link>
       </p>

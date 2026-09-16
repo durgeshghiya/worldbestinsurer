@@ -1,0 +1,193 @@
+[
+  {
+    "id": "irdai",
+    "name": "IRDAI",
+    "publisher": "Insurance Regulatory and Development Authority of India",
+    "kind": "regulator",
+    "homepage": "https://irdai.gov.in/",
+    "accessMethod": "manual",
+    "robots": "disallowed",
+    "robotsCheckedAt": "2026-09-16",
+    "notes": "robots.txt is 'User-agent: * / Disallow: /'. Never crawled. Files enter only through the manual inbox, downloaded by a person."
+  },
+  {
+    "id": "data-gov-in",
+    "name": "Government of India Open Government Data Platform",
+    "publisher": "National Informatics Centre, MeitY",
+    "kind": "government",
+    "homepage": "https://data.gov.in/",
+    "accessMethod": "api",
+    "robots": "not-applicable",
+    "robotsCheckedAt": "2026-09-16",
+    "license": "Government Open Data License – India (GODL)",
+    "notes": "Website refuses crawlers (403). Data is taken only from the official API at api.data.gov.in with a registered key."
+  },
+  {
+    "id": "insurer:lic",
+    "name": "LIC official website",
+    "publisher": "Life Insurance Corporation of India",
+    "kind": "insurer",
+    "homepage": "https://licindia.in/",
+    "accessMethod": "crawl",
+    "robots": "allowed",
+    "robotsCheckedAt": "2026-09-16"
+  },
+  {
+    "id": "insurer:max-life",
+    "name": "Axis Max Life Insurance official website",
+    "publisher": "Axis Max Life Insurance Limited",
+    "kind": "insurer",
+    "homepage": "https://www.axismaxlife.com/",
+    "accessMethod": "crawl",
+    "robots": "allowed",
+    "robotsCheckedAt": "2026-09-16",
+    "notes": "Renamed from Max Life Insurance Co. Ltd.; maxlifeinsurance.com redirects to axismaxlife.com (verified 2026-09-16: the homepage states \"Axis Max Life Insurance Limited (formerly known as Max Life Insurance Co. Ltd.)\")."
+  },
+  {
+    "id": "insurer:pnb-metlife",
+    "name": "PNB MetLife official website",
+    "publisher": "PNB MetLife India Insurance Company Limited",
+    "kind": "insurer",
+    "homepage": "https://www.pnbmetlife.com/",
+    "accessMethod": "crawl",
+    "robots": "allowed",
+    "robotsCheckedAt": "2026-09-16"
+  },
+  {
+    "id": "insurer:niva-bupa",
+    "name": "Niva Bupa official website",
+    "publisher": "Niva Bupa Health Insurance Company Limited",
+    "kind": "insurer",
+    "homepage": "https://www.nivabupa.com/",
+    "accessMethod": "crawl",
+    "robots": "allowed",
+    "robotsCheckedAt": "2026-09-16"
+  },
+  {
+    "id": "insurer:manipalcigna",
+    "name": "ManipalCigna official website",
+    "publisher": "ManipalCigna Health Insurance Company Limited",
+    "kind": "insurer",
+    "homepage": "https://www.manipalcigna.com/",
+    "accessMethod": "crawl",
+    "robots": "allowed",
+    "robotsCheckedAt": "2026-09-16",
+    "notes": "robots.txt allows crawling. An earlier checker bug matched its \"User-agent: es\" group against \"research\" in our user agent and wrongly reported a block; fixed 2026-09-16."
+  },
+  {
+    "id": "insurer:hdfc-ergo",
+    "name": "HDFC ERGO official website",
+    "publisher": "HDFC ERGO General Insurance Company Limited",
+    "kind": "insurer",
+    "homepage": "https://www.hdfcergo.com/",
+    "accessMethod": "crawl",
+    "robots": "allowed",
+    "robotsCheckedAt": "2026-09-16"
+  },
+  {
+    "id": "insurer:tata-aig",
+    "name": "Tata AIG official website",
+    "publisher": "Tata AIG General Insurance Company Limited",
+    "kind": "insurer",
+    "homepage": "https://www.tataaig.com/",
+    "accessMethod": "crawl",
+    "robots": "allowed",
+    "robotsCheckedAt": "2026-09-16"
+  },
+  {
+    "id": "insurer:new-india-assurance",
+    "name": "New India Assurance official website",
+    "publisher": "The New India Assurance Company Limited",
+    "kind": "insurer",
+    "homepage": "https://www.newindia.co.in/",
+    "accessMethod": "crawl",
+    "robots": "allowed",
+    "robotsCheckedAt": "2026-09-16"
+  },
+  {
+    "id": "insurer:digit",
+    "name": "Go Digit official website",
+    "publisher": "Go Digit General Insurance Limited",
+    "kind": "insurer",
+    "homepage": "https://www.godigit.com/",
+    "accessMethod": "crawl",
+    "robots": "allowed",
+    "robotsCheckedAt": "2026-09-16"
+  },
+  {
+    "id": "insurer:acko",
+    "name": "Acko official website",
+    "publisher": "Acko General Insurance Limited",
+    "kind": "insurer",
+    "homepage": "https://www.acko.com/",
+    "accessMethod": "crawl",
+    "robots": "allowed",
+    "robotsCheckedAt": "2026-09-16"
+  },
+  {
+    "id": "insurer:hdfc-life",
+    "name": "HDFC Life official website",
+    "publisher": "HDFC Life Insurance Company Limited",
+    "kind": "insurer",
+    "homepage": "https://www.hdfclife.com/",
+    "accessMethod": "manual",
+    "robots": "refused",
+    "robotsCheckedAt": "2026-09-16",
+    "notes": "robots.txt answers 403 to our crawler. Manual inbox only."
+  },
+  {
+    "id": "insurer:sbi-life",
+    "name": "SBI Life official website",
+    "publisher": "SBI Life Insurance Company Limited",
+    "kind": "insurer",
+    "homepage": "https://www.sbilife.co.in/",
+    "accessMethod": "manual",
+    "robots": "refused",
+    "robotsCheckedAt": "2026-09-16",
+    "notes": "robots.txt answers 403 to our crawler. Manual inbox only."
+  },
+  {
+    "id": "insurer:icici-prudential",
+    "name": "ICICI Prudential Life official website",
+    "publisher": "ICICI Prudential Life Insurance Company Limited",
+    "kind": "insurer",
+    "homepage": "https://www.iciciprulife.com/",
+    "accessMethod": "manual",
+    "robots": "refused",
+    "robotsCheckedAt": "2026-09-16",
+    "notes": "robots.txt answers 403 to our crawler. Manual inbox only."
+  },
+  {
+    "id": "insurer:icici-lombard",
+    "name": "ICICI Lombard official website",
+    "publisher": "ICICI Lombard General Insurance Company Limited",
+    "kind": "insurer",
+    "homepage": "https://www.icicilombard.com/",
+    "accessMethod": "manual",
+    "robots": "refused",
+    "robotsCheckedAt": "2026-09-16",
+    "notes": "robots.txt answers 403 to our crawler. Manual inbox only."
+  },
+  {
+    "id": "insurer:star-health",
+    "name": "Star Health official website",
+    "publisher": "Star Health and Allied Insurance Company Limited",
+    "kind": "insurer",
+    "homepage": "https://www.starhealth.in/",
+    "accessMethod": "manual",
+    "robots": "refused",
+    "robotsCheckedAt": "2026-09-16",
+    "notes": "robots.txt answers 403 to our crawler. Manual inbox only."
+  },
+  {
+    "id": "insurer:care-health",
+    "name": "Care Health official website",
+    "publisher": "Care Health Insurance Limited",
+    "kind": "insurer",
+    "homepage": "https://www.careinsurance.com/",
+    "accessMethod": "manual",
+    "robots": "refused",
+    "robotsCheckedAt": "2026-09-16",
+    "notes": "robots.txt answers 403 to our crawler. Manual inbox only."
+  }
+]

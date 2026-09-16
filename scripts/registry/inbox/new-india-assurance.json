@@ -1,0 +1,156 @@
+[
+  {
+    "id": "new-india-assurance-identity",
+    "kind": "insurer",
+    "sourceId": "insurer:new-india-assurance",
+    "url": "https://www.newindia.co.in/",
+    "subject": {
+      "slug": "new-india-assurance",
+      "siteSlug": "new-india-assurance"
+    },
+    "meta": {
+      "segments": ["health", "motor", "travel", "commercial"],
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "The New India Assurance Co. Ltd.",
+        "evidence": "Registered Office Address: The New India Assurance Co. Ltd., #87, M.G.Road, Fort, Mumbai 400 001."
+      },
+      "insurerType": {
+        "value": "general",
+        "evidence": "New India Assurance Company Limited is a leading public sector general insurance company in India, owned by the Government of India."
+      },
+      "website": {
+        "value": "https://www.newindia.co.in/",
+        "evidence": ""
+      },
+      "legalName": {
+        "value": "The New India Assurance Co. Ltd.",
+        "evidence": "Registered Office Address: The New India Assurance Co. Ltd., #87, M.G.Road, Fort, Mumbai 400 001."
+      },
+      "irdaiRegistrationNumber": {
+        "value": "190",
+        "evidence": "CIN Number: L66000MH1919GOI000526 | IRDAI Registration Number: 190"
+      },
+      "cin": {
+        "value": "L66000MH1919GOI000526",
+        "evidence": "CIN Number: L66000MH1919GOI000526 | IRDAI Registration Number: 190"
+      },
+      "headquarters": {
+        "value": "Mumbai",
+        "evidence": "Registered Office Address: The New India Assurance Co. Ltd., #87, M.G.Road, Fort, Mumbai 400 001."
+      }
+    }
+  },
+  {
+    "id": "new-india-assurance-p1",
+    "kind": "product",
+    "sourceId": "insurer:new-india-assurance",
+    "url": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy",
+    "notes": "Official product page for Arogya Sanjeevani Policy. The site-product URLs supplied for New India Mediclaim, Private Car and Overseas Mediclaim resolve to the site's generic not-found shell (same bytes as a nonsense path), so no existing site product could be matched.",
+    "subject": {
+      "slug": "new-india-assurance-arogya-sanjeevani-policy",
+      "insurerSlug": "new-india-assurance"
+    },
+    "meta": {
+      "productType": "health-indemnity",
+      "segment": "health",
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "Arogya Sanjeevani Policy",
+        "evidence": "Home Health Arogya Sanjeevani Policy (Cashless facility available) Arogya Sanjeevani Policy, The New India Assurance Health Insurance Policy Downloads"
+      },
+      "uin": {
+        "value": "NIAHLIP25044V022425",
+        "evidence": "UIN Number : NIAHLIP25044V022425"
+      },
+      "sumInsured": {
+        "value": "INR 50,000 to INR 10 Lakhs",
+        "evidence": "The sum insured is from INR 50,000 to INR 10 Lakhs, in multiples of INR 50,000."
+      }
+    },
+    "documents": [
+      {
+        "kind": "customer-information-sheet",
+        "title": "CIS Arogya Sanjeevani Policy",
+        "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/arogya-sanjeevani/Customer%20Information%20Sheet%20AROGYA%20SANJEEVANI%20POLICY.pdf"
+      },
+      {
+        "kind": "policy-wording",
+        "title": "Policy Clause Arogya Sanjeevani Policy",
+        "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/arogya-sanjeevani/POLICY%20CLAUSES%20Arogya%20Sanjeevani.pdf"
+      },
+      {
+        "kind": "prospectus",
+        "title": "Prospectus Arogya Sanjeevani Policy",
+        "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/arogya-sanjeevani/Prospectus%20Arogya%20Sanjeevani%20Policy.pdf"
+      },
+      {
+        "kind": "proposal-form",
+        "title": "Proposal Form Arogya Sanjeevani Policy",
+        "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/arogya-sanjeevani/Proposal%20form%20%20New%20India%20Arogya%20sanjeevani%20policy.pdf"
+      },
+      {
+        "kind": "claim-form",
+        "title": "Claim Form",
+        "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/Claim_Form.pdf"
+      }
+    ]
+  },
+  {
+    "id": "new-india-assurance-p2",
+    "kind": "product",
+    "sourceId": "insurer:new-india-assurance",
+    "url": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy",
+    "notes": "Official product page for Janata Mediclaim Policy.",
+    "subject": {
+      "slug": "new-india-assurance-janata-mediclaim-policy",
+      "insurerSlug": "new-india-assurance"
+    },
+    "meta": {
+      "productType": "health-indemnity",
+      "segment": "health",
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "Janata Mediclaim Policy",
+        "evidence": "Home Health Janata Mediclaim Policy (Cashless Facility Available) Janata Mediclaim Policy (Cashless Facility Available) Health Insurance Policy Downloads"
+      },
+      "uin": {
+        "value": "NIAHLIP25046V042425",
+        "evidence": "UIN number : NIAHLIP25046V042425"
+      }
+    },
+    "documents": [
+      {
+        "kind": "customer-information-sheet",
+        "title": "Customer Information Sheet",
+        "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/janata-mediclaim-policy/Customer%20Information%20Sheet%20JANATA%20MEDICLAIM%20POLICY.pdf"
+      },
+      {
+        "kind": "policy-wording",
+        "title": "Policy Clause Janata Mediclaim Policy",
+        "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/janata-mediclaim-policy/Policy%20Clause%20Janata%20Mediclaim%20Policy.pdf"
+      },
+      {
+        "kind": "prospectus",
+        "title": "Prospectus Janata Mediclaim Policy",
+        "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/janata-mediclaim-policy/Prospectus%20Janata%20Mediclaim%20Policy.pdf"
+      },
+      {
+        "kind": "proposal-form",
+        "title": "Proposal Form",
+        "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/janata-mediclaim-policy/revised%20Janata%20Mediclaim%20Proposal%20Form%20.pdf"
+      },
+      {
+        "kind": "claim-form",
+        "title": "Claim Form",
+        "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/janata-mediclaim-policy/janata-med-claim-form.pdf"
+      }
+    ]
+  }
+]

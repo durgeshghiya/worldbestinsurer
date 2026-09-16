@@ -196,7 +196,7 @@ export default async function InsurerPage({ params }: { params: Promise<{ slug: 
       </h2>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
         {products.map((p) => (
-          <Link key={p.id} href={`/product/${p.id}`}
+          <Link key={p.id} href={`/${p.countryCode}/product/${p.id}/`}
             className="group bg-surface rounded-xl border border-border hover:border-primary/15 hover:shadow-md transition-all p-5">
             <div className="flex items-start justify-between mb-2">
               <div>

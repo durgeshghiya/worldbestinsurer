@@ -83,7 +83,7 @@ export default function ProductCard({ product }: { product: InsuranceProduct }) 
         {/* Actions */}
         <div className="flex items-center gap-2">
           <Link
-            href={`/product/${p.id}`}
+            href={`/${p.countryCode}/product/${p.id}/`}
             className="flex-1 flex items-center justify-center gap-1.5 py-2.5 text-[12.5px] font-semibold text-white bg-gradient-to-r from-primary to-[#7c3aed] rounded-xl hover:shadow-md transition-all duration-200"
           >
             View Details <ArrowUpRight className="w-3.5 h-3.5" />

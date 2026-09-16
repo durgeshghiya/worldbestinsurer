@@ -1,0 +1,242 @@
+[
+  {
+    "id": "2fd89dcbc04de8bf",
+    "scope": "insurer",
+    "insurerSlug": "lic",
+    "metric": "policies-issued",
+    "label": "Policies issued",
+    "value": 1.84,
+    "unit": "crore",
+    "reportingPeriod": "FY2025-26",
+    "provenance": {
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/",
+      "retrievedAt": "2026-09-16T09:05:24.692Z",
+      "sourceDate": "2026-09-16",
+      "reportingPeriod": "FY2025-26",
+      "evidence": "Policies Issued 1.84 Cr.",
+      "sourceDateIsObserved": true
+    },
+    "recordedAt": "2026-09-16T09:05:23.008Z"
+  },
+  {
+    "id": "9d879bc8ead1034f",
+    "scope": "insurer",
+    "insurerSlug": "lic",
+    "metric": "first-year-premium-income",
+    "label": "First-year premium income",
+    "value": 260464,
+    "unit": "INR crore",
+    "reportingPeriod": "FY2025-26",
+    "provenance": {
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/",
+      "retrievedAt": "2026-09-16T09:05:24.692Z",
+      "sourceDate": "2026-09-16",
+      "reportingPeriod": "FY2025-26",
+      "evidence": "1st yr. premium income ₹ 2,60,464 Cr.",
+      "sourceDateIsObserved": true
+    },
+    "recordedAt": "2026-09-16T09:05:23.008Z"
+  },
+  {
+    "id": "b6fe1be648bb122d",
+    "scope": "insurer",
+    "insurerSlug": "lic",
+    "metric": "market-share-policies",
+    "label": "Market share (policies)",
+    "value": 65.16,
+    "unit": "%",
+    "reportingPeriod": "FY2025-26",
+    "provenance": {
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/",
+      "retrievedAt": "2026-09-16T09:05:24.692Z",
+      "sourceDate": "2026-09-16",
+      "reportingPeriod": "FY2025-26",
+      "evidence": "Policies Market share 65.16%",
+      "sourceDateIsObserved": true
+    },
+    "recordedAt": "2026-09-16T09:05:23.008Z"
+  },
+  {
+    "id": "2d36661b140ca02f",
+    "scope": "insurer",
+    "insurerSlug": "lic",
+    "metric": "death-claim-settlement-ratio-by-number",
+    "label": "Death claim settlement (by number)",
+    "value": 99.44,
+    "unit": "%",
+    "reportingPeriod": "FY2025-26",
+    "provenance": {
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/",
+      "retrievedAt": "2026-09-16T09:05:24.692Z",
+      "sourceDate": "2026-09-16",
+      "reportingPeriod": "FY2025-26",
+      "evidence": "Death Claim settlement 99.44%(on No.)",
+      "sourceDateIsObserved": true
+    },
+    "recordedAt": "2026-09-16T09:05:23.008Z"
+  },
+  {
+    "id": "412a42c8741d5b1d",
+    "scope": "insurer",
+    "insurerSlug": "lic",
+    "metric": "death-claim-settlement-ratio-by-amount",
+    "label": "Death claim settlement (by amount)",
+    "value": 99.03,
+    "unit": "%",
+    "reportingPeriod": "FY2025-26",
+    "provenance": {
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/",
+      "retrievedAt": "2026-09-16T09:05:24.692Z",
+      "sourceDate": "2026-09-16",
+      "reportingPeriod": "FY2025-26",
+      "evidence": "99.44%(on No.)& 99.03%(on Amt.)",
+      "sourceDateIsObserved": true
+    },
+    "recordedAt": "2026-09-16T09:05:23.008Z"
+  },
+  {
+    "id": "b9b5264c15af5358",
+    "scope": "insurer",
+    "insurerSlug": "lic",
+    "metric": "maturity-claim-settlement-ratio-by-number",
+    "label": "Maturity claim settlement (by number)",
+    "value": 91.37,
+    "unit": "%",
+    "reportingPeriod": "FY2025-26",
+    "provenance": {
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/",
+      "retrievedAt": "2026-09-16T09:05:24.692Z",
+      "sourceDate": "2026-09-16",
+      "reportingPeriod": "FY2025-26",
+      "evidence": "Maturity Claim settlement 91.37%(on No.)",
+      "sourceDateIsObserved": true
+    },
+    "recordedAt": "2026-09-16T09:05:23.008Z"
+  },
+  {
+    "id": "9d37d60d98ec037a",
+    "scope": "insurer",
+    "insurerSlug": "lic",
+    "metric": "maturity-claim-settlement-ratio-by-amount",
+    "label": "Maturity claim settlement (by amount)",
+    "value": 96.43,
+    "unit": "%",
+    "reportingPeriod": "FY2025-26",
+    "provenance": {
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/",
+      "retrievedAt": "2026-09-16T09:05:24.692Z",
+      "sourceDate": "2026-09-16",
+      "reportingPeriod": "FY2025-26",
+      "evidence": "91.37%(on No.)& 96.43%(on Amt.)",
+      "sourceDateIsObserved": true
+    },
+    "recordedAt": "2026-09-16T09:05:23.008Z"
+  },
+  {
+    "id": "1304705c99cec7ca",
+    "scope": "insurer",
+    "insurerSlug": "lic",
+    "metric": "death-claims-settled",
+    "label": "Death claims settled",
+    "value": 0.1,
+    "unit": "crore",
+    "reportingPeriod": "FY2025-26",
+    "provenance": {
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/",
+      "retrievedAt": "2026-09-16T09:05:24.692Z",
+      "sourceDate": "2026-09-16",
+      "reportingPeriod": "FY2025-26",
+      "evidence": "No. of Death Claims Settled 0.10 Cr.",
+      "sourceDateIsObserved": true
+    },
+    "recordedAt": "2026-09-16T09:05:23.008Z"
+  },
+  {
+    "id": "05f847838779b260",
+    "scope": "insurer",
+    "insurerSlug": "lic",
+    "metric": "maturity-claims-settled",
+    "label": "Maturity claims settled",
+    "value": 2.44,
+    "unit": "crore",
+    "reportingPeriod": "FY2025-26",
+    "provenance": {
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/",
+      "retrievedAt": "2026-09-16T09:05:24.692Z",
+      "sourceDate": "2026-09-16",
+      "reportingPeriod": "FY2025-26",
+      "evidence": "No. of Maturity Claims Settled 2.44 Cr.",
+      "sourceDateIsObserved": true
+    },
+    "recordedAt": "2026-09-16T09:05:23.008Z"
+  },
+  {
+    "id": "b6000f7c5f140120",
+    "scope": "insurer",
+    "insurerSlug": "lic",
+    "metric": "death-claims-amount-paid",
+    "label": "Death claims amount paid",
+    "value": 25673,
+    "unit": "INR crore",
+    "reportingPeriod": "FY2025-26",
+    "provenance": {
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/",
+      "retrievedAt": "2026-09-16T09:05:24.692Z",
+      "sourceDate": "2026-09-16",
+      "reportingPeriod": "FY2025-26",
+      "evidence": "Death Claims amount paid ₹ 25,673 Cr.",
+      "sourceDateIsObserved": true
+    },
+    "recordedAt": "2026-09-16T09:05:23.008Z"
+  },
+  {
+    "id": "b0496c6fc504819a",
+    "scope": "insurer",
+    "insurerSlug": "lic",
+    "metric": "maturity-claims-amount-paid",
+    "label": "Maturity claims amount paid",
+    "value": 287098,
+    "unit": "INR crore",
+    "reportingPeriod": "FY2025-26",
+    "provenance": {
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/",
+      "retrievedAt": "2026-09-16T09:05:24.692Z",
+      "sourceDate": "2026-09-16",
+      "reportingPeriod": "FY2025-26",
+      "evidence": "Maturity Claims amount paid ₹ 2,87,098 Cr.",
+      "sourceDateIsObserved": true
+    },
+    "recordedAt": "2026-09-16T09:05:23.008Z"
+  },
+  {
+    "id": "a466acb787195f5c",
+    "scope": "insurer",
+    "insurerSlug": "pnb-metlife",
+    "metric": "individual-death-claim-settlement-ratio",
+    "label": "Individual death claim settlement ratio",
+    "value": 99.81,
+    "unit": "%",
+    "reportingPeriod": "FY2025-26",
+    "provenance": {
+      "sourceId": "insurer:pnb-metlife",
+      "url": "https://www.pnbmetlife.com/",
+      "retrievedAt": "2026-09-16T09:05:35.716Z",
+      "sourceDate": "2026-09-16",
+      "reportingPeriod": "FY2025-26",
+      "evidence": "99.81% Individual Death Claim Settlement Ratio",
+      "sourceDateIsObserved": true
+    },
+    "recordedAt": "2026-09-16T09:05:23.008Z"
+  }
+]

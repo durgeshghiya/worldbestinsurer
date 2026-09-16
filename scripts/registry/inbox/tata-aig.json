@@ -1,0 +1,117 @@
+[
+  {
+    "id": "tata-aig-identity",
+    "kind": "insurer",
+    "sourceId": "insurer:tata-aig",
+    "url": "https://www.tataaig.com/",
+    "subject": {
+      "slug": "tata-aig",
+      "siteSlug": "tata-aig"
+    },
+    "meta": {
+      "segments": [
+        "health",
+        "motor",
+        "travel"
+      ],
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "TATA AIG General Insurance Company Limited",
+        "evidence": "2008, TATA AIG General Insurance Company Limited, all rights reserved."
+      },
+      "insurerType": {
+        "value": "general",
+        "evidence": "Category of Certificate of Registration: General Insurance."
+      },
+      "website": {
+        "value": "https://www.tataaig.com/",
+        "evidence": ""
+      },
+      "legalName": {
+        "value": "TATA AIG General Insurance Company Limited",
+        "evidence": "2008, TATA AIG General Insurance Company Limited, all rights reserved."
+      },
+      "irdaiRegistrationNumber": {
+        "value": "108",
+        "evidence": "IRDA of India Regn. No. 108."
+      },
+      "cin": {
+        "value": "U85110MH2000PLC128425",
+        "evidence": "CIN: U85110MH2000PLC128425."
+      },
+      "headquarters": {
+        "value": "Mumbai",
+        "evidence": "Registered Office : Peninsula Business Park, Tower A, 15th Floor, G.K.Marg, Lower Parel, Mumbai - 400 013, Maharashtra, India."
+      }
+    }
+  },
+  {
+    "id": "tata-aig-p1",
+    "kind": "product",
+    "sourceId": "insurer:tata-aig",
+    "url": "https://www.tataaig.com/health-insurance/medicare-select",
+    "subject": {
+      "slug": "tata-aig-medicare-select",
+      "insurerSlug": "tata-aig",
+      "siteProductId": "tata-aig-medicare-select"
+    },
+    "meta": {
+      "productType": "health-indemnity",
+      "segment": "health",
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "TATA AIG MediCare Select",
+        "evidence": "TATA AIG MediCare Select UIN: TATHLIP25051V012425."
+      },
+      "uin": {
+        "value": "TATHLIP25051V012425",
+        "evidence": "TATA AIG MediCare Select UIN: TATHLIP25051V012425."
+      },
+      "policyTerm": {
+        "value": "1, 2 and 3-Year Options",
+        "evidence": "Policy Duration 1, 2 and 3-Year Options"
+      },
+      "sumInsured": {
+        "value": "₹5 lakhs - ₹3 Crores",
+        "evidence": "Sum Insured Options ₹5 lakhs - ₹3 Crores"
+      }
+    }
+  },
+  {
+    "id": "tata-aig-p2",
+    "kind": "product",
+    "sourceId": "insurer:tata-aig",
+    "url": "https://www.tataaig.com/motor-insurance/car-insurance",
+    "subject": {
+      "slug": "tata-aig-car-insurance",
+      "insurerSlug": "tata-aig"
+    },
+    "meta": {
+      "productType": "motor-private-car",
+      "segment": "motor",
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "TATA AIG Car Insurance",
+        "evidence": "TATA AIG Car Insurance for Electric Cars EV car insurance is similar to regular car insurance"
+      },
+      "policyTerm": {
+        "value": "1, 2 and 3 Years",
+        "evidence": "Plan Duration 1, 2 and 3 Years"
+      }
+    },
+    "documents": [
+      {
+        "kind": "claim-form",
+        "title": "Claim Form (duly filled and signed)",
+        "url": "https://www.tataaig.com/s3/R3_Auto_Secure_Claim_Form_cdf0776d75.pdf"
+      }
+    ],
+    "notes": "Unlinked from site product tata-aig-motor on review: the candidate was read from a different page than the site record, so the match is not proven."
+  }
+]

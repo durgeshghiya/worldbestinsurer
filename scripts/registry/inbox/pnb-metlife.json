@@ -1,0 +1,151 @@
+[
+  {
+    "id": "pnb-metlife-identity",
+    "kind": "insurer",
+    "sourceId": "insurer:pnb-metlife",
+    "url": "https://www.pnbmetlife.com/",
+    "subject": {
+      "slug": "pnb-metlife",
+      "siteSlug": "pnb-metlife"
+    },
+    "meta": {
+      "segments": [
+        "life"
+      ],
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "PNB MetLife India Insurance Company Limited",
+        "evidence": "PNB MetLife India Insurance Company Limited | Registered Office: Unit No. 701, 702 and 703, 7th floor, West Wing, Raheja Towers, 26/27 M G Road, Bangalore -560001, Karnataka"
+      },
+      "insurerType": {
+        "value": "life",
+        "evidence": "PNB MetLife Insurance, amongst the trusted Life Insurance companies in India, aims to provide a wide range of Life Insurance products"
+      },
+      "website": {
+        "value": "https://www.pnbmetlife.com/",
+        "evidence": ""
+      },
+      "legalName": {
+        "value": "PNB MetLife India Insurance Company Limited",
+        "evidence": "PNB MetLife India Insurance Company Limited. Registered office address: Unit No. 701, 702 & 703, 7th Floor, West Wing, Raheja Towers, 26/27 M G Road, Bangalore -560001, Karnataka. IRDAI Registration number 117 | CIN U66010KA2001PLC028883."
+      },
+      "irdaiRegistrationNumber": {
+        "value": "117",
+        "evidence": "IRDAI Registration number 117 | CIN U66010KA2001PLC028883."
+      },
+      "cin": {
+        "value": "U66010KA2001PLC028883",
+        "evidence": "Corporate Identification Number (CIN): U66010KA2001PLC028883 | IRDAI Registration No: 117"
+      },
+      "headquarters": {
+        "value": "Bangalore",
+        "evidence": "Registered office address: Unit No. 701, 702 & 703, 7th Floor, West Wing, Raheja Towers, 26/27 M G Road, Bangalore -560001, Karnataka."
+      }
+    }
+  },
+  {
+    "id": "pnb-metlife-p1",
+    "kind": "product",
+    "sourceId": "insurer:pnb-metlife",
+    "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html",
+    "subject": {
+      "slug": "pnb-metlife-mera-term",
+      "insurerSlug": "pnb-metlife",
+      "siteProductId": "pnb-metlife-mera-term"
+    },
+    "meta": {
+      "productType": "term",
+      "segment": "life",
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "PNB MetLife Mera Term Plan Plus",
+        "evidence": "PNB MetLife Mera Term Plan Plus Individual Non-Linked, Non-Par, Pure Risk Premium, Life Insurance Plan | UIN: 117N126V04"
+      },
+      "uin": {
+        "value": "117N126V04",
+        "evidence": "PNB MetLife Mera Term Plan Plus Individual Non-Linked, Non-Par, Pure Risk Premium, Life Insurance Plan | UIN: 117N126V04"
+      },
+      "policyTerm": {
+        "value": "Policy Term (yrs) 10 Without RoP: Life, Life Plus: 99-Age at entry Life Plus Health: 75 – Age at entry With RoP : 40",
+        "evidence": "(Minimum allowed Policy Term for Limited pay option: Premium Payment Term plus 5 years) Policy Term (yrs) 10 Without RoP: Life, Life Plus: 99-Age at entry Life Plus Health: 75 – Age at entry With RoP : 40 6All Age as of last birthday"
+      },
+      "eligibility": {
+        "value": "Age at Entry (yrs) 18 60 (55 if 'Pay till Age 60' is chosen as PPT)",
+        "evidence": "Parameter Minimum Maximum 6Age at Entry (yrs) 18 60 (55 if 'Pay till Age 60' is chosen as PPT) Age at Maturity"
+      },
+      "sumInsured": {
+        "value": "Sum Assured (Rs.) 25,00,000 No limit, subject to Underwriting",
+        "evidence": "With RoP 28 75 Sum Assured (Rs.) 25,00,000 No limit, subject to Underwriting Premium (Rs.) Based on the Basic Sum Assured"
+      }
+    },
+    "documents": [
+      {
+        "kind": "brochure",
+        "title": "Brochure/Prospectus",
+        "url": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/mmtp_plus_brochure.pdf"
+      },
+      {
+        "kind": "product-information",
+        "title": "Download Leaflet",
+        "url": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/mmtp_plus_leaflet.pdf"
+      }
+    ]
+  },
+  {
+    "id": "pnb-metlife-p2",
+    "kind": "product",
+    "sourceId": "insurer:pnb-metlife",
+    "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html",
+    "subject": {
+      "slug": "pnb-metlife-saral-jeevan-bima",
+      "insurerSlug": "pnb-metlife"
+    },
+    "meta": {
+      "productType": "term",
+      "segment": "life",
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "PNB MetLife Saral Jeevan Bima",
+        "evidence": "PNB MetLife Saral Jeevan Bima Mere apno ki suraksha ka saccha saathi Individual, Non-linked, Non-par, Pure Risk Premium, Life Insurance Product | UIN: 117N128V04"
+      },
+      "uin": {
+        "value": "117N128V04",
+        "evidence": "PNB MetLife Saral Jeevan Bima (UIN: 117N128V04) is an Individual, Non-linked, Non-participating, pure risk premium life insurance product."
+      },
+      "policyTerm": {
+        "value": "fixed term ranging from 5 years to 40 years",
+        "evidence": "Choice of Policy Term With this plan, you can choose to stay protected for a fixed term ranging from 5 years to 40 years"
+      },
+      "eligibility": {
+        "value": "Age at entry1 (yrs) 18 65",
+        "evidence": "What are the eligibility criteria for this plan? Parameter Minimum Maximum Age at entry1 (yrs) 18 65 Age at Maturity (yrs) 23 70"
+      },
+      "premiumFrequency": {
+        "value": "Yearly / Half Yearly / Monthly",
+        "evidence": "Premium Payment modes Yearly / Half Yearly / Monthly2 1All references to Age are as on age last birthday 2Monthly mode is available only under ECS/NACH"
+      },
+      "sumInsured": {
+        "value": "Rs.5 Lakhs to Rs.50 Lakhs",
+        "evidence": "This plan offers life protection to you & your family for sum assured ranging from Rs.5 Lakhs to Rs.50 Lakhs."
+      }
+    },
+    "documents": [
+      {
+        "kind": "brochure",
+        "title": "Brochure/Prospectus",
+        "url": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/Download_Brochure/MSJB_Brochure_new.pdf"
+      },
+      {
+        "kind": "product-information",
+        "title": "Download Leaflet",
+        "url": "https://www.pnbmetlife.com/content/dam/pnb-metlife/docs/product/leaflet/PNB-Saral-jeevan-bima.pdf"
+      }
+    ]
+  }
+]

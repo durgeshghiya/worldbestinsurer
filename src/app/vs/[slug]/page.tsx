@@ -97,10 +97,10 @@ export default async function VSPage({ params }: { params: Promise<{ slug: strin
             <tr>
               <td className="p-4" />
               <td className="p-4">
-                <Link href={`/product/${a.id}`} className="text-[12px] px-3 py-1.5 bg-primary text-white rounded-lg hover:bg-primary-hover transition-colors inline-block">View details</Link>
+                <Link href={`/${a.countryCode}/product/${a.id}/`} className="text-[12px] px-3 py-1.5 bg-primary text-white rounded-lg hover:bg-primary-hover transition-colors inline-block">View details</Link>
               </td>
               <td className="p-4">
-                <Link href={`/product/${b.id}`} className="text-[12px] px-3 py-1.5 bg-primary text-white rounded-lg hover:bg-primary-hover transition-colors inline-block">View details</Link>
+                <Link href={`/${b.countryCode}/product/${b.id}/`} className="text-[12px] px-3 py-1.5 bg-primary text-white rounded-lg hover:bg-primary-hover transition-colors inline-block">View details</Link>
               </td>
             </tr>
           </tbody>

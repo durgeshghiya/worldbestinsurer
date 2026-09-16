@@ -1,0 +1,702 @@
+[
+  {
+    "slug": "acko",
+    "name": {
+      "value": "ACKO General Insurance Limited",
+      "provenance": {
+        "sourceId": "insurer:acko",
+        "url": "https://www.acko.com/gi",
+        "retrievedAt": "2026-09-16T08:59:52.887Z",
+        "evidence": "ACKO General Insurance Limited #36/5, Hustlehub One East, Somasandrapalya 27th Main Rd, Sector 2, HSR Layout, Bengaluru, Karnataka 560102"
+      }
+    },
+    "legalName": {
+      "value": "ACKO General Insurance Limited",
+      "provenance": {
+        "sourceId": "insurer:acko",
+        "url": "https://www.acko.com/gi",
+        "retrievedAt": "2026-09-16T08:59:52.887Z",
+        "evidence": "ACKO General Insurance Limited #36/5, Hustlehub One East, Somasandrapalya 27th Main Rd, Sector 2, HSR Layout, Bengaluru, Karnataka 560102"
+      }
+    },
+    "insurerType": {
+      "value": "general",
+      "provenance": {
+        "sourceId": "insurer:acko",
+        "url": "https://www.acko.com/gi",
+        "retrievedAt": "2026-09-16T08:59:52.887Z",
+        "evidence": "ACKO General Insurance Limited"
+      }
+    },
+    "segments": [
+      "health",
+      "motor"
+    ],
+    "irdaiRegistrationNumber": {
+      "value": "157",
+      "provenance": {
+        "sourceId": "insurer:acko",
+        "url": "https://www.acko.com/gi",
+        "retrievedAt": "2026-09-16T08:59:52.887Z",
+        "evidence": "IRDAI Registration No: 157 Category: Non-Life Insurance"
+      }
+    },
+    "cin": {
+      "value": "U66000KA2016PLC138288",
+      "provenance": {
+        "sourceId": "insurer:acko",
+        "url": "https://www.acko.com/gi",
+        "retrievedAt": "2026-09-16T08:59:52.887Z",
+        "evidence": "CIN: U66000KA2016PLC138288 IRDAI Registration No: 157"
+      }
+    },
+    "website": {
+      "value": "https://www.acko.com/",
+      "provenance": {
+        "sourceId": "insurer:acko",
+        "url": "https://www.acko.com/gi",
+        "retrievedAt": "2026-09-16T08:59:52.887Z"
+      }
+    },
+    "headquarters": {
+      "value": "Bengaluru",
+      "provenance": {
+        "sourceId": "insurer:acko",
+        "url": "https://www.acko.com/gi",
+        "retrievedAt": "2026-09-16T08:59:52.887Z",
+        "evidence": "#36/5, Hustlehub One East, Somasandrapalya 27th Main Rd, Sector 2, HSR Layout, Bengaluru, Karnataka 560102"
+      }
+    },
+    "status": "active",
+    "siteSlug": "acko",
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "slug": "digit",
+    "name": {
+      "value": "Go Digit General Insurance Limited",
+      "provenance": {
+        "sourceId": "insurer:digit",
+        "url": "https://www.godigit.com/",
+        "retrievedAt": "2026-09-16T08:59:53.229Z",
+        "evidence": "IRDAI Reg. No. 158. Go Digit General Insurance Limited | Corporate Office Address"
+      }
+    },
+    "legalName": {
+      "value": "Go Digit General Insurance Limited",
+      "provenance": {
+        "sourceId": "insurer:digit",
+        "url": "https://www.godigit.com/",
+        "retrievedAt": "2026-09-16T08:59:53.229Z",
+        "evidence": "IRDAI Reg. No. 158. Go Digit General Insurance Limited | Corporate Office Address"
+      }
+    },
+    "insurerType": {
+      "value": "general",
+      "provenance": {
+        "sourceId": "insurer:digit",
+        "url": "https://www.godigit.com/",
+        "retrievedAt": "2026-09-16T08:59:53.229Z",
+        "evidence": "Go Digit General Insurance Limited"
+      }
+    },
+    "segments": [
+      "health",
+      "motor",
+      "travel"
+    ],
+    "irdaiRegistrationNumber": {
+      "value": "158",
+      "provenance": {
+        "sourceId": "insurer:digit",
+        "url": "https://www.godigit.com/",
+        "retrievedAt": "2026-09-16T08:59:53.229Z",
+        "evidence": "IRDAI Reg. No. 158."
+      }
+    },
+    "cin": {
+      "value": "L66010PN2016PLC167410",
+      "provenance": {
+        "sourceId": "insurer:digit",
+        "url": "https://www.godigit.com/",
+        "retrievedAt": "2026-09-16T08:59:53.229Z",
+        "evidence": "CIN: L66010PN2016PLC167410, IRDAI Reg. No. 158."
+      }
+    },
+    "website": {
+      "value": "https://www.godigit.com/",
+      "provenance": {
+        "sourceId": "insurer:digit",
+        "url": "https://www.godigit.com/",
+        "retrievedAt": "2026-09-16T08:59:53.229Z"
+      }
+    },
+    "headquarters": {
+      "value": "Bengaluru",
+      "provenance": {
+        "sourceId": "insurer:digit",
+        "url": "https://www.godigit.com/",
+        "retrievedAt": "2026-09-16T08:59:53.229Z",
+        "evidence": "Corporate Office Address: Atlantis, 95, 4th B Cross Road, Koramangala Industrial Layout, 5th Block, Bengaluru 560095"
+      }
+    },
+    "status": "active",
+    "siteSlug": "digit",
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "slug": "hdfc-ergo",
+    "name": {
+      "value": "HDFC ERGO General Insurance Company Limited",
+      "provenance": {
+        "sourceId": "insurer:hdfc-ergo",
+        "url": "https://www.hdfcergo.com/",
+        "retrievedAt": "2026-09-16T08:59:54.749Z",
+        "evidence": "© HDFC ERGO General Insurance Company Limited. CIN: U66030MH2007PLC177117."
+      }
+    },
+    "legalName": {
+      "value": "HDFC ERGO General Insurance Company Limited",
+      "provenance": {
+        "sourceId": "insurer:hdfc-ergo",
+        "url": "https://www.hdfcergo.com/",
+        "retrievedAt": "2026-09-16T08:59:54.749Z",
+        "evidence": "© HDFC ERGO General Insurance Company Limited. CIN: U66030MH2007PLC177117."
+      }
+    },
+    "insurerType": {
+      "value": "general",
+      "provenance": {
+        "sourceId": "insurer:hdfc-ergo",
+        "url": "https://www.hdfcergo.com/",
+        "retrievedAt": "2026-09-16T08:59:54.749Z",
+        "evidence": "IRDAI Registration Number : 146 (Registration type: General Insurance Company)"
+      }
+    },
+    "segments": [
+      "health",
+      "home",
+      "motor",
+      "travel"
+    ],
+    "irdaiRegistrationNumber": {
+      "value": "146",
+      "provenance": {
+        "sourceId": "insurer:hdfc-ergo",
+        "url": "https://www.hdfcergo.com/",
+        "retrievedAt": "2026-09-16T08:59:54.749Z",
+        "evidence": "IRDAI Registration Number : 146 (Registration type: General Insurance Company)"
+      }
+    },
+    "cin": {
+      "value": "U66030MH2007PLC177117",
+      "provenance": {
+        "sourceId": "insurer:hdfc-ergo",
+        "url": "https://www.hdfcergo.com/",
+        "retrievedAt": "2026-09-16T08:59:54.749Z",
+        "evidence": "CIN: U66030MH2007PLC177117"
+      }
+    },
+    "website": {
+      "value": "https://www.hdfcergo.com/",
+      "provenance": {
+        "sourceId": "insurer:hdfc-ergo",
+        "url": "https://www.hdfcergo.com/",
+        "retrievedAt": "2026-09-16T08:59:54.749Z"
+      }
+    },
+    "headquarters": {
+      "value": "Mumbai",
+      "provenance": {
+        "sourceId": "insurer:hdfc-ergo",
+        "url": "https://www.hdfcergo.com/",
+        "retrievedAt": "2026-09-16T08:59:54.749Z",
+        "evidence": "Registered & Corporate Office: 6th Floor, Leela Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059"
+      }
+    },
+    "status": "active",
+    "siteSlug": "hdfc-ergo",
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "slug": "lic",
+    "name": {
+      "value": "Life Insurance Corporation of India",
+      "provenance": {
+        "sourceId": "insurer:lic",
+        "url": "https://licindia.in/",
+        "retrievedAt": "2026-09-16T08:59:55.083Z",
+        "evidence": "Corporate Office : Life Insurance Corporation of India 'Yogakshema'"
+      }
+    },
+    "insurerType": {
+      "value": "life",
+      "provenance": {
+        "sourceId": "insurer:lic",
+        "url": "https://licindia.in/",
+        "retrievedAt": "2026-09-16T08:59:55.083Z",
+        "evidence": "Life Insurance Corporation of India"
+      }
+    },
+    "segments": [
+      "life"
+    ],
+    "irdaiRegistrationNumber": {
+      "value": "512",
+      "provenance": {
+        "sourceId": "insurer:lic",
+        "url": "https://licindia.in/",
+        "retrievedAt": "2026-09-16T08:59:55.083Z",
+        "evidence": "IRDAI Reg No- 512"
+      }
+    },
+    "website": {
+      "value": "https://licindia.in/",
+      "provenance": {
+        "sourceId": "insurer:lic",
+        "url": "https://licindia.in/",
+        "retrievedAt": "2026-09-16T08:59:55.083Z"
+      }
+    },
+    "headquarters": {
+      "value": "Mumbai",
+      "provenance": {
+        "sourceId": "insurer:lic",
+        "url": "https://licindia.in/",
+        "retrievedAt": "2026-09-16T08:59:55.083Z",
+        "evidence": "Jeevan Bima Marg, P.O. Box No19953, Mumbai – 400 021"
+      }
+    },
+    "status": "active",
+    "siteSlug": "lic",
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "slug": "manipalcigna",
+    "name": {
+      "value": "ManipalCigna Health Insurance",
+      "provenance": {
+        "sourceId": "insurer:manipalcigna",
+        "url": "https://www.manipalcigna.com/",
+        "retrievedAt": "2026-09-16T08:59:55.945Z",
+        "evidence": "ManipalCigna Health Insurance Company Limited"
+      }
+    },
+    "legalName": {
+      "value": "ManipalCigna Health Insurance Company Limited",
+      "provenance": {
+        "sourceId": "insurer:manipalcigna",
+        "url": "https://www.manipalcigna.com/",
+        "retrievedAt": "2026-09-16T08:59:55.945Z",
+        "evidence": "I authorize ManipalCigna Health Insurance Company Limited to Call"
+      }
+    },
+    "insurerType": {
+      "value": "standalone-health",
+      "provenance": {
+        "sourceId": "insurer:manipalcigna",
+        "url": "https://www.manipalcigna.com/",
+        "retrievedAt": "2026-09-16T08:59:55.945Z",
+        "evidence": "ManipalCigna Health Insurance Company Limited"
+      }
+    },
+    "segments": [
+      "health",
+      "personal-accident"
+    ],
+    "website": {
+      "value": "https://www.manipalcigna.com/",
+      "provenance": {
+        "sourceId": "insurer:manipalcigna",
+        "url": "https://www.manipalcigna.com/",
+        "retrievedAt": "2026-09-16T08:59:55.945Z"
+      }
+    },
+    "status": "active",
+    "siteSlug": "manipalcigna",
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "slug": "max-life",
+    "name": {
+      "value": "Axis Max Life Insurance",
+      "provenance": {
+        "sourceId": "insurer:max-life",
+        "url": "https://www.axismaxlife.com/",
+        "retrievedAt": "2026-09-16T09:05:27.601Z",
+        "evidence": "Axis Max Life Insurance Limited (formerly known as Max Life Insurance Co. Ltd.) is a Joint Venture between Max Financial Services Limited"
+      }
+    },
+    "legalName": {
+      "value": "Axis Max Life Insurance Limited",
+      "provenance": {
+        "sourceId": "insurer:max-life",
+        "url": "https://www.axismaxlife.com/",
+        "retrievedAt": "2026-09-16T09:05:27.601Z",
+        "evidence": "Registered Office: Axis Max Life Insurance Limited. Plot no. 90-C, Sector-18, Urban Estate, Gurugram, Haryana – 122 015, India."
+      }
+    },
+    "insurerType": {
+      "value": "life",
+      "provenance": {
+        "sourceId": "insurer:max-life",
+        "url": "https://www.axismaxlife.com/",
+        "retrievedAt": "2026-09-16T09:05:27.601Z",
+        "evidence": "IRDAI - Registration No. 104. ARN/Web/13122024 Category: Life. Validity: Valid."
+      }
+    },
+    "segments": [
+      "life"
+    ],
+    "irdaiRegistrationNumber": {
+      "value": "104",
+      "provenance": {
+        "sourceId": "insurer:max-life",
+        "url": "https://www.axismaxlife.com/",
+        "retrievedAt": "2026-09-16T09:05:27.601Z",
+        "evidence": "IRDAI - Registration No. 104."
+      }
+    },
+    "cin": {
+      "value": "U74899HR2000PLC143012",
+      "provenance": {
+        "sourceId": "insurer:max-life",
+        "url": "https://www.axismaxlife.com/",
+        "retrievedAt": "2026-09-16T09:05:27.601Z",
+        "evidence": "Corporate Identity Number (CIN): U74899HR2000PLC143012."
+      }
+    },
+    "website": {
+      "value": "https://www.axismaxlife.com/",
+      "provenance": {
+        "sourceId": "insurer:max-life",
+        "url": "https://www.axismaxlife.com/",
+        "retrievedAt": "2026-09-16T09:05:27.601Z"
+      }
+    },
+    "headquarters": {
+      "value": "Gurugram, Haryana",
+      "provenance": {
+        "sourceId": "insurer:max-life",
+        "url": "https://www.axismaxlife.com/",
+        "retrievedAt": "2026-09-16T09:05:27.601Z",
+        "evidence": "Registered Office: Axis Max Life Insurance Limited. Plot no. 90-C, Sector-18, Urban Estate, Gurugram, Haryana – 122 015, India."
+      }
+    },
+    "status": "active",
+    "formerNames": [
+      {
+        "name": "Max Life Insurance Co. Ltd.",
+        "provenance": {
+          "sourceId": "insurer:max-life",
+          "url": "https://www.axismaxlife.com/",
+          "retrievedAt": "2026-09-16T09:05:27.601Z",
+          "evidence": "Axis Max Life Insurance Limited (formerly known as Max Life Insurance Co. Ltd.)"
+        }
+      }
+    ],
+    "siteSlug": "max-life",
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T09:05:23.008Z"
+  },
+  {
+    "slug": "new-india-assurance",
+    "name": {
+      "value": "The New India Assurance Co. Ltd.",
+      "provenance": {
+        "sourceId": "insurer:new-india-assurance",
+        "url": "https://www.newindia.co.in/",
+        "retrievedAt": "2026-09-16T09:00:05.103Z",
+        "evidence": "Registered Office Address: The New India Assurance Co. Ltd., #87, M.G.Road, Fort, Mumbai 400 001."
+      }
+    },
+    "legalName": {
+      "value": "The New India Assurance Co. Ltd.",
+      "provenance": {
+        "sourceId": "insurer:new-india-assurance",
+        "url": "https://www.newindia.co.in/",
+        "retrievedAt": "2026-09-16T09:00:05.103Z",
+        "evidence": "Registered Office Address: The New India Assurance Co. Ltd., #87, M.G.Road, Fort, Mumbai 400 001."
+      }
+    },
+    "insurerType": {
+      "value": "general",
+      "provenance": {
+        "sourceId": "insurer:new-india-assurance",
+        "url": "https://www.newindia.co.in/",
+        "retrievedAt": "2026-09-16T09:00:05.103Z",
+        "evidence": "New India Assurance Company Limited is a leading public sector general insurance company in India, owned by the Government of India."
+      }
+    },
+    "segments": [
+      "commercial",
+      "health",
+      "motor",
+      "travel"
+    ],
+    "irdaiRegistrationNumber": {
+      "value": "190",
+      "provenance": {
+        "sourceId": "insurer:new-india-assurance",
+        "url": "https://www.newindia.co.in/",
+        "retrievedAt": "2026-09-16T09:00:05.103Z",
+        "evidence": "CIN Number: L66000MH1919GOI000526 | IRDAI Registration Number: 190"
+      }
+    },
+    "cin": {
+      "value": "L66000MH1919GOI000526",
+      "provenance": {
+        "sourceId": "insurer:new-india-assurance",
+        "url": "https://www.newindia.co.in/",
+        "retrievedAt": "2026-09-16T09:00:05.103Z",
+        "evidence": "CIN Number: L66000MH1919GOI000526 | IRDAI Registration Number: 190"
+      }
+    },
+    "website": {
+      "value": "https://www.newindia.co.in/",
+      "provenance": {
+        "sourceId": "insurer:new-india-assurance",
+        "url": "https://www.newindia.co.in/",
+        "retrievedAt": "2026-09-16T09:00:05.103Z"
+      }
+    },
+    "headquarters": {
+      "value": "Mumbai",
+      "provenance": {
+        "sourceId": "insurer:new-india-assurance",
+        "url": "https://www.newindia.co.in/",
+        "retrievedAt": "2026-09-16T09:00:05.103Z",
+        "evidence": "Registered Office Address: The New India Assurance Co. Ltd., #87, M.G.Road, Fort, Mumbai 400 001."
+      }
+    },
+    "status": "active",
+    "siteSlug": "new-india-assurance",
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "slug": "niva-bupa",
+    "name": {
+      "value": "Niva Bupa Health Insurance Company Limited",
+      "provenance": {
+        "sourceId": "insurer:niva-bupa",
+        "url": "https://www.nivabupa.com/",
+        "retrievedAt": "2026-09-16T09:00:07.710Z",
+        "evidence": "Niva Bupa Health Insurance Company Limited (IRDAI Registration Number 145, Category:Health)"
+      }
+    },
+    "legalName": {
+      "value": "Niva Bupa Health Insurance Company Limited",
+      "provenance": {
+        "sourceId": "insurer:niva-bupa",
+        "url": "https://www.nivabupa.com/",
+        "retrievedAt": "2026-09-16T09:00:07.710Z",
+        "evidence": "Niva Bupa Health Insurance Company Limited (IRDAI Registration Number 145, Category:Health)"
+      }
+    },
+    "insurerType": {
+      "value": "standalone-health",
+      "provenance": {
+        "sourceId": "insurer:niva-bupa",
+        "url": "https://www.nivabupa.com/",
+        "retrievedAt": "2026-09-16T09:00:07.710Z",
+        "evidence": "Niva Bupa Health Insurance Company Limited (IRDAI Registration Number 145, Category:Health)"
+      }
+    },
+    "segments": [
+      "health",
+      "travel"
+    ],
+    "irdaiRegistrationNumber": {
+      "value": "145",
+      "provenance": {
+        "sourceId": "insurer:niva-bupa",
+        "url": "https://www.nivabupa.com/",
+        "retrievedAt": "2026-09-16T09:00:07.710Z",
+        "evidence": "CIN: L66000DL2008PLC182918 IRDAI Registration No. 145"
+      }
+    },
+    "cin": {
+      "value": "L66000DL2008PLC182918",
+      "provenance": {
+        "sourceId": "insurer:niva-bupa",
+        "url": "https://www.nivabupa.com/",
+        "retrievedAt": "2026-09-16T09:00:07.710Z",
+        "evidence": "CIN: L66000DL2008PLC182918 IRDAI Registration No. 145"
+      }
+    },
+    "website": {
+      "value": "https://www.nivabupa.com/",
+      "provenance": {
+        "sourceId": "insurer:niva-bupa",
+        "url": "https://www.nivabupa.com/",
+        "retrievedAt": "2026-09-16T09:00:07.710Z",
+        "evidence": "www.nivabupa.com"
+      }
+    },
+    "headquarters": {
+      "value": "Gurgaon",
+      "provenance": {
+        "sourceId": "insurer:niva-bupa",
+        "url": "https://www.nivabupa.com/",
+        "retrievedAt": "2026-09-16T09:00:07.710Z",
+        "evidence": "Corporate Office: 3rd Floor, Capital Cyberscape, Sector 59, Gurgaon"
+      }
+    },
+    "status": "active",
+    "siteSlug": "niva-bupa",
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "slug": "pnb-metlife",
+    "name": {
+      "value": "PNB MetLife India Insurance Company Limited",
+      "provenance": {
+        "sourceId": "insurer:pnb-metlife",
+        "url": "https://www.pnbmetlife.com/",
+        "retrievedAt": "2026-09-16T09:00:07.983Z",
+        "evidence": "PNB MetLife India Insurance Company Limited | Registered Office: Unit No. 701, 702 and 703, 7th floor, West Wing, Raheja Towers, 26/27 M G Road, Bangalore -560001, Karnataka"
+      }
+    },
+    "legalName": {
+      "value": "PNB MetLife India Insurance Company Limited",
+      "provenance": {
+        "sourceId": "insurer:pnb-metlife",
+        "url": "https://www.pnbmetlife.com/",
+        "retrievedAt": "2026-09-16T09:00:07.983Z",
+        "evidence": "PNB MetLife India Insurance Company Limited. Registered office address: Unit No. 701, 702 & 703, 7th Floor, West Wing, Raheja Towers, 26/27 M G Road, Bangalore -560001, Karnataka. IRDAI Registration number 117 | CIN U66010KA2001PLC028883."
+      }
+    },
+    "insurerType": {
+      "value": "life",
+      "provenance": {
+        "sourceId": "insurer:pnb-metlife",
+        "url": "https://www.pnbmetlife.com/",
+        "retrievedAt": "2026-09-16T09:00:07.983Z",
+        "evidence": "PNB MetLife Insurance, amongst the trusted Life Insurance companies in India, aims to provide a wide range of Life Insurance products"
+      }
+    },
+    "segments": [
+      "life"
+    ],
+    "irdaiRegistrationNumber": {
+      "value": "117",
+      "provenance": {
+        "sourceId": "insurer:pnb-metlife",
+        "url": "https://www.pnbmetlife.com/",
+        "retrievedAt": "2026-09-16T09:00:07.983Z",
+        "evidence": "IRDAI Registration number 117 | CIN U66010KA2001PLC028883."
+      }
+    },
+    "cin": {
+      "value": "U66010KA2001PLC028883",
+      "provenance": {
+        "sourceId": "insurer:pnb-metlife",
+        "url": "https://www.pnbmetlife.com/",
+        "retrievedAt": "2026-09-16T09:00:07.983Z",
+        "evidence": "Corporate Identification Number (CIN): U66010KA2001PLC028883 | IRDAI Registration No: 117"
+      }
+    },
+    "website": {
+      "value": "https://www.pnbmetlife.com/",
+      "provenance": {
+        "sourceId": "insurer:pnb-metlife",
+        "url": "https://www.pnbmetlife.com/",
+        "retrievedAt": "2026-09-16T09:00:07.983Z"
+      }
+    },
+    "headquarters": {
+      "value": "Bangalore",
+      "provenance": {
+        "sourceId": "insurer:pnb-metlife",
+        "url": "https://www.pnbmetlife.com/",
+        "retrievedAt": "2026-09-16T09:00:07.983Z",
+        "evidence": "Registered office address: Unit No. 701, 702 & 703, 7th Floor, West Wing, Raheja Towers, 26/27 M G Road, Bangalore -560001, Karnataka."
+      }
+    },
+    "status": "active",
+    "siteSlug": "pnb-metlife",
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "slug": "tata-aig",
+    "name": {
+      "value": "TATA AIG General Insurance Company Limited",
+      "provenance": {
+        "sourceId": "insurer:tata-aig",
+        "url": "https://www.tataaig.com/",
+        "retrievedAt": "2026-09-16T09:00:08.366Z",
+        "evidence": "2008, TATA AIG General Insurance Company Limited, all rights reserved."
+      }
+    },
+    "legalName": {
+      "value": "TATA AIG General Insurance Company Limited",
+      "provenance": {
+        "sourceId": "insurer:tata-aig",
+        "url": "https://www.tataaig.com/",
+        "retrievedAt": "2026-09-16T09:00:08.366Z",
+        "evidence": "2008, TATA AIG General Insurance Company Limited, all rights reserved."
+      }
+    },
+    "insurerType": {
+      "value": "general",
+      "provenance": {
+        "sourceId": "insurer:tata-aig",
+        "url": "https://www.tataaig.com/",
+        "retrievedAt": "2026-09-16T09:00:08.366Z",
+        "evidence": "Category of Certificate of Registration: General Insurance."
+      }
+    },
+    "segments": [
+      "health",
+      "motor",
+      "travel"
+    ],
+    "irdaiRegistrationNumber": {
+      "value": "108",
+      "provenance": {
+        "sourceId": "insurer:tata-aig",
+        "url": "https://www.tataaig.com/",
+        "retrievedAt": "2026-09-16T09:00:08.366Z",
+        "evidence": "IRDA of India Regn. No. 108."
+      }
+    },
+    "cin": {
+      "value": "U85110MH2000PLC128425",
+      "provenance": {
+        "sourceId": "insurer:tata-aig",
+        "url": "https://www.tataaig.com/",
+        "retrievedAt": "2026-09-16T09:00:08.366Z",
+        "evidence": "CIN: U85110MH2000PLC128425."
+      }
+    },
+    "website": {
+      "value": "https://www.tataaig.com/",
+      "provenance": {
+        "sourceId": "insurer:tata-aig",
+        "url": "https://www.tataaig.com/",
+        "retrievedAt": "2026-09-16T09:00:08.366Z"
+      }
+    },
+    "headquarters": {
+      "value": "Mumbai",
+      "provenance": {
+        "sourceId": "insurer:tata-aig",
+        "url": "https://www.tataaig.com/",
+        "retrievedAt": "2026-09-16T09:00:08.366Z",
+        "evidence": "Registered Office : Peninsula Business Park, Tower A, 15th Floor, G.K.Marg, Lower Parel, Mumbai - 400 013, Maharashtra, India."
+      }
+    },
+    "status": "active",
+    "siteSlug": "tata-aig",
+    "createdAt": "2026-09-16T08:59:52.354Z",
+    "updatedAt": "2026-09-16T08:59:52.354Z"
+  }
+]

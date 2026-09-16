@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "jurisdiction": "in",
+  "lastRun": {
+    "ingest": {
+      "at": "2026-09-16T09:12:57.237Z",
+      "ok": true,
+      "summary": "0 accepted, 42 unchanged, 0 held, 0 rejected, 0 documents"
+    },
+    "check-documents": {
+      "at": "2026-09-16T09:13:41.697Z",
+      "ok": true,
+      "summary": "22 ok, 0 changed, 0 unavailable"
+    },
+    "check-sources": {
+      "at": "2026-09-16T09:13:55.968Z",
+      "ok": true,
+      "summary": "18 sources checked, 0 changed, 0 now blocking a crawl source"
+    }
+  }
+}

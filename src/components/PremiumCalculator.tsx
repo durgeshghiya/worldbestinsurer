@@ -293,7 +293,7 @@ function MiniProductCard({
           </p>
         </div>
         <Link
-          href={`/product/${product.id}`}
+          href={`/${product.countryCode}/product/${product.id}/`}
           className="ml-auto flex items-center gap-1 text-[11px] font-semibold text-primary hover:underline"
         >
           View Details <ArrowUpRight className="w-3 h-3" />

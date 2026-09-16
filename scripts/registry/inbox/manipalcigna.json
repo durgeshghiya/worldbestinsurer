@@ -1,0 +1,48 @@
+[
+  {
+    "id": "manipalcigna-identity",
+    "kind": "insurer",
+    "sourceId": "insurer:manipalcigna",
+    "url": "https://www.manipalcigna.com/",
+    "subject": { "slug": "manipalcigna", "siteSlug": "manipalcigna" },
+    "meta": { "segments": ["health", "personal-accident"], "status": "active" },
+    "facts": {
+      "name": { "value": "ManipalCigna Health Insurance", "evidence": "ManipalCigna Health Insurance Company Limited" },
+      "legalName": { "value": "ManipalCigna Health Insurance Company Limited", "evidence": "I authorize ManipalCigna Health Insurance Company Limited to Call" },
+      "insurerType": { "value": "standalone-health", "evidence": "ManipalCigna Health Insurance Company Limited" },
+      "website": { "value": "https://www.manipalcigna.com/", "evidence": "" }
+    }
+  },
+  {
+    "id": "manipalcigna-p1",
+    "kind": "product",
+    "sourceId": "insurer:manipalcigna",
+    "url": "https://www.manipalcigna.com/hospitalization-cover/prohealth-insurance",
+    "subject": { "slug": "manipalcigna-prohealth-prime", "insurerSlug": "manipalcigna" },
+    "meta": { "productType": "health-indemnity", "segment": "health", "status": "active" },
+    "facts": {
+      "name": { "value": "ManipalCigna ProHealth Prime", "evidence": "ManipalCigna ProHealth Prime is designed for better coverage" },
+      "uin": { "value": "MCIHLIP26036V022526", "evidence": "UIN: MCIHLIP26036V022526 Launch Date: 02-06-2025" },
+      "eligibility": { "value": "Child - 91 days, Adult - 18 years", "evidence": "Min Entry Age Child - 91 days, Adult - 18 years" },
+      "policyTerm": { "value": "1, 2 and 3 years", "evidence": "Policy Period 1, 2 and 3 years" }
+    },
+    "documents": []
+  },
+  {
+    "id": "manipalcigna-p2",
+    "kind": "product",
+    "sourceId": "insurer:manipalcigna",
+    "url": "https://www.manipalcigna.com/hospitalization-cover/manipalcigna-sarvah",
+    "subject": { "slug": "manipalcigna-sarvah", "insurerSlug": "manipalcigna" },
+    "meta": { "productType": "health-indemnity", "segment": "health", "status": "active" },
+    "facts": {
+      "name": { "value": "ManipalCigna Sarvah", "evidence": "ManipalCigna Sarvah" },
+      "uin": { "value": "MCIHLIP27040V032627", "evidence": "UIN: MCIHLIP27040V032627" },
+      "eligibility": { "value": "Child - 91 days, Adult - 18 years", "evidence": "Min Entry Age Child - 91 days, Adult - 18 years" },
+      "sumInsured": { "value": "₹5Lacs-₹3Crore", "evidence": "SUM INSURED ₹5Lacs-₹3Crore" }
+    },
+    "documents": [
+      { "kind": "brochure", "title": "ManipalCigna Sarvah product brochure", "url": "https://www.manipalcigna.com/pdfs/sarvahAccordion.pdf" }
+    ]
+  }
+]

@@ -161,7 +161,7 @@ export default function ComparisonTable({ products, category }: Props) {
                       )}
                       <div className="flex gap-1.5">
                         <Link
-                          href={`/product/${p.id}`}
+                          href={`/${p.countryCode}/product/${p.id}/`}
                           className="text-[11.5px] px-3 py-1.5 font-medium bg-primary text-white rounded-lg hover:bg-primary-hover transition-colors flex items-center gap-1"
                         >
                           Details <ArrowUpRight className="w-3 h-3" />

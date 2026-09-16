@@ -1,0 +1,106 @@
+[
+  {
+    "id": "digit-identity",
+    "kind": "insurer",
+    "sourceId": "insurer:digit",
+    "url": "https://www.godigit.com/",
+    "subject": {
+      "slug": "digit",
+      "siteSlug": "digit"
+    },
+    "meta": {
+      "segments": [
+        "health",
+        "motor",
+        "travel"
+      ],
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "Go Digit General Insurance Limited",
+        "evidence": "IRDAI Reg. No. 158. Go Digit General Insurance Limited | Corporate Office Address"
+      },
+      "insurerType": {
+        "value": "general",
+        "evidence": "Go Digit General Insurance Limited"
+      },
+      "website": {
+        "value": "https://www.godigit.com/",
+        "evidence": ""
+      },
+      "legalName": {
+        "value": "Go Digit General Insurance Limited",
+        "evidence": "IRDAI Reg. No. 158. Go Digit General Insurance Limited | Corporate Office Address"
+      },
+      "irdaiRegistrationNumber": {
+        "value": "158",
+        "evidence": "IRDAI Reg. No. 158."
+      },
+      "cin": {
+        "value": "L66010PN2016PLC167410",
+        "evidence": "CIN: L66010PN2016PLC167410, IRDAI Reg. No. 158."
+      },
+      "headquarters": {
+        "value": "Bengaluru",
+        "evidence": "Corporate Office Address: Atlantis, 95, 4th B Cross Road, Koramangala Industrial Layout, 5th Block, Bengaluru 560095"
+      }
+    }
+  },
+  {
+    "id": "digit-p1",
+    "kind": "product",
+    "sourceId": "insurer:digit",
+    "url": "https://www.godigit.com/health-insurance",
+    "subject": {
+      "slug": "digit-health-insurance",
+      "insurerSlug": "digit",
+      "siteProductId": "digit-health-insurance"
+    },
+    "meta": {
+      "productType": "health-indemnity",
+      "segment": "health",
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "Digit Health Care Plus",
+        "evidence": "Digit Health Care Plus (UIN: GODHLIP25037V042425)"
+      },
+      "uin": {
+        "value": "GODHLIP25037V042425",
+        "evidence": "Digit Health Care Plus (UIN: GODHLIP25037V042425)"
+      }
+    }
+  },
+  {
+    "id": "digit-p2",
+    "kind": "product",
+    "sourceId": "insurer:digit",
+    "url": "https://www.godigit.com/international-travel-insurance",
+    "subject": {
+      "slug": "digit-happy-traveller-plan",
+      "insurerSlug": "digit"
+    },
+    "meta": {
+      "productType": "travel",
+      "segment": "travel",
+      "status": "active"
+    },
+    "facts": {
+      "name": {
+        "value": "Digit Happy Traveller Plan",
+        "evidence": "Digit Happy Traveller Plan - UIN - GODTIOP24172V012324"
+      },
+      "uin": {
+        "value": "GODTIOP24172V012324",
+        "evidence": "Digit Happy Traveller Plan - UIN - GODTIOP24172V012324"
+      },
+      "eligibility": {
+        "value": "between the ages of 3 months and 80 years",
+        "evidence": "Anyone between the ages of 3 months and 80 years is eligible for an international travel insurance policy by Digit."
+      }
+    },
+    "notes": "Unlinked from site product digit-travel on review: the candidate was read from a different page than the site record, so the match is not proven."
+  }
+]

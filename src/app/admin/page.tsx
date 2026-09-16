@@ -13,6 +13,7 @@ import {
   Eye,
 } from "lucide-react";
 import { getAllProducts, getAllInsurers, categories } from "@/lib/data";
+import RegistryMonitor from "@/components/registry/RegistryMonitor";
 
 export const metadata: Metadata = {
   title: "Admin Dashboard",
@@ -64,6 +65,8 @@ export default function AdminPage() {
           </span>
         </div>
       </div>
+
+      <RegistryMonitor />
 
       {/* Stats grid */}
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 mb-8">
