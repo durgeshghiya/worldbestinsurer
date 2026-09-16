@@ -1,6 +1,26 @@
 #!/usr/bin/env node
 /* eslint-disable */
 /**
+ * DISABLED — 16 Sep 2026.
+ *
+ * This script generated insurance products with invented names for real,
+ * named insurers ("Gold Shield" from UnitedHealthcare, "Term Smart" from six
+ * unrelated insurers at once) and was the source of the 667 fabricated records
+ * deleted in September 2026. It must never run again.
+ *
+ * Products now enter only through the sourced registry pipeline in
+ * scripts/registry/, where every field carries provenance and is verified
+ * against its source before acceptance. See docs/worldbestinsurer-data-seo-plan.md.
+ */
+console.error(
+  "generate-products.js is disabled: it fabricates products for real insurers.\n" +
+  "Use the sourced pipeline instead: npm run registry:ingest"
+);
+process.exit(1);
+
+/* ---- original script retained below for history; unreachable ---- */
+/* eslint-disable */
+/**
  * Product Generator — brings the site from ~400 to 1000+ insurance products.
  *
  * Strategy:

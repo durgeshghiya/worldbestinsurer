@@ -1,15 +1,26 @@
-name: Daily Google Indexing
+name: IndexNow (manual)
+
+# This workflow used to run daily and submit 200 URLs to the Google Indexing
+# API. That API is licensed only for pages carrying JobPosting or
+# BroadcastEvent structured data; using it for insurance pages breaches its
+# terms, and pushing unchanged URLs daily is an artificial indexing request.
+# Both were removed on 16 Sep 2026.
+#
+# What remains is IndexNow (Bing, Yandex, Seznam), which exists to announce
+# URLs whose content actually changed. It is manual-only here; the registry
+# refresh workflow submits just the URLs its own run changed.
+#
+# The GOOGLE_SERVICE_ACCOUNT repository secret is no longer used and can be
+# deleted.
 
 on:
-  schedule:
-    - cron: "0 4 * * *"  # Every day at 4am UTC (9:30am IST)
-  workflow_dispatch:       # Allow manual trigger from GitHub UI
+  workflow_dispatch:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
-  index:
+  indexnow:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -24,15 +35,5 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Write service account key
-        run: echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT }}' > service-account.json
-
-      - name: Submit 200 URLs to Google Indexing API
-        run: npx tsx scripts/seo/indexing.ts submit --key ./service-account.json --limit 200
-
       - name: Run IndexNow for Bing/Yandex
         run: npx tsx scripts/seo/auto-index.ts --all
-
-      - name: Clean up key
-        if: always()
-        run: rm -f service-account.json
