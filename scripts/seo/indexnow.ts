@@ -231,7 +231,8 @@ async function main() {
   }
 
   console.log(`${dryRun ? "would submit" : "submitting"} ${toSubmit.length} URL(s)`);
-  for (const u of toSubmit.slice(0, 40)) console.log(`  ${added.includes(u) ? "new    " : "changed"} ${u}`);
+  const label = (u: string) => (added.includes(u) ? "new    " : changed.includes(u) ? "changed" : "all    ");
+  for (const u of toSubmit.slice(0, 40)) console.log(`  ${label(u)} ${u}`);
   if (toSubmit.length > 40) console.log(`  … ${toSubmit.length - 40} more`);
 
   if (dryRun) {

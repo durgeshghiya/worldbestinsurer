@@ -1,0 +1,69 @@
+name: IndexNow
+
+# Announces changed URLs to IndexNow (Bing, Yandex, Seznam, Naver — Google does
+# not participate in IndexNow).
+#
+# Runs daily, but submits nothing unless a page's content actually changed since
+# the previous run: the script fingerprints every URL in the sitemap index and
+# diffs against scripts/seo/state/indexnow.json. On a quiet day it submits zero
+# URLs, which is the point — IndexNow is a change feed, and pushing a fixed
+# daily quota of unchanged URLs is what gets a key throttled.
+#
+# The updated state file is committed back to master with [skip ci] so it does
+# not trigger a rebuild or deployment.
+
+on:
+  schedule:
+    - cron: "15 2 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: What to submit
+        type: choice
+        options: [changed, dry-run, all]
+        default: changed
+
+permissions:
+  contents: write
+
+concurrency:
+  group: indexnow
+  cancel-in-progress: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Submit (${{ inputs.mode || 'changed' }})
+        run: |
+          case "${{ inputs.mode || 'changed' }}" in
+            dry-run) npm run -s indexnow -- --dry-run ;;
+            all)     npm run -s indexnow -- --all ;;
+            *)       npm run -s indexnow ;;
+          esac
+
+      - name: Record what the site looked like
+        run: |
+          if git diff --quiet -- scripts/seo/state/indexnow.json; then
+            echo "No fingerprint changes."
+            exit 0
+          fi
+          git config user.name "wbi-registry-bot"
+          git config user.email "registry-bot@worldbestinsurer.com"
+          git add scripts/seo/state/indexnow.json
+          git commit -m "indexnow: fingerprints $(date -u +%Y-%m-%d) [skip ci]"
+          git pull --rebase origin master
+          git push origin HEAD:master
