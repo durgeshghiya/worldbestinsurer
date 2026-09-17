@@ -42,7 +42,8 @@
     "registry": "tsx scripts/registry/cli.ts",
     "registry:ingest": "tsx scripts/registry/cli.ts ingest",
     "registry:validate": "tsx scripts/registry/cli.ts validate",
-    "registry:typecheck": "tsc -p scripts/registry/tsconfig.json"
+    "registry:typecheck": "tsc -p scripts/registry/tsconfig.json",
+    "indexnow": "tsx scripts/seo/indexnow.ts"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",

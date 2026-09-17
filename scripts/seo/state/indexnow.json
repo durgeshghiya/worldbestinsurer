@@ -1,0 +1,1986 @@
+{
+  "updatedAt": "2026-09-17T21:03:35.593Z",
+  "base": "https://worldbestinsurer.com",
+  "pages": {
+    "https://worldbestinsurer.com/": {
+      "hash": "87af0ed89b6827d239018d2f5a022ba12e719a1a15112c307f6c6d1f74cff829"
+    },
+    "https://worldbestinsurer.com/about/": {
+      "hash": "5d08b301f3dbbf357f2d2825b5f85701fe879ab24b87be210b4f52391d799039"
+    },
+    "https://worldbestinsurer.com/methodology/": {
+      "hash": "a5d8f2a44c220612f80f930c44592939b2026a5e89bd4159f7089443c0dc14b7"
+    },
+    "https://worldbestinsurer.com/disclaimer/": {
+      "hash": "59fc0b3aee5e24d757de9b6368a15d896b352a914b5a9ffb2006bc75237b068a"
+    },
+    "https://worldbestinsurer.com/privacy-policy/": {
+      "hash": "f756137454b94cd7ce09b034179c01c388994ff9945db080a98f9a010146a086"
+    },
+    "https://worldbestinsurer.com/contact/": {
+      "hash": "d12c3bf1fd72cd114b2fdab235d46c060f4bb301aa454b5ad3aadc9925a10257"
+    },
+    "https://worldbestinsurer.com/contact-directory/": {
+      "hash": "a564f8632bfafec0fcd163c810f7fed33dda5fab763e4383f9464dab97a56cdf"
+    },
+    "https://worldbestinsurer.com/faq/": {
+      "hash": "bf42d9e2133f0978b332b7fa1010ccf6f15cbeb9076679334893c11417a8b74b"
+    },
+    "https://worldbestinsurer.com/insurers/": {
+      "hash": "fcd9556ea84ebf7d063e214fd41140499fefc7c251d9bf22f8d40920315fbd5b"
+    },
+    "https://worldbestinsurer.com/waitlist/": {
+      "hash": "afb3f14212d0004017eccf014c191962085e5f53c1b56c0290bd3a87353f80e1"
+    },
+    "https://worldbestinsurer.com/developers/": {
+      "hash": "6529376903891cc2147546321bab74d35721528ce77f2122af3c366d71b6379c"
+    },
+    "https://worldbestinsurer.com/author/editorial-team/": {
+      "hash": "7392ea2866e9f193b39f6d12dfd779e6b3cc0e78808bad6fbca7a580757dc209"
+    },
+    "https://worldbestinsurer.com/author/durgesh-ghiya/": {
+      "hash": "25c8a3dc6c4540d404a6c18bd7c7f00e4aec952f8715dd4edff64f11b14a0dc0"
+    },
+    "https://worldbestinsurer.com/in/": {
+      "hash": "78ed713876a9b00c255e0dd2a1f9acb11bbb3760c5994ac05e793ab915abdf07"
+    },
+    "https://worldbestinsurer.com/us/": {
+      "hash": "c7ea3dabba097994312bc54cec88685f95f8f8e53a48248d953906af74fec8d8"
+    },
+    "https://worldbestinsurer.com/uk/": {
+      "hash": "3af7bdfceb48b7cc33c6e330fe3e09279346d2d95c60495371e37261f051f4d5"
+    },
+    "https://worldbestinsurer.com/ae/": {
+      "hash": "23abf128b28305fcee6a3c51bcc46dd535849536cc97eb8b714c086c63fe5ef0"
+    },
+    "https://worldbestinsurer.com/sg/": {
+      "hash": "6cc083a2870ba1bfa240237b6174fe289d207c45a70c63514509f9fb8254b278"
+    },
+    "https://worldbestinsurer.com/ca/": {
+      "hash": "133ace47cd1f559847cbcb86bcc3adf87fa247b2465dd832348468c68931beee"
+    },
+    "https://worldbestinsurer.com/au/": {
+      "hash": "44927241d4425a04d9d051b5191c92efd0cd6d5677fb85e965913ec1c430f7f7"
+    },
+    "https://worldbestinsurer.com/de/": {
+      "hash": "845889c60f502807ca897c6626ccf2d4a0d3d99ae128447227a8aed1fda35e94"
+    },
+    "https://worldbestinsurer.com/sa/": {
+      "hash": "c29e91144dedacc25c22b36ceabe5d48c5f4b9eed381ef512f4fc8ac53b7f11c"
+    },
+    "https://worldbestinsurer.com/jp/": {
+      "hash": "e254661a7c6bbd6a33a237eb93bb9d34648d8cb7263754c67a74116ab8ead0f2"
+    },
+    "https://worldbestinsurer.com/kr/": {
+      "hash": "8f08f4d216d90feed032b7cf8d758d7d1d68eb333315ae3370e351a13aff6940"
+    },
+    "https://worldbestinsurer.com/hk/": {
+      "hash": "6be2205f5ec83242c1f681adea46304e09dec1a1c61ef02d84c74f4ad1c64bc9"
+    },
+    "https://worldbestinsurer.com/in/insurer/hdfc-life/": {
+      "hash": "5f25a7ee23ec7b2412546ced61a499ee71ce0029ccf75af5a1e7de64e474db04"
+    },
+    "https://worldbestinsurer.com/in/insurer/icici-prudential/": {
+      "hash": "7dc03d5db76cf5147d214484d580ee06bd7171f7e92254e8d0bb76a2f30f2a3e"
+    },
+    "https://worldbestinsurer.com/in/insurer/max-life/": {
+      "hash": "17d4886388ab4413ab5990ae8cb1b1b9a7447d47ad5015191ae00a89c6bf5763"
+    },
+    "https://worldbestinsurer.com/in/insurer/tata-aia/": {
+      "hash": "ccf1b04e7f3cfb709768ab56fdf921511c2bbb66f9706f7dbae77b93fcf5b114"
+    },
+    "https://worldbestinsurer.com/in/insurer/sbi-life/": {
+      "hash": "d92823851d8a41b7b931225c85d1b08f81b8abf1365cc6e07bc2801e0c00ad3d"
+    },
+    "https://worldbestinsurer.com/in/insurer/lic/": {
+      "hash": "9b8b9d9c37cc24b89dbf9b0708c1122add7ca67c897e08dbf4144f85cbe43471"
+    },
+    "https://worldbestinsurer.com/in/insurer/bajaj-allianz-life/": {
+      "hash": "3d38a915c51ce41cfb879809c5a2bec899a130ea796bf944bcefd2c739303934"
+    },
+    "https://worldbestinsurer.com/in/insurer/pnb-metlife/": {
+      "hash": "2fe6f9e6f9b788e42fcde75bafe4f6751b4f86accfbded771f7ccf86b2d88b1d"
+    },
+    "https://worldbestinsurer.com/in/insurer/kotak-life/": {
+      "hash": "851bf7280911cf55d9d16adaa91fe4b97a741be86c50bf265fbd03801505d41d"
+    },
+    "https://worldbestinsurer.com/in/insurer/star-health/": {
+      "hash": "b477130d406ff836ae047ba56e37abeacba873cff9f83bcd4211199ab9fa498d"
+    },
+    "https://worldbestinsurer.com/in/insurer/care-health/": {
+      "hash": "0349c7ec427a6bdd663c86a436d6e9f0b026fdfa2f78f0b998c532abcca20614"
+    },
+    "https://worldbestinsurer.com/in/insurer/niva-bupa/": {
+      "hash": "f52ad4ad6202be86aeeb5479438b28d6fcaae7de62c7bafb45f674aba04e2aca"
+    },
+    "https://worldbestinsurer.com/in/insurer/aditya-birla-health/": {
+      "hash": "9c2bb8ce667a14eccb0d50e04af3619544e456270b02688437ca43744f18a6ab"
+    },
+    "https://worldbestinsurer.com/in/insurer/manipalcigna/": {
+      "hash": "38056b6ee2d2584eae4ebb6b17f10c1fdb9b97cd04cba6dc44012475aed40cda"
+    },
+    "https://worldbestinsurer.com/in/insurer/hdfc-ergo/": {
+      "hash": "297e519b9a4dfc0b47946c86a30e04ae4dffff7a22fd83d9f86c39e70dc16bbf"
+    },
+    "https://worldbestinsurer.com/in/insurer/icici-lombard/": {
+      "hash": "788f0ad3e299a356abd5b020ff3f4e19a7a944c13ee07d73681e807962d0a77e"
+    },
+    "https://worldbestinsurer.com/in/insurer/bajaj-allianz/": {
+      "hash": "c7375d2b188487efa2852a29cac5a3dfe79fb958f6a5fb285a43b6f614fa0c23"
+    },
+    "https://worldbestinsurer.com/in/insurer/tata-aig/": {
+      "hash": "cdb9504007ec893ebdee56374c0ccc242dedef18ed07b1e5ec54987ead4720d9"
+    },
+    "https://worldbestinsurer.com/in/insurer/new-india-assurance/": {
+      "hash": "f3915dc5a713d34079aac13dfd6fb8b3a1e5612d282fbf3b773a74b124af6e6e"
+    },
+    "https://worldbestinsurer.com/in/insurer/digit/": {
+      "hash": "1672492f9cfbfe31475e038e0164a4f6ac2dda013e2f56fae355be80bdac3f20"
+    },
+    "https://worldbestinsurer.com/in/insurer/acko/": {
+      "hash": "f696affdef0ece3dc29d14e31791633f0d07af74ef6c33b4f379a0b1877e9414"
+    },
+    "https://worldbestinsurer.com/in/insurer/reliance-general/": {
+      "hash": "5e213c661c696d14e4fd47ecaff0f4bc70da013553957267aab4a36b05233b6e"
+    },
+    "https://worldbestinsurer.com/in/insurer/sbi-general/": {
+      "hash": "c44b9d0f2923f0ad52608f87d8839c489ea4340672b3217f93760b174235250b"
+    },
+    "https://worldbestinsurer.com/in/insurer/kotak-general/": {
+      "hash": "6deb0b75786a33a093b5eea3dd506706f4174014c6004c9094798f99a4e010bd"
+    },
+    "https://worldbestinsurer.com/in/insurer/national-insurance/": {
+      "hash": "0ded5be16000e48949b60ac393a1d605741409ca4d9ed0b2100edc59d843001e"
+    },
+    "https://worldbestinsurer.com/in/insurer/oriental-insurance/": {
+      "hash": "51e99829641110fd325fcad3804e2ba6c7da124e7e832fd944cc7e0ef86b6a19"
+    },
+    "https://worldbestinsurer.com/in/insurer/united-india-insurance/": {
+      "hash": "51c3698d94c078e81242203db8521539f949e7b479b8e99c262e75d536b93774"
+    },
+    "https://worldbestinsurer.com/us/insurer/aetna/": {
+      "hash": "03fe81c64b9f21be1cdba53f3ffd279b2e5c2784c1f11fe473b832f10978eeeb"
+    },
+    "https://worldbestinsurer.com/us/insurer/cigna/": {
+      "hash": "53d21bdd83f182941e826bd8ed96d6b850f7312a4f1fcd82ed182275087224e5"
+    },
+    "https://worldbestinsurer.com/us/insurer/humana/": {
+      "hash": "0fe4eb46afffe00e89fa988e1d0edcdb685a8e2ae2746c24417a8cb930bb0b18"
+    },
+    "https://worldbestinsurer.com/us/insurer/kaiser-permanente/": {
+      "hash": "2d475988567a45e4b8dab9ff9dadb5c2b061d6ec5a5498d8c9a692989bee47af"
+    },
+    "https://worldbestinsurer.com/us/insurer/northwestern-mutual/": {
+      "hash": "d6ca38f47942f4e8db89d5681d658bd2545119acf2353d2d7af1bcae863a2a0d"
+    },
+    "https://worldbestinsurer.com/us/insurer/new-york-life/": {
+      "hash": "f9809fd92b540fa72052abfbbd842deb18ba490601a2c058ae8f19d0b3a248da"
+    },
+    "https://worldbestinsurer.com/us/insurer/prudential/": {
+      "hash": "1d328caac9478d57aa83a1f76121baba057d66509519c422ffb163094f404219"
+    },
+    "https://worldbestinsurer.com/us/insurer/transamerica/": {
+      "hash": "b6c8f0f6ab06ebd8dc6ae5fa28c4b556fc55879a62ffde00a1a6d59348ffed43"
+    },
+    "https://worldbestinsurer.com/us/insurer/protective-life/": {
+      "hash": "f7922037f3821a88e011d41a31d10fe102896ecf9dc41c2c5b840959bf5f388a"
+    },
+    "https://worldbestinsurer.com/us/insurer/banner-life/": {
+      "hash": "b3558aa26d9bc27d461edb26faab83a9b77c164159ffc0c34b02868653dd9ccb"
+    },
+    "https://worldbestinsurer.com/us/insurer/haven-life/": {
+      "hash": "b602caed7b2d119161bb78c2b868bd638dbe5fc0c4cceacb71579a77389a63a1"
+    },
+    "https://worldbestinsurer.com/us/insurer/ladder/": {
+      "hash": "47c5a68c1bfc6d5031c513e69c1aa540fd2ff19a5c25229ef38732cbeba599ae"
+    },
+    "https://worldbestinsurer.com/us/insurer/state-farm/": {
+      "hash": "ea5b4f90f5e177fa1a104d28492c60134733717e6f0bd20a96975b8a5b53760e"
+    },
+    "https://worldbestinsurer.com/us/insurer/geico/": {
+      "hash": "fca7a4a95712e9644a501784c3d9af1060cb8655f00643fa8e0db62f72cc5af0"
+    },
+    "https://worldbestinsurer.com/us/insurer/progressive/": {
+      "hash": "22c1ab0b5eb028637d91c06d583c121969b2f35fdbaea84a7934a29a1a9171a8"
+    },
+    "https://worldbestinsurer.com/us/insurer/allstate/": {
+      "hash": "0e361747108f4bd5f4a0be1e5933e64abd4d142c5b6f6d7764dd70babe0387d9"
+    },
+    "https://worldbestinsurer.com/us/insurer/usaa/": {
+      "hash": "b48f1e510c9327e661d66c14e767567f8b14edaab9dbc9743ed21f9e4611ff91"
+    },
+    "https://worldbestinsurer.com/us/insurer/liberty-mutual/": {
+      "hash": "cc44418abe58232796cb9e442f77795db406e9db22659a46590ce5789c57fad1"
+    },
+    "https://worldbestinsurer.com/us/insurer/farmers/": {
+      "hash": "6b04d252a3f3db81f311f4dd5316ee33c549b3214307690e536e1cb08c90004b"
+    },
+    "https://worldbestinsurer.com/us/insurer/nationwide/": {
+      "hash": "f3a708e1a02a0814add934cf88a575c5999fa80d17c0e6754e7cdfa71abf56b1"
+    },
+    "https://worldbestinsurer.com/us/insurer/travelers/": {
+      "hash": "192e6007b42ca199b5984e24dad62e2b8a168aa2e2a860eb2d2afdc28bf003ef"
+    },
+    "https://worldbestinsurer.com/us/insurer/allianz-travel/": {
+      "hash": "f621d514fe813b5ee5a7a893b601efe88f07a5980acd82d13ae2e4af1d0d7eb3"
+    },
+    "https://worldbestinsurer.com/us/insurer/world-nomads/": {
+      "hash": "a69a6f7a5d3c0abca1f74704f620e814a3e5911825a09678a679edff68d08ca2"
+    },
+    "https://worldbestinsurer.com/us/insurer/travel-guard-aig/": {
+      "hash": "e9e9d7ac2254f5489bb63329a28f2a2c646cae97bf9d22dec2b9882102f2534b"
+    },
+    "https://worldbestinsurer.com/us/insurer/pacific-life/": {
+      "hash": "1d717e28d04495cd8b396ce1b67b29a8913bffc375cf380d0821c9ccc33b0751"
+    },
+    "https://worldbestinsurer.com/uk/insurer/bupa/": {
+      "hash": "a51199224d67019d658db1764dc6d5b15c184ff9b766474cc631aa08ebe7f145"
+    },
+    "https://worldbestinsurer.com/uk/insurer/aviva/": {
+      "hash": "7150551a295f641ecba265e21a2d1205143c57a43abf502fd7799ff036075ba4"
+    },
+    "https://worldbestinsurer.com/uk/insurer/wpa/": {
+      "hash": "ea0f80a5f760b08591b2e845d27022da23c8a635016c37976f4a10a8ca99c287"
+    },
+    "https://worldbestinsurer.com/uk/insurer/cigna-uk/": {
+      "hash": "aa9f9a7f6ab74116d11084970be02085731c168b7126edeb1a48f5fdd5e614a9"
+    },
+    "https://worldbestinsurer.com/uk/insurer/legal-and-general/": {
+      "hash": "599c05a979a434afed2a87edf563d7ecabd7348dac6d058400c1cfeba012d3ad"
+    },
+    "https://worldbestinsurer.com/uk/insurer/royal-london/": {
+      "hash": "36ea3c99171f97a4daf80f61e918690022399d96f2749b93218a61fa0e9c2818"
+    },
+    "https://worldbestinsurer.com/uk/insurer/zurich-uk/": {
+      "hash": "a674b46f41c8367965ad0d7c59b7ec1bc3cb3f7fecedf298d1a4f85566e948f7"
+    },
+    "https://worldbestinsurer.com/uk/insurer/lv/": {
+      "hash": "d4994453178cf4c3d3e730ab90b3c2514caec021c11f67fa7a6f41916c456dfc"
+    },
+    "https://worldbestinsurer.com/uk/insurer/scottish-widows/": {
+      "hash": "af3ad4039268a19674b7c78b261951c77a293fb2c597b94ed1a1783bd423f29d"
+    },
+    "https://worldbestinsurer.com/uk/insurer/admiral/": {
+      "hash": "7f5f3392d73b2c9120ca351a48de55367046abbb0dad98504c8f08b89f88c6e3"
+    },
+    "https://worldbestinsurer.com/uk/insurer/direct-line/": {
+      "hash": "9d70824d77b117a4923ab4335a1d89f3aaf9c53375b7571ca3ecb36ffbc2bddc"
+    },
+    "https://worldbestinsurer.com/uk/insurer/churchill/": {
+      "hash": "bbbef78c8d747e9c929dfc1283891f182456ef62f0483f56d41b00087ac5792f"
+    },
+    "https://worldbestinsurer.com/uk/insurer/hastings-direct/": {
+      "hash": "5280dcfceb474eb4079bcefc08f81a1244357be349502a3160e61918bd3f439d"
+    },
+    "https://worldbestinsurer.com/uk/insurer/esure/": {
+      "hash": "36c11a53fec98d7e7027dadea59e4961727400ab0de2e6ac21ce817842947a6f"
+    },
+    "https://worldbestinsurer.com/uk/insurer/post-office/": {
+      "hash": "7cf8504db39a2e50e81c488bbd41997fa150bd57baa1f9f9d06fbb68f8009bb6"
+    },
+    "https://worldbestinsurer.com/uk/insurer/staysure/": {
+      "hash": "3831705590ef5b3b09c3e88de348746c00002f4d4c715ed8f135526e9ac7ae48"
+    },
+    "https://worldbestinsurer.com/ae/insurer/daman/": {
+      "hash": "511a8c910c51a1cc39747d45067feb868acb987e2316880d3ca4b3caac598a3f"
+    },
+    "https://worldbestinsurer.com/ae/insurer/oman-insurance/": {
+      "hash": "fc0864b6acbc7600c98b056f457477ada3644e96e779ed3f087604e4664d9e09"
+    },
+    "https://worldbestinsurer.com/ae/insurer/axa-gulf/": {
+      "hash": "784f0963443ac1f229e11609c7bc020cfb9fe7e514b6010ac79b709d7277ee5b"
+    },
+    "https://worldbestinsurer.com/ae/insurer/orient-insurance/": {
+      "hash": "cadf577cc6b9b35a08555eb2755e59b769335e4d0f15d3273e7bcb8cdda7fafb"
+    },
+    "https://worldbestinsurer.com/ae/insurer/adnic/": {
+      "hash": "ff756b5b1be40c245c7a3637a355fe5727c8a6bd323f11f8d66ff89545734808"
+    },
+    "https://worldbestinsurer.com/ae/insurer/noor-takaful/": {
+      "hash": "b5dd79e5d7f230095d6f7c0a9241831998308d5d4bbb8999529e4466c4eedd14"
+    },
+    "https://worldbestinsurer.com/ae/insurer/watania/": {
+      "hash": "67d8ee9b301ffc434b58de6fbb78707cc9ad51d7f4e5dcec6aef93fa27b15eb1"
+    },
+    "https://worldbestinsurer.com/sg/insurer/great-eastern/": {
+      "hash": "5ebec577125994761a776b6d8a1b2acb15728d09df0d075dc539e012de70ef83"
+    },
+    "https://worldbestinsurer.com/sg/insurer/ntuc-income/": {
+      "hash": "5156a64536384d59a257289482a326fc40f5548205a7dd38ccf02203d6ee01db"
+    },
+    "https://worldbestinsurer.com/sg/insurer/axa-sg/": {
+      "hash": "3e499238152815f05c41ff3c30d3804375324f533477e93b9a9992b1d38dcd7f"
+    },
+    "https://worldbestinsurer.com/sg/insurer/singlife/": {
+      "hash": "5b1c255e3955ec148f92fe6d31f991af0c90ee0d1b1bcea9ccce2222ace8ea5e"
+    },
+    "https://worldbestinsurer.com/sg/insurer/manulife-sg/": {
+      "hash": "bab1c6cdbb32d1a2d99c8fcf68e16fe95019ef90112c9663391bed913949cd98"
+    },
+    "https://worldbestinsurer.com/sg/insurer/allianz-sg/": {
+      "hash": "5b3bacddb21be83c5e503992963bb296f7d6ccf0a3ad3ff22ab5aec26e8f0901"
+    },
+    "https://worldbestinsurer.com/sg/insurer/raffles-health/": {
+      "hash": "6e4bc77e39629980b7db39a42bd5bedd0125fab64bab45a861dcdd4470dbe69b"
+    },
+    "https://worldbestinsurer.com/ca/insurer/manulife/": {
+      "hash": "e283a1991532632ddafc69beb95394577d9b42f01e16a610f5a23c97aa54cec0"
+    },
+    "https://worldbestinsurer.com/ca/insurer/canada-life/": {
+      "hash": "9cf71bf88a67ba6cdbce4a5635407b5302b6827d796e99cce0c9a54965fbf65e"
+    },
+    "https://worldbestinsurer.com/ca/insurer/desjardins/": {
+      "hash": "6292d9473749300ec8253a29d7384bc61e814753c8a9a5335e0c5a0b3a16442a"
+    },
+    "https://worldbestinsurer.com/ca/insurer/empire-life/": {
+      "hash": "dfed624264d204582239af809ce403acb3abd852e624d63ae04348c62b3cdd10"
+    },
+    "https://worldbestinsurer.com/ca/insurer/ia-financial/": {
+      "hash": "a1efbbf75ea8229ca33202df41c930c7e3fb2d2e68d3842f6ff935d5baac7b51"
+    },
+    "https://worldbestinsurer.com/ca/insurer/intact/": {
+      "hash": "7a331f7ca0256cf2a69ac9a90c58850d0ef1e330622d0d1db281d458ab91f6b5"
+    },
+    "https://worldbestinsurer.com/ca/insurer/td-insurance/": {
+      "hash": "6b1a5d0db6b2995c6b941d365896c118da48cfad1a765f423a79a453e6b60df7"
+    },
+    "https://worldbestinsurer.com/ca/insurer/cooperators/": {
+      "hash": "8ac7469ff26230737ece17c9f64823f6056146e622f90c98aedcc766f0f8fe33"
+    },
+    "https://worldbestinsurer.com/ca/insurer/wawanesa/": {
+      "hash": "58f39b0887769cd83bc465fdb9ede9891545c10bb5efd84eeff91cdf4fd4db9e"
+    },
+    "https://worldbestinsurer.com/au/insurer/medibank/": {
+      "hash": "a0c0fba8ef4f373764640ff7c0c69634074fb0ea36343c8f8dbdbc8229e182ee"
+    },
+    "https://worldbestinsurer.com/au/insurer/hbf/": {
+      "hash": "ec63828574e861757e04156aefe2271aa1c529d0937a10e118475e3286e1b578"
+    },
+    "https://worldbestinsurer.com/au/insurer/hcf/": {
+      "hash": "8ae48df8bf38e8a1081d788bc2d139d2b84eeda5ca62fe45c04caf5156792afd"
+    },
+    "https://worldbestinsurer.com/au/insurer/nib/": {
+      "hash": "55a6dce548cff26ba7dbd515d4bad2447e5bac33204631da555ddd2b51c2152c"
+    },
+    "https://worldbestinsurer.com/au/insurer/tal/": {
+      "hash": "83253c84aa4f33594b51e3cced2a352aa17c991ac8c8fbe8d94208eb12e51e3e"
+    },
+    "https://worldbestinsurer.com/au/insurer/mlc-life/": {
+      "hash": "c07fd3c8601cf2985a59c082069a86c80596e7093fc45db7efe0980f1e66d91d"
+    },
+    "https://worldbestinsurer.com/au/insurer/zurich-au/": {
+      "hash": "64bcfba2f01d207536a7f0e5d1d6e3a18d1793a661f92869afa1a1766e196c05"
+    },
+    "https://worldbestinsurer.com/au/insurer/allianz-au/": {
+      "hash": "0a7a0ffd6579992bb2be78010b62acde73bd5ef8e1aeedddb737e4cca86a53b3"
+    },
+    "https://worldbestinsurer.com/au/insurer/aami/": {
+      "hash": "f55d39a14f905ef6e5d71acffa8c92447d7f61702c053e0d631553959361713a"
+    },
+    "https://worldbestinsurer.com/au/insurer/nrma/": {
+      "hash": "65163730a70c330e7237b5d7578545b4b899c67efcc84cde162a29e9242e6604"
+    },
+    "https://worldbestinsurer.com/au/insurer/suncorp/": {
+      "hash": "99b50b9cf5b3b79920368895c8b06f3151045057662f82b5c363f4e8e1dc03ab"
+    },
+    "https://worldbestinsurer.com/au/insurer/budget-direct/": {
+      "hash": "be47fd7a444b58a94d73ca7c2712280724e4cd6404c603f8502fefec6d2f13c9"
+    },
+    "https://worldbestinsurer.com/de/insurer/allianz-de/": {
+      "hash": "84e03a40583099def6a6a71b7bfa1902522f97bf62dbaab0e5078666ade66a9c"
+    },
+    "https://worldbestinsurer.com/de/insurer/ergo/": {
+      "hash": "82e4db7b90b567a04b1f302b0289f9973e2eb29228e6c8c0b9fdd693511f5f64"
+    },
+    "https://worldbestinsurer.com/de/insurer/axa-de/": {
+      "hash": "e2a235c81216ce96c1a87c4505002957f7b3a0a7c5fdc368dbdacbb7dce4a2dc"
+    },
+    "https://worldbestinsurer.com/de/insurer/debeka/": {
+      "hash": "98e4f8a37be24e49698b8b7206d4d03194e883a11e8cd42cce9c011b8b330dbd"
+    },
+    "https://worldbestinsurer.com/de/insurer/signal-iduna/": {
+      "hash": "8a09614fb19b2d12e2f4bcad50f9111868cfaf3acc7410d13d6aeafb5268f962"
+    },
+    "https://worldbestinsurer.com/de/insurer/huk-coburg/": {
+      "hash": "7fb0b598c945f1cf14f8268e937d4b6b9ba4ec1a95533b25a4e6e3a45d2c84b1"
+    },
+    "https://worldbestinsurer.com/de/insurer/hannoversche/": {
+      "hash": "d0ca4380b4ec983507d7a5de011c2dda78e9f6ad1704a4cb33f7bd300e65455e"
+    },
+    "https://worldbestinsurer.com/de/insurer/cosmosdirekt/": {
+      "hash": "e56e6f8f0e199147a64a8dfb05d2b782c66957e48201015e2c1c89d160851db0"
+    },
+    "https://worldbestinsurer.com/de/insurer/adac/": {
+      "hash": "de0b3c8a6383919416142ca19e8e1aab8e64c37c1588add03bb3eebb7c267f8c"
+    },
+    "https://worldbestinsurer.com/de/insurer/hansemerkur/": {
+      "hash": "6eae9c6612c4557a805b9d0b6b287a2eed3fa02fdc4a85b6c6ebfca165a959f2"
+    },
+    "https://worldbestinsurer.com/sa/insurer/bupa-arabia/": {
+      "hash": "eb63049840aa12185a87b9c95798ac56251a36f77b8e82333d64c3a33630efff"
+    },
+    "https://worldbestinsurer.com/sa/insurer/tawuniya/": {
+      "hash": "e3bd163078412189a4587a56af031c63f363f3b1931e19baddacd9eefd051291"
+    },
+    "https://worldbestinsurer.com/sa/insurer/medgulf/": {
+      "hash": "4c82d9734174022296e16dd2e98e0cb6d792e04e9adaed07de65306976e706e4"
+    },
+    "https://worldbestinsurer.com/sa/insurer/walaa/": {
+      "hash": "1dc781c1899b3f29083b18b793e0b5f2f375007700e03f7c613140a1d1beefe0"
+    },
+    "https://worldbestinsurer.com/sa/insurer/malath/": {
+      "hash": "b65b028052facc72650dbb6bcc2fc776a624f341872b6a0ac848ffd6e9b68b9b"
+    },
+    "https://worldbestinsurer.com/sa/insurer/solidarity-sa/": {
+      "hash": "9b317a0496a3a66b666e80a2c7b2c8f19962375385b09883b91dea40679579fa"
+    },
+    "https://worldbestinsurer.com/jp/insurer/nippon-life/": {
+      "hash": "e42e6b26e12fcf103e4c60880a51b2a3a01ed81f0faf6db40f2f60a87ab87ba2"
+    },
+    "https://worldbestinsurer.com/jp/insurer/dai-ichi-life/": {
+      "hash": "2d0aadea3a1e430d490efcee3d9ed46f256272d39e51f5b78d378bc4a5a00a6e"
+    },
+    "https://worldbestinsurer.com/jp/insurer/meiji-yasuda/": {
+      "hash": "cfdbb2028e7d54c3611f2a60ef2411f252a3f83a2b1c5606bdc94f5bf781a4e2"
+    },
+    "https://worldbestinsurer.com/jp/insurer/sumitomo-life/": {
+      "hash": "e222e83a2203fed3f00cf5cd32999272008c9d01420aaf8526804641694a0851"
+    },
+    "https://worldbestinsurer.com/jp/insurer/sony-life/": {
+      "hash": "683e6827f6c84df39d57003002c303b0524e12741fea36093826cc3379a5703e"
+    },
+    "https://worldbestinsurer.com/jp/insurer/lifenet/": {
+      "hash": "208128df5fde55974a5e26a989a91c48e7dbd79990f5daf32663e5abe5adfefc"
+    },
+    "https://worldbestinsurer.com/jp/insurer/tokio-marine/": {
+      "hash": "17c672a627c79b864f10a442560b9fde6e48c72253e771f412e3bd834845c136"
+    },
+    "https://worldbestinsurer.com/jp/insurer/mitsui-sumitomo/": {
+      "hash": "a1ba67253cd88aeb4cc6fdd7ca93ef42b1f5b0074cf90bcf202b1b86b692df99"
+    },
+    "https://worldbestinsurer.com/jp/insurer/zurich-jp/": {
+      "hash": "6f4d0a6613c0301722d3eec33694f16611c9f999dc5761541043f106379ac8cf"
+    },
+    "https://worldbestinsurer.com/kr/insurer/samsung-life/": {
+      "hash": "d63db3bff47a668515bd4267cc768d0ddadba46c5e1d24075e4acae1ef430c3b"
+    },
+    "https://worldbestinsurer.com/kr/insurer/hanwha-life/": {
+      "hash": "7f8ac2634a0efa57c9596aa77cf48e949b7ea7209da70d04d5e4b2f74d14c51a"
+    },
+    "https://worldbestinsurer.com/kr/insurer/kyobo-life/": {
+      "hash": "6da3c9faeb0540f18ab276fc5e24eaa33bcdfbb584581e80c3fa0b97736076e3"
+    },
+    "https://worldbestinsurer.com/kr/insurer/db-insurance/": {
+      "hash": "f93c8e843e595c1e9a20166271dbd48b1afb228bd879c7dff1f83f8409b89bb5"
+    },
+    "https://worldbestinsurer.com/kr/insurer/kb-insurance/": {
+      "hash": "c4b7e907ae846a43c772a3ac99837991cbf2ebe03bd9fb232468d5a9e330a362"
+    },
+    "https://worldbestinsurer.com/kr/insurer/hyundai-marine/": {
+      "hash": "4a919914395f4dce3536970cc8e8e2c1cb4704ac1263309c2a9e1fdde5d2cbbf"
+    },
+    "https://worldbestinsurer.com/kr/insurer/samsung-fire/": {
+      "hash": "9e1ac9f17558aea04be9f9dbfe70030d8d6bdce359badd0ee9ddb9a55e8062ba"
+    },
+    "https://worldbestinsurer.com/hk/insurer/aia-hk/": {
+      "hash": "ac8dc616f3946eb6af76e24e7e83a3a36411de9789027c80494b87bde43527f3"
+    },
+    "https://worldbestinsurer.com/hk/insurer/prudential-hk/": {
+      "hash": "57bce20d8cedcb2f5e48fa5fe3db1db6ea1cbdb08ca5ca7d2abbe2197d555937"
+    },
+    "https://worldbestinsurer.com/hk/insurer/manulife-hk/": {
+      "hash": "755f02835aa5fb32eb5afdeb9b5c3a23eb4145e596e7db1ec98302472cb94345"
+    },
+    "https://worldbestinsurer.com/hk/insurer/axa-hk/": {
+      "hash": "d3f8d91ab15532746bed5de8a23d8c09aedb00d96776d407e35d896ca4f6b290"
+    },
+    "https://worldbestinsurer.com/hk/insurer/bupa-hk/": {
+      "hash": "a139cdba8a47d576e3143ce9d958904a337bded81096965917680f06bd36d79f"
+    },
+    "https://worldbestinsurer.com/hk/insurer/fwd-hk/": {
+      "hash": "4cc19d172833a898fa6fe5bd6c3fc48f082ea0acf8297cbae08bcb29abd7139d"
+    },
+    "https://worldbestinsurer.com/hk/insurer/cigna-hk/": {
+      "hash": "2e816913a68662ab3f1a6c09fdcc497d5b61f5f7030396a7ec9130d4f848f005"
+    },
+    "https://worldbestinsurer.com/hk/insurer/sun-life-hk/": {
+      "hash": "9b2413dcc71f9f421bfa2783db346dc0c28d79d2fab88a66516903a9230d80aa"
+    },
+    "https://worldbestinsurer.com/hk/insurer/zurich-hk/": {
+      "hash": "f3ff5a79fcd5b73e106c5132aa65dcd6f29635718712e2a1769291e96350f38d"
+    },
+    "https://worldbestinsurer.com/hk/insurer/china-life-hk/": {
+      "hash": "e7433d66bdbe08d331bdac2e8fbfe07d3b793a364b3d3909a63f543cf96b4c02"
+    },
+    "https://worldbestinsurer.com/hk/insurer/msig-hk/": {
+      "hash": "bd5f660c1bb0c31fda05ff9c39fa39d5adbcade4b99ff9d535876bb2c454a83b"
+    },
+    "https://worldbestinsurer.com/hk/insurer/qbe-hk/": {
+      "hash": "8f3663a4259c17f6c79e37d81bb104c541f9841704fd039af1985a99fde95156"
+    },
+    "https://worldbestinsurer.com/in/product/hdfc-ergo-optima-secure/": {
+      "hash": "c972464b44753ab3c8a25f06c8520319af1c2e7fe3c9fa0934f8f0ea9bc7e96f"
+    },
+    "https://worldbestinsurer.com/in/product/niva-bupa-reassure-2/": {
+      "hash": "caccc5000dc46f64260a56cf072c0f2c47dc35749e71f25f2fb7a6888d048dd8"
+    },
+    "https://worldbestinsurer.com/in/product/care-supreme/": {
+      "hash": "8ee05e6518bf0347892a1cea2df33b100eefad91e2f1beda0a4f4bc91ccfeb35"
+    },
+    "https://worldbestinsurer.com/in/product/bajaj-allianz-health-guard/": {
+      "hash": "4adf87dac33741826c68bf8749bfa15b8ff394666cc1a3c48b08e5860aa4a8ae"
+    },
+    "https://worldbestinsurer.com/in/product/star-family-health-optima/": {
+      "hash": "8d98d32af939b8649ee146f6eb07a643a613cfd06e0bed6c160e82406c2ce943"
+    },
+    "https://worldbestinsurer.com/in/product/manipalcigna-prohealth-plus/": {
+      "hash": "77eb56a3f940c3cc861e4938d08afa09fbeeb94b541c384e24b04c20dfb83130"
+    },
+    "https://worldbestinsurer.com/in/product/aditya-birla-activ-one-max/": {
+      "hash": "2e129528b649877d6387f6e4a4f2d1fd21233fa1ecb4afcfe3df48d2d8e621bc"
+    },
+    "https://worldbestinsurer.com/in/product/tata-aig-medicare-select/": {
+      "hash": "412987d8bf2b7a76bcc0224c81c19b111d72f853919be6000b3411d4363e6387"
+    },
+    "https://worldbestinsurer.com/in/product/icici-lombard-elevate/": {
+      "hash": "a1cd323f70bdd50dab766597e6fba960039984ea00962d1859db87bc7937c4e0"
+    },
+    "https://worldbestinsurer.com/in/product/digit-health-insurance/": {
+      "hash": "c1120c9765b0a586516a66f8174724b0294b6e5019bafbb5d72a800feecab8f0"
+    },
+    "https://worldbestinsurer.com/in/product/star-health-comprehensive/": {
+      "hash": "dfd3aef4eb5d666a53bda79b9824c8aff6cb1d013f921dd2359c98728301d95c"
+    },
+    "https://worldbestinsurer.com/in/product/new-india-mediclaim-1-0/": {
+      "hash": "33519be6a4aa1e248ffd7a13273de75985a8d42e8f2481257ee9820800442c6f"
+    },
+    "https://worldbestinsurer.com/in/product/oriental-happy-family/": {
+      "hash": "bc003d8ca63067b5d7fe675ed005b38a72902dbf8ee916cfcf6f891e7f158cbf"
+    },
+    "https://worldbestinsurer.com/in/product/united-india-family-medicare/": {
+      "hash": "7303289332cc66e9343f7a2f806349a6a069e63a55f91f500e927c1f7a758c55"
+    },
+    "https://worldbestinsurer.com/in/product/sbi-arogya-premier/": {
+      "hash": "f8861aaf1191d57c7ecedfbd9970a7fd1d3611f4c98cc18a29f9ed6247bf7b00"
+    },
+    "https://worldbestinsurer.com/in/product/kotak-health-premier/": {
+      "hash": "d64a7099f5184b6e4289c0c7b2bb9c636c65c8df95441ec2e0e8d7bbb2a9133a"
+    },
+    "https://worldbestinsurer.com/in/product/future-generali-total-health/": {
+      "hash": "bf6f5c6ee270fceab1fdb3105f94ac0c5bbb307fcb5ec879a0e0467d7c16e1bd"
+    },
+    "https://worldbestinsurer.com/in/product/acko-platinum-health/": {
+      "hash": "5df959eff58cb0b6c23211a9e5714f4f29765f23e23e534b22efaf03cde89577"
+    },
+    "https://worldbestinsurer.com/in/product/reliance-health-gain/": {
+      "hash": "9c3b3af60c9a43544f782dd5e42ee1dd67a63a237551c09435c2b67f79ab832b"
+    },
+    "https://worldbestinsurer.com/in/product/universal-sompo-complete/": {
+      "hash": "07f9bc737812845e1c508b16dd6a98b4cb7f9f6326ae2bd4ded3a230e0048c2e"
+    },
+    "https://worldbestinsurer.com/in/product/hdfc-click-2-protect/": {
+      "hash": "d665701078bbb31a1b57d0fb46b5024d1dc9f7aca2ce6c40ceb85c31509d9c2c"
+    },
+    "https://worldbestinsurer.com/in/product/max-life-smart-secure-plus/": {
+      "hash": "8ca24f0e53e43c9215bf1ade3f448fb0f3d2f2cc62bd4648a8d6871e9728a473"
+    },
+    "https://worldbestinsurer.com/in/product/icici-iprotect-smart/": {
+      "hash": "915670e9539f5ea20db5b7a73a173a5af9aba0f8ce6a581451ae45d7649d4770"
+    },
+    "https://worldbestinsurer.com/in/product/tata-aia-sampoorna-raksha/": {
+      "hash": "4fbf51ff5a68621899575dad36cbe8a93f6c6891c5cec2a090715dae0d3c2487"
+    },
+    "https://worldbestinsurer.com/in/product/sbi-life-eshield/": {
+      "hash": "a413f1731a35ca18915e262c808d9819447bcdd7206de52182cb6315c501e685"
+    },
+    "https://worldbestinsurer.com/in/product/lic-tech-term/": {
+      "hash": "46a71a46fd7bd937939fb9fe7d91f0d0be06b96e48d3474591d51191d0669523"
+    },
+    "https://worldbestinsurer.com/in/product/bajaj-allianz-etouch/": {
+      "hash": "61bb20c2701a368c676de0e149d17f7d8ee254eac685ca0f349fabbee117de33"
+    },
+    "https://worldbestinsurer.com/in/product/kotak-e-term/": {
+      "hash": "54d23c13a0676382b23cd972ff2fce22a89efa1a2f551fab4936f1eb67f37e60"
+    },
+    "https://worldbestinsurer.com/in/product/lic-jeevan-amar/": {
+      "hash": "5717b97e16bb7c6a47ae65e36ce15888a17f77cf5d6242a6f656e63730ea5de3"
+    },
+    "https://worldbestinsurer.com/in/product/max-life-online-term-plus/": {
+      "hash": "3c37b2c7358fffe8fcf6fc112c187d9fc8c5dfef20bb44874bfaa55c826c9c03"
+    },
+    "https://worldbestinsurer.com/in/product/pnb-metlife-mera-term/": {
+      "hash": "2f0d1db446289c4480f13e5acd86d69bd75e994e7ab2705f37dbce210a31faa3"
+    },
+    "https://worldbestinsurer.com/in/product/aditya-birla-digicare-shield/": {
+      "hash": "ff638ecc4c353a7f99ff2b758582e8b4ce8de5ddd45519a6f3159ab0c7a4560e"
+    },
+    "https://worldbestinsurer.com/in/product/canara-hsbc-ismart/": {
+      "hash": "aaa8383e50f5413733adcde9c6888a78bfc1993d3cb2e7ee76cdc75e025a8507"
+    },
+    "https://worldbestinsurer.com/in/product/bharti-axa-flexi-term/": {
+      "hash": "0a641dc8257a854d86a80f32a9e4402d9aadd266b9955d396c5a4864a5f445a4"
+    },
+    "https://worldbestinsurer.com/in/product/exide-life-smart-term/": {
+      "hash": "4f1b62ede970c56779cae8a961fc021fc11ade5a4eee38888eb3fbedb923f7d5"
+    },
+    "https://worldbestinsurer.com/in/product/hdfc-ergo-motor/": {
+      "hash": "a69576acb3124d5b585271b4942b9df7f63508761e4b0308351c2cb9c94623f3"
+    },
+    "https://worldbestinsurer.com/in/product/bajaj-allianz-motor/": {
+      "hash": "f7fbc21d0dadec6dcfe86a8264edc3ec2bb3d11a72cdf6e8fc9cacf2689a85f7"
+    },
+    "https://worldbestinsurer.com/in/product/icici-lombard-motor/": {
+      "hash": "9f8715d5b041fda3a0a6691066b12a1d8cdced7e1c90c69146e260d6d7cbfca3"
+    },
+    "https://worldbestinsurer.com/in/product/digit-motor/": {
+      "hash": "a9b51b0cb971e42c2c112f166e59117f375342d16724ad7815a591190e39fdae"
+    },
+    "https://worldbestinsurer.com/in/product/acko-car-insurance/": {
+      "hash": "143ddcc086805bbcf16ba7323dcd14a8f184275e40b7926feec4dac5f0753181"
+    },
+    "https://worldbestinsurer.com/in/product/tata-aig-motor/": {
+      "hash": "e1a6bb67704d8cfc1017be47e463b783715ad3e86384114bb680d1fb5c474b29"
+    },
+    "https://worldbestinsurer.com/in/product/new-india-motor/": {
+      "hash": "f531ffba70cb550f2c222d94016cf857043e12f3459170c44275899fabb7cd2d"
+    },
+    "https://worldbestinsurer.com/in/product/national-insurance-motor/": {
+      "hash": "b368e5cdb6b8262210f2ef009c2cb9edc81db56467509446d3a691c924e59702"
+    },
+    "https://worldbestinsurer.com/in/product/iffco-tokio-motor-gold/": {
+      "hash": "8539f76ef924abb08eae770de63f39bdbfc95e433b854d259f6ed48c67194101"
+    },
+    "https://worldbestinsurer.com/in/product/reliance-motor-comprehensive/": {
+      "hash": "77e0cf09f59ec5ae700578c0cbed565da63f05a196e86731a6b673178317ad90"
+    },
+    "https://worldbestinsurer.com/in/product/liberty-general-motor/": {
+      "hash": "96dd30291ac28981376e5534a0f12f5d00340a615109575aa8d7d0ceab3c0039"
+    },
+    "https://worldbestinsurer.com/in/product/kotak-motor-comprehensive/": {
+      "hash": "cbb58e2e2d6b3acd0155d281c991ea84a3403a4d4574290d7e3150b6494cea4b"
+    },
+    "https://worldbestinsurer.com/in/product/oriental-motor-comprehensive/": {
+      "hash": "05f01df8be48c7b0ea846386b5bc859815efcfd230c99c4fb98952f4602eba6e"
+    },
+    "https://worldbestinsurer.com/in/product/bharti-axa-motor/": {
+      "hash": "cbd3e32dcee176a91a3327d99f9bedee8ef87a450c6a4cced31b987d1cfc0b1c"
+    },
+    "https://worldbestinsurer.com/in/product/sbi-motor-comprehensive/": {
+      "hash": "470ec3fcd75a6e3ca880dd1df4df5ba6ca12e880e90c454067004158ecc13550"
+    },
+    "https://worldbestinsurer.com/in/product/bajaj-allianz-travel/": {
+      "hash": "df2d6e747a23b0f1688c0f779efbb998a1c257807fe218c5f2425a06cf56c22b"
+    },
+    "https://worldbestinsurer.com/in/product/hdfc-ergo-travel/": {
+      "hash": "62d02351b011b6a2be230bcdb78d4243cb8d08037401b54f58e8d1a6e711a621"
+    },
+    "https://worldbestinsurer.com/in/product/tata-aig-travel/": {
+      "hash": "1cc161805d7981568d713f85c8d54e4fb650040a9bb2658db9cdb6fdc30e564b"
+    },
+    "https://worldbestinsurer.com/in/product/icici-lombard-travel/": {
+      "hash": "1bcbb241bb102eeb1c0193ba3fd4a6cb7272307347708dbdfab06b38e3af5975"
+    },
+    "https://worldbestinsurer.com/in/product/digit-travel/": {
+      "hash": "52baa4c3bbab31a8e468b09b3d19dbc35705c35855fae18c1f6c9e369d940f44"
+    },
+    "https://worldbestinsurer.com/in/product/star-health-travel/": {
+      "hash": "351e6aab1ab48a38473574d6f25de4a7a08671a6d574cf18cfdf0a06de3cdf35"
+    },
+    "https://worldbestinsurer.com/in/product/new-india-travel/": {
+      "hash": "007275cb6843513cbf66919cfc349694ec59eb88a924a65094edcb25a4466d6d"
+    },
+    "https://worldbestinsurer.com/in/product/reliance-travel-care/": {
+      "hash": "935030cc33dca38ed1cdd951070e97b61480432f219e16e10ce939b85d06b8e5"
+    },
+    "https://worldbestinsurer.com/in/product/united-india-travel/": {
+      "hash": "f6294c33808165937669fbd924ee083f5f807a0dd3b5d50532bdbe0dfba424d0"
+    },
+    "https://worldbestinsurer.com/in/product/oriental-travel/": {
+      "hash": "4c571f8b5717dca0aa22966e568b9670d842060a3f018ba7f0c197fb62dbaab1"
+    },
+    "https://worldbestinsurer.com/in/product/niva-bupa-travel/": {
+      "hash": "088474427322fc25c333cb326c65bea134b77a9b661465c5dcb6710e91dadd8d"
+    },
+    "https://worldbestinsurer.com/in/product/sbi-travel-insurance/": {
+      "hash": "2a9d8ad600589e4495ffd99295aec5cea092363813cd780b7a849de3e7883129"
+    },
+    "https://worldbestinsurer.com/us/product/kaiser-gold/": {
+      "hash": "cddf4039c756afbd22c9ed331103bef31dd0c28b3c6f0114e7512cfb52beb64c"
+    },
+    "https://worldbestinsurer.com/us/product/bcbs-ppo/": {
+      "hash": "582d745bfb4122c97de5bb79f0964a3a369bf119609a4469a4b63b81bed53092"
+    },
+    "https://worldbestinsurer.com/us/product/uhc-choice-plus/": {
+      "hash": "7d62ec6eed18fdce603a118d3ef5ab529ba3513e46c4aebdbff3f7d95b8f0d9b"
+    },
+    "https://worldbestinsurer.com/us/product/cigna-connect/": {
+      "hash": "efa0228f2f82c25e3bfdc369ad75c696f55ed9780034e7c2556de06990cce72c"
+    },
+    "https://worldbestinsurer.com/us/product/humana-gold/": {
+      "hash": "e580a89ce22336ad5ec83602297286335dd3ac18a303d38654eeff5c8aa18b55"
+    },
+    "https://worldbestinsurer.com/us/product/oscar-health/": {
+      "hash": "59305764964773f99d0328de5ea746ec84fd7298c2df2bb09ae23150cb462c0f"
+    },
+    "https://worldbestinsurer.com/us/product/molina-marketplace-us/": {
+      "hash": "4f196feaca7df010e6bb6ba242e92d5b1076f4a2a2bfeeba30d85fd761d20ea8"
+    },
+    "https://worldbestinsurer.com/us/product/anthem-blue-cross-ppo/": {
+      "hash": "b29fb330b59ab70a7fcdbba7966977c1d0ff2a8f508688313243ca2779482d1a"
+    },
+    "https://worldbestinsurer.com/us/product/centene-ambetter/": {
+      "hash": "a7762d18d3d7f93bed1b18bb2eef559afaa0316009f4eab02df9c09902e3b652"
+    },
+    "https://worldbestinsurer.com/us/product/cvs-aetna-hmo/": {
+      "hash": "897ef0163787cf3156342a87ef8b843517be40306b14a304d40d1d7e660b6ee7"
+    },
+    "https://worldbestinsurer.com/us/product/health-net-silver-us/": {
+      "hash": "64db8a851e1410693fddb5707c6149af919eb86b8ee167e55ddb6e1ea65c21e1"
+    },
+    "https://worldbestinsurer.com/us/product/oscar-metro-plus/": {
+      "hash": "b33452c8f6c740cbe8b3fbe3b084c3aa50e9159c1979d99a04f5dba1e56b1156"
+    },
+    "https://worldbestinsurer.com/us/product/highmark-bcbs-silver/": {
+      "hash": "e93313fa1b5a468c6f414f3328d29d17413cf03251d396335239bcf7a66629ae"
+    },
+    "https://worldbestinsurer.com/us/product/medica-choice-us/": {
+      "hash": "3c48ca75d7a5bfb6a8f455472601418b6dc43ac253b76d30c81e043e7e3fec21"
+    },
+    "https://worldbestinsurer.com/us/product/nwm-term/": {
+      "hash": "1c1f325bc8148d442367c9f7a1635e450b14bb7bc5231bc3138803cdcbb57858"
+    },
+    "https://worldbestinsurer.com/us/product/nyl-term/": {
+      "hash": "b3a4d67acfd9fd58ef1c79e8fa858478b8b855da6fad445edf099bbed76af698"
+    },
+    "https://worldbestinsurer.com/us/product/prudential-term/": {
+      "hash": "fb20ecd15708e34cdb3ea24eeb6e92a38c9bd872a4c1182949843492f9bcf3bd"
+    },
+    "https://worldbestinsurer.com/us/product/haven-life/": {
+      "hash": "98d3be4951994ec79414cb8b77a9f4fd8a2111acd9050ed182d70423617597ae"
+    },
+    "https://worldbestinsurer.com/us/product/ladder-term/": {
+      "hash": "1b563dc08c736be88a9ce93075e639c385b723c2fe10b5c27fdee314bfdfa45e"
+    },
+    "https://worldbestinsurer.com/us/product/banner-optyterm-us/": {
+      "hash": "f07bbe7afcb0d3ff6636e48608934fb5eb82a13b1e1fe091c2cbf6dcd1fee5e9"
+    },
+    "https://worldbestinsurer.com/us/product/protective-classic-choice/": {
+      "hash": "91ad3bd00c7b7f52f64d37f13cdb67ef05322629be177c3b3f262f54502606ec"
+    },
+    "https://worldbestinsurer.com/us/product/sbli-term-us/": {
+      "hash": "c42bf03e20282fcd66e39063d54ed2e72c4f42f7490eb3fcd72931f6fbdcf1bc"
+    },
+    "https://worldbestinsurer.com/us/product/transamerica-trendsetter/": {
+      "hash": "e697f6ad7500a9ce7af99ae32303499f0c938798378e47c02b94a8766743fa0d"
+    },
+    "https://worldbestinsurer.com/us/product/pacific-life-primefirm/": {
+      "hash": "b4018543cce3d9afbf0751dc90241bfe22494be4c163a20dbca113e33f15fafc"
+    },
+    "https://worldbestinsurer.com/us/product/state-farm-auto/": {
+      "hash": "eb4f79a20df3da9d81e531e66778d5c46a1df737d874a33f69c78042ae3e0c37"
+    },
+    "https://worldbestinsurer.com/us/product/geico-auto/": {
+      "hash": "3bc7d3c7610406de86d8cfaba8961c883836f2563fe9513cb3a5723f4e9c6f19"
+    },
+    "https://worldbestinsurer.com/us/product/progressive-auto/": {
+      "hash": "25c39a5efc75f34167fb80b411f401ad2d6d2c44051616bb77b7401e85a5c92a"
+    },
+    "https://worldbestinsurer.com/us/product/usaa-auto/": {
+      "hash": "fb89739833da0e0a94cb513b83e714243953c8061963f6c077a7d725c3ef6675"
+    },
+    "https://worldbestinsurer.com/us/product/allstate-auto/": {
+      "hash": "cbdedc9057f214186817416a901d64b33bfa63c623b7a6fb5fb0fad3fa3e4aa5"
+    },
+    "https://worldbestinsurer.com/us/product/nationwide-auto-us/": {
+      "hash": "bc3f51e74e8b28d3b98c88c666f62c05dc2f1ce9944894fd774374303f4e8fdf"
+    },
+    "https://worldbestinsurer.com/us/product/liberty-mutual-auto-us/": {
+      "hash": "60e2f1b3dc97c8c3a9640bd2ccb1bd171779baa66c13e56859c584bcba2c322e"
+    },
+    "https://worldbestinsurer.com/us/product/travelers-auto-us/": {
+      "hash": "72a21a01d71cad7d2ddcd8481d6f9bb01982650e75fe4e6d9cff002368964a21"
+    },
+    "https://worldbestinsurer.com/us/product/farmers-auto-us/": {
+      "hash": "ee39c2d3c9072ac56be1044f31357b53dfaa3ddc871b2e796236e5c2ef397505"
+    },
+    "https://worldbestinsurer.com/us/product/erie-auto-us/": {
+      "hash": "28ab4c40715449ac861948dff4f1782aa92130db0f6c7072cd1a81441e92856d"
+    },
+    "https://worldbestinsurer.com/us/product/allianz-travel-us/": {
+      "hash": "903028b8b6759a66fac02634ba008faf54e66ac1782d70302d56e1b03ee1a588"
+    },
+    "https://worldbestinsurer.com/us/product/world-nomads-us/": {
+      "hash": "51b8f26aee6cc699e7bcb3294a503e2fe76504dec286e3dcae45d373a29f84a9"
+    },
+    "https://worldbestinsurer.com/us/product/travel-guard-us/": {
+      "hash": "0d43434697d9ef8f77b337877cf8214ec513ac444b7f60296a0197028989b065"
+    },
+    "https://worldbestinsurer.com/us/product/img-itravelinsured-us/": {
+      "hash": "489bbdaa267c2587c6b29324860fbc02afe040730f3646bba326050752fd179a"
+    },
+    "https://worldbestinsurer.com/us/product/seven-corners-roundtrip/": {
+      "hash": "d0b6f1799ead04d2e676bb8cc198c1bde7a7e37071af13877becc6360c584b2e"
+    },
+    "https://worldbestinsurer.com/us/product/travelex-travel-select/": {
+      "hash": "c9e305939bea173a9cf768a771a60175df773d08acfdcf50df1168a52831f596"
+    },
+    "https://worldbestinsurer.com/us/product/battleface-explorer/": {
+      "hash": "cf00eb86658dc8dc14b99f3c22d14e7754eb48211674de5e1297d62aa992bb42"
+    },
+    "https://worldbestinsurer.com/us/product/cat70-explorer-us/": {
+      "hash": "1963c701ed17597b8facd3e6af1249dc301f7b72333af1bda9f00f1d4830cf53"
+    },
+    "https://worldbestinsurer.com/uk/product/bupa-health-uk/": {
+      "hash": "c5f8efb5f5486fd64b25825951b06b2b61ede2b27c80bdce79cf0e15a3d9cf3b"
+    },
+    "https://worldbestinsurer.com/uk/product/axa-health-uk/": {
+      "hash": "a387a04da02d760b533b3126ae402f8b8e3858db5d6b35567bf71e5784f80c4c"
+    },
+    "https://worldbestinsurer.com/uk/product/aviva-health-uk/": {
+      "hash": "67526812ff3d5a2b65635e8e8c19f69caad97268be6565ac0d460e402f50813d"
+    },
+    "https://worldbestinsurer.com/uk/product/vitality-health-uk/": {
+      "hash": "80773b4fcbe760d984b3caf38141fcbfbc6d8926a73b226a66b513d9c484da47"
+    },
+    "https://worldbestinsurer.com/uk/product/wpa-health-uk/": {
+      "hash": "aef206bc57fdfef6b1a4b90f797b22676e442a0c309d29dba0c5dca35fcb8733"
+    },
+    "https://worldbestinsurer.com/uk/product/cigna-uk-health/": {
+      "hash": "2c082c184d0038e79f29346def7799a2d7c32fe3b3fd2acbbef2a4dea9423c2e"
+    },
+    "https://worldbestinsurer.com/uk/product/freedom-health-flexible/": {
+      "hash": "fb440a5c95134ec25e2d0c9258b7609af9bf95c1f0bffa2ff8cb9e4c2a83159c"
+    },
+    "https://worldbestinsurer.com/uk/product/exeter-personal-health-uk/": {
+      "hash": "a4607cc2ed0c7e0a30a68135d23e1a4c190bd49b98f6cee40d56e9b4eecedd23"
+    },
+    "https://worldbestinsurer.com/uk/product/nuffield-health-plan-uk/": {
+      "hash": "5229eb755c520937fd88a2b8d99ea6d23f1684aadc4238746db4c4e2cc439463"
+    },
+    "https://worldbestinsurer.com/uk/product/simply-health-uk/": {
+      "hash": "ab88a0c2e59e2e43836b5bf4eceb4044efe334cc9194afe99f6247e17dab237d"
+    },
+    "https://worldbestinsurer.com/uk/product/benenden-health-uk/": {
+      "hash": "2da3ad662e6da0f8803f3f454d7e7d58fc3b7cfabc24341572ee999b6cda2dcd"
+    },
+    "https://worldbestinsurer.com/uk/product/healix-health-uk/": {
+      "hash": "2f34cfab844f3c43e5db53e62897a40fcfe0ff38ab78a70860772968859f3ce0"
+    },
+    "https://worldbestinsurer.com/uk/product/lg-term-uk/": {
+      "hash": "cc72d803e411cba280d60dcbf4ae5c1d77ade98551a256ec050490b0d8622fa7"
+    },
+    "https://worldbestinsurer.com/uk/product/aviva-term-uk/": {
+      "hash": "7af12b907893a501b836844b0a925be43b675eb881b23375185f5a42ebe3ffa4"
+    },
+    "https://worldbestinsurer.com/uk/product/zurich-term-uk/": {
+      "hash": "241d046020e603a64afd136d8bc51b9e87ab9727714e9487ec492c0f5bf79f61"
+    },
+    "https://worldbestinsurer.com/uk/product/royal-london-term/": {
+      "hash": "53104d6bb4982b393cdbd272c74b304cc21bd6b4d08044b8f1de47b89e554c4d"
+    },
+    "https://worldbestinsurer.com/uk/product/lv-level-term-uk/": {
+      "hash": "14566de16961c6a941ed1890b8a785498945c5997a99f7719a6e411660a1bc25"
+    },
+    "https://worldbestinsurer.com/uk/product/scottish-widows-protect-uk/": {
+      "hash": "e945a3c459b5e5ab42cfc1b80b254b149d18a326bd7cac6ea34aeb8f9fdd5d44"
+    },
+    "https://worldbestinsurer.com/uk/product/vitality-life-term-uk/": {
+      "hash": "34a34e17669c24230d578be347d710ee3259e0408540df472f356dd3c134aa54"
+    },
+    "https://worldbestinsurer.com/uk/product/one-family-term-uk/": {
+      "hash": "762667e3b070c4af98143e4115cccbb7ec580975c60c3b35e162a3489967f253"
+    },
+    "https://worldbestinsurer.com/uk/product/old-mutual-term-uk/": {
+      "hash": "22b470db56a36791d9d6186fa8d7796753f388f676c81ec76c74ff1310b461c5"
+    },
+    "https://worldbestinsurer.com/uk/product/cia-life-term-uk/": {
+      "hash": "39a8a9397d63790db96e38b01e2fadc48d2943981a964c8cffd1587c7c364165"
+    },
+    "https://worldbestinsurer.com/uk/product/admiral-car-uk/": {
+      "hash": "a4ecc9f902891b39880574010e1b778d7f878336210c2e1f434c97290463f2e8"
+    },
+    "https://worldbestinsurer.com/uk/product/direct-line-car-uk/": {
+      "hash": "da8abce8cf28caac23a8128ad3857defd8aae2ff86e7a45e942c39efdfc74c46"
+    },
+    "https://worldbestinsurer.com/uk/product/aviva-car-uk/": {
+      "hash": "93349e3854a8b25f1e76bfa1ebcabc4b14877b607683356187cb8803c905eaff"
+    },
+    "https://worldbestinsurer.com/uk/product/axa-car-uk/": {
+      "hash": "8396a28b6b00f805fbebf00d7cb9997bf11e6bba04b6fa5b7455ef1413b1defb"
+    },
+    "https://worldbestinsurer.com/uk/product/churchill-motor-uk/": {
+      "hash": "4eed2739030aba8add40092fba77720d6266a6e06b574d3cc5782eb496136e65"
+    },
+    "https://worldbestinsurer.com/uk/product/hastings-direct-uk/": {
+      "hash": "9b7e335e8d14e8aa98c617140033afaf172d0eae3652e130e9c6a382dea54839"
+    },
+    "https://worldbestinsurer.com/uk/product/esure-motor-uk/": {
+      "hash": "6257e93939cc0e28726a4d2f4ae247b677d5e1ae06cd73f7746236396f28c1fd"
+    },
+    "https://worldbestinsurer.com/uk/product/rias-motor-uk/": {
+      "hash": "194cb2d1993b7c9b7cec8ff863b491366043689d023c8368fc9fc5e08f14f9fb"
+    },
+    "https://worldbestinsurer.com/uk/product/saga-motor-uk/": {
+      "hash": "ef7a551b1f9fe8d4e7e11aaebce6b6441a4b1fdff30b913093d3ab32c1a117af"
+    },
+    "https://worldbestinsurer.com/uk/product/lloyds-bank-motor-uk/": {
+      "hash": "32167f784b4610c93d067ed7dcc4f825bd5d2f67ff781ef76afc26e488b55be8"
+    },
+    "https://worldbestinsurer.com/uk/product/staysure-uk/": {
+      "hash": "ba92f537bbb6445335d24a979f01d73c4c1545463ffabd56df74a8cd16f5f6de"
+    },
+    "https://worldbestinsurer.com/uk/product/post-office-travel-uk/": {
+      "hash": "3ea402f9d5f9c28963719fb1ed747e31ba5995a8e5bffdaebf76d91d7cfa8da6"
+    },
+    "https://worldbestinsurer.com/uk/product/aviva-travel-uk/": {
+      "hash": "80d4197ec7824eb3c4e574e2218887ecefc5366c0c4515bd09394c8c32d7ab68"
+    },
+    "https://worldbestinsurer.com/uk/product/flexicover-gold-uk/": {
+      "hash": "3aa5175e317d74ba1143865fd55ec8d5d17eb7857b61b1b0173e27f05b3e9b57"
+    },
+    "https://worldbestinsurer.com/uk/product/coverwise-gold-uk/": {
+      "hash": "b6d191daee190217231f8c97521a8fffe989d43de7769d18e862ed4ea73d6431"
+    },
+    "https://worldbestinsurer.com/uk/product/insureandgo-gold-uk/": {
+      "hash": "0806eaf5b3964e3858731c57c7b3a31048ee2d7238c06c5f14333e3b4dee3f56"
+    },
+    "https://worldbestinsurer.com/uk/product/trailfinders-travel-uk/": {
+      "hash": "c586761350c9dbc981c14e6be29a765db1a8d8b5026a577a25d912ed76a7265e"
+    },
+    "https://worldbestinsurer.com/uk/product/holidayriskcover-uk/": {
+      "hash": "75abf7deeccd5dd6cf6faa55fd05d934bf6221ffdeccc112b0b57c82a0623120"
+    },
+    "https://worldbestinsurer.com/ae/product/daman-health-ae/": {
+      "hash": "de50e53934a9e68eccd694c37383479ea0005781358fe7c8b31c56998f36416c"
+    },
+    "https://worldbestinsurer.com/ae/product/oman-ins-health/": {
+      "hash": "9f0e68b79b4d8286eef27bb5b32e1a0afff2020ffc06b15d851ba362467279ec"
+    },
+    "https://worldbestinsurer.com/ae/product/axa-gulf-health/": {
+      "hash": "1493bafea49ec87a6ba2554c3493f4b1895de2842a8280e2760df1524ca87a05"
+    },
+    "https://worldbestinsurer.com/ae/product/adnic-health/": {
+      "hash": "fb76f35b86f37f9e6132fe5aa2d21c58017b40278aa378ccdcc7d1183889cbf9"
+    },
+    "https://worldbestinsurer.com/ae/product/nextcare-ae-health/": {
+      "hash": "1f968ebb0a2e21f8739b49035bc4d20d49b35985566c89f1c4219c96caf4bada"
+    },
+    "https://worldbestinsurer.com/ae/product/metlife-ae-health/": {
+      "hash": "ae8e16934e8ce0926b72c293e9f36ebb13d12911e5d0f96e6e1cb0d60ba8ad28"
+    },
+    "https://worldbestinsurer.com/ae/product/cigna-global-ae/": {
+      "hash": "40374a95917353330e9573b10ea4f0f5ba8a1fb14f57a1240026439b8009bd68"
+    },
+    "https://worldbestinsurer.com/ae/product/allianz-care-ae/": {
+      "hash": "98420efcd3e7f89c69618807414d3cc413ff7a6796b32e775ab9e90eb5389a07"
+    },
+    "https://worldbestinsurer.com/ae/product/takaful-emarat-health/": {
+      "hash": "eeb96b0c72941f1281394c62deebd9e74a10239770a93027fc6c59a15f4145e7"
+    },
+    "https://worldbestinsurer.com/ae/product/national-takaful-health-ae/": {
+      "hash": "4d17c23983e88911d856b99593eac6f2fad407968326ae95a6284790d6ab402f"
+    },
+    "https://worldbestinsurer.com/ae/product/zurich-life-ae/": {
+      "hash": "f5328a52535581e60681507c934faca4580daf7a2a8fc40526b933ddf662e647"
+    },
+    "https://worldbestinsurer.com/ae/product/metlife-ae/": {
+      "hash": "8af4686fbef3da306e9ee3b24b360c4f681983981b06e3a641f902e705e818b4"
+    },
+    "https://worldbestinsurer.com/ae/product/aia-life-ae/": {
+      "hash": "c99cd425e2d0a4f076ffe1ea1c7dbb513ce44d2c04ead452d0103b4d0c677012"
+    },
+    "https://worldbestinsurer.com/ae/product/friends-provident-ae/": {
+      "hash": "1c60e8765dff1896a490ca1645e3acb477258a6e96712dd067b1fbcdda1e52fb"
+    },
+    "https://worldbestinsurer.com/ae/product/allianz-life-ae/": {
+      "hash": "7c3de379c8852e3668679f219071a52bd64e4b7c471abc7bad0bcfc3c8a79567"
+    },
+    "https://worldbestinsurer.com/ae/product/amnlife-ae/": {
+      "hash": "9807f200fd3312a8574494362ee3afc5cfb7d8211c89f131930fa649aea8f7af"
+    },
+    "https://worldbestinsurer.com/ae/product/orient-motor-ae/": {
+      "hash": "c1ba649c4eb2b1c6e97c11a8c644d8aa0a09bad5178a07081f3c1c2aa839ee34"
+    },
+    "https://worldbestinsurer.com/ae/product/axa-motor-ae/": {
+      "hash": "0ce16b1314198f2d162b5c6c107a926f91f827cbc83f444fd56307dd0f88a112"
+    },
+    "https://worldbestinsurer.com/ae/product/oman-motor-ae/": {
+      "hash": "7501703511fd4d25ee2bd5367b05352f0b57a48ad0b85d527cde06f0a9a7479e"
+    },
+    "https://worldbestinsurer.com/ae/product/dnata-motor-ae/": {
+      "hash": "febe9aad3620c6ed51975c3854f7259377275dd90d091a3d9006f490fdf78251"
+    },
+    "https://worldbestinsurer.com/ae/product/al-wathba-motor-ae/": {
+      "hash": "6073822c214be2fd341e87a4ddbbef851403fe64fb77bb722be28989317335fa"
+    },
+    "https://worldbestinsurer.com/ae/product/noor-takaful-motor-ae/": {
+      "hash": "4b398df552caca6290e422338f8266728e3a9abcacad8733fd0d60edf0b981a3"
+    },
+    "https://worldbestinsurer.com/ae/product/fidelity-united-motor-ae/": {
+      "hash": "715d46e4e406b04350685f12aa8533ef065cf4035b0ce8d69070714399670550"
+    },
+    "https://worldbestinsurer.com/ae/product/salama-motor-ae/": {
+      "hash": "3b12ec2cc6c19a694005a3fe7306b4cf3073a1b1d4fbe2fa3860b0c07b1093aa"
+    },
+    "https://worldbestinsurer.com/ae/product/oman-travel-ae/": {
+      "hash": "01f0938ba6345624ac5a7ead843ac82baac692a6856b02969c9ad8d389b608a0"
+    },
+    "https://worldbestinsurer.com/ae/product/axa-travel-ae/": {
+      "hash": "78d29ded03f642342335fab2231b1363ba340e955486d9a942ae5d69a397f051"
+    },
+    "https://worldbestinsurer.com/ae/product/nas-travel-ae/": {
+      "hash": "42b2deb26502443977ff9d51c6675055b11b52a81110d57779fb3518d1fe6a5a"
+    },
+    "https://worldbestinsurer.com/ae/product/allianz-travel-ae/": {
+      "hash": "6c79562a2e31f4723c20545bfdefe617481232a7dc0a25281d9f85ff497148b5"
+    },
+    "https://worldbestinsurer.com/ae/product/orient-travel-ae/": {
+      "hash": "0dad2f0e9624681164b5db6a01821158aa464fa81ffaeb01d889aa6d278887f9"
+    },
+    "https://worldbestinsurer.com/ae/product/sukoon-travel-ae/": {
+      "hash": "de228267262afd4db57d7569010d7c10e4dc09c41d527c4d260f151e53fd146a"
+    },
+    "https://worldbestinsurer.com/sg/product/aia-healthshield-sg/": {
+      "hash": "613f85ea72abc90c276898d8d66b63cd40451470bf9b19a1af81412038a903fc"
+    },
+    "https://worldbestinsurer.com/sg/product/pru-shield-sg/": {
+      "hash": "6ae6258be36fd9dad8bdc719a5700119a63bfcaa3861469cde750b23b0744e8a"
+    },
+    "https://worldbestinsurer.com/sg/product/great-eastern-health-sg/": {
+      "hash": "b6aa48cfad45033083e1b2f393c3e4207e37029077204588ad9c58876603fe16"
+    },
+    "https://worldbestinsurer.com/sg/product/ntuc-income-sg/": {
+      "hash": "9be8cb984b1745179d4b7ced5570414522cc9455ea2789e24e0a81e98585043d"
+    },
+    "https://worldbestinsurer.com/sg/product/income-enhanced-shield-sg/": {
+      "hash": "e33b30286a09142c417aa7b4f79c1bb8a4f024e7d2d8bfe7de3d2e392d602747"
+    },
+    "https://worldbestinsurer.com/sg/product/manulife-manuprotect-shield-sg/": {
+      "hash": "23f7cc50beade421abba069f4c0eba099c3fa440b33d27cbe0dbc6490168e5f3"
+    },
+    "https://worldbestinsurer.com/sg/product/aviva-myshield-sg/": {
+      "hash": "63e9beb99c310352202a0995237abb934df10d25d1d132ad6fffd26775adc592"
+    },
+    "https://worldbestinsurer.com/sg/product/raffles-shield-sg/": {
+      "hash": "8d1f24ea5aef4937290bf1ba6f54c4e3fc085150e4bc72d9228ab2e282843cc5"
+    },
+    "https://worldbestinsurer.com/sg/product/axa-shield-sg/": {
+      "hash": "f9d140bd60b72f296518ced7ac7bfbe4bd8a96fada86f9cf6a57da949374774c"
+    },
+    "https://worldbestinsurer.com/sg/product/tokio-marine-sg-health/": {
+      "hash": "23ea1e02202254f7179732ef18f6104e3d716099c1e73f3606903b83212e0b9f"
+    },
+    "https://worldbestinsurer.com/sg/product/aia-term-sg/": {
+      "hash": "5407e1b17ea0d688ff87b03cdbf01cf050feb37019155eebf3f9f9adbd9dda25"
+    },
+    "https://worldbestinsurer.com/sg/product/singlife-term-sg/": {
+      "hash": "50d2a69e8908bc0ec4d9a6b65131e2f5a5c5300b9770e337c82f637daa5e43b8"
+    },
+    "https://worldbestinsurer.com/sg/product/fwd-term-sg/": {
+      "hash": "664d446753414d744b3192c2cda693a3b291af80377260f3cd6f522c38dfaa0c"
+    },
+    "https://worldbestinsurer.com/sg/product/income-term-life-sg/": {
+      "hash": "4becf94e21adf5cab8a35fa75d359ad977de6ab691881b648757c73816285ddc"
+    },
+    "https://worldbestinsurer.com/sg/product/great-eastern-term-sg/": {
+      "hash": "0bdbf97a5df636b8abec67edc1c7d476f26effa06224759509bfe26f37278a40"
+    },
+    "https://worldbestinsurer.com/sg/product/manulife-readyprotect-sg/": {
+      "hash": "d5a59bd0c28decef6e27b18c73e17e9305c4d1e0cdcfa1104a637868a9c2e96f"
+    },
+    "https://worldbestinsurer.com/sg/product/tokio-marine-term-sg/": {
+      "hash": "7403e1bba4bd0de090602f073d60c5759da0b1a7a8dd76f4cc47883c308362e5"
+    },
+    "https://worldbestinsurer.com/sg/product/zurich-term-sg/": {
+      "hash": "43bdc6a172d39656ea347f708c011e24a0633376e045eae1c6a1415dcceb9866"
+    },
+    "https://worldbestinsurer.com/sg/product/ntuc-motor-sg/": {
+      "hash": "3ca02ea838ae85b16ac515f32bce299bfcb3ef5d4d465b9dc2daa7e7301357a1"
+    },
+    "https://worldbestinsurer.com/sg/product/axa-motor-sg/": {
+      "hash": "7f2436e6afaf86dd1fad920f1ccee8cdd8327b3b771fa5c0dd26468e047bdfc4"
+    },
+    "https://worldbestinsurer.com/sg/product/income-motor-sg/": {
+      "hash": "276e39cf6fc626cfb0d28d72d7d5ac89030ca90ecd77ebd047e2eefd9d02b337"
+    },
+    "https://worldbestinsurer.com/sg/product/great-eastern-motor-sg/": {
+      "hash": "eb92dcc40bfdc7807c0a67b5ca88851d8fbaada1927acf8454f4e96a808b558d"
+    },
+    "https://worldbestinsurer.com/sg/product/ergo-motor-sg/": {
+      "hash": "1de3f07f9739ed2ecb95858f5769fa1089465b3b3162f295ec9e17aa9c33aa3a"
+    },
+    "https://worldbestinsurer.com/sg/product/allianz-motor-sg/": {
+      "hash": "c2627a803bd079b53b012ada41db1a00eb6bf429fe172785638ed651532e547e"
+    },
+    "https://worldbestinsurer.com/sg/product/singlife-travel-sg/": {
+      "hash": "665df4c015de416787ae44576cf4f04b1edd6782640762ae94e61c8c3f77b209"
+    },
+    "https://worldbestinsurer.com/sg/product/fwd-travel-sg/": {
+      "hash": "3513e1a352faaf539e89043ef24af8a588de3bebe09880bd5558a2b6d3e53080"
+    },
+    "https://worldbestinsurer.com/sg/product/income-travel-sg/": {
+      "hash": "eb6a755aea8e3069419da1be5d69957a0e4d32f642e1e9cfcbba071d70bc7176"
+    },
+    "https://worldbestinsurer.com/sg/product/great-eastern-travel-sg/": {
+      "hash": "ae845ea9ad605d33da4c1100aae4b6196730130a53e3d266092b5582b59df48a"
+    },
+    "https://worldbestinsurer.com/sg/product/manulife-travel-sg/": {
+      "hash": "da8c559d1e62a426c5b4682218456fd5e10b13d4fd9eb51999b64810c4950b86"
+    },
+    "https://worldbestinsurer.com/sg/product/tokio-marine-travel-sg/": {
+      "hash": "9dd12eff817f053d2a1b598564108804c84071dceaf39834cab063b1e93d5389"
+    },
+    "https://worldbestinsurer.com/ca/product/manulife-flexcare/": {
+      "hash": "7395eb5815fa90f474fb9a4b94e3c20ce1ee4113feef2b48dc9d754150775fbd"
+    },
+    "https://worldbestinsurer.com/ca/product/sunlife-extended/": {
+      "hash": "9b4d7cf1ab111a43e60e4b472198d1163d144dbaa2278b1864001aa3fef12231"
+    },
+    "https://worldbestinsurer.com/ca/product/canada-life-health/": {
+      "hash": "c0974a5cf38e7cceba5bb2c2418dfedba34e95b05693b8f709e9b7caca6180b6"
+    },
+    "https://worldbestinsurer.com/ca/product/desjardins-health/": {
+      "hash": "2382c7f54d2d2648dc47a21a0de3228170fa1a040ff99032f3e7af67c8413d48"
+    },
+    "https://worldbestinsurer.com/ca/product/great-west-life-ca/": {
+      "hash": "5d4f73f34f3d3d271adfb206944055fb4f202f662bef11b2caef858214901cf4"
+    },
+    "https://worldbestinsurer.com/ca/product/industrial-alliance-health-ca/": {
+      "hash": "f763fd9e19dee253e76f80e35942b1278424e5f76a02395bbde931479e5a745e"
+    },
+    "https://worldbestinsurer.com/ca/product/cooperators-health-ca/": {
+      "hash": "b134bf1622ffb69d4ba100b7a08b52aa6c412e8e8ea6d32f1a23446c68d3814b"
+    },
+    "https://worldbestinsurer.com/ca/product/empire-life-health-ca/": {
+      "hash": "b4f708d6086765162261023b47cd35e9c3448e688a3e8a2787c7a867476ba9e2"
+    },
+    "https://worldbestinsurer.com/ca/product/green-shield-ca/": {
+      "hash": "fbbe313d4d2740059c20e59892af16a0ae13cf581f73d532f5787d4463de114d"
+    },
+    "https://worldbestinsurer.com/ca/product/blue-cross-ab-ca/": {
+      "hash": "9779653483a80ec2ecb81ab254f4fb231c46d2d6305f24f87cad28ca860c0d69"
+    },
+    "https://worldbestinsurer.com/ca/product/manulife-term-ca/": {
+      "hash": "e2ff3999b0512ab70df97eeca67c6d1309fd3c4234a6d0894d3b2641290b99ac"
+    },
+    "https://worldbestinsurer.com/ca/product/sunlife-term-ca/": {
+      "hash": "c02f6bf47ca22c3a08a89609a158f02573ee4eec1fc2ce25068aad380421713b"
+    },
+    "https://worldbestinsurer.com/ca/product/canada-life-term-ca/": {
+      "hash": "7daa31b465feedfde4c566f48accb541dc07406f327ab84bef65e162776d9a37"
+    },
+    "https://worldbestinsurer.com/ca/product/ia-term-ca/": {
+      "hash": "a7b2f797b3752c9c6b29d491dd678e8dea8a175a1c1206dab4cfbbf7f0b2d882"
+    },
+    "https://worldbestinsurer.com/ca/product/cooperators-term-ca/": {
+      "hash": "44f82351dfb98c260ad3fee9748b728eb30778ea4b865b0cb20611001c5a485a"
+    },
+    "https://worldbestinsurer.com/ca/product/empire-life-term-ca/": {
+      "hash": "c8dbdb1ea0e4a608cdc2a16d40c4f2ee0e655d1e808f215f999665dc9e8a5f1f"
+    },
+    "https://worldbestinsurer.com/ca/product/assumption-life-term-ca/": {
+      "hash": "8a9a8e1d087ed4ea38d8dec75ce8b7bf28ae22e39594ae7474a934c9d23b044f"
+    },
+    "https://worldbestinsurer.com/ca/product/foresters-term-ca/": {
+      "hash": "42fe28f67681dcfad78841298cf613c855bf765297ab34a522871e7591b78776"
+    },
+    "https://worldbestinsurer.com/ca/product/intact-auto-ca/": {
+      "hash": "a60698887030b6ff5268039c6439db1731caa424b1c67977d1ad9f8e37697083"
+    },
+    "https://worldbestinsurer.com/ca/product/desjardins-auto-ca/": {
+      "hash": "015a6075646f549af3c9a382458b2f84d5070ea7bf2a91bd80639237daf5e123"
+    },
+    "https://worldbestinsurer.com/ca/product/td-auto-ca/": {
+      "hash": "66b07c69781e2ec867627cf960af9b2e213a8e57650c1bef8e46c200fcf989eb"
+    },
+    "https://worldbestinsurer.com/ca/product/aviva-auto-ca/": {
+      "hash": "76e50196b3ed7d4c6367fefad23720ff7aadc628c691fe2c0b506b196d70f1cb"
+    },
+    "https://worldbestinsurer.com/ca/product/economical-auto-ca/": {
+      "hash": "af88932e9e00683008c029baf72cc4524269b2f9955128a4516cf4b143abcc56"
+    },
+    "https://worldbestinsurer.com/ca/product/wawanesa-auto-ca/": {
+      "hash": "5feed9e26e38660189245d53aeee0a454d5df871b4a44801b34fb09cbc99cb18"
+    },
+    "https://worldbestinsurer.com/ca/product/gore-mutual-auto-ca/": {
+      "hash": "03cca54ee95f431e3be3360f3863efd1f1fe97adca57cd578076a753784d9db9"
+    },
+    "https://worldbestinsurer.com/ca/product/belairdirect-auto-ca/": {
+      "hash": "72d0cb96aec833ced36413bf7294af27e228ed160b15ac86f7d0d9963cef6de1"
+    },
+    "https://worldbestinsurer.com/ca/product/manulife-travel-ca/": {
+      "hash": "fdc037314f6ca17277bc4800201290c65ca48710bb95c3728ea82d2af15ca889"
+    },
+    "https://worldbestinsurer.com/ca/product/bluecross-travel-ca/": {
+      "hash": "5621b8177e976967ea58779340c9bfd89c45a24c82283d346b7bc18737aac489"
+    },
+    "https://worldbestinsurer.com/ca/product/td-travel-insurance-ca/": {
+      "hash": "240d98229350092f1a01aeb76c13cfa34065358c3b85aed8cff35cbe45041790"
+    },
+    "https://worldbestinsurer.com/ca/product/tugo-travel-ca/": {
+      "hash": "479144d513a0207546880dce065aa9c80b33180989ee18d37d920d76cc59540f"
+    },
+    "https://worldbestinsurer.com/ca/product/gcic-travel-ca/": {
+      "hash": "98b178ba7794ee9aabf5a7c150fb9f70293111d16ec99aa6191d8fd507ea5130"
+    },
+    "https://worldbestinsurer.com/ca/product/travel-cuts-ca/": {
+      "hash": "0e405d4961e57781d7cc9777512b016f4f6ab6c067ff5a6121fc774b5e61c8cb"
+    },
+    "https://worldbestinsurer.com/au/product/medibank-au/": {
+      "hash": "ebe4dfff727d530988df650b0fb9de8d65ead6adf9a58240bea2ffc3d5bcac82"
+    },
+    "https://worldbestinsurer.com/au/product/bupa-au/": {
+      "hash": "3c20940663e648543899eb097b71c74f19c582e13f362731837d9936c284d043"
+    },
+    "https://worldbestinsurer.com/au/product/hcf-au/": {
+      "hash": "17224b25eafe938de7992ed0a9e61f4e950ccf4afc6d5089f5eb1673598217d6"
+    },
+    "https://worldbestinsurer.com/au/product/nib-au/": {
+      "hash": "bd83713422b1a923ff74599670306ae456b094e1e89b33d0a1af914cf37f674b"
+    },
+    "https://worldbestinsurer.com/au/product/ahm-health-au/": {
+      "hash": "30a5d52e6b921e7082e5b46ac5ff54ddecaff1914d580fadf847d841f5b1c432"
+    },
+    "https://worldbestinsurer.com/au/product/australian-unity-au/": {
+      "hash": "3d2247a8d2062545944d19e060cd91daa95c170394788ba6beff7e58f14e6eb7"
+    },
+    "https://worldbestinsurer.com/au/product/teachers-health-au/": {
+      "hash": "74ac11419469a527b6ad1fa26b7826966716ea740c55ef83a10f7cd6630d18d2"
+    },
+    "https://worldbestinsurer.com/au/product/health-partners-au/": {
+      "hash": "fa3bfdd6786086703b00a1d78b7f6701dafca86434672d1d0b6c9f1cb90ec8b2"
+    },
+    "https://worldbestinsurer.com/au/product/frank-health-au/": {
+      "hash": "1f0a34af8e4cfd64fc8019bcdb2339576636b0bd75a88ccbc8bfa2c67085e69a"
+    },
+    "https://worldbestinsurer.com/au/product/hbf-health-au/": {
+      "hash": "d20f8f85b6e64c54571e50076dcec4f6f39404a7044b04019bfc92349117ebcf"
+    },
+    "https://worldbestinsurer.com/au/product/tal-term-au/": {
+      "hash": "ee81a8087156f94571e6042d03a9ac45ee63e99be499ae121706030093393974"
+    },
+    "https://worldbestinsurer.com/au/product/aia-term-au/": {
+      "hash": "d5375e6349e355dac6b354eb12eba933f5cc9971918b7134b32e7936cab4e2c9"
+    },
+    "https://worldbestinsurer.com/au/product/zurich-term-au/": {
+      "hash": "806aaf47a0af84ba95c244c1ec75f49d68b1dc2943bb03933a1d0215c2516c5c"
+    },
+    "https://worldbestinsurer.com/au/product/metlife-au/": {
+      "hash": "0dd7c2ed0f7bd4e1016d35cbed0ac576a20cca73aa3d1306f62ac524ef38f4db"
+    },
+    "https://worldbestinsurer.com/au/product/clearview-term-au/": {
+      "hash": "9db46f18102c2a5336f55c46a263bc61743df9d90eb88b112d83af288bf54571"
+    },
+    "https://worldbestinsurer.com/au/product/onepath-term-au/": {
+      "hash": "d8808abe9f16df7914ec5c894d077df31cb0af5cd9bb7312a4733207604e42f0"
+    },
+    "https://worldbestinsurer.com/au/product/mlc-term-au/": {
+      "hash": "1a44fc77425bdb9402558fa31e472c94ee439b23859130d322154f67d7832800"
+    },
+    "https://worldbestinsurer.com/au/product/bt-life-au/": {
+      "hash": "3016e4f217070f39327013dd0269c36182747f28ef11932e83bd2e29eb5fe8f6"
+    },
+    "https://worldbestinsurer.com/au/product/nrma-auto-au/": {
+      "hash": "eeb54cbb5d86996a16edcc909e28128319c6c70d77c5fe746d3a0220388d925e"
+    },
+    "https://worldbestinsurer.com/au/product/racv-auto-au/": {
+      "hash": "4eed8de455299aafdbd1b046a3df3ab1b621b45a42eef61b372784d49ec3649c"
+    },
+    "https://worldbestinsurer.com/au/product/allianz-auto-au/": {
+      "hash": "d46268b789a743b2070eee14c354df2ffd0674dba5f33081ec6829fdf16db840"
+    },
+    "https://worldbestinsurer.com/au/product/aami-motor-au/": {
+      "hash": "b09e6bd3642285ad69efb8303bf9af5a3ecc52776f320687775734a05365a2ee"
+    },
+    "https://worldbestinsurer.com/au/product/budget-direct-au/": {
+      "hash": "f6eb5ed1723d377fae0c79d87bdaaa56940e491dcf5eaf3f2624389d52142fb5"
+    },
+    "https://worldbestinsurer.com/au/product/youi-motor-au/": {
+      "hash": "881380349f2b670952ce79d6051447cf66f1a12f00ccd3e0b60b85fce56befb7"
+    },
+    "https://worldbestinsurer.com/au/product/real-motor-au/": {
+      "hash": "cffe079584d23d9aab5371e7b272848110a9927689d00fb6eb5dc1f13a4c2e2f"
+    },
+    "https://worldbestinsurer.com/au/product/suncorp-motor-au/": {
+      "hash": "4da0afa2652cc78640b0290e4f0f8c961d62389a1feb25eefa835213856282e5"
+    },
+    "https://worldbestinsurer.com/au/product/covermore-au/": {
+      "hash": "45582aa7ce5d0e3607a6eab47c8695663ce4b31cd2108a2f8a2a2c8b881797b8"
+    },
+    "https://worldbestinsurer.com/au/product/world-nomads-au/": {
+      "hash": "84869158330c8f51a1d23da94fe27b26dc74b324b177695b77597df0231eb9e1"
+    },
+    "https://worldbestinsurer.com/au/product/fast-cover-au/": {
+      "hash": "51b67fce98717299d06c244a4e769c5f3392c990c4b6592264bda6af22977216"
+    },
+    "https://worldbestinsurer.com/au/product/1cover-au/": {
+      "hash": "5dc01246b2b84687ae2f1ce48ad62eeca61a77f8c57be2ed82e0d0a9454c0f86"
+    },
+    "https://worldbestinsurer.com/au/product/qbe-travel-au/": {
+      "hash": "0160a1103f39c199a3c31e6a9fd8e0c2e068ec0c45cbc6517e0306d160c6973b"
+    },
+    "https://worldbestinsurer.com/au/product/insureandgo-au/": {
+      "hash": "752e1afa6bc13c85bc789296b618700693fd61e0c42e8758f8d2bdc8e3eb7eac"
+    },
+    "https://worldbestinsurer.com/de/product/tk-health-de/": {
+      "hash": "770189a48686afbae67e249a60380620c65c27de885b9a6f55c87c9e897057b6"
+    },
+    "https://worldbestinsurer.com/de/product/allianz-pkv-de/": {
+      "hash": "bb62edd3e0f6ce5a3bb46519909b16cb9ac0485ea87f6820c44443009151c4ec"
+    },
+    "https://worldbestinsurer.com/de/product/debeka-health-de/": {
+      "hash": "def6029bd85f051eac97d992e891f200832032d5c7328677eda3a4615bc29ccd"
+    },
+    "https://worldbestinsurer.com/de/product/barmer-gkv-de/": {
+      "hash": "335ba4f708f67992f560cab21f4df4cccb8c1d1647332e9b6c783c65d3777840"
+    },
+    "https://worldbestinsurer.com/de/product/hkk-health-de/": {
+      "hash": "210494b5057e5c0e87fb4ef4ef9da4c6836f21d39aa970037bc62bca3710b978"
+    },
+    "https://worldbestinsurer.com/de/product/signal-iduna-pkv-de/": {
+      "hash": "2829c34c85c8f130c53087353bc601075026e8dd3d9b73aa5754409647c6354b"
+    },
+    "https://worldbestinsurer.com/de/product/dak-health-de/": {
+      "hash": "05ff30da1d2659c72885e32454fbca5b3101a6525f35e5c9b0e79ee90bd3e73c"
+    },
+    "https://worldbestinsurer.com/de/product/hanse-merkur-pkv-de/": {
+      "hash": "34f67a1c58f38de382a922d77d3d492dfdfa9e1b6ca5bc9ae7fffa9f979341e2"
+    },
+    "https://worldbestinsurer.com/de/product/allianz-risk-de/": {
+      "hash": "b75cbcd13af1c9859d0ca5d8f08c87c67666c5b126375c348375d58708c7955b"
+    },
+    "https://worldbestinsurer.com/de/product/cosmos-term-de/": {
+      "hash": "4ebbc29fae7d9f5a6bc5b5e77ed132506f554915be0d675045b2e8fee27f464f"
+    },
+    "https://worldbestinsurer.com/de/product/hannoversche-term-de/": {
+      "hash": "3b875e1c3e7b53a793f84950db418a441fd510bfcd8ca83ea71b00e57c2439b1"
+    },
+    "https://worldbestinsurer.com/de/product/nurnberger-term-de/": {
+      "hash": "7e1c74e439ab03af282e20cbfafe86eac9af9e0629c6a05020eccba15e7ec06e"
+    },
+    "https://worldbestinsurer.com/de/product/axa-term-de/": {
+      "hash": "811728b765bb1e1d7c13536c078b47b233cc722c7559b541e2cd3b4f9935d990"
+    },
+    "https://worldbestinsurer.com/de/product/generali-term-de/": {
+      "hash": "9620a1c801ba523d1c6016f612fda6a15a6d34e6b2499624577d597203067d93"
+    },
+    "https://worldbestinsurer.com/de/product/huk-motor-de/": {
+      "hash": "af0aaea057b4337806fdbf6e489d517ccc679ffff8480755626a86912aafa0b6"
+    },
+    "https://worldbestinsurer.com/de/product/allianz-motor-de/": {
+      "hash": "6c60fe5e39c07051436bcfd6466c7605aacfe41484ec4040f8f21a02c7abcc3c"
+    },
+    "https://worldbestinsurer.com/de/product/zurich-motor-de/": {
+      "hash": "ed805bdcff29d4ee1c7c920900feb2dcc95445699ad1dbc687c2b0283eafafce"
+    },
+    "https://worldbestinsurer.com/de/product/ergo-motor-de/": {
+      "hash": "ff869c9481b5678276ab05932e6fe6e981304bea0a9956587dc29e00bc8433e3"
+    },
+    "https://worldbestinsurer.com/de/product/axa-motor-de/": {
+      "hash": "02ccbd0e5ecf255b0a43ffde1aba3e240044cd9151cb8e0b583a804047f5bc6f"
+    },
+    "https://worldbestinsurer.com/de/product/generali-motor-de/": {
+      "hash": "503d9566f289c7c942864b3a2a82e1eb7d3552ac1d95212d42a10132f5eb1fbc"
+    },
+    "https://worldbestinsurer.com/de/product/ergo-travel-de/": {
+      "hash": "dae3a26e2e835309bb047750213c447e39dee2bb51cb16f03b9b1c5af886f6c0"
+    },
+    "https://worldbestinsurer.com/de/product/hansemerkur-travel-de/": {
+      "hash": "1c093ded61127cb3d8986d1393efb38f7fb5b802d23f75fc068647126a6e7d08"
+    },
+    "https://worldbestinsurer.com/de/product/adac-travel-de/": {
+      "hash": "257c436d3b065ecb91b42b0642ce3a5fedbced68a81f48e8b3da5fe6d91709b3"
+    },
+    "https://worldbestinsurer.com/de/product/allianz-travel-de/": {
+      "hash": "26a4689255eb24e41a09831f9c2e1146e329659f29f387280a601d6117b52327"
+    },
+    "https://worldbestinsurer.com/de/product/signal-iduna-travel-de/": {
+      "hash": "1b0314480d0dec541ed0feefa28f56900b1fff7450591f88cf5c5aa6f3393600"
+    },
+    "https://worldbestinsurer.com/de/product/ergo-travel-annual-de/": {
+      "hash": "a8d6f5f63c421385948101404c771d308383ad12010f7930034418ce3d041025"
+    },
+    "https://worldbestinsurer.com/sa/product/bupa-arabia-health/": {
+      "hash": "11910ee13e6fa463f918f6055eb05b9ee0530f084c4b3747458ca22dfd9ac274"
+    },
+    "https://worldbestinsurer.com/sa/product/tawuniya-health/": {
+      "hash": "cbb9b47e9e4b4f975dc14494f185d64d56109e94eaea3d729849788bacbe4f19"
+    },
+    "https://worldbestinsurer.com/sa/product/medgulf-health/": {
+      "hash": "c338e3981c80274fcfe2c6ed2e76dd32d1060c0b4263dd224fbe3e7762350d3f"
+    },
+    "https://worldbestinsurer.com/sa/product/malath-health-sa/": {
+      "hash": "1e3e0cfdafaf63dcc5747aed54bf2a4520ab8327527762e9d3ade8b457c61385"
+    },
+    "https://worldbestinsurer.com/sa/product/walaa-health-sa/": {
+      "hash": "197ccd5c71059f4fd481457665591e244b8aa9d414300333cc817ebe95f3dbbc"
+    },
+    "https://worldbestinsurer.com/sa/product/solidarity-health-sa/": {
+      "hash": "80aff2fb0f018131e548605276f1da8405b30aa4d39f18e27326f47791634790"
+    },
+    "https://worldbestinsurer.com/sa/product/al-ahli-takaful-health-sa/": {
+      "hash": "3d0513688105a0e6bcd801a5c7b06e0af10ca1c6e5dd8a1169491953c4c6513a"
+    },
+    "https://worldbestinsurer.com/sa/product/axa-cooperative-health-sa/": {
+      "hash": "584d42d415d5433aca4c0d73d0ee6b4ccf62e87dab8b170e0e4e405ff167adf7"
+    },
+    "https://worldbestinsurer.com/sa/product/tawuniya-life/": {
+      "hash": "ea460f811e13c8e609cfd317762e8b7aa15727adc87c9dbb76b77ba758139ae8"
+    },
+    "https://worldbestinsurer.com/sa/product/metlife-sa-term/": {
+      "hash": "1c3b1a18c57c60d50ae3cb3dbe5da5cd770dc71b9667ecea967477d32f553a0c"
+    },
+    "https://worldbestinsurer.com/sa/product/allianz-sa-term/": {
+      "hash": "3a0056838188fed106b57ad1ca8c984d29e2f6dedcd3276b67d420260e79400a"
+    },
+    "https://worldbestinsurer.com/sa/product/axa-cooperative-sa-term/": {
+      "hash": "44e72412d8b013cb66571a303c62b240f19277089eb6e6ce29596d1157df2f79"
+    },
+    "https://worldbestinsurer.com/sa/product/solidarity-life-sa/": {
+      "hash": "900bfecd4f124df5f6f085053eaa284c2dd19e7041be9cc853122af102bd439c"
+    },
+    "https://worldbestinsurer.com/sa/product/bupa-life-sa/": {
+      "hash": "1844db9787c168798ffdc1ba127cb0dadf8c08ad5613b0ce0db90031d6be6719"
+    },
+    "https://worldbestinsurer.com/sa/product/tawuniya-motor/": {
+      "hash": "3d72b924f59d947a0313d555f26a45bd7663f117da9d9a23c8a34e41cb4229b0"
+    },
+    "https://worldbestinsurer.com/sa/product/bupa-motor-sa/": {
+      "hash": "9c31f682013b6408657f1315427fc204694b8c7771be58fa6a8fd865f8f504a9"
+    },
+    "https://worldbestinsurer.com/sa/product/malath-motor-sa/": {
+      "hash": "cb6af11c2353793f384f084a123e67acb79ad479cbacc3cd5012558386ec40ba"
+    },
+    "https://worldbestinsurer.com/sa/product/wataniya-motor-sa/": {
+      "hash": "caf20fbcb627b3c0f2fac1aca3512a80c3e4d77f784cc0fe112f0e4c32b1bded"
+    },
+    "https://worldbestinsurer.com/sa/product/al-ahli-takaful-motor-sa/": {
+      "hash": "10f002a78b86bf1dfffafa53f39637084466802a36576bae1760ebfdea0aa060"
+    },
+    "https://worldbestinsurer.com/sa/product/walaa-motor-sa/": {
+      "hash": "a54739333731fb06333b475b0b507ae8b088fb7d1255ac22f4d206efcb61a403"
+    },
+    "https://worldbestinsurer.com/sa/product/tawuniya-travel/": {
+      "hash": "316bed4831958d6c5563a515cac237d92c0576f84f5e713dc9bd4f9862babf19"
+    },
+    "https://worldbestinsurer.com/sa/product/tawuniya-world-travel-sa/": {
+      "hash": "cff5c3b01734aac4763fcf8f553aae3bb33146ce39cd407f52e41ee6cda504a8"
+    },
+    "https://worldbestinsurer.com/sa/product/bupa-travel-sa/": {
+      "hash": "e807c51a7fbc13e567f5223169091478448b75c810253bf3deffe480de7cfd29"
+    },
+    "https://worldbestinsurer.com/sa/product/solidarity-travel-sa/": {
+      "hash": "126edc5eb1b06b5b4f20e9695f187a5cc13096a571af2e131efd5aeb1bad0463"
+    },
+    "https://worldbestinsurer.com/sa/product/malath-travel-sa/": {
+      "hash": "d245d3bbcca83e71f3ced183531e996196be8af26181dbad3c8a0e5825b96e19"
+    },
+    "https://worldbestinsurer.com/sa/product/medgulf-travel-sa/": {
+      "hash": "ee429cf0eadeec0ffee631414f72fcb868f7e845d2854cefc31fb77079601e83"
+    },
+    "https://worldbestinsurer.com/jp/product/nippon-life-medical/": {
+      "hash": "b2b197072425bac01d636829200fe1648fdce10cb9c830c1178895c6afc8ef89"
+    },
+    "https://worldbestinsurer.com/jp/product/aflac-japan/": {
+      "hash": "2e66cd9071dc8a08ff5bffb4d06aa40775829cd0c89262b4f73a3c56efcd42b9"
+    },
+    "https://worldbestinsurer.com/jp/product/dai-ichi-medical/": {
+      "hash": "bd04bb66356d182bc264c64dda35ae56a63473f8201aded2a9fe719547323535"
+    },
+    "https://worldbestinsurer.com/jp/product/meiji-yasuda-medical/": {
+      "hash": "22938b0442a8283e766b6400bf6cccb25173330ae09535a23aacca40bbff5277"
+    },
+    "https://worldbestinsurer.com/jp/product/sumitomo-medical-jp/": {
+      "hash": "bdaccbf2befb26076afc2a8ad3e62b1bc9e2d508b4dfd51fdf5cc764aaad0761"
+    },
+    "https://worldbestinsurer.com/jp/product/sony-life-medical-jp/": {
+      "hash": "c7817619a5381cf2a39dad41e3430dd6814e88fa28fbc1fb4893432589e620f3"
+    },
+    "https://worldbestinsurer.com/jp/product/manulife-medical-jp/": {
+      "hash": "27b5b696ae4b0967bc0847bad2314a32b230ebd4e37011c575c3e3253d8ae8df"
+    },
+    "https://worldbestinsurer.com/jp/product/tokio-marine-anshin-jp/": {
+      "hash": "7acb0db5faa85d59914613ff16498ffb1c0d145f4a6cc8932e1fa465b238695a"
+    },
+    "https://worldbestinsurer.com/jp/product/nippon-term/": {
+      "hash": "d5173cdb9332f49e17bf6bd0f8cf6396ea8b9160a28c5a07020412dd56575492"
+    },
+    "https://worldbestinsurer.com/jp/product/lifenet-term/": {
+      "hash": "f7b80ac676a469bb0d700b49f5f84f3523949e95d400f17fb393a8ff62084533"
+    },
+    "https://worldbestinsurer.com/jp/product/meiji-yasuda-term-jp/": {
+      "hash": "c5bd6eb4ad754d49ad11cf4a52edc3350b05c53bd47630d72f2474ae1ba43ec4"
+    },
+    "https://worldbestinsurer.com/jp/product/daido-term-jp/": {
+      "hash": "f22d051cd33365fdb6990f276e9c885bd74ebf9a647d24646f5858d6fdbd6b6e"
+    },
+    "https://worldbestinsurer.com/jp/product/taiyo-term-jp/": {
+      "hash": "b979c76ba3a9c8f77b9c3c16889b750519e23da0ec12f108e87a735aac03d568"
+    },
+    "https://worldbestinsurer.com/jp/product/sony-life-term-jp/": {
+      "hash": "4f7756b013ed369e3ac2fd03664ad7629f1672abebe8231dd1bc3f9a865f4677"
+    },
+    "https://worldbestinsurer.com/jp/product/tokio-marine-motor/": {
+      "hash": "2529ba824f2c2bfee1cbdb4c1ce6781e1d75d9a0aa4cb17ffebbcf2487ad9bc6"
+    },
+    "https://worldbestinsurer.com/jp/product/sompo-motor/": {
+      "hash": "fcbbe7beaa658f4af378d575856a88419cdadaa9f9f5084ecde85c9f3f74c313"
+    },
+    "https://worldbestinsurer.com/jp/product/aioi-nissay-motor-jp/": {
+      "hash": "8c53d24f65d97fcd672f7b3ca22864282f9c04b102f9841f3da8424862259154"
+    },
+    "https://worldbestinsurer.com/jp/product/mitsui-sumitomo-auto-jp/": {
+      "hash": "779dedae48d65ca8e4cd1289f8e55587894e9cf7b92b99f5fd7ade3fd3b2cdcf"
+    },
+    "https://worldbestinsurer.com/jp/product/zurich-motor-jp/": {
+      "hash": "b83d80abf1ee89504e082be57cc096b05bc8f8d155f472f24a69cfbcb9dbf34e"
+    },
+    "https://worldbestinsurer.com/jp/product/tokio-fire-auto-jp/": {
+      "hash": "d48736e7d138e75ce87525b5350c75e1a583096234a0f679ba295dc03bebd32a"
+    },
+    "https://worldbestinsurer.com/jp/product/tokio-marine-travel/": {
+      "hash": "75918ab6686a7a7e6ddb21859f7b29cacc45de50cd17b5333480968e715b86a5"
+    },
+    "https://worldbestinsurer.com/jp/product/sompo-travel-jp/": {
+      "hash": "94998dcb980ff06e78cfaaed5edcc4181bf44d52e9b88ea10ee76304557d0a09"
+    },
+    "https://worldbestinsurer.com/jp/product/aioi-travel-jp/": {
+      "hash": "ed271b2399441d839913e485914171f5fb6485c43767cbb614f9729305877d02"
+    },
+    "https://worldbestinsurer.com/jp/product/mitsui-sumitomo-travel-jp/": {
+      "hash": "845e0a56b993a9a6d24a2844999fe79922dd4321e43e745f9b29946412048d77"
+    },
+    "https://worldbestinsurer.com/jp/product/meiji-yasuda-travel-jp/": {
+      "hash": "b6f625348bce0f9bc08ccabb02c22ef09d683d7d2f44cb7b787fbf1c0a85f834"
+    },
+    "https://worldbestinsurer.com/jp/product/au-travel-jp/": {
+      "hash": "9985e575d2f9cabc35d038fea3a0e1aab7f64f630e1b66906a1bf14c026dac6d"
+    },
+    "https://worldbestinsurer.com/kr/product/samsung-life-health/": {
+      "hash": "ddd0a7e86c346242c0958b7c1fbacb86682e0501262395abcff88b7c057e7090"
+    },
+    "https://worldbestinsurer.com/kr/product/hanwha-health/": {
+      "hash": "6f7a9f2111b33fd487a566632f1ad15a31d5ee174863909d075ce490b7ec0ca3"
+    },
+    "https://worldbestinsurer.com/kr/product/kyobo-health/": {
+      "hash": "e3823bee8af9b51b68baa834cf531980136306c21b4ed0d685dc3252c651ea97"
+    },
+    "https://worldbestinsurer.com/kr/product/lotte-health-kr/": {
+      "hash": "e15e251dbc2e1debfeacdfd9111dc558379c6d0e78e0c1078e39e1f0bba9501d"
+    },
+    "https://worldbestinsurer.com/kr/product/hyundai-marine-health-kr/": {
+      "hash": "4c61b8e2a4797954ca1f0c07134d4c262e675ae9b7a6a8f94ad1e8970801b019"
+    },
+    "https://worldbestinsurer.com/kr/product/db-insurance-health-kr/": {
+      "hash": "07f2dd5eb3cb72344c76be348aa686ada566be5150f76482d984c87ab0229eee"
+    },
+    "https://worldbestinsurer.com/kr/product/meritz-health-kr/": {
+      "hash": "2afdcf12308045082306359ffabfc0e54bd5704c784d0c3fac3ce07ee6d2652f"
+    },
+    "https://worldbestinsurer.com/kr/product/nhfire-health-kr/": {
+      "hash": "e9a3e8ba573388c9f7038f8093671dacaf48d17368bfda010f894f22e74a803d"
+    },
+    "https://worldbestinsurer.com/kr/product/samsung-term/": {
+      "hash": "14fb44ba91e3e98736292248b6b7c73bc68928fdf9ed936f0370e91ea5436443"
+    },
+    "https://worldbestinsurer.com/kr/product/hanwha-term/": {
+      "hash": "22bcf5861cc35e568e29652eb771f121539e95f837c590cdd3cae0747dbb970e"
+    },
+    "https://worldbestinsurer.com/kr/product/kyobo-term-kr/": {
+      "hash": "c0a61b264585498ba28244edecc803ced8ffc48b956a8828dd46fc4002b8a30f"
+    },
+    "https://worldbestinsurer.com/kr/product/nhlife-term-kr/": {
+      "hash": "e2160e011be6f0e2728efdeac434892f7217e85979b3c786c7a359922b15b9e7"
+    },
+    "https://worldbestinsurer.com/kr/product/db-life-term-kr/": {
+      "hash": "2cde657dd94d474a7ecf0ec2633c2939ca999bb2d724de3530769ac4829469dd"
+    },
+    "https://worldbestinsurer.com/kr/product/meritz-life-term-kr/": {
+      "hash": "17f88e96af6fbbdf65ba8c71d3a4bc38f6c6b8b429685591424a1ad1dea04af1"
+    },
+    "https://worldbestinsurer.com/kr/product/samsung-fire-motor/": {
+      "hash": "b3245fe8c44b9e13bc6177032915e98e0b7990f0c25a6203400e5cd3a09bd8a2"
+    },
+    "https://worldbestinsurer.com/kr/product/db-motor/": {
+      "hash": "092ac42887e79de6b0fd0f3c27bdcede2fa79739eaf2fd5277434fd0b09a11ca"
+    },
+    "https://worldbestinsurer.com/kr/product/hyundai-marine-motor-kr/": {
+      "hash": "4853ea11d23f91220602d34a982a9eaf78ae8d1253703523026324100c67b180"
+    },
+    "https://worldbestinsurer.com/kr/product/kb-insurance-motor-kr/": {
+      "hash": "b24be93c6202a8408c0335f024b998dc26c2947a787e2bdb09c5aaa1038219a5"
+    },
+    "https://worldbestinsurer.com/kr/product/lotte-motor-kr/": {
+      "hash": "09a15fa099b0a12399ec7226f8ffd88e9938f040471761fab03ac11ce20652c1"
+    },
+    "https://worldbestinsurer.com/kr/product/nhfire-motor-kr/": {
+      "hash": "ee139fefbfd986546f0bd33d473a587556f54f272347398522f37db27ae6ec26"
+    },
+    "https://worldbestinsurer.com/kr/product/samsung-fire-travel/": {
+      "hash": "18cb2c4f65534a7ef33c1c08e707c092d23d272211ae395b2711b4bfcfcf4ba3"
+    },
+    "https://worldbestinsurer.com/kr/product/samsung-fire-travel-global/": {
+      "hash": "1a4a33c35609667765354687a8798e5ed38325aabc54bec73c767c7dbf1de96c"
+    },
+    "https://worldbestinsurer.com/kr/product/kb-travel-kr/": {
+      "hash": "683a5396bc777c30fb2057a008158bc9c35c516e907ac7afaf0b3f7c03fb4869"
+    },
+    "https://worldbestinsurer.com/kr/product/meritz-travel-kr/": {
+      "hash": "de786e091c19063c33a4b58e75a8567866b75402f9c4905877f7f748889efc94"
+    },
+    "https://worldbestinsurer.com/kr/product/hyundai-travel-kr/": {
+      "hash": "f41c6b70e9dd30281e12cac9b35716e302d0f477e133b7270a440659d8b85162"
+    },
+    "https://worldbestinsurer.com/kr/product/db-travel-kr/": {
+      "hash": "80c4e520de6d11bfc19e0d4b83bf2bdbab1201028d48c47e561e02f436847092"
+    },
+    "https://worldbestinsurer.com/hk/product/aia-vhis-hk/": {
+      "hash": "f35405af1da1c211713f78003a9cfeb1c5726e3f21c516a31aedecd88fe179c8"
+    },
+    "https://worldbestinsurer.com/hk/product/bupa-hero-hk/": {
+      "hash": "e33f9fd22be471ea15decffe32c496e9b6fafbdd735f2a731a40e9ae35181717"
+    },
+    "https://worldbestinsurer.com/hk/product/cigna-global-hk/": {
+      "hash": "86a2e4cc90a7738e4c7dd2a18a2c6b3f986438a76f6dd333c23c070479aa864e"
+    },
+    "https://worldbestinsurer.com/hk/product/bowtie-hk/": {
+      "hash": "3171c5eeadebbb4c4069f25814ea03e161ed799142ec6ae9ca42878e90d14780"
+    },
+    "https://worldbestinsurer.com/hk/product/prudential-vhis-hk/": {
+      "hash": "c4cb28d64be33a5cc1a72c8233a8c707bcf45cfad7b49a075119d6716f2b3029"
+    },
+    "https://worldbestinsurer.com/hk/product/sunlife-vhis-hk/": {
+      "hash": "6ba33b855ccc41e49163c8271ce22bc22a0d8ff168e45a1fe47ac60c0e6f6d18"
+    },
+    "https://worldbestinsurer.com/hk/product/manulife-vhis-hk/": {
+      "hash": "adcbc2c91e8289152a97d16b37281bc49a37b9291d18c2f0e4f1ed3e459d9b8f"
+    },
+    "https://worldbestinsurer.com/hk/product/china-life-vhis-hk/": {
+      "hash": "15e7a18e38dea784e491a597c509acc2c656548e8113b55956df9403be628663"
+    },
+    "https://worldbestinsurer.com/hk/product/aia-term-hk/": {
+      "hash": "f26c87eaf542ffb315b9344e1628f6ced1908117268a1142a1a3e29db176c441"
+    },
+    "https://worldbestinsurer.com/hk/product/manulife-term-hk/": {
+      "hash": "1bb8a4ba48646515d1ef66d4f82aa585230b63cf8280ef1dc47433b47daa1c9d"
+    },
+    "https://worldbestinsurer.com/hk/product/prudential-term-hk/": {
+      "hash": "d47711c3747df10e97c0110c8d6ed8c0659d03729434cf349ddcf18ce3270b07"
+    },
+    "https://worldbestinsurer.com/hk/product/sunlife-term-hk/": {
+      "hash": "3b4bbea1a847cb71e9f65192b765d0a78428f945704e241d550866a35b7fc0ce"
+    },
+    "https://worldbestinsurer.com/hk/product/zurich-term-hk/": {
+      "hash": "7f4167a621ad06bfbb79ae791b16df7af4d4d4ee71fad4928576e48cc2aa3eb7"
+    },
+    "https://worldbestinsurer.com/hk/product/china-life-term-hk/": {
+      "hash": "7c6e03dfd3fd0b7a4d1f737269ae12e3af56bb691e4474355df0fa1fd58a092e"
+    },
+    "https://worldbestinsurer.com/hk/product/axa-motor-hk/": {
+      "hash": "c0521a1872fa0f8e9fbdcdabdf5e876e376d63f248d7aa9cd95abbb70d14f8c5"
+    },
+    "https://worldbestinsurer.com/hk/product/qbe-motor-hk/": {
+      "hash": "e9f17a635b0cdb67a1618fd0e293f7057e5d39a02702df4e1bd796d4b07e54be"
+    },
+    "https://worldbestinsurer.com/hk/product/china-taiping-motor-hk/": {
+      "hash": "5454913fd1a664ece138e411368bf0c3590457e754a13bc89b4ebb31cb430501"
+    },
+    "https://worldbestinsurer.com/hk/product/msig-motor-hk/": {
+      "hash": "32230303e0ca11d12cd2c1a4fc69f342f8be686814a1f5964af3557e25657b2c"
+    },
+    "https://worldbestinsurer.com/hk/product/dah-sing-motor-hk/": {
+      "hash": "c035b321b79db078377864fd607ce3378b93768caaf467f40c5304e8f94f5cc3"
+    },
+    "https://worldbestinsurer.com/hk/product/yf-life-motor-hk/": {
+      "hash": "0a40c0fe3c566f7ee0843e3905bb29f57d3b03cfece6c719aed2507a84e6f272"
+    },
+    "https://worldbestinsurer.com/hk/product/fwd-travel-hk/": {
+      "hash": "348cd1a69e9c95b77eb4fac45795fee41345e654d1bb436f8585332e07ee6066"
+    },
+    "https://worldbestinsurer.com/hk/product/blue-cross-travel-hk/": {
+      "hash": "dc34ada052f70fe1108868c05c6ecb00765337bcbd7d5f1997ac8a1dae7583d7"
+    },
+    "https://worldbestinsurer.com/hk/product/prudential-travel-hk/": {
+      "hash": "d19635bed56a4f6c9f36d38226d7c8b895412c4ef9e548cd24c96309f9f7504c"
+    },
+    "https://worldbestinsurer.com/hk/product/aia-travel-hk/": {
+      "hash": "9b2b0257cd5a49974a5505970facae7f4ece5efa9091280960bd0da64aa97326"
+    },
+    "https://worldbestinsurer.com/hk/product/manulife-travel-hk/": {
+      "hash": "b8c7625345471685c41578033e061234f8c60b8d0f8b9e2c4d90cb455b1e95ca"
+    },
+    "https://worldbestinsurer.com/hk/product/china-taiping-travel-hk/": {
+      "hash": "0d6fa3df66a0c680382638c6505f5a0673d50168646dc3cb15057fc27d4beaae"
+    },
+    "https://worldbestinsurer.com/in/product/manipalcigna-sarvah/": {
+      "hash": "b8e14ba4529b22c976462ed60ab8400e10e8009731bec99bfdcb468106077794"
+    },
+    "https://worldbestinsurer.com/in/product/pnb-metlife-saral-jeevan-bima/": {
+      "hash": "c21611bd97f0be409134c4b203270062b784add8cac80ce03766e2f58cf9311b"
+    },
+    "https://worldbestinsurer.com/compare/health/": {
+      "hash": "718522e15900e6714c69ea96576708746525b28db22af2355ceffd0127c8dca3"
+    },
+    "https://worldbestinsurer.com/compare/term-life/": {
+      "hash": "a795ab7983e9fbc9c8bbc0f1783c800794e8429ca304fa6ed25fe2882f38fce8"
+    },
+    "https://worldbestinsurer.com/compare/motor/": {
+      "hash": "09c5350f5c6c54217da61c1f4f63f21843ff0fe3ececfe67c37205d1ffc0573a"
+    },
+    "https://worldbestinsurer.com/compare/travel/": {
+      "hash": "439834f62aada2124a61fef1d797f0202bf92bd21cbca259480a9dbb4c7e50ab"
+    },
+    "https://worldbestinsurer.com/in/insurers/": {
+      "hash": "9550b28b1058a02667ed06e16212b905fe52ecee54976b7dae6c24d01fe91d76"
+    },
+    "https://worldbestinsurer.com/in/compare/health/": {
+      "hash": "4b1f8f313e309742fce40b6212b6f1f8d2da4f9b1f967e8f4430687ae0416c76"
+    },
+    "https://worldbestinsurer.com/in/compare/term-life/": {
+      "hash": "61b7e461e19c0e2da13a9f1d5649274cb24576f26c67720ca6663440bfb743b7"
+    },
+    "https://worldbestinsurer.com/in/compare/motor/": {
+      "hash": "d671bc1315063e528075882c505982885fdee9e9dc772e9d2b33cb557d11cfc0"
+    },
+    "https://worldbestinsurer.com/in/compare/travel/": {
+      "hash": "bd9da035383c21c527a9b0c36fc336f31195c6249839c44dbad77802b7094371"
+    },
+    "https://worldbestinsurer.com/us/insurers/": {
+      "hash": "adbff00e0ebd3cf0a5004763dba016f50e44e5a4fd55d1811d0de2aeb3b2eea7"
+    },
+    "https://worldbestinsurer.com/us/compare/health/": {
+      "hash": "7defe81d83965b5b768af10613b16aa0332a938475f0638b108e8039c0ea6465"
+    },
+    "https://worldbestinsurer.com/us/compare/term-life/": {
+      "hash": "4d2cc0d7d78ded5970bbee3c9403ff8c52db1982b24d7b8da9a55ea9f981fb7b"
+    },
+    "https://worldbestinsurer.com/us/compare/motor/": {
+      "hash": "02d5bb59fda69fd3206ab9438189d987ef939803832aa78a776dbbbca75fff51"
+    },
+    "https://worldbestinsurer.com/us/compare/travel/": {
+      "hash": "6aba31ec898ef92bdf7a560b11234dfb325b448846f50b388e74a96da23dcfc0"
+    },
+    "https://worldbestinsurer.com/uk/insurers/": {
+      "hash": "e94497d3ff353faa4fd978b8141da0166a13943f30cfac87f2a825dbd155df27"
+    },
+    "https://worldbestinsurer.com/uk/compare/health/": {
+      "hash": "a4dd985e2ed3b81a6c3453846b9366f1042fbe21803fb3b6ca7c6cafc637118b"
+    },
+    "https://worldbestinsurer.com/uk/compare/term-life/": {
+      "hash": "cec9b204478cd5eefe45fd7dc38cee23a588b1ddd896f20d6e4ee351dd80af85"
+    },
+    "https://worldbestinsurer.com/uk/compare/motor/": {
+      "hash": "08af1a12df74103c03585b74131cfce372ff4c6dcdb627693aaaa5e145b96299"
+    },
+    "https://worldbestinsurer.com/uk/compare/travel/": {
+      "hash": "54a94880d3647593c1f3c668c03a4224c0e36911ad488b245565239fc80895f5"
+    },
+    "https://worldbestinsurer.com/ae/insurers/": {
+      "hash": "858dbf4e14b9609c987eaada113be5232aa7a9f6f0651f3db29ca4917e2c0f90"
+    },
+    "https://worldbestinsurer.com/ae/compare/health/": {
+      "hash": "0ef8a72c1a281e50a4285c97dc56e63ecbe85bc8bcfc21b065d338a3e2640170"
+    },
+    "https://worldbestinsurer.com/ae/compare/term-life/": {
+      "hash": "fac8288b2b729cca37ac59563879c7259c5609351e9b5a6d71c0abda075feb88"
+    },
+    "https://worldbestinsurer.com/ae/compare/motor/": {
+      "hash": "cbcdc90b1a0e4d2e3ef65ebb63ee701f607edd5e37589a74a11db75d1faf93fc"
+    },
+    "https://worldbestinsurer.com/ae/compare/travel/": {
+      "hash": "3a98a982357124bd95e421db38b91fc521d5ad5e608ac1f5ec8f6957346b1dda"
+    },
+    "https://worldbestinsurer.com/sg/insurers/": {
+      "hash": "5078b84e54d6ded9e8e9cff385aadc234764b0c2f5c475c34601cd0522408c6d"
+    },
+    "https://worldbestinsurer.com/sg/compare/health/": {
+      "hash": "46b93c9bdee34c0a6f9b612429f258623e26b5413491bf9e36349cab73e25dff"
+    },
+    "https://worldbestinsurer.com/sg/compare/term-life/": {
+      "hash": "a848133179a1b75c925f3202d39230fec6b443e166eb0a9cea6383c6ec4d8684"
+    },
+    "https://worldbestinsurer.com/sg/compare/motor/": {
+      "hash": "56defe29d687fea7225326ab7f1188f2a644e5609ab332a223221ebd24597390"
+    },
+    "https://worldbestinsurer.com/sg/compare/travel/": {
+      "hash": "becddd8af5d346d3cd6de383c70eb32a1af7e97b7503c931b51e76aa4c676777"
+    },
+    "https://worldbestinsurer.com/ca/insurers/": {
+      "hash": "cf117e88ccea705b3897928c6b4250e9a6882e59f4a5857b53b9452ef21bdf27"
+    },
+    "https://worldbestinsurer.com/ca/compare/health/": {
+      "hash": "ac0238117f5213cda02dc14bebb696a559eb768120d1afd6ade871bb5d79a4a6"
+    },
+    "https://worldbestinsurer.com/ca/compare/term-life/": {
+      "hash": "6c9655f272044a04aeb38f1ffdb528994509175f96e6511428470fa3fd763f25"
+    },
+    "https://worldbestinsurer.com/ca/compare/motor/": {
+      "hash": "342013fad645f6366b3c544cb6c0e0989e2826512afb089dbdb6535dbf4bade9"
+    },
+    "https://worldbestinsurer.com/ca/compare/travel/": {
+      "hash": "c9b7e8a5c1b4d18ed748174837ac6d65704f83adb3e740c47675b4f37585e0a5"
+    },
+    "https://worldbestinsurer.com/au/insurers/": {
+      "hash": "ff60f61dfd17f64c70111eb6ab2fc8e21305e1fe2d62a69170704d6f2c9b2a1b"
+    },
+    "https://worldbestinsurer.com/au/compare/health/": {
+      "hash": "8f20e303a0f9ba287ab58103874e8177d64a31d1730a23e82225041ca0f928bf"
+    },
+    "https://worldbestinsurer.com/au/compare/term-life/": {
+      "hash": "09f64564ce6de2839752e156bb7e77467102c6db5733b776c70051ceb4f5b7ed"
+    },
+    "https://worldbestinsurer.com/au/compare/motor/": {
+      "hash": "688d5e8949221dbb5b16874bd49d52df5441fdcad447210c4cd72024c2d6b410"
+    },
+    "https://worldbestinsurer.com/au/compare/travel/": {
+      "hash": "af09b364c37daf51f089e28c8d8719d7ab3a9c0b7183990eb1f4ebbc16a04b12"
+    },
+    "https://worldbestinsurer.com/de/insurers/": {
+      "hash": "7e6ced20a261494146148b7b690b1c109e0a821f33b5817073d0f8d223214d48"
+    },
+    "https://worldbestinsurer.com/de/compare/health/": {
+      "hash": "6508bb6185c130a891117aaadfb89e0b967b6f49708083f2200c0af3c813d196"
+    },
+    "https://worldbestinsurer.com/de/compare/term-life/": {
+      "hash": "1ff6da03862a275e05abdd9b699b76f47ca4eb1265d7f59685ec0a204f54635d"
+    },
+    "https://worldbestinsurer.com/de/compare/motor/": {
+      "hash": "09210b0f7d3fb6230bf0fcdc037b95f84b287ecc5457a1d9090e72e65fc52167"
+    },
+    "https://worldbestinsurer.com/de/compare/travel/": {
+      "hash": "384b55590e102bf0fd770ff29ff54ca491a8a7d4fe562df7cc64e9ae2e879779"
+    },
+    "https://worldbestinsurer.com/sa/insurers/": {
+      "hash": "1cf2ef90899ae0eddaa69b77c3fb1c5e7202ba5a8e8f61d0a37380efbe141eba"
+    },
+    "https://worldbestinsurer.com/sa/compare/health/": {
+      "hash": "e5847b818ef35f904527492f8a21781abc0b228009da6784525340f0147b43f4"
+    },
+    "https://worldbestinsurer.com/sa/compare/term-life/": {
+      "hash": "2a1f3876287c5399e253dce70abe593a315c60c28267b8cbfb8937ad7a537ea0"
+    },
+    "https://worldbestinsurer.com/sa/compare/motor/": {
+      "hash": "46f2d22a82012910b2cd8693eb7cfe778db966b00806a4520225986718ff37de"
+    },
+    "https://worldbestinsurer.com/sa/compare/travel/": {
+      "hash": "86d1d2b6b4fff8e3cdfdd29e1e02f546926f4d8880ed4793589462c7f83d668c"
+    },
+    "https://worldbestinsurer.com/jp/insurers/": {
+      "hash": "86251572dffc384c05dc354c40df5e6a4bf738b762429d50041491aac058344a"
+    },
+    "https://worldbestinsurer.com/jp/compare/health/": {
+      "hash": "88eeedb386b90599230a7a64d1369a543752b1c55680c03bee7c90b4ac26dbaa"
+    },
+    "https://worldbestinsurer.com/jp/compare/term-life/": {
+      "hash": "bb5c0dac107839ea9ac5f1d4437e9b17162ff8e74329fe741fdd4fbb784237ee"
+    },
+    "https://worldbestinsurer.com/jp/compare/motor/": {
+      "hash": "281b66da2814314c6fc54bf3cc7784da7b19e0e22a985c613040094cfebe251c"
+    },
+    "https://worldbestinsurer.com/jp/compare/travel/": {
+      "hash": "7b5d43e61ad303611390732401e7b2353beba8bd7954708028f3b25058b2408d"
+    },
+    "https://worldbestinsurer.com/kr/insurers/": {
+      "hash": "aa9fa98016dd65b13e14d3864643f4e5673bd0296fc3aabb6fe6598f2c72f592"
+    },
+    "https://worldbestinsurer.com/kr/compare/health/": {
+      "hash": "f696bee6174e12840a73a7a08ebfb86c69b73b1f96cf872f19dde18e3bef11c5"
+    },
+    "https://worldbestinsurer.com/kr/compare/term-life/": {
+      "hash": "69f4861cc45603468baa0251def347248b4d91f5d1a2e1808c094f667261566d"
+    },
+    "https://worldbestinsurer.com/kr/compare/motor/": {
+      "hash": "cd967c6a9964d52c184662afa2475cc2f831a3bc8fa3d9b0cad7c0a69e4559ec"
+    },
+    "https://worldbestinsurer.com/kr/compare/travel/": {
+      "hash": "269c09e4284d78621828098e03017cdcc166e99a14e33c781baa57efa35b1ef2"
+    },
+    "https://worldbestinsurer.com/hk/insurers/": {
+      "hash": "6aebb5e164544c17221b7cc18fe14ec079541ddc22a4335c6bcab35627d8495a"
+    },
+    "https://worldbestinsurer.com/hk/compare/health/": {
+      "hash": "2a6e659a9689dd15fa351d0712a0706dd231c918268f4dccda7728ad5104b235"
+    },
+    "https://worldbestinsurer.com/hk/compare/term-life/": {
+      "hash": "901667eb0e03b7cee473930611f842916b80b81ef7d7b7f8118f07e8156eb5a1"
+    },
+    "https://worldbestinsurer.com/hk/compare/motor/": {
+      "hash": "4c530dc1b00b422d5ba1978c1874ee41c569677e4b0e6578242f66046a21eff0"
+    },
+    "https://worldbestinsurer.com/hk/compare/travel/": {
+      "hash": "0f36022ba7e7361a5b187a37f1d2dce66820c4e9b3d5d71214b26f0cdb1b281d"
+    },
+    "https://worldbestinsurer.com/in/products/": {
+      "hash": "f242ca071987fae530b20c43377ce489b75133dfebe9e10c144a2e24e3f1900b"
+    },
+    "https://worldbestinsurer.com/learn/": {
+      "hash": "d2c42a5dbcf8e5d0e7d8a84f543a4a25cb962ea66e0a7ebfdddfa27d4ef2bda2"
+    },
+    "https://worldbestinsurer.com/learn/term-insurance-section-80c-tax-benefit/": {
+      "hash": "54f9d66c8638d4c9533efd2f9ad77cbec881d7963526f4a8e89f66fc2204cae5"
+    },
+    "https://worldbestinsurer.com/insights/": {
+      "hash": "54b14a019d8480c25ba5a1708afba32cd9c34018f612f3e048807a4603fef51d"
+    },
+    "https://worldbestinsurer.com/finance/": {
+      "hash": "de5ffad07abb8f9948b5454df48685ea510f58f011938af9e1a5e368715ff638"
+    },
+    "https://worldbestinsurer.com/finance/deductible-copay-coinsurance-out-of-pocket-maximum-explained/": {
+      "hash": "23bfddf294e6cd0ec5044cbe94e3e2626048b28b9577e16ae57b520ac584ae9a"
+    },
+    "https://worldbestinsurer.com/finance/health-insurance-portability-india-guide/": {
+      "hash": "3bd4e477450db32f43773ea2a335267907a696e9846dcf5fe1de665350b06acb"
+    },
+    "https://worldbestinsurer.com/finance/hmo-ppo-epo-pos-health-plan-networks-compared/": {
+      "hash": "dfa5e5824993ba1976e1c8bbd8051e01d8e0d8a58e095b7359aa352da1c391d3"
+    },
+    "https://worldbestinsurer.com/finance/hsa-vs-fsa-vs-hra-2026-2027-limits/": {
+      "hash": "949741fb6e27f0ac4f68987728a210036167b3093f26ecea82d8e829598a16a5"
+    },
+    "https://worldbestinsurer.com/finance/no-claim-bonus-health-insurance-india/": {
+      "hash": "e665e858e67106d95c1d7b4df3fff97ab3e14cab70853120e4f0068c46dd25ed"
+    },
+    "https://worldbestinsurer.com/finance/uk-private-medical-insurance-underwriting-moratorium-vs-full/": {
+      "hash": "11a3dce3da16c0da297b7cb0fdcc434161e9b7293cb1104b502767fcc3ef9fbb"
+    },
+    "https://worldbestinsurer.com/finance/uk-travel-insurance-pre-existing-conditions-declaring/": {
+      "hash": "5cbb6b750c4929446448b84943ac6195ad986a2baaee1268291177b940324c78"
+    },
+    "https://worldbestinsurer.com/finance/cashless-vs-reimbursement-claim-india-timelines/": {
+      "hash": "30ee0fd65c8f01f59d749637f8d64e66ea0a1fe08f27d7349eb6a688a87435ae"
+    },
+    "https://worldbestinsurer.com/finance/health-insurance-claim-rejected-india-what-to-do/": {
+      "hash": "d80f12ed560a0728617ac901e26c4318793169ce4c18bc5a00765ef5f6c25769"
+    },
+    "https://worldbestinsurer.com/finance/health-insurance-waiting-periods-india-2026/": {
+      "hash": "181041fe6635a2c5d60816b330c424fbd9562f0139263a3b4475012b57d8395d"
+    },
+    "https://worldbestinsurer.com/finance/room-rent-limit-proportionate-deduction-health-insurance/": {
+      "hash": "d8788185819c93fb4c9128633cbe0830088e83590178e026092582f0f2a2ceb8"
+    },
+    "https://worldbestinsurer.com/finance/section-80d-health-insurance-tax-deduction/": {
+      "hash": "c3c049b958999fc4d45844ff61b0dc615900fd5f9303f5fc7082bcaefd812673"
+    },
+    "https://worldbestinsurer.com/reports/": {
+      "hash": "28b5416bbe059766f9df8068189101a417ddb41f217ea0f7b8899f7285fbb2ae"
+    },
+    "https://worldbestinsurer.com/reports/health-insurance-us-2026/": {
+      "hash": "c93e231ea2b175e2fe262b1c130665cef5344801b01a0228e700d62030917149"
+    },
+    "https://worldbestinsurer.com/reports/motor-insurance-india-2026/": {
+      "hash": "41382aeb3c7fe387a3f2e2001a5de2f0f51c0184232c51ce5cd7456f75fce409"
+    },
+    "https://worldbestinsurer.com/reports/travel-insurance-global-2026/": {
+      "hash": "55a01bd9db062a332c17907a376bad7463980265d9863e277183a349696e00de"
+    },
+    "https://worldbestinsurer.com/reports/health-insurance-india-2026/": {
+      "hash": "7e1e012a15ca4dd5e5b04717489f3fc2383680e0bddc70156c1f94e1b7d2298c"
+    },
+    "https://worldbestinsurer.com/in/insurance-statistics/": {
+      "hash": "a5f5dc442d9e99d25bc7dc60888c67eff4aa84ab875433fbdda8edba1596fc8d"
+    },
+    "https://worldbestinsurer.com/in/insurance-statistics/fy2025-26/": {
+      "hash": "8e7227dc8e33f16da4fc41889dbca4441672afad2a5a38b3461913af0bf48224"
+    }
+  }
+}
