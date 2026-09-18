@@ -996,5 +996,15 @@
   "field": "volatile",
   "to": true,
   "sourceUrl": "https://www.nivabupa.com/family-health-insurance-plans/reassurev2-insurance.html"
+ },
+ {
+  "at": "2026-09-18T08:27:45.935Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:star-health",
+  "field": "robots",
+  "from": "refused",
+  "to": "allowed",
+  "sourceUrl": "https://www.starhealth.in/"
  }
 ]
