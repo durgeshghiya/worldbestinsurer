@@ -1,724 +1,1825 @@
 [
-  {
-    "slug": "acko-car-insurance",
-    "insurerSlug": "acko",
-    "name": {
-      "value": "ACKO Car Insurance",
-      "provenance": {
-        "sourceId": "insurer:acko",
-        "url": "https://www.acko.com/car-insurance/",
-        "retrievedAt": "2026-09-16T09:00:08.859Z",
-        "evidence": "Here are the inclusions of the ACKO Car Insurance Policy to help you understand what is covered under your policy"
-      }
-    },
-    "productType": "motor-private-car",
-    "segment": "motor",
-    "status": "active",
-    "siteProductId": "acko-car-insurance",
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
+ {
+  "slug": "acko-car-insurance",
+  "insurerSlug": "acko",
+  "name": {
+   "value": "ACKO Car Insurance",
+   "provenance": {
+    "sourceId": "insurer:acko",
+    "url": "https://www.acko.com/car-insurance/",
+    "retrievedAt": "2026-09-16T09:00:08.859Z",
+    "evidence": "Here are the inclusions of the ACKO Car Insurance Policy to help you understand what is covered under your policy"
+   }
   },
-  {
-    "slug": "acko-platinum-health",
-    "insurerSlug": "acko",
-    "name": {
-      "value": "ACKO Platinum Health Plan",
-      "provenance": {
-        "sourceId": "insurer:acko",
-        "url": "https://www.acko.com/health-insurance/",
-        "retrievedAt": "2026-09-16T09:00:11.652Z",
-        "evidence": "ACKO offers two types of health insurance plans: the ACKO Platinum Lite Health Plan and the ACKO Platinum Health Plan."
-      }
-    },
-    "productType": "health-indemnity",
-    "segment": "health",
-    "status": "active",
-    "sumInsured": {
-      "value": "₹1 Crore and Unlimited",
-      "provenance": {
-        "sourceId": "insurer:acko",
-        "url": "https://www.acko.com/health-insurance/",
-        "retrievedAt": "2026-09-16T09:00:11.652Z",
-        "evidence": "What You Get Extra with ACKO Platinum Health Plan Details Sum Insured ₹1 Crore and Unlimited, never worry about exhausting your coverage"
-      }
-    },
-    "siteProductId": "acko-platinum-health",
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
+  "productType": "motor-private-car",
+  "segment": "motor",
+  "status": "active",
+  "siteProductId": "acko-car-insurance",
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ },
+ {
+  "slug": "acko-platinum-health",
+  "insurerSlug": "acko",
+  "name": {
+   "value": "ACKO Platinum Health Plan",
+   "provenance": {
+    "sourceId": "insurer:acko",
+    "url": "https://www.acko.com/health-insurance/",
+    "retrievedAt": "2026-09-16T09:00:11.652Z",
+    "evidence": "ACKO offers two types of health insurance plans: the ACKO Platinum Lite Health Plan and the ACKO Platinum Health Plan."
+   }
   },
-  {
-    "slug": "digit-happy-traveller-plan",
-    "insurerSlug": "digit",
-    "name": {
-      "value": "Digit Happy Traveller Plan",
-      "provenance": {
-        "sourceId": "insurer:digit",
-        "url": "https://www.godigit.com/international-travel-insurance",
-        "retrievedAt": "2026-09-16T09:00:13.914Z",
-        "evidence": "Digit Happy Traveller Plan - UIN - GODTIOP24172V012324"
-      }
-    },
-    "uin": {
-      "value": "GODTIOP24172V012324",
-      "provenance": {
-        "sourceId": "insurer:digit",
-        "url": "https://www.godigit.com/international-travel-insurance",
-        "retrievedAt": "2026-09-16T09:00:13.914Z",
-        "evidence": "Digit Happy Traveller Plan - UIN - GODTIOP24172V012324"
-      }
-    },
-    "productType": "travel",
-    "segment": "travel",
-    "status": "active",
-    "eligibility": {
-      "value": "between the ages of 3 months and 80 years",
-      "provenance": {
-        "sourceId": "insurer:digit",
-        "url": "https://www.godigit.com/international-travel-insurance",
-        "retrievedAt": "2026-09-16T09:00:13.914Z",
-        "evidence": "Anyone between the ages of 3 months and 80 years is eligible for an international travel insurance policy by Digit."
-      }
-    },
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "sumInsured": {
+   "value": "₹1 Crore and Unlimited",
+   "provenance": {
+    "sourceId": "insurer:acko",
+    "url": "https://www.acko.com/health-insurance/",
+    "retrievedAt": "2026-09-16T09:00:11.652Z",
+    "evidence": "What You Get Extra with ACKO Platinum Health Plan Details Sum Insured ₹1 Crore and Unlimited, never worry about exhausting your coverage"
+   }
   },
-  {
-    "slug": "digit-health-insurance",
-    "insurerSlug": "digit",
-    "name": {
-      "value": "Digit Health Care Plus",
-      "provenance": {
-        "sourceId": "insurer:digit",
-        "url": "https://www.godigit.com/health-insurance",
-        "retrievedAt": "2026-09-16T09:00:12.517Z",
-        "evidence": "Digit Health Care Plus (UIN: GODHLIP25037V042425)"
-      }
-    },
-    "uin": {
-      "value": "GODHLIP25037V042425",
-      "provenance": {
-        "sourceId": "insurer:digit",
-        "url": "https://www.godigit.com/health-insurance",
-        "retrievedAt": "2026-09-16T09:00:12.517Z",
-        "evidence": "Digit Health Care Plus (UIN: GODHLIP25037V042425)"
-      }
-    },
-    "productType": "health-indemnity",
-    "segment": "health",
-    "status": "active",
-    "siteProductId": "digit-health-insurance",
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
+  "siteProductId": "acko-platinum-health",
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ },
+ {
+  "slug": "bajaj-allianz-arogya-sanjeevani",
+  "insurerSlug": "bajaj-allianz",
+  "name": {
+   "value": "Arogya Sanjeevani Health Insurance Policy",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz",
+    "url": "https://www.bajajgeneralinsurance.com/health-insurance-plans/arogya-sanjeevani-standard-health-insurance-policy.html",
+    "retrievedAt": "2026-09-19T22:05:55.063Z",
+    "evidence": "What is the eligibility age for the Arogya Sanjeevani Health Insurance Policy?"
+   }
   },
-  {
-    "slug": "hdfc-ergo-optima-secure",
-    "insurerSlug": "hdfc-ergo",
-    "name": {
-      "value": "Optima Secure",
-      "provenance": {
-        "sourceId": "insurer:hdfc-ergo",
-        "url": "https://www.hdfcergo.com/health-insurance/optima-secure",
-        "retrievedAt": "2026-09-16T09:00:14.227Z",
-        "evidence": "UIN: my: Optima Secure - HDFHLIP26058V082526"
-      }
-    },
-    "uin": {
-      "value": "HDFHLIP26058V082526",
-      "provenance": {
-        "sourceId": "insurer:hdfc-ergo",
-        "url": "https://www.hdfcergo.com/health-insurance/optima-secure",
-        "retrievedAt": "2026-09-16T09:00:14.227Z",
-        "evidence": "UIN: my: Optima Secure - HDFHLIP26058V082526"
-      }
-    },
-    "productType": "health-indemnity",
-    "segment": "health",
-    "status": "active",
-    "policyTerm": {
-      "value": "1, 2 and 3 years",
-      "provenance": {
-        "sourceId": "insurer:hdfc-ergo",
-        "url": "https://www.hdfcergo.com/health-insurance/optima-secure",
-        "retrievedAt": "2026-09-16T09:00:14.227Z",
-        "evidence": "Tenure: Select policy tenure between 1, 2 and 3 years."
-      }
-    },
-    "premiumFrequency": {
-      "value": "monthly, quarterly half-yearly and yearly",
-      "provenance": {
-        "sourceId": "insurer:hdfc-ergo",
-        "url": "https://www.hdfcergo.com/health-insurance/optima-secure",
-        "retrievedAt": "2026-09-16T09:00:14.227Z",
-        "evidence": "You can choose from installment options: monthly, quarterly half-yearly and yearly"
-      }
-    },
-    "sumInsured": {
-      "value": "₹5 lacs to 2 crores",
-      "provenance": {
-        "sourceId": "insurer:hdfc-ergo",
-        "url": "https://www.hdfcergo.com/health-insurance/optima-secure",
-        "retrievedAt": "2026-09-16T09:00:14.227Z",
-        "evidence": "Coverage: Choose between wide range of base cover from ₹5 lacs to 2 crores"
-      }
-    },
-    "siteProductId": "hdfc-ergo-optima-secure",
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "eligibility": {
+   "value": "18 years for adults and 3 months for dependent children, who can be covered up to 25 years of age",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz",
+    "url": "https://www.bajajgeneralinsurance.com/health-insurance-plans/arogya-sanjeevani-standard-health-insurance-policy.html",
+    "retrievedAt": "2026-09-19T22:05:55.063Z",
+    "evidence": "Eligibility for the Arogya Sanjeevani Health Insurance Policy begins at 18 years for adults and 3 months for dependent children, who can be covered up to 25 years of age."
+   }
   },
-  {
-    "slug": "hdfc-ergo-travel",
-    "insurerSlug": "hdfc-ergo",
-    "name": {
-      "value": "HDFC ERGO Explorer",
-      "provenance": {
-        "sourceId": "insurer:hdfc-ergo",
-        "url": "https://www.hdfcergo.com/travel-insurance",
-        "retrievedAt": "2026-09-16T09:00:16.338Z",
-        "evidence": "Product Name: HDFC ERGO Explorer. UIN: HDFTIOP24042V022425"
-      }
-    },
-    "uin": {
-      "value": "HDFTIOP24042V022425",
-      "provenance": {
-        "sourceId": "insurer:hdfc-ergo",
-        "url": "https://www.hdfcergo.com/travel-insurance",
-        "retrievedAt": "2026-09-16T09:00:16.338Z",
-        "evidence": "Product Name: HDFC ERGO Explorer. UIN: HDFTIOP24042V022425"
-      }
-    },
-    "productType": "travel",
-    "segment": "travel",
-    "status": "active",
-    "siteProductId": "hdfc-ergo-travel",
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
+  "sumInsured": {
+   "value": "INR 50,000 to 25 lacs",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz",
+    "url": "https://www.bajajgeneralinsurance.com/health-insurance-plans/arogya-sanjeevani-standard-health-insurance-policy.html",
+    "retrievedAt": "2026-09-19T22:05:55.063Z",
+    "evidence": "Choose adequate sum insured from INR 50,000 to 25 lacs that suits your need"
+   }
   },
-  {
-    "slug": "lic-jeevan-amar",
-    "insurerSlug": "lic",
-    "name": {
-      "value": "LIC's New Jeevan Amar",
-      "provenance": {
-        "sourceId": "insurer:lic",
-        "url": "https://licindia.in/lic-s-new-jeevan-amar-955-uin-512n350v02",
-        "retrievedAt": "2026-09-16T09:00:22.479Z",
-        "evidence": "Home Products Insurance Plans LIC's New Jeevan Amar 955 UIN 512N350V02"
-      }
-    },
-    "uin": {
-      "value": "512N350V02",
-      "provenance": {
-        "sourceId": "insurer:lic",
-        "url": "https://licindia.in/lic-s-new-jeevan-amar-955-uin-512n350v02",
-        "retrievedAt": "2026-09-16T09:00:22.479Z",
-        "evidence": "Home Products Insurance Plans LIC's New Jeevan Amar 955 UIN 512N350V02"
-      }
-    },
-    "productType": "term",
-    "segment": "life",
-    "status": "active",
-    "siteProductId": "lic-jeevan-amar",
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "bajaj-allianz-criti-care",
+  "insurerSlug": "bajaj-allianz",
+  "name": {
+   "value": "Criti Care",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz",
+    "url": "https://www.bajajgeneralinsurance.com/health-insurance-plans/criti-care.html",
+    "retrievedAt": "2026-09-19T22:06:35.112Z",
+    "evidence": "How to Select the Best Criti Care Cover Online?"
+   }
   },
-  {
-    "slug": "lic-tech-term",
-    "insurerSlug": "lic",
-    "name": {
-      "value": "LIC's New Tech-Term",
-      "provenance": {
-        "sourceId": "insurer:lic",
-        "url": "https://licindia.in/lic-s-new-tech-term-954-512n351v01",
-        "retrievedAt": "2026-09-16T09:00:16.870Z",
-        "evidence": "Home Products Insurance Plans LIC's New Tech-Term 954"
-      }
-    },
-    "uin": {
-      "value": "512N351V02",
-      "provenance": {
-        "sourceId": "insurer:lic",
-        "url": "https://licindia.in/term-assurance-plans",
-        "retrievedAt": "2026-09-16T09:00:18.474Z",
-        "evidence": "Sr. No. Product Name Plan No. UIN No. 1 LIC’s Digi Term 876 512N356V02 2 LIC’s Digi Credit Life 878 512N358V01 3 LIC’s Yuva Credit Life 877 512N357V01 4 LIC’s Yuva Term 875 512N355V02 5 LIC's New Tech-Term 954 512N351V02"
-      }
-    },
-    "productType": "term",
-    "segment": "life",
-    "status": "active",
-    "siteProductId": "lic-tech-term",
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
+  "productType": "critical-illness",
+  "segment": "health",
+  "status": "active",
+  "eligibility": {
+   "value": "Adult 18 Years 65 Years Child 3 Months 30 Years",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz",
+    "url": "https://www.bajajgeneralinsurance.com/health-insurance-plans/criti-care.html",
+    "retrievedAt": "2026-09-19T22:06:35.112Z",
+    "evidence": "Minimum Entry Age Maximum Entry Age Adult 18 Years 65 Years Child 3 Months 30 Years"
+   }
   },
-  {
-    "slug": "manipalcigna-prohealth-prime",
-    "insurerSlug": "manipalcigna",
-    "name": {
-      "value": "ManipalCigna ProHealth Prime",
-      "provenance": {
-        "sourceId": "insurer:manipalcigna",
-        "url": "https://www.manipalcigna.com/hospitalization-cover/prohealth-insurance",
-        "retrievedAt": "2026-09-16T09:00:25.206Z",
-        "evidence": "ManipalCigna ProHealth Prime is designed for better coverage"
-      }
-    },
-    "uin": {
-      "value": "MCIHLIP26036V022526",
-      "provenance": {
-        "sourceId": "insurer:manipalcigna",
-        "url": "https://www.manipalcigna.com/hospitalization-cover/prohealth-insurance",
-        "retrievedAt": "2026-09-16T09:00:25.206Z",
-        "evidence": "UIN: MCIHLIP26036V022526 Launch Date: 02-06-2025"
-      }
-    },
-    "productType": "health-indemnity",
-    "segment": "health",
-    "status": "active",
-    "policyTerm": {
-      "value": "1, 2 and 3 years",
-      "provenance": {
-        "sourceId": "insurer:manipalcigna",
-        "url": "https://www.manipalcigna.com/hospitalization-cover/prohealth-insurance",
-        "retrievedAt": "2026-09-16T09:00:25.206Z",
-        "evidence": "Policy Period 1, 2 and 3 years"
-      }
-    },
-    "eligibility": {
-      "value": "Child - 91 days, Adult - 18 years",
-      "provenance": {
-        "sourceId": "insurer:manipalcigna",
-        "url": "https://www.manipalcigna.com/hospitalization-cover/prohealth-insurance",
-        "retrievedAt": "2026-09-16T09:00:25.206Z",
-        "evidence": "Min Entry Age Child - 91 days, Adult - 18 years"
-      }
-    },
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
+  "sumInsured": {
+   "value": "5 lacs to 5 crores",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz",
+    "url": "https://www.bajajgeneralinsurance.com/health-insurance-plans/criti-care.html",
+    "retrievedAt": "2026-09-19T22:06:35.112Z",
+    "evidence": "Choose adequate sum insured from 5 lacs to 5 crores that suits your need"
+   }
   },
-  {
-    "slug": "manipalcigna-sarvah",
-    "insurerSlug": "manipalcigna",
-    "name": {
-      "value": "ManipalCigna Sarvah",
-      "provenance": {
-        "sourceId": "insurer:manipalcigna",
-        "url": "https://www.manipalcigna.com/hospitalization-cover/manipalcigna-sarvah",
-        "retrievedAt": "2026-09-16T09:00:27.018Z",
-        "evidence": "ManipalCigna Sarvah"
-      }
-    },
-    "uin": {
-      "value": "MCIHLIP27040V032627",
-      "provenance": {
-        "sourceId": "insurer:manipalcigna",
-        "url": "https://www.manipalcigna.com/hospitalization-cover/manipalcigna-sarvah",
-        "retrievedAt": "2026-09-16T09:00:27.018Z",
-        "evidence": "UIN: MCIHLIP27040V032627"
-      }
-    },
-    "productType": "health-indemnity",
-    "segment": "health",
-    "status": "active",
-    "eligibility": {
-      "value": "Child - 91 days, Adult - 18 years",
-      "provenance": {
-        "sourceId": "insurer:manipalcigna",
-        "url": "https://www.manipalcigna.com/hospitalization-cover/manipalcigna-sarvah",
-        "retrievedAt": "2026-09-16T09:00:27.018Z",
-        "evidence": "Min Entry Age Child - 91 days, Adult - 18 years"
-      }
-    },
-    "sumInsured": {
-      "value": "₹5Lacs-₹3Crore",
-      "provenance": {
-        "sourceId": "insurer:manipalcigna",
-        "url": "https://www.manipalcigna.com/hospitalization-cover/manipalcigna-sarvah",
-        "retrievedAt": "2026-09-16T09:00:27.018Z",
-        "evidence": "SUM INSURED ₹5Lacs-₹3Crore"
-      }
-    },
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "bajaj-allianz-etouch",
+  "insurerSlug": "bajaj-allianz-life",
+  "name": {
+   "value": "Bajaj Life eTouch II",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz-life",
+    "url": "https://www.bajajlifeinsurance.com/term-insurance-plans/etouch-term-insurance-plan.html",
+    "retrievedAt": "2026-09-19T22:05:06.878Z",
+    "evidence": "Bajaj Life eTouch II (UIN: 116N198V09 is A Non-linked Non- Participating Individual Life Insurance Term Plan."
+   }
   },
-  {
-    "slug": "max-life-smart-secure-plus",
-    "insurerSlug": "max-life",
-    "name": {
-      "value": "Axis Max Life Smart Secure Plus Plan",
-      "provenance": {
-        "sourceId": "insurer:max-life",
-        "url": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan",
-        "retrievedAt": "2026-09-16T09:00:29.341Z",
-        "evidence": "25 Year Premium Payment Term for Axis Max Life Smart Secure Plus Plan (UIN: 104N118V13)."
-      }
-    },
-    "uin": {
-      "value": "104N118V13",
-      "provenance": {
-        "sourceId": "insurer:max-life",
-        "url": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan",
-        "retrievedAt": "2026-09-16T09:00:29.341Z",
-        "evidence": "With the Smart Secure Plus Plan (A Non-Linked Non-Participating Individual Pure Risk Life Insurance Plan | UIN: 104N118V13)"
-      }
-    },
-    "productType": "term",
-    "segment": "life",
-    "status": "active",
-    "policyTerm": {
-      "value": "10 Years to 67 Years",
-      "provenance": {
-        "sourceId": "insurer:max-life",
-        "url": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan",
-        "retrievedAt": "2026-09-16T09:00:29.341Z",
-        "evidence": "Premium Payment Term (PPT) Available Base Policy Terms* Available Accident Cover Policy Terms* Single Pay 10 Years to 67 Years NA Regular Pay 10 Years to 67 Years"
-      }
-    },
-    "eligibility": {
-      "value": "The minimum entry age for the Axis Max Life Smart Secure Plus Plan is 18 years, and the maximum age is capped at 65 years for Non-POS variant and 55 years for POS variant",
-      "provenance": {
-        "sourceId": "insurer:max-life",
-        "url": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan",
-        "retrievedAt": "2026-09-16T09:00:29.341Z",
-        "evidence": "The minimum entry age for the Axis Max Life Smart Secure Plus Plan is 18 years, and the maximum age is capped at 65 years for Non-POS variant and 55 years for POS variant. In case of Pay till the 60 option, the maximum entry age is capped at 44 years."
-      }
-    },
-    "premiumFrequency": {
-      "value": "annual, half-yearly, quarterly, or monthly",
-      "provenance": {
-        "sourceId": "insurer:max-life",
-        "url": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan",
-        "retrievedAt": "2026-09-16T09:00:29.341Z",
-        "evidence": "The frequency of the premium payment can be annual, half-yearly, quarterly, or monthly."
-      }
-    },
-    "siteProductId": "max-life-smart-secure-plus",
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
+  "uin": {
+   "value": "116N198V09",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz-life",
+    "url": "https://www.bajajlifeinsurance.com/term-insurance-plans/etouch-term-insurance-plan.html",
+    "retrievedAt": "2026-09-19T22:05:06.878Z",
+    "evidence": "Bajaj Life eTouch II (UIN: 116N198V09 is A Non-linked Non- Participating Individual Life Insurance Term Plan."
+   }
   },
-  {
-    "slug": "max-life-smart-term-plan-plus",
-    "insurerSlug": "max-life",
-    "name": {
-      "value": "Axis Max Life Smart Term Plan Plus",
-      "provenance": {
-        "sourceId": "insurer:max-life",
-        "url": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus",
-        "retrievedAt": "2026-09-16T09:00:39.276Z",
-        "evidence": "Axis Max Life Smart Term Plan Plus (A Non-Linked, Non-Participating Individual Pure Risk Life Insurance Plan | UIN: 104N132V01)"
-      }
-    },
-    "uin": {
-      "value": "104N132V01",
-      "provenance": {
-        "sourceId": "insurer:max-life",
-        "url": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus",
-        "retrievedAt": "2026-09-16T09:00:39.276Z",
-        "evidence": "Axis Max Life Smart Term Plan Plus (A Non-Linked, Non-Participating Individual Pure Risk Life Insurance Plan | UIN: 104N132V01)"
-      }
-    },
-    "productType": "term",
-    "segment": "life",
-    "status": "active",
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
+  "productType": "term",
+  "segment": "life",
+  "status": "active",
+  "policyTerm": {
+   "value": "up to age 99",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz-life",
+    "url": "https://www.bajajlifeinsurance.com/term-insurance-plans/etouch-term-insurance-plan.html",
+    "retrievedAt": "2026-09-19T22:05:06.878Z",
+    "evidence": "Yes. Under the Life Shield and Life Shield Plus variants, you can choose a policy term that provides life cover up to age 99, subject to the minimum policy term requirements."
+   }
   },
-  {
-    "slug": "new-india-assurance-arogya-sanjeevani-policy",
-    "insurerSlug": "new-india-assurance",
-    "name": {
-      "value": "Arogya Sanjeevani Policy",
-      "provenance": {
-        "sourceId": "insurer:new-india-assurance",
-        "url": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy",
-        "retrievedAt": "2026-09-16T09:01:01.307Z",
-        "evidence": "Home Health Arogya Sanjeevani Policy (Cashless facility available) Arogya Sanjeevani Policy, The New India Assurance Health Insurance Policy Downloads"
-      }
-    },
-    "uin": {
-      "value": "NIAHLIP25044V022425",
-      "provenance": {
-        "sourceId": "insurer:new-india-assurance",
-        "url": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy",
-        "retrievedAt": "2026-09-16T09:01:01.307Z",
-        "evidence": "UIN Number : NIAHLIP25044V022425"
-      }
-    },
-    "productType": "health-indemnity",
-    "segment": "health",
-    "status": "active",
-    "sumInsured": {
-      "value": "INR 50,000 to INR 10 Lakhs",
-      "provenance": {
-        "sourceId": "insurer:new-india-assurance",
-        "url": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy",
-        "retrievedAt": "2026-09-16T09:01:01.307Z",
-        "evidence": "The sum insured is from INR 50,000 to INR 10 Lakhs, in multiples of INR 50,000."
-      }
-    },
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
+  "sumInsured": {
+   "value": "No predefined upper limit",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz-life",
+    "url": "https://www.bajajlifeinsurance.com/term-insurance-plans/etouch-term-insurance-plan.html",
+    "retrievedAt": "2026-09-19T22:05:06.878Z",
+    "evidence": "No predefined upper limit, subject to the company's underwriting policy and eligibility assessment."
+   }
   },
-  {
-    "slug": "new-india-assurance-janata-mediclaim-policy",
-    "insurerSlug": "new-india-assurance",
-    "name": {
-      "value": "Janata Mediclaim Policy",
-      "provenance": {
-        "sourceId": "insurer:new-india-assurance",
-        "url": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy",
-        "retrievedAt": "2026-09-16T09:01:16.157Z",
-        "evidence": "Home Health Janata Mediclaim Policy (Cashless Facility Available) Janata Mediclaim Policy (Cashless Facility Available) Health Insurance Policy Downloads"
-      }
-    },
-    "uin": {
-      "value": "NIAHLIP25046V042425",
-      "provenance": {
-        "sourceId": "insurer:new-india-assurance",
-        "url": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy",
-        "retrievedAt": "2026-09-16T09:01:16.157Z",
-        "evidence": "UIN number : NIAHLIP25046V042425"
-      }
-    },
-    "productType": "health-indemnity",
-    "segment": "health",
-    "status": "active",
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
+  "siteProductId": "bajaj-allianz-etouch",
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "bajaj-allianz-health-guard",
+  "insurerSlug": "bajaj-allianz",
+  "name": {
+   "value": "Health Guard",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz",
+    "url": "https://www.bajajgeneralinsurance.com/health-insurance-plans/health-guard-insurance-policy.html",
+    "retrievedAt": "2026-09-19T22:05:25.130Z",
+    "evidence": "The Health Guard plan provides various levels of sum insured."
+   }
   },
-  {
-    "slug": "niva-bupa-reassure-2",
-    "insurerSlug": "niva-bupa",
-    "name": {
-      "value": "ReAssure 2.0",
-      "provenance": {
-        "sourceId": "insurer:niva-bupa",
-        "url": "https://www.nivabupa.com/family-health-insurance-plans/reassurev2-insurance.html",
-        "retrievedAt": "2026-09-16T09:01:26.584Z",
-        "evidence": "Home> Family Health Insurance Plans> ReAssure 2.0 Key features of ReAssure2.0"
-      }
-    },
-    "productType": "health-indemnity",
-    "segment": "health",
-    "status": "active",
-    "siteProductId": "niva-bupa-reassure-2",
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "policyTerm": {
+   "value": "one, two, or three-year policy terms",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz",
+    "url": "https://www.bajajgeneralinsurance.com/health-insurance-plans/health-guard-insurance-policy.html",
+    "retrievedAt": "2026-09-19T22:05:25.130Z",
+    "evidence": "Choose from one, two, or three-year policy terms and opt for individual or floater coverage to match your healthcare requirements and financial goals."
+   }
   },
-  {
-    "slug": "niva-bupa-senior-first",
-    "insurerSlug": "niva-bupa",
-    "name": {
-      "value": "Niva Bupa Senior First",
-      "provenance": {
-        "sourceId": "insurer:niva-bupa",
-        "url": "https://www.nivabupa.com/health-insurance-plans/senior-first-get-quote.html",
-        "retrievedAt": "2026-09-16T09:01:32.775Z",
-        "evidence": "we curated Niva Bupa Senior First to be a trusted partner"
-      }
-    },
-    "productType": "health-indemnity",
-    "segment": "health",
-    "status": "active",
-    "eligibility": {
-      "value": "aged 61 and above",
-      "provenance": {
-        "sourceId": "insurer:niva-bupa",
-        "url": "https://www.nivabupa.com/health-insurance-plans/senior-first-get-quote.html",
-        "retrievedAt": "2026-09-16T09:01:32.775Z",
-        "evidence": "we provide an affordable way to secure high-quality medical insurance for those aged 61 and above"
-      }
-    },
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
+  "eligibility": {
+   "value": "18 years to lifelong can be covered, while dependent children up to 30 years",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz",
+    "url": "https://www.bajajgeneralinsurance.com/health-insurance-plans/health-guard-insurance-policy.html",
+    "retrievedAt": "2026-09-19T22:05:25.130Z",
+    "evidence": "Individuals from 18 years to lifelong can be covered, while dependent children up to 30 years are also eligible."
+   }
   },
-  {
-    "slug": "pnb-metlife-mera-term",
-    "insurerSlug": "pnb-metlife",
-    "name": {
-      "value": "PNB MetLife Mera Term Plan Plus",
-      "provenance": {
-        "sourceId": "insurer:pnb-metlife",
-        "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html",
-        "retrievedAt": "2026-09-16T09:01:32.977Z",
-        "evidence": "PNB MetLife Mera Term Plan Plus Individual Non-Linked, Non-Par, Pure Risk Premium, Life Insurance Plan | UIN: 117N126V04"
-      }
-    },
-    "uin": {
-      "value": "117N126V04",
-      "provenance": {
-        "sourceId": "insurer:pnb-metlife",
-        "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html",
-        "retrievedAt": "2026-09-16T09:01:32.977Z",
-        "evidence": "PNB MetLife Mera Term Plan Plus Individual Non-Linked, Non-Par, Pure Risk Premium, Life Insurance Plan | UIN: 117N126V04"
-      }
-    },
-    "productType": "term",
-    "segment": "life",
-    "status": "active",
-    "policyTerm": {
-      "value": "Policy Term (yrs) 10 Without RoP: Life, Life Plus: 99-Age at entry Life Plus Health: 75 – Age at entry With RoP : 40",
-      "provenance": {
-        "sourceId": "insurer:pnb-metlife",
-        "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html",
-        "retrievedAt": "2026-09-16T09:01:32.977Z",
-        "evidence": "(Minimum allowed Policy Term for Limited pay option: Premium Payment Term plus 5 years) Policy Term (yrs) 10 Without RoP: Life, Life Plus: 99-Age at entry Life Plus Health: 75 – Age at entry With RoP : 40 6All Age as of last birthday"
-      }
-    },
-    "eligibility": {
-      "value": "Age at Entry (yrs) 18 60 (55 if 'Pay till Age 60' is chosen as PPT)",
-      "provenance": {
-        "sourceId": "insurer:pnb-metlife",
-        "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html",
-        "retrievedAt": "2026-09-16T09:01:32.977Z",
-        "evidence": "Parameter Minimum Maximum 6Age at Entry (yrs) 18 60 (55 if 'Pay till Age 60' is chosen as PPT) Age at Maturity"
-      }
-    },
-    "sumInsured": {
-      "value": "Sum Assured (Rs.) 25,00,000 No limit, subject to Underwriting",
-      "provenance": {
-        "sourceId": "insurer:pnb-metlife",
-        "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html",
-        "retrievedAt": "2026-09-16T09:01:32.977Z",
-        "evidence": "With RoP 28 75 Sum Assured (Rs.) 25,00,000 No limit, subject to Underwriting Premium (Rs.) Based on the Basic Sum Assured"
-      }
-    },
-    "siteProductId": "pnb-metlife-mera-term",
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
+  "sumInsured": {
+   "value": "INR 3 lacs to INR 1 crore",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz",
+    "url": "https://www.bajajgeneralinsurance.com/health-insurance-plans/health-guard-insurance-policy.html",
+    "retrievedAt": "2026-09-19T22:05:25.130Z",
+    "evidence": "Select adequate sum insured that suits you starting INR 3 lacs to INR 1 crore"
+   }
   },
-  {
-    "slug": "pnb-metlife-saral-jeevan-bima",
-    "insurerSlug": "pnb-metlife",
-    "name": {
-      "value": "PNB MetLife Saral Jeevan Bima",
-      "provenance": {
-        "sourceId": "insurer:pnb-metlife",
-        "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html",
-        "retrievedAt": "2026-09-16T09:01:38.830Z",
-        "evidence": "PNB MetLife Saral Jeevan Bima Mere apno ki suraksha ka saccha saathi Individual, Non-linked, Non-par, Pure Risk Premium, Life Insurance Product | UIN: 117N128V04"
-      }
-    },
-    "uin": {
-      "value": "117N128V04",
-      "provenance": {
-        "sourceId": "insurer:pnb-metlife",
-        "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html",
-        "retrievedAt": "2026-09-16T09:01:38.830Z",
-        "evidence": "PNB MetLife Saral Jeevan Bima (UIN: 117N128V04) is an Individual, Non-linked, Non-participating, pure risk premium life insurance product."
-      }
-    },
-    "productType": "term",
-    "segment": "life",
-    "status": "active",
-    "policyTerm": {
-      "value": "fixed term ranging from 5 years to 40 years",
-      "provenance": {
-        "sourceId": "insurer:pnb-metlife",
-        "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html",
-        "retrievedAt": "2026-09-16T09:01:38.830Z",
-        "evidence": "Choice of Policy Term With this plan, you can choose to stay protected for a fixed term ranging from 5 years to 40 years"
-      }
-    },
-    "eligibility": {
-      "value": "Age at entry1 (yrs) 18 65",
-      "provenance": {
-        "sourceId": "insurer:pnb-metlife",
-        "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html",
-        "retrievedAt": "2026-09-16T09:01:38.830Z",
-        "evidence": "What are the eligibility criteria for this plan? Parameter Minimum Maximum Age at entry1 (yrs) 18 65 Age at Maturity (yrs) 23 70"
-      }
-    },
-    "premiumFrequency": {
-      "value": "Yearly / Half Yearly / Monthly",
-      "provenance": {
-        "sourceId": "insurer:pnb-metlife",
-        "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html",
-        "retrievedAt": "2026-09-16T09:01:38.830Z",
-        "evidence": "Premium Payment modes Yearly / Half Yearly / Monthly2 1All references to Age are as on age last birthday 2Monthly mode is available only under ECS/NACH"
-      }
-    },
-    "sumInsured": {
-      "value": "Rs.5 Lakhs to Rs.50 Lakhs",
-      "provenance": {
-        "sourceId": "insurer:pnb-metlife",
-        "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html",
-        "retrievedAt": "2026-09-16T09:01:38.830Z",
-        "evidence": "This plan offers life protection to you & your family for sum assured ranging from Rs.5 Lakhs to Rs.50 Lakhs."
-      }
-    },
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
+  "siteProductId": "bajaj-allianz-health-guard",
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "bajaj-allianz-life-guaranteed-wealth-goal",
+  "insurerSlug": "bajaj-allianz-life",
+  "name": {
+   "value": "Bajaj Life Guaranteed Wealth Goal",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz-life",
+    "url": "https://www.bajajlifeinsurance.com/savings-plans/guaranteed-wealth-goal.html",
+    "retrievedAt": "2026-09-19T22:05:24.908Z",
+    "evidence": "Bajaj Life Guaranteed Wealth Goal (UIN: 116N200V11) is A Non linked, Non Participating, Individual, Life Insurance Savings Plan."
+   }
   },
-  {
-    "slug": "tata-aig-car-insurance",
-    "insurerSlug": "tata-aig",
-    "name": {
-      "value": "TATA AIG Car Insurance",
-      "provenance": {
-        "sourceId": "insurer:tata-aig",
-        "url": "https://www.tataaig.com/motor-insurance/car-insurance",
-        "retrievedAt": "2026-09-16T09:01:45.346Z",
-        "evidence": "TATA AIG Car Insurance for Electric Cars EV car insurance is similar to regular car insurance"
-      }
-    },
-    "productType": "motor-private-car",
-    "segment": "motor",
-    "status": "active",
-    "policyTerm": {
-      "value": "1, 2 and 3 Years",
-      "provenance": {
-        "sourceId": "insurer:tata-aig",
-        "url": "https://www.tataaig.com/motor-insurance/car-insurance",
-        "retrievedAt": "2026-09-16T09:01:45.346Z",
-        "evidence": "Plan Duration 1, 2 and 3 Years"
-      }
-    },
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
+  "uin": {
+   "value": "116N200V11",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz-life",
+    "url": "https://www.bajajlifeinsurance.com/savings-plans/guaranteed-wealth-goal.html",
+    "retrievedAt": "2026-09-19T22:05:24.908Z",
+    "evidence": "Bajaj Life Guaranteed Wealth Goal (UIN: 116N200V11) is A Non linked, Non Participating, Individual, Life Insurance Savings Plan."
+   }
   },
-  {
-    "slug": "tata-aig-medicare-select",
-    "insurerSlug": "tata-aig",
-    "name": {
-      "value": "TATA AIG MediCare Select",
-      "provenance": {
-        "sourceId": "insurer:tata-aig",
-        "url": "https://www.tataaig.com/health-insurance/medicare-select",
-        "retrievedAt": "2026-09-16T09:01:43.182Z",
-        "evidence": "TATA AIG MediCare Select UIN: TATHLIP25051V012425."
-      }
-    },
-    "uin": {
-      "value": "TATHLIP25051V012425",
-      "provenance": {
-        "sourceId": "insurer:tata-aig",
-        "url": "https://www.tataaig.com/health-insurance/medicare-select",
-        "retrievedAt": "2026-09-16T09:01:43.182Z",
-        "evidence": "TATA AIG MediCare Select UIN: TATHLIP25051V012425."
-      }
-    },
-    "productType": "health-indemnity",
-    "segment": "health",
-    "status": "active",
-    "policyTerm": {
-      "value": "1, 2 and 3-Year Options",
-      "provenance": {
-        "sourceId": "insurer:tata-aig",
-        "url": "https://www.tataaig.com/health-insurance/medicare-select",
-        "retrievedAt": "2026-09-16T09:01:43.182Z",
-        "evidence": "Policy Duration 1, 2 and 3-Year Options"
-      }
-    },
-    "sumInsured": {
-      "value": "₹5 lakhs - ₹3 Crores",
-      "provenance": {
-        "sourceId": "insurer:tata-aig",
-        "url": "https://www.tataaig.com/health-insurance/medicare-select",
-        "retrievedAt": "2026-09-16T09:01:43.182Z",
-        "evidence": "Sum Insured Options ₹5 lakhs - ₹3 Crores"
-      }
-    },
-    "siteProductId": "tata-aig-medicare-select",
-    "createdAt": "2026-09-16T08:59:52.354Z",
-    "updatedAt": "2026-09-16T08:59:52.354Z"
-  }
+  "productType": "endowment",
+  "segment": "life",
+  "status": "active",
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "bajaj-allianz-life-isecure-ii",
+  "insurerSlug": "bajaj-allianz-life",
+  "name": {
+   "value": "Bajaj Life iSecure II",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz-life",
+    "url": "https://www.bajajlifeinsurance.com/term-insurance-plans/isecure-insurance-plan.html",
+    "retrievedAt": "2026-09-19T22:05:08.886Z",
+    "evidence": "Bajaj Life iSecure II (UIN: 116N208V03) is A Non-Linked, Non-Participating, Individual Life Insurance Term Plan"
+   }
+  },
+  "uin": {
+   "value": "116N208V03",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz-life",
+    "url": "https://www.bajajlifeinsurance.com/term-insurance-plans/isecure-insurance-plan.html",
+    "retrievedAt": "2026-09-19T22:05:08.886Z",
+    "evidence": "Bajaj Life iSecure II (UIN: 116N208V03) is A Non-Linked, Non-Participating, Individual Life Insurance Term Plan"
+   }
+  },
+  "productType": "term",
+  "segment": "life",
+  "status": "active",
+  "eligibility": {
+   "value": "18 years",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz-life",
+    "url": "https://www.bajajlifeinsurance.com/term-insurance-plans/isecure-insurance-plan.html",
+    "retrievedAt": "2026-09-19T22:05:08.886Z",
+    "evidence": "Minimum age is 18 years"
+   }
+  },
+  "sumInsured": {
+   "value": "No limit",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz-life",
+    "url": "https://www.bajajlifeinsurance.com/term-insurance-plans/isecure-insurance-plan.html",
+    "retrievedAt": "2026-09-19T22:05:08.886Z",
+    "evidence": "No limit, subject to Board Approved Underwriting Policy (BAUP) of the company."
+   }
+  },
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "bajaj-allianz-life-saral-pension",
+  "insurerSlug": "bajaj-allianz-life",
+  "name": {
+   "value": "Bajaj Life Saral Pension",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz-life",
+    "url": "https://www.bajajlifeinsurance.com/retirement-pension-plans/saral-pension-plan.html",
+    "retrievedAt": "2026-09-19T22:05:10.885Z",
+    "evidence": "Bajaj Life Saral Pension is a single premium, non-linked, non-participating, individual immediate annuity plan, which provides regular income and also returns the purchase price on death."
+   }
+  },
+  "uin": {
+   "value": "116N169V17",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz-life",
+    "url": "https://www.bajajlifeinsurance.com/retirement-pension-plans/saral-pension-plan.html",
+    "retrievedAt": "2026-09-19T22:05:10.885Z",
+    "evidence": "UIN 116N169V17"
+   }
+  },
+  "productType": "pension",
+  "segment": "life",
+  "status": "active",
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "bajaj-allianz-motor",
+  "insurerSlug": "bajaj-allianz",
+  "name": {
+   "value": "Motor Insurance",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz",
+    "url": "https://www.bajajgeneralinsurance.com/motor-insurance.html",
+    "retrievedAt": "2026-09-19T22:05:47.064Z",
+    "evidence": "Drive Worry-Free With The Right Motor Insurance"
+   }
+  },
+  "productType": "other",
+  "segment": "motor",
+  "status": "active",
+  "siteProductId": "bajaj-allianz-motor",
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "bajaj-allianz-saral-suraksha-bima",
+  "insurerSlug": "bajaj-allianz",
+  "name": {
+   "value": "Saral Suraksha Bima",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz",
+    "url": "https://www.bajajgeneralinsurance.com/health-insurance-plans/saral-suraksha-bima-policy.html",
+    "retrievedAt": "2026-09-19T22:06:15.103Z",
+    "evidence": "Here is an overview of the eligibility criteria of the Saral Suraksha Bima policy, which you need to know about:"
+   }
+  },
+  "productType": "personal-accident",
+  "segment": "health",
+  "status": "active",
+  "eligibility": {
+   "value": "This policy is available to individuals aged between 18 and 70 years.",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz",
+    "url": "https://www.bajajgeneralinsurance.com/health-insurance-plans/saral-suraksha-bima-policy.html",
+    "retrievedAt": "2026-09-19T22:06:15.103Z",
+    "evidence": "This policy is available to individuals aged between 18 and 70 years."
+   }
+  },
+  "sumInsured": {
+   "value": "INR 2.5 lakhs, with options to increase coverage in multiples of INR 50,000, up to a maximum of INR 1 crore",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz",
+    "url": "https://www.bajajgeneralinsurance.com/health-insurance-plans/saral-suraksha-bima-policy.html",
+    "retrievedAt": "2026-09-19T22:06:15.103Z",
+    "evidence": "Minimum sum insured of INR 2.5 lakhs, with options to increase coverage in multiples of INR 50,000, up to a maximum of INR 1 crore"
+   }
+  },
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "bajaj-allianz-travel",
+  "insurerSlug": "bajaj-allianz",
+  "name": {
+   "value": "Travel Insurance",
+   "provenance": {
+    "sourceId": "insurer:bajaj-allianz",
+    "url": "https://www.bajajgeneralinsurance.com/travel-insurance-online.html",
+    "retrievedAt": "2026-09-19T22:05:53.059Z",
+    "evidence": "What is Travel Insurance?"
+   }
+  },
+  "productType": "travel",
+  "segment": "travel",
+  "status": "active",
+  "siteProductId": "bajaj-allianz-travel",
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "digit-happy-traveller-plan",
+  "insurerSlug": "digit",
+  "name": {
+   "value": "Digit Happy Traveller Plan",
+   "provenance": {
+    "sourceId": "insurer:digit",
+    "url": "https://www.godigit.com/international-travel-insurance",
+    "retrievedAt": "2026-09-16T09:00:13.914Z",
+    "evidence": "Digit Happy Traveller Plan - UIN - GODTIOP24172V012324"
+   }
+  },
+  "uin": {
+   "value": "GODTIOP24172V012324",
+   "provenance": {
+    "sourceId": "insurer:digit",
+    "url": "https://www.godigit.com/international-travel-insurance",
+    "retrievedAt": "2026-09-16T09:00:13.914Z",
+    "evidence": "Digit Happy Traveller Plan - UIN - GODTIOP24172V012324"
+   }
+  },
+  "productType": "travel",
+  "segment": "travel",
+  "status": "active",
+  "eligibility": {
+   "value": "between the ages of 3 months and 80 years",
+   "provenance": {
+    "sourceId": "insurer:digit",
+    "url": "https://www.godigit.com/international-travel-insurance",
+    "retrievedAt": "2026-09-16T09:00:13.914Z",
+    "evidence": "Anyone between the ages of 3 months and 80 years is eligible for an international travel insurance policy by Digit."
+   }
+  },
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ },
+ {
+  "slug": "digit-health-insurance",
+  "insurerSlug": "digit",
+  "name": {
+   "value": "Digit Health Care Plus",
+   "provenance": {
+    "sourceId": "insurer:digit",
+    "url": "https://www.godigit.com/health-insurance",
+    "retrievedAt": "2026-09-16T09:00:12.517Z",
+    "evidence": "Digit Health Care Plus (UIN: GODHLIP25037V042425)"
+   }
+  },
+  "uin": {
+   "value": "GODHLIP25037V042425",
+   "provenance": {
+    "sourceId": "insurer:digit",
+    "url": "https://www.godigit.com/health-insurance",
+    "retrievedAt": "2026-09-16T09:00:12.517Z",
+    "evidence": "Digit Health Care Plus (UIN: GODHLIP25037V042425)"
+   }
+  },
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "siteProductId": "digit-health-insurance",
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ },
+ {
+  "slug": "hdfc-ergo-optima-secure",
+  "insurerSlug": "hdfc-ergo",
+  "name": {
+   "value": "Optima Secure",
+   "provenance": {
+    "sourceId": "insurer:hdfc-ergo",
+    "url": "https://www.hdfcergo.com/health-insurance/optima-secure",
+    "retrievedAt": "2026-09-16T09:00:14.227Z",
+    "evidence": "UIN: my: Optima Secure - HDFHLIP26058V082526"
+   }
+  },
+  "uin": {
+   "value": "HDFHLIP26058V082526",
+   "provenance": {
+    "sourceId": "insurer:hdfc-ergo",
+    "url": "https://www.hdfcergo.com/health-insurance/optima-secure",
+    "retrievedAt": "2026-09-16T09:00:14.227Z",
+    "evidence": "UIN: my: Optima Secure - HDFHLIP26058V082526"
+   }
+  },
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "policyTerm": {
+   "value": "1, 2 and 3 years",
+   "provenance": {
+    "sourceId": "insurer:hdfc-ergo",
+    "url": "https://www.hdfcergo.com/health-insurance/optima-secure",
+    "retrievedAt": "2026-09-16T09:00:14.227Z",
+    "evidence": "Tenure: Select policy tenure between 1, 2 and 3 years."
+   }
+  },
+  "premiumFrequency": {
+   "value": "monthly, quarterly half-yearly and yearly",
+   "provenance": {
+    "sourceId": "insurer:hdfc-ergo",
+    "url": "https://www.hdfcergo.com/health-insurance/optima-secure",
+    "retrievedAt": "2026-09-16T09:00:14.227Z",
+    "evidence": "You can choose from installment options: monthly, quarterly half-yearly and yearly"
+   }
+  },
+  "sumInsured": {
+   "value": "₹5 lacs to 2 crores",
+   "provenance": {
+    "sourceId": "insurer:hdfc-ergo",
+    "url": "https://www.hdfcergo.com/health-insurance/optima-secure",
+    "retrievedAt": "2026-09-16T09:00:14.227Z",
+    "evidence": "Coverage: Choose between wide range of base cover from ₹5 lacs to 2 crores"
+   }
+  },
+  "siteProductId": "hdfc-ergo-optima-secure",
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ },
+ {
+  "slug": "hdfc-ergo-travel",
+  "insurerSlug": "hdfc-ergo",
+  "name": {
+   "value": "HDFC ERGO Explorer",
+   "provenance": {
+    "sourceId": "insurer:hdfc-ergo",
+    "url": "https://www.hdfcergo.com/travel-insurance",
+    "retrievedAt": "2026-09-16T09:00:16.338Z",
+    "evidence": "Product Name: HDFC ERGO Explorer. UIN: HDFTIOP24042V022425"
+   }
+  },
+  "uin": {
+   "value": "HDFTIOP24042V022425",
+   "provenance": {
+    "sourceId": "insurer:hdfc-ergo",
+    "url": "https://www.hdfcergo.com/travel-insurance",
+    "retrievedAt": "2026-09-16T09:00:16.338Z",
+    "evidence": "Product Name: HDFC ERGO Explorer. UIN: HDFTIOP24042V022425"
+   }
+  },
+  "productType": "travel",
+  "segment": "travel",
+  "status": "active",
+  "siteProductId": "hdfc-ergo-travel",
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ },
+ {
+  "slug": "lic-jeevan-amar",
+  "insurerSlug": "lic",
+  "name": {
+   "value": "LIC's New Jeevan Amar",
+   "provenance": {
+    "sourceId": "insurer:lic",
+    "url": "https://licindia.in/lic-s-new-jeevan-amar-955-uin-512n350v02",
+    "retrievedAt": "2026-09-16T09:00:22.479Z",
+    "evidence": "Home Products Insurance Plans LIC's New Jeevan Amar 955 UIN 512N350V02"
+   }
+  },
+  "uin": {
+   "value": "512N350V02",
+   "provenance": {
+    "sourceId": "insurer:lic",
+    "url": "https://licindia.in/lic-s-new-jeevan-amar-955-uin-512n350v02",
+    "retrievedAt": "2026-09-16T09:00:22.479Z",
+    "evidence": "Home Products Insurance Plans LIC's New Jeevan Amar 955 UIN 512N350V02"
+   }
+  },
+  "productType": "term",
+  "segment": "life",
+  "status": "active",
+  "siteProductId": "lic-jeevan-amar",
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ },
+ {
+  "slug": "lic-tech-term",
+  "insurerSlug": "lic",
+  "name": {
+   "value": "LIC's New Tech-Term",
+   "provenance": {
+    "sourceId": "insurer:lic",
+    "url": "https://licindia.in/lic-s-new-tech-term-954-512n351v01",
+    "retrievedAt": "2026-09-16T09:00:16.870Z",
+    "evidence": "Home Products Insurance Plans LIC's New Tech-Term 954"
+   }
+  },
+  "uin": {
+   "value": "512N351V02",
+   "provenance": {
+    "sourceId": "insurer:lic",
+    "url": "https://licindia.in/term-assurance-plans",
+    "retrievedAt": "2026-09-16T09:00:18.474Z",
+    "evidence": "Sr. No. Product Name Plan No. UIN No. 1 LIC’s Digi Term 876 512N356V02 2 LIC’s Digi Credit Life 878 512N358V01 3 LIC’s Yuva Credit Life 877 512N357V01 4 LIC’s Yuva Term 875 512N355V02 5 LIC's New Tech-Term 954 512N351V02"
+   }
+  },
+  "productType": "term",
+  "segment": "life",
+  "status": "active",
+  "siteProductId": "lic-tech-term",
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ },
+ {
+  "slug": "manipalcigna-prohealth-prime",
+  "insurerSlug": "manipalcigna",
+  "name": {
+   "value": "ManipalCigna ProHealth Prime",
+   "provenance": {
+    "sourceId": "insurer:manipalcigna",
+    "url": "https://www.manipalcigna.com/hospitalization-cover/prohealth-insurance",
+    "retrievedAt": "2026-09-16T09:00:25.206Z",
+    "evidence": "ManipalCigna ProHealth Prime is designed for better coverage"
+   }
+  },
+  "uin": {
+   "value": "MCIHLIP26036V022526",
+   "provenance": {
+    "sourceId": "insurer:manipalcigna",
+    "url": "https://www.manipalcigna.com/hospitalization-cover/prohealth-insurance",
+    "retrievedAt": "2026-09-16T09:00:25.206Z",
+    "evidence": "UIN: MCIHLIP26036V022526 Launch Date: 02-06-2025"
+   }
+  },
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "policyTerm": {
+   "value": "1, 2 and 3 years",
+   "provenance": {
+    "sourceId": "insurer:manipalcigna",
+    "url": "https://www.manipalcigna.com/hospitalization-cover/prohealth-insurance",
+    "retrievedAt": "2026-09-16T09:00:25.206Z",
+    "evidence": "Policy Period 1, 2 and 3 years"
+   }
+  },
+  "eligibility": {
+   "value": "Child - 91 days, Adult - 18 years",
+   "provenance": {
+    "sourceId": "insurer:manipalcigna",
+    "url": "https://www.manipalcigna.com/hospitalization-cover/prohealth-insurance",
+    "retrievedAt": "2026-09-16T09:00:25.206Z",
+    "evidence": "Min Entry Age Child - 91 days, Adult - 18 years"
+   }
+  },
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ },
+ {
+  "slug": "manipalcigna-sarvah",
+  "insurerSlug": "manipalcigna",
+  "name": {
+   "value": "ManipalCigna Sarvah",
+   "provenance": {
+    "sourceId": "insurer:manipalcigna",
+    "url": "https://www.manipalcigna.com/hospitalization-cover/manipalcigna-sarvah",
+    "retrievedAt": "2026-09-16T09:00:27.018Z",
+    "evidence": "ManipalCigna Sarvah"
+   }
+  },
+  "uin": {
+   "value": "MCIHLIP27040V032627",
+   "provenance": {
+    "sourceId": "insurer:manipalcigna",
+    "url": "https://www.manipalcigna.com/hospitalization-cover/manipalcigna-sarvah",
+    "retrievedAt": "2026-09-16T09:00:27.018Z",
+    "evidence": "UIN: MCIHLIP27040V032627"
+   }
+  },
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "eligibility": {
+   "value": "Child - 91 days, Adult - 18 years",
+   "provenance": {
+    "sourceId": "insurer:manipalcigna",
+    "url": "https://www.manipalcigna.com/hospitalization-cover/manipalcigna-sarvah",
+    "retrievedAt": "2026-09-16T09:00:27.018Z",
+    "evidence": "Min Entry Age Child - 91 days, Adult - 18 years"
+   }
+  },
+  "sumInsured": {
+   "value": "₹5Lacs-₹3Crore",
+   "provenance": {
+    "sourceId": "insurer:manipalcigna",
+    "url": "https://www.manipalcigna.com/hospitalization-cover/manipalcigna-sarvah",
+    "retrievedAt": "2026-09-16T09:00:27.018Z",
+    "evidence": "SUM INSURED ₹5Lacs-₹3Crore"
+   }
+  },
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ },
+ {
+  "slug": "max-life-smart-secure-plus",
+  "insurerSlug": "max-life",
+  "name": {
+   "value": "Axis Max Life Smart Secure Plus Plan",
+   "provenance": {
+    "sourceId": "insurer:max-life",
+    "url": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan",
+    "retrievedAt": "2026-09-16T09:00:29.341Z",
+    "evidence": "25 Year Premium Payment Term for Axis Max Life Smart Secure Plus Plan (UIN: 104N118V13)."
+   }
+  },
+  "uin": {
+   "value": "104N118V13",
+   "provenance": {
+    "sourceId": "insurer:max-life",
+    "url": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan",
+    "retrievedAt": "2026-09-16T09:00:29.341Z",
+    "evidence": "With the Smart Secure Plus Plan (A Non-Linked Non-Participating Individual Pure Risk Life Insurance Plan | UIN: 104N118V13)"
+   }
+  },
+  "productType": "term",
+  "segment": "life",
+  "status": "active",
+  "policyTerm": {
+   "value": "10 Years to 67 Years",
+   "provenance": {
+    "sourceId": "insurer:max-life",
+    "url": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan",
+    "retrievedAt": "2026-09-16T09:00:29.341Z",
+    "evidence": "Premium Payment Term (PPT) Available Base Policy Terms* Available Accident Cover Policy Terms* Single Pay 10 Years to 67 Years NA Regular Pay 10 Years to 67 Years"
+   }
+  },
+  "eligibility": {
+   "value": "The minimum entry age for the Axis Max Life Smart Secure Plus Plan is 18 years, and the maximum age is capped at 65 years for Non-POS variant and 55 years for POS variant",
+   "provenance": {
+    "sourceId": "insurer:max-life",
+    "url": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan",
+    "retrievedAt": "2026-09-16T09:00:29.341Z",
+    "evidence": "The minimum entry age for the Axis Max Life Smart Secure Plus Plan is 18 years, and the maximum age is capped at 65 years for Non-POS variant and 55 years for POS variant. In case of Pay till the 60 option, the maximum entry age is capped at 44 years."
+   }
+  },
+  "premiumFrequency": {
+   "value": "annual, half-yearly, quarterly, or monthly",
+   "provenance": {
+    "sourceId": "insurer:max-life",
+    "url": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan",
+    "retrievedAt": "2026-09-16T09:00:29.341Z",
+    "evidence": "The frequency of the premium payment can be annual, half-yearly, quarterly, or monthly."
+   }
+  },
+  "siteProductId": "max-life-smart-secure-plus",
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ },
+ {
+  "slug": "max-life-smart-term-plan-plus",
+  "insurerSlug": "max-life",
+  "name": {
+   "value": "Axis Max Life Smart Term Plan Plus",
+   "provenance": {
+    "sourceId": "insurer:max-life",
+    "url": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus",
+    "retrievedAt": "2026-09-16T09:00:39.276Z",
+    "evidence": "Axis Max Life Smart Term Plan Plus (A Non-Linked, Non-Participating Individual Pure Risk Life Insurance Plan | UIN: 104N132V01)"
+   }
+  },
+  "uin": {
+   "value": "104N132V01",
+   "provenance": {
+    "sourceId": "insurer:max-life",
+    "url": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus",
+    "retrievedAt": "2026-09-16T09:00:39.276Z",
+    "evidence": "Axis Max Life Smart Term Plan Plus (A Non-Linked, Non-Participating Individual Pure Risk Life Insurance Plan | UIN: 104N132V01)"
+   }
+  },
+  "productType": "term",
+  "segment": "life",
+  "status": "active",
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ },
+ {
+  "slug": "national-insurance-motor",
+  "insurerSlug": "national-insurance",
+  "name": {
+   "value": "Private Car Package Policy",
+   "provenance": {
+    "sourceId": "insurer:national-insurance",
+    "url": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy",
+    "retrievedAt": "2026-09-19T22:06:36.451Z",
+    "evidence": "Private Car Package Policy"
+   }
+  },
+  "productType": "motor-private-car",
+  "segment": "motor",
+  "status": "active",
+  "sumInsured": {
+   "value": "Insured’s Declared Value (IDV)",
+   "provenance": {
+    "sourceId": "insurer:national-insurance",
+    "url": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy",
+    "retrievedAt": "2026-09-19T22:06:36.451Z",
+    "evidence": "The Insured’s Declared Value (IDV) of the vehicle will be deemed to be the ‘SUM INSURED’ for the purpose of this policy"
+   }
+  },
+  "siteProductId": "national-insurance-motor",
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "national-insurance-national-overseas-travel-policy",
+  "insurerSlug": "national-insurance",
+  "name": {
+   "value": "National Overseas Travel Policy",
+   "provenance": {
+    "sourceId": "insurer:national-insurance",
+    "url": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy",
+    "retrievedAt": "2026-09-19T22:06:57.609Z",
+    "evidence": "National Overseas Travel Policy Is A Comprehensive Travel Product Covering Varied Insurance Needs Of International Travelers Going On Holiday Or Business Trip Outside India."
+   }
+  },
+  "uin": {
+   "value": "NICTIOP24116V012324",
+   "provenance": {
+    "sourceId": "insurer:national-insurance",
+    "url": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy",
+    "retrievedAt": "2026-09-19T22:06:57.609Z",
+    "evidence": "UIN No NICTIOP24116V012324 N"
+   }
+  },
+  "productType": "travel",
+  "segment": "travel",
+  "status": "active",
+  "policyTerm": {
+   "value": "Single Trip basis or Annual basis",
+   "provenance": {
+    "sourceId": "insurer:national-insurance",
+    "url": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy",
+    "retrievedAt": "2026-09-19T22:06:57.609Z",
+    "evidence": "Single Trip basis or Annual basis ( Aggregate of all Trip Durations during a Policy Period shall not exceed 180 days)"
+   }
+  },
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "national-insurance-national-parivar-mediclaim-plus-policy",
+  "insurerSlug": "national-insurance",
+  "name": {
+   "value": "National Parivar Mediclaim Plus Policy (Floater Policy)",
+   "provenance": {
+    "sourceId": "insurer:national-insurance",
+    "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy",
+    "retrievedAt": "2026-09-19T22:07:49.986Z",
+    "evidence": "National Parivar Mediclaim Plus Policy (Floater Policy)"
+   }
+  },
+  "uin": {
+   "value": "NICHLIP25039V032425",
+   "provenance": {
+    "sourceId": "insurer:national-insurance",
+    "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy",
+    "retrievedAt": "2026-09-19T22:07:49.986Z",
+    "evidence": "UIN No NICHLIP25039V032425 N"
+   }
+  },
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "sumInsured": {
+   "value": "up to 50 Lakhs",
+   "provenance": {
+    "sourceId": "insurer:national-insurance",
+    "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy",
+    "retrievedAt": "2026-09-19T22:07:49.986Z",
+    "evidence": "Sum Insured (SI) options up to 50 Lakhs for the entire family as per plan opted"
+   }
+  },
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "national-insurance-national-senior-citizen-mediclaim-policy",
+  "insurerSlug": "national-insurance",
+  "name": {
+   "value": "National Senior Citizen Mediclaim Policy (NSCMP)",
+   "provenance": {
+    "sourceId": "insurer:national-insurance",
+    "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp",
+    "retrievedAt": "2026-09-19T22:07:23.614Z",
+    "evidence": "National Senior Citizen Mediclaim Policy (NSCMP)"
+   }
+  },
+  "uin": {
+   "value": "NICHLIP25040V042425",
+   "provenance": {
+    "sourceId": "insurer:national-insurance",
+    "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp",
+    "retrievedAt": "2026-09-19T22:07:23.614Z",
+    "evidence": "UIN No NICHLIP25040V042425 N"
+   }
+  },
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "sumInsured": {
+   "value": "up to Rs. 10 lakhs",
+   "provenance": {
+    "sourceId": "insurer:national-insurance",
+    "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp",
+    "retrievedAt": "2026-09-19T22:07:23.614Z",
+    "evidence": "Covers Senior Citizens for Sum Insured (SI) up to Rs. 10 lakhs either on Individual / Floater basis"
+   }
+  },
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "new-india-assurance-arogya-sanjeevani-policy",
+  "insurerSlug": "new-india-assurance",
+  "name": {
+   "value": "Arogya Sanjeevani Policy",
+   "provenance": {
+    "sourceId": "insurer:new-india-assurance",
+    "url": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy",
+    "retrievedAt": "2026-09-16T09:01:01.307Z",
+    "evidence": "Home Health Arogya Sanjeevani Policy (Cashless facility available) Arogya Sanjeevani Policy, The New India Assurance Health Insurance Policy Downloads"
+   }
+  },
+  "uin": {
+   "value": "NIAHLIP25044V022425",
+   "provenance": {
+    "sourceId": "insurer:new-india-assurance",
+    "url": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy",
+    "retrievedAt": "2026-09-16T09:01:01.307Z",
+    "evidence": "UIN Number : NIAHLIP25044V022425"
+   }
+  },
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "sumInsured": {
+   "value": "INR 50,000 to INR 10 Lakhs",
+   "provenance": {
+    "sourceId": "insurer:new-india-assurance",
+    "url": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy",
+    "retrievedAt": "2026-09-16T09:01:01.307Z",
+    "evidence": "The sum insured is from INR 50,000 to INR 10 Lakhs, in multiples of INR 50,000."
+   }
+  },
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ },
+ {
+  "slug": "new-india-assurance-janata-mediclaim-policy",
+  "insurerSlug": "new-india-assurance",
+  "name": {
+   "value": "Janata Mediclaim Policy",
+   "provenance": {
+    "sourceId": "insurer:new-india-assurance",
+    "url": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy",
+    "retrievedAt": "2026-09-16T09:01:16.157Z",
+    "evidence": "Home Health Janata Mediclaim Policy (Cashless Facility Available) Janata Mediclaim Policy (Cashless Facility Available) Health Insurance Policy Downloads"
+   }
+  },
+  "uin": {
+   "value": "NIAHLIP25046V042425",
+   "provenance": {
+    "sourceId": "insurer:new-india-assurance",
+    "url": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy",
+    "retrievedAt": "2026-09-16T09:01:16.157Z",
+    "evidence": "UIN number : NIAHLIP25046V042425"
+   }
+  },
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ },
+ {
+  "slug": "niva-bupa-reassure-2",
+  "insurerSlug": "niva-bupa",
+  "name": {
+   "value": "ReAssure 2.0",
+   "provenance": {
+    "sourceId": "insurer:niva-bupa",
+    "url": "https://www.nivabupa.com/family-health-insurance-plans/reassurev2-insurance.html",
+    "retrievedAt": "2026-09-16T09:01:26.584Z",
+    "evidence": "Home> Family Health Insurance Plans> ReAssure 2.0 Key features of ReAssure2.0"
+   }
+  },
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "siteProductId": "niva-bupa-reassure-2",
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ },
+ {
+  "slug": "niva-bupa-senior-first",
+  "insurerSlug": "niva-bupa",
+  "name": {
+   "value": "Niva Bupa Senior First",
+   "provenance": {
+    "sourceId": "insurer:niva-bupa",
+    "url": "https://www.nivabupa.com/health-insurance-plans/senior-first-get-quote.html",
+    "retrievedAt": "2026-09-16T09:01:32.775Z",
+    "evidence": "we curated Niva Bupa Senior First to be a trusted partner"
+   }
+  },
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "eligibility": {
+   "value": "aged 61 and above",
+   "provenance": {
+    "sourceId": "insurer:niva-bupa",
+    "url": "https://www.nivabupa.com/health-insurance-plans/senior-first-get-quote.html",
+    "retrievedAt": "2026-09-16T09:01:32.775Z",
+    "evidence": "we provide an affordable way to secure high-quality medical insurance for those aged 61 and above"
+   }
+  },
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ },
+ {
+  "slug": "pnb-metlife-mera-term",
+  "insurerSlug": "pnb-metlife",
+  "name": {
+   "value": "PNB MetLife Mera Term Plan Plus",
+   "provenance": {
+    "sourceId": "insurer:pnb-metlife",
+    "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html",
+    "retrievedAt": "2026-09-16T09:01:32.977Z",
+    "evidence": "PNB MetLife Mera Term Plan Plus Individual Non-Linked, Non-Par, Pure Risk Premium, Life Insurance Plan | UIN: 117N126V04"
+   }
+  },
+  "uin": {
+   "value": "117N126V04",
+   "provenance": {
+    "sourceId": "insurer:pnb-metlife",
+    "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html",
+    "retrievedAt": "2026-09-16T09:01:32.977Z",
+    "evidence": "PNB MetLife Mera Term Plan Plus Individual Non-Linked, Non-Par, Pure Risk Premium, Life Insurance Plan | UIN: 117N126V04"
+   }
+  },
+  "productType": "term",
+  "segment": "life",
+  "status": "active",
+  "policyTerm": {
+   "value": "Policy Term (yrs) 10 Without RoP: Life, Life Plus: 99-Age at entry Life Plus Health: 75 – Age at entry With RoP : 40",
+   "provenance": {
+    "sourceId": "insurer:pnb-metlife",
+    "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html",
+    "retrievedAt": "2026-09-16T09:01:32.977Z",
+    "evidence": "(Minimum allowed Policy Term for Limited pay option: Premium Payment Term plus 5 years) Policy Term (yrs) 10 Without RoP: Life, Life Plus: 99-Age at entry Life Plus Health: 75 – Age at entry With RoP : 40 6All Age as of last birthday"
+   }
+  },
+  "eligibility": {
+   "value": "Age at Entry (yrs) 18 60 (55 if 'Pay till Age 60' is chosen as PPT)",
+   "provenance": {
+    "sourceId": "insurer:pnb-metlife",
+    "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html",
+    "retrievedAt": "2026-09-16T09:01:32.977Z",
+    "evidence": "Parameter Minimum Maximum 6Age at Entry (yrs) 18 60 (55 if 'Pay till Age 60' is chosen as PPT) Age at Maturity"
+   }
+  },
+  "sumInsured": {
+   "value": "Sum Assured (Rs.) 25,00,000 No limit, subject to Underwriting",
+   "provenance": {
+    "sourceId": "insurer:pnb-metlife",
+    "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-mera-term-plan-plus.html",
+    "retrievedAt": "2026-09-16T09:01:32.977Z",
+    "evidence": "With RoP 28 75 Sum Assured (Rs.) 25,00,000 No limit, subject to Underwriting Premium (Rs.) Based on the Basic Sum Assured"
+   }
+  },
+  "siteProductId": "pnb-metlife-mera-term",
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ },
+ {
+  "slug": "pnb-metlife-saral-jeevan-bima",
+  "insurerSlug": "pnb-metlife",
+  "name": {
+   "value": "PNB MetLife Saral Jeevan Bima",
+   "provenance": {
+    "sourceId": "insurer:pnb-metlife",
+    "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html",
+    "retrievedAt": "2026-09-16T09:01:38.830Z",
+    "evidence": "PNB MetLife Saral Jeevan Bima Mere apno ki suraksha ka saccha saathi Individual, Non-linked, Non-par, Pure Risk Premium, Life Insurance Product | UIN: 117N128V04"
+   }
+  },
+  "uin": {
+   "value": "117N128V04",
+   "provenance": {
+    "sourceId": "insurer:pnb-metlife",
+    "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html",
+    "retrievedAt": "2026-09-16T09:01:38.830Z",
+    "evidence": "PNB MetLife Saral Jeevan Bima (UIN: 117N128V04) is an Individual, Non-linked, Non-participating, pure risk premium life insurance product."
+   }
+  },
+  "productType": "term",
+  "segment": "life",
+  "status": "active",
+  "policyTerm": {
+   "value": "fixed term ranging from 5 years to 40 years",
+   "provenance": {
+    "sourceId": "insurer:pnb-metlife",
+    "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html",
+    "retrievedAt": "2026-09-16T09:01:38.830Z",
+    "evidence": "Choice of Policy Term With this plan, you can choose to stay protected for a fixed term ranging from 5 years to 40 years"
+   }
+  },
+  "eligibility": {
+   "value": "Age at entry1 (yrs) 18 65",
+   "provenance": {
+    "sourceId": "insurer:pnb-metlife",
+    "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html",
+    "retrievedAt": "2026-09-16T09:01:38.830Z",
+    "evidence": "What are the eligibility criteria for this plan? Parameter Minimum Maximum Age at entry1 (yrs) 18 65 Age at Maturity (yrs) 23 70"
+   }
+  },
+  "premiumFrequency": {
+   "value": "Yearly / Half Yearly / Monthly",
+   "provenance": {
+    "sourceId": "insurer:pnb-metlife",
+    "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html",
+    "retrievedAt": "2026-09-16T09:01:38.830Z",
+    "evidence": "Premium Payment modes Yearly / Half Yearly / Monthly2 1All references to Age are as on age last birthday 2Monthly mode is available only under ECS/NACH"
+   }
+  },
+  "sumInsured": {
+   "value": "Rs.5 Lakhs to Rs.50 Lakhs",
+   "provenance": {
+    "sourceId": "insurer:pnb-metlife",
+    "url": "https://www.pnbmetlife.com/insurance-plans/family-protection/pnb-metlife-saral-jeevan-bima.html",
+    "retrievedAt": "2026-09-16T09:01:38.830Z",
+    "evidence": "This plan offers life protection to you & your family for sum assured ranging from Rs.5 Lakhs to Rs.50 Lakhs."
+   }
+  },
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ },
+ {
+  "slug": "reliance-general-health-infinity",
+  "insurerSlug": "reliance-general",
+  "name": {
+   "value": "IndusInd Health Infinity Insurance",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/health-insurance/health-infinity-insurance",
+    "retrievedAt": "2026-09-19T22:08:21.400Z",
+    "evidence": "IndusInd Health Infinity Insurance"
+   }
+  },
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "policyTerm": {
+   "value": "1, 2 or 3-year policy terms",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/health-insurance/health-infinity-insurance",
+    "retrievedAt": "2026-09-19T22:08:21.400Z",
+    "evidence": "1, 2 or 3-year policy terms"
+   }
+  },
+  "sumInsured": {
+   "value": "₹5 lakh and going up to ₹5 crore",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/health-insurance/health-infinity-insurance",
+    "retrievedAt": "2026-09-19T22:08:21.400Z",
+    "evidence": "starting from ₹5 lakh and going up to ₹5 crore"
+   }
+  },
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "reliance-general-health-super-top-up",
+  "insurerSlug": "reliance-general",
+  "name": {
+   "value": "IndusInd Health Super Top-Up",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/health-insurance/super-top-up-health-insurance",
+    "retrievedAt": "2026-09-19T22:08:25.494Z",
+    "evidence": "Key Features of IndusInd Health Super Top-Up"
+   }
+  },
+  "uin": {
+   "value": "RELHLIP21617V012021",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/health-insurance/super-top-up-health-insurance",
+    "retrievedAt": "2026-09-19T22:08:25.494Z",
+    "evidence": "UIN: INIHLIP26040V042526 | Health Super Top-Up – RELHLIP21617V012021 |"
+   }
+  },
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "policyTerm": {
+   "value": "1, 2 or 3 years tenure available",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/health-insurance/super-top-up-health-insurance",
+    "retrievedAt": "2026-09-19T22:08:25.494Z",
+    "evidence": "1, 2 or 3 years tenure available"
+   }
+  },
+  "eligibility": {
+   "value": "Adults: 18 to 65 years",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/health-insurance/super-top-up-health-insurance",
+    "retrievedAt": "2026-09-19T22:08:25.494Z",
+    "evidence": "Adults: 18 to 65 years"
+   }
+  },
+  "sumInsured": {
+   "value": "₹5 lakh to ₹1.30 crore",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/health-insurance/super-top-up-health-insurance",
+    "retrievedAt": "2026-09-19T22:08:25.494Z",
+    "evidence": "SI available between ₹5 lakh to ₹1.30 crore"
+   }
+  },
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "reliance-general-personal-accident-360shield",
+  "insurerSlug": "reliance-general",
+  "name": {
+   "value": "IndusInd Personal Accident 360Shield",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/health-insurance/personal-accident-insurance",
+    "retrievedAt": "2026-09-19T22:08:23.602Z",
+    "evidence": "IndusInd Personal Accident 360Shield (formerly known as Reliance Personal Accident 360Shield) is a comprehensive plan"
+   }
+  },
+  "uin": {
+   "value": "RELPAIP25035V022425",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/health-insurance/personal-accident-insurance",
+    "retrievedAt": "2026-09-19T22:08:23.602Z",
+    "evidence": "UIN: INIHLIP26040V042526 | Health Super Top-Up – RELHLIP21617V012021 | Health Global – IRDAN103RP0001V01202324 | Personal Accident 360Shield – RELPAIP25035V022425 |"
+   }
+  },
+  "productType": "personal-accident",
+  "segment": "health",
+  "status": "active",
+  "policyTerm": {
+   "value": "1, 2 or 3 years",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/health-insurance/personal-accident-insurance",
+    "retrievedAt": "2026-09-19T22:08:23.602Z",
+    "evidence": "1, 2 or 3 years"
+   }
+  },
+  "eligibility": {
+   "value": "18 to 80 years",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/health-insurance/personal-accident-insurance",
+    "retrievedAt": "2026-09-19T22:08:23.602Z",
+    "evidence": "Individuals aged 18 to 80 years"
+   }
+  },
+  "sumInsured": {
+   "value": "₹5 lakh to ₹25 crore",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/health-insurance/personal-accident-insurance",
+    "retrievedAt": "2026-09-19T22:08:23.602Z",
+    "evidence": "₹5 lakh to ₹25 crore under Personal Accident 360Shield"
+   }
+  },
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "reliance-health-gain",
+  "insurerSlug": "reliance-general",
+  "name": {
+   "value": "IndusInd Health Gain 3.0",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/health-insurance/health-gain-insurance",
+    "retrievedAt": "2026-09-19T22:08:15.633Z",
+    "evidence": "Key Features of IndusInd Health Gain 3.0"
+   }
+  },
+  "uin": {
+   "value": "INIHLIP26040V042526",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/health-insurance/health-gain-insurance",
+    "retrievedAt": "2026-09-19T22:08:15.633Z",
+    "evidence": "UIN: Health Gain: INIHLIP26040V042526 F"
+   }
+  },
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "policyTerm": {
+   "value": "1, 2, 3, 4 or 5 years",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/health-insurance/health-gain-insurance",
+    "retrievedAt": "2026-09-19T22:08:15.633Z",
+    "evidence": "1, 2, 3, 4 or 5 years"
+   }
+  },
+  "eligibility": {
+   "value": "Adults: 18 to 99 years",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/health-insurance/health-gain-insurance",
+    "retrievedAt": "2026-09-19T22:08:15.633Z",
+    "evidence": "Adults: 18 to 99 years"
+   }
+  },
+  "sumInsured": {
+   "value": "₹5 lakhs to ₹5 crore",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/health-insurance/health-gain-insurance",
+    "retrievedAt": "2026-09-19T22:08:15.633Z",
+    "evidence": "Get the ideal health insurance for your needs, with coverage from ₹5 lakhs to ₹5 crore."
+   }
+  },
+  "siteProductId": "reliance-health-gain",
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "reliance-motor-comprehensive",
+  "insurerSlug": "reliance-general",
+  "name": {
+   "value": "IndusInd Private Car Package Policy",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/car-insurance/comprehensive-car-insurance",
+    "retrievedAt": "2026-09-19T22:08:17.399Z",
+    "evidence": "IndusInd Private Car Package Policy: IRDAN103RP0010V02100001"
+   }
+  },
+  "productType": "motor-private-car",
+  "segment": "motor",
+  "status": "active",
+  "siteProductId": "reliance-motor-comprehensive",
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "reliance-travel-care",
+  "insurerSlug": "reliance-general",
+  "name": {
+   "value": "IndusInd Travel Care Policy",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/travel-insurance",
+    "retrievedAt": "2026-09-19T22:08:19.414Z",
+    "evidence": "IndusInd Travel Care Policy – RELTIOP08002V010708"
+   }
+  },
+  "uin": {
+   "value": "RELTIOP08002V010708",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/travel-insurance",
+    "retrievedAt": "2026-09-19T22:08:19.414Z",
+    "evidence": "UIN: IndusInd Travel Care Policy – RELTIOP08002V010708 F"
+   }
+  },
+  "productType": "travel",
+  "segment": "travel",
+  "status": "active",
+  "sumInsured": {
+   "value": "$100,000 to $500,000",
+   "provenance": {
+    "sourceId": "insurer:reliance-general",
+    "url": "https://www.indusindinsurance.com/travel-insurance",
+    "retrievedAt": "2026-09-19T22:08:19.414Z",
+    "evidence": "visa-compliant plans with sum insured options ranging from $100,000 to $500,000"
+   }
+  },
+  "siteProductId": "reliance-travel-care",
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "sbi-arogya-premier",
+  "insurerSlug": "sbi-general",
+  "name": {
+   "value": "Arogya Premier Policy",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier-policy",
+    "retrievedAt": "2026-09-19T22:05:06.431Z",
+    "evidence": "Arogya Premier Policy"
+   }
+  },
+  "uin": {
+   "value": "SBIHLIP22136V032122",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier-policy",
+    "retrievedAt": "2026-09-19T22:05:06.431Z",
+    "evidence": "UIN SBIHLIP22136V032122 D"
+   }
+  },
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "sumInsured": {
+   "value": "Rs. 10,00,000 to Rs. 30,00,000",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier-policy",
+    "retrievedAt": "2026-09-19T22:05:06.431Z",
+    "evidence": "Coverage from Rs. 10,00,000 to Rs. 30,00,000"
+   }
+  },
+  "siteProductId": "sbi-arogya-premier",
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "sbi-general-bharat-griha-raksha",
+  "insurerSlug": "sbi-general",
+  "name": {
+   "value": "SBI General Bharat Griha Raksha",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/home-insurance/bharat-griha-raksha",
+    "retrievedAt": "2026-09-19T22:09:14.073Z",
+    "evidence": "SBI General Bharat Griha Raksha"
+   }
+  },
+  "uin": {
+   "value": "IRDAN144RP0032V01202021",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/home-insurance/bharat-griha-raksha",
+    "retrievedAt": "2026-09-19T22:09:14.073Z",
+    "evidence": "UIN IRDAN144RP0032V01202021 D"
+   }
+  },
+  "productType": "home",
+  "segment": "home",
+  "status": "active",
+  "policyTerm": {
+   "value": "The policy should be for minimum 1 year and maximum 10 years.",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/home-insurance/bharat-griha-raksha",
+    "retrievedAt": "2026-09-19T22:09:14.073Z",
+    "evidence": "The policy should be for minimum 1 year and maximum 10 years."
+   }
+  },
+  "eligibility": {
+   "value": "You can purchase the home building cover if you own the building. You can also purchase home contents cover for the contents if you are a tenant or an owner.",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/home-insurance/bharat-griha-raksha",
+    "retrievedAt": "2026-09-19T22:09:14.073Z",
+    "evidence": "You can purchase the home building cover if you own the building. You can also purchase home contents cover for the contents if you are a tenant or an owner."
+   }
+  },
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "sbi-general-health-alpha",
+  "insurerSlug": "sbi-general",
+  "name": {
+   "value": "SBI General Health Alpha",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/health-insurance/health-alpha",
+    "retrievedAt": "2026-09-19T22:09:12.111Z",
+    "evidence": "SBI General Health Alpha is a comprehensive retail health product designed to cater to the diverse needs of all generations, including senior citizens, millennials, and Gen Z."
+   }
+  },
+  "uin": {
+   "value": "SBIHLIP26038V012526",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/health-insurance/health-alpha",
+    "retrievedAt": "2026-09-19T22:09:12.111Z",
+    "evidence": "UIN SBIHLIP26038V012526 D"
+   }
+  },
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "policyTerm": {
+   "value": "Policy is available for 1 year, 2 years, 3 years, 4 years and 5 years.",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/health-insurance/health-alpha",
+    "retrievedAt": "2026-09-19T22:09:12.111Z",
+    "evidence": "Policy is available for 1 year, 2 years, 3 years, 4 years and 5 years."
+   }
+  },
+  "eligibility": {
+   "value": "Adult: 18 years - Dependent Child: 91 Days to 25 years",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/health-insurance/health-alpha",
+    "retrievedAt": "2026-09-19T22:09:12.111Z",
+    "evidence": "Adult: 18 years - Dependent Child: 91 Days to 25 years"
+   }
+  },
+  "sumInsured": {
+   "value": "₹5 Lakh to Unlimited SI",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/health-insurance/health-alpha",
+    "retrievedAt": "2026-09-19T22:09:12.111Z",
+    "evidence": "₹5 Lakh to Unlimited SI*"
+   }
+  },
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "sbi-general-super-health-insurance",
+  "insurerSlug": "sbi-general",
+  "name": {
+   "value": "Super Health Insurance",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/health-insurance/super-health-insurance-policy",
+    "retrievedAt": "2026-09-19T22:09:10.114Z",
+    "evidence": "Product Name : Super Health Insurance"
+   }
+  },
+  "uin": {
+   "value": "SBIHLIP24141V022324",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/health-insurance/super-health-insurance-policy",
+    "retrievedAt": "2026-09-19T22:09:10.114Z",
+    "evidence": "UIN SBIHLIP24141V022324 F"
+   }
+  },
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "eligibility": {
+   "value": "Adults Aged 18 Years and Above",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/health-insurance/super-health-insurance-policy",
+    "retrievedAt": "2026-09-19T22:09:10.114Z",
+    "evidence": "Adults Aged 18 Years and Above"
+   }
+  },
+  "sumInsured": {
+   "value": "₹3 Lakh to ₹2 Crore",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/health-insurance/super-health-insurance-policy",
+    "retrievedAt": "2026-09-19T22:09:10.114Z",
+    "evidence": "₹3 Lakh to ₹2 Crore"
+   }
+  },
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "sbi-motor-comprehensive",
+  "insurerSlug": "sbi-general",
+  "name": {
+   "value": "Private Car Insurance Policy - Package",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/portal/motor-insurance/private-car-insurance",
+    "retrievedAt": "2026-09-19T22:08:44.918Z",
+    "evidence": "Private Car Insurance Policy - Package"
+   }
+  },
+  "productType": "motor-private-car",
+  "segment": "motor",
+  "status": "active",
+  "siteProductId": "sbi-motor-comprehensive",
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "sbi-travel-insurance",
+  "insurerSlug": "sbi-general",
+  "name": {
+   "value": "Travel Insurance (Business and Holiday)",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/travel-insurance",
+    "retrievedAt": "2026-09-19T22:09:08.716Z",
+    "evidence": "Travel Insurance (Business and Holiday)"
+   }
+  },
+  "uin": {
+   "value": "SBITIOP14004V011314",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/travel-insurance",
+    "retrievedAt": "2026-09-19T22:09:08.716Z",
+    "evidence": "UIN SBITIOP14004V011314 D"
+   }
+  },
+  "productType": "travel",
+  "segment": "travel",
+  "status": "active",
+  "policyTerm": {
+   "value": "Single Trip: for travelling just once, between 1-180 days",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/travel-insurance",
+    "retrievedAt": "2026-09-19T22:09:08.716Z",
+    "evidence": "Single Trip: for travelling just once, between 1-180 days"
+   }
+  },
+  "eligibility": {
+   "value": "6 months - 70 years",
+   "provenance": {
+    "sourceId": "insurer:sbi-general",
+    "url": "https://www.sbigeneral.in/travel-insurance",
+    "retrievedAt": "2026-09-19T22:09:08.716Z",
+    "evidence": "Age limit: 6 months - 70 years"
+   }
+  },
+  "siteProductId": "sbi-travel-insurance",
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "tata-aia-fortune-guarantee-plus",
+  "insurerSlug": "tata-aia",
+  "name": {
+   "value": "Tata AIA Fortune Guarantee Plus",
+   "provenance": {
+    "sourceId": "insurer:tata-aia",
+    "url": "https://www.tataaia.com/life-insurance-plans/savings-solutions/fortune-guarantee-plus.html",
+    "retrievedAt": "2026-09-19T22:09:18.193Z",
+    "evidence": "The complete name of Tata AIA Fortune Guarantee Plus is Tata AIA Life Insurance Fortune Guarantee Plus (UIN: 110N158V14)"
+   }
+  },
+  "uin": {
+   "value": "110N158V14",
+   "provenance": {
+    "sourceId": "insurer:tata-aia",
+    "url": "https://www.tataaia.com/life-insurance-plans/savings-solutions/fortune-guarantee-plus.html",
+    "retrievedAt": "2026-09-19T22:09:18.193Z",
+    "evidence": "return plans, such as Tata AIA Fortune Guarantee Plus (Non-Linked, Non-Participating, Individual Life Insurance Savings Plan (UIN: 110N158V14), you can save income tax"
+   }
+  },
+  "productType": "endowment",
+  "segment": "life",
+  "status": "active",
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "tata-aia-maha-raksha-supreme-select",
+  "insurerSlug": "tata-aia",
+  "name": {
+   "value": "Tata AIA Maha Raksha Supreme Select",
+   "provenance": {
+    "sourceId": "insurer:tata-aia",
+    "url": "https://www.tataaia.com/life-insurance-plans/term-insurance/maha-raksha-supreme-select.html",
+    "retrievedAt": "2026-09-19T22:09:16.206Z",
+    "evidence": "Tata AIA Maha Raksha Supreme Select - Non-Linked, Non-Participating, Pure Risk, Individual Life Insurance Product (UIN: 110N171V16)"
+   }
+  },
+  "uin": {
+   "value": "110N171V16",
+   "provenance": {
+    "sourceId": "insurer:tata-aia",
+    "url": "https://www.tataaia.com/life-insurance-plans/term-insurance/maha-raksha-supreme-select.html",
+    "retrievedAt": "2026-09-19T22:09:16.206Z",
+    "evidence": "Tata AIA Maha Raksha Supreme Select - Non-Linked, Non-Participating, Pure Risk, Individual Life Insurance Product (UIN: 110N171V16)"
+   }
+  },
+  "productType": "term",
+  "segment": "life",
+  "status": "active",
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "tata-aia-sampoorna-raksha",
+  "insurerSlug": "tata-aia",
+  "name": {
+   "value": "Tata AIA Sampoorna Raksha Promise",
+   "provenance": {
+    "sourceId": "insurer:tata-aia",
+    "url": "https://www.tataaia.com/life-insurance-plans/term-insurance/sampoorna-raksha-promise.html",
+    "retrievedAt": "2026-09-19T22:09:14.337Z",
+    "evidence": "Tata AIA Sampoorna Raksha Promise - Non-Linked, Non-Participating, pure risk, Individual Life Insurance Product"
+   }
+  },
+  "uin": {
+   "value": "110N176V13",
+   "provenance": {
+    "sourceId": "insurer:tata-aia",
+    "url": "https://www.tataaia.com/life-insurance-plans/term-insurance/sampoorna-raksha-promise.html",
+    "retrievedAt": "2026-09-19T22:09:14.337Z",
+    "evidence": "(UIN:110N176V13)"
+   }
+  },
+  "productType": "term",
+  "segment": "life",
+  "status": "active",
+  "policyTerm": {
+   "value": "life cover up to 100 years of age",
+   "provenance": {
+    "sourceId": "insurer:tata-aia",
+    "url": "https://www.tataaia.com/life-insurance-plans/term-insurance/sampoorna-raksha-promise.html",
+    "retrievedAt": "2026-09-19T22:09:14.337Z",
+    "evidence": "Leave a legacy with life cover up to 100 years of age"
+   }
+  },
+  "siteProductId": "tata-aia-sampoorna-raksha",
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "tata-aia-saral-pension",
+  "insurerSlug": "tata-aia",
+  "name": {
+   "value": "Tata AIA Saral Pension",
+   "provenance": {
+    "sourceId": "insurer:tata-aia",
+    "url": "https://www.tataaia.com/life-insurance-plans/retirement-and-pension-solutions/saral-pension-plan.html",
+    "retrievedAt": "2026-09-19T22:09:20.175Z",
+    "evidence": "The complete name of Tata AIA Saral Pension is Tata AIA Life Insurance Saral Pension (UIN: 110N159V10)"
+   }
+  },
+  "uin": {
+   "value": "110N159V10",
+   "provenance": {
+    "sourceId": "insurer:tata-aia",
+    "url": "https://www.tataaia.com/life-insurance-plans/retirement-and-pension-solutions/saral-pension-plan.html",
+    "retrievedAt": "2026-09-19T22:09:20.175Z",
+    "evidence": "Tata AIA Life Insurance Saral Pension (UIN: 110N159V10)"
+   }
+  },
+  "productType": "pension",
+  "segment": "life",
+  "status": "active",
+  "policyTerm": {
+   "value": "whole of life",
+   "provenance": {
+    "sourceId": "insurer:tata-aia",
+    "url": "https://www.tataaia.com/life-insurance-plans/retirement-and-pension-solutions/saral-pension-plan.html",
+    "retrievedAt": "2026-09-19T22:09:20.175Z",
+    "evidence": "annuitants (Joint Life option with spouse) for whole of life."
+   }
+  },
+  "createdAt": "2026-09-19T22:05:02.956Z",
+  "updatedAt": "2026-09-19T22:05:02.956Z"
+ },
+ {
+  "slug": "tata-aig-car-insurance",
+  "insurerSlug": "tata-aig",
+  "name": {
+   "value": "TATA AIG Car Insurance",
+   "provenance": {
+    "sourceId": "insurer:tata-aig",
+    "url": "https://www.tataaig.com/motor-insurance/car-insurance",
+    "retrievedAt": "2026-09-16T09:01:45.346Z",
+    "evidence": "TATA AIG Car Insurance for Electric Cars EV car insurance is similar to regular car insurance"
+   }
+  },
+  "productType": "motor-private-car",
+  "segment": "motor",
+  "status": "active",
+  "policyTerm": {
+   "value": "1, 2 and 3 Years",
+   "provenance": {
+    "sourceId": "insurer:tata-aig",
+    "url": "https://www.tataaig.com/motor-insurance/car-insurance",
+    "retrievedAt": "2026-09-16T09:01:45.346Z",
+    "evidence": "Plan Duration 1, 2 and 3 Years"
+   }
+  },
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ },
+ {
+  "slug": "tata-aig-medicare-select",
+  "insurerSlug": "tata-aig",
+  "name": {
+   "value": "TATA AIG MediCare Select",
+   "provenance": {
+    "sourceId": "insurer:tata-aig",
+    "url": "https://www.tataaig.com/health-insurance/medicare-select",
+    "retrievedAt": "2026-09-16T09:01:43.182Z",
+    "evidence": "TATA AIG MediCare Select UIN: TATHLIP25051V012425."
+   }
+  },
+  "uin": {
+   "value": "TATHLIP25051V012425",
+   "provenance": {
+    "sourceId": "insurer:tata-aig",
+    "url": "https://www.tataaig.com/health-insurance/medicare-select",
+    "retrievedAt": "2026-09-16T09:01:43.182Z",
+    "evidence": "TATA AIG MediCare Select UIN: TATHLIP25051V012425."
+   }
+  },
+  "productType": "health-indemnity",
+  "segment": "health",
+  "status": "active",
+  "policyTerm": {
+   "value": "1, 2 and 3-Year Options",
+   "provenance": {
+    "sourceId": "insurer:tata-aig",
+    "url": "https://www.tataaig.com/health-insurance/medicare-select",
+    "retrievedAt": "2026-09-16T09:01:43.182Z",
+    "evidence": "Policy Duration 1, 2 and 3-Year Options"
+   }
+  },
+  "sumInsured": {
+   "value": "₹5 lakhs - ₹3 Crores",
+   "provenance": {
+    "sourceId": "insurer:tata-aig",
+    "url": "https://www.tataaig.com/health-insurance/medicare-select",
+    "retrievedAt": "2026-09-16T09:01:43.182Z",
+    "evidence": "Sum Insured Options ₹5 lakhs - ₹3 Crores"
+   }
+  },
+  "siteProductId": "tata-aig-medicare-select",
+  "createdAt": "2026-09-16T08:59:52.354Z",
+  "updatedAt": "2026-09-16T08:59:52.354Z"
+ }
 ]

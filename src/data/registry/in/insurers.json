@@ -73,6 +73,177 @@
     "updatedAt": "2026-09-16T08:59:52.354Z"
   },
   {
+    "slug": "bajaj-allianz",
+    "name": {
+      "value": "Bajaj General Insurance Limited",
+      "provenance": {
+        "sourceId": "insurer:bajaj-allianz",
+        "url": "https://www.bajajgeneralinsurance.com/about-us.html",
+        "retrievedAt": "2026-09-19T22:05:04.364Z",
+        "evidence": "Bajaj General Insurance Limited (formerly known as Bajaj Allianz General Insurance Company Limited)"
+      }
+    },
+    "legalName": {
+      "value": "Bajaj General Insurance Limited",
+      "provenance": {
+        "sourceId": "insurer:bajaj-allianz",
+        "url": "https://www.bajajgeneralinsurance.com/about-us.html",
+        "retrievedAt": "2026-09-19T22:05:04.364Z",
+        "evidence": "Bajaj General Insurance Limited (formerly known as Bajaj Allianz General Insurance Company Limited)"
+      }
+    },
+    "insurerType": {
+      "value": "general",
+      "provenance": {
+        "sourceId": "insurer:bajaj-allianz",
+        "url": "https://www.bajajgeneralinsurance.com/about-us.html",
+        "retrievedAt": "2026-09-19T22:05:04.364Z",
+        "evidence": "Bajaj General Insurance Limited (formerly known as Bajaj Allianz General Insurance Company Limited) is one of India’s leading, most trusted and dynamic private general insurance companies."
+      }
+    },
+    "segments": [
+      "commercial",
+      "health",
+      "home",
+      "motor",
+      "other",
+      "travel"
+    ],
+    "irdaiRegistrationNumber": {
+      "value": "113",
+      "provenance": {
+        "sourceId": "insurer:bajaj-allianz",
+        "url": "https://www.bajajgeneralinsurance.com/about-us.html",
+        "retrievedAt": "2026-09-19T22:05:04.364Z",
+        "evidence": "IRDA Reg. No. 113, Bajaj General CIN -U66010PN2000PLC015329 An ISO 27001:2022 Certified Company"
+      }
+    },
+    "cin": {
+      "value": "U66010PN2000PLC015329",
+      "provenance": {
+        "sourceId": "insurer:bajaj-allianz",
+        "url": "https://www.bajajgeneralinsurance.com/about-us.html",
+        "retrievedAt": "2026-09-19T22:05:04.364Z",
+        "evidence": "IRDA Reg. No. 113, Bajaj General CIN -U66010PN2000PLC015329 An ISO 27001:2022 Certified Company"
+      }
+    },
+    "website": {
+      "value": "https://www.bajajgeneralinsurance.com/",
+      "provenance": {
+        "sourceId": "insurer:bajaj-allianz",
+        "url": "https://www.bajajgeneralinsurance.com/about-us.html",
+        "retrievedAt": "2026-09-19T22:05:04.364Z"
+      }
+    },
+    "headquarters": {
+      "value": "Pune",
+      "provenance": {
+        "sourceId": "insurer:bajaj-allianz",
+        "url": "https://www.bajajgeneralinsurance.com/about-us.html",
+        "retrievedAt": "2026-09-19T22:05:04.364Z",
+        "evidence": "Registered Address: Bajaj Insurance House, Airport Road, Yerawada, Pune-411006"
+      }
+    },
+    "status": "active",
+    "formerNames": [
+      {
+        "name": "Bajaj Allianz General Insurance Company Limited",
+        "provenance": {
+          "sourceId": "insurer:bajaj-allianz",
+          "url": "https://www.bajajgeneralinsurance.com/about-us.html",
+          "retrievedAt": "2026-09-19T22:05:04.364Z",
+          "evidence": "Bajaj General Insurance Limited (formerly known as Bajaj Allianz General Insurance Company Limited)"
+        }
+      }
+    ],
+    "siteSlug": "bajaj-allianz",
+    "createdAt": "2026-09-19T22:05:02.956Z",
+    "updatedAt": "2026-09-19T22:05:02.956Z"
+  },
+  {
+    "slug": "bajaj-allianz-life",
+    "name": {
+      "value": "Bajaj Life Insurance Limited",
+      "provenance": {
+        "sourceId": "insurer:bajaj-allianz-life",
+        "url": "https://www.bajajlifeinsurance.com/about-us.html",
+        "retrievedAt": "2026-09-19T22:05:04.029Z",
+        "evidence": "Bajaj Life Insurance Limited (Formerly known as Bajaj Allianz Life Insurance Company Limited). All Rights Reserved."
+      }
+    },
+    "legalName": {
+      "value": "Bajaj Life Insurance Limited",
+      "provenance": {
+        "sourceId": "insurer:bajaj-allianz-life",
+        "url": "https://www.bajajlifeinsurance.com/about-us.html",
+        "retrievedAt": "2026-09-19T22:05:04.029Z",
+        "evidence": "Bajaj Life Insurance Limited (formerly known as Bajaj Allianz Life Insurance Company Limited) is one of India’s leading, most trusted and dynamic private life insurance companies."
+      }
+    },
+    "insurerType": {
+      "value": "life",
+      "provenance": {
+        "sourceId": "insurer:bajaj-allianz-life",
+        "url": "https://www.bajajlifeinsurance.com/about-us.html",
+        "retrievedAt": "2026-09-19T22:05:04.029Z",
+        "evidence": "Bajaj Life Insurance Limited (formerly known as Bajaj Allianz Life Insurance Company Limited) is one of India’s leading, most trusted and dynamic private life insurance companies."
+      }
+    },
+    "segments": [
+      "life"
+    ],
+    "irdaiRegistrationNumber": {
+      "value": "116",
+      "provenance": {
+        "sourceId": "insurer:bajaj-allianz-life",
+        "url": "https://www.bajajlifeinsurance.com/about-us.html",
+        "retrievedAt": "2026-09-19T22:05:04.029Z",
+        "evidence": "IRDAI Reg. No. 116"
+      }
+    },
+    "cin": {
+      "value": "U66010PN2001PLC015959",
+      "provenance": {
+        "sourceId": "insurer:bajaj-allianz-life",
+        "url": "https://www.bajajlifeinsurance.com/about-us.html",
+        "retrievedAt": "2026-09-19T22:05:04.029Z",
+        "evidence": "CIN: U66010PN2001PLC015959"
+      }
+    },
+    "website": {
+      "value": "https://www.bajajlifeinsurance.com/",
+      "provenance": {
+        "sourceId": "insurer:bajaj-allianz-life",
+        "url": "https://www.bajajlifeinsurance.com/about-us.html",
+        "retrievedAt": "2026-09-19T22:05:04.029Z"
+      }
+    },
+    "headquarters": {
+      "value": "Pune",
+      "provenance": {
+        "sourceId": "insurer:bajaj-allianz-life",
+        "url": "https://www.bajajlifeinsurance.com/about-us.html",
+        "retrievedAt": "2026-09-19T22:05:04.029Z",
+        "evidence": "Registered Office Address: Bajaj Insurance House, Airport Road, Yerawada, Pune - 411006, Maharashtra"
+      }
+    },
+    "status": "active",
+    "formerNames": [
+      {
+        "name": "Bajaj Allianz Life Insurance Company Limited",
+        "provenance": {
+          "sourceId": "insurer:bajaj-allianz-life",
+          "url": "https://www.bajajlifeinsurance.com/about-us.html",
+          "retrievedAt": "2026-09-19T22:05:04.029Z",
+          "evidence": "Bajaj Life Insurance Limited (Formerly known as Bajaj Allianz Life Insurance Company Limited). All Rights Reserved."
+        }
+      }
+    ],
+    "siteSlug": "bajaj-allianz-life",
+    "createdAt": "2026-09-19T22:05:02.956Z",
+    "updatedAt": "2026-09-19T22:05:02.956Z"
+  },
+  {
     "slug": "digit",
     "name": {
       "value": "Go Digit General Insurance Limited",
@@ -405,6 +576,82 @@
     "updatedAt": "2026-09-16T09:05:23.008Z"
   },
   {
+    "slug": "national-insurance",
+    "name": {
+      "value": "National Insurance Company Limited",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/about-us/overview/about-company",
+        "retrievedAt": "2026-09-19T22:05:05.033Z",
+        "evidence": "National Insurance Company Limited, a Wholly-owned Government of India Undertaking is the oldest Public Sector General Insurance Company in India."
+      }
+    },
+    "legalName": {
+      "value": "National Insurance Company Limited",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/about-us/overview/about-company",
+        "retrievedAt": "2026-09-19T22:05:05.033Z",
+        "evidence": "National Insurance Company Limited, a Wholly-owned Government of India Undertaking is the oldest Public Sector General Insurance Company in India."
+      }
+    },
+    "insurerType": {
+      "value": "general",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/about-us/overview/about-company",
+        "retrievedAt": "2026-09-19T22:05:05.033Z",
+        "evidence": "It is registered as a General Insurance Company with the Insurance Regulatory and Development Authority of India (IRDAI) under the Insurance Act, 1938 vide registration no. 58."
+      }
+    },
+    "segments": [
+      "health",
+      "home",
+      "motor",
+      "other",
+      "travel"
+    ],
+    "irdaiRegistrationNumber": {
+      "value": "58",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/about-us/overview/about-company",
+        "retrievedAt": "2026-09-19T22:05:05.033Z",
+        "evidence": "It is registered as a General Insurance Company with the Insurance Regulatory and Development Authority of India (IRDAI) under the Insurance Act, 1938 vide registration no. 58."
+      }
+    },
+    "cin": {
+      "value": "U10200WB1906GOI001713",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/about-us/overview/about-company",
+        "retrievedAt": "2026-09-19T22:05:05.033Z",
+        "evidence": "CIN: U10200WB1906GOI001713"
+      }
+    },
+    "website": {
+      "value": "https://nationalinsurance.nic.co.in/",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/about-us/overview/about-company",
+        "retrievedAt": "2026-09-19T22:05:05.033Z"
+      }
+    },
+    "headquarters": {
+      "value": "Kolkata",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/about-us/overview/about-company",
+        "retrievedAt": "2026-09-19T22:05:05.033Z",
+        "evidence": "NICL is the only Public Sector General Insurance Company with Headquarters in Kolkata"
+      }
+    },
+    "status": "active",
+    "siteSlug": "national-insurance",
+    "createdAt": "2026-09-19T22:05:02.956Z",
+    "updatedAt": "2026-09-19T22:05:02.956Z"
+  },
+  {
     "slug": "new-india-assurance",
     "name": {
       "value": "The New India Assurance Co. Ltd.",
@@ -624,6 +871,242 @@
     "siteSlug": "pnb-metlife",
     "createdAt": "2026-09-16T08:59:52.354Z",
     "updatedAt": "2026-09-16T08:59:52.354Z"
+  },
+  {
+    "slug": "reliance-general",
+    "name": {
+      "value": "IndusInd General Insurance",
+      "provenance": {
+        "sourceId": "insurer:reliance-general",
+        "url": "https://www.indusindinsurance.com/about-us",
+        "retrievedAt": "2026-09-19T22:05:05.783Z",
+        "evidence": "IndusInd General Insurance Company Limited (Formerly known as Reliance General Insurance Company Limited)."
+      }
+    },
+    "legalName": {
+      "value": "IndusInd General Insurance Company Limited",
+      "provenance": {
+        "sourceId": "insurer:reliance-general",
+        "url": "https://www.indusindinsurance.com/about-us",
+        "retrievedAt": "2026-09-19T22:05:05.783Z",
+        "evidence": "IndusInd General Insurance Company Limited (Formerly known as Reliance General Insurance Company Limited)."
+      }
+    },
+    "insurerType": {
+      "value": "general",
+      "provenance": {
+        "sourceId": "insurer:reliance-general",
+        "url": "https://www.indusindinsurance.com/about-us",
+        "retrievedAt": "2026-09-19T22:05:05.783Z",
+        "evidence": "IndusInd General Insurance Company Limited (Formerly known as Reliance General Insurance Company Limited)."
+      }
+    },
+    "segments": [
+      "commercial",
+      "health",
+      "home",
+      "motor",
+      "travel"
+    ],
+    "irdaiRegistrationNumber": {
+      "value": "103",
+      "provenance": {
+        "sourceId": "insurer:reliance-general",
+        "url": "https://www.indusindinsurance.com/about-us",
+        "retrievedAt": "2026-09-19T22:05:05.783Z",
+        "evidence": "IRDAI Registration No. 103."
+      }
+    },
+    "cin": {
+      "value": "U66603MH2000PLC128300",
+      "provenance": {
+        "sourceId": "insurer:reliance-general",
+        "url": "https://www.indusindinsurance.com/about-us",
+        "retrievedAt": "2026-09-19T22:05:05.783Z",
+        "evidence": "Corporate Identity Number: U66603MH2000PLC128300."
+      }
+    },
+    "website": {
+      "value": "https://www.indusindinsurance.com/",
+      "provenance": {
+        "sourceId": "insurer:reliance-general",
+        "url": "https://www.indusindinsurance.com/about-us",
+        "retrievedAt": "2026-09-19T22:05:05.783Z"
+      }
+    },
+    "headquarters": {
+      "value": "Mumbai",
+      "provenance": {
+        "sourceId": "insurer:reliance-general",
+        "url": "https://www.indusindinsurance.com/about-us",
+        "retrievedAt": "2026-09-19T22:05:05.783Z",
+        "evidence": "Goregaon (E), Mumbai-400063."
+      }
+    },
+    "status": "active",
+    "formerNames": [
+      {
+        "name": "Reliance General Insurance Company Limited",
+        "provenance": {
+          "sourceId": "insurer:reliance-general",
+          "url": "https://www.indusindinsurance.com/about-us",
+          "retrievedAt": "2026-09-19T22:05:05.783Z",
+          "evidence": "IndusInd General Insurance Company Limited (Formerly known as Reliance General Insurance Company Limited)."
+        }
+      }
+    ],
+    "siteSlug": "reliance-general",
+    "createdAt": "2026-09-19T22:05:02.956Z",
+    "updatedAt": "2026-09-19T22:05:02.956Z"
+  },
+  {
+    "slug": "sbi-general",
+    "name": {
+      "value": "SBI General Insurance",
+      "provenance": {
+        "sourceId": "insurer:sbi-general",
+        "url": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier-policy",
+        "retrievedAt": "2026-09-19T22:05:06.431Z",
+        "evidence": "SBI General Insurance is the trusted insurance partner for a transforming India, helping you get back on your feet when times get rough."
+      }
+    },
+    "legalName": {
+      "value": "SBI General Insurance Company Limited",
+      "provenance": {
+        "sourceId": "insurer:sbi-general",
+        "url": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier-policy",
+        "retrievedAt": "2026-09-19T22:05:06.431Z",
+        "evidence": "For SBI General Insurance Company Limited IRDAI Reg. No. 144 dated 15/12/2009"
+      }
+    },
+    "insurerType": {
+      "value": "general",
+      "provenance": {
+        "sourceId": "insurer:sbi-general",
+        "url": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier-policy",
+        "retrievedAt": "2026-09-19T22:05:06.431Z",
+        "evidence": "Intermediaries of SBI general Insurance Company or through our website."
+      }
+    },
+    "segments": [
+      "commercial",
+      "health",
+      "home",
+      "motor",
+      "travel"
+    ],
+    "irdaiRegistrationNumber": {
+      "value": "144",
+      "provenance": {
+        "sourceId": "insurer:sbi-general",
+        "url": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier-policy",
+        "retrievedAt": "2026-09-19T22:05:06.431Z",
+        "evidence": "IRDAI Reg. No. 144 dated 15/12/2009"
+      }
+    },
+    "cin": {
+      "value": "U66000MH2009PLC190546",
+      "provenance": {
+        "sourceId": "insurer:sbi-general",
+        "url": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier-policy",
+        "retrievedAt": "2026-09-19T22:05:06.431Z",
+        "evidence": "CIN: U66000MH2009PLC190546"
+      }
+    },
+    "website": {
+      "value": "https://www.sbigeneral.in/",
+      "provenance": {
+        "sourceId": "insurer:sbi-general",
+        "url": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier-policy",
+        "retrievedAt": "2026-09-19T22:05:06.431Z"
+      }
+    },
+    "headquarters": {
+      "value": "Mumbai",
+      "provenance": {
+        "sourceId": "insurer:sbi-general",
+        "url": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier-policy",
+        "retrievedAt": "2026-09-19T22:05:06.431Z",
+        "evidence": "Fulcrum Building, Sahar Road, Andheri(East), Mumbai - 400099"
+      }
+    },
+    "status": "active",
+    "siteSlug": "sbi-general",
+    "createdAt": "2026-09-19T22:05:02.956Z",
+    "updatedAt": "2026-09-19T22:05:02.956Z"
+  },
+  {
+    "slug": "tata-aia",
+    "name": {
+      "value": "Tata AIA Life Insurance",
+      "provenance": {
+        "sourceId": "insurer:tata-aia",
+        "url": "https://www.tataaia.com/",
+        "retrievedAt": "2026-09-19T22:05:06.734Z",
+        "evidence": "Tata AIA Life Insurance Company Limited"
+      }
+    },
+    "legalName": {
+      "value": "Tata AIA Life Insurance Company Limited",
+      "provenance": {
+        "sourceId": "insurer:tata-aia",
+        "url": "https://www.tataaia.com/",
+        "retrievedAt": "2026-09-19T22:05:06.734Z",
+        "evidence": "Tata AIA Life Insurance Company Limited"
+      }
+    },
+    "insurerType": {
+      "value": "life",
+      "provenance": {
+        "sourceId": "insurer:tata-aia",
+        "url": "https://www.tataaia.com/",
+        "retrievedAt": "2026-09-19T22:05:06.734Z",
+        "evidence": "Tata AIA offers various life insurance plans, such as term, whole life, savings plans, ULIPs"
+      }
+    },
+    "segments": [
+      "health",
+      "life"
+    ],
+    "irdaiRegistrationNumber": {
+      "value": "110",
+      "provenance": {
+        "sourceId": "insurer:tata-aia",
+        "url": "https://www.tataaia.com/",
+        "retrievedAt": "2026-09-19T22:05:06.734Z",
+        "evidence": "(IRDAI Regn. No.110) CIN: U66010MH2000PLC128403."
+      }
+    },
+    "cin": {
+      "value": "U66010MH2000PLC128403",
+      "provenance": {
+        "sourceId": "insurer:tata-aia",
+        "url": "https://www.tataaia.com/",
+        "retrievedAt": "2026-09-19T22:05:06.734Z",
+        "evidence": "(IRDAI Regn. No.110) CIN: U66010MH2000PLC128403."
+      }
+    },
+    "website": {
+      "value": "https://www.tataaia.com/",
+      "provenance": {
+        "sourceId": "insurer:tata-aia",
+        "url": "https://www.tataaia.com/",
+        "retrievedAt": "2026-09-19T22:05:06.734Z"
+      }
+    },
+    "headquarters": {
+      "value": "Mumbai",
+      "provenance": {
+        "sourceId": "insurer:tata-aia",
+        "url": "https://www.tataaia.com/",
+        "retrievedAt": "2026-09-19T22:05:06.734Z",
+        "evidence": "Lower Parel, Mumbai - 400013"
+      }
+    },
+    "status": "active",
+    "siteSlug": "tata-aia",
+    "createdAt": "2026-09-19T22:05:02.956Z",
+    "updatedAt": "2026-09-19T22:05:02.956Z"
   },
   {
     "slug": "tata-aig",

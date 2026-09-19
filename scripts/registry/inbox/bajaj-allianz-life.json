@@ -1,0 +1,256 @@
+[
+ {
+  "id": "bajaj-allianz-life-identity",
+  "kind": "insurer",
+  "sourceId": "insurer:bajaj-allianz-life",
+  "url": "https://www.bajajlifeinsurance.com/about-us.html",
+  "subject": {
+   "slug": "bajaj-allianz-life",
+   "siteSlug": "bajaj-allianz-life"
+  },
+  "meta": {
+   "segments": [
+    "life"
+   ],
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Bajaj Life Insurance Limited",
+    "evidence": "Bajaj Life Insurance Limited (Formerly known as Bajaj Allianz Life Insurance Company Limited). All Rights Reserved."
+   },
+   "insurerType": {
+    "value": "life",
+    "evidence": "Bajaj Life Insurance Limited (formerly known as Bajaj Allianz Life Insurance Company Limited) is one of India’s leading, most trusted and dynamic private life insurance companies."
+   },
+   "website": {
+    "value": "https://www.bajajlifeinsurance.com/",
+    "evidence": ""
+   },
+   "legalName": {
+    "value": "Bajaj Life Insurance Limited",
+    "evidence": "Bajaj Life Insurance Limited (formerly known as Bajaj Allianz Life Insurance Company Limited) is one of India’s leading, most trusted and dynamic private life insurance companies."
+   },
+   "irdaiRegistrationNumber": {
+    "value": "116",
+    "evidence": "IRDAI Reg. No. 116"
+   },
+   "cin": {
+    "value": "U66010PN2001PLC015959",
+    "evidence": "CIN: U66010PN2001PLC015959"
+   },
+   "headquarters": {
+    "value": "Pune",
+    "evidence": "Registered Office Address: Bajaj Insurance House, Airport Road, Yerawada, Pune - 411006, Maharashtra"
+   }
+  },
+  "formerNames": [
+   {
+    "name": "Bajaj Allianz Life Insurance Company Limited",
+    "evidence": "Bajaj Life Insurance Limited (Formerly known as Bajaj Allianz Life Insurance Company Limited). All Rights Reserved.",
+    "url": "https://www.bajajlifeinsurance.com/about-us.html"
+   }
+  ]
+ },
+ {
+  "id": "bajaj-allianz-life-p1",
+  "kind": "product",
+  "sourceId": "insurer:bajaj-allianz-life",
+  "url": "https://www.bajajlifeinsurance.com/term-insurance-plans/etouch-term-insurance-plan.html",
+  "subject": {
+   "slug": "bajaj-allianz-etouch",
+   "insurerSlug": "bajaj-allianz-life",
+   "siteProductId": "bajaj-allianz-etouch"
+  },
+  "meta": {
+   "productType": "term",
+   "segment": "life",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Bajaj Life eTouch II",
+    "evidence": "Bajaj Life eTouch II (UIN: 116N198V09 is A Non-linked Non- Participating Individual Life Insurance Term Plan."
+   },
+   "uin": {
+    "value": "116N198V09",
+    "evidence": "Bajaj Life eTouch II (UIN: 116N198V09 is A Non-linked Non- Participating Individual Life Insurance Term Plan."
+   },
+   "policyTerm": {
+    "value": "up to age 99",
+    "evidence": "Yes. Under the Life Shield and Life Shield Plus variants, you can choose a policy term that provides life cover up to age 99, subject to the minimum policy term requirements."
+   },
+   "sumInsured": {
+    "value": "No predefined upper limit",
+    "evidence": "No predefined upper limit, subject to the company's underwriting policy and eligibility assessment."
+   },
+   "premiumPayment": {
+    "value": "yearly, half-yearly, quarterly or monthly",
+    "evidence": "Choose the premium payment frequency: yearly, half-yearly, quarterly or monthly (where applicable)."
+   }
+  },
+  "documents": [
+   {
+    "kind": "brochure",
+    "title": "Prospectus / Brochure",
+    "url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/etouch-plan-sl.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy Document",
+    "url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/etouch-policy-document.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "Customer Information Sheet",
+    "url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/etouchii-cis.pdf"
+   }
+  ]
+ },
+ {
+  "id": "bajaj-allianz-life-p2",
+  "kind": "product",
+  "sourceId": "insurer:bajaj-allianz-life",
+  "url": "https://www.bajajlifeinsurance.com/term-insurance-plans/isecure-insurance-plan.html",
+  "subject": {
+   "slug": "bajaj-allianz-life-isecure-ii",
+   "insurerSlug": "bajaj-allianz-life"
+  },
+  "meta": {
+   "productType": "term",
+   "segment": "life",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Bajaj Life iSecure II",
+    "evidence": "Bajaj Life iSecure II (UIN: 116N208V03) is A Non-Linked, Non-Participating, Individual Life Insurance Term Plan"
+   },
+   "uin": {
+    "value": "116N208V03",
+    "evidence": "Bajaj Life iSecure II (UIN: 116N208V03) is A Non-Linked, Non-Participating, Individual Life Insurance Term Plan"
+   },
+   "sumInsured": {
+    "value": "No limit",
+    "evidence": "No limit, subject to Board Approved Underwriting Policy (BAUP) of the company."
+   },
+   "eligibility": {
+    "value": "18 years",
+    "evidence": "Minimum age is 18 years"
+   },
+   "premiumPayment": {
+    "value": "monthly, quarterly, half yearly or yearly",
+    "evidence": "You can pay monthly, quarterly, half yearly or yearly"
+   }
+  },
+  "documents": [
+   {
+    "kind": "brochure",
+    "title": "Prospectus / Brochure",
+    "url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/isecure-insurance-plan.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy Document",
+    "url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/isecure-insurance-policy-document.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "Customer Information Sheet",
+    "url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/term-insurance/isecure-cis.pdf"
+   }
+  ]
+ },
+ {
+  "id": "bajaj-allianz-life-p3",
+  "kind": "product",
+  "sourceId": "insurer:bajaj-allianz-life",
+  "url": "https://www.bajajlifeinsurance.com/retirement-pension-plans/saral-pension-plan.html",
+  "subject": {
+   "slug": "bajaj-allianz-life-saral-pension",
+   "insurerSlug": "bajaj-allianz-life"
+  },
+  "meta": {
+   "productType": "pension",
+   "segment": "life",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Bajaj Life Saral Pension",
+    "evidence": "Bajaj Life Saral Pension is a single premium, non-linked, non-participating, individual immediate annuity plan, which provides regular income and also returns the purchase price on death."
+   },
+   "uin": {
+    "value": "116N169V17",
+    "evidence": "UIN 116N169V17"
+   },
+   "premiumPayment": {
+    "value": "single premium",
+    "evidence": "Bajaj Life Saral Pension is a single premium, non-linked, non-participating, individual immediate annuity plan, which provides regular income and also returns the purchase price on death."
+   }
+  },
+  "documents": [
+   {
+    "kind": "brochure",
+    "title": "Prospectus / Brochure",
+    "url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/saral-pension-sl.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy Document",
+    "url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/saral-pension-pd.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "Customer Information Sheet",
+    "url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/retirement-plans/cis-saral-pension.pdf"
+   }
+  ]
+ },
+ {
+  "id": "bajaj-allianz-life-p4",
+  "kind": "product",
+  "sourceId": "insurer:bajaj-allianz-life",
+  "url": "https://www.bajajlifeinsurance.com/savings-plans/guaranteed-wealth-goal.html",
+  "subject": {
+   "slug": "bajaj-allianz-life-guaranteed-wealth-goal",
+   "insurerSlug": "bajaj-allianz-life"
+  },
+  "meta": {
+   "productType": "endowment",
+   "segment": "life",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Bajaj Life Guaranteed Wealth Goal",
+    "evidence": "Bajaj Life Guaranteed Wealth Goal (UIN: 116N200V11) is A Non linked, Non Participating, Individual, Life Insurance Savings Plan."
+   },
+   "uin": {
+    "value": "116N200V11",
+    "evidence": "Bajaj Life Guaranteed Wealth Goal (UIN: 116N200V11) is A Non linked, Non Participating, Individual, Life Insurance Savings Plan."
+   },
+   "premiumPayment": {
+    "value": "minimum 2 years to max 12 years",
+    "evidence": "You can choose to pay premiums from minimum 2 years to max 12 years, depending on what suits your cash flow."
+   }
+  },
+  "documents": [
+   {
+    "kind": "brochure",
+    "title": "Prospectus / Brochure",
+    "url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/guaranteed-wealth-goal-sl.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy Document",
+    "url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/guaranteed-wealth-goal-policydoc.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "Customer Information Sheet",
+    "url": "https://www.bajajlifeinsurance.com/content/dam/balic-web/pdf/savings-plans/gwg-cis.pdf"
+   }
+  ]
+ }
+]

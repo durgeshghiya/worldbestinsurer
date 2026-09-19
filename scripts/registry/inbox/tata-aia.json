@@ -1,0 +1,243 @@
+[
+ {
+  "id": "tata-aia-identity",
+  "kind": "insurer",
+  "sourceId": "insurer:tata-aia",
+  "url": "https://www.tataaia.com/",
+  "subject": {
+   "slug": "tata-aia",
+   "siteSlug": "tata-aia"
+  },
+  "meta": {
+   "segments": [
+    "life",
+    "health"
+   ],
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Tata AIA Life Insurance",
+    "evidence": "Tata AIA Life Insurance Company Limited"
+   },
+   "insurerType": {
+    "value": "life",
+    "evidence": "Tata AIA offers various life insurance plans, such as term, whole life, savings plans, ULIPs"
+   },
+   "website": {
+    "value": "https://www.tataaia.com/",
+    "evidence": ""
+   },
+   "legalName": {
+    "value": "Tata AIA Life Insurance Company Limited",
+    "evidence": "Tata AIA Life Insurance Company Limited"
+   },
+   "irdaiRegistrationNumber": {
+    "value": "110",
+    "evidence": "(IRDAI Regn. No.110) CIN: U66010MH2000PLC128403."
+   },
+   "cin": {
+    "value": "U66010MH2000PLC128403",
+    "evidence": "(IRDAI Regn. No.110) CIN: U66010MH2000PLC128403."
+   },
+   "headquarters": {
+    "value": "Mumbai",
+    "evidence": "Lower Parel, Mumbai - 400013"
+   }
+  }
+ },
+ {
+  "id": "tata-aia-p1",
+  "kind": "product",
+  "sourceId": "insurer:tata-aia",
+  "url": "https://www.tataaia.com/life-insurance-plans/term-insurance/sampoorna-raksha-promise.html",
+  "subject": {
+   "slug": "tata-aia-sampoorna-raksha",
+   "insurerSlug": "tata-aia",
+   "siteProductId": "tata-aia-sampoorna-raksha"
+  },
+  "meta": {
+   "productType": "term",
+   "segment": "life",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Tata AIA Sampoorna Raksha Promise",
+    "evidence": "Tata AIA Sampoorna Raksha Promise - Non-Linked, Non-Participating, pure risk, Individual Life Insurance Product"
+   },
+   "uin": {
+    "value": "110N176V13",
+    "evidence": "(UIN:110N176V13)"
+   },
+   "policyTerm": {
+    "value": "life cover up to 100 years of age",
+    "evidence": "Leave a legacy with life cover up to 100 years of age"
+   }
+  },
+  "documents": [
+   {
+    "kind": "brochure",
+    "title": "Brochure (Sampoorna Raksha Promise V13)",
+    "url": "https://www.tataaia.com/content/dam/tataaialifeinsurancecompanylimited/life-insurance-plans/term-insurance/sampoorna-raksha-promise/Sampoorna-raksha-Promise-V13-Brochure.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy Document (SRP V13)",
+    "url": "https://www.tataaia.com/content/dam/tataaialifeinsurancecompanylimited/life-insurance-plans/term-insurance/sampoorna-raksha-promise/SRP-Policy-Document-V13.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "Customer Information Sheet (SRP V13)",
+    "url": "https://www.tataaia.com/content/dam/tataaialifeinsurancecompanylimited/life-insurance-plans/term-insurance/sampoorna-raksha-promise/Tata-AIA-SRP-Customer-Information-Sheet-V13.pdf"
+   }
+  ]
+ },
+ {
+  "id": "tata-aia-p2",
+  "kind": "product",
+  "sourceId": "insurer:tata-aia",
+  "url": "https://www.tataaia.com/life-insurance-plans/term-insurance/maha-raksha-supreme-select.html",
+  "subject": {
+   "slug": "tata-aia-maha-raksha-supreme-select",
+   "insurerSlug": "tata-aia"
+  },
+  "meta": {
+   "productType": "term",
+   "segment": "life",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Tata AIA Maha Raksha Supreme Select",
+    "evidence": "Tata AIA Maha Raksha Supreme Select - Non-Linked, Non-Participating, Pure Risk, Individual Life Insurance Product (UIN: 110N171V16)"
+   },
+   "uin": {
+    "value": "110N171V16",
+    "evidence": "Tata AIA Maha Raksha Supreme Select - Non-Linked, Non-Participating, Pure Risk, Individual Life Insurance Product (UIN: 110N171V16)"
+   },
+   "premiumPayment": {
+    "value": "single payment, regularly through the policy tenure, or regularly for a limited term",
+    "evidence": "The premium can be paid as a single payment, regularly through the policy tenure, or regularly for a limited term."
+   }
+  },
+  "documents": [
+   {
+    "kind": "brochure",
+    "title": "Brochure (MRSS V16)",
+    "url": "https://www.tataaia.com/content/dam/tataaialifeinsurancecompanylimited/life-insurance-plans/term-insurance/Maha-Raksha-Supreme-Select/MRs-Select-V16-Brochure.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy bond (MRSS V16)",
+    "url": "https://www.tataaia.com/content/dam/tataaialifeinsurancecompanylimited/life-insurance-plans/term-insurance/Maha-Raksha-Supreme-Select/MRSS-V16-Policy-Document.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "Customer Information Sheet (MRSS V16)",
+    "url": "https://www.tataaia.com/content/dam/tataaialifeinsurancecompanylimited/life-insurance-plans/term-insurance/Maha-Raksha-Supreme-Select/Tata-AIA-MRSS-Customer-Information-Sheet-V16.pdf"
+   }
+  ]
+ },
+ {
+  "id": "tata-aia-p3",
+  "kind": "product",
+  "sourceId": "insurer:tata-aia",
+  "url": "https://www.tataaia.com/life-insurance-plans/savings-solutions/fortune-guarantee-plus.html",
+  "subject": {
+   "slug": "tata-aia-fortune-guarantee-plus",
+   "insurerSlug": "tata-aia"
+  },
+  "meta": {
+   "productType": "endowment",
+   "segment": "life",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Tata AIA Fortune Guarantee Plus",
+    "evidence": "The complete name of Tata AIA Fortune Guarantee Plus is Tata AIA Life Insurance Fortune Guarantee Plus (UIN: 110N158V14)"
+   },
+   "uin": {
+    "value": "110N158V14",
+    "evidence": "return plans, such as Tata AIA Fortune Guarantee Plus (Non-Linked, Non-Participating, Individual Life Insurance Savings Plan (UIN: 110N158V14), you can save income tax"
+   },
+   "premiumPayment": {
+    "value": "Single, Annual, Half-yearly, Quarterly or Monthly",
+    "evidence": "You can pay your premiums for this policy through the Single, Annual, Half-yearly, Quarterly or Monthly modes."
+   }
+  },
+  "documents": [
+   {
+    "kind": "brochure",
+    "title": "Brochure (Fortune Guarantee Plus V14)",
+    "url": "https://www.tataaia.com/content/dam/tataaialifeinsurancecompanylimited/calculator/sampoorna-raksha-promise-calculator/FG-plus-V14-Brochure.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy document (Fortune Guarantee Plus V14)",
+    "url": "https://www.tataaia.com/content/dam/tataaialifeinsurancecompanylimited/calculator/sampoorna-raksha-promise-calculator/FG-Plus-V14-Policy-Document.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "Customer Information Sheet (Fortune Guarantee Plus V14)",
+    "url": "https://www.tataaia.com/content/dam/tataaialifeinsurancecompanylimited/calculator/sampoorna-raksha-promise-calculator/Tata-AIA-Life-Insurance-Fortune-Guarantee--Plus-V14-Customer-Information-Sheet.pdf"
+   }
+  ]
+ },
+ {
+  "id": "tata-aia-p4",
+  "kind": "product",
+  "sourceId": "insurer:tata-aia",
+  "url": "https://www.tataaia.com/life-insurance-plans/retirement-and-pension-solutions/saral-pension-plan.html",
+  "subject": {
+   "slug": "tata-aia-saral-pension",
+   "insurerSlug": "tata-aia"
+  },
+  "meta": {
+   "productType": "pension",
+   "segment": "life",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Tata AIA Saral Pension",
+    "evidence": "The complete name of Tata AIA Saral Pension is Tata AIA Life Insurance Saral Pension (UIN: 110N159V10)"
+   },
+   "uin": {
+    "value": "110N159V10",
+    "evidence": "Tata AIA Life Insurance Saral Pension (UIN: 110N159V10)"
+   },
+   "policyTerm": {
+    "value": "whole of life",
+    "evidence": "annuitants (Joint Life option with spouse) for whole of life."
+   },
+   "premiumPayment": {
+    "value": "Single Pay",
+    "evidence": "This policy offers a Single Pay premium payment term"
+   }
+  },
+  "documents": [
+   {
+    "kind": "brochure",
+    "title": "Brochure (Saral Pension V10)",
+    "url": "https://www.tataaia.com/content/dam/tataaialifeinsurancecompanylimited/life-insurance-plans/retirement-and-pension-solutions/saral-pension-plan/Saral-Pension-V10-Brochure30.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy Document (Saral Pension V10)",
+    "url": "https://www.tataaia.com/content/dam/tataaialifeinsurancecompanylimited/life-insurance-plans/retirement-and-pension-solutions/saral-pension-plan/Saral-Pension-V10-Policy-Document.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "Appendix 1-Critical Illness (Definitions & Exclusions)",
+    "url": "https://www.tataaia.com/content/dam/tataaialifeinsurancecompanylimited/life-insurance-plans/retirement-and-pension-solutions/saral-pension-plan/Tata-AIA-Saral-Pension-V10-Appendix-1-Definitions-Exclusions.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "Customer Information Sheet (Saral Pension V10)",
+    "url": "https://www.tataaia.com/content/dam/tataaialifeinsurancecompanylimited/life-insurance-plans/retirement-and-pension-solutions/saral-pension-plan/Tata-AIA-Saral-Pension-Customer-Information-Sheet-V10.pdf"
+   }
+  ]
+ }
+]

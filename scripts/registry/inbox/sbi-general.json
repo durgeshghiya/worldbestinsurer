@@ -1,0 +1,412 @@
+[
+ {
+  "id": "sbi-general-identity",
+  "kind": "insurer",
+  "sourceId": "insurer:sbi-general",
+  "url": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier-policy",
+  "subject": {
+   "slug": "sbi-general",
+   "siteSlug": "sbi-general"
+  },
+  "meta": {
+   "segments": [
+    "health",
+    "motor",
+    "travel",
+    "home",
+    "commercial"
+   ],
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "SBI General Insurance",
+    "evidence": "SBI General Insurance is the trusted insurance partner for a transforming India, helping you get back on your feet when times get rough."
+   },
+   "insurerType": {
+    "value": "general",
+    "evidence": "Intermediaries of SBI general Insurance Company or through our website."
+   },
+   "website": {
+    "value": "https://www.sbigeneral.in/",
+    "evidence": ""
+   },
+   "legalName": {
+    "value": "SBI General Insurance Company Limited",
+    "evidence": "For SBI General Insurance Company Limited IRDAI Reg. No. 144 dated 15/12/2009"
+   },
+   "irdaiRegistrationNumber": {
+    "value": "144",
+    "evidence": "IRDAI Reg. No. 144 dated 15/12/2009"
+   },
+   "cin": {
+    "value": "U66000MH2009PLC190546",
+    "evidence": "CIN: U66000MH2009PLC190546"
+   },
+   "headquarters": {
+    "value": "Mumbai",
+    "evidence": "Fulcrum Building, Sahar Road, Andheri(East), Mumbai - 400099"
+   }
+  }
+ },
+ {
+  "id": "sbi-general-p1",
+  "kind": "product",
+  "sourceId": "insurer:sbi-general",
+  "url": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier-policy",
+  "subject": {
+   "slug": "sbi-arogya-premier",
+   "insurerSlug": "sbi-general",
+   "siteProductId": "sbi-arogya-premier"
+  },
+  "meta": {
+   "productType": "health-indemnity",
+   "segment": "health",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Arogya Premier Policy",
+    "evidence": "Arogya Premier Policy"
+   },
+   "uin": {
+    "value": "SBIHLIP22136V032122",
+    "evidence": "UIN SBIHLIP22136V032122 D"
+   },
+   "sumInsured": {
+    "value": "Rs. 10,00,000 to Rs. 30,00,000",
+    "evidence": "Coverage from Rs. 10,00,000 to Rs. 30,00,000"
+   }
+  },
+  "documents": [
+   {
+    "kind": "brochure",
+    "title": "Brochure",
+    "url": "https://content.sbigeneral.in/uploads/e328416ec288409fb00aebf8355812d4.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy Wordings",
+    "url": "https://content.sbigeneral.in/uploads/1904e974b0e44b89929b27b345446d67.pdf"
+   },
+   {
+    "kind": "prospectus",
+    "title": "Prospectus",
+    "url": "https://content.sbigeneral.in/uploads/cfbc3f87e75c4a30a57d512799b039db.pdf"
+   },
+   {
+    "kind": "claim-form",
+    "title": "Claim Form",
+    "url": "https://content.sbigeneral.in/uploads/1e35ffbadad4447fa15ac3bd7deed23c.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "Proposal Form",
+    "url": "https://content.sbigeneral.in/uploads/8fa07a43b95f4a2985e05c378e0b4acc.pdf"
+   }
+  ]
+ },
+ {
+  "id": "sbi-general-p2",
+  "kind": "product",
+  "sourceId": "insurer:sbi-general",
+  "url": "https://www.sbigeneral.in/portal/motor-insurance/private-car-insurance",
+  "subject": {
+   "slug": "sbi-motor-comprehensive",
+   "insurerSlug": "sbi-general",
+   "siteProductId": "sbi-motor-comprehensive"
+  },
+  "meta": {
+   "productType": "motor-private-car",
+   "segment": "motor",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Private Car Insurance Policy - Package",
+    "evidence": "Private Car Insurance Policy - Package"
+   }
+  },
+  "documents": [
+   {
+    "kind": "brochure",
+    "title": "Brochure",
+    "url": "https://content.sbigeneral.in/uploads/662b333f2ff14afcb55c3eccfff433d1.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy Wordings",
+    "url": "https://content.sbigeneral.in/uploads/410bf574fe26430c8b93adf720ad79e6.pdf"
+   },
+   {
+    "kind": "prospectus",
+    "title": "Prospectus",
+    "url": "https://content.sbigeneral.in/uploads/abd53a42834a46258f230a2f473126f6.pdf"
+   },
+   {
+    "kind": "claim-form",
+    "title": "Claim Form",
+    "url": "https://content.sbigeneral.in/uploads/a25fab5a64aa4cdeb849cc79ab721f3a.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "Proposal Form",
+    "url": "https://content.sbigeneral.in/uploads/c3d4cd0dc2674ae880de6bfd0dcc81d1.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "CIS",
+    "url": "https://content.sbigeneral.in/uploads/ab1895f4dbdb4213ab2c49c9af33fc67.pdf"
+   }
+  ]
+ },
+ {
+  "id": "sbi-general-p3",
+  "kind": "product",
+  "sourceId": "insurer:sbi-general",
+  "url": "https://www.sbigeneral.in/travel-insurance",
+  "subject": {
+   "slug": "sbi-travel-insurance",
+   "insurerSlug": "sbi-general",
+   "siteProductId": "sbi-travel-insurance"
+  },
+  "meta": {
+   "productType": "travel",
+   "segment": "travel",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Travel Insurance (Business and Holiday)",
+    "evidence": "Travel Insurance (Business and Holiday)"
+   },
+   "uin": {
+    "value": "SBITIOP14004V011314",
+    "evidence": "UIN SBITIOP14004V011314 D"
+   },
+   "policyTerm": {
+    "value": "Single Trip: for travelling just once, between 1-180 days",
+    "evidence": "Single Trip: for travelling just once, between 1-180 days"
+   },
+   "eligibility": {
+    "value": "6 months - 70 years",
+    "evidence": "Age limit: 6 months - 70 years"
+   },
+   "premiumPayment": {
+    "value": "Premium should be received in advance and will not be accepted in instalments.",
+    "evidence": "Premium should be received in advance and will not be accepted in instalments."
+   }
+  },
+  "documents": [
+   {
+    "kind": "brochure",
+    "title": "Brochure",
+    "url": "https://content.sbigeneral.in/uploads/Travel_Insurance_Policy_final_Brochure_V1_681543a1dc.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy Wordings",
+    "url": "https://content.sbigeneral.in/uploads/TRAVEL_INSURANCE_BUSINESS_AND_HOLIDAY_POLICY_PW_KEN_52c770be78.pdf"
+   },
+   {
+    "kind": "prospectus",
+    "title": "Prospectus",
+    "url": "https://content.sbigeneral.in/uploads/TRAVEL_PROSPECTUS_with_grievance_KEN_2916833441.pdf"
+   },
+   {
+    "kind": "claim-form",
+    "title": "Claim Form",
+    "url": "https://content.sbigeneral.in/uploads/e55ce8d6779948c6bfe5e5d1ac516f6c.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "Proposal Form",
+    "url": "https://content.sbigeneral.in/uploads/TRAVEL_INSURANCE_BUSINESS_HOLIDAY_Proposal_Form_a75f1382b0.pdf"
+   },
+   {
+    "kind": "premium-chart",
+    "title": "Rate Chart",
+    "url": "https://content.sbigeneral.in/uploads/10ac203b332b41489796d5cd83e1ce5b.pdf"
+   }
+  ]
+ },
+ {
+  "id": "sbi-general-p4",
+  "kind": "product",
+  "sourceId": "insurer:sbi-general",
+  "url": "https://www.sbigeneral.in/health-insurance/super-health-insurance-policy",
+  "subject": {
+   "slug": "sbi-general-super-health-insurance",
+   "insurerSlug": "sbi-general"
+  },
+  "meta": {
+   "productType": "health-indemnity",
+   "segment": "health",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Super Health Insurance",
+    "evidence": "Product Name : Super Health Insurance"
+   },
+   "uin": {
+    "value": "SBIHLIP24141V022324",
+    "evidence": "UIN SBIHLIP24141V022324 F"
+   },
+   "sumInsured": {
+    "value": "₹3 Lakh to ₹2 Crore",
+    "evidence": "₹3 Lakh to ₹2 Crore"
+   },
+   "eligibility": {
+    "value": "Adults Aged 18 Years and Above",
+    "evidence": "Adults Aged 18 Years and Above"
+   }
+  },
+  "documents": [
+   {
+    "kind": "brochure",
+    "title": "Brochure",
+    "url": "https://content.sbigeneral.in/uploads/4dfbe839934a4ac2ab3bafa77ee23ce5.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy Wordings",
+    "url": "https://content.sbigeneral.in/uploads/Super_Health_Insurance_Policy_Wording_New_1512_1a70d6d07a.pdf"
+   },
+   {
+    "kind": "prospectus",
+    "title": "Prospectus",
+    "url": "https://content.sbigeneral.in/uploads/Super_Health_Insurance_Prospectus_d913e89b45.pdf"
+   },
+   {
+    "kind": "claim-form",
+    "title": "Claim Form",
+    "url": "https://content.sbigeneral.in/uploads/5317c6bffc744f4fa6a449baff30a242.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "Proposal Form",
+    "url": "https://content.sbigeneral.in/uploads/Super_Health_Insurance_Proposal_Form_1_6dd5cbdb4d.pdf"
+   }
+  ]
+ },
+ {
+  "id": "sbi-general-p5",
+  "kind": "product",
+  "sourceId": "insurer:sbi-general",
+  "url": "https://www.sbigeneral.in/health-insurance/health-alpha",
+  "subject": {
+   "slug": "sbi-general-health-alpha",
+   "insurerSlug": "sbi-general"
+  },
+  "meta": {
+   "productType": "health-indemnity",
+   "segment": "health",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "SBI General Health Alpha",
+    "evidence": "SBI General Health Alpha is a comprehensive retail health product designed to cater to the diverse needs of all generations, including senior citizens, millennials, and Gen Z."
+   },
+   "uin": {
+    "value": "SBIHLIP26038V012526",
+    "evidence": "UIN SBIHLIP26038V012526 D"
+   },
+   "policyTerm": {
+    "value": "Policy is available for 1 year, 2 years, 3 years, 4 years and 5 years.",
+    "evidence": "Policy is available for 1 year, 2 years, 3 years, 4 years and 5 years."
+   },
+   "sumInsured": {
+    "value": "₹5 Lakh to Unlimited SI",
+    "evidence": "₹5 Lakh to Unlimited SI*"
+   },
+   "eligibility": {
+    "value": "Adult: 18 years - Dependent Child: 91 Days to 25 years",
+    "evidence": "Adult: 18 years - Dependent Child: 91 Days to 25 years"
+   }
+  },
+  "documents": [
+   {
+    "kind": "brochure",
+    "title": "Brochure",
+    "url": "https://content.sbigeneral.in/uploads/2d660bb9bbe44d369a9614f9b5058cf9.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy Wordings",
+    "url": "https://content.sbigeneral.in/uploads/SBI_General_Health_Alpha_Policy_Wording_New_002_a04e639c0d.pdf"
+   },
+   {
+    "kind": "prospectus",
+    "title": "Prospectus",
+    "url": "https://content.sbigeneral.in/uploads/SBI_General_Health_Alpha_Prospectus_20260301_002_70422d8179.pdf"
+   },
+   {
+    "kind": "claim-form",
+    "title": "Health Claim Form",
+    "url": "https://content.sbigeneral.in/uploads/Health_Alpha_Claim_Form_1401_649df2e79d.pdf"
+   },
+   {
+    "kind": "premium-chart",
+    "title": "Rate Chart",
+    "url": "https://content.sbigeneral.in/uploads/Rate_Chart_5464820420.pdf"
+   }
+  ]
+ },
+ {
+  "id": "sbi-general-p6",
+  "kind": "product",
+  "sourceId": "insurer:sbi-general",
+  "url": "https://www.sbigeneral.in/home-insurance/bharat-griha-raksha",
+  "subject": {
+   "slug": "sbi-general-bharat-griha-raksha",
+   "insurerSlug": "sbi-general"
+  },
+  "meta": {
+   "productType": "home",
+   "segment": "home",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "SBI General Bharat Griha Raksha",
+    "evidence": "SBI General Bharat Griha Raksha"
+   },
+   "uin": {
+    "value": "IRDAN144RP0032V01202021",
+    "evidence": "UIN IRDAN144RP0032V01202021 D"
+   },
+   "policyTerm": {
+    "value": "The policy should be for minimum 1 year and maximum 10 years.",
+    "evidence": "The policy should be for minimum 1 year and maximum 10 years."
+   },
+   "eligibility": {
+    "value": "You can purchase the home building cover if you own the building. You can also purchase home contents cover for the contents if you are a tenant or an owner.",
+    "evidence": "You can purchase the home building cover if you own the building. You can also purchase home contents cover for the contents if you are a tenant or an owner."
+   }
+  },
+  "documents": [
+   {
+    "kind": "brochure",
+    "title": "Brochure",
+    "url": "https://content.sbigeneral.in/uploads/1e4e8718163148b380b274b0c16b2fd5.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy Wordings",
+    "url": "https://content.sbigeneral.in/uploads/SBI_General_Bharat_Griha_Raksha_Wording_0edf523d90.pdf"
+   },
+   {
+    "kind": "prospectus",
+    "title": "Prospectus",
+    "url": "https://content.sbigeneral.in/uploads/SBI_General_Bharat_Griha_Raksha_Prospectus_d458df2623.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "Proposal Form",
+    "url": "https://content.sbigeneral.in/uploads/SBI_General_Bharat_Griha_Raksha_Proposal_Form_cc418ab042.pdf"
+   }
+  ]
+ }
+]

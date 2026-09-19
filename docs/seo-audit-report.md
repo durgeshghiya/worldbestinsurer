@@ -1,6 +1,6 @@
 # SEO audit report
 
-Generated 2026-09-16 09:35 UTC against `https://worldbestinsurer.com` by `npm run registry -- seo-audit`.
+Generated 2026-09-19 22:12 UTC against `http://localhost:3000` by `npm run registry -- seo-audit`.
 
 **PASS** — 0 error(s), 1 warning(s).
 
@@ -10,7 +10,7 @@ Generated 2026-09-16 09:35 UTC against `https://worldbestinsurer.com` by `npm ru
 | URLs in sitemaps | 660 |
 | Baseline URLs re-checked | 646 |
 | Pages fetched | 1086 |
-| Registry pages with a source line | 26 |
+| Registry pages with a source line | 44 |
 
 Child sitemaps:
 

@@ -996,5 +996,915 @@
   "field": "volatile",
   "to": true,
   "sourceUrl": "https://www.nivabupa.com/family-health-insurance-plans/reassurev2-insurance.html"
+ },
+ {
+  "at": "2026-09-19T22:05:04.125Z",
+  "job": "ingest",
+  "kind": "insurer",
+  "key": "bajaj-allianz-life",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajlifeinsurance.com/about-us.html"
+ },
+ {
+  "at": "2026-09-19T22:05:04.396Z",
+  "job": "ingest",
+  "kind": "insurer",
+  "key": "bajaj-allianz",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/about-us.html"
+ },
+ {
+  "at": "2026-09-19T22:05:05.063Z",
+  "job": "ingest",
+  "kind": "insurer",
+  "key": "national-insurance",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/about-us/overview/about-company"
+ },
+ {
+  "at": "2026-09-19T22:05:05.830Z",
+  "job": "ingest",
+  "kind": "insurer",
+  "key": "reliance-general",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.indusindinsurance.com/about-us"
+ },
+ {
+  "at": "2026-09-19T22:05:06.453Z",
+  "job": "ingest",
+  "kind": "insurer",
+  "key": "sbi-general",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier-policy"
+ },
+ {
+  "at": "2026-09-19T22:05:06.829Z",
+  "job": "ingest",
+  "kind": "insurer",
+  "key": "tata-aia",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.tataaia.com/"
+ },
+ {
+  "at": "2026-09-19T22:05:06.914Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "bajaj-allianz-etouch",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajlifeinsurance.com/term-insurance-plans/etouch-term-insurance-plan.html"
+ },
+ {
+  "at": "2026-09-19T22:05:08.937Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "bajaj-allianz-life-isecure-ii",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajlifeinsurance.com/term-insurance-plans/isecure-insurance-plan.html"
+ },
+ {
+  "at": "2026-09-19T22:05:14.935Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "3c3fc605e93684f2",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajlifeinsurance.com/retirement-pension-plans/saral-pension-plan.html"
+ },
+ {
+  "at": "2026-09-19T22:05:18.944Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "2b5b964d6032d4cb",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajlifeinsurance.com/retirement-pension-plans/saral-pension-plan.html"
+ },
+ {
+  "at": "2026-09-19T22:05:22.941Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "b23463c3f6e672a8",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajlifeinsurance.com/retirement-pension-plans/saral-pension-plan.html"
+ },
+ {
+  "at": "2026-09-19T22:05:22.942Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "bajaj-allianz-life-saral-pension",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajlifeinsurance.com/retirement-pension-plans/saral-pension-plan.html"
+ },
+ {
+  "at": "2026-09-19T22:05:24.985Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "bajaj-allianz-life-guaranteed-wealth-goal",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajlifeinsurance.com/savings-plans/guaranteed-wealth-goal.html"
+ },
+ {
+  "at": "2026-09-19T22:05:29.147Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "44b762b2a72c2ee5",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/health-guard-insurance-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:05:33.115Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "8922519248745e03",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/health-guard-insurance-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:05:37.115Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "af9efe861b916058",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/health-guard-insurance-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:05:41.167Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "efa4d0c718c37dcb",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/health-guard-insurance-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:05:45.179Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "d3cb3e1bcd50eddc",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/health-guard-insurance-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:05:45.179Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "bajaj-allianz-health-guard",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/health-guard-insurance-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:05:51.135Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "6c9cee326e40887a",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/motor-insurance.html"
+ },
+ {
+  "at": "2026-09-19T22:05:51.136Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "bajaj-allianz-motor",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/motor-insurance.html"
+ },
+ {
+  "at": "2026-09-19T22:05:53.118Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "bajaj-allianz-travel",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/travel-insurance-online.html"
+ },
+ {
+  "at": "2026-09-19T22:05:59.125Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "70cacb35218480b5",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/arogya-sanjeevani-standard-health-insurance-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:06:03.164Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "058cb98811c17e8e",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/arogya-sanjeevani-standard-health-insurance-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:06:07.131Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "aa1c874cc4cb237e",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/arogya-sanjeevani-standard-health-insurance-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:06:11.192Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "fda7a2072d0c0e72",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/arogya-sanjeevani-standard-health-insurance-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:06:13.189Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "d3cb3e1bcd50eddc",
+  "field": "productSlug",
+  "from": "bajaj-allianz-health-guard",
+  "to": "bajaj-allianz-arogya-sanjeevani",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/arogya-sanjeevani-standard-health-insurance-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:06:13.189Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "d3cb3e1bcd50eddc",
+  "field": "provenance.url",
+  "from": "https://www.bajajgeneralinsurance.com/health-insurance-plans/health-guard-insurance-policy.html",
+  "to": "https://www.bajajgeneralinsurance.com/health-insurance-plans/arogya-sanjeevani-standard-health-insurance-policy.html",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/arogya-sanjeevani-standard-health-insurance-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:06:13.190Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "bajaj-allianz-arogya-sanjeevani",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/arogya-sanjeevani-standard-health-insurance-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:06:19.130Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "b3311395de0d15ec",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/saral-suraksha-bima-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:06:23.121Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "4135ef1285cd0b12",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/saral-suraksha-bima-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:06:27.213Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "f9a109415823810f",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/saral-suraksha-bima-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:06:31.196Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "1ccca9a32ffd4b77",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/saral-suraksha-bima-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:06:33.224Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "d3cb3e1bcd50eddc",
+  "field": "productSlug",
+  "from": "bajaj-allianz-arogya-sanjeevani",
+  "to": "bajaj-allianz-saral-suraksha-bima",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/saral-suraksha-bima-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:06:33.224Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "d3cb3e1bcd50eddc",
+  "field": "provenance.url",
+  "from": "https://www.bajajgeneralinsurance.com/health-insurance-plans/arogya-sanjeevani-standard-health-insurance-policy.html",
+  "to": "https://www.bajajgeneralinsurance.com/health-insurance-plans/saral-suraksha-bima-policy.html",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/saral-suraksha-bima-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:06:33.224Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "bajaj-allianz-saral-suraksha-bima",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/saral-suraksha-bima-policy.html"
+ },
+ {
+  "at": "2026-09-19T22:06:35.194Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "bajaj-allianz-criti-care",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/criti-care.html"
+ },
+ {
+  "at": "2026-09-19T22:06:40.377Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "49371676109afdb4",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy"
+ },
+ {
+  "at": "2026-09-19T22:06:43.623Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "4bf5e3e2aa0e97c7",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy"
+ },
+ {
+  "at": "2026-09-19T22:06:47.941Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "cf790ae09669d5ed",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy"
+ },
+ {
+  "at": "2026-09-19T22:06:52.041Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "54e6fa1f29a3c23f",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy"
+ },
+ {
+  "at": "2026-09-19T22:06:55.944Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "b9af041fe5513a07",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy"
+ },
+ {
+  "at": "2026-09-19T22:06:55.945Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "national-insurance-motor",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy"
+ },
+ {
+  "at": "2026-09-19T22:07:03.152Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "78057c1bbaacf620",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy"
+ },
+ {
+  "at": "2026-09-19T22:07:06.387Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "400c15f0bc063200",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy"
+ },
+ {
+  "at": "2026-09-19T22:07:10.128Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "eba4c15773de2c40",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy"
+ },
+ {
+  "at": "2026-09-19T22:07:14.704Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "fa3e0d24e5a6db71",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy"
+ },
+ {
+  "at": "2026-09-19T22:07:18.040Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "cf3d06e64c4a1d1d",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy"
+ },
+ {
+  "at": "2026-09-19T22:07:22.541Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "bfb5796a9b6cc3bb",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy"
+ },
+ {
+  "at": "2026-09-19T22:07:22.542Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "national-insurance-national-overseas-travel-policy",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy"
+ },
+ {
+  "at": "2026-09-19T22:07:28.003Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "35c22c1d93d5efa3",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp"
+ },
+ {
+  "at": "2026-09-19T22:07:32.010Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "41b7c56212efe74b",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp"
+ },
+ {
+  "at": "2026-09-19T22:07:37.269Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "5fc5733cf1e6029b",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp"
+ },
+ {
+  "at": "2026-09-19T22:07:41.299Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "06bceaa512f17350",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp"
+ },
+ {
+  "at": "2026-09-19T22:07:44.133Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "15fc6f5a5070bdbb",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp"
+ },
+ {
+  "at": "2026-09-19T22:07:49.595Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "16cbd481b7bcbe16",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp"
+ },
+ {
+  "at": "2026-09-19T22:07:49.596Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "national-insurance-national-senior-citizen-mediclaim-policy",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp"
+ },
+ {
+  "at": "2026-09-19T22:07:54.693Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "5e36af8e2d9d939b",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy"
+ },
+ {
+  "at": "2026-09-19T22:07:58.671Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "f9cdfa4d18c04730",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy"
+ },
+ {
+  "at": "2026-09-19T22:08:02.692Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "29ddadc5cffbb33a",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy"
+ },
+ {
+  "at": "2026-09-19T22:08:06.716Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "212c3f8fe164c911",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy"
+ },
+ {
+  "at": "2026-09-19T22:08:10.318Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "559032eaa673ce70",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy"
+ },
+ {
+  "at": "2026-09-19T22:08:15.020Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "c787e48c64da1331",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy"
+ },
+ {
+  "at": "2026-09-19T22:08:15.021Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "national-insurance-national-parivar-mediclaim-plus-policy",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy"
+ },
+ {
+  "at": "2026-09-19T22:08:15.727Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "reliance-health-gain",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.indusindinsurance.com/health-insurance/health-gain-insurance"
+ },
+ {
+  "at": "2026-09-19T22:08:17.468Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "reliance-motor-comprehensive",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.indusindinsurance.com/car-insurance/comprehensive-car-insurance"
+ },
+ {
+  "at": "2026-09-19T22:08:19.505Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "reliance-travel-care",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.indusindinsurance.com/travel-insurance"
+ },
+ {
+  "at": "2026-09-19T22:08:21.463Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "reliance-general-health-infinity",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.indusindinsurance.com/health-insurance/health-infinity-insurance"
+ },
+ {
+  "at": "2026-09-19T22:08:23.655Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "reliance-general-personal-accident-360shield",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.indusindinsurance.com/health-insurance/personal-accident-insurance"
+ },
+ {
+  "at": "2026-09-19T22:08:25.533Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "reliance-general-health-super-top-up",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.indusindinsurance.com/health-insurance/super-top-up-health-insurance"
+ },
+ {
+  "at": "2026-09-19T22:08:28.821Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "528ed9132bc8ba3f",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier-policy"
+ },
+ {
+  "at": "2026-09-19T22:08:32.015Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "28eff2dd2a2e3e83",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier-policy"
+ },
+ {
+  "at": "2026-09-19T22:08:35.977Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "54d52d2b71ae29b3",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier-policy"
+ },
+ {
+  "at": "2026-09-19T22:08:40.280Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "aa804c4c33aec9d2",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier-policy"
+ },
+ {
+  "at": "2026-09-19T22:08:43.914Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "58d843dc9922231d",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier-policy"
+ },
+ {
+  "at": "2026-09-19T22:08:43.915Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "sbi-arogya-premier",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.sbigeneral.in/portal/health-insurance/arogya-premier-policy"
+ },
+ {
+  "at": "2026-09-19T22:08:48.135Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "3f7c705fa1382d1c",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.sbigeneral.in/portal/motor-insurance/private-car-insurance"
+ },
+ {
+  "at": "2026-09-19T22:08:51.956Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "8812c6871f06d9d0",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.sbigeneral.in/portal/motor-insurance/private-car-insurance"
+ },
+ {
+  "at": "2026-09-19T22:08:55.940Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "07ae3a1a04b4fc07",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.sbigeneral.in/portal/motor-insurance/private-car-insurance"
+ },
+ {
+  "at": "2026-09-19T22:08:59.976Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "d003ee9278e728c6",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.sbigeneral.in/portal/motor-insurance/private-car-insurance"
+ },
+ {
+  "at": "2026-09-19T22:09:03.925Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "a2db4e282539d97f",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.sbigeneral.in/portal/motor-insurance/private-car-insurance"
+ },
+ {
+  "at": "2026-09-19T22:09:07.956Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "b2c6ac8d517f7ead",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.sbigeneral.in/portal/motor-insurance/private-car-insurance"
+ },
+ {
+  "at": "2026-09-19T22:09:07.957Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "sbi-motor-comprehensive",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.sbigeneral.in/portal/motor-insurance/private-car-insurance"
+ },
+ {
+  "at": "2026-09-19T22:09:08.755Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "sbi-travel-insurance",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.sbigeneral.in/travel-insurance"
+ },
+ {
+  "at": "2026-09-19T22:09:10.144Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "sbi-general-super-health-insurance",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.sbigeneral.in/health-insurance/super-health-insurance-policy"
+ },
+ {
+  "at": "2026-09-19T22:09:12.132Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "sbi-general-health-alpha",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.sbigeneral.in/health-insurance/health-alpha"
+ },
+ {
+  "at": "2026-09-19T22:09:14.091Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "sbi-general-bharat-griha-raksha",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.sbigeneral.in/home-insurance/bharat-griha-raksha"
+ },
+ {
+  "at": "2026-09-19T22:09:14.427Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "tata-aia-sampoorna-raksha",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.tataaia.com/life-insurance-plans/term-insurance/sampoorna-raksha-promise.html"
+ },
+ {
+  "at": "2026-09-19T22:09:16.271Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "tata-aia-maha-raksha-supreme-select",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.tataaia.com/life-insurance-plans/term-insurance/maha-raksha-supreme-select.html"
+ },
+ {
+  "at": "2026-09-19T22:09:18.259Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "tata-aia-fortune-guarantee-plus",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.tataaia.com/life-insurance-plans/savings-solutions/fortune-guarantee-plus.html"
+ },
+ {
+  "at": "2026-09-19T22:09:20.267Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "tata-aia-saral-pension",
+  "field": "*",
+  "from": null,
+  "to": "created",
+  "sourceUrl": "https://www.tataaia.com/life-insurance-plans/retirement-and-pension-solutions/saral-pension-plan.html"
  }
 ]

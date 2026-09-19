@@ -1,0 +1,252 @@
+[
+ {
+  "id": "reliance-general-identity",
+  "kind": "insurer",
+  "sourceId": "insurer:reliance-general",
+  "url": "https://www.indusindinsurance.com/about-us",
+  "subject": {
+   "slug": "reliance-general",
+   "siteSlug": "reliance-general"
+  },
+  "meta": {
+   "segments": [
+    "health",
+    "motor",
+    "travel",
+    "home",
+    "commercial"
+   ],
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "IndusInd General Insurance",
+    "evidence": "IndusInd General Insurance Company Limited (Formerly known as Reliance General Insurance Company Limited)."
+   },
+   "insurerType": {
+    "value": "general",
+    "evidence": "IndusInd General Insurance Company Limited (Formerly known as Reliance General Insurance Company Limited)."
+   },
+   "website": {
+    "value": "https://www.indusindinsurance.com/",
+    "evidence": ""
+   },
+   "legalName": {
+    "value": "IndusInd General Insurance Company Limited",
+    "evidence": "IndusInd General Insurance Company Limited (Formerly known as Reliance General Insurance Company Limited)."
+   },
+   "irdaiRegistrationNumber": {
+    "value": "103",
+    "evidence": "IRDAI Registration No. 103."
+   },
+   "cin": {
+    "value": "U66603MH2000PLC128300",
+    "evidence": "Corporate Identity Number: U66603MH2000PLC128300."
+   },
+   "headquarters": {
+    "value": "Mumbai",
+    "evidence": "Goregaon (E), Mumbai-400063."
+   }
+  },
+  "formerNames": [
+   {
+    "name": "Reliance General Insurance Company Limited",
+    "evidence": "IndusInd General Insurance Company Limited (Formerly known as Reliance General Insurance Company Limited).",
+    "url": "https://www.indusindinsurance.com/about-us"
+   }
+  ]
+ },
+ {
+  "id": "reliance-general-p1",
+  "kind": "product",
+  "sourceId": "insurer:reliance-general",
+  "url": "https://www.indusindinsurance.com/health-insurance/health-gain-insurance",
+  "subject": {
+   "slug": "reliance-health-gain",
+   "insurerSlug": "reliance-general",
+   "siteProductId": "reliance-health-gain"
+  },
+  "meta": {
+   "productType": "health-indemnity",
+   "segment": "health",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "IndusInd Health Gain 3.0",
+    "evidence": "Key Features of IndusInd Health Gain 3.0"
+   },
+   "uin": {
+    "value": "INIHLIP26040V042526",
+    "evidence": "UIN: Health Gain: INIHLIP26040V042526 F"
+   },
+   "policyTerm": {
+    "value": "1, 2, 3, 4 or 5 years",
+    "evidence": "1, 2, 3, 4 or 5 years"
+   },
+   "sumInsured": {
+    "value": "₹5 lakhs to ₹5 crore",
+    "evidence": "Get the ideal health insurance for your needs, with coverage from ₹5 lakhs to ₹5 crore."
+   },
+   "eligibility": {
+    "value": "Adults: 18 to 99 years",
+    "evidence": "Adults: 18 to 99 years"
+   }
+  }
+ },
+ {
+  "id": "reliance-general-p2",
+  "kind": "product",
+  "sourceId": "insurer:reliance-general",
+  "url": "https://www.indusindinsurance.com/car-insurance/comprehensive-car-insurance",
+  "subject": {
+   "slug": "reliance-motor-comprehensive",
+   "insurerSlug": "reliance-general",
+   "siteProductId": "reliance-motor-comprehensive"
+  },
+  "meta": {
+   "productType": "motor-private-car",
+   "segment": "motor",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "IndusInd Private Car Package Policy",
+    "evidence": "IndusInd Private Car Package Policy: IRDAN103RP0010V02100001"
+   }
+  }
+ },
+ {
+  "id": "reliance-general-p3",
+  "kind": "product",
+  "sourceId": "insurer:reliance-general",
+  "url": "https://www.indusindinsurance.com/travel-insurance",
+  "subject": {
+   "slug": "reliance-travel-care",
+   "insurerSlug": "reliance-general",
+   "siteProductId": "reliance-travel-care"
+  },
+  "meta": {
+   "productType": "travel",
+   "segment": "travel",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "IndusInd Travel Care Policy",
+    "evidence": "IndusInd Travel Care Policy – RELTIOP08002V010708"
+   },
+   "uin": {
+    "value": "RELTIOP08002V010708",
+    "evidence": "UIN: IndusInd Travel Care Policy – RELTIOP08002V010708 F"
+   },
+   "sumInsured": {
+    "value": "$100,000 to $500,000",
+    "evidence": "visa-compliant plans with sum insured options ranging from $100,000 to $500,000"
+   }
+  }
+ },
+ {
+  "id": "reliance-general-p4",
+  "kind": "product",
+  "sourceId": "insurer:reliance-general",
+  "url": "https://www.indusindinsurance.com/health-insurance/health-infinity-insurance",
+  "subject": {
+   "slug": "reliance-general-health-infinity",
+   "insurerSlug": "reliance-general"
+  },
+  "meta": {
+   "productType": "health-indemnity",
+   "segment": "health",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "IndusInd Health Infinity Insurance",
+    "evidence": "IndusInd Health Infinity Insurance"
+   },
+   "policyTerm": {
+    "value": "1, 2 or 3-year policy terms",
+    "evidence": "1, 2 or 3-year policy terms"
+   },
+   "sumInsured": {
+    "value": "₹5 lakh and going up to ₹5 crore",
+    "evidence": "starting from ₹5 lakh and going up to ₹5 crore"
+   }
+  }
+ },
+ {
+  "id": "reliance-general-p5",
+  "kind": "product",
+  "sourceId": "insurer:reliance-general",
+  "url": "https://www.indusindinsurance.com/health-insurance/personal-accident-insurance",
+  "subject": {
+   "slug": "reliance-general-personal-accident-360shield",
+   "insurerSlug": "reliance-general"
+  },
+  "meta": {
+   "productType": "personal-accident",
+   "segment": "health",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "IndusInd Personal Accident 360Shield",
+    "evidence": "IndusInd Personal Accident 360Shield (formerly known as Reliance Personal Accident 360Shield) is a comprehensive plan"
+   },
+   "uin": {
+    "value": "RELPAIP25035V022425",
+    "evidence": "UIN: INIHLIP26040V042526 | Health Super Top-Up – RELHLIP21617V012021 | Health Global – IRDAN103RP0001V01202324 | Personal Accident 360Shield – RELPAIP25035V022425 |"
+   },
+   "policyTerm": {
+    "value": "1, 2 or 3 years",
+    "evidence": "1, 2 or 3 years"
+   },
+   "sumInsured": {
+    "value": "₹5 lakh to ₹25 crore",
+    "evidence": "₹5 lakh to ₹25 crore under Personal Accident 360Shield"
+   },
+   "eligibility": {
+    "value": "18 to 80 years",
+    "evidence": "Individuals aged 18 to 80 years"
+   }
+  }
+ },
+ {
+  "id": "reliance-general-p6",
+  "kind": "product",
+  "sourceId": "insurer:reliance-general",
+  "url": "https://www.indusindinsurance.com/health-insurance/super-top-up-health-insurance",
+  "subject": {
+   "slug": "reliance-general-health-super-top-up",
+   "insurerSlug": "reliance-general"
+  },
+  "meta": {
+   "productType": "health-indemnity",
+   "segment": "health",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "IndusInd Health Super Top-Up",
+    "evidence": "Key Features of IndusInd Health Super Top-Up"
+   },
+   "uin": {
+    "value": "RELHLIP21617V012021",
+    "evidence": "UIN: INIHLIP26040V042526 | Health Super Top-Up – RELHLIP21617V012021 |"
+   },
+   "policyTerm": {
+    "value": "1, 2 or 3 years tenure available",
+    "evidence": "1, 2 or 3 years tenure available"
+   },
+   "sumInsured": {
+    "value": "₹5 lakh to ₹1.30 crore",
+    "evidence": "SI available between ₹5 lakh to ₹1.30 crore"
+   },
+   "eligibility": {
+    "value": "Adults: 18 to 65 years",
+    "evidence": "Adults: 18 to 65 years"
+   }
+  }
+ }
+]

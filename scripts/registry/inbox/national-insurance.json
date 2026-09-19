@@ -1,0 +1,292 @@
+[
+ {
+  "id": "national-insurance-identity",
+  "kind": "insurer",
+  "sourceId": "insurer:national-insurance",
+  "url": "https://nationalinsurance.nic.co.in/about-us/overview/about-company",
+  "subject": {
+   "slug": "national-insurance",
+   "siteSlug": "national-insurance"
+  },
+  "meta": {
+   "segments": [
+    "motor",
+    "health",
+    "travel",
+    "home",
+    "other"
+   ],
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "National Insurance Company Limited",
+    "evidence": "National Insurance Company Limited, a Wholly-owned Government of India Undertaking is the oldest Public Sector General Insurance Company in India."
+   },
+   "insurerType": {
+    "value": "general",
+    "evidence": "It is registered as a General Insurance Company with the Insurance Regulatory and Development Authority of India (IRDAI) under the Insurance Act, 1938 vide registration no. 58."
+   },
+   "website": {
+    "value": "https://nationalinsurance.nic.co.in/",
+    "evidence": ""
+   },
+   "legalName": {
+    "value": "National Insurance Company Limited",
+    "evidence": "National Insurance Company Limited, a Wholly-owned Government of India Undertaking is the oldest Public Sector General Insurance Company in India."
+   },
+   "irdaiRegistrationNumber": {
+    "value": "58",
+    "evidence": "It is registered as a General Insurance Company with the Insurance Regulatory and Development Authority of India (IRDAI) under the Insurance Act, 1938 vide registration no. 58."
+   },
+   "cin": {
+    "value": "U10200WB1906GOI001713",
+    "evidence": "CIN: U10200WB1906GOI001713"
+   },
+   "headquarters": {
+    "value": "Kolkata",
+    "evidence": "NICL is the only Public Sector General Insurance Company with Headquarters in Kolkata"
+   }
+  }
+ },
+ {
+  "id": "national-insurance-p1",
+  "kind": "product",
+  "sourceId": "insurer:national-insurance",
+  "url": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy",
+  "subject": {
+   "slug": "national-insurance-motor",
+   "insurerSlug": "national-insurance",
+   "siteProductId": "national-insurance-motor"
+  },
+  "meta": {
+   "productType": "motor-private-car",
+   "segment": "motor",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Private Car Package Policy",
+    "evidence": "Private Car Package Policy"
+   },
+   "sumInsured": {
+    "value": "Insured’s Declared Value (IDV)",
+    "evidence": "The Insured’s Declared Value (IDV) of the vehicle will be deemed to be the ‘SUM INSURED’ for the purpose of this policy"
+   }
+  },
+  "documents": [
+   {
+    "kind": "policy-wording",
+    "title": "Terms and Conditions for Private Car Package Policy-Base Product",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/Private%20Car-package%20policy-Base%20Product-Terms%20and%20Conditions_0.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Terms and Conditions for Liability only Policy",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/Terms%20and%20Conditions%20for%20Liability%20only%20Policy_1.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "SAOD Private Car Policy",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/SAOD%20Private%20Car%20Policy.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Long term PC Bundled Policy",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/Long%20term%20PC%20Bundled%20Policy_0.pdf"
+   },
+   {
+    "kind": "claim-form",
+    "title": "Claim Form",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/Claim%20Form_16_4.pdf"
+   }
+  ]
+ },
+ {
+  "id": "national-insurance-p2",
+  "kind": "product",
+  "sourceId": "insurer:national-insurance",
+  "url": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy",
+  "subject": {
+   "slug": "national-insurance-national-overseas-travel-policy",
+   "insurerSlug": "national-insurance"
+  },
+  "meta": {
+   "productType": "travel",
+   "segment": "travel",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "National Overseas Travel Policy",
+    "evidence": "National Overseas Travel Policy Is A Comprehensive Travel Product Covering Varied Insurance Needs Of International Travelers Going On Holiday Or Business Trip Outside India."
+   },
+   "uin": {
+    "value": "NICTIOP24116V012324",
+    "evidence": "UIN No NICTIOP24116V012324 N"
+   },
+   "policyTerm": {
+    "value": "Single Trip basis or Annual basis",
+    "evidence": "Single Trip basis or Annual basis ( Aggregate of all Trip Durations during a Policy Period shall not exceed 180 days)"
+   }
+  },
+  "documents": [
+   {
+    "kind": "prospectus",
+    "title": "NOTP Prospectus",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20Prospectus.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "NOTP Wordings",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20Policy%20Wordings.pdf"
+   },
+   {
+    "kind": "claim-form",
+    "title": "NOTP Claim Form",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20Claim%20Form.pdf"
+   },
+   {
+    "kind": "premium-chart",
+    "title": "NOTP Rate Chart",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/National%20Overseas%20Travel%20Policy%20Rate%20Chart_0.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "NOTP CIS",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20CIS.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "NOTP Proposal",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP-Proposal.pdf"
+   }
+  ]
+ },
+ {
+  "id": "national-insurance-p3",
+  "kind": "product",
+  "sourceId": "insurer:national-insurance",
+  "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp",
+  "subject": {
+   "slug": "national-insurance-national-senior-citizen-mediclaim-policy",
+   "insurerSlug": "national-insurance"
+  },
+  "meta": {
+   "productType": "health-indemnity",
+   "segment": "health",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "National Senior Citizen Mediclaim Policy (NSCMP)",
+    "evidence": "National Senior Citizen Mediclaim Policy (NSCMP)"
+   },
+   "uin": {
+    "value": "NICHLIP25040V042425",
+    "evidence": "UIN No NICHLIP25040V042425 N"
+   },
+   "sumInsured": {
+    "value": "up to Rs. 10 lakhs",
+    "evidence": "Covers Senior Citizens for Sum Insured (SI) up to Rs. 10 lakhs either on Individual / Floater basis"
+   },
+   "premiumPayment": {
+    "value": "Quarterly or Half Yearly",
+    "evidence": "Facility of premium payment in instalments of Quarterly or Half Yearly, as opted"
+   }
+  },
+  "documents": [
+   {
+    "kind": "prospectus",
+    "title": "NSCMP - Prospectus",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-06/NSCMP%20-%20Prospectus.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "NSCMP Wordings",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-06/NSCMP%20-%20Policy%20Wordings.pdf"
+   },
+   {
+    "kind": "claim-form",
+    "title": "NSCMP Claim Form",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20Claim%20Form.pdf"
+   },
+   {
+    "kind": "premium-chart",
+    "title": "NSCMP Rate Chart",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20Rate%20Chart.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "NSCMP CIS",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20CIS.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "NSCMP Proposal",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20Proposal%20Form.pdf"
+   }
+  ]
+ },
+ {
+  "id": "national-insurance-p4",
+  "kind": "product",
+  "sourceId": "insurer:national-insurance",
+  "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy",
+  "subject": {
+   "slug": "national-insurance-national-parivar-mediclaim-plus-policy",
+   "insurerSlug": "national-insurance"
+  },
+  "meta": {
+   "productType": "health-indemnity",
+   "segment": "health",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "National Parivar Mediclaim Plus Policy (Floater Policy)",
+    "evidence": "National Parivar Mediclaim Plus Policy (Floater Policy)"
+   },
+   "uin": {
+    "value": "NICHLIP25039V032425",
+    "evidence": "UIN No NICHLIP25039V032425 N"
+   },
+   "sumInsured": {
+    "value": "up to 50 Lakhs",
+    "evidence": "Sum Insured (SI) options up to 50 Lakhs for the entire family as per plan opted"
+   }
+  },
+  "documents": [
+   {
+    "kind": "prospectus",
+    "title": "NPMPP Prospectus",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Prospectus_0.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "NPMPP Wordings",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Policy%20Wordings.pdf"
+   },
+   {
+    "kind": "claim-form",
+    "title": "NPMPP Claim Form",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Claim%20Form.pdf"
+   },
+   {
+    "kind": "premium-chart",
+    "title": "NPMPP Rate Chart",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Rate%20Chart.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "NPMPP CIS",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20CIS.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "NPMPP Proposal",
+    "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Proposal%20Form.pdf"
+   }
+  ]
+ }
+]

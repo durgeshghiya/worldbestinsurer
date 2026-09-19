@@ -8,7 +8,7 @@
  *   npm run registry -- check-documents                 weekly: document liveness + changes
  *   npm run registry -- refresh-statistics              monthly: data.gov.in API
  *   npm run registry -- validate                        exit 1 on any registry error
- *   npm run registry -- review                          list the review queue
+ *   npm run registry -- review [--clear <id|all>]       list or clear the review queue
  *   npm run registry -- quality-report                  writes docs/data-quality-report.md
  *   npm run registry -- seo-audit [--base <url>]        writes docs/seo-audit-report.md
  */
@@ -101,6 +101,16 @@ async function main(): Promise<void> {
     }
     case "review": {
       const s = new RegistryStore("review");
+      // --clear <id|all>: the operator has acted on the item (or the candidate
+      // was withdrawn). Clearing is recorded like any other change.
+      const clear = flag("clear");
+      if (clear) {
+        const ids = clear === "all" ? s.review.map((r) => r.id) : [clear];
+        for (const id of ids) s.clearReview(id);
+        await s.commit();
+        console.log(`cleared ${ids.length} review item(s)`);
+        break;
+      }
       if (!s.review.length) console.log("review queue is empty");
       for (const r of s.review) console.log(`- ${r.id}  (${r.kind}, ${r.queuedAt.slice(0, 10)})\n    ${r.reason}`);
       break;

@@ -1,0 +1,325 @@
+[
+ {
+  "id": "bajaj-allianz-identity",
+  "kind": "insurer",
+  "sourceId": "insurer:bajaj-allianz",
+  "url": "https://www.bajajgeneralinsurance.com/about-us.html",
+  "subject": {
+   "slug": "bajaj-allianz",
+   "siteSlug": "bajaj-allianz"
+  },
+  "meta": {
+   "segments": [
+    "health",
+    "motor",
+    "travel",
+    "home",
+    "commercial",
+    "other"
+   ],
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Bajaj General Insurance Limited",
+    "evidence": "Bajaj General Insurance Limited (formerly known as Bajaj Allianz General Insurance Company Limited)"
+   },
+   "insurerType": {
+    "value": "general",
+    "evidence": "Bajaj General Insurance Limited (formerly known as Bajaj Allianz General Insurance Company Limited) is one of India’s leading, most trusted and dynamic private general insurance companies."
+   },
+   "website": {
+    "value": "https://www.bajajgeneralinsurance.com/",
+    "evidence": ""
+   },
+   "legalName": {
+    "value": "Bajaj General Insurance Limited",
+    "evidence": "Bajaj General Insurance Limited (formerly known as Bajaj Allianz General Insurance Company Limited)"
+   },
+   "irdaiRegistrationNumber": {
+    "value": "113",
+    "evidence": "IRDA Reg. No. 113, Bajaj General CIN -U66010PN2000PLC015329 An ISO 27001:2022 Certified Company"
+   },
+   "cin": {
+    "value": "U66010PN2000PLC015329",
+    "evidence": "IRDA Reg. No. 113, Bajaj General CIN -U66010PN2000PLC015329 An ISO 27001:2022 Certified Company"
+   },
+   "headquarters": {
+    "value": "Pune",
+    "evidence": "Registered Address: Bajaj Insurance House, Airport Road, Yerawada, Pune-411006"
+   }
+  },
+  "formerNames": [
+   {
+    "name": "Bajaj Allianz General Insurance Company Limited",
+    "evidence": "Bajaj General Insurance Limited (formerly known as Bajaj Allianz General Insurance Company Limited)",
+    "url": "https://www.bajajgeneralinsurance.com/about-us.html"
+   }
+  ]
+ },
+ {
+  "id": "bajaj-allianz-p1",
+  "kind": "product",
+  "sourceId": "insurer:bajaj-allianz",
+  "url": "https://www.bajajgeneralinsurance.com/health-insurance-plans/health-guard-insurance-policy.html",
+  "subject": {
+   "slug": "bajaj-allianz-health-guard",
+   "insurerSlug": "bajaj-allianz",
+   "siteProductId": "bajaj-allianz-health-guard"
+  },
+  "meta": {
+   "productType": "health-indemnity",
+   "segment": "health",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Health Guard",
+    "evidence": "The Health Guard plan provides various levels of sum insured."
+   },
+   "policyTerm": {
+    "value": "one, two, or three-year policy terms",
+    "evidence": "Choose from one, two, or three-year policy terms and opt for individual or floater coverage to match your healthcare requirements and financial goals."
+   },
+   "sumInsured": {
+    "value": "INR 3 lacs to INR 1 crore",
+    "evidence": "Select adequate sum insured that suits you starting INR 3 lacs to INR 1 crore"
+   },
+   "eligibility": {
+    "value": "18 years to lifelong can be covered, while dependent children up to 30 years",
+    "evidence": "Individuals from 18 years to lifelong can be covered, while dependent children up to 30 years are also eligible."
+   },
+   "premiumPayment": {
+    "value": "annually, half-yearly, quarterly, or monthly",
+    "evidence": "Pay your premium annually, half-yearly, quarterly, or monthly, giving you greater financial flexibility and making health insurance more manageable and budget-friendly."
+   }
+  },
+  "documents": [
+   {
+    "kind": "brochure",
+    "title": "Brochure",
+    "url": "https://www.bajajgeneralinsurance.com/download-documents/health-insurance/health-guard/Health-Guard-Brochure-print.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy Wordings",
+    "url": "https://www.bajajgeneralinsurance.com/download-documents/health-insurance/Health-PW/Health-Guard_PW.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "Proposal Form",
+    "url": "https://www.bajajgeneralinsurance.com/download-documents/health-insurance/health-guard/Health-Guard-Proposal-Form-print.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "Customer Info Sheet",
+    "url": "https://www.bajajgeneralinsurance.com/download-documents/health-insurance/health-guard/Health-Guard-CIS-print.pdf"
+   },
+   {
+    "kind": "claim-form",
+    "title": "Claims Form",
+    "url": "https://www.bajajgeneralinsurance.com/download-documents/claim/ReimbursementFormA+B2013-editable.pdf"
+   }
+  ]
+ },
+ {
+  "id": "bajaj-allianz-p2",
+  "kind": "product",
+  "sourceId": "insurer:bajaj-allianz",
+  "url": "https://www.bajajgeneralinsurance.com/motor-insurance.html",
+  "subject": {
+   "slug": "bajaj-allianz-motor",
+   "insurerSlug": "bajaj-allianz",
+   "siteProductId": "bajaj-allianz-motor"
+  },
+  "meta": {
+   "productType": "other",
+   "segment": "motor",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Motor Insurance",
+    "evidence": "Drive Worry-Free With The Right Motor Insurance"
+   }
+  },
+  "documents": [
+   {
+    "kind": "claim-form",
+    "title": "Claims Form",
+    "url": "https://www.bajajgeneralinsurance.com/download-documents/motor/Motor_Claim_Form.pdf"
+   }
+  ]
+ },
+ {
+  "id": "bajaj-allianz-p3",
+  "kind": "product",
+  "sourceId": "insurer:bajaj-allianz",
+  "url": "https://www.bajajgeneralinsurance.com/travel-insurance-online.html",
+  "subject": {
+   "slug": "bajaj-allianz-travel",
+   "insurerSlug": "bajaj-allianz",
+   "siteProductId": "bajaj-allianz-travel"
+  },
+  "meta": {
+   "productType": "travel",
+   "segment": "travel",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Travel Insurance",
+    "evidence": "What is Travel Insurance?"
+   }
+  }
+ },
+ {
+  "id": "bajaj-allianz-p4",
+  "kind": "product",
+  "sourceId": "insurer:bajaj-allianz",
+  "url": "https://www.bajajgeneralinsurance.com/health-insurance-plans/arogya-sanjeevani-standard-health-insurance-policy.html",
+  "subject": {
+   "slug": "bajaj-allianz-arogya-sanjeevani",
+   "insurerSlug": "bajaj-allianz"
+  },
+  "meta": {
+   "productType": "health-indemnity",
+   "segment": "health",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Arogya Sanjeevani Health Insurance Policy",
+    "evidence": "What is the eligibility age for the Arogya Sanjeevani Health Insurance Policy?"
+   },
+   "sumInsured": {
+    "value": "INR 50,000 to 25 lacs",
+    "evidence": "Choose adequate sum insured from INR 50,000 to 25 lacs that suits your need"
+   },
+   "eligibility": {
+    "value": "18 years for adults and 3 months for dependent children, who can be covered up to 25 years of age",
+    "evidence": "Eligibility for the Arogya Sanjeevani Health Insurance Policy begins at 18 years for adults and 3 months for dependent children, who can be covered up to 25 years of age."
+   },
+   "premiumPayment": {
+    "value": "monthly, quarterly, half-yearly or annual",
+    "evidence": "This policy provides flexible premium payment modes, including monthly, quarterly, half-yearly or annual financial schedules."
+   }
+  },
+  "documents": [
+   {
+    "kind": "brochure",
+    "title": "Brochure",
+    "url": "https://www.bajajgeneralinsurance.com/download-documents/health-insurance/Arogya-Sanjeevani/AROGYA-SANJEEVANI-brochure.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy Wordings",
+    "url": "https://www.bajajgeneralinsurance.com/download-documents/health-insurance/Health-PW/Arogya-Sanjeevani-Policy_PW.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "Proposal Form",
+    "url": "https://www.bajajgeneralinsurance.com/download-documents/health-insurance/Arogya-Sanjeevani/Arogya-Sanjeevani-PF.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "CIS Wordings",
+    "url": "https://www.bajajgeneralinsurance.com/download-documents/health-insurance/Health-CIS/Arogya-Sanjeevani_CIS.pdf"
+   },
+   {
+    "kind": "claim-form",
+    "title": "Claims Form",
+    "url": "https://www.bajajgeneralinsurance.com/download-documents/claim/ReimbursementFormA+B2013-editable.pdf"
+   }
+  ]
+ },
+ {
+  "id": "bajaj-allianz-p5",
+  "kind": "product",
+  "sourceId": "insurer:bajaj-allianz",
+  "url": "https://www.bajajgeneralinsurance.com/health-insurance-plans/saral-suraksha-bima-policy.html",
+  "subject": {
+   "slug": "bajaj-allianz-saral-suraksha-bima",
+   "insurerSlug": "bajaj-allianz"
+  },
+  "meta": {
+   "productType": "personal-accident",
+   "segment": "health",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Saral Suraksha Bima",
+    "evidence": "Here is an overview of the eligibility criteria of the Saral Suraksha Bima policy, which you need to know about:"
+   },
+   "sumInsured": {
+    "value": "INR 2.5 lakhs, with options to increase coverage in multiples of INR 50,000, up to a maximum of INR 1 crore",
+    "evidence": "Minimum sum insured of INR 2.5 lakhs, with options to increase coverage in multiples of INR 50,000, up to a maximum of INR 1 crore"
+   },
+   "eligibility": {
+    "value": "This policy is available to individuals aged between 18 and 70 years.",
+    "evidence": "This policy is available to individuals aged between 18 and 70 years."
+   },
+   "premiumPayment": {
+    "value": "yearly, half-yearly, quarterly and monthly instalments",
+    "evidence": "For instance, adults who are aged 18-70 years and eligible dependent children can be covered, with flexible premium payment options including yearly, half-yearly, quarterly and monthly instalments."
+   }
+  },
+  "documents": [
+   {
+    "kind": "brochure",
+    "title": "Brochure",
+    "url": "https://www.bajajgeneralinsurance.com/download-documents/health-insurance/Saral-Suraksha-Bima/Saral-Suraksha-Bima-Brochure.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy Wordings",
+    "url": "https://www.bajajgeneralinsurance.com/download-documents/health-insurance/Health-PW/Saral-Suraksha-Bima-PW.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "Proposal Form",
+    "url": "https://www.bajajgeneralinsurance.com/download-documents/health-insurance/Saral-Suraksha-Bima/SARAL-SURAKSHA-BIMA-PF.pdf"
+   },
+   {
+    "kind": "other",
+    "title": "Customer Info Sheet",
+    "url": "https://www.bajajgeneralinsurance.com/download-documents/health-insurance/Health-CIS/Saral-Suraksha-Bima_CIS.pdf"
+   },
+   {
+    "kind": "claim-form",
+    "title": "Claims Form",
+    "url": "https://www.bajajgeneralinsurance.com/download-documents/claim/ReimbursementFormA+B2013-editable.pdf"
+   }
+  ]
+ },
+ {
+  "id": "bajaj-allianz-p6",
+  "kind": "product",
+  "sourceId": "insurer:bajaj-allianz",
+  "url": "https://www.bajajgeneralinsurance.com/health-insurance-plans/criti-care.html",
+  "subject": {
+   "slug": "bajaj-allianz-criti-care",
+   "insurerSlug": "bajaj-allianz"
+  },
+  "meta": {
+   "productType": "critical-illness",
+   "segment": "health",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Criti Care",
+    "evidence": "How to Select the Best Criti Care Cover Online?"
+   },
+   "sumInsured": {
+    "value": "5 lacs to 5 crores",
+    "evidence": "Choose adequate sum insured from 5 lacs to 5 crores that suits your need"
+   },
+   "eligibility": {
+    "value": "Adult 18 Years 65 Years Child 3 Months 30 Years",
+    "evidence": "Minimum Entry Age Maximum Entry Age Adult 18 Years 65 Years Child 3 Months 30 Years"
+   }
+  }
+ }
+]

@@ -28,6 +28,22 @@ export interface Issue {
 
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}(T[\d:.]+(Z|[+-]\d{2}:\d{2})?)?$/;
 
+/**
+ * The unions in types.ts only constrain TypeScript. Collections are JSON, so a
+ * value outside the union reaches the page and crashes a label lookup there.
+ * Check them here, where the failure is a build error naming the record.
+ */
+const PRODUCT_TYPES = new Set<string>([
+  "term", "endowment", "whole-life", "money-back", "ulip", "pension", "savings",
+  "health-indemnity", "health-fixed-benefit", "critical-illness", "personal-accident",
+  "motor-private-car", "motor-two-wheeler", "motor-commercial", "travel", "home",
+  "commercial", "other",
+]);
+const SEGMENTS = new Set<string>([
+  "life", "health", "motor", "travel", "home", "commercial", "personal-accident", "crop", "other",
+]);
+const INSURER_TYPES = new Set<string>(["life", "general", "standalone-health", "reinsurer", "specialised"]);
+
 export function isValidIsoDate(s: string | undefined, { allowFutureDays = 1 } = {}): boolean {
   if (!s || !ISO_DATE.test(s)) return false;
   const t = Date.parse(s);
@@ -136,6 +152,11 @@ export function validateInsurer(i: RegistryInsurer, ids: Set<string>): Issue[] {
   out.push(...sourced(i.name, `${k}.name`, ids));
   out.push(...sourced(i.legalName, `${k}.legalName`, ids));
   out.push(...sourced(i.insurerType, `${k}.insurerType`, ids));
+  if (i.insurerType && !INSURER_TYPES.has(i.insurerType.value))
+    out.push({ level: "error", code: "bad-insurer-type", message: `${k}: unknown insurerType "${i.insurerType.value}"`, key: k });
+  for (const seg of i.segments ?? [])
+    if (!SEGMENTS.has(seg))
+      out.push({ level: "error", code: "bad-segment", message: `${k}: unknown segment "${seg}"`, key: k });
   out.push(...sourced(i.irdaiRegistrationNumber, `${k}.irdaiRegistrationNumber`, ids));
   out.push(...sourced(i.cin, `${k}.cin`, ids));
   out.push(...sourced(i.website, `${k}.website`, ids));
@@ -165,6 +186,10 @@ export function validateProduct(
   const ins = insurers.get(p.insurerSlug);
   if (!ins)
     out.push({ level: "error", code: "unknown-insurer", message: `${k}: insurer "${p.insurerSlug}" is not in the registry`, key: k });
+  if (!PRODUCT_TYPES.has(p.productType))
+    out.push({ level: "error", code: "bad-product-type", message: `${k}: unknown productType "${p.productType}"`, key: k });
+  if (!SEGMENTS.has(p.segment))
+    out.push({ level: "error", code: "bad-segment", message: `${k}: unknown segment "${p.segment}"`, key: k });
   out.push(...sourced(p.name, `${k}.name`, ids));
   out.push(...sourced(p.uin, `${k}.uin`, ids));
   out.push(...sourced(p.policyTerm, `${k}.policyTerm`, ids));
