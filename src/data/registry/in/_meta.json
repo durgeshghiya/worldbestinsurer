@@ -3,9 +3,9 @@
   "jurisdiction": "in",
   "lastRun": {
     "ingest": {
-      "at": "2026-09-19T22:09:20.268Z",
-      "ok": false,
-      "summary": "36 accepted, 0 unchanged, 0 held, 7 rejected, 53 documents"
+      "at": "2026-09-19T22:19:31.600Z",
+      "ok": true,
+      "summary": "3 accepted, 2 unchanged, 0 held, 0 rejected, 0 documents"
     },
     "check-documents": {
       "at": "2026-09-16T09:13:41.697Z",

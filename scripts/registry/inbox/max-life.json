@@ -1,172 +1,176 @@
 [
-  {
-    "id": "max-life-identity",
-    "kind": "insurer",
-    "sourceId": "insurer:max-life",
-    "url": "https://www.maxlifeinsurance.com/",
-    "notes": "https://www.maxlifeinsurance.com/ now redirects to https://www.axismaxlife.com/ (company renamed to Axis Max Life Insurance Limited).",
-    "subject": {
-      "slug": "max-life",
-      "siteSlug": "max-life"
-    },
-    "meta": {
-      "segments": [
-        "life"
-      ],
-      "status": "active"
-    },
-    "facts": {
-      "name": {
-        "value": "Axis Max Life Insurance",
-        "evidence": "Axis Max Life Insurance Limited (formerly known as Max Life Insurance Co. Ltd.) is a Joint Venture between Max Financial Services Limited"
-      },
-      "legalName": {
-        "value": "Axis Max Life Insurance Limited",
-        "evidence": "Registered Office: Axis Max Life Insurance Limited. Plot no. 90-C, Sector-18, Urban Estate, Gurugram, Haryana – 122 015, India."
-      },
-      "insurerType": {
-        "value": "life",
-        "evidence": "IRDAI - Registration No. 104. ARN/Web/13122024 Category: Life. Validity: Valid."
-      },
-      "website": {
-        "value": "https://www.axismaxlife.com/",
-        "evidence": ""
-      },
-      "irdaiRegistrationNumber": {
-        "value": "104",
-        "evidence": "IRDAI - Registration No. 104."
-      },
-      "cin": {
-        "value": "U74899HR2000PLC143012",
-        "evidence": "Corporate Identity Number (CIN): U74899HR2000PLC143012."
-      },
-      "headquarters": {
-        "value": "Gurugram, Haryana",
-        "evidence": "Registered Office: Axis Max Life Insurance Limited. Plot no. 90-C, Sector-18, Urban Estate, Gurugram, Haryana – 122 015, India."
-      }
-    },
-    "formerNames": [
-      {
-        "name": "Max Life Insurance Co. Ltd.",
-        "evidence": "Axis Max Life Insurance Limited (formerly known as Max Life Insurance Co. Ltd.)"
-      }
-    ]
+ {
+  "id": "max-life-identity",
+  "kind": "insurer",
+  "sourceId": "insurer:max-life",
+  "url": "https://www.maxlifeinsurance.com/",
+  "notes": "https://www.maxlifeinsurance.com/ now redirects to https://www.axismaxlife.com/ (company renamed to Axis Max Life Insurance Limited).",
+  "subject": {
+   "slug": "max-life",
+   "siteSlug": "max-life"
   },
-  {
-    "id": "max-life-p1",
-    "kind": "product",
-    "sourceId": "insurer:max-life",
-    "url": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan",
-    "subject": {
-      "slug": "max-life-smart-secure-plus",
-      "insurerSlug": "max-life",
-      "siteProductId": "max-life-smart-secure-plus"
-    },
-    "meta": {
-      "productType": "term",
-      "segment": "life",
-      "status": "active"
-    },
-    "facts": {
-      "name": {
-        "value": "Axis Max Life Smart Secure Plus Plan",
-        "evidence": "25 Year Premium Payment Term for Axis Max Life Smart Secure Plus Plan (UIN: 104N118V13)."
-      },
-      "uin": {
-        "value": "104N118V13",
-        "evidence": "With the Smart Secure Plus Plan (A Non-Linked Non-Participating Individual Pure Risk Life Insurance Plan | UIN: 104N118V13)"
-      },
-      "policyTerm": {
-        "value": "10 Years to 67 Years",
-        "evidence": "Premium Payment Term (PPT) Available Base Policy Terms* Available Accident Cover Policy Terms* Single Pay 10 Years to 67 Years NA Regular Pay 10 Years to 67 Years"
-      },
-      "eligibility": {
-        "value": "The minimum entry age for the Axis Max Life Smart Secure Plus Plan is 18 years, and the maximum age is capped at 65 years for Non-POS variant and 55 years for POS variant",
-        "evidence": "The minimum entry age for the Axis Max Life Smart Secure Plus Plan is 18 years, and the maximum age is capped at 65 years for Non-POS variant and 55 years for POS variant. In case of Pay till the 60 option, the maximum entry age is capped at 44 years."
-      },
-      "premiumFrequency": {
-        "value": "annual, half-yearly, quarterly, or monthly",
-        "evidence": "The frequency of the premium payment can be annual, half-yearly, quarterly, or monthly."
-      }
-    },
-    "documents": [
-      {
-        "kind": "prospectus",
-        "title": "Policy Prospectus",
-        "url": "https://www.axismaxlife.com/static-page/assets/homepage/SSPP-Prospectus.pdf"
-      },
-      {
-        "kind": "brochure",
-        "title": "Policy Leaflet",
-        "url": "https://www.axismaxlife.com/static-page/assets/homepage/SSPP-Leaflet.pdf"
-      },
-      {
-        "kind": "policy-wording",
-        "title": "Policy Contract",
-        "url": "https://www.axismaxlife.com/static-page/assets/homepage/SSPP-Policy-Document.pdf"
-      },
-      {
-        "kind": "customer-information-sheet",
-        "title": "Customer Information Sheet",
-        "url": "https://www.axismaxlife.com/static-page/assets/homepage/SSPP-CIS.pdf"
-      }
-    ]
+  "meta": {
+   "segments": [
+    "life"
+   ],
+   "status": "active"
   },
-  {
-    "id": "max-life-p2",
-    "kind": "product",
-    "sourceId": "insurer:max-life",
-    "url": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus",
-    "subject": {
-      "slug": "max-life-smart-term-plan-plus",
-      "insurerSlug": "max-life"
-    },
-    "meta": {
-      "productType": "term",
-      "segment": "life",
-      "status": "active"
-    },
-    "facts": {
-      "name": {
-        "value": "Axis Max Life Smart Term Plan Plus",
-        "evidence": "Axis Max Life Smart Term Plan Plus (A Non-Linked, Non-Participating Individual Pure Risk Life Insurance Plan | UIN: 104N132V01)"
-      },
-      "uin": {
-        "value": "104N132V01",
-        "evidence": "Axis Max Life Smart Term Plan Plus (A Non-Linked, Non-Participating Individual Pure Risk Life Insurance Plan | UIN: 104N132V01)"
-      }
-    },
-    "documents": [
-      {
-        "kind": "prospectus",
-        "title": "Policy Prospectus",
-        "url": "https://www.axismaxlife.com/static-page/assets/homepage/STPP-Prospectus.pdf"
-      },
-      {
-        "kind": "brochure",
-        "title": "Policy Leaflet",
-        "url": "https://www.axismaxlife.com/static-page/assets/homepage/STPP-Leaflet.pdf"
-      },
-      {
-        "kind": "policy-wording",
-        "title": "Policy Contract",
-        "url": "https://www.axismaxlife.com/static-page/assets/homepage/STPP-Policy-Document.pdf"
-      },
-      {
-        "kind": "policy-wording",
-        "title": "Policy Document Classic Cover",
-        "url": "https://www.axismaxlife.com/static-page/assets/homepage/STPP-Policy-Document-Classic-Cover.pdf"
-      },
-      {
-        "kind": "customer-information-sheet",
-        "title": "Customer Information Sheet",
-        "url": "https://www.axismaxlife.com/static-page/assets/homepage/STPP-CIS.pdf"
-      },
-      {
-        "kind": "customer-information-sheet",
-        "title": "Customer Information Sheet - Classic Cover",
-        "url": "https://www.axismaxlife.com/static-page/assets/homepage/STPP-CIS-Classic-Cover.pdf"
-      }
-    ]
-  }
+  "facts": {
+   "name": {
+    "value": "Axis Max Life Insurance",
+    "evidence": "Axis Max Life Insurance Limited (formerly known as Max Life Insurance Co. Ltd.) is a Joint Venture between Max Financial Services Limited"
+   },
+   "legalName": {
+    "value": "Axis Max Life Insurance Limited",
+    "evidence": "Registered Office: Axis Max Life Insurance Limited. Plot no. 90-C, Sector-18, Urban Estate, Gurugram, Haryana – 122 015, India."
+   },
+   "insurerType": {
+    "value": "life",
+    "evidence": "IRDAI - Registration No. 104. ARN/Web/13122024 Category: Life. Validity: Valid."
+   },
+   "website": {
+    "value": "https://www.axismaxlife.com/",
+    "evidence": ""
+   },
+   "irdaiRegistrationNumber": {
+    "value": "104",
+    "evidence": "IRDAI - Registration No. 104."
+   },
+   "cin": {
+    "value": "U74899HR2000PLC143012",
+    "evidence": "Corporate Identity Number (CIN): U74899HR2000PLC143012."
+   },
+   "headquarters": {
+    "value": "Gurugram, Haryana",
+    "evidence": "Registered Office: Axis Max Life Insurance Limited. Plot no. 90-C, Sector-18, Urban Estate, Gurugram, Haryana – 122 015, India."
+   }
+  },
+  "formerNames": [
+   {
+    "name": "Max Life Insurance Co. Ltd.",
+    "evidence": "Axis Max Life Insurance Limited (formerly known as Max Life Insurance Co. Ltd.)"
+   }
+  ]
+ },
+ {
+  "id": "max-life-p1",
+  "kind": "product",
+  "sourceId": "insurer:max-life",
+  "url": "https://www.axismaxlife.com/term-insurance-plans/smart-secure-plus-plan",
+  "subject": {
+   "slug": "max-life-smart-secure-plus",
+   "insurerSlug": "max-life",
+   "siteProductId": "max-life-smart-secure-plus"
+  },
+  "meta": {
+   "productType": "term",
+   "segment": "life",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Axis Max Life Smart Secure Plus Plan",
+    "evidence": "25 Year Premium Payment Term for Axis Max Life Smart Secure Plus Plan (UIN: 104N118V13)."
+   },
+   "uin": {
+    "value": "104N118V13",
+    "evidence": "With the Smart Secure Plus Plan (A Non-Linked Non-Participating Individual Pure Risk Life Insurance Plan | UIN: 104N118V13)"
+   },
+   "policyTerm": {
+    "value": "10 Years to 67 Years",
+    "evidence": "Premium Payment Term (PPT) Available Base Policy Terms* Available Accident Cover Policy Terms* Single Pay 10 Years to 67 Years NA Regular Pay 10 Years to 67 Years"
+   },
+   "eligibility": {
+    "value": "The minimum entry age for the Axis Max Life Smart Secure Plus Plan is 18 years, and the maximum age is capped at 65 years for Non-POS variant and 55 years for POS variant",
+    "evidence": "The minimum entry age for the Axis Max Life Smart Secure Plus Plan is 18 years, and the maximum age is capped at 65 years for Non-POS variant and 55 years for POS variant. In case of Pay till the 60 option, the maximum entry age is capped at 44 years."
+   },
+   "premiumFrequency": {
+    "value": "annual, half-yearly, quarterly, or monthly",
+    "evidence": "The frequency of the premium payment can be annual, half-yearly, quarterly, or monthly."
+   }
+  },
+  "documents": [
+   {
+    "kind": "prospectus",
+    "title": "Policy Prospectus",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/SSPP-Prospectus.pdf"
+   },
+   {
+    "kind": "brochure",
+    "title": "Policy Leaflet",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/SSPP-Leaflet.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy Contract",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/SSPP-Policy-Document.pdf"
+   },
+   {
+    "kind": "customer-information-sheet",
+    "title": "Customer Information Sheet",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/SSPP-CIS.pdf"
+   }
+  ]
+ },
+ {
+  "id": "max-life-p2",
+  "kind": "product",
+  "sourceId": "insurer:max-life",
+  "url": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus",
+  "subject": {
+   "slug": "max-life-smart-term-plan-plus",
+   "insurerSlug": "max-life"
+  },
+  "meta": {
+   "productType": "term",
+   "segment": "life",
+   "status": "active"
+  },
+  "facts": {
+   "name": {
+    "value": "Axis Max Life Smart Term Plan Plus",
+    "evidence": "Axis Max Life Smart Term Plan Plus (A Non-Linked, Non-Participating Individual Pure Risk Life Insurance Plan | UIN: 104N132V01)"
+   },
+   "uin": {
+    "value": "104N132V01",
+    "evidence": "Axis Max Life Smart Term Plan Plus (A Non-Linked, Non-Participating Individual Pure Risk Life Insurance Plan | UIN: 104N132V01)"
+   },
+   "policyTerm": {
+    "value": "coverage till age 100 years",
+    "evidence": "Option to avail life insurance coverage till age 100 years with Whole life cover variant"
+   }
+  },
+  "documents": [
+   {
+    "kind": "prospectus",
+    "title": "Policy Prospectus",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/STPP-Prospectus.pdf"
+   },
+   {
+    "kind": "brochure",
+    "title": "Policy Leaflet",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/STPP-Leaflet.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy Contract",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/STPP-Policy-Document.pdf"
+   },
+   {
+    "kind": "policy-wording",
+    "title": "Policy Document Classic Cover",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/STPP-Policy-Document-Classic-Cover.pdf"
+   },
+   {
+    "kind": "customer-information-sheet",
+    "title": "Customer Information Sheet",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/STPP-CIS.pdf"
+   },
+   {
+    "kind": "customer-information-sheet",
+    "title": "Customer Information Sheet - Classic Cover",
+    "url": "https://www.axismaxlife.com/static-page/assets/homepage/STPP-CIS-Classic-Cover.pdf"
+   }
+  ]
+ }
 ]

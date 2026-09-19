@@ -1,6 +1,6 @@
 # Data-quality report
 
-Generated 2026-09-19 22:13 UTC by `npm run registry -- quality-report`. Registry schema v1, jurisdiction `in`.
+Generated 2026-09-19 22:20 UTC by `npm run registry -- quality-report`. Registry schema v1, jurisdiction `in`.
 
 **VALID** — 0 validation error(s), 0 warning(s), 0 item(s) awaiting review.
 
@@ -22,7 +22,7 @@ confirmed the evidence was present before accepting it.
 
 | Measure | Count |
 | --- | ---: |
-| Facts verified in visible page text | 225 |
+| Facts verified in visible page text | 229 |
 | Facts found only in embedded structured data | 0 |
 | Records retrieved manually (robots-blocked sources) | 0 |
 
@@ -33,7 +33,7 @@ confirmed the evidence was present before accepting it.
 | UIN format: life | 14 |
 | UIN format: non-life | 20 |
 | UIN format: non-life-legacy | 1 |
-| Products meeting the product-page indexability bar | 25 |
+| Products meeting the product-page indexability bar | 27 |
 
 ## Source access
 
@@ -69,7 +69,7 @@ confirmed the evidence was present before accepting it.
 
 | Job | Last run | OK | Summary |
 | --- | --- | --- | --- |
-| ingest | 2026-09-19 22:09 | **no** | 36 accepted, 0 unchanged, 0 held, 7 rejected, 53 documents |
+| ingest | 2026-09-19 22:19 | yes | 3 accepted, 2 unchanged, 0 held, 0 rejected, 0 documents |
 | check-documents | 2026-09-16 09:13 | yes | 22 ok, 0 changed, 0 unavailable |
 | check-sources | 2026-09-16 09:13 | yes | 18 sources checked, 0 changed, 0 now blocking a crawl source |
 

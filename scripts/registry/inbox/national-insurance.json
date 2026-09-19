@@ -128,6 +128,14 @@
    "policyTerm": {
     "value": "Single Trip basis or Annual basis",
     "evidence": "Single Trip basis or Annual basis ( Aggregate of all Trip Durations during a Policy Period shall not exceed 180 days)"
+   },
+   "eligibility": {
+    "value": "Aged Between 18 Years And 60 Years",
+    "evidence": "Proposer And Spouse Should Be Aged Between 18 Years And 60 Years"
+   },
+   "sumInsured": {
+    "value": "Us$ 25,000, 50,000, 1,00,000, 2,50,000, 3,00,000, 4,00,000, 5,00,000",
+    "evidence": "Us$ 25,000, 50,000, 1,00,000, 2,50,000, 3,00,000, 4,00,000, 5,00,000"
    }
   },
   "documents": [
@@ -254,6 +262,10 @@
    "sumInsured": {
     "value": "up to 50 Lakhs",
     "evidence": "Sum Insured (SI) options up to 50 Lakhs for the entire family as per plan opted"
+   },
+   "policyTerm": {
+    "value": "policy tenure of 2/3 years",
+    "evidence": "Attractive Discounts available – Direct Discount (without intermediary), Long term Discount for opting policy tenure of 2/3 years"
    }
   },
   "documents": [

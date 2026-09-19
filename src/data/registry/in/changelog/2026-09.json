@@ -1906,5 +1906,73 @@
   "from": null,
   "to": "created",
   "sourceUrl": "https://www.tataaia.com/life-insurance-plans/retirement-and-pension-solutions/saral-pension-plan.html"
+ },
+ {
+  "at": "2026-09-19T22:18:48.952Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "max-life-smart-term-plan-plus",
+  "field": "policyTerm",
+  "to": {
+   "value": "coverage till age 100 years",
+   "provenance": {
+    "sourceId": "insurer:max-life",
+    "url": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus",
+    "retrievedAt": "2026-09-19T22:18:36.866Z",
+    "evidence": "Option to avail life insurance coverage till age 100 years with Whole life cover variant"
+   }
+  },
+  "sourceUrl": "https://www.axismaxlife.com/term-insurance-plans/smart-term-plan-plus"
+ },
+ {
+  "at": "2026-09-19T22:19:03.249Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "national-insurance-national-overseas-travel-policy",
+  "field": "eligibility",
+  "to": {
+   "value": "Aged Between 18 Years And 60 Years",
+   "provenance": {
+    "sourceId": "insurer:national-insurance",
+    "url": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy",
+    "retrievedAt": "2026-09-19T22:18:49.817Z",
+    "evidence": "Proposer And Spouse Should Be Aged Between 18 Years And 60 Years"
+   }
+  },
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy"
+ },
+ {
+  "at": "2026-09-19T22:19:03.249Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "national-insurance-national-overseas-travel-policy",
+  "field": "sumInsured",
+  "to": {
+   "value": "Us$ 25,000, 50,000, 1,00,000, 2,50,000, 3,00,000, 4,00,000, 5,00,000",
+   "provenance": {
+    "sourceId": "insurer:national-insurance",
+    "url": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy",
+    "retrievedAt": "2026-09-19T22:18:49.817Z",
+    "evidence": "Us$ 25,000, 50,000, 1,00,000, 2,50,000, 3,00,000, 4,00,000, 5,00,000"
+   }
+  },
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy"
+ },
+ {
+  "at": "2026-09-19T22:19:31.597Z",
+  "job": "ingest",
+  "kind": "product",
+  "key": "national-insurance-national-parivar-mediclaim-plus-policy",
+  "field": "policyTerm",
+  "to": {
+   "value": "policy tenure of 2/3 years",
+   "provenance": {
+    "sourceId": "insurer:national-insurance",
+    "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy",
+    "retrievedAt": "2026-09-19T22:19:18.655Z",
+    "evidence": "Attractive Discounts available – Direct Discount (without intermediary), Long term Discount for opting policy tenure of 2/3 years"
+   }
+  },
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy"
  }
 ]
