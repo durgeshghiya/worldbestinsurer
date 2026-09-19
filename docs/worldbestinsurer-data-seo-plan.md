@@ -368,3 +368,44 @@ Before phase 16 (scale):
 - UIN prefix check: insurers formed by merger can file products under the
   predecessor's registration number (HDFC ERGO motor uses 125). Such products
   are rejected until the insurer record carries its former registration numbers.
+
+## 17. Batch 1 of phase 16 — scale (2026-09-20)
+
+Seven insurers researched, each by one agent reading the insurer's own site and
+a second agent re-reading every cited page, then the ingest job re-fetching each
+page before writing anything.
+
+| Insurer | Outcome |
+| --- | --- |
+| Bajaj General (formerly Bajaj Allianz General) | insurer + 6 products, 14 documents |
+| Bajaj Life (formerly Bajaj Allianz Life) | insurer + 4 products, 3 documents |
+| SBI General | insurer + 6 products, 11 documents |
+| IndusInd General (formerly Reliance General) | insurer + 6 products, 0 documents (none linked on the pages) |
+| National Insurance | insurer + 4 products, 23 documents |
+| Tata AIA | insurer + 4 products, 0 documents (its /content/dam/ PDFs are robots-disallowed) |
+| Oriental Insurance | rejected in full — pages render text with JavaScript |
+
+Registry: 10 → 16 insurers, 20 → 50 products, 22 → 73 documents. Sitemap 660 →
+662 URLs: 12 existing product pages gained a verified UIN and documents, and
+2 registry-only products cleared the index bar.
+
+What limits the yield, in order of impact:
+
+1. **Documents.** A registry-only product page needs at least one official
+   document. Tata AIA and much of SBI publish theirs under robots-disallowed
+   paths, so we cannot confirm the file exists and do not list it.
+2. **Label/value split across table cells.** Indian insurer pages usually print
+   "Entry age" in one cell and "18 to 65 years" in the next. The evidence rule
+   wants one verbatim span containing both, so those attributes are dropped and
+   the product misses the "2 of 4 attributes" bar. Supporting a label+value
+   evidence pair would recover most of them — the largest single improvement
+   available to the pipeline.
+3. **UINs printed only in brochures.** Bajaj General publishes product UINs in
+   the PDF, not the page. A PDF text extractor would unlock those.
+4. **JavaScript-rendered sites** (Oriental) cannot be verified at all from HTML.
+
+IndexNow, added 2026-09-18: the old key was non-hex and every submission was
+being rejected (`UserForbiddedToAccessSite`). A spec-compliant hex key file is
+now deployed, all 660 URLs were accepted once, and a daily job submits only the
+URLs whose page content changed since the previous run — 47 after this batch.
+
