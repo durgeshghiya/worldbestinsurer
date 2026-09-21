@@ -20,6 +20,7 @@ export async function generateMetadata({
   return {
     title: `Insurance Contact Directory — ${c.name}`,
     description: `Phone numbers, emails, claim helplines & contact details for insurance companies in ${c.name}.`,
+    alternates: { canonical: `https://worldbestinsurer.com/${country}/contact-directory` },
   };
 }
 

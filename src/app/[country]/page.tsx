@@ -215,6 +215,21 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
         );
       })()}
 
+      {/* Every market: its own insurer directory and contact directory */}
+      <section className="mx-auto max-w-[1320px] px-5 lg:px-8 pt-12">
+        <h3 className="text-[16px] font-bold text-text-primary mb-4">{c.name} directories</h3>
+        <div className="flex flex-wrap gap-2">
+          <Link href={`/${country}/insurers/`}
+            className="px-4 py-2 text-[13px] font-medium border border-border rounded-xl hover:border-primary/20 hover:text-primary transition-colors">
+            Insurance companies in {c.name}
+          </Link>
+          <Link href={`/${country}/contact-directory/`}
+            className="px-4 py-2 text-[13px] font-medium border border-border rounded-xl hover:border-primary/20 hover:text-primary transition-colors">
+            {c.name} claim helplines &amp; contacts
+          </Link>
+        </div>
+      </section>
+
       {/* Other countries */}
       <section className="mx-auto max-w-[1320px] px-5 lg:px-8 pb-16 pt-12">
         <h3 className="text-[16px] font-bold text-text-primary mb-4">Explore other markets</h3>

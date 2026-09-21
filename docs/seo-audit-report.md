@@ -1,15 +1,15 @@
 # SEO audit report
 
-Generated 2026-09-19 22:20 UTC against `http://localhost:3000` by `npm run registry -- seo-audit`.
+Generated 2026-09-21 08:19 UTC against `http://localhost:3000` by `npm run registry -- seo-audit`.
 
-**PASS** — 0 error(s), 1 warning(s).
+**PASS** — 0 error(s), 3 warning(s).
 
 | Measure | Value |
 | --- | ---: |
 | Sitemap files | 6 |
-| URLs in sitemaps | 662 |
+| URLs in sitemaps | 674 |
 | Baseline URLs re-checked | 646 |
-| Pages fetched | 1088 |
+| Pages fetched | 1100 |
 | Registry pages with a source line | 46 |
 
 Child sitemaps:
@@ -20,6 +20,13 @@ Child sitemaps:
 - `/sitemap-categories.xml`
 - `/sitemap-editorial.xml`
 - `/sitemap-statistics.xml`
+
+## baseline-redirect (2)
+
+| Severity | URL | Detail |
+| --- | --- | --- |
+| warning | `/insurer/lic/` | now 308 → /in/insurer/lic/ (target is 200) |
+| warning | `/product/hdfc-ergo-optima-secure/` | now 308 → /in/product/hdfc-ergo-optima-secure/ (target is 200) |
 
 ## thin (1)
 

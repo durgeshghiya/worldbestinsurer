@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Phone, Globe, Search, Users } from "lucide-react";
 import { getAllInsurers } from "@/lib/data";
-import { VALID_COUNTRY_CODES } from "@/lib/countries";
+import Link from "next/link";
+import { VALID_COUNTRY_CODES, getCountryByCode } from "@/lib/countries";
 import ContactDirectorySearch from "@/components/ContactDirectorySearch";
 
 export const metadata: Metadata = {
@@ -80,6 +81,27 @@ export default function ContactDirectoryPage() {
           insurers={allInsurers}
           countries={countryCodes}
         />
+      </section>
+
+      {/* Per-country directories — each lists that market's claim helplines */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-6">
+        <h2 className="mb-3 text-[18px] font-bold text-text-primary">Contact directories by country</h2>
+        <ul className="flex flex-wrap gap-2">
+          {countryCodes.map((cc) => {
+            const c = getCountryByCode(cc);
+            if (!c) return null;
+            return (
+              <li key={cc}>
+                <Link
+                  href={`/${cc}/contact-directory/`}
+                  className="inline-flex items-center gap-1.5 rounded-lg border border-border bg-surface px-3 py-1.5 text-[13px] font-medium text-text-secondary hover:border-primary/30 hover:text-primary"
+                >
+                  <span aria-hidden="true">{c.flag}</span> {c.name}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
       </section>
 
       {/* Disclaimer */}

@@ -35,6 +35,11 @@ export async function generateMetadata({
   return {
     title: `Find the Best ${label} for You — ${c.name}`,
     description: `Answer a few questions and get personalized ${label.toLowerCase()} recommendations from top insurers in ${c.name}. Free, no sign-up required.`,
+    alternates: { canonical: `https://worldbestinsurer.com/${country}/find/${category}` },
+    // A quiz, not a page that answers a search. Around 175 words of its own,
+    // and the plans it recommends are the compare hub's. Useful to a visitor,
+    // nothing for Google to rank — so it stays reachable but is not offered.
+    robots: { index: false, follow: true },
   };
 }
 

@@ -101,6 +101,9 @@ function categories(): SitemapEntry[] {
     ...CATEGORIES.map((c) => ({ path: `/compare/${c}` })),
     ...VALID_COUNTRY_CODES.flatMap((cc) => [
       { path: `/${cc}/insurers` },
+      // ~1,100 words of country-specific contact details per page, and the
+      // only place the site lists claim helplines by country.
+      { path: `/${cc}/contact-directory` },
       ...CATEGORIES.map((c) => ({ path: `/${cc}/compare/${c}` })),
     ]),
   ];

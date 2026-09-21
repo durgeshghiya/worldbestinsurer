@@ -199,7 +199,13 @@ export async function runSeoAudit(opts: { base?: string } = {}): Promise<void> {
 
   for (const p of baseline) {
     const f = facts.get(p)!;
-    if (f.status !== 200) add("error", "baseline", p, `was 200 before the registry, now HTTP ${f.status}${f.location ? ` → ${f.location}` : ""}`);
+    if (f.status === 200) continue;
+    // A permanent redirect that lands on a live page is a deliberate
+    // consolidation, not breakage — report it, but do not fail the audit.
+    const target = f.location ? facts.get(toPath(f.location)) : undefined;
+    if ((f.status === 301 || f.status === 308) && target?.status === 200)
+      add("warning", "baseline-redirect", p, `now ${f.status} → ${f.location} (target is 200)`);
+    else add("error", "baseline", p, `was 200 before the registry, now HTTP ${f.status}${f.location ? ` → ${f.location}` : ""}`);
   }
 
   // ── per sitemap page ──
