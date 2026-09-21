@@ -1,6 +1,6 @@
 # Data-quality report
 
-Generated 2026-09-21 08:19 UTC by `npm run registry -- quality-report`. Registry schema v1, jurisdiction `in`.
+Generated 2026-09-21 08:32 UTC by `npm run registry -- quality-report`. Registry schema v1, jurisdiction `in`.
 
 **VALID** — 0 validation error(s), 0 warning(s), 0 item(s) awaiting review.
 

@@ -63,6 +63,30 @@ export function insurerVerdict(slug: string, reg: LoadedRegistry, site: SiteFact
   return { indexable: true, reasons };
 }
 
+/**
+ * A product page that comes from the site catalogue rather than the registry.
+ *
+ * These pages describe a real product but carry no sourced fact: no UIN, no
+ * official document, nothing a reader can check. Search Console on 2026-09-21
+ * showed what Google makes of them — 12,028 pages "crawled, currently not
+ * indexed", nearly all of this kind, and across 90 days the site drew 34k
+ * impressions at average position 57.6 for 3 clicks.
+ *
+ * So they are not offered to search until they carry something verifiable.
+ * India is the exception: the registry covers it, its pages gain sourced facts
+ * with every ingest, and a page flips back the moment it has one. The pages
+ * stay live and linked either way — this changes what we claim is worth
+ * ranking, not what a visitor can read.
+ */
+export function siteProductVerdict(countryCode: string, hasSourcedFacts: boolean): Verdict {
+  if (hasSourcedFacts) return { indexable: true, reasons: ["sourced facts from the registry"] };
+  if (countryCode === "in") return { indexable: true, reasons: ["India — registry coverage in progress"] };
+  return {
+    indexable: false,
+    reasons: ["no sourced fact on the page (no UIN, no official document)"],
+  };
+}
+
 export function productVerdict(id: string, reg: LoadedRegistry, site: SiteFacts): Verdict {
   if (site.siteProductExists(id)) {
     // Existing products survived two integrity audits; their status is unchanged.

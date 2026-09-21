@@ -30,6 +30,7 @@ import {
   PRODUCT_TYPE_LABEL,
   formatDate,
   productVerdict,
+  siteProductVerdict,
   productView,
   registry,
   robotsFor,
@@ -101,6 +102,10 @@ export async function generateMetadata({
       "insurance comparison",
     ],
     alternates: { canonical },
+    // A catalogue page earns its place in search by carrying a sourced fact.
+    ...robotsFor(
+      siteProductVerdict(country, Boolean(r?.rp.uin || (r && r.reg.documentsByProduct.get(r.rp.slug)?.length)))
+    ),
   };
 }
 

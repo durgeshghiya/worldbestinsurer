@@ -1,13 +1,13 @@
 # SEO audit report
 
-Generated 2026-09-21 08:19 UTC against `http://localhost:3000` by `npm run registry -- seo-audit`.
+Generated 2026-09-21 08:31 UTC against `http://localhost:3000` by `npm run registry -- seo-audit`.
 
 **PASS** — 0 error(s), 3 warning(s).
 
 | Measure | Value |
 | --- | ---: |
 | Sitemap files | 6 |
-| URLs in sitemaps | 674 |
+| URLs in sitemaps | 338 |
 | Baseline URLs re-checked | 646 |
 | Pages fetched | 1100 |
 | Registry pages with a source line | 46 |
