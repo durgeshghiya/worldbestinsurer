@@ -1,1 +1,1572 @@
-[]
+[
+  {
+    "id": "national-insurance-identity",
+    "kind": "insurer",
+    "reason": "REJECTED: required fact(s) failed verification — name: robots: robots.txt disallows nationalinsurance.nic.co.in/about-us/overview/about-company | insurerType: robots: robots.txt disallows nationalinsurance.nic.co.in/about-us/overview/about-company | website: robots: robots.txt disallows nationalinsurance.nic.co.in/about-us/overview/about-company | legalName: robots: robots.txt disallows nationalinsurance.nic.co.in/about-us/overview/about-company | irdaiRegistrationNumber: robots: robots.txt disallows nationalinsurance.nic.co.in/about-us/overview/about-company | cin: robots: robots.txt disallows nationalinsurance.nic.co.in/about-us/overview/about-company | headquarters: robots: robots.txt disallows nationalinsurance.nic.co.in/about-us/overview/about-company",
+    "candidate": {
+      "id": "national-insurance-identity",
+      "kind": "insurer",
+      "sourceId": "insurer:national-insurance",
+      "url": "https://nationalinsurance.nic.co.in/about-us/overview/about-company",
+      "subject": {
+        "slug": "national-insurance",
+        "siteSlug": "national-insurance"
+      },
+      "meta": {
+        "segments": [
+          "motor",
+          "health",
+          "travel",
+          "home",
+          "other"
+        ],
+        "status": "active"
+      },
+      "facts": {
+        "name": {
+          "value": "National Insurance Company Limited",
+          "evidence": "National Insurance Company Limited, a Wholly-owned Government of India Undertaking is the oldest Public Sector General Insurance Company in India."
+        },
+        "insurerType": {
+          "value": "general",
+          "evidence": "It is registered as a General Insurance Company with the Insurance Regulatory and Development Authority of India (IRDAI) under the Insurance Act, 1938 vide registration no. 58."
+        },
+        "website": {
+          "value": "https://nationalinsurance.nic.co.in/",
+          "evidence": ""
+        },
+        "legalName": {
+          "value": "National Insurance Company Limited",
+          "evidence": "National Insurance Company Limited, a Wholly-owned Government of India Undertaking is the oldest Public Sector General Insurance Company in India."
+        },
+        "irdaiRegistrationNumber": {
+          "value": "58",
+          "evidence": "It is registered as a General Insurance Company with the Insurance Regulatory and Development Authority of India (IRDAI) under the Insurance Act, 1938 vide registration no. 58."
+        },
+        "cin": {
+          "value": "U10200WB1906GOI001713",
+          "evidence": "CIN: U10200WB1906GOI001713"
+        },
+        "headquarters": {
+          "value": "Kolkata",
+          "evidence": "NICL is the only Public Sector General Insurance Company with Headquarters in Kolkata"
+        }
+      }
+    },
+    "queuedAt": "2026-09-21T09:22:21.125Z"
+  },
+  {
+    "id": "new-india-assurance-identity",
+    "kind": "insurer",
+    "reason": "REJECTED: required fact(s) failed verification — name: robots: robots.txt disallows www.newindia.co.in/ | insurerType: robots: robots.txt disallows www.newindia.co.in/ | website: robots: robots.txt disallows www.newindia.co.in/ | legalName: robots: robots.txt disallows www.newindia.co.in/ | irdaiRegistrationNumber: robots: robots.txt disallows www.newindia.co.in/ | cin: robots: robots.txt disallows www.newindia.co.in/ | headquarters: robots: robots.txt disallows www.newindia.co.in/",
+    "candidate": {
+      "id": "new-india-assurance-identity",
+      "kind": "insurer",
+      "sourceId": "insurer:new-india-assurance",
+      "url": "https://www.newindia.co.in/",
+      "subject": {
+        "slug": "new-india-assurance",
+        "siteSlug": "new-india-assurance"
+      },
+      "meta": {
+        "segments": [
+          "health",
+          "motor",
+          "travel",
+          "commercial"
+        ],
+        "status": "active"
+      },
+      "facts": {
+        "name": {
+          "value": "The New India Assurance Co. Ltd.",
+          "evidence": "Registered Office Address: The New India Assurance Co. Ltd., #87, M.G.Road, Fort, Mumbai 400 001."
+        },
+        "insurerType": {
+          "value": "general",
+          "evidence": "New India Assurance Company Limited is a leading public sector general insurance company in India, owned by the Government of India."
+        },
+        "website": {
+          "value": "https://www.newindia.co.in/",
+          "evidence": ""
+        },
+        "legalName": {
+          "value": "The New India Assurance Co. Ltd.",
+          "evidence": "Registered Office Address: The New India Assurance Co. Ltd., #87, M.G.Road, Fort, Mumbai 400 001."
+        },
+        "irdaiRegistrationNumber": {
+          "value": "190",
+          "evidence": "CIN Number: L66000MH1919GOI000526 | IRDAI Registration Number: 190"
+        },
+        "cin": {
+          "value": "L66000MH1919GOI000526",
+          "evidence": "CIN Number: L66000MH1919GOI000526 | IRDAI Registration Number: 190"
+        },
+        "headquarters": {
+          "value": "Mumbai",
+          "evidence": "Registered Office Address: The New India Assurance Co. Ltd., #87, M.G.Road, Fort, Mumbai 400 001."
+        }
+      }
+    },
+    "queuedAt": "2026-09-21T09:22:31.127Z"
+  },
+  {
+    "id": "niva-bupa-identity",
+    "kind": "insurer",
+    "reason": "REJECTED: required fact(s) failed verification — name: robots: robots.txt disallows www.nivabupa.com/ | insurerType: robots: robots.txt disallows www.nivabupa.com/ | website: robots: robots.txt disallows www.nivabupa.com/ | legalName: robots: robots.txt disallows www.nivabupa.com/ | irdaiRegistrationNumber: robots: robots.txt disallows www.nivabupa.com/ | cin: robots: robots.txt disallows www.nivabupa.com/ | headquarters: robots: robots.txt disallows www.nivabupa.com/",
+    "candidate": {
+      "id": "niva-bupa-identity",
+      "kind": "insurer",
+      "sourceId": "insurer:niva-bupa",
+      "url": "https://www.nivabupa.com/",
+      "subject": {
+        "slug": "niva-bupa",
+        "siteSlug": "niva-bupa"
+      },
+      "meta": {
+        "segments": [
+          "health",
+          "travel"
+        ],
+        "status": "active"
+      },
+      "facts": {
+        "name": {
+          "value": "Niva Bupa Health Insurance Company Limited",
+          "evidence": "Niva Bupa Health Insurance Company Limited (IRDAI Registration Number 145, Category:Health)"
+        },
+        "insurerType": {
+          "value": "standalone-health",
+          "evidence": "Niva Bupa Health Insurance Company Limited (IRDAI Registration Number 145, Category:Health)"
+        },
+        "website": {
+          "value": "https://www.nivabupa.com/",
+          "evidence": "www.nivabupa.com"
+        },
+        "legalName": {
+          "value": "Niva Bupa Health Insurance Company Limited",
+          "evidence": "Niva Bupa Health Insurance Company Limited (IRDAI Registration Number 145, Category:Health)"
+        },
+        "irdaiRegistrationNumber": {
+          "value": "145",
+          "evidence": "CIN: L66000DL2008PLC182918 IRDAI Registration No. 145"
+        },
+        "cin": {
+          "value": "L66000DL2008PLC182918",
+          "evidence": "CIN: L66000DL2008PLC182918 IRDAI Registration No. 145"
+        },
+        "headquarters": {
+          "value": "Gurgaon",
+          "evidence": "Corporate Office: 3rd Floor, Capital Cyberscape, Sector 59, Gurgaon"
+        }
+      }
+    },
+    "queuedAt": "2026-09-21T09:22:41.127Z"
+  },
+  {
+    "id": "national-insurance-p1",
+    "kind": "product",
+    "reason": "REJECTED: required fact(s) failed verification — name: robots: robots.txt disallows nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy | sumInsured: robots: robots.txt disallows nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy",
+    "candidate": {
+      "id": "national-insurance-p1",
+      "kind": "product",
+      "sourceId": "insurer:national-insurance",
+      "url": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy",
+      "subject": {
+        "slug": "national-insurance-motor",
+        "insurerSlug": "national-insurance",
+        "siteProductId": "national-insurance-motor"
+      },
+      "meta": {
+        "productType": "motor-private-car",
+        "segment": "motor",
+        "status": "active"
+      },
+      "facts": {
+        "name": {
+          "value": "Private Car Package Policy",
+          "evidence": "Private Car Package Policy"
+        },
+        "sumInsured": {
+          "value": "Insured’s Declared Value (IDV)",
+          "evidence": "The Insured’s Declared Value (IDV) of the vehicle will be deemed to be the ‘SUM INSURED’ for the purpose of this policy"
+        }
+      },
+      "documents": [
+        {
+          "kind": "policy-wording",
+          "title": "Terms and Conditions for Private Car Package Policy-Base Product",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/Private%20Car-package%20policy-Base%20Product-Terms%20and%20Conditions_0.pdf"
+        },
+        {
+          "kind": "policy-wording",
+          "title": "Terms and Conditions for Liability only Policy",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/Terms%20and%20Conditions%20for%20Liability%20only%20Policy_1.pdf"
+        },
+        {
+          "kind": "policy-wording",
+          "title": "SAOD Private Car Policy",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/SAOD%20Private%20Car%20Policy.pdf"
+        },
+        {
+          "kind": "policy-wording",
+          "title": "Long term PC Bundled Policy",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/Long%20term%20PC%20Bundled%20Policy_0.pdf"
+        },
+        {
+          "kind": "claim-form",
+          "title": "Claim Form",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/Claim%20Form_16_4.pdf"
+        }
+      ]
+    },
+    "queuedAt": "2026-09-21T09:24:35.541Z"
+  },
+  {
+    "id": "national-insurance-p2",
+    "kind": "product",
+    "reason": "REJECTED: required fact(s) failed verification — name: robots: robots.txt disallows nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy | uin: robots: robots.txt disallows nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy | policyTerm: robots: robots.txt disallows nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy | eligibility: robots: robots.txt disallows nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy | sumInsured: robots: robots.txt disallows nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy",
+    "candidate": {
+      "id": "national-insurance-p2",
+      "kind": "product",
+      "sourceId": "insurer:national-insurance",
+      "url": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy",
+      "subject": {
+        "slug": "national-insurance-national-overseas-travel-policy",
+        "insurerSlug": "national-insurance"
+      },
+      "meta": {
+        "productType": "travel",
+        "segment": "travel",
+        "status": "active"
+      },
+      "facts": {
+        "name": {
+          "value": "National Overseas Travel Policy",
+          "evidence": "National Overseas Travel Policy Is A Comprehensive Travel Product Covering Varied Insurance Needs Of International Travelers Going On Holiday Or Business Trip Outside India."
+        },
+        "uin": {
+          "value": "NICTIOP24116V012324",
+          "evidence": "UIN No NICTIOP24116V012324 N"
+        },
+        "policyTerm": {
+          "value": "Single Trip basis or Annual basis",
+          "evidence": "Single Trip basis or Annual basis ( Aggregate of all Trip Durations during a Policy Period shall not exceed 180 days)"
+        },
+        "eligibility": {
+          "value": "Aged Between 18 Years And 60 Years",
+          "evidence": "Proposer And Spouse Should Be Aged Between 18 Years And 60 Years"
+        },
+        "sumInsured": {
+          "value": "Us$ 25,000, 50,000, 1,00,000, 2,50,000, 3,00,000, 4,00,000, 5,00,000",
+          "evidence": "Us$ 25,000, 50,000, 1,00,000, 2,50,000, 3,00,000, 4,00,000, 5,00,000"
+        }
+      },
+      "documents": [
+        {
+          "kind": "prospectus",
+          "title": "NOTP Prospectus",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20Prospectus.pdf"
+        },
+        {
+          "kind": "policy-wording",
+          "title": "NOTP Wordings",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20Policy%20Wordings.pdf"
+        },
+        {
+          "kind": "claim-form",
+          "title": "NOTP Claim Form",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20Claim%20Form.pdf"
+        },
+        {
+          "kind": "premium-chart",
+          "title": "NOTP Rate Chart",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/National%20Overseas%20Travel%20Policy%20Rate%20Chart_0.pdf"
+        },
+        {
+          "kind": "other",
+          "title": "NOTP CIS",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20CIS.pdf"
+        },
+        {
+          "kind": "other",
+          "title": "NOTP Proposal",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP-Proposal.pdf"
+        }
+      ]
+    },
+    "queuedAt": "2026-09-21T09:24:35.542Z"
+  },
+  {
+    "id": "national-insurance-p3",
+    "kind": "product",
+    "reason": "REJECTED: required fact(s) failed verification — name: robots: robots.txt disallows nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp | uin: robots: robots.txt disallows nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp | sumInsured: robots: robots.txt disallows nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp | premiumPayment: robots: robots.txt disallows nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp",
+    "candidate": {
+      "id": "national-insurance-p3",
+      "kind": "product",
+      "sourceId": "insurer:national-insurance",
+      "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp",
+      "subject": {
+        "slug": "national-insurance-national-senior-citizen-mediclaim-policy",
+        "insurerSlug": "national-insurance"
+      },
+      "meta": {
+        "productType": "health-indemnity",
+        "segment": "health",
+        "status": "active"
+      },
+      "facts": {
+        "name": {
+          "value": "National Senior Citizen Mediclaim Policy (NSCMP)",
+          "evidence": "National Senior Citizen Mediclaim Policy (NSCMP)"
+        },
+        "uin": {
+          "value": "NICHLIP25040V042425",
+          "evidence": "UIN No NICHLIP25040V042425 N"
+        },
+        "sumInsured": {
+          "value": "up to Rs. 10 lakhs",
+          "evidence": "Covers Senior Citizens for Sum Insured (SI) up to Rs. 10 lakhs either on Individual / Floater basis"
+        },
+        "premiumPayment": {
+          "value": "Quarterly or Half Yearly",
+          "evidence": "Facility of premium payment in instalments of Quarterly or Half Yearly, as opted"
+        }
+      },
+      "documents": [
+        {
+          "kind": "prospectus",
+          "title": "NSCMP - Prospectus",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-06/NSCMP%20-%20Prospectus.pdf"
+        },
+        {
+          "kind": "policy-wording",
+          "title": "NSCMP Wordings",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-06/NSCMP%20-%20Policy%20Wordings.pdf"
+        },
+        {
+          "kind": "claim-form",
+          "title": "NSCMP Claim Form",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20Claim%20Form.pdf"
+        },
+        {
+          "kind": "premium-chart",
+          "title": "NSCMP Rate Chart",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20Rate%20Chart.pdf"
+        },
+        {
+          "kind": "other",
+          "title": "NSCMP CIS",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20CIS.pdf"
+        },
+        {
+          "kind": "other",
+          "title": "NSCMP Proposal",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20Proposal%20Form.pdf"
+        }
+      ]
+    },
+    "queuedAt": "2026-09-21T09:24:35.542Z"
+  },
+  {
+    "id": "national-insurance-p4",
+    "kind": "product",
+    "reason": "REJECTED: required fact(s) failed verification — name: robots: robots.txt disallows nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy | uin: robots: robots.txt disallows nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy | sumInsured: robots: robots.txt disallows nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy | policyTerm: robots: robots.txt disallows nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy",
+    "candidate": {
+      "id": "national-insurance-p4",
+      "kind": "product",
+      "sourceId": "insurer:national-insurance",
+      "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy",
+      "subject": {
+        "slug": "national-insurance-national-parivar-mediclaim-plus-policy",
+        "insurerSlug": "national-insurance"
+      },
+      "meta": {
+        "productType": "health-indemnity",
+        "segment": "health",
+        "status": "active"
+      },
+      "facts": {
+        "name": {
+          "value": "National Parivar Mediclaim Plus Policy (Floater Policy)",
+          "evidence": "National Parivar Mediclaim Plus Policy (Floater Policy)"
+        },
+        "uin": {
+          "value": "NICHLIP25039V032425",
+          "evidence": "UIN No NICHLIP25039V032425 N"
+        },
+        "sumInsured": {
+          "value": "up to 50 Lakhs",
+          "evidence": "Sum Insured (SI) options up to 50 Lakhs for the entire family as per plan opted"
+        },
+        "policyTerm": {
+          "value": "policy tenure of 2/3 years",
+          "evidence": "Attractive Discounts available – Direct Discount (without intermediary), Long term Discount for opting policy tenure of 2/3 years"
+        }
+      },
+      "documents": [
+        {
+          "kind": "prospectus",
+          "title": "NPMPP Prospectus",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Prospectus_0.pdf"
+        },
+        {
+          "kind": "policy-wording",
+          "title": "NPMPP Wordings",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Policy%20Wordings.pdf"
+        },
+        {
+          "kind": "claim-form",
+          "title": "NPMPP Claim Form",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Claim%20Form.pdf"
+        },
+        {
+          "kind": "premium-chart",
+          "title": "NPMPP Rate Chart",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Rate%20Chart.pdf"
+        },
+        {
+          "kind": "other",
+          "title": "NPMPP CIS",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20CIS.pdf"
+        },
+        {
+          "kind": "other",
+          "title": "NPMPP Proposal",
+          "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Proposal%20Form.pdf"
+        }
+      ]
+    },
+    "queuedAt": "2026-09-21T09:24:35.542Z"
+  },
+  {
+    "id": "new-india-assurance-p1",
+    "kind": "product",
+    "reason": "REJECTED: required fact(s) failed verification — name: robots: robots.txt disallows www.newindia.co.in/health-insurance/arogya-sanjeevani-policy | uin: robots: robots.txt disallows www.newindia.co.in/health-insurance/arogya-sanjeevani-policy | sumInsured: robots: robots.txt disallows www.newindia.co.in/health-insurance/arogya-sanjeevani-policy",
+    "candidate": {
+      "id": "new-india-assurance-p1",
+      "kind": "product",
+      "sourceId": "insurer:new-india-assurance",
+      "url": "https://www.newindia.co.in/health-insurance/arogya-sanjeevani-policy",
+      "notes": "Official product page for Arogya Sanjeevani Policy. The site-product URLs supplied for New India Mediclaim, Private Car and Overseas Mediclaim resolve to the site's generic not-found shell (same bytes as a nonsense path), so no existing site product could be matched.",
+      "subject": {
+        "slug": "new-india-assurance-arogya-sanjeevani-policy",
+        "insurerSlug": "new-india-assurance"
+      },
+      "meta": {
+        "productType": "health-indemnity",
+        "segment": "health",
+        "status": "active"
+      },
+      "facts": {
+        "name": {
+          "value": "Arogya Sanjeevani Policy",
+          "evidence": "Home Health Arogya Sanjeevani Policy (Cashless facility available) Arogya Sanjeevani Policy, The New India Assurance Health Insurance Policy Downloads"
+        },
+        "uin": {
+          "value": "NIAHLIP25044V022425",
+          "evidence": "UIN Number : NIAHLIP25044V022425"
+        },
+        "sumInsured": {
+          "value": "INR 50,000 to INR 10 Lakhs",
+          "evidence": "The sum insured is from INR 50,000 to INR 10 Lakhs, in multiples of INR 50,000."
+        }
+      },
+      "documents": [
+        {
+          "kind": "customer-information-sheet",
+          "title": "CIS Arogya Sanjeevani Policy",
+          "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/arogya-sanjeevani/Customer%20Information%20Sheet%20AROGYA%20SANJEEVANI%20POLICY.pdf"
+        },
+        {
+          "kind": "policy-wording",
+          "title": "Policy Clause Arogya Sanjeevani Policy",
+          "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/arogya-sanjeevani/POLICY%20CLAUSES%20Arogya%20Sanjeevani.pdf"
+        },
+        {
+          "kind": "prospectus",
+          "title": "Prospectus Arogya Sanjeevani Policy",
+          "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/arogya-sanjeevani/Prospectus%20Arogya%20Sanjeevani%20Policy.pdf"
+        },
+        {
+          "kind": "proposal-form",
+          "title": "Proposal Form Arogya Sanjeevani Policy",
+          "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/arogya-sanjeevani/Proposal%20form%20%20New%20India%20Arogya%20sanjeevani%20policy.pdf"
+        },
+        {
+          "kind": "claim-form",
+          "title": "Claim Form",
+          "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/Claim_Form.pdf"
+        }
+      ]
+    },
+    "queuedAt": "2026-09-21T09:24:35.542Z"
+  },
+  {
+    "id": "new-india-assurance-p2",
+    "kind": "product",
+    "reason": "REJECTED: required fact(s) failed verification — name: robots: robots.txt disallows www.newindia.co.in/health-insurance/janata-mediclaim-policy | uin: robots: robots.txt disallows www.newindia.co.in/health-insurance/janata-mediclaim-policy",
+    "candidate": {
+      "id": "new-india-assurance-p2",
+      "kind": "product",
+      "sourceId": "insurer:new-india-assurance",
+      "url": "https://www.newindia.co.in/health-insurance/janata-mediclaim-policy",
+      "notes": "Official product page for Janata Mediclaim Policy.",
+      "subject": {
+        "slug": "new-india-assurance-janata-mediclaim-policy",
+        "insurerSlug": "new-india-assurance"
+      },
+      "meta": {
+        "productType": "health-indemnity",
+        "segment": "health",
+        "status": "active"
+      },
+      "facts": {
+        "name": {
+          "value": "Janata Mediclaim Policy",
+          "evidence": "Home Health Janata Mediclaim Policy (Cashless Facility Available) Janata Mediclaim Policy (Cashless Facility Available) Health Insurance Policy Downloads"
+        },
+        "uin": {
+          "value": "NIAHLIP25046V042425",
+          "evidence": "UIN number : NIAHLIP25046V042425"
+        }
+      },
+      "documents": [
+        {
+          "kind": "customer-information-sheet",
+          "title": "Customer Information Sheet",
+          "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/janata-mediclaim-policy/Customer%20Information%20Sheet%20JANATA%20MEDICLAIM%20POLICY.pdf"
+        },
+        {
+          "kind": "policy-wording",
+          "title": "Policy Clause Janata Mediclaim Policy",
+          "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/janata-mediclaim-policy/Policy%20Clause%20Janata%20Mediclaim%20Policy.pdf"
+        },
+        {
+          "kind": "prospectus",
+          "title": "Prospectus Janata Mediclaim Policy",
+          "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/janata-mediclaim-policy/Prospectus%20Janata%20Mediclaim%20Policy.pdf"
+        },
+        {
+          "kind": "proposal-form",
+          "title": "Proposal Form",
+          "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/janata-mediclaim-policy/revised%20Janata%20Mediclaim%20Proposal%20Form%20.pdf"
+        },
+        {
+          "kind": "claim-form",
+          "title": "Claim Form",
+          "url": "https://www.newindia.co.in/health-insurance/assets/docs/know-more/health/janata-mediclaim-policy/janata-med-claim-form.pdf"
+        }
+      ]
+    },
+    "queuedAt": "2026-09-21T09:24:35.542Z"
+  },
+  {
+    "id": "niva-bupa-p1",
+    "kind": "product",
+    "reason": "REJECTED: required fact(s) failed verification — name: robots: robots.txt disallows www.nivabupa.com/family-health-insurance-plans/reassurev2-insurance.html",
+    "candidate": {
+      "id": "niva-bupa-p1",
+      "kind": "product",
+      "sourceId": "insurer:niva-bupa",
+      "url": "https://www.nivabupa.com/family-health-insurance-plans/reassurev2-insurance.html",
+      "subject": {
+        "slug": "niva-bupa-reassure-2",
+        "insurerSlug": "niva-bupa",
+        "siteProductId": "niva-bupa-reassure-2"
+      },
+      "meta": {
+        "productType": "health-indemnity",
+        "segment": "health",
+        "status": "active"
+      },
+      "facts": {
+        "name": {
+          "value": "ReAssure 2.0",
+          "evidence": "Home> Family Health Insurance Plans> ReAssure 2.0 Key features of ReAssure2.0"
+        }
+      },
+      "documents": [
+        {
+          "kind": "brochure",
+          "title": "ReAssure 2.0 Brochure",
+          "url": "https://transactions.nivabupa.com/pages/doc/brochure/ReAssure_2.0_Titanium_plus_&_Platinumplus_SS_with_Deductible.pdf"
+        },
+        {
+          "kind": "policy-wording",
+          "title": "ReAssure 2.0 Policy Wordings",
+          "url": "https://transactions.nivabupa.com/pages/doc/policy_wording/ReAssure-2.0-Policy-Wording.pdf"
+        },
+        {
+          "kind": "proposal-form",
+          "title": "Reassure 2.0 Proposal Form",
+          "url": "https://transactions.nivabupa.com/services/pages/DownloadApplication.aspx?ProductCode=23"
+        }
+      ],
+      "notes": "https://www.nivabupa.com/health-insurance-plans/reassure-2.html redirects here. The page prints no UIN."
+    },
+    "queuedAt": "2026-09-21T09:24:35.542Z"
+  },
+  {
+    "id": "niva-bupa-p2",
+    "kind": "product",
+    "reason": "REJECTED: required fact(s) failed verification — name: robots: robots.txt disallows www.nivabupa.com/health-insurance-plans/senior-first-get-quote.html | eligibility: robots: robots.txt disallows www.nivabupa.com/health-insurance-plans/senior-first-get-quote.html",
+    "candidate": {
+      "id": "niva-bupa-p2",
+      "kind": "product",
+      "sourceId": "insurer:niva-bupa",
+      "url": "https://www.nivabupa.com/health-insurance-plans/senior-first-get-quote.html",
+      "subject": {
+        "slug": "niva-bupa-senior-first",
+        "insurerSlug": "niva-bupa"
+      },
+      "meta": {
+        "productType": "health-indemnity",
+        "segment": "health",
+        "status": "active"
+      },
+      "facts": {
+        "name": {
+          "value": "Niva Bupa Senior First",
+          "evidence": "we curated Niva Bupa Senior First to be a trusted partner"
+        },
+        "eligibility": {
+          "value": "aged 61 and above",
+          "evidence": "we provide an affordable way to secure high-quality medical insurance for those aged 61 and above"
+        }
+      },
+      "notes": "https://www.nivabupa.com/health-insurance-plans/senior-first.html redirects to this product landing page. The page prints no UIN."
+    },
+    "queuedAt": "2026-09-21T09:24:35.542Z"
+  },
+  {
+    "id": "lic-fy2025-26-dcsr-no",
+    "kind": "statistic",
+    "reason": "REJECTED: required fact(s) failed verification — value: evidence text was not found on the source page | period: evidence text was not found on the source page",
+    "candidate": {
+      "id": "lic-fy2025-26-dcsr-no",
+      "kind": "statistic",
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/",
+      "sourceDate": "2026-09-16",
+      "sourceDateObserved": true,
+      "reportingPeriod": "FY2025-26",
+      "subject": {
+        "scope": "insurer",
+        "insurerSlug": "lic"
+      },
+      "meta": {
+        "metric": "death-claim-settlement-ratio-by-number",
+        "label": "Death claim settlement (by number)",
+        "unit": "%"
+      },
+      "facts": {
+        "value": {
+          "value": 99.44,
+          "evidence": "Death Claim settlement 99.44%(on No.)"
+        },
+        "period": {
+          "value": "2025-26",
+          "evidence": "Death Claim settlement 99.44%(on No.)& 99.03%(on Amt.) Maturity Claim settlement 91.37%(on No.)& 96.43%(on Amt.) Instant claim No. of Death Claims Settled 0.10 Cr. No. of Maturity Claims Settled 2.44 Cr. Single day processing Death Claims amount paid ₹ 25,673 Cr. Maturity Claims amount paid ₹ 2,87,098 Cr. 24x7 customer support *As per LIC Report F.Y. 2025-26"
+        }
+      },
+      "notes": "LIC's homepage attributes these figures to 'LIC Report F.Y. 2025-26' and prints no publication date."
+    },
+    "queuedAt": "2026-09-21T09:25:43.599Z"
+  },
+  {
+    "id": "lic-fy2025-26-dcsr-amt",
+    "kind": "statistic",
+    "reason": "REJECTED: required fact(s) failed verification — period: evidence text was not found on the source page",
+    "candidate": {
+      "id": "lic-fy2025-26-dcsr-amt",
+      "kind": "statistic",
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/",
+      "sourceDate": "2026-09-16",
+      "sourceDateObserved": true,
+      "reportingPeriod": "FY2025-26",
+      "subject": {
+        "scope": "insurer",
+        "insurerSlug": "lic"
+      },
+      "meta": {
+        "metric": "death-claim-settlement-ratio-by-amount",
+        "label": "Death claim settlement (by amount)",
+        "unit": "%"
+      },
+      "facts": {
+        "value": {
+          "value": 99.03,
+          "evidence": "99.44%(on No.)& 99.03%(on Amt.)"
+        },
+        "period": {
+          "value": "2025-26",
+          "evidence": "Death Claim settlement 99.44%(on No.)& 99.03%(on Amt.) Maturity Claim settlement 91.37%(on No.)& 96.43%(on Amt.) Instant claim No. of Death Claims Settled 0.10 Cr. No. of Maturity Claims Settled 2.44 Cr. Single day processing Death Claims amount paid ₹ 25,673 Cr. Maturity Claims amount paid ₹ 2,87,098 Cr. 24x7 customer support *As per LIC Report F.Y. 2025-26"
+        }
+      },
+      "notes": "LIC's homepage attributes these figures to 'LIC Report F.Y. 2025-26' and prints no publication date."
+    },
+    "queuedAt": "2026-09-21T09:25:43.600Z"
+  },
+  {
+    "id": "lic-fy2025-26-mcsr-no",
+    "kind": "statistic",
+    "reason": "REJECTED: required fact(s) failed verification — value: evidence text was not found on the source page | period: evidence text was not found on the source page",
+    "candidate": {
+      "id": "lic-fy2025-26-mcsr-no",
+      "kind": "statistic",
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/",
+      "sourceDate": "2026-09-16",
+      "sourceDateObserved": true,
+      "reportingPeriod": "FY2025-26",
+      "subject": {
+        "scope": "insurer",
+        "insurerSlug": "lic"
+      },
+      "meta": {
+        "metric": "maturity-claim-settlement-ratio-by-number",
+        "label": "Maturity claim settlement (by number)",
+        "unit": "%"
+      },
+      "facts": {
+        "value": {
+          "value": 91.37,
+          "evidence": "Maturity Claim settlement 91.37%(on No.)"
+        },
+        "period": {
+          "value": "2025-26",
+          "evidence": "Death Claim settlement 99.44%(on No.)& 99.03%(on Amt.) Maturity Claim settlement 91.37%(on No.)& 96.43%(on Amt.) Instant claim No. of Death Claims Settled 0.10 Cr. No. of Maturity Claims Settled 2.44 Cr. Single day processing Death Claims amount paid ₹ 25,673 Cr. Maturity Claims amount paid ₹ 2,87,098 Cr. 24x7 customer support *As per LIC Report F.Y. 2025-26"
+        }
+      },
+      "notes": "LIC's homepage attributes these figures to 'LIC Report F.Y. 2025-26' and prints no publication date."
+    },
+    "queuedAt": "2026-09-21T09:25:43.600Z"
+  },
+  {
+    "id": "lic-fy2025-26-mcsr-amt",
+    "kind": "statistic",
+    "reason": "REJECTED: required fact(s) failed verification — period: evidence text was not found on the source page",
+    "candidate": {
+      "id": "lic-fy2025-26-mcsr-amt",
+      "kind": "statistic",
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/",
+      "sourceDate": "2026-09-16",
+      "sourceDateObserved": true,
+      "reportingPeriod": "FY2025-26",
+      "subject": {
+        "scope": "insurer",
+        "insurerSlug": "lic"
+      },
+      "meta": {
+        "metric": "maturity-claim-settlement-ratio-by-amount",
+        "label": "Maturity claim settlement (by amount)",
+        "unit": "%"
+      },
+      "facts": {
+        "value": {
+          "value": 96.43,
+          "evidence": "91.37%(on No.)& 96.43%(on Amt.)"
+        },
+        "period": {
+          "value": "2025-26",
+          "evidence": "Death Claim settlement 99.44%(on No.)& 99.03%(on Amt.) Maturity Claim settlement 91.37%(on No.)& 96.43%(on Amt.) Instant claim No. of Death Claims Settled 0.10 Cr. No. of Maturity Claims Settled 2.44 Cr. Single day processing Death Claims amount paid ₹ 25,673 Cr. Maturity Claims amount paid ₹ 2,87,098 Cr. 24x7 customer support *As per LIC Report F.Y. 2025-26"
+        }
+      },
+      "notes": "LIC's homepage attributes these figures to 'LIC Report F.Y. 2025-26' and prints no publication date."
+    },
+    "queuedAt": "2026-09-21T09:25:43.600Z"
+  },
+  {
+    "id": "lic-fy2025-26-death-claims-count",
+    "kind": "statistic",
+    "reason": "REJECTED: required fact(s) failed verification — value: evidence text was not found on the source page | period: evidence text was not found on the source page",
+    "candidate": {
+      "id": "lic-fy2025-26-death-claims-count",
+      "kind": "statistic",
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/",
+      "sourceDate": "2026-09-16",
+      "sourceDateObserved": true,
+      "reportingPeriod": "FY2025-26",
+      "subject": {
+        "scope": "insurer",
+        "insurerSlug": "lic"
+      },
+      "meta": {
+        "metric": "death-claims-settled",
+        "label": "Death claims settled",
+        "unit": "crore"
+      },
+      "facts": {
+        "value": {
+          "value": 0.1,
+          "evidence": "No. of Death Claims Settled 0.10 Cr."
+        },
+        "period": {
+          "value": "2025-26",
+          "evidence": "Death Claim settlement 99.44%(on No.)& 99.03%(on Amt.) Maturity Claim settlement 91.37%(on No.)& 96.43%(on Amt.) Instant claim No. of Death Claims Settled 0.10 Cr. No. of Maturity Claims Settled 2.44 Cr. Single day processing Death Claims amount paid ₹ 25,673 Cr. Maturity Claims amount paid ₹ 2,87,098 Cr. 24x7 customer support *As per LIC Report F.Y. 2025-26"
+        }
+      },
+      "notes": "LIC's homepage attributes these figures to 'LIC Report F.Y. 2025-26' and prints no publication date."
+    },
+    "queuedAt": "2026-09-21T09:25:43.600Z"
+  },
+  {
+    "id": "lic-fy2025-26-maturity-claims-count",
+    "kind": "statistic",
+    "reason": "REJECTED: required fact(s) failed verification — value: evidence text was not found on the source page | period: evidence text was not found on the source page",
+    "candidate": {
+      "id": "lic-fy2025-26-maturity-claims-count",
+      "kind": "statistic",
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/",
+      "sourceDate": "2026-09-16",
+      "sourceDateObserved": true,
+      "reportingPeriod": "FY2025-26",
+      "subject": {
+        "scope": "insurer",
+        "insurerSlug": "lic"
+      },
+      "meta": {
+        "metric": "maturity-claims-settled",
+        "label": "Maturity claims settled",
+        "unit": "crore"
+      },
+      "facts": {
+        "value": {
+          "value": 2.44,
+          "evidence": "No. of Maturity Claims Settled 2.44 Cr."
+        },
+        "period": {
+          "value": "2025-26",
+          "evidence": "Death Claim settlement 99.44%(on No.)& 99.03%(on Amt.) Maturity Claim settlement 91.37%(on No.)& 96.43%(on Amt.) Instant claim No. of Death Claims Settled 0.10 Cr. No. of Maturity Claims Settled 2.44 Cr. Single day processing Death Claims amount paid ₹ 25,673 Cr. Maturity Claims amount paid ₹ 2,87,098 Cr. 24x7 customer support *As per LIC Report F.Y. 2025-26"
+        }
+      },
+      "notes": "LIC's homepage attributes these figures to 'LIC Report F.Y. 2025-26' and prints no publication date."
+    },
+    "queuedAt": "2026-09-21T09:25:43.600Z"
+  },
+  {
+    "id": "lic-fy2025-26-death-claims-paid",
+    "kind": "statistic",
+    "reason": "REJECTED: required fact(s) failed verification — value: evidence text was not found on the source page | period: evidence text was not found on the source page",
+    "candidate": {
+      "id": "lic-fy2025-26-death-claims-paid",
+      "kind": "statistic",
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/",
+      "sourceDate": "2026-09-16",
+      "sourceDateObserved": true,
+      "reportingPeriod": "FY2025-26",
+      "subject": {
+        "scope": "insurer",
+        "insurerSlug": "lic"
+      },
+      "meta": {
+        "metric": "death-claims-amount-paid",
+        "label": "Death claims amount paid",
+        "unit": "INR crore"
+      },
+      "facts": {
+        "value": {
+          "value": 25673,
+          "evidence": "Death Claims amount paid ₹ 25,673 Cr."
+        },
+        "period": {
+          "value": "2025-26",
+          "evidence": "Death Claim settlement 99.44%(on No.)& 99.03%(on Amt.) Maturity Claim settlement 91.37%(on No.)& 96.43%(on Amt.) Instant claim No. of Death Claims Settled 0.10 Cr. No. of Maturity Claims Settled 2.44 Cr. Single day processing Death Claims amount paid ₹ 25,673 Cr. Maturity Claims amount paid ₹ 2,87,098 Cr. 24x7 customer support *As per LIC Report F.Y. 2025-26"
+        }
+      },
+      "notes": "LIC's homepage attributes these figures to 'LIC Report F.Y. 2025-26' and prints no publication date."
+    },
+    "queuedAt": "2026-09-21T09:25:43.600Z"
+  },
+  {
+    "id": "lic-fy2025-26-maturity-claims-paid",
+    "kind": "statistic",
+    "reason": "REJECTED: required fact(s) failed verification — value: evidence text was not found on the source page | period: evidence text was not found on the source page",
+    "candidate": {
+      "id": "lic-fy2025-26-maturity-claims-paid",
+      "kind": "statistic",
+      "sourceId": "insurer:lic",
+      "url": "https://licindia.in/",
+      "sourceDate": "2026-09-16",
+      "sourceDateObserved": true,
+      "reportingPeriod": "FY2025-26",
+      "subject": {
+        "scope": "insurer",
+        "insurerSlug": "lic"
+      },
+      "meta": {
+        "metric": "maturity-claims-amount-paid",
+        "label": "Maturity claims amount paid",
+        "unit": "INR crore"
+      },
+      "facts": {
+        "value": {
+          "value": 287098,
+          "evidence": "Maturity Claims amount paid ₹ 2,87,098 Cr."
+        },
+        "period": {
+          "value": "2025-26",
+          "evidence": "Death Claim settlement 99.44%(on No.)& 99.03%(on Amt.) Maturity Claim settlement 91.37%(on No.)& 96.43%(on Amt.) Instant claim No. of Death Claims Settled 0.10 Cr. No. of Maturity Claims Settled 2.44 Cr. Single day processing Death Claims amount paid ₹ 25,673 Cr. Maturity Claims amount paid ₹ 2,87,098 Cr. 24x7 customer support *As per LIC Report F.Y. 2025-26"
+        }
+      },
+      "notes": "LIC's homepage attributes these figures to 'LIC Report F.Y. 2025-26' and prints no publication date."
+    },
+    "queuedAt": "2026-09-21T09:25:43.600Z"
+  },
+  {
+    "id": "document:06bceaa512f17350",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20Rate%20Chart.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20Rate%20Chart.pdf",
+    "candidate": {
+      "id": "06bceaa512f17350",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-national-senior-citizen-mediclaim-policy",
+      "kind": "premium-chart",
+      "title": "NSCMP Rate Chart",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20Rate%20Chart.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "6ff6409a037908d786c45f8cc7ba199abbdd1f39ce59bfcc332813618e37ce92",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:07:39.258Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp",
+        "retrievedAt": "2026-09-19T22:07:23.614Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:25:54.460Z"
+  },
+  {
+    "id": "document:15fc6f5a5070bdbb",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20CIS.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20CIS.pdf",
+    "candidate": {
+      "id": "15fc6f5a5070bdbb",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-national-senior-citizen-mediclaim-policy",
+      "kind": "other",
+      "title": "NSCMP CIS",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20CIS.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "7c533fe3910f1c2a6a94d69176be6cb546e92e98d7d9b8ceb129b7f9cef678c1",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:07:42.108Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp",
+        "retrievedAt": "2026-09-19T22:07:23.614Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:25:56.586Z"
+  },
+  {
+    "id": "document:16cbd481b7bcbe16",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20Proposal%20Form.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20Proposal%20Form.pdf",
+    "candidate": {
+      "id": "16cbd481b7bcbe16",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-national-senior-citizen-mediclaim-policy",
+      "kind": "other",
+      "title": "NSCMP Proposal",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20Proposal%20Form.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "780eaeebbfc9401f04fe4f71b7ccbc727fb86890bed70dd5a0af6dd0d12ea684",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:07:47.627Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp",
+        "retrievedAt": "2026-09-19T22:07:23.614Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:25:56.587Z"
+  },
+  {
+    "id": "document:212c3f8fe164c911",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Rate%20Chart.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Rate%20Chart.pdf",
+    "candidate": {
+      "id": "212c3f8fe164c911",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-national-parivar-mediclaim-plus-policy",
+      "kind": "premium-chart",
+      "title": "NPMPP Rate Chart",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Rate%20Chart.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "194df19b1dfb42f9594f408b910a937a1a143f8ed118a4e522b1aa50749f182e",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:08:04.730Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy",
+        "retrievedAt": "2026-09-19T22:07:49.986Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:25:59.573Z"
+  },
+  {
+    "id": "document:29ddadc5cffbb33a",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Claim%20Form.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Claim%20Form.pdf",
+    "candidate": {
+      "id": "29ddadc5cffbb33a",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-national-parivar-mediclaim-plus-policy",
+      "kind": "claim-form",
+      "title": "NPMPP Claim Form",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Claim%20Form.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "4f6880b98a3976b8633c0a106a61d74e34de492ccc55ce27529ab7df11630e95",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:08:00.687Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy",
+        "retrievedAt": "2026-09-19T22:07:49.986Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:26:04.963Z"
+  },
+  {
+    "id": "document:35c22c1d93d5efa3",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-06/NSCMP%20-%20Prospectus.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-06/NSCMP%20-%20Prospectus.pdf",
+    "candidate": {
+      "id": "35c22c1d93d5efa3",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-national-senior-citizen-mediclaim-policy",
+      "kind": "prospectus",
+      "title": "NSCMP - Prospectus",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-06/NSCMP%20-%20Prospectus.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "e61b6b56c97ca821da7ae4f03c4b2cda94d463c5b6a3b4f38312bfd83f263aa2",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:07:25.995Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp",
+        "retrievedAt": "2026-09-19T22:07:23.614Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:26:05.082Z"
+  },
+  {
+    "id": "document:400c15f0bc063200",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20Policy%20Wordings.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20Policy%20Wordings.pdf",
+    "candidate": {
+      "id": "400c15f0bc063200",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-national-overseas-travel-policy",
+      "kind": "policy-wording",
+      "title": "NOTP Wordings",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20Policy%20Wordings.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "b0f7e68f422c543bd438ebb035ba92501dc4dbd253e9b4c0ce2281b9b83e2fb3",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:07:04.383Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy",
+        "retrievedAt": "2026-09-19T22:06:57.609Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:26:08.320Z"
+  },
+  {
+    "id": "document:41b7c56212efe74b",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-06/NSCMP%20-%20Policy%20Wordings.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-06/NSCMP%20-%20Policy%20Wordings.pdf",
+    "candidate": {
+      "id": "41b7c56212efe74b",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-national-senior-citizen-mediclaim-policy",
+      "kind": "policy-wording",
+      "title": "NSCMP Wordings",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-06/NSCMP%20-%20Policy%20Wordings.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "a14e0783fd5e3c6188de9ca72ddbe0c53472714228e7f732157b971e32554bc7",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:07:30.009Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp",
+        "retrievedAt": "2026-09-19T22:07:23.614Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:26:08.441Z"
+  },
+  {
+    "id": "document:49371676109afdb4",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/Private%20Car-package%20policy-Base%20Product-Terms%20and%20Conditions_0.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/Private%20Car-package%20policy-Base%20Product-Terms%20and%20Conditions_0.pdf",
+    "candidate": {
+      "id": "49371676109afdb4",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-motor",
+      "kind": "policy-wording",
+      "title": "Terms and Conditions for Private Car Package Policy-Base Product",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/Private%20Car-package%20policy-Base%20Product-Terms%20and%20Conditions_0.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "1adaaa1c6b8ccb7ee5b8d5d95f428065224cbd64f78cf4ce0c9e981c684a5155",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:06:39.029Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy",
+        "retrievedAt": "2026-09-19T22:06:36.451Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:26:10.402Z"
+  },
+  {
+    "id": "document:4bf5e3e2aa0e97c7",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/Terms%20and%20Conditions%20for%20Liability%20only%20Policy_1.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/Terms%20and%20Conditions%20for%20Liability%20only%20Policy_1.pdf",
+    "candidate": {
+      "id": "4bf5e3e2aa0e97c7",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-motor",
+      "kind": "policy-wording",
+      "title": "Terms and Conditions for Liability only Policy",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/Terms%20and%20Conditions%20for%20Liability%20only%20Policy_1.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "5b9270e26b4a2fbd4ce7d83270e6416935b52763e9713e6a990a5d89e39b986d",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:06:41.602Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy",
+        "retrievedAt": "2026-09-19T22:06:36.451Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:26:10.402Z"
+  },
+  {
+    "id": "document:54e6fa1f29a3c23f",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/Long%20term%20PC%20Bundled%20Policy_0.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/Long%20term%20PC%20Bundled%20Policy_0.pdf",
+    "candidate": {
+      "id": "54e6fa1f29a3c23f",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-motor",
+      "kind": "policy-wording",
+      "title": "Long term PC Bundled Policy",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/Long%20term%20PC%20Bundled%20Policy_0.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "e9eaf1c6cc9fff5c1eb1904d0a6b2a9ecead6acd720b0ab707d36a73cff9eea0",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:06:50.046Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy",
+        "retrievedAt": "2026-09-19T22:06:36.451Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:26:17.839Z"
+  },
+  {
+    "id": "document:559032eaa673ce70",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20CIS.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20CIS.pdf",
+    "candidate": {
+      "id": "559032eaa673ce70",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-national-parivar-mediclaim-plus-policy",
+      "kind": "other",
+      "title": "NPMPP CIS",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20CIS.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "d631890356fbe25a38de73d70853bb17cd461b7f79706eda6b3e055e0e58d96f",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:08:08.129Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy",
+        "retrievedAt": "2026-09-19T22:07:49.986Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:26:17.839Z"
+  },
+  {
+    "id": "document:5e36af8e2d9d939b",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Prospectus_0.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Prospectus_0.pdf",
+    "candidate": {
+      "id": "5e36af8e2d9d939b",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-national-parivar-mediclaim-plus-policy",
+      "kind": "prospectus",
+      "title": "NPMPP Prospectus",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Prospectus_0.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "107fbca5e6d32b640d6d08188a8af7e98235b42755b115d04b7370d792ab8389",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:07:52.716Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy",
+        "retrievedAt": "2026-09-19T22:07:49.986Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:26:18.083Z"
+  },
+  {
+    "id": "document:5fc5733cf1e6029b",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20Claim%20Form.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20Claim%20Form.pdf",
+    "candidate": {
+      "id": "5fc5733cf1e6029b",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-national-senior-citizen-mediclaim-policy",
+      "kind": "claim-form",
+      "title": "NSCMP Claim Form",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NSCMP%20-%20Claim%20Form.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "c902a76ee509d24a706abd9fef2ebd0402fffc87c5c81215cb85ba08205745a9",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:07:35.622Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp",
+        "retrievedAt": "2026-09-19T22:07:23.614Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:26:18.083Z"
+  },
+  {
+    "id": "document:78057c1bbaacf620",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20Prospectus.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20Prospectus.pdf",
+    "candidate": {
+      "id": "78057c1bbaacf620",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-national-overseas-travel-policy",
+      "kind": "prospectus",
+      "title": "NOTP Prospectus",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20Prospectus.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "f817b245ad7f14cba254a7f6826eeb4089217b0c098112387892d7c697cae164",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:07:01.189Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy",
+        "retrievedAt": "2026-09-19T22:06:57.609Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:26:20.107Z"
+  },
+  {
+    "id": "document:9e17790e5524d341",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows licindia.in/documents/20121/1500493/LIC_Jeevan+amar_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29.pdf/b75c96c5-0d69-2b23-6c5a-d0c05f6e7b81) — https://licindia.in/documents/20121/1500493/LIC_Jeevan+amar_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29.pdf/b75c96c5-0d69-2b23-6c5a-d0c05f6e7b81?t=1751275371576",
+    "candidate": {
+      "id": "9e17790e5524d341",
+      "insurerSlug": "lic",
+      "productSlug": "lic-jeevan-amar",
+      "kind": "brochure",
+      "title": "Sales Brochure",
+      "url": "https://licindia.in/documents/20121/1500493/LIC_Jeevan+amar_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29.pdf/b75c96c5-0d69-2b23-6c5a-d0c05f6e7b81?t=1751275371576",
+      "contentType": "application/pdf",
+      "contentHash": "7366a1733f5cfa6a958e29be70d66c0923d9bbbfa2ed5ca7a5df9fb491333b99",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-16T09:00:24.524Z",
+      "provenance": {
+        "sourceId": "insurer:lic",
+        "url": "https://licindia.in/lic-s-new-jeevan-amar-955-uin-512n350v02",
+        "retrievedAt": "2026-09-16T09:00:22.479Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-16T08:59:52.354Z",
+      "updatedAt": "2026-09-16T08:59:52.354Z"
+    },
+    "queuedAt": "2026-09-21T09:27:40.809Z"
+  },
+  {
+    "id": "document:b9af041fe5513a07",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/Claim%20Form_16_4.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/Claim%20Form_16_4.pdf",
+    "candidate": {
+      "id": "b9af041fe5513a07",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-motor",
+      "kind": "claim-form",
+      "title": "Claim Form",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/Claim%20Form_16_4.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "12ad548cab0e0729e7f3e8db322dc5ba25d5dbaacd85bedd9934f6c074618264",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:06:53.982Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy",
+        "retrievedAt": "2026-09-19T22:06:36.451Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:27:59.257Z"
+  },
+  {
+    "id": "document:bfb5796a9b6cc3bb",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP-Proposal.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP-Proposal.pdf",
+    "candidate": {
+      "id": "bfb5796a9b6cc3bb",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-national-overseas-travel-policy",
+      "kind": "other",
+      "title": "NOTP Proposal",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP-Proposal.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "17b69253e8cc1b0fcddaac5217c2e584263f5fe845fd1de37336dedf89237cec",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:07:20.539Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy",
+        "retrievedAt": "2026-09-19T22:06:57.609Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:27:59.257Z"
+  },
+  {
+    "id": "document:c787e48c64da1331",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Proposal%20Form.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Proposal%20Form.pdf",
+    "candidate": {
+      "id": "c787e48c64da1331",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-national-parivar-mediclaim-plus-policy",
+      "kind": "other",
+      "title": "NPMPP Proposal",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Proposal%20Form.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "bbc89300c8f5bcca4558727f55811c74abd88ccddaf53ebbb5276b8843e310b8",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:08:12.923Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy",
+        "retrievedAt": "2026-09-19T22:07:49.986Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:27:59.257Z"
+  },
+  {
+    "id": "document:cf3d06e64c4a1d1d",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20CIS.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20CIS.pdf",
+    "candidate": {
+      "id": "cf3d06e64c4a1d1d",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-national-overseas-travel-policy",
+      "kind": "other",
+      "title": "NOTP CIS",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20CIS.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "34763c20264bb2850e5a64b4e638f340766e41d0f67a1ac106be70fa7f54e681",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:07:16.032Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy",
+        "retrievedAt": "2026-09-19T22:06:57.609Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:28:01.478Z"
+  },
+  {
+    "id": "document:cf790ae09669d5ed",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/SAOD%20Private%20Car%20Policy.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/SAOD%20Private%20Car%20Policy.pdf",
+    "candidate": {
+      "id": "cf790ae09669d5ed",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-motor",
+      "kind": "policy-wording",
+      "title": "SAOD Private Car Policy",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/SAOD%20Private%20Car%20Policy.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "483282caad53c81979597369a86d9f75ab6b57319eb39005070cb846c480ef60",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:06:45.977Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy",
+        "retrievedAt": "2026-09-19T22:06:36.451Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:28:01.478Z"
+  },
+  {
+    "id": "document:e94a299d05b7db10",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows licindia.in/documents/20121/290753/LIC_New+Tech+Term_Sales+Brochure_4+inch+x+9+inch_Eng+%282%29.pdf/d75b9948-b9e3-2ba1-9886-066a1bee6909) — https://licindia.in/documents/20121/290753/LIC_New+Tech+Term_Sales+Brochure_4+inch+x+9+inch_Eng+%282%29.pdf/d75b9948-b9e3-2ba1-9886-066a1bee6909?t=1741085687365",
+    "candidate": {
+      "id": "e94a299d05b7db10",
+      "insurerSlug": "lic",
+      "productSlug": "lic-tech-term",
+      "kind": "brochure",
+      "title": "Sales Brochure",
+      "url": "https://licindia.in/documents/20121/290753/LIC_New+Tech+Term_Sales+Brochure_4+inch+x+9+inch_Eng+%282%29.pdf/d75b9948-b9e3-2ba1-9886-066a1bee6909?t=1741085687365",
+      "contentType": "application/pdf",
+      "contentHash": "ab1bb2ff6c574f44c91d5dc6987a8a463438d5e3db083fb6b4b1c46dbd99d047",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-16T09:00:20.541Z",
+      "provenance": {
+        "sourceId": "insurer:lic",
+        "url": "https://licindia.in/lic-s-new-tech-term-954-512n351v01",
+        "retrievedAt": "2026-09-16T09:00:16.870Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-16T08:59:52.354Z",
+      "updatedAt": "2026-09-16T08:59:52.354Z"
+    },
+    "queuedAt": "2026-09-21T09:28:06.893Z"
+  },
+  {
+    "id": "document:eba4c15773de2c40",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20Claim%20Form.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20Claim%20Form.pdf",
+    "candidate": {
+      "id": "eba4c15773de2c40",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-national-overseas-travel-policy",
+      "kind": "claim-form",
+      "title": "NOTP Claim Form",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NOTP%20Claim%20Form.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "f1a5619cca6258d7b39fe7c349f5a8f020c85b84e2295d9dd1326511dfcc53f8",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:07:08.135Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy",
+        "retrievedAt": "2026-09-19T22:06:57.609Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:28:09.781Z"
+  },
+  {
+    "id": "document:f9cdfa4d18c04730",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Policy%20Wordings.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Policy%20Wordings.pdf",
+    "candidate": {
+      "id": "f9cdfa4d18c04730",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-national-parivar-mediclaim-plus-policy",
+      "kind": "policy-wording",
+      "title": "NPMPP Wordings",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/NPMPP%20Policy%20Wordings.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "042f627c5d8f619cf62cc21f864b08dfd59059d0b9aab805d132e0014489d625",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:07:56.659Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy",
+        "retrievedAt": "2026-09-19T22:07:49.986Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:28:15.839Z"
+  },
+  {
+    "id": "document:fa3e0d24e5a6db71",
+    "kind": "document",
+    "reason": "document no longer available (robots: robots.txt disallows nationalinsurance.nic.co.in/sites/default/files/2026-04/National%20Overseas%20Travel%20Policy%20Rate%20Chart_0.pdf) — https://nationalinsurance.nic.co.in/sites/default/files/2026-04/National%20Overseas%20Travel%20Policy%20Rate%20Chart_0.pdf",
+    "candidate": {
+      "id": "fa3e0d24e5a6db71",
+      "insurerSlug": "national-insurance",
+      "productSlug": "national-insurance-national-overseas-travel-policy",
+      "kind": "premium-chart",
+      "title": "NOTP Rate Chart",
+      "url": "https://nationalinsurance.nic.co.in/sites/default/files/2026-04/National%20Overseas%20Travel%20Policy%20Rate%20Chart_0.pdf",
+      "contentType": "application/pdf",
+      "contentHash": "4487adf12f7a8a24f81dd7c195ae4dc7bbac7e703f52ece8ceb590c88006f88d",
+      "lastStatus": 200,
+      "lastCheckedAt": "2026-09-19T22:07:12.659Z",
+      "provenance": {
+        "sourceId": "insurer:national-insurance",
+        "url": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy",
+        "retrievedAt": "2026-09-19T22:06:57.609Z",
+        "notes": "document linked from this official page"
+      },
+      "createdAt": "2026-09-19T22:05:02.956Z",
+      "updatedAt": "2026-09-19T22:05:02.956Z"
+    },
+    "queuedAt": "2026-09-21T09:28:15.839Z"
+  }
+]
