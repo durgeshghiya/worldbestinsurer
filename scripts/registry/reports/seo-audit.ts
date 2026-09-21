@@ -202,9 +202,11 @@ export async function runSeoAudit(opts: { base?: string } = {}): Promise<void> {
     if (f.status === 200) continue;
     // A permanent redirect that lands on a live page is a deliberate
     // consolidation, not breakage — report it, but do not fail the audit.
-    const target = f.location ? facts.get(toPath(f.location)) : undefined;
+    // fetch() joins repeated Location headers with a comma; take the first.
+    const location = f.location?.split(",")[0].trim();
+    const target = location ? facts.get(toPath(location)) : undefined;
     if ((f.status === 301 || f.status === 308) && target?.status === 200)
-      add("warning", "baseline-redirect", p, `now ${f.status} → ${f.location} (target is 200)`);
+      add("warning", "baseline-redirect", p, `now ${f.status} → ${location} (target is 200)`);
     else add("error", "baseline", p, `was 200 before the registry, now HTTP ${f.status}${f.location ? ` → ${f.location}` : ""}`);
   }
 

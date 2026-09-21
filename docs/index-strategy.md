@@ -103,6 +103,12 @@ all. Fixed in the same commit as this document.
    found in the 31 Aug audit are fixed, but the composition problem is not.
    Resubmit only after the product-page cut in rule 4 has landed and Search
    Console shows "Crawled — currently not indexed" falling.
+
+   **Amended 21 Sep 2026.** That metric is no longer a fair gate on its own.
+   Pages moved to noindex leave this bucket without anything improving, and on
+   21 Sep roughly 21,000 city-comparison URLs began redirecting, which will
+   drain it further. Read it alongside the count of indexed pages that carry
+   sourced facts (the registry pages), which is the number that should rise.
 4. **Done — the catalog was cut on 1 Sep 2026.** 573 unsourceable products
    were deleted and the remaining 492 carry no unverified statistics. The
    standing rule now: a product may only be published if it deep-links to a
@@ -345,3 +351,45 @@ indexed pages will fall from ~9,000 toward ~1,500 over several weeks.
 **That is the intended outcome, not a regression.** Impressions will drop
 too. The metric that matters is clicks and average position on the pages
 that remain.
+
+## 21 September 2026 — what Search Console actually showed
+
+| Measure (90 days) | Value |
+| --- | ---: |
+| Clicks | 3 |
+| Impressions | 34,000 |
+| Average position | 57.6 |
+| Pages indexed | 1,710 |
+| Pages not indexed | 37,200 |
+
+Position 57.6 is page six. The missing clicks are not a snippet problem: even
+where the site ranks on page one it ranks for brand queries the brand itself
+owns — "auto insurance geico" at position 8.0 with 185 impressions and 0
+clicks, "suncorp car insurance" at 11.2 with 0 clicks.
+
+The two large not-indexed buckets and what they are:
+
+- **Crawled – currently not indexed (12,028).** The examples Google shows are
+  catalogue product and insurer pages outside India. But the whole non-India
+  catalogue is only 336 URLs, so it cannot be most of this bucket; the bulk is
+  the city-comparison tree — 3,041 cities × 4 categories per country (12,164
+  URLs) plus 2,314 India cities × 4 on the country-less route (9,256 more).
+  Those pages answered 200, were already noindex, and nothing linked to them.
+- **Excluded by noindex (12,590).** The same city tree plus 1,766 /vs/ pages.
+
+Actions taken the same day:
+
+1. Catalogue product pages are offered to search only when they carry a sourced
+   fact — a registry UIN or an official document (`siteProductVerdict`). India
+   is exempt while the registry fills in. 336 pages became noindex, follow.
+2. All ~21,000 city-comparison URLs now permanently redirect to the category
+   hub they were templated from. They are not deleted; the route is still
+   there if city pages ever carry local content.
+3. `/product/{id}` and `/insurer/{slug}` (638 URLs) permanently redirect to
+   their country pages, which they had only been naming as canonical.
+4. Uppercase country segments (`/IN/product/x`) redirect to lowercase. They
+   were duplicate URLs, and an uppercase render wrote its own canonical into
+   the cache entry the lowercase URL then served.
+
+Sitemap: 674 → 338 URLs. What is left is what the site can defend.
+

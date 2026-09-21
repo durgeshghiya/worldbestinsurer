@@ -52,6 +52,18 @@ export async function generateStaticParams() {
   return params;
 }
 
+/**
+ * Does the registry hold a sourced UIN or official document for this product?
+ * Asked for every country, not just India: product ids are unique across the
+ * catalogue, so this returns false elsewhere today and starts returning true
+ * without an edit here the moment a registry covers another market.
+ */
+function hasSourcedFacts(id: string): boolean {
+  const reg = registry();
+  const rp = reg.productBySiteId.get(id) ?? reg.productBySlug.get(id);
+  return Boolean(rp && (rp.uin || reg.documentsByProduct.get(rp.slug)?.length));
+}
+
 /** India registry lookup by page id. A site product links via siteProductId. */
 function registryFor(country: string, id: string) {
   if (country !== "in") return undefined;
@@ -103,9 +115,7 @@ export async function generateMetadata({
     ],
     alternates: { canonical },
     // A catalogue page earns its place in search by carrying a sourced fact.
-    ...robotsFor(
-      siteProductVerdict(country, Boolean(r?.rp.uin || (r && r.reg.documentsByProduct.get(r.rp.slug)?.length)))
-    ),
+    ...robotsFor(siteProductVerdict(country, hasSourcedFacts(id))),
   };
 }
 

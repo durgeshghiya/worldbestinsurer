@@ -48,6 +48,19 @@ function timingSafeEqual(a: string, b: string): boolean {
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
+  /*
+   * Country segments are lowercase. /IN/product/x renders the same page as
+   * /in/product/x, which is a duplicate URL — and worse, the uppercase render
+   * writes its own canonical (".../IN/product/x") into the cache entry the
+   * lowercase URL then serves. One redirect removes the whole class.
+   */
+  const upper = pathname.match(/^\/([A-Za-z]{2})(\/|$)/);
+  if (upper && upper[1] !== upper[1].toLowerCase() && VALID_COUNTRY_CODES.has(upper[1].toLowerCase())) {
+    const url = request.nextUrl.clone();
+    url.pathname = `/${upper[1].toLowerCase()}${pathname.slice(3)}`;
+    return NextResponse.redirect(url, 308);
+  }
+
   if (pathname === "/admin" || pathname.startsWith("/admin/")) {
     return guardAdmin(request) ?? NextResponse.next();
   }
@@ -83,6 +96,7 @@ export function proxy(request: NextRequest) {
 
 export const config = {
   matcher: [
+    "/:country([A-Za-z]{2})/:path*",
     "/product/:path*",
     "/:country/product/:path*",
     "/admin",

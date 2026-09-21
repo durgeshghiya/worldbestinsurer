@@ -73,14 +73,23 @@ export function insurerVerdict(slug: string, reg: LoadedRegistry, site: SiteFact
  * impressions at average position 57.6 for 3 clicks.
  *
  * So they are not offered to search until they carry something verifiable.
- * India is the exception: the registry covers it, its pages gain sourced facts
- * with every ingest, and a page flips back the moment it has one. The pages
- * stay live and linked either way — this changes what we claim is worth
- * ranking, not what a visitor can read.
+ * India is the exception while the registry fills in: its pages gain sourced
+ * facts with every ingest and flip back the moment they have one.
+ *
+ * The registry holds one jurisdiction today (src/data/registry/in), so in
+ * practice this reads "India in, the rest out". It is written as a data rule
+ * rather than a country list because that is the condition that matters:
+ * a market joins the moment its products carry sourced facts. Callers must
+ * therefore compute hasSourcedFacts for every country, not just India.
+ *
+ * The pages stay live, linked and crawlable either way — this withdraws the
+ * claim that they are worth ranking, not what a visitor can read.
  */
 export function siteProductVerdict(countryCode: string, hasSourcedFacts: boolean): Verdict {
   if (hasSourcedFacts) return { indexable: true, reasons: ["sourced facts from the registry"] };
-  if (countryCode === "in") return { indexable: true, reasons: ["India — registry coverage in progress"] };
+  // Country segments reach here in whatever case the URL used, and
+  // /IN/product/... renders the same page as /in/product/...
+  if (countryCode.toLowerCase() === "in") return { indexable: true, reasons: ["India — registry coverage in progress"] };
   return {
     indexable: false,
     reasons: ["no sourced fact on the page (no UIN, no official document)"],

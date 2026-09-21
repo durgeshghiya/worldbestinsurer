@@ -84,8 +84,8 @@ function products(): SitemapEntry[] {
   const out: SitemapEntry[] = [];
   for (const cc of VALID_COUNTRY_CODES) {
     for (const p of getAllProducts(cc)) {
-      const rp = cc === "in" ? reg.productBySiteId.get(p.id) : undefined;
-      const sourced = Boolean(rp?.uin || reg.documentsByProduct.get(rp?.slug ?? "")?.length);
+      const rp = reg.productBySiteId.get(p.id);
+      const sourced = Boolean(rp && (rp.uin || reg.documentsByProduct.get(rp.slug)?.length));
       if (!siteProductVerdict(cc, sourced).indexable) continue;
       out.push({ path: `/${cc}/product/${p.id}`, lastmod: day(latest([rp?.updatedAt, p.lastVerified])) });
     }
