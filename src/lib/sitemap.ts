@@ -47,6 +47,7 @@ function core(): SitemapEntry[] {
     "/", "/about", "/methodology", "/disclaimer", "/privacy-policy", "/contact",
     "/contact-directory", "/faq", "/insurers", "/waitlist", "/developers",
     "/author/editorial-team", "/author/durgesh-ghiya",
+    "/tools/room-rent-deduction-calculator",
   ];
   return [
     ...pages.map((path) => ({ path })),

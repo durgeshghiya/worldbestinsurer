@@ -26,7 +26,11 @@
       "body": "If your policy caps room rent at Rs 5,000 a day and you occupy a room costing Rs 8,000 a day, you have not overspent by Rs 3,000 a day. You have triggered a clause that recalculates a large slice of the hospital bill at 62.5 per cent — the ratio of what you were entitled to over what you actually took. On a two lakh rupee bill, the difference between understanding this clause and not understanding it is routinely thirty to forty thousand rupees.",
       "paragraphs": [
         "The clause is legitimate and it is disclosed in every policy that carries it. What is not legitimate is applying it to expenses that IRDAI has explicitly placed outside its reach, which is where a large number of short settlements go wrong."
-      ]
+      ],
+      "callout": {
+        "label": "Interactive Calculator",
+        "text": "Calculate your exact deduction across room excess, surgeon fees, and IRDAI-protected non-scalable heads with our free tool: /tools/room-rent-deduction-calculator/"
+      }
     },
     {
       "heading": "How the limit is written in your policy",

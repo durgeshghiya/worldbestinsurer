@@ -16,6 +16,7 @@ const sections = [
     links: [
       { name: "Insurance Guides", href: "/learn" },
       { name: "Finance & Claims", href: "/finance" },
+      { name: "Room Rent Calculator", href: "/tools/room-rent-deduction-calculator" },
       { name: "Market Insights", href: "/insights" },
       { name: "Insurer Directory", href: "/insurers" },
       { name: "Contact Directory", href: "/contact-directory" },
