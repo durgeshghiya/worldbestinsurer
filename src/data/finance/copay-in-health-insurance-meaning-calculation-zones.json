@@ -30,7 +30,11 @@
       "paragraphs": [
         "Insurers frequently market copay policies with lower upfront premiums to make plans appear cheaper on comparison aggregators. But because the discount is upfront and fixed, while hospital costs are unbounded and inflationary, accepting a copay shifts catastrophic financial risk back onto the patient.",
         "On a routine Rs 1 lakh bill, a 10% copay means paying Rs 10,000 — manageable for most households. On a complicated cardiac surgery or oncology treatment billing Rs 15 lakh, that same 10% copay demands Rs 1.5 lakh from your personal savings at the discharge counter."
-      ]
+      ],
+      "callout": {
+        "label": "Interactive Calculators",
+        "text": "Check how room rent deductions slash hospital bill settlements with our Room Rent Calculator (/tools/room-rent-deduction-calculator/) or calculate health premium tax relief with the Section 80D Tax Calculator (/tools/section-80d-tax-calculator/)."
+      }
     },
     {
       "heading": "Worked calculation: copay vs deductible vs out-of-pocket",

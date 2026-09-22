@@ -29,7 +29,11 @@
       "paragraphs": [
         "Consumers frequently believe buying a large health insurance policy (e.g. Rs 25 lakh) makes critical illness coverage redundant. It does not. Health insurance pays doctors, hospitals, and pharmacies for in-patient treatment. It does not pay your mortgage, your children's school fees, or compensate for eighteen months of lost income while undergoing chemotherapy.",
         "Similarly, term insurance is invaluable for your family's future, but it pays zero rupees while you are alive and fighting a life-threatening illness."
-      ]
+      ],
+      "callout": {
+        "label": "Interactive Utilities",
+        "text": "Calculate your pure life insurance requirement with our Human Life Value (HLV) Calculator (/tools/human-life-value-calculator/) or calculate health premium tax relief with the Section 80D Tax Calculator (/tools/section-80d-tax-calculator/)."
+      }
     },
     {
       "heading": "The three pillars compared",

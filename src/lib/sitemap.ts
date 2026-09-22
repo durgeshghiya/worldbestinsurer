@@ -49,6 +49,7 @@ function core(): SitemapEntry[] {
     "/author/editorial-team", "/author/durgesh-ghiya",
     "/tools/room-rent-deduction-calculator",
     "/tools/human-life-value-calculator",
+    "/tools/section-80d-tax-calculator",
   ];
   return [
     ...pages.map((path) => ({ path })),
