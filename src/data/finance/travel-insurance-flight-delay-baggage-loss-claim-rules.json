@@ -1,0 +1,125 @@
+{
+  "slug": "travel-insurance-flight-delay-baggage-loss-claim-rules",
+  "title": "Flight Delayed or Baggage Lost? The Exact Proof Travel Insurers Require Before Paying Your Claim",
+  "excerpt": "Travel insurance promises compensation for delayed flights and lost luggage, but insurers deny over 40% of claims due to missing paperwork. Here are the exact documents, the Property Irregularity Report (PIR) deadline, and the evidence you must collect before leaving the airport.",
+  "publishedAt": "2026-09-22",
+  "lastUpdated": "2026-09-22",
+  "author": "WBI Editorial Team",
+  "category": "Travel",
+  "tags": [
+    "Travel Insurance",
+    "Flight Delay",
+    "Baggage Loss",
+    "Airline Compensation",
+    "Claims"
+  ],
+  "readTime": "10 min",
+  "keyTakeaways": [
+    "Flight delay compensation triggers only after a continuous threshold specified in your policy — typically 6 hours or 12 hours from the scheduled departure time.",
+    "For delayed or lost baggage, obtaining a physical Property Irregularity Report (PIR) from the airline's baggage service desk before leaving the airport customs hall is mandatory.",
+    "You can claim both airline compensation (under the Montreal Convention or DGCA/EU261 rules) and travel insurance benefits; one does not automatically cancel the other.",
+    "Baggage delay benefits cover reasonable emergency purchases of essential toiletries and replacement clothing; original itemized receipts are required.",
+    "Total baggage loss claims require a final settlement or non-traceable certificate from the carrier after 21 days of continuous baggage tracking.",
+    "Weather delays and mechanical faults are usually covered, while delays caused by missed connections due to short transit layovers (under airline Minimum Connection Time) are rejected."
+  ],
+  "sections": [
+    {
+      "heading": "The short answer",
+      "body": "Travel insurance policies regularly advertise generous benefits for flight disruptions and lost baggage. But unlike health insurance, where hospitals manage documentation, travel disruption claims place 100% of the evidential burden on the traveler.",
+      "paragraphs": [
+        "Insurers do not accept verbal claims, photos of departure boards, or screenshots of text messages. If your flight is delayed or your suitcase fails to arrive on the luggage carousel, you must secure specific airline-issued certificates before you exit the terminal.",
+        "Walking out of the airport baggage hall without an official report is the single most frequent reason travel insurers reject baggage claims."
+      ]
+    },
+    {
+      "heading": "Flight delays: the 6-hour vs 12-hour threshold",
+      "body": "A flight delay of two or three hours is frustrating, but it almost never triggers travel insurance compensation.",
+      "paragraphs": [
+        "Most comprehensive international travel policies establish a minimum deductible delay period — commonly 6 consecutive hours for premium plans, and 12 consecutive hours for budget policies.",
+        "The delay is calculated against your scheduled departure time, not arrival time. Furthermore, the reason for the delay must be a covered peril, such as adverse weather, air traffic control strikes, or unexpected aircraft mechanical breakdowns. Commercial cancellations where the airline rebooks you within the threshold do not qualify."
+      ],
+      "callout": {
+        "label": "The Written Delay Certificate",
+        "text": "Before boarding your delayed aircraft or leaving the gate, request a signed and stamped 'Flight Delay Certificate' from the airline gate supervisor stating the scheduled departure, actual departure, and the official operational reason for the delay."
+      }
+    },
+    {
+      "heading": "Baggage delay vs total baggage loss",
+      "body": "Travel policies treat luggage issues as two completely distinct claims depending on the elapsed time.",
+      "table": {
+        "headers": [
+          "Category",
+          "Elapsed Time",
+          "What the Insurer Reimburses",
+          "Mandatory Document"
+        ],
+        "rows": [
+          [
+            "Baggage Delay",
+            "Exceeding 6 to 12 hours",
+            "Emergency purchases of clothes & toiletries",
+            "Property Irregularity Report (PIR) + Purchase Receipts"
+          ],
+          [
+            "Total Baggage Loss",
+            "Exceeding 21 consecutive days",
+            "Depreciated value of lost contents up to sum insured",
+            "Airline Non-Traceable Letter + Itemized Content List"
+          ]
+        ],
+        "caption": "The statutory distinction between baggage delay and permanent loss."
+      }
+    },
+    {
+      "heading": "The Property Irregularity Report (PIR): your non-negotiable proof",
+      "body": "If your luggage fails to appear on the carousel at your arrival destination, do not exit into the arrival hall.",
+      "ordered": true,
+      "bullets": [
+        "Step 1: Locate the Airline Baggage Service Desk in the customs baggage reclaim area before passing customs checkpoints.",
+        "Step 2: File a formal lost luggage claim and insist on an official Property Irregularity Report (PIR). This document contains a unique 10-character reference code (e.g. LHRBA12345) used globally in the WorldTracer system.",
+        "Step 3: Keep the original baggage tag barcode receipt given to you during check-in. The barcode number must match the PIR.",
+        "Step 4: Note the exact delivery timestamp when the courier eventually drops your bag at your hotel or residence, and ask for a written delivery confirmation note."
+      ]
+    },
+    {
+      "heading": "Double compensation: can you claim from both airline and insurer?",
+      "body": "Yes. Under international aviation law, the airline's statutory liability and your private insurance contract are separate legal instruments.",
+      "paragraphs": [
+        "Under the Montreal Convention 1999, operating airlines are legally liable for lost or damaged luggage up to approximately 1,288 Special Drawing Rights (SDRs) — roughly $1,700 or €1,600 per passenger.",
+        "You can file a claim with the airline under the Montreal Convention and simultaneously claim the balance of your financial loss from your travel insurer. If the airline pays you partial compensation (e.g. $400 for emergency expenses), your insurer will require the airline settlement letter and pay the remaining admissible expenses up to your policy limit."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I claim for flight delay if the airline provided meal vouchers?",
+      "answer": "Yes. Airline meal vouchers do not waive your travel insurance benefits. If your delay exceeded the policy threshold (e.g. 6 hours), you can still claim the fixed indemnity or incurred expenses specified in your schedule."
+    },
+    {
+      "question": "What items are covered under emergency baggage delay expenses?",
+      "answer": "Reasonable and necessary personal items: basic toiletries (toothbrush, contact lens solution), essential sleepwear, and a change of clothes appropriate for the climate of your destination. Luxury goods, designer fashion, and unnecessary electronics are universally rejected."
+    },
+    {
+      "question": "Can I claim for lost baggage if I lose my bag on the return flight home?",
+      "answer": "Most travel insurance policies restrict baggage delay benefits to outbound journeys, because travelers have access to their own wardrobe and home supplies upon return. However, total permanent loss of baggage is covered on both outbound and return journeys."
+    },
+    {
+      "question": "How long does an airline have to find a lost bag before it is declared permanently lost?",
+      "answer": "Under the Montreal Convention and standard aviation standards, luggage is officially classified as lost after 21 consecutive days of being misplaced."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Convention for the Unification of Certain Rules for International Carriage by Air (Montreal Convention 1999)",
+      "url": "https://www.icao.int/"
+    },
+    {
+      "title": "Directorate General of Civil Aviation (DGCA) Passenger Charter, India",
+      "url": "https://www.dgca.gov.in/"
+    },
+    {
+      "title": "Regulation (EC) No 261/2004 — Air Passenger Rights",
+      "url": "https://eur-lex.europa.eu/"
+    }
+  ]
+}
