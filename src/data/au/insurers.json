@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24",
+  "lastUpdated": "2026-09-23",
   "country": "Australia",
   "countryCode": "au",
   "insurers": [
@@ -42,7 +42,12 @@
       ],
       "countryCode": "au",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+61-134-135",
+        "claimHelpline": "+61-134-135",
+        "phone": "+61-3-9937-4000",
+        "email": "customerrelations@bupa.com.au",
+        "address": "33 Exhibition Street, Melbourne, VIC 3000"
       }
     },
     {
@@ -62,7 +67,12 @@
       ],
       "countryCode": "au",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+61-133-423",
+        "claimHelpline": "+61-133-423",
+        "phone": "+61-8-9265-6565",
+        "email": "memberservices@hbf.com.au",
+        "address": "570 Wellington Street, Perth, WA 6000"
       }
     },
     {
@@ -82,7 +92,12 @@
       ],
       "countryCode": "au",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+61-13-13-34",
+        "claimHelpline": "+61-13-13-34",
+        "phone": "+61-2-9290-0444",
+        "email": "service@hcf.com.au",
+        "address": "403 George Street, Sydney, NSW 2000"
       }
     },
     {
@@ -124,7 +139,12 @@
       ],
       "countryCode": "au",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+61-1800-333-613",
+        "claimHelpline": "+61-1800-333-613",
+        "phone": "+61-3-9009-4000",
+        "email": "au.customer@aia.com",
+        "address": "553 St Kilda Road, Melbourne, VIC 3004"
       }
     },
     {
@@ -143,7 +163,12 @@
       ],
       "countryCode": "au",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+61-1300-209-088",
+        "claimHelpline": "+61-1300-209-088",
+        "phone": "+61-2-9995-1000",
+        "email": "customerservice@tal.com.au",
+        "address": "Level 16, 363 George Street, Sydney, NSW 2000"
       }
     },
     {
@@ -162,7 +187,12 @@
       ],
       "countryCode": "au",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+61-132-652",
+        "claimHelpline": "+61-132-652",
+        "phone": "+61-3-9966-5000",
+        "email": "contactus@mlcinsurance.com.au",
+        "address": "105 Miller Street, North Sydney, NSW 2060"
       }
     },
     {
@@ -182,7 +212,12 @@
       ],
       "countryCode": "au",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+61-131-551",
+        "claimHelpline": "+61-131-551",
+        "phone": "+61-2-9995-1111",
+        "email": "client.service@zurich.com.au",
+        "address": "118 Mount Street, North Sydney, NSW 2060"
       }
     },
     {
@@ -203,7 +238,12 @@
       ],
       "countryCode": "au",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+61-13-10-00",
+        "claimHelpline": "+61-13-10-00",
+        "phone": "+61-2-9390-6000",
+        "email": "help@allianz.com.au",
+        "address": "2 Market Street, Sydney, NSW 2000"
       }
     },
     {
@@ -222,7 +262,12 @@
       ],
       "countryCode": "au",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+61-13-22-44",
+        "claimHelpline": "+61-13-22-44",
+        "phone": "+61-3-8520-1300",
+        "email": "claims@aami.com.au",
+        "address": "Level 28, 266 George Street, Brisbane, QLD 4000"
       }
     },
     {
@@ -241,7 +286,12 @@
       ],
       "countryCode": "au",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+61-132-132",
+        "claimHelpline": "+61-132-132",
+        "phone": "+61-2-9292-9222",
+        "email": "nrmainsurance@nrma.com.au",
+        "address": "201 Sussex Street, Sydney, NSW 2000"
       }
     },
     {
@@ -261,7 +311,12 @@
       ],
       "countryCode": "au",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+61-13-11-55",
+        "claimHelpline": "+61-13-11-55",
+        "phone": "+61-7-3362-1222",
+        "email": "directinsurance@suncorp.com.au",
+        "address": "Level 28, 266 George Street, Brisbane, QLD 4000"
       }
     },
     {
@@ -281,7 +336,12 @@
       ],
       "countryCode": "au",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+61-133-723",
+        "claimHelpline": "+61-133-723",
+        "phone": "+61-2-9375-4444",
+        "email": "enquiries@qbe.com",
+        "address": "Level 18, 388 George Street, Sydney, NSW 2000"
       }
     },
     {
@@ -301,7 +361,12 @@
       ],
       "countryCode": "au",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+61-1300-306-560",
+        "claimHelpline": "+61-1300-306-560",
+        "phone": "+61-7-3444-8888",
+        "email": "help@budgetdirect.com.au",
+        "address": "133 Charlotte Street, Brisbane, QLD 4000"
       }
     }
   ]

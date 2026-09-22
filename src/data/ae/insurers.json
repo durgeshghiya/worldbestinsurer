@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24",
+  "lastUpdated": "2026-09-23",
   "countryCode": "ae",
   "insurers": [
     {
@@ -99,7 +99,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+971-800-124-462",
+        "claimHelpline": "+971-800-124-462",
+        "phone": "+971-4-362-0600",
+        "email": "cignaglobalme@cigna.com",
+        "address": "The Gateway Building, DIFC, Dubai, UAE"
       }
     },
     {
@@ -116,7 +121,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+971-800-638-5433",
+        "claimHelpline": "+971-800-638-5433",
+        "phone": "+971-4-415-4555",
+        "email": "service-emirates@metlife.ae",
+        "address": "MetLife Building, Sheikh Zayed Road, Dubai, UAE"
       }
     },
     {
@@ -133,11 +143,12 @@
       ],
       "isGovernmentBacked": true,
       "contact": {
-        "customerCareNumber": "800-23642",
-        "phone": "+971-2-408-0000",
+        "customerCareNumber": "+971-800-8040",
+        "phone": "+971-2-408-0100",
         "email": "info@adnic.ae",
-        "address": "ADNIC Tower, Khalifa Street, Abu Dhabi",
-        "lastVerified": "2026-04-03"
+        "address": "ADNIC Building, Khalifa Street, Abu Dhabi, UAE",
+        "lastVerified": "2026-09-23",
+        "claimHelpline": "+971-800-8040"
       }
     },
     {
@@ -152,7 +163,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+971-4-270-8700",
+        "claimHelpline": "+971-4-270-8700",
+        "phone": "+971-4-270-8700",
+        "email": "contact.uae@allianz.com",
+        "address": "Convention Tower, Dubai World Trade Centre, Dubai, UAE"
       }
     },
     {
@@ -168,7 +184,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+971-4-269-3030",
+        "claimHelpline": "+971-4-269-3030",
+        "phone": "+971-4-269-3030",
+        "email": "aman@aman.ae",
+        "address": "Aman Building, Al Nahda, Dubai, UAE"
       }
     },
     {
@@ -185,7 +206,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+971-800-825-2385",
+        "claimHelpline": "+971-800-825-2385",
+        "phone": "+971-4-378-0000",
+        "email": "info@noortakaful.com",
+        "address": "Noor Takaful Building, Al Barsha 1, Dubai, UAE"
       }
     },
     {
@@ -200,7 +226,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+971-800-987424",
+        "claimHelpline": "+971-4-363-4567",
+        "phone": "+971-4-363-4567",
+        "email": "middleeast.enquiries@zurich.com",
+        "address": "Building 6, Level 6, Emaar Square, Downtown Dubai, P.O. Box 50389, Dubai, UAE"
       }
     },
     {
@@ -215,7 +246,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+971-4-319-7400",
+        "claimHelpline": "+971-4-319-7400",
+        "phone": "+971-4-319-7400",
+        "email": "contact.ae@fwd.com",
+        "address": "DIFC, Gate Village Building 05, Dubai, UAE"
       }
     },
     {
@@ -230,7 +266,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+971-800-772",
+        "claimHelpline": "+971-800-772",
+        "phone": "+971-4-302-2000",
+        "email": "feedback@ae.rsagroup.com",
+        "address": "Al Fattan Currency House, DIFC, Dubai, UAE"
       }
     },
     {
@@ -245,7 +286,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+971-4-272-9133",
+        "claimHelpline": "+971-4-272-9133",
+        "phone": "+971-4-272-9133",
+        "email": "info@adamjeeinsurance.ae",
+        "address": "Office 203, Al Shoala Building, Port Saeed, Deira, Dubai, UAE"
       }
     },
     {
@@ -260,7 +306,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+971-4-605-1111",
+        "claimHelpline": "+971-4-605-1111",
+        "phone": "+971-4-605-1111",
+        "email": "alliance@alliance-uae.com",
+        "address": "Warba Centre, Abu Baker Al Siddique Road, Deira, Dubai, UAE"
       }
     },
     {
@@ -276,7 +327,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+971-800-785666",
+        "claimHelpline": "+971-800-785666",
+        "phone": "+971-4-233-7777",
+        "email": "service@sukoon.com",
+        "address": "Oman Insurance Building, Omar Bin Al Khattab Street, Deira, Dubai, UAE"
       }
     },
     {
@@ -293,7 +349,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+971-800-725262",
+        "claimHelpline": "+971-800-725262",
+        "phone": "+971-4-357-7000",
+        "email": "info@salama.ae",
+        "address": "Spectrum Building, Oud Metha, Dubai, UAE"
       }
     },
     {
@@ -309,7 +370,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+971-4-297-7171",
+        "claimHelpline": "+971-4-297-7171",
+        "phone": "+971-4-297-7171",
+        "email": "info@alwathba.ae",
+        "address": "Al Wathba National Insurance Building, Najda Street, Abu Dhabi, UAE"
       }
     },
     {
@@ -325,7 +391,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+971-800-928-2642",
+        "claimHelpline": "+971-800-928-2642",
+        "phone": "+971-2-613-8888",
+        "email": "info@watania.ae",
+        "address": "Al Bateen Towers, C2 Building, Bainunah Street, Abu Dhabi, UAE"
       }
     },
     {
@@ -341,7 +412,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+971-4-253-0555",
+        "claimHelpline": "+971-4-253-0555",
+        "phone": "+971-4-253-0555",
+        "email": "info@araborient.ae",
+        "address": "Orient Building, Al Badia, Festival City, Dubai, UAE"
       }
     },
     {
@@ -358,7 +434,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+971-800-342",
+        "claimHelpline": "+971-800-342",
+        "phone": "+971-2-644-0400",
+        "email": "eic@emiratesinsurance.ae",
+        "address": "Emirates Insurance Building, Zayid the 1st Street, Al Zahiyah, Abu Dhabi, UAE"
       }
     }
   ]

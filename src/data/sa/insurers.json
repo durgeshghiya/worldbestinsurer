@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24",
+  "lastUpdated": "2026-09-23",
   "country": "Saudi Arabia",
   "countryCode": "sa",
   "insurers": [
@@ -62,7 +62,12 @@
       "amBestRating": "B++",
       "marketPosition": "Top 5",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+966-800-441-4442",
+        "claimHelpline": "+966-800-441-4442",
+        "phone": "+966-13-897-7777",
+        "email": "customercare@medgulf.com.sa",
+        "address": "King Fahd Road, Al Khobar 31952, Saudi Arabia"
       }
     },
     {
@@ -81,7 +86,12 @@
       "amBestRating": "B++",
       "marketPosition": "Top 10",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+966-800-124-9990",
+        "claimHelpline": "+966-800-124-9990",
+        "phone": "+966-11-477-6100",
+        "email": "complaints@gig.com.sa",
+        "address": "Al Faisaliah Tower, King Fahd Road, Riyadh, Saudi Arabia"
       }
     },
     {
@@ -100,7 +110,12 @@
       "amBestRating": "B++",
       "marketPosition": "Top 10",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+966-800-119-9222",
+        "claimHelpline": "+966-800-119-9222",
+        "phone": "+966-13-865-2222",
+        "email": "care@walaa.com",
+        "address": "Prince Sultan Street, Al Khobar, Saudi Arabia"
       }
     },
     {
@@ -118,7 +133,12 @@
       "amBestRating": "B+",
       "marketPosition": "Top 15",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+966-800-304-0077",
+        "claimHelpline": "+966-800-304-0077",
+        "phone": "+966-13-833-3450",
+        "email": "customercare@gulfunion.com.sa",
+        "address": "Al Khobar Road, Dammam, Saudi Arabia"
       }
     },
     {
@@ -137,7 +157,12 @@
       "amBestRating": "B+",
       "marketPosition": "Top 15",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+966-800-124-7777",
+        "claimHelpline": "+966-800-124-7777",
+        "phone": "+966-11-475-9922",
+        "email": "customerservice@saico.com.sa",
+        "address": "Salahuddin Al Ayyubi Road, Riyadh 11442, Saudi Arabia"
       }
     },
     {
@@ -154,7 +179,12 @@
       "amBestRating": "B+",
       "marketPosition": "Top 15",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+966-800-128-0088",
+        "claimHelpline": "+966-800-128-0088",
+        "phone": "+966-11-416-8222",
+        "email": "info@malath.com.sa",
+        "address": "King Abdulaziz Road, Riyadh, Saudi Arabia"
       }
     },
     {
@@ -173,7 +203,12 @@
       "amBestRating": "B++",
       "marketPosition": "Leading Takaful insurer",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+966-800-118-4444",
+        "claimHelpline": "+966-800-118-4444",
+        "phone": "+966-11-282-5555",
+        "email": "care@alrajhitakaful.com",
+        "address": "Al Thumama Road, Al Sahafah, Riyadh 13321, Saudi Arabia"
       }
     },
     {
@@ -190,7 +225,12 @@
       "amBestRating": "B+",
       "marketPosition": "Top 15",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+966-800-124-8844",
+        "claimHelpline": "+966-800-124-8844",
+        "phone": "+966-11-478-0282",
+        "email": "info@rsasaudi.com",
+        "address": "Al Jamiah Street, Malaz, Riyadh, Saudi Arabia"
       }
     },
     {
@@ -208,7 +248,12 @@
       "amBestRating": "B+",
       "marketPosition": "Top 15",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+966-800-304-0077",
+        "claimHelpline": "+966-800-304-0077",
+        "phone": "+966-11-478-0282",
+        "email": "info@solidarity.com.sa",
+        "address": "King Fahd Road, Riyadh, Saudi Arabia"
       }
     },
     {
@@ -226,7 +271,12 @@
       "amBestRating": "B++",
       "marketPosition": "Top 10",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+966-800-124-0010",
+        "claimHelpline": "+966-800-124-0010",
+        "phone": "+966-11-874-9700",
+        "email": "customercare@allianzsf.com.sa",
+        "address": "Al Safwah Centre, Prince Mamdouh Street, Riyadh, Saudi Arabia"
       }
     },
     {
@@ -243,7 +293,12 @@
       "amBestRating": "B",
       "marketPosition": "Top 20",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+966-800-304-0114",
+        "claimHelpline": "+966-800-304-0114",
+        "phone": "+966-13-830-2211",
+        "email": "care@sagr.com.sa",
+        "address": "Prince Mansoor Street, Al Khobar, Saudi Arabia"
       }
     },
     {
@@ -261,7 +316,12 @@
       "amBestRating": "B+",
       "marketPosition": "Top 15",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+966-800-124-0204",
+        "claimHelpline": "+966-800-124-0204",
+        "phone": "+966-12-606-8888",
+        "email": "customercare@acig.com.sa",
+        "address": "King Abdulaziz Road, Jeddah 21453, Saudi Arabia"
       }
     },
     {
@@ -278,7 +338,12 @@
       "amBestRating": "A",
       "marketPosition": "Specialty",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+966-800-116-0038",
+        "claimHelpline": "+966-800-116-0038",
+        "phone": "+966-13-835-1212",
+        "email": "contact.arabia@chubb.com",
+        "address": "Al Khaleej Road, Dammam, Saudi Arabia"
       }
     }
   ]

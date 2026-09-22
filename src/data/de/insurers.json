@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24",
+  "lastUpdated": "2026-09-23",
   "country": "Germany",
   "countryCode": "de",
   "insurers": [
@@ -39,7 +39,12 @@
       "amBestRating": "A+",
       "marketPosition": "Largest PKV by insured members",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+49-800-374-6444",
+        "claimHelpline": "+49-800-374-6444",
+        "phone": "+49-221-5780",
+        "email": "service@dkv.com",
+        "address": "Aachener Strasse 300, 50933 Cologne, Germany"
       }
     },
     {
@@ -58,7 +63,12 @@
       "amBestRating": "A+",
       "marketPosition": "Top 5",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+49-800-374-6000",
+        "claimHelpline": "+49-800-374-6000",
+        "phone": "+49-211-4770",
+        "email": "kundenservice@ergo.de",
+        "address": "ERGO-Platz 1, 40477 Duesseldorf, Germany"
       }
     },
     {
@@ -77,7 +87,12 @@
       "amBestRating": "AA-",
       "marketPosition": "Top 5",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+49-800-320-3200",
+        "claimHelpline": "+49-800-320-3200",
+        "phone": "+49-221-1480",
+        "email": "service@axa.de",
+        "address": "Colonia-Allee 10-20, 51067 Cologne, Germany"
       }
     },
     {
@@ -95,7 +110,12 @@
       "amBestRating": "A+",
       "marketPosition": "Largest PKV by members",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+49-261-4980",
+        "claimHelpline": "+49-261-4980",
+        "phone": "+49-261-4980",
+        "email": "kundenservice@debeka.de",
+        "address": "Ferdinand-Sauerbruch-Strasse 18, 56073 Koblenz, Germany"
       }
     },
     {
@@ -112,7 +132,12 @@
       "amBestRating": "A",
       "marketPosition": "Top 10 PKV",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+49-231-1350",
+        "claimHelpline": "+49-231-1350",
+        "phone": "+49-231-1350",
+        "email": "info@signal-iduna.de",
+        "address": "Joseph-Scherer-Strasse 3, 44139 Dortmund, Germany"
       }
     },
     {
@@ -131,7 +156,12 @@
       "amBestRating": "A+",
       "marketPosition": "Largest motor insurer",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+49-800-215-3153",
+        "claimHelpline": "+49-800-215-3153",
+        "phone": "+49-9561-960",
+        "email": "info@huk-coburg.de",
+        "address": "Bahnhofsplatz, 96450 Coburg, Germany"
       }
     },
     {
@@ -149,7 +179,12 @@
       "amBestRating": "A",
       "marketPosition": "Top 15",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+49-221-308-00",
+        "claimHelpline": "+49-221-308-00",
+        "phone": "+49-221-308-00",
+        "email": "info@gothaer.de",
+        "address": "Arnoldiplatz 1, 50969 Cologne, Germany"
       }
     },
     {
@@ -166,7 +201,12 @@
       "amBestRating": "A",
       "marketPosition": "Top 10 PKV",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+49-202-438-00",
+        "claimHelpline": "+49-202-438-00",
+        "phone": "+49-202-438-00",
+        "email": "info@barmenia.de",
+        "address": "Barmenia-Allee 1, 42119 Wuppertal, Germany"
       }
     },
     {
@@ -183,7 +223,12 @@
       "amBestRating": "A",
       "marketPosition": "Top 15 PKV",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+49-800-319-1000",
+        "claimHelpline": "+49-800-319-1000",
+        "phone": "+49-711-66030",
+        "email": "service@hallesche.de",
+        "address": "Reinsburgstrasse 10, 70178 Stuttgart, Germany"
       }
     },
     {
@@ -200,7 +245,12 @@
       "amBestRating": "A",
       "marketPosition": "Top 15 PKV",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+49-231-9190",
+        "claimHelpline": "+49-231-9190",
+        "phone": "+49-231-9190",
+        "email": "info@continentale.de",
+        "address": "Ruhrallee 92, 44139 Dortmund, Germany"
       }
     },
     {
@@ -217,7 +267,12 @@
       "amBestRating": "A",
       "marketPosition": "Leading direct life insurer",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+49-511-956-5656",
+        "claimHelpline": "+49-511-956-5656",
+        "phone": "+49-511-9560",
+        "email": "service@hannoversche.de",
+        "address": "VHV-Platz 1, 30177 Hanover, Germany"
       }
     },
     {
@@ -235,7 +290,12 @@
       "amBestRating": "A",
       "marketPosition": "Largest direct insurer",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+49-681-966-6666",
+        "claimHelpline": "+49-681-966-6666",
+        "phone": "+49-681-966-6666",
+        "email": "info@cosmosdirekt.de",
+        "address": "Halbergstrasse 50-60, 66121 Saarbruecken, Germany"
       }
     },
     {
@@ -252,7 +312,12 @@
       "amBestRating": "A",
       "marketPosition": "Top RLV specialist",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+49-221-5737-200",
+        "claimHelpline": "+49-221-5737-200",
+        "phone": "+49-221-5737-0",
+        "email": "info@europa.de",
+        "address": "Piusstrasse 137, 50931 Cologne, Germany"
       }
     },
     {
@@ -269,7 +334,12 @@
       "amBestRating": "AA-",
       "marketPosition": "Top 10 motor",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+49-89-7676-0",
+        "claimHelpline": "+49-89-7676-0",
+        "phone": "+49-89-7676-0",
+        "email": "service@adac.de",
+        "address": "Hansastrasse 19, 80686 Munich, Germany"
       }
     },
     {
@@ -286,7 +356,12 @@
       "amBestRating": "A",
       "marketPosition": "Top 10 motor",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+49-800-455-5333",
+        "claimHelpline": "+49-800-455-5333",
+        "phone": "+49-221-7570",
+        "email": "info@devk.de",
+        "address": "Riehler Strasse 190, 50735 Cologne, Germany"
       }
     },
     {
@@ -304,7 +379,12 @@
       "amBestRating": "A+",
       "marketPosition": "Largest cooperative insurer",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+49-800-533-1112",
+        "claimHelpline": "+49-800-533-1112",
+        "phone": "+611-5330",
+        "email": "service@ruv.de",
+        "address": "Raiffeisenplatz 1, 65189 Wiesbaden, Germany"
       }
     },
     {
@@ -321,7 +401,12 @@
       "amBestRating": "A",
       "marketPosition": "Leading travel insurer",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+49-40-4119-0",
+        "claimHelpline": "+49-40-4119-0",
+        "phone": "+49-40-4119-0",
+        "email": "info@hansemerkur.de",
+        "address": "Siegfried-Wedells-Platz 1, 20354 Hamburg, Germany"
       }
     },
     {
@@ -338,7 +423,12 @@
       "amBestRating": "A",
       "marketPosition": "TK partner insurer",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+49-221-275-5999",
+        "claimHelpline": "+49-221-275-5999",
+        "phone": "+49-221-2750",
+        "email": "info@envivas.de",
+        "address": "Aachener Strasse 300, 50933 Cologne, Germany"
       }
     }
   ]

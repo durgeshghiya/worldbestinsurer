@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24",
+  "lastUpdated": "2026-09-23",
   "insurers": [
     {
       "slug": "bupa",
@@ -52,7 +52,12 @@
       "description": "Major UK PMI provider. Part of AXA Group (France).",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-800-145-5838",
+        "claimHelpline": "+44-800-454-080",
+        "phone": "+44-1892-512345",
+        "email": "help@axahealth.co.uk",
+        "address": "International House, Forest Road, Tunbridge Wells, Kent TN2 5FE"
       }
     },
     {
@@ -79,14 +84,16 @@
       "description": "UK's largest insurer by gross written premiums. Multi-line across life, health, general.",
       "countryCode": "uk",
       "contact": {
-        "customerCareNumber": "0800-068-6800",
-        "phone": "+44-20-7283-2000",
-        "address": "St Helen's, 1 Undershaft, London EC3P 3DQ",
+        "customerCareNumber": "+44-800-056-2102",
+        "phone": "+44-1603-622200",
+        "address": "St. Helen's, 1 Undershaft, London EC3P 3DQ",
         "socialMedia": {
           "twitter": "https://twitter.com/aviva",
           "linkedin": "https://www.linkedin.com/company/aviva"
         },
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "claimHelpline": "+44-800-012-345",
+        "email": "helpdesk@aviva.com"
       }
     },
     {
@@ -110,7 +117,12 @@
       "description": "Health insurance with wellness rewards. Part of Discovery Group (South Africa).",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-345-601-0072",
+        "claimHelpline": "+44-345-602-3523",
+        "phone": "+44-20-7133-8600",
+        "email": "healthclaims@vitality.co.uk",
+        "address": "3 More London Riverside, London SE1 2RE"
       }
     },
     {
@@ -134,7 +146,12 @@
       "description": "Life insurance with wellness incentives. Premiums can decrease with healthy behaviour.",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-345-601-0072",
+        "claimHelpline": "+44-345-601-0072",
+        "phone": "+44-20-7133-8600",
+        "email": "lifeclaims@vitality.co.uk",
+        "address": "3 More London Riverside, London SE1 2RE"
       }
     },
     {
@@ -158,7 +175,12 @@
       "description": "Not-for-profit PMI provider. Known for high customer satisfaction.",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-1823-625230",
+        "claimHelpline": "+44-1823-625230",
+        "phone": "+44-1823-625000",
+        "email": "enquiries@wpa.org.uk",
+        "address": "Rivergate, Blackbrook Park, Taunton, Somerset TA1 2PE"
       }
     },
     {
@@ -182,7 +204,12 @@
       "description": "UK arm of The Cigna Group. Strong in corporate and international health.",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-1475-788-779",
+        "claimHelpline": "+44-1475-788-779",
+        "phone": "+44-1475-788-779",
+        "email": "smecustomerservice@cigna.com",
+        "address": "1 Knowe Road, Greenock, Renfrewshire PA15 4RJ"
       }
     },
     {
@@ -206,7 +233,12 @@
       "description": "Smaller PMI provider known for competitive pricing. Part of National Friendly.",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-800-999-2013",
+        "claimHelpline": "+44-1202-756-015",
+        "phone": "+44-1202-756-017",
+        "email": "info@freedomhealthinsurance.co.uk",
+        "address": "County Gates House, 300 Poole Road, Poole, Dorset BH12 1AZ"
       }
     },
     {
@@ -257,7 +289,12 @@
       "description": "UK's largest mutual life insurer. Known for Helping Hand support service.",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-345-602-1885",
+        "claimHelpline": "+44-345-600-7799",
+        "phone": "+44-20-7506-6500",
+        "email": "queries@royallondon.com",
+        "address": "55 Gracechurch Street, London EC3V 0RL"
       }
     },
     {
@@ -310,7 +347,12 @@
       "description": "Friendly society. Multi-line insurer known for excellent customer service.",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-800-756-8010",
+        "claimHelpline": "+44-800-247-999",
+        "phone": "+44-1202-292333",
+        "email": "help@lv.com",
+        "address": "County Gates, Bournemouth BH1 2NF"
       }
     },
     {
@@ -334,7 +376,12 @@
       "description": "Part of Lloyds Banking Group. Sold through Lloyds, Halifax, Bank of Scotland.",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-345-767-8910",
+        "claimHelpline": "+44-345-030-6243",
+        "phone": "+44-131-655-6000",
+        "email": "service@scottishwidows.co.uk",
+        "address": "69 Morrison Street, Edinburgh EH3 8YF"
       }
     },
     {
@@ -358,7 +405,12 @@
       "description": "UK life insurance arm of AIG. Known for SmartHealth and competitive pricing.",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-345-600-6820",
+        "claimHelpline": "+44-345-600-6815",
+        "phone": "+44-20-7954-7000",
+        "email": "claimsteam@aiglife.co.uk",
+        "address": "The AIG Building, 58 Fenchurch Street, London EC3M 4AB"
       }
     },
     {
@@ -382,7 +434,12 @@
       "description": "Newer entrant to UK life market. Known for Payout Plus and innovation.",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-808-123-1821",
+        "claimHelpline": "+44-808-123-1821",
+        "phone": "+44-808-123-1821",
+        "email": "help@guardian1821.co.uk",
+        "address": "Forbury Square, Reading, Berkshire RG1 3EU"
       }
     },
     {
@@ -407,13 +464,16 @@
       "description": "FTSE 100 insurer. One of the UK's largest motor insurers. MultiCar specialist.",
       "countryCode": "uk",
       "contact": {
-        "customerCareNumber": "0333-220-2000",
+        "customerCareNumber": "+44-333-220-2000",
         "address": "Ty Admiral, David Street, Cardiff CF10 2EH",
         "socialMedia": {
           "twitter": "https://twitter.com/AdmiralUK",
           "facebook": "https://www.facebook.com/AdmiralUK"
         },
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "claimHelpline": "+44-333-220-2033",
+        "phone": "+44-333-220-2000",
+        "email": "support@admiral.com"
       }
     },
     {
@@ -438,9 +498,12 @@
       "description": "Major UK insurer. Sells direct only — not on comparison sites. Also owns Churchill.",
       "countryCode": "uk",
       "contact": {
-        "customerCareNumber": "0345-246-8704",
-        "address": "Churchill Court, Westmoreland Road, Bromley BR1 1DP",
-        "lastVerified": "2026-04-03"
+        "customerCareNumber": "+44-345-246-8701",
+        "address": "Churchill Court, Westmoreland Road, Bromley, Kent BR1 1DP",
+        "lastVerified": "2026-09-23",
+        "claimHelpline": "+44-800-051-6976",
+        "phone": "+44-113-292-0667",
+        "email": "support@directline.com"
       }
     },
     {
@@ -464,7 +527,12 @@
       "description": "Part of Direct Line Group. Available on price comparison sites.",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-345-877-6680",
+        "claimHelpline": "+44-800-051-6981",
+        "phone": "+44-113-292-0667",
+        "email": "service@churchill.com",
+        "address": "Churchill Court, Westmoreland Road, Bromley BR1 1DP"
       }
     },
     {
@@ -488,7 +556,12 @@
       "description": "RSA's direct consumer brand. Now part of Intact Financial (Canada).",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-330-102-3627",
+        "claimHelpline": "+44-330-102-3628",
+        "phone": "+44-330-102-3627",
+        "email": "customer.relations@morethan.com",
+        "address": "20 Fenchurch Street, London EC3M 3AU"
       }
     },
     {
@@ -512,7 +585,12 @@
       "description": "Budget-friendly motor insurer. Part of Sampo Group (Finland).",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-333-321-9801",
+        "claimHelpline": "+44-333-321-9800",
+        "phone": "+44-1424-735735",
+        "email": "customerrelations@hastingsdirect.com",
+        "address": "Conquest House, Collington Avenue, Bexhill-on-Sea, East Sussex TN39 3LW"
       }
     },
     {
@@ -536,7 +614,12 @@
       "description": "Digital-first insurer. Also owns Sheilas' Wheels brand.",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-345-045-1000",
+        "claimHelpline": "+44-345-603-7872",
+        "phone": "+44-1737-222222",
+        "email": "customer.relations@esure.com",
+        "address": "The Observatory, Castlefield Road, Reigate, Surrey RH2 0SG"
       }
     },
     {
@@ -560,7 +643,12 @@
       "description": "UK's first pay-per-mile car insurer. Ideal for low-mileage drivers.",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-330-088-3838",
+        "claimHelpline": "+44-330-088-3838",
+        "phone": "+44-330-088-3838",
+        "email": "support@bymiles.co.uk",
+        "address": "6th Floor, 140 Fenchurch Street, London EC3M 6BL"
       }
     },
     {
@@ -584,7 +672,12 @@
       "description": "Consistently top-rated UK travel insurance provider. Defaqto 5-star.",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-345-073-1002",
+        "claimHelpline": "+44-345-073-1002",
+        "phone": "+44-345-722-3344",
+        "email": "insurance@postoffice.co.uk",
+        "address": "100 Wood Street, London EC2V 7ER"
       }
     },
     {
@@ -608,7 +701,12 @@
       "description": "Specialist in over-50s and medical conditions travel insurance.",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-800-033-4902",
+        "claimHelpline": "+44-1403-288-410",
+        "phone": "+44-1604-210-845",
+        "email": "info@staysure.co.uk",
+        "address": "McGowan House, 10 Waterside Way, Northampton NN4 7XD"
       }
     },
     {
@@ -632,7 +730,12 @@
       "description": "Specialist in pre-existing medical conditions travel insurance.",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-808-178-5786",
+        "claimHelpline": "+44-1708-339-026",
+        "phone": "+44-1708-339-026",
+        "email": "customer.care@allclearinsurance.com",
+        "address": "AllClear House, 1 Redwing Court, Ashton Road, Romford RM3 8QQ"
       }
     },
     {
@@ -656,7 +759,12 @@
       "description": "Long-established travel insurer. Good for adventure and long-stay travel.",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-800-083-9500",
+        "claimHelpline": "+44-20-8603-9892",
+        "phone": "+44-20-3056-7994",
+        "email": "admin@columbusdirect.com",
+        "address": "10th Floor, The City Plaza, 2 Cutlers Gardens, London EC2A 4ED"
       }
     },
     {
@@ -680,7 +788,12 @@
       "description": "Popular with backpackers and adventure travellers. Can buy while travelling.",
       "countryCode": "uk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+44-20-3384-1000",
+        "claimHelpline": "+44-20-3384-1000",
+        "phone": "+44-20-3384-1000",
+        "email": "claims@worldnomads.com",
+        "address": "1st Floor, 32-38 Leman Street, London E1 8EW"
       }
     }
   ]

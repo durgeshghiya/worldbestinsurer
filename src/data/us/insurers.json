@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24",
+  "lastUpdated": "2026-09-23",
   "insurers": [
     {
       "slug": "unitedhealthcare",
@@ -22,7 +22,12 @@
       "description": "Largest health insurer in the US by enrollment. Subsidiary of UnitedHealth Group.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-800-328-5979",
+        "claimHelpline": "1-877-842-3210",
+        "phone": "+1-800-842-8000",
+        "email": "customerservice@uhc.com",
+        "address": "9900 Bren Road East, Minnetonka, MN 55343"
       }
     },
     {
@@ -46,7 +51,12 @@
       "description": "Second-largest health insurer. Part of Elevance Health (formerly Anthem Inc).",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-800-331-1476",
+        "claimHelpline": "1-800-676-2583",
+        "phone": "+1-800-331-1476",
+        "email": "support@anthem.com",
+        "address": "220 Virginia Avenue, Indianapolis, IN 46204"
       }
     },
     {
@@ -174,7 +184,12 @@
       "description": "Focuses on government-sponsored healthcare programs. Major ACA marketplace insurer.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-888-562-5442",
+        "claimHelpline": "1-888-562-5442",
+        "phone": "+1-888-562-5442",
+        "email": "memberinquiry@molinahealthcare.com",
+        "address": "200 Oceangate, Suite 100, Long Beach, CA 90802"
       }
     },
     {
@@ -198,7 +213,12 @@
       "description": "Largest Medicaid managed care organization. Ambetter is ACA marketplace brand.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-877-687-1180",
+        "claimHelpline": "1-877-687-1180",
+        "phone": "+1-314-725-4477",
+        "email": "support@ambetterhealth.com",
+        "address": "7700 Forsyth Boulevard, St. Louis, MO 63105"
       }
     },
     {
@@ -274,7 +294,12 @@
       "description": "Major mutual life insurer. Parent of Haven Life (online term). AM Best A++.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-800-272-2216",
+        "claimHelpline": "1-800-272-2216",
+        "phone": "+1-413-788-8411",
+        "email": "customercare@massmutual.com",
+        "address": "1295 State Street, Springfield, MA 01111"
       }
     },
     {
@@ -358,7 +383,12 @@
       "description": "Major life insurer known for competitive term rates and living benefits.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-877-275-5462",
+        "claimHelpline": "1-800-487-5553",
+        "phone": "+1-484-583-1400",
+        "email": "custserv@lfg.com",
+        "address": "150 N. Radnor Chester Road, Radnor, PA 19087"
       }
     },
     {
@@ -382,7 +412,12 @@
       "description": "Part of Aegon Group. Known for Trendsetter term products.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-800-797-2643",
+        "claimHelpline": "1-800-797-2643",
+        "phone": "+1-319-355-8511",
+        "email": "support@transamerica.com",
+        "address": "6400 C Street SW, Cedar Rapids, IA 52499"
       }
     },
     {
@@ -406,7 +441,12 @@
       "description": "Subsidiary of Dai-ichi Life Holdings. Known for affordable term life.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-800-866-9933",
+        "claimHelpline": "1-800-866-9933",
+        "phone": "+1-205-268-1000",
+        "email": "claims@protective.com",
+        "address": "2801 Highway 280 South, Birmingham, AL 35223"
       }
     },
     {
@@ -430,7 +470,12 @@
       "description": "Subsidiary of Legal & General Group (UK). Consistently low-cost term life.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-800-638-8428",
+        "claimHelpline": "1-800-638-8428",
+        "phone": "+1-301-279-4800",
+        "email": "customerservice@lgamerica.com",
+        "address": "3275 Bennett Creek Avenue, Frederick, MD 21704"
       }
     },
     {
@@ -454,7 +499,12 @@
       "description": "Online-first term life insurance agency. Policies issued by MassMutual.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-855-744-2836",
+        "claimHelpline": "1-855-744-2836",
+        "phone": "+1-855-744-2836",
+        "email": "help@havenlife.com",
+        "address": "60 Madison Avenue, 7th Floor, New York, NY 10010"
       }
     },
     {
@@ -478,7 +528,12 @@
       "description": "Insurtech with unique laddering feature to adjust coverage. Policies by Fidelity Security Life.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-844-533-7221",
+        "claimHelpline": "1-844-533-7221",
+        "phone": "+1-844-533-7221",
+        "email": "help@ladderlife.com",
+        "address": "100 Hamilton Avenue, Suite 250, Palo Alto, CA 94301"
       }
     },
     {
@@ -502,7 +557,12 @@
       "description": "Insurtech offering no-exam term life insurance entirely online.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-844-206-8575",
+        "claimHelpline": "1-844-206-8575",
+        "phone": "+1-844-206-8575",
+        "email": "help@bestow.com",
+        "address": "750 N. St. Paul Street, Suite 1900, Dallas, TX 75201"
       }
     },
     {
@@ -794,7 +854,12 @@
       "description": "Regional insurer in 12 states + DC. Consistently top customer satisfaction.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-800-458-0811",
+        "claimHelpline": "1-800-367-3743",
+        "phone": "+1-814-870-2000",
+        "email": "support@erieinsurance.com",
+        "address": "100 Erie Insurance Place, Erie, PA 16530"
       }
     },
     {
@@ -818,7 +883,12 @@
       "description": "Mutual company operating in 19 states. Parent of Homesite Insurance.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-800-692-6326",
+        "claimHelpline": "1-800-692-6326",
+        "phone": "+1-608-249-2111",
+        "email": "contactus@amfam.com",
+        "address": "6000 American Parkway, Madison, WI 53783"
       }
     },
     {
@@ -842,7 +912,12 @@
       "description": "Largest travel insurance provider in the US. Part of Allianz SE (Germany).",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-866-884-3556",
+        "claimHelpline": "1-800-334-7525",
+        "phone": "+1-804-281-5700",
+        "email": "claimsinquiry@allianzassistance.com",
+        "address": "9950 Mayland Drive, Richmond, VA 23233"
       }
     },
     {
@@ -866,7 +941,12 @@
       "description": "Popular with backpackers and adventure travelers. Can buy while already traveling.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-877-728-3128",
+        "claimHelpline": "1-877-728-3128",
+        "phone": "+1-877-728-3128",
+        "email": "service@worldnomads.com",
+        "address": "220 Bush Street, Suite 800, San Francisco, CA 94104"
       }
     },
     {
@@ -890,7 +970,12 @@
       "description": "AIG's travel insurance brand. Global claims network.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-800-826-4919",
+        "claimHelpline": "1-800-826-4919",
+        "phone": "+1-715-345-0505",
+        "email": "travel.claims@aig.com",
+        "address": "3300 Business Park Drive, Stevens Point, WI 54482"
       }
     },
     {
@@ -914,7 +999,12 @@
       "description": "Travel insurance backed by Berkshire Hathaway's financial strength.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-844-411-2487",
+        "claimHelpline": "1-844-411-2487",
+        "phone": "+1-715-295-9000",
+        "email": "claims@bhtp.com",
+        "address": "2960 Post Road, Stevens Point, WI 54481"
       }
     },
     {
@@ -938,7 +1028,12 @@
       "description": "AARP's exclusive auto and home insurance provider. Strong in workers' comp.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-800-423-6789",
+        "claimHelpline": "1-800-227-5151",
+        "phone": "+1-860-547-5000",
+        "email": "customer.service@thehartford.com",
+        "address": "One Hartford Plaza, Hartford, CT 06155"
       }
     },
     {
@@ -962,7 +1057,12 @@
       "description": "Well-known mutual life insurer. Strong in simplified issue and senior products.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-800-775-6000",
+        "claimHelpline": "1-800-775-6000",
+        "phone": "+1-402-342-7600",
+        "email": "customercare@mutualofomaha.com",
+        "address": "3300 Mutual of Omaha Plaza, Omaha, NE 68175"
       }
     },
     {
@@ -986,7 +1086,12 @@
       "description": "Major life insurer strong in high-net-worth and business markets.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-800-800-7681",
+        "claimHelpline": "1-800-800-7681",
+        "phone": "+1-949-219-3000",
+        "email": "lifeservice@pacificlife.com",
+        "address": "700 Newport Center Drive, Newport Beach, CA 92660"
       }
     },
     {
@@ -1010,7 +1115,12 @@
       "description": "Global financial services company. Strong in employer group benefits.",
       "countryCode": "us",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "1-800-986-3343",
+        "claimHelpline": "1-800-986-3343",
+        "phone": "+1-515-247-5111",
+        "email": "customerservice@principal.com",
+        "address": "711 High Street, Des Moines, IA 50392"
       }
     }
   ]

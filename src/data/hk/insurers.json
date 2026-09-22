@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24",
+  "lastUpdated": "2026-09-23",
   "country": "Hong Kong",
   "countryCode": "hk",
   "insurers": [
@@ -44,7 +44,12 @@
       ],
       "countryCode": "hk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+852-2281-1333",
+        "claimHelpline": "+852-2281-1333",
+        "phone": "+852-2281-1333",
+        "email": "service@prudential.com.hk",
+        "address": "8/F, Prudential Tower, The Gateway, Harbour City, 21 Canton Road, Tsim Sha Tsui, Kowloon, Hong Kong"
       }
     },
     {
@@ -88,7 +93,12 @@
       ],
       "countryCode": "hk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+852-2802-2812",
+        "claimHelpline": "+852-2802-2812",
+        "phone": "+852-2802-2812",
+        "email": "feedback@axa.com.hk",
+        "address": "Suite 2001, 20/F, Tower 1, The Gateway, Harbour City, 25 Canton Road, Kowloon, Hong Kong"
       }
     },
     {
@@ -109,7 +119,12 @@
       ],
       "countryCode": "hk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+852-2517-5333",
+        "claimHelpline": "+852-2517-5333",
+        "phone": "+852-2517-5333",
+        "email": "customercare@bupa.com.hk",
+        "address": "6/F, Tower 2, The Quayside, 77 Hoi Bun Road, Kwun Tong, Kowloon, Hong Kong"
       }
     },
     {
@@ -131,7 +146,12 @@
       ],
       "countryCode": "hk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+852-3123-3123",
+        "claimHelpline": "+852-3123-3123",
+        "phone": "+852-3123-3123",
+        "email": "cs.hk@fwd.com",
+        "address": "13/F, FWD Financial Centre, 308 Des Voeux Road Central, Sheung Wan, Hong Kong"
       }
     },
     {
@@ -151,7 +171,12 @@
       ],
       "countryCode": "hk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+852-8100-3232",
+        "claimHelpline": "+852-8100-3232",
+        "phone": "+852-8100-3232",
+        "email": "contactus@cigna.com",
+        "address": "16/F, Tower 1, One Kowloon, 1 Wang Yuen Street, Kowloon Bay, Hong Kong"
       }
     },
     {
@@ -171,7 +196,12 @@
       ],
       "countryCode": "hk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+852-2103-8888",
+        "claimHelpline": "+852-2103-8888",
+        "phone": "+852-2103-8888",
+        "email": "hk_service@sunlife.com",
+        "address": "16/F, Cheung Kei Center, Tower A, 18 Hung Luen Road, Hung Hom, Kowloon, Hong Kong"
       }
     },
     {
@@ -192,7 +222,12 @@
       ],
       "countryCode": "hk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+852-2968-2288",
+        "claimHelpline": "+852-2968-2288",
+        "phone": "+852-2968-2288",
+        "email": "enquiry@hk.zurich.com",
+        "address": "25-26/F, One Island East, 18 Westlands Road, Island East, Hong Kong"
       }
     },
     {
@@ -213,7 +248,12 @@
       ],
       "countryCode": "hk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+852-2583-8000",
+        "claimHelpline": "+852-2583-8000",
+        "phone": "+852-2583-8000",
+        "email": "life.insurance@hsbc.com.hk",
+        "address": "1 Queen's Road Central, Hong Kong"
       }
     },
     {
@@ -232,7 +272,12 @@
       ],
       "countryCode": "hk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+852-3999-5519",
+        "claimHelpline": "+852-3999-5519",
+        "phone": "+852-3999-5519",
+        "email": "info@chinalife.com.hk",
+        "address": "22/F, CLI Building, 313 Hennessy Road, Wan Chai, Hong Kong"
       }
     },
     {
@@ -251,7 +296,12 @@
       ],
       "countryCode": "hk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+852-2860-0688",
+        "claimHelpline": "+852-2860-0688",
+        "phone": "+852-2860-0688",
+        "email": "cs@boclife.com.hk",
+        "address": "13/F, 1111 King's Road, Taikoo Shing, Hong Kong"
       }
     },
     {
@@ -271,7 +321,12 @@
       ],
       "countryCode": "hk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+852-3122-6922",
+        "claimHelpline": "+852-3122-6922",
+        "phone": "+852-3122-6922",
+        "email": "msighk@hk.msig-asia.com",
+        "address": "9/F, Cityplaza 3, 14 Taikoo Wan Road, Taikoo Shing, Hong Kong"
       }
     },
     {
@@ -290,7 +345,12 @@
       ],
       "countryCode": "hk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+852-2828-1998",
+        "claimHelpline": "+852-2828-1998",
+        "phone": "+852-2828-1998",
+        "email": "info.hk@qbe.com",
+        "address": "33/F, Oxford House, Taikoo Place, 979 King's Road, Quarry Bay, Hong Kong"
       }
     },
     {
@@ -309,7 +369,12 @@
       ],
       "countryCode": "hk",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+852-3999-7600",
+        "claimHelpline": "+852-3999-7600",
+        "phone": "+852-3999-7600",
+        "email": "customerservice@directasia.com.hk",
+        "address": "Suite 1502, 15/F, Sino Plaza, 255-257 Gloucester Road, Causeway Bay, Hong Kong"
       }
     }
   ]

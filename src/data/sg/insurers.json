@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24",
+  "lastUpdated": "2026-09-23",
   "countryCode": "sg",
   "insurers": [
     {
@@ -15,7 +15,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+65-1800-248-8000",
+        "claimHelpline": "+65-1800-248-8000",
+        "phone": "+65-6248-8000",
+        "email": "sg.customer@aia.com",
+        "address": "1 Robinson Road, AIA Tower, Singapore 048542"
       }
     },
     {
@@ -31,7 +36,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+65-1800-333-0333",
+        "claimHelpline": "+65-1800-333-0333",
+        "phone": "+65-6333-0333",
+        "email": "customer.service@prudential.com.sg",
+        "address": "7 Straits View, #06-01 Marina One East Tower, Singapore 018936"
       }
     },
     {
@@ -68,7 +78,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+65-6788-1777",
+        "claimHelpline": "+65-6788-1777",
+        "phone": "+65-6788-1777",
+        "email": "csquery@income.com.sg",
+        "address": "75 Bras Basah Road, NTUC Income Centre, Singapore 189557"
       }
     },
     {
@@ -85,7 +100,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+65-1800-880-4888",
+        "claimHelpline": "+65-1800-880-4888",
+        "phone": "+65-6880-4888",
+        "email": "customer.care@axa.com.sg",
+        "address": "8 Shenton Way, #24-01 AXA Tower, Singapore 068811"
       }
     },
     {
@@ -102,7 +122,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+65-6827-9933",
+        "claimHelpline": "+65-6827-9933",
+        "phone": "+65-6827-9933",
+        "email": "cs_life@singlife.com",
+        "address": "4 Shenton Way, #01-01 SGX Centre 2, Singapore 068807"
       }
     },
     {
@@ -120,7 +145,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+65-6820-8888",
+        "claimHelpline": "+65-6820-8888",
+        "phone": "+65-6820-8888",
+        "email": "contact.sg@fwd.com",
+        "address": "6 Temasek Boulevard, #18-01 Suntec Tower 4, Singapore 038986"
       }
     },
     {
@@ -135,7 +165,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+65-6225-6111",
+        "claimHelpline": "+65-6225-6111",
+        "phone": "+65-6225-6111",
+        "email": "e-service@hsbc.com.sg",
+        "address": "10 Marina Boulevard, #48-01 Marina Bay Financial Centre Tower 2, Singapore 018983"
       }
     },
     {
@@ -151,7 +186,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+65-6833-8188",
+        "claimHelpline": "+65-6833-8188",
+        "phone": "+65-6833-8188",
+        "email": "service@manulife.com",
+        "address": "8 Cross Street, #01-01 Manulife Tower, Singapore 048424"
       }
     },
     {
@@ -167,7 +207,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+65-6592-6100",
+        "claimHelpline": "+65-6592-6100",
+        "phone": "+65-6592-6100",
+        "email": "customercare@tokiomarine.com",
+        "address": "20 McCallum Street, #07-01 Tokio Marine Centre, Singapore 069046"
       }
     },
     {
@@ -182,7 +227,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+65-6665-5555",
+        "claimHelpline": "+65-6665-5555",
+        "phone": "+65-6665-5555",
+        "email": "customerservice@directasia.com",
+        "address": "88 South Bridge Road, Singapore 058716"
       }
     },
     {
@@ -197,7 +247,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+65-6887-8777",
+        "claimHelpline": "+65-6887-8777",
+        "phone": "+65-6887-8777",
+        "email": "customer.service@etiqa.com.sg",
+        "address": "One Raffles Quay, #22-01 North Tower, Singapore 048583"
       }
     },
     {
@@ -213,7 +268,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+65-6461-2000",
+        "claimHelpline": "+65-6461-2000",
+        "phone": "+65-6461-2000",
+        "email": "feedback@sompo.com.sg",
+        "address": "50 Raffles Place, #05-01 Singapore Land Tower, Singapore 048623"
       }
     },
     {
@@ -229,7 +289,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+65-6827-7888",
+        "claimHelpline": "+65-6827-7888",
+        "phone": "+65-6827-7888",
+        "email": "service@sg.msig-asia.com",
+        "address": "4 Shenton Way, #21-01 SGX Centre 2, Singapore 068807"
       }
     },
     {
@@ -244,7 +309,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+65-6327-2210",
+        "claimHelpline": "+65-6327-2210",
+        "phone": "+65-6327-2210",
+        "email": "sgtravelservice@allianz.com",
+        "address": "79 Robinson Road, #09-01, Singapore 068897"
       }
     },
     {
@@ -259,7 +329,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+65-6311-2222",
+        "claimHelpline": "+65-6311-2222",
+        "phone": "+65-6311-2222",
+        "email": "rhi@raffleshealth.com",
+        "address": "585 North Bridge Road, Raffles Hospital, Singapore 188770"
       }
     }
   ]

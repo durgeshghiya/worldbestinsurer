@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24",
+  "lastUpdated": "2026-09-23",
   "country": "South Korea",
   "countryCode": "kr",
   "insurers": [
@@ -64,7 +64,12 @@
       ],
       "countryCode": "kr",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+82-1588-1001",
+        "claimHelpline": "+82-1588-1001",
+        "phone": "+82-2-721-2114",
+        "email": "help@kyobo.com",
+        "address": "1 Jong-ro, Jongno-gu, Seoul 03154, South Korea"
       }
     },
     {
@@ -84,7 +89,12 @@
       ],
       "countryCode": "kr",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+82-1588-0220",
+        "claimHelpline": "+82-1588-0220",
+        "phone": "+82-2-3271-4000",
+        "email": "cs@miraeasset.com",
+        "address": "26 Eulji-ro 5-gil, Jung-gu, Seoul 04539, South Korea"
       }
     },
     {
@@ -106,7 +116,12 @@
       ],
       "countryCode": "kr",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+82-1588-0100",
+        "claimHelpline": "+82-1588-0100",
+        "phone": "+82-2-3011-3000",
+        "email": "customer@idbins.com",
+        "address": "432 Teheran-ro, Gangnam-gu, Seoul 06194, South Korea"
       }
     },
     {
@@ -127,7 +142,12 @@
       ],
       "countryCode": "kr",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+82-1544-0114",
+        "claimHelpline": "+82-1544-0114",
+        "phone": "+82-2-6900-5000",
+        "email": "webmaster@kbinsure.co.kr",
+        "address": "117 Teheran-ro, Gangnam-gu, Seoul 06133, South Korea"
       }
     },
     {
@@ -148,7 +168,12 @@
       ],
       "countryCode": "kr",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+82-1566-7711",
+        "claimHelpline": "+82-1566-7711",
+        "phone": "+82-2-3786-1114",
+        "email": "meritz@meritzfire.com",
+        "address": "382 Gangnam-daero, Gangnam-gu, Seoul 06232, South Korea"
       }
     },
     {
@@ -169,7 +194,12 @@
       ],
       "countryCode": "kr",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+82-1588-5656",
+        "claimHelpline": "+82-1588-5656",
+        "phone": "+82-2-3701-8000",
+        "email": "service@hi.co.kr",
+        "address": "163 Sejong-daero, Jongno-gu, Seoul 03172, South Korea"
       }
     },
     {
@@ -190,7 +220,12 @@
       ],
       "countryCode": "kr",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+82-1588-5114",
+        "claimHelpline": "+82-1588-5114",
+        "phone": "+82-2-1588-5114",
+        "email": "service@samsungfire.com",
+        "address": "14 Eulji-ro, Jung-gu, Seoul 04533, South Korea"
       }
     },
     {
@@ -210,7 +245,12 @@
       ],
       "countryCode": "kr",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+82-1588-5580",
+        "claimHelpline": "+82-1588-5580",
+        "phone": "+82-2-3455-4000",
+        "email": "shinhanlife@shinhan.com",
+        "address": "358 Cheonggyecheon-ro, Jung-gu, Seoul 04527, South Korea"
       }
     },
     {
@@ -229,7 +269,12 @@
       ],
       "countryCode": "kr",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+82-1588-7260",
+        "claimHelpline": "+82-1588-7260",
+        "phone": "+82-2-2002-7000",
+        "email": "cs@heungkuklife.co.kr",
+        "address": "68 Saemunan-ro, Jongno-gu, Seoul 03184, South Korea"
       }
     },
     {
@@ -250,7 +295,12 @@
       ],
       "countryCode": "kr",
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+82-1544-4000",
+        "claimHelpline": "+82-1544-4000",
+        "phone": "+82-2-2077-1000",
+        "email": "nhlife@nonghyup.com",
+        "address": "120 Tongil-ro, Jung-gu, Seoul 04517, South Korea"
       }
     }
   ]

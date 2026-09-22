@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24",
+  "lastUpdated": "2026-09-23",
   "countryCode": "ca",
   "insurers": [
     {
@@ -16,7 +16,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+1-877-786-5433",
+        "claimHelpline": "+1-877-786-5433",
+        "phone": "+1-416-979-9966",
+        "email": "service@sunlife.ca",
+        "address": "1 York Street, Toronto, ON M5J 0B6"
       }
     },
     {
@@ -51,7 +56,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+1-888-252-1847",
+        "claimHelpline": "+1-888-252-1847",
+        "phone": "+1-204-946-1190",
+        "email": "customer.service@canadalife.com",
+        "address": "100 Osborne Street North, Winnipeg, MB R3C 1V3"
       }
     },
     {
@@ -69,7 +79,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+1-800-463-7842",
+        "claimHelpline": "+1-800-463-7842",
+        "phone": "+1-514-281-7000",
+        "email": "info@desjardins.com",
+        "address": "100 Rue des Commandeurs, Lévis, QC G6V 7N5"
       }
     },
     {
@@ -85,7 +100,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+1-888-275-4672",
+        "claimHelpline": "+1-888-275-4672",
+        "phone": "+1-888-275-4672",
+        "email": "inquiry@bluecross.ca",
+        "address": "64 Merton Street, Toronto, ON M4S 1A1"
       }
     },
     {
@@ -100,7 +120,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+1-888-711-1119",
+        "claimHelpline": "+1-888-711-1119",
+        "phone": "+1-519-739-1111",
+        "email": "customer.service@greenshield.ca",
+        "address": "8677 Anchor Drive, Windsor, ON N8N 5G1"
       }
     },
     {
@@ -115,7 +140,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+1-877-548-1881",
+        "claimHelpline": "+1-877-548-1881",
+        "phone": "+1-613-548-1881",
+        "email": "customer.service@empire.ca",
+        "address": "259 King Street East, Kingston, ON K7L 3A8"
       }
     },
     {
@@ -132,7 +162,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+1-844-442-4636",
+        "claimHelpline": "+1-844-442-4636",
+        "phone": "+1-418-684-5000",
+        "email": "contact@ia.ca",
+        "address": "1080 Grande Allée West, Quebec City, QC G1S 1C7"
       }
     },
     {
@@ -147,7 +182,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+1-866-464-2424",
+        "claimHelpline": "+1-866-464-2424",
+        "phone": "+1-416-341-1464",
+        "email": "customer.relations@intact.net",
+        "address": "700 University Avenue, Suite 1500, Toronto, ON M5G 0A1"
       }
     },
     {
@@ -162,7 +202,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+1-800-387-4518",
+        "claimHelpline": "+1-800-387-4518",
+        "phone": "+1-416-288-1800",
+        "email": "customercare@aviva.com",
+        "address": "100 Aviva Way, Markham, ON L6G 0G1"
       }
     },
     {
@@ -177,7 +222,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+1-866-361-2311",
+        "claimHelpline": "+1-866-361-2311",
+        "phone": "+1-866-361-2311",
+        "email": "customer.service@tdinsurance.com",
+        "address": "320 Front Street West, Toronto, ON M5V 3B7"
       }
     },
     {
@@ -192,7 +242,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+1-855-446-2667",
+        "claimHelpline": "+1-855-446-2667",
+        "phone": "+1-519-824-4400",
+        "email": "service@cooperators.ca",
+        "address": "130 Macdonell Street, Guelph, ON N1H 6P8"
       }
     },
     {
@@ -207,7 +262,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+1-800-265-2178",
+        "claimHelpline": "+1-800-265-2178",
+        "phone": "+1-519-570-8200",
+        "email": "info@definity.com",
+        "address": "111 Westmount Road South, Waterloo, ON N2J 4S4"
       }
     },
     {
@@ -222,7 +282,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+1-844-766-6382",
+        "claimHelpline": "+1-844-766-6382",
+        "phone": "+1-844-766-6382",
+        "email": "support@sonnet.ca",
+        "address": "111 Westmount Road South, Waterloo, ON N2J 4S4"
       }
     },
     {
@@ -237,7 +302,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+1-844-929-2637",
+        "claimHelpline": "+1-844-929-2637",
+        "phone": "+1-204-985-3811",
+        "email": "service@wawanesa.com",
+        "address": "191 Broadway, Winnipeg, MB R3C 3K1"
       }
     },
     {
@@ -252,7 +322,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+1-800-387-0462",
+        "claimHelpline": "+1-800-387-0462",
+        "phone": "+1-905-513-4013",
+        "email": "custservice@pembridge.com",
+        "address": "2700 Cochrane Hill Road, Markham, ON L3R 9V4"
       }
     },
     {
@@ -268,7 +343,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+1-800-769-2568",
+        "claimHelpline": "+1-800-769-2568",
+        "phone": "+1-905-816-2568",
+        "email": "support@rbcinsurance.com",
+        "address": "6880 Financial Drive, Mississauga, ON L5N 7Y5"
       }
     },
     {
@@ -283,7 +363,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+1-800-387-4483",
+        "claimHelpline": "+1-800-387-4483",
+        "phone": "+1-416-867-6786",
+        "email": "insurance.bmo@bmo.com",
+        "address": "60 Yonge Street, Toronto, ON M5E 1H5"
       }
     },
     {
@@ -298,7 +383,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+1-800-667-6146",
+        "claimHelpline": "+1-800-667-6146",
+        "phone": "+1-519-742-2800",
+        "email": "questions@allianz-assistance.ca",
+        "address": "700 Jamieson Parkway, Cambridge, ON N3C 4N6"
       }
     },
     {
@@ -313,7 +403,12 @@
       ],
       "isGovernmentBacked": false,
       "contact": {
-        "lastVerified": "2026-04-03"
+        "lastVerified": "2026-09-23",
+        "customerCareNumber": "+1-866-399-5864",
+        "claimHelpline": "+1-866-399-5864",
+        "phone": "+1-866-399-5864",
+        "email": "canadaservice@worldnomads.com",
+        "address": "100 King Street West, Suite 5600, Toronto, ON M5X 1C9"
       }
     }
   ]
