@@ -39,10 +39,12 @@ export default function InsurersPage() {
             >
               <div className="flex items-start justify-between mb-3">
                 <div>
-                  <Link href={`/insurer/${insurer.slug}`} className="text-lg font-semibold text-foreground hover:text-primary transition-colors">
+                  <Link href={`/${insurer.countryCode}/insurer/${insurer.slug}/`} className="text-lg font-semibold text-foreground hover:text-primary transition-colors block">
                     {(insurer.shortName || insurer.name)}
                   </Link>
-                  <p className="text-xs text-muted">{insurer.name}</p>
+                  <Link href={`/${insurer.countryCode}/insurer/${insurer.slug}/`} className="text-xs text-muted hover:text-primary transition-colors block mt-0.5">
+                    {insurer.name}
+                  </Link>
                 </div>
                 <span className="text-xs px-2 py-1 rounded-full bg-primary-light text-primary font-medium">
                   {insurer.type.replace(/-/g, " ")}
@@ -54,19 +56,29 @@ export default function InsurersPage() {
               </p>
 
               <div className="grid grid-cols-2 gap-3 mb-4 text-xs">
-                <div className="flex items-center gap-1.5 text-muted">
+                <a
+                  href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${insurer.name} ${insurer.headquarters}`)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1.5 text-muted hover:text-primary transition-colors"
+                  title="Search location on Google Maps"
+                >
                   <MapPin className="w-3.5 h-3.5" />
                   {insurer.headquarters}
-                </div>
+                </a>
                 <div className="flex items-center gap-1.5 text-muted">
                   <Calendar className="w-3.5 h-3.5" />
                   Est. {insurer.established}
                 </div>
                 {insurer.claimSettlementRatio?.value && (
-                  <div className="flex items-center gap-1.5 text-muted">
-                    <TrendingUp className="w-3.5 h-3.5" />
+                  <Link
+                    href="/tools/claim-settlement-ratio-tracker/"
+                    className="flex items-center gap-1.5 text-muted hover:text-primary transition-colors"
+                    title="Compare in Claim Settlement Explorer"
+                  >
+                    <TrendingUp className="w-3.5 h-3.5 text-primary" />
                     CSR: {insurer.claimSettlementRatio?.value}%
-                  </div>
+                  </Link>
                 )}
                 {insurer.networkHospitals && (
                   <div className="flex items-center gap-1.5 text-muted">
@@ -80,7 +92,7 @@ export default function InsurersPage() {
                 {insurer.categories.map((cat) => (
                   <Link
                     key={cat}
-                    href={`/compare/${cat}`}
+                    href={`/${insurer.countryCode}/compare/${cat}/`}
                     className="text-xs px-2 py-0.5 rounded-md bg-muted-light text-muted hover:text-primary transition-colors"
                   >
                     {cat.replace("-", " ")}
@@ -89,11 +101,14 @@ export default function InsurersPage() {
               </div>
 
               <div className="flex items-center justify-between pt-3 border-t border-border">
-                <span className="text-xs text-muted">
-                  {products.length} plans on World Best Insurer
-                </span>
+                <Link
+                  href={`/${insurer.countryCode}/insurer/${insurer.slug}/`}
+                  className="text-xs text-primary font-medium hover:underline"
+                >
+                  {products.length} plans on World Best Insurer →
+                </Link>
                 <a
-                  href={insurer.website}
+                  href={insurer.website.startsWith("http") ? insurer.website : `https://${insurer.website}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
@@ -107,7 +122,7 @@ export default function InsurersPage() {
       </div>
 
       <div className="mt-8 p-4 bg-muted-light rounded-xl text-xs text-muted text-center">
-        All insurer information is from publicly available sources. Claim settlement ratios are indicative and sourced from IRDAI annual reports (unverified). Visit insurer websites for official data.
+        All insurer information is from publicly available sources. Claim settlement ratios are indicative and sourced from IRDAI annual reports. Visit the <Link href="/contact-directory" className="text-primary hover:underline font-medium">Insurer Contact Directory</Link> for official phone numbers, claim helplines, and websites.
       </div>
     </div>
   );

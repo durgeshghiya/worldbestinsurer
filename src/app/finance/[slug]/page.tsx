@@ -11,6 +11,78 @@ import { AdSlot } from "@/components/AdSlot";
 
 export const dynamicParams = false;
 
+function formatTextWithLinks(text: string): React.ReactNode {
+  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)|\((https?:\/\/[^\s)]+|\/(?:tools|finance|compare|insurer|product|insurers|learn|contact-directory)[^\s)]*)\)|(https?:\/\/[^\s)]+|\/(?:tools|finance|compare|insurer|product|insurers|learn|contact-directory)[a-zA-Z0-9_\-\/]+)/g;
+
+  const parts: React.ReactNode[] = [];
+  let lastIndex = 0;
+  let match;
+
+  while ((match = linkRegex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+
+    if (match[1] && match[2]) {
+      const label = match[1];
+      const url = match[2];
+      if (url.startsWith("/")) {
+        parts.push(
+          <Link key={match.index} href={url} className="text-primary font-medium hover:underline">
+            {label}
+          </Link>
+        );
+      } else {
+        parts.push(
+          <a key={match.index} href={url} target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline inline-flex items-center gap-0.5">
+            {label} <ExternalLink className="w-3 h-3 inline shrink-0" />
+          </a>
+        );
+      }
+    } else if (match[3]) {
+      const url = match[3];
+      parts.push(" (");
+      if (url.startsWith("/")) {
+        parts.push(
+          <Link key={match.index} href={url} className="text-primary font-medium hover:underline">
+            {url}
+          </Link>
+        );
+      } else {
+        parts.push(
+          <a key={match.index} href={url} target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline inline-flex items-center gap-0.5">
+            {url} <ExternalLink className="w-3 h-3 inline shrink-0" />
+          </a>
+        );
+      }
+      parts.push(")");
+    } else if (match[4]) {
+      const url = match[4];
+      if (url.startsWith("/")) {
+        parts.push(
+          <Link key={match.index} href={url} className="text-primary font-medium hover:underline">
+            {url}
+          </Link>
+        );
+      } else {
+        parts.push(
+          <a key={match.index} href={url} target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline inline-flex items-center gap-0.5">
+            {url} <ExternalLink className="w-3 h-3 inline shrink-0" />
+          </a>
+        );
+      }
+    }
+
+    lastIndex = linkRegex.lastIndex;
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+
+  return parts.length > 0 ? parts : text;
+}
+
 export async function generateStaticParams() {
   return getAllFinanceArticles().map((a) => ({ slug: a.slug }));
 }
@@ -168,7 +240,7 @@ export default async function FinanceArticlePage({
                   className="flex gap-2.5 text-[13.5px] text-text-secondary leading-[1.7]"
                 >
                   <span className="mt-[7px] w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
-                  <span>{t}</span>
+                  <span>{formatTextWithLinks(t)}</span>
                 </li>
               ))}
             </ul>
@@ -182,7 +254,7 @@ export default async function FinanceArticlePage({
                 {section.heading}
               </h2>
               <p className="text-[14.5px] text-text-secondary leading-[1.8]">
-                {section.body}
+                {formatTextWithLinks(section.body)}
               </p>
 
               {section.paragraphs?.map((para) => (
@@ -190,7 +262,7 @@ export default async function FinanceArticlePage({
                   key={para.slice(0, 40)}
                   className="mt-4 text-[14.5px] text-text-secondary leading-[1.8]"
                 >
-                  {para}
+                  {formatTextWithLinks(para)}
                 </p>
               ))}
 
@@ -205,7 +277,7 @@ export default async function FinanceArticlePage({
                         <span className="shrink-0 w-5 h-5 rounded-full bg-primary/10 text-primary text-[11px] font-semibold flex items-center justify-center mt-0.5">
                           {bi + 1}
                         </span>
-                        <span>{b}</span>
+                        <span>{formatTextWithLinks(b)}</span>
                       </li>
                     ))}
                   </ol>
@@ -217,7 +289,7 @@ export default async function FinanceArticlePage({
                         className="flex gap-2.5 text-[14px] text-text-secondary leading-[1.75]"
                       >
                         <span className="mt-[8px] w-1.5 h-1.5 rounded-full bg-text-tertiary/50 shrink-0" />
-                        <span>{b}</span>
+                        <span>{formatTextWithLinks(b)}</span>
                       </li>
                     ))}
                   </ul>
@@ -256,7 +328,7 @@ export default async function FinanceArticlePage({
                                     : "px-4 py-3 text-[13px] text-text-secondary"
                                 }
                               >
-                                {cell}
+                                {typeof cell === "string" ? formatTextWithLinks(cell) : cell}
                               </td>
                             ))}
                           </tr>
@@ -278,7 +350,7 @@ export default async function FinanceArticlePage({
                     {section.callout.label}
                   </p>
                   <p className="text-[13.5px] text-text-secondary leading-[1.75]">
-                    {section.callout.text}
+                    {formatTextWithLinks(section.callout.text)}
                   </p>
                 </div>
               )}
@@ -298,7 +370,7 @@ export default async function FinanceArticlePage({
                     {f.question}
                   </h3>
                   <p className="text-[14px] text-text-secondary leading-[1.8]">
-                    {f.answer}
+                    {formatTextWithLinks(f.answer)}
                   </p>
                 </div>
               ))}

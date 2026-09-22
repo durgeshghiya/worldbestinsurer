@@ -152,7 +152,13 @@ export default async function InsurerVSPage({
 
       {/* Title */}
       <h1 className="text-[26px] sm:text-[36px] font-bold text-text-primary tracking-[-0.02em] mb-2">
-        {(a.shortName || a.name)} vs {(b.shortName || b.name)}
+        <Link href={`/${country}/insurer/${a.slug}/`} className="hover:text-primary transition-colors">
+          {(a.shortName || a.name)}
+        </Link>{" "}
+        <span className="text-text-tertiary font-normal">vs</span>{" "}
+        <Link href={`/${country}/insurer/${b.slug}/`} className="hover:text-primary transition-colors">
+          {(b.shortName || b.name)}
+        </Link>
       </h1>
       <p className="text-[14px] text-text-tertiary mb-10">
         Side-by-side comparison in {c.name}
@@ -166,10 +172,14 @@ export default async function InsurerVSPage({
             Metric
           </div>
           <div className="p-4 text-center">
-            <p className="text-[14px] font-bold text-text-primary">{(a.shortName || a.name)}</p>
+            <Link href={`/${country}/insurer/${a.slug}/`} className="text-[14px] font-bold text-text-primary hover:text-primary transition-colors block">
+              {(a.shortName || a.name)}
+            </Link>
           </div>
           <div className="p-4 text-center">
-            <p className="text-[14px] font-bold text-text-primary">{(b.shortName || b.name)}</p>
+            <Link href={`/${country}/insurer/${b.slug}/`} className="text-[14px] font-bold text-text-primary hover:text-primary transition-colors block">
+              {(b.shortName || b.name)}
+            </Link>
           </div>
         </div>
 

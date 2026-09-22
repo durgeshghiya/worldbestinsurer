@@ -271,7 +271,9 @@ export default function ProductTabs({
                       </th>
                       {similarProducts.slice(0, 3).map((sp) => (
                         <th key={sp.id} className="text-left py-3 px-4 text-[12px] font-semibold text-text-primary">
-                          {sp.productName}
+                          <Link href={`/${sp.countryCode}/product/${sp.id}/`} className="hover:text-primary transition-colors">
+                            {sp.productName}
+                          </Link>
                         </th>
                       ))}
                     </tr>

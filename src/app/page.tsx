@@ -110,10 +110,10 @@ export default function HomePage() {
   }));
 
   const stats = [
-    { v: totalProducts.toLocaleString(), l: "Plans indexed" },
-    { v: String(totalInsurers), l: "Insurers tracked" },
-    { v: String(activeCountries.length), l: "Country markets" },
-    { v: "0", l: "Affiliate links" },
+    { v: totalProducts.toLocaleString(), l: "Plans indexed", href: "/compare/health" },
+    { v: String(totalInsurers), l: "Insurers tracked", href: "/insurers" },
+    { v: String(activeCountries.length), l: "Country markets", href: "/contact-directory" },
+    { v: "0", l: "Affiliate links", href: "/about" },
   ];
 
   return (
@@ -169,17 +169,21 @@ export default function HomePage() {
         <div className={`${WRAP} py-8`}>
           <dl className="grid grid-cols-2 gap-6 sm:grid-cols-4">
             {stats.map((s) => (
-              <div key={s.l}>
+              <Link
+                key={s.l}
+                href={s.href}
+                className="group block p-3 rounded-xl hover:bg-surface-sunken transition-colors -m-3"
+              >
                 <dt className="sr-only">{s.l}</dt>
                 <dd>
-                  <span className="block text-[28px] font-bold tracking-[-0.02em] text-text-primary tabular-nums">
+                  <span className="block text-[28px] font-bold tracking-[-0.02em] text-text-primary group-hover:text-primary transition-colors tabular-nums">
                     {s.v}
                   </span>
-                  <span className="mt-0.5 block text-[12px] text-text-tertiary">
-                    {s.l}
+                  <span className="mt-0.5 block text-[12px] text-text-tertiary group-hover:text-text-secondary transition-colors">
+                    {s.l} &rarr;
                   </span>
                 </dd>
-              </div>
+              </Link>
             ))}
           </dl>
         </div>

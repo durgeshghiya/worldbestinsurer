@@ -28,11 +28,16 @@ export default function ProductCard({ product }: { product: InsuranceProduct }) 
         {/* Header */}
         <div className="flex items-start justify-between mb-4">
           <div>
-            <p className="text-[11px] font-bold text-primary uppercase tracking-[0.1em]">
+            <Link
+              href={`/${p.countryCode}/insurer/${p.insurerSlug}/`}
+              className="text-[11px] font-bold text-primary uppercase tracking-[0.1em] hover:underline block"
+            >
               {p.insurerName.split(" ").slice(0, 2).join(" ")}
-            </p>
+            </Link>
             <h3 className="text-[15px] font-bold text-text-primary mt-0.5 leading-snug group-hover:text-primary transition-colors">
-              {p.productName}
+              <Link href={`/${p.countryCode}/product/${p.id}/`}>
+                {p.productName}
+              </Link>
             </h3>
           </div>
           <span className={cn("shrink-0 text-[10px] font-semibold px-2 py-0.5 rounded-full border", confidenceStyles[p.confidenceScore])}>
@@ -64,9 +69,13 @@ export default function ProductCard({ product }: { product: InsuranceProduct }) 
             </span>
           )}
           {p.claimSettlement?.ratio && (
-            <span className="flex items-center gap-1">
-              <TrendingUp className="w-3 h-3" /> CSR {p.claimSettlement.ratio}%
-            </span>
+            <Link
+              href={p.countryCode === "in" ? "/tools/claim-settlement-ratio-tracker/" : `/${p.countryCode}/insurer/${p.insurerSlug}/`}
+              className="flex items-center gap-1 hover:text-primary transition-colors"
+              title="View Claim Settlement Ratio details"
+            >
+              <TrendingUp className="w-3 h-3 text-primary" /> CSR {p.claimSettlement.ratio}%
+            </Link>
           )}
         </div>
 

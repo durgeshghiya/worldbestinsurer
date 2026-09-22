@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import Link from "next/link";
 import { Search, X, Filter } from "lucide-react";
 import ContactCard from "./ContactCard";
 import type { Insurer, Category } from "@/lib/types";
@@ -191,7 +192,13 @@ export default function ContactDirectorySearch({ insurers, countries }: Props) {
               <div className="flex items-center gap-3 mb-5">
                 <span className="text-2xl">{COUNTRY_FLAGS[cc]}</span>
                 <h2 className="text-xl font-bold text-text-primary">
-                  {COUNTRY_NAMES[cc]}
+                  <Link
+                    href={`/${cc}/contact-directory/`}
+                    className="hover:text-primary hover:underline transition-colors"
+                    title={`View ${COUNTRY_NAMES[cc]} Contact Directory`}
+                  >
+                    {COUNTRY_NAMES[cc]}
+                  </Link>
                 </h2>
                 <span className="px-2 py-0.5 rounded-full bg-surface-sunken text-xs font-medium text-text-tertiary">
                   {items.length}

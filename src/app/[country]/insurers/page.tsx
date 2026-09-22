@@ -152,13 +152,9 @@ export default async function CountryInsurersPage({ params }: { params: Promise<
                     <div className="flex items-start justify-between mb-3 gap-3">
                       <div className="min-w-0">
                         <h3 className="text-[15px] font-bold text-text-primary">
-                          {ins.linkable ? (
-                            <Link href={`/${country}/insurer/${ins.slug}/`} className="hover:text-primary">
-                              {ins.name}
-                            </Link>
-                          ) : (
-                            ins.name
-                          )}
+                          <Link href={`/${country}/insurer/${ins.slug}/`} className="hover:text-primary transition-colors">
+                            {ins.name}
+                          </Link>
                         </h3>
                         <p className="text-[11px] text-text-tertiary">
                           {ins.type}
@@ -170,7 +166,7 @@ export default async function CountryInsurersPage({ params }: { params: Promise<
                         </p>
                       </div>
                       <a
-                        href={ins.website}
+                        href={ins.website.startsWith("http") ? ins.website : `https://${ins.website}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="relative z-10 p-1.5 text-text-tertiary hover:text-primary transition-colors"
@@ -184,17 +180,23 @@ export default async function CountryInsurersPage({ params }: { params: Promise<
                     )}
                     <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-text-tertiary">
                       {ins.headquarters && (
-                        <span className="flex items-center gap-1"><MapPin className="w-3 h-3" /> {ins.headquarters}</span>
+                        <a
+                          href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${ins.name} ${ins.headquarters}`)}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-1 hover:text-primary transition-colors"
+                          title="Search location on Google Maps"
+                        >
+                          <MapPin className="w-3 h-3" /> {ins.headquarters}
+                        </a>
                       )}
                       {ins.established ? (
                         <span className="flex items-center gap-1"><Calendar className="w-3 h-3" /> {ins.established}</span>
                       ) : null}
                       <span>{ins.products} listed product{ins.products === 1 ? "" : "s"}</span>
-                      {ins.linkable && (
-                        <Link href={`/${country}/insurer/${ins.slug}/`} className="ml-auto inline-flex items-center gap-0.5 font-medium text-primary">
-                          Details <ArrowUpRight className="h-3 w-3" aria-hidden="true" />
-                        </Link>
-                      )}
+                      <Link href={`/${country}/insurer/${ins.slug}/`} className="ml-auto inline-flex items-center gap-0.5 font-medium text-primary hover:underline">
+                        Details <ArrowUpRight className="h-3 w-3" aria-hidden="true" />
+                      </Link>
                     </div>
                   </div>
                 ))}

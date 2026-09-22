@@ -225,13 +225,22 @@ export default function ClaimSettlementExplorer({ insurers }: Props) {
 
                 {/* Segment Tag */}
                 <td className="py-4 px-4 sm:px-6">
-                  <span className="inline-block px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-surface-sunken border border-border capitalize">
+                  <Link
+                    href={
+                      ins.type === "standalone-health"
+                        ? "/in/compare/health"
+                        : ins.type === "life"
+                        ? "/in/compare/term-life"
+                        : "/in/compare/health"
+                    }
+                    className="inline-block px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-surface-sunken border border-border capitalize hover:border-primary/40 hover:text-primary transition-colors"
+                  >
                     {ins.type === "standalone-health"
                       ? "Standalone Health"
                       : ins.type === "life"
                       ? "Life & Term"
                       : "General Insurance"}
-                  </span>
+                  </Link>
                 </td>
 
                 {/* Claim Settlement Ratio (Number) */}

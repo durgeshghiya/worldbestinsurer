@@ -70,10 +70,18 @@ export default function ComparisonTable({ products, category }: Props) {
                   const f = freshnessLabel(p.lastVerified);
                   return (
                     <th key={p.id} className="text-left p-3">
-                      <p className="text-[11px] text-primary font-semibold mb-0.5">
+                      <Link
+                        href={`/${p.countryCode}/insurer/${p.insurerSlug}/`}
+                        className="text-[11px] text-primary font-semibold mb-0.5 hover:underline block"
+                      >
                         {p.insurerName.split(" ").slice(0, 2).join(" ")}
-                      </p>
-                      <p className="text-[13px] font-semibold text-text-primary">{p.productName}</p>
+                      </Link>
+                      <Link
+                        href={`/${p.countryCode}/product/${p.id}/`}
+                        className="text-[13px] font-semibold text-text-primary hover:text-primary transition-colors block"
+                      >
+                        {p.productName}
+                      </Link>
                       <span className="flex items-center gap-1 mt-1 text-[10px] text-text-tertiary">
                         <span className={cn(
                           "w-1 h-1 rounded-full",

@@ -76,12 +76,20 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
             <p className="text-[16px] text-text-secondary leading-relaxed mb-6">{c.description}</p>
 
             <div className="flex flex-wrap gap-3 mb-10">
-              <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-surface border border-border text-[12px] font-medium text-text-secondary">
+              <Link
+                href={`/${country}/insurers/`}
+                className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-surface border border-border text-[12px] font-medium text-text-secondary hover:border-primary/30 hover:text-primary transition-colors"
+                title={`Explore plans in ${c.name}`}
+              >
                 <Database className="w-3.5 h-3.5 text-primary" /> {products.length} Plans
-              </div>
-              <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-surface border border-border text-[12px] font-medium text-text-secondary">
+              </Link>
+              <Link
+                href={`/${country}/insurers/`}
+                className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-surface border border-border text-[12px] font-medium text-text-secondary hover:border-primary/30 hover:text-primary transition-colors"
+                title={`Explore insurers in ${c.name}`}
+              >
                 <Users className="w-3.5 h-3.5 text-primary" /> {insurers.length} Insurers
-              </div>
+              </Link>
               <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-surface border border-border text-[12px] font-medium text-text-secondary">
                 <Globe2 className="w-3.5 h-3.5 text-primary" /> {c.currency.code} ({c.currency.symbol})
               </div>

@@ -60,34 +60,51 @@ export default function ContactCard({ insurer, countryFlag }: { insurer: Insurer
         <div className="flex items-start justify-between gap-3 mb-2">
           <div className="min-w-0">
             <Link
-              href={`/insurer/${insurer.slug}`}
-              className="text-base font-semibold text-text-primary hover:text-primary transition-colors line-clamp-1"
+              href={`/${insurer.countryCode}/insurer/${insurer.slug}/`}
+              className="text-base font-semibold text-text-primary hover:text-primary transition-colors line-clamp-1 block"
             >
               {insurer.shortName}
             </Link>
-            <p className="text-xs text-text-tertiary mt-0.5 line-clamp-1">{insurer.name}</p>
+            <Link
+              href={`/${insurer.countryCode}/insurer/${insurer.slug}/`}
+              className="text-xs text-text-tertiary hover:text-primary transition-colors mt-0.5 line-clamp-1 block"
+            >
+              {insurer.name}
+            </Link>
           </div>
           {countryFlag && (
-            <span className="text-lg shrink-0" title={insurer.countryCode.toUpperCase()}>
+            <Link
+              href={`/${insurer.countryCode}/contact-directory/`}
+              className="text-lg shrink-0 hover:scale-110 transition-transform"
+              title={`View ${insurer.countryCode.toUpperCase()} contact directory`}
+            >
               {countryFlag}
-            </span>
+            </Link>
           )}
         </div>
         <div className="flex flex-wrap gap-1.5 mt-2">
           {insurer.categories.map((cat) => (
-            <span
+            <Link
               key={cat}
-              className="px-2 py-0.5 rounded-full text-[10px] font-semibold text-white"
+              href={`/${insurer.countryCode}/compare/${cat}/`}
+              className="px-2 py-0.5 rounded-full text-[10px] font-semibold text-white hover:opacity-85 transition-opacity"
               style={{ backgroundColor: CATEGORY_COLORS[cat] || "#666" }}
+              title={`Compare ${CATEGORY_LABELS[cat] || cat} insurance`}
             >
               {CATEGORY_LABELS[cat] || cat}
-            </span>
+            </Link>
           ))}
           {insurer.headquarters && (
-            <span className="flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-medium text-text-tertiary bg-surface-sunken">
+            <a
+              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${insurer.name} ${insurer.headquarters}`)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-medium text-text-tertiary bg-surface-sunken hover:bg-primary/10 hover:text-primary transition-colors"
+              title="Search headquarters on Google Maps"
+            >
               <MapPin className="w-2.5 h-2.5" />
               {insurer.headquarters}
-            </span>
+            </a>
           )}
         </div>
       </div>
@@ -153,7 +170,15 @@ export default function ContactCard({ insurer, countryFlag }: { insurer: Insurer
             {c?.address && (
               <div className="flex items-start gap-2.5 text-sm mt-1">
                 <Building2 className="w-4 h-4 text-text-tertiary shrink-0 mt-0.5" />
-                <p className="text-text-tertiary text-xs leading-relaxed line-clamp-2">{c.address}</p>
+                <a
+                  href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${insurer.name} ${c.address}`)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-text-tertiary hover:text-primary transition-colors text-xs leading-relaxed line-clamp-2"
+                  title="View registered office on Google Maps"
+                >
+                  {c.address}
+                </a>
               </div>
             )}
 
@@ -172,13 +197,13 @@ export default function ContactCard({ insurer, countryFlag }: { insurer: Insurer
       {/* Footer */}
       <div className="px-5 py-3 bg-surface-sunken/50 border-t border-border/30 flex items-center justify-between">
         <Link
-          href={`/insurer/${insurer.slug}`}
+          href={`/${insurer.countryCode}/insurer/${insurer.slug}/`}
           className="text-xs font-medium text-primary hover:underline"
         >
-          View details
+          View details →
         </Link>
         <a
-          href={insurer.website}
+          href={insurer.website.startsWith("http") ? insurer.website : `https://${insurer.website}`}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-1 text-xs text-text-tertiary hover:text-primary transition-colors"

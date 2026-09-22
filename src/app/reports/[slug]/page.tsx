@@ -81,8 +81,26 @@ export default async function ReportPage({
 
       {/* Header */}
       <div className="mb-10">
-        <p className="text-[11px] font-semibold text-primary uppercase tracking-wider mb-2">
-          {report.category} · {report.country}
+        <p className="text-[11px] font-semibold text-primary uppercase tracking-wider mb-2 flex items-center gap-1.5">
+          <Link
+            href={`/compare/${report.category.toLowerCase().replace(/\s+/g, "-")}`}
+            className="hover:underline"
+          >
+            {report.category}
+          </Link>
+          <span>·</span>
+          <Link
+            href={
+              report.country.toLowerCase() === "india"
+                ? "/in"
+                : report.country.toLowerCase() === "united states" || report.country.toLowerCase() === "us"
+                ? "/us"
+                : "/"
+            }
+            className="hover:underline"
+          >
+            {report.country}
+          </Link>
         </p>
         <h1 className="text-[28px] sm:text-[38px] font-bold text-text-primary tracking-[-0.02em] leading-tight mb-3">
           {report.title}
@@ -154,10 +172,10 @@ export default async function ReportPage({
           Use our comparison tool to see detailed features, premiums, and coverage side by side.
         </p>
         <Link
-          href="/in/compare/health"
+          href={`/compare/${report.category.toLowerCase().replace(/\s+/g, "-")}`}
           className="inline-flex items-center gap-2 px-6 py-3 bg-gray-900 text-white text-[13px] font-medium rounded-lg hover:bg-gray-800 transition-colors"
         >
-          Compare Health Plans →
+          Compare {report.category} Plans →
         </Link>
       </div>
 

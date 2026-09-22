@@ -33,6 +33,15 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
   const allArticles = getArticles().filter((a) => a.slug !== slug).slice(0, 3);
 
+  const categoryMap: Record<string, string> = {
+    Health: "/compare/health",
+    "Term Life": "/compare/term-life",
+    Motor: "/compare/motor",
+    Travel: "/compare/travel",
+    Tax: "/tools/section-80d-tax-calculator",
+  };
+  const categoryHref = categoryMap[article.category] || "/learn";
+
   return (
     <div className="mx-auto max-w-[720px] px-5 lg:px-8 py-10">
       <ArticleSchema article={article} />
@@ -49,7 +58,12 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
       <article>
         <div className="flex items-center gap-3 mb-4">
-          <span className="text-[12px] font-medium px-2.5 py-0.5 rounded-full bg-primary-light text-primary">{article.category}</span>
+          <Link
+            href={categoryHref}
+            className="text-[12px] font-medium px-2.5 py-0.5 rounded-full bg-primary-light text-primary hover:bg-primary/20 transition-colors"
+          >
+            {article.category}
+          </Link>
           <span className="text-[12px] text-text-tertiary flex items-center gap-1"><Clock className="w-3 h-3" /> {article.readTime}</span>
         </div>
 

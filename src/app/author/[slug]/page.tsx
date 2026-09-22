@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowLeft, BookOpen, Globe, Award, ChevronRight } from "lucide-react";
+import { ArrowLeft, BookOpen, Globe, Award, ChevronRight, ExternalLink } from "lucide-react";
 import { BreadcrumbSchema } from "@/components/StructuredData";
 import { getArticles } from "@/lib/generators";
 import { getAllFinanceArticles } from "@/lib/finance";
@@ -72,6 +72,7 @@ export default async function AuthorPage({
               name: "World Best Insurer",
               url: "https://worldbestinsurer.com",
             },
+            ...(author.linkedIn ? { sameAs: [author.linkedIn] } : {}),
             knowsAbout: author.expertise,
             description: author.bio,
           }),
@@ -102,6 +103,16 @@ export default async function AuthorPage({
         </h1>
         <p className="text-[14px] text-primary font-medium mb-1">{author.role}</p>
         <p className="text-[12px] text-text-tertiary">{author.credentials}</p>
+        {author.linkedIn && (
+          <a
+            href={author.linkedIn}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-[12px] text-primary hover:underline mt-2"
+          >
+            LinkedIn Profile <ExternalLink className="w-3 h-3" />
+          </a>
+        )}
       </div>
 
       {/* Stats */}

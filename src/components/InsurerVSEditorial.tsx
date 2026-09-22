@@ -52,11 +52,11 @@ export default function InsurerVSEditorial({
           WBI Editorial Team
         </Link>{" "}
         ·{" "}
-        <Link href={`/insurer/${a.slug}`} className="text-primary hover:underline">
+        <Link href={`/${a.countryCode}/insurer/${a.slug}/`} className="text-primary hover:underline">
           {(a.shortName || a.name)} profile
         </Link>{" "}
         ·{" "}
-        <Link href={`/insurer/${b.slug}`} className="text-primary hover:underline">
+        <Link href={`/${b.countryCode}/insurer/${b.slug}/`} className="text-primary hover:underline">
           {(b.shortName || b.name)} profile
         </Link>
       </p>

@@ -63,12 +63,20 @@ export default async function CountryVSPage({ params }: { params: Promise<{ coun
             <tr className="border-b border-border bg-surface-sunken">
               <th className="text-left p-4 w-1/3 text-[11px] font-semibold text-text-tertiary uppercase tracking-[0.06em]">Feature</th>
               <th className="text-left p-4 w-1/3">
-                <p className="text-[11px] text-primary font-semibold">{a.insurerName}</p>
-                <p className="text-[14px] font-semibold text-text-primary">{a.productName}</p>
+                <Link href={`/${country}/insurer/${a.insurerSlug}/`} className="text-[11px] text-primary font-semibold hover:underline block mb-0.5">
+                  {a.insurerName}
+                </Link>
+                <Link href={`/${country}/product/${a.id}/`} className="text-[14px] font-semibold text-text-primary hover:text-primary transition-colors block">
+                  {a.productName}
+                </Link>
               </th>
               <th className="text-left p-4 w-1/3">
-                <p className="text-[11px] text-primary font-semibold">{b.insurerName}</p>
-                <p className="text-[14px] font-semibold text-text-primary">{b.productName}</p>
+                <Link href={`/${country}/insurer/${b.insurerSlug}/`} className="text-[11px] text-primary font-semibold hover:underline block mb-0.5">
+                  {b.insurerName}
+                </Link>
+                <Link href={`/${country}/product/${b.id}/`} className="text-[14px] font-semibold text-text-primary hover:text-primary transition-colors block">
+                  {b.productName}
+                </Link>
               </th>
             </tr>
           </thead>

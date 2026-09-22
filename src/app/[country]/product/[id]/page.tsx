@@ -260,17 +260,23 @@ export default async function CountryProductPage({
             {/*  PRODUCT HEADER                                             */}
             {/* =========================================================== */}
             <div className="mb-8">
-              <p className="text-[12px] font-bold text-primary uppercase tracking-[0.15em] mb-2">
+              <Link
+                href={`/${country}/insurer/${p.insurerSlug}/`}
+                className="text-[12px] font-bold text-primary uppercase tracking-[0.15em] mb-2 hover:underline inline-block"
+              >
                 {p.insurerName}
-              </p>
+              </Link>
               <h1 className="text-[28px] sm:text-[38px] font-extrabold text-text-primary tracking-[-0.03em] leading-tight mb-4">
                 {p.productName}
               </h1>
               <div className="flex flex-wrap items-center gap-2.5">
                 {/* Category badge */}
-                <span className="px-3 py-1 text-[11px] font-semibold rounded-full bg-primary-light text-primary uppercase">
+                <Link
+                  href={`/${country}/compare/${p.category}/`}
+                  className="px-3 py-1 text-[11px] font-semibold rounded-full bg-primary-light text-primary uppercase hover:bg-primary/20 transition-colors"
+                >
                   {p.category.replace("-", " ")}
-                </span>
+                </Link>
                 {/* Sub-category */}
                 {p.subCategory && (
                   <span className="px-3 py-1 text-[11px] font-medium rounded-full bg-surface-sunken text-text-secondary">

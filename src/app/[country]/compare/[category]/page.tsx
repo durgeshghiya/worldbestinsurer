@@ -89,9 +89,13 @@ export default async function CountryComparePage({ params }: { params: Promise<{
                 <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-surface border border-border text-[12px] font-medium text-text-secondary">
                   <Database className="w-3.5 h-3.5 text-primary" /> {products.length} plans
                 </div>
-                <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-surface border border-border text-[12px] font-medium text-text-secondary">
+                <Link
+                  href={`/${country}/insurers/`}
+                  className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-surface border border-border text-[12px] font-medium text-text-secondary hover:border-primary/30 hover:text-primary transition-colors"
+                  title={`View all insurers in ${c.name}`}
+                >
                   <Sparkles className="w-3.5 h-3.5 text-primary" /> {uniqueInsurers} insurers
-                </div>
+                </Link>
                 <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-surface border border-border text-[12px] font-medium text-text-secondary">
                   <Clock className="w-3.5 h-3.5 text-primary" /> Updated: {lastUpdated || "N/A"}
                 </div>
