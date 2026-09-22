@@ -1,0 +1,154 @@
+{
+  "slug": "moratorium-period-health-insurance-india-5-year-rule",
+  "title": "The 5-Year Moratorium Rule in Indian Health Insurance: When an Insurer Can No Longer Reject Your Claim",
+  "excerpt": "Under IRDAI rules effective since 2024, once a health insurance policy completes 60 months of continuous coverage, the insurer permanently loses the right to contest or reject a claim on grounds of non-disclosure or misrepresentation. Here is exactly how the 5-year clock works, what survives it, and how portability affects it.",
+  "publishedAt": "2026-09-22",
+  "lastUpdated": "2026-09-22",
+  "author": "WBI Editorial Team",
+  "category": "Claims",
+  "tags": [
+    "Health Insurance",
+    "IRDAI",
+    "Claims",
+    "Moratorium",
+    "India",
+    "Non-disclosure"
+  ],
+  "readTime": "10 min",
+  "keyTakeaways": [
+    "From 1 April 2024, IRDAI reduced the moratorium period from 8 years (96 months) to 5 years (60 months) of continuous coverage.",
+    "After 60 continuous months, an insurer cannot cancel the policy or repudiate a claim on the grounds of non-disclosure or innocent misrepresentation.",
+    "The only exception that survives the 60-month threshold is established fraud — which requires the insurer to prove deliberate, intentional deceit.",
+    "Portability carries your moratorium credit. Three years served with your old insurer count towards the five-year moratorium at the new insurer for the ported sum insured.",
+    "If you increase your sum insured, the original cover keeps its served moratorium clock, while the enhanced portion starts its own 60-month clock from the date of increase.",
+    "A policy lapse that exceeds the 30-day grace period breaks continuity and resets the entire 60-month moratorium clock to zero."
+  ],
+  "sections": [
+    {
+      "heading": "The short answer",
+      "body": "The single most common ground on which health insurance claims are repudiated in India is 'non-disclosure of material facts' — the insurer discovering during hospitalization that you consulted a physician for hypertension, diabetes, or an earlier ailment years before buying the policy and failed to write it down on the proposal form.",
+      "paragraphs": [
+        "The moratorium period exists to put an absolute expiry date on that argument. Under the IRDAI Master Circular on Health Insurance Business (May 2024), after five consecutive years (60 months) of unbroken coverage, the insurer is legally barred from questioning the validity of the policy or denying a claim on grounds of non-disclosure or misrepresentation.",
+        "Before this reform, the moratorium period was 8 years (96 months). The reduction to 5 years is one of the most substantial legal protections granted to Indian policyholders, shifting the burden of proof decisively away from the consumer."
+      ]
+    },
+    {
+      "heading": "What the 60-month moratorium protects",
+      "body": "Insurance contracts operate on the principle of uberrima fides (utmost good faith). When you buy a policy, you are expected to disclose all medical history. But decades of Ombudsman rulings showed that insurers often accepted premiums without verification, only to conduct forensic investigations into medical records dating back ten years the moment a major claim occurred.",
+      "table": {
+        "headers": [
+          "Stage",
+          "Policy Age < 60 Months",
+          "Policy Age >= 60 Months"
+        ],
+        "rows": [
+          [
+            "Innocent Non-Disclosure",
+            "Insurer can repudiate claim and cancel policy",
+            "Protected. Insurer cannot repudiate or cancel"
+          ],
+          [
+            "Omission of Past Medication",
+            "Can be treated as material non-disclosure",
+            "Protected. Claim must be processed per policy terms"
+          ],
+          [
+            "Pre-Existing Disease Waiting Periods",
+            "Governed by policy schedule (max 36 months)",
+            "All waiting periods already completed (elapsed at 36m)"
+          ],
+          [
+            "Established Intentional Fraud",
+            "Claim repudiated; policy voided",
+            "Survives moratorium. Insurer must prove active fraud"
+          ],
+          [
+            "Permanent Exclusions in Schedule",
+            "Enforceable if written in schedule",
+            "Enforceable. Moratorium does not override permanent exclusions"
+          ]
+        ],
+        "caption": "Comparison of insurer dispute rights before and after the 60-month continuous coverage threshold."
+      },
+      "callout": {
+        "label": "The Legal Distinction",
+        "text": "Non-disclosure means you omitted a past consultation or illness. Fraud means you deliberately engineered deceit to obtain money or coverage you knew was prohibited. The burden of proving fraud rests entirely on the insurer, requiring strict documentary evidence."
+      }
+    },
+    {
+      "heading": "How the 5-year clock is calculated",
+      "body": "The 60 months must be unbroken, continuous coverage. It starts from the inception date of the original policy.",
+      "bullets": [
+        "Annual renewals: If renewed every year on or before the due date, the clock runs continuously without pause.",
+        "Grace period renewals: If you pay your renewal premium within the 30-day statutory grace period, continuity is preserved, and the 60-month clock continues uninterrupted (though claims arising during the grace days themselves are not covered).",
+        "Lapse past 30 days: If you fail to renew within the 30-day grace period, the policy lapses. If revived subsequently or repurchased, the 60-month clock resets to day one.",
+        "Portability: When porting from Insurer A to Insurer B under IRDAI portability regulations, the accrued moratorium period transfers completely to the new insurer, provided there was no break in coverage."
+      ]
+    },
+    {
+      "heading": "Sum insured enhancements: the two-tier clock",
+      "body": "A critical detail that trips up policyholders is what happens when you upgrade your sum insured. The moratorium clock applies per rupee of coverage from the date that specific coverage began.",
+      "paragraphs": [
+        "Suppose you bought a Rs 5 lakh policy in 2020. In 2023, you upgraded the sum insured to Rs 10 lakh. In 2026, you make a claim for Rs 8 lakh.",
+        "The first Rs 5 lakh has completed 6 years (72 months) of continuous coverage and has passed the 60-month moratorium. The insurer cannot contest non-disclosure on that Rs 5 lakh under any circumstances except fraud.",
+        "However, the additional Rs 5 lakh (which raised the total to Rs 10 lakh) has only completed 3 years (36 months). The insurer is still legally entitled to investigate and contest the incremental Rs 5 lakh for non-disclosure until 2028."
+      ]
+    },
+    {
+      "heading": "What the moratorium does not cover",
+      "body": "The moratorium is not a blank cheque that forces an insurer to pay every bill. It addresses one specific legal question: whether the insurer can declare the contract void or repudiate a claim on grounds of past medical non-disclosure.",
+      "bullets": [
+        "Standard policy exclusions: If a procedure is globally excluded under your policy (such as cosmetic surgery, unproven treatments, or self-inflicted injuries), completing 60 months does not make it payable.",
+        "Permanent exclusions in the schedule: If, at inception, you disclosed severe arthritis and the insurer explicitly agreed to issue the policy with a written permanent exclusion for joint replacement, that exclusion remains legally valid forever.",
+        "Sub-limits and room rent caps: Moratorium completion does not waive room rent limits, ICU caps, or disease-wise copayments specified in your policy schedule."
+      ]
+    },
+    {
+      "heading": "What to do if an insurer repudiates a 5+ year policy",
+      "body": "If an insurer denies your claim citing 'non-disclosure of past medical history' on a policy that has run continuously for more than 5 years (60 months), the repudiation is in direct violation of IRDAI Master Circular guidelines.",
+      "ordered": true,
+      "bullets": [
+        "Step 1: File an immediate written objection with the insurer's Grievance Redressal Officer (GRO), explicitly citing Clause 5.1 of the IRDAI Master Circular on Health Insurance Business (29 May 2024) regarding the 60-month moratorium.",
+        "Step 2: Require the insurer to produce written proof of intentional fraud if they maintain the repudiation.",
+        "Step 3: If no resolution is provided within 14 days, escalate the complaint on the IRDAI Bima Bharosa portal (bimabharosa.irdai.gov.in).",
+        "Step 4: If the insurer refuses to pay, approach the Insurance Ombudsman in your jurisdiction. The Insurance Ombudsman has statutory powers to overturn unlawful repudiations and award up to Rs 50 lakh, along with interest."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "When did the 5-year moratorium period come into effect in India?",
+      "answer": "The reduction from 8 years (96 months) to 5 years (60 months) was notified by IRDAI in the Master Circular on Health Insurance Business issued on 29 May 2024, applicable across all retail health insurance policies in India."
+    },
+    {
+      "question": "Can an insurer cancel my health insurance policy after 5 years?",
+      "answer": "No. Once a policy has run continuously for 60 months, the insurer cannot cancel the policy or repudiate a claim on grounds of misrepresentation or non-disclosure of material facts, except in cases of proven intentional fraud."
+    },
+    {
+      "question": "If I port my policy to a new insurer after 4 years, does my moratorium reset?",
+      "answer": "No. Under IRDAI portability regulations, continuity benefits transfer to the new insurer. Your 4 years of completed coverage count towards the 5-year moratorium, meaning you only need to complete 1 additional year with the new insurer for the ported sum insured."
+    },
+    {
+      "question": "Does the moratorium override the pre-existing disease (PED) waiting period?",
+      "answer": "No, but in practice PED waiting periods are capped by IRDAI at 36 months (3 years). By the time you reach the 60-month moratorium, all standard PED waiting periods (max 36 months) have already expired."
+    },
+    {
+      "question": "What is the difference between Section 45 of the Insurance Act and the Health Insurance Moratorium?",
+      "answer": "Section 45 of the Insurance Act, 1938 historically applied a 3-year incontestability clause to life insurance policies. The 5-year health insurance moratorium is governed by IRDAI Health Insurance Regulations and the 2024 Master Circular, tailored specifically for general and health insurers."
+    }
+  ],
+  "sources": [
+    {
+      "title": "IRDAI Master Circular on Health Insurance Business (Ref: IRDAI/HLT/CIR/PRO/84/5/2024, 29 May 2024)",
+      "url": "https://irdai.gov.in/"
+    },
+    {
+      "title": "Insurance Regulatory and Development Authority of India (Insurance Products) Regulations, 2024",
+      "url": "https://irdai.gov.in/"
+    },
+    {
+      "title": "Insurance Ombudsman Rules, 2017 & Amendments",
+      "url": "https://www.cioins.co.in/"
+    }
+  ]
+}

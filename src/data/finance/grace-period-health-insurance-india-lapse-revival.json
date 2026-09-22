@@ -1,0 +1,142 @@
+{
+  "slug": "grace-period-health-insurance-india-lapse-revival",
+  "title": "Health Insurance Grace Period in India: The 30-Day Window, Claim Risks, and Portability Credit",
+  "excerpt": "A health insurance grace period gives you extra time to pay your renewal premium without losing accrued waiting periods. But it does not provide free medical cover during the delay, and missing the deadline resets years of accumulated protection.",
+  "publishedAt": "2026-09-22",
+  "lastUpdated": "2026-09-22",
+  "author": "WBI Editorial Team",
+  "category": "Policy Basics",
+  "tags": [
+    "Health Insurance",
+    "IRDAI",
+    "Renewal",
+    "Grace Period",
+    "India",
+    "Waiting Period"
+  ],
+  "readTime": "10 min",
+  "keyTakeaways": [
+    "IRDAI mandates a 30-day grace period for annual, half-yearly, and quarterly renewal modes, and a 15-day grace period for monthly premium modes.",
+    "The grace period is a payment window, not free risk coverage. Hospitalisation occurring during the grace days before payment is not covered by the insurer.",
+    "Paying within the grace period preserves all accrued continuity benefits — your pre-existing disease (PED) and moratorium clocks do not reset.",
+    "If payment is delayed beyond the grace period, the policy lapses permanently, wiping out all accumulated waiting period credits and cumulative bonuses (NCB).",
+    "A lapsed policy cannot be ported to a new insurer under IRDAI portability rules; portability applications must be submitted at least 45 days before the expiry date.",
+    "Reviving a lapsed policy usually requires fresh medical underwriting, medical tests, and acceptance of new exclusions or loading."
+  ],
+  "sections": [
+    {
+      "heading": "The short answer",
+      "body": "A health insurance policy in India runs for a fixed 12-month tenure. When the expiry date arrives, IRDAI regulations grant policyholders a statutory buffer — called the grace period — to pay their renewal premium without forfeiting the continuity benefits earned on the contract.",
+      "paragraphs": [
+        "The critical misconception that catches policyholders off guard is assuming that the grace period extends their insurance coverage. It does not. If you are admitted to a hospital during the grace period and have not yet paid the renewal premium, the insurer has no liability to pay the claim.",
+        "What the grace period actually protects is your chronological investment: the months and years you have already served toward pre-existing disease waiting periods, specific surgery waiting periods, and the 5-year moratorium."
+      ]
+    },
+    {
+      "heading": "The statutory rules: 30 days vs 15 days",
+      "body": "Under the IRDAI Master Circular on Health Insurance Business, the duration of the grace period depends strictly on your premium payment frequency.",
+      "table": {
+        "headers": [
+          "Premium Frequency",
+          "Grace Period Window",
+          "Coverage During Grace Days",
+          "Continuity Benefits"
+        ],
+        "rows": [
+          [
+            "Annual Payment",
+            "30 Days from due date",
+            "No (Claim denied if unpaid)",
+            "Preserved if paid within 30 days"
+          ],
+          [
+            "Half-Yearly Payment",
+            "30 Days from due date",
+            "No (Claim denied if unpaid)",
+            "Preserved if paid within 30 days"
+          ],
+          [
+            "Quarterly Payment",
+            "30 Days from due date",
+            "No (Claim denied if unpaid)",
+            "Preserved if paid within 30 days"
+          ],
+          [
+            "Monthly Payment (NACH/Auto)",
+            "15 Days from due date",
+            "No (Claim denied if unpaid)",
+            "Preserved if paid within 15 days"
+          ]
+        ],
+        "caption": "Statutory grace period timelines mandated by IRDAI across retail health policies."
+      },
+      "callout": {
+        "label": "The Claim Blackout Rule",
+        "text": "If your policy expires on March 31 and you suffer an accident or illness on April 10, the claim will be rejected unless you completed the renewal payment before the admission took place. Paying the premium while lying in the hospital bed will not validate an event that occurred while the policy was un-renewed."
+      }
+    },
+    {
+      "heading": "What happens if the policy lapses past the grace period",
+      "body": "If you fail to pay the renewal premium before the 30-day grace period concludes, the contract terminates. The consequences are severe and irreversible.",
+      "bullets": [
+        "Reset of pre-existing disease (PED) clock: Under current regulations, PED waiting periods are capped at 36 months. If you had already served 35 months, letting the policy lapse resets your counter to zero. You must serve a fresh 36 months.",
+        "Loss of the 5-year moratorium: Under the 2024 IRDAI Master Circular, 60 continuous months of coverage bars the insurer from contesting non-disclosure. A lapse wipes out this legal shield entirely.",
+        "Forfeiture of No-Claim Bonus (NCB): Any cumulative bonus earned (often up to 50% or 100% additional sum insured) evaporates immediately.",
+        "Underwriting scrutiny on revival: To reinstate a lapsed policy, the insurer is entitled to treat you as a brand-new applicant. If you developed hypertension, high blood sugar, or thyroid irregularities during the policy term, the insurer can impose permanent exclusions, premium loading, or refuse to issue the policy."
+      ]
+    },
+    {
+      "heading": "The portability deadline: why grace periods don't help",
+      "body": "A common trap is attempting to switch insurers during the grace period. Under IRDAI Health Insurance Portability regulations, you cannot port a policy that has already expired.",
+      "paragraphs": [
+        "IRDAI mandates that a portability application must be submitted to the new prospective insurer at least 45 days prior to the policy renewal date (and no earlier than 60 days before).",
+        "Once your policy reaches its expiration date, your right to port expires with it. You can still renew with your existing insurer during the 30-day grace period, but you cannot transfer your credits to a competitor during this window."
+      ]
+    },
+    {
+      "heading": "Revival options if your policy has lapsed",
+      "body": "If your policy has lapsed past the 30-day mark, there are two distinct recovery routes.",
+      "ordered": true,
+      "bullets": [
+        "Insurer Discretionary Revival Window: Many major general and standalone health insurers offer a revival window ranging from 60 to 180 days past the lapse date. This typically requires a Good Health Declaration (GHD), paying the overdue premium along with penal interest (typically 8% to 12% per annum), and potentially undergoing medical tests at your own expense.",
+        "Purchasing a Fresh Policy: If the insurer refuses revival, your only alternative is to purchase an entirely new retail policy. When doing so, you must fully disclose any medical conditions diagnosed during the tenure of the previous lapsed policy to prevent future claim repudiation."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I claim health insurance during the grace period?",
+      "answer": "No. The insurer will not pay for any hospitalisation that occurs during the grace period before the renewal premium has been received and processed. The grace period preserves continuity benefits, not active risk cover."
+    },
+    {
+      "question": "What is the grace period for monthly health insurance premiums?",
+      "answer": "15 days. IRDAI mandates a 15-day grace period for monthly payment frequencies, compared to 30 days for quarterly, half-yearly, and annual premium schedules."
+    },
+    {
+      "question": "Does my No-Claim Bonus (NCB) survive if I renew during the grace period?",
+      "answer": "Yes. As long as you pay the renewal premium within the statutory 30-day grace period, your cumulative No-Claim Bonus is preserved in full."
+    },
+    {
+      "question": "Can I port my health insurance policy during the grace period?",
+      "answer": "No. Under IRDAI regulations, portability applications must be submitted to the new insurer at least 45 days before the policy renewal date. Once the policy has expired, you cannot initiate portability."
+    },
+    {
+      "question": "What happens if I miss the 30-day grace period?",
+      "answer": "The policy lapses. All accumulated waiting period credits (initial, specific illness, and pre-existing disease) and your progress towards the 5-year moratorium are reset to zero. Any subsequent application is treated as a brand-new policy subject to fresh medical underwriting."
+    }
+  ],
+  "sources": [
+    {
+      "title": "IRDAI Master Circular on Health Insurance Business (Ref: IRDAI/HLT/CIR/PRO/84/5/2024)",
+      "url": "https://irdai.gov.in/"
+    },
+    {
+      "title": "IRDAI (Health Insurance) Regulations, 2016 and Amendments",
+      "url": "https://irdai.gov.in/"
+    },
+    {
+      "title": "IRDAI Consumer Handbook on Health Insurance",
+      "url": "https://policyholder.gov.in/"
+    }
+  ]
+}
