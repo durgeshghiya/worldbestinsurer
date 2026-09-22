@@ -19,6 +19,7 @@ const sections = [
       { name: "Room Rent Calculator", href: "/tools/room-rent-deduction-calculator" },
       { name: "HLV Term Calculator", href: "/tools/human-life-value-calculator" },
       { name: "Section 80D Calculator", href: "/tools/section-80d-tax-calculator" },
+      { name: "Claim Settlement Explorer", href: "/tools/claim-settlement-ratio-tracker" },
       { name: "Market Insights", href: "/insights" },
       { name: "Insurer Directory", href: "/insurers" },
       { name: "Contact Directory", href: "/contact-directory" },

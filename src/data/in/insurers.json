@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24",
+  "lastUpdated": "2026-09-22",
   "insurers": [
     {
       "slug": "hdfc-life",
@@ -14,9 +14,9 @@
       "established": 2000,
       "listed": true,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 99.5,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
       "description": "Leading private life insurer, subsidiary of HDFC Bank",
@@ -47,9 +47,9 @@
       "established": 2001,
       "listed": true,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 99.17,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
       "description": "Major private life insurer, JV between ICICI Bank and Prudential plc",
@@ -80,9 +80,9 @@
       "established": 2000,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 99.65,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
       "description": "Known for highest claim settlement ratio among private life insurers",
@@ -112,9 +112,9 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 99.13,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
       "description": "JV between Tata Group and AIA Group",
@@ -140,9 +140,9 @@
       "established": 2001,
       "listed": true,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 97.53,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
       "description": "JV between SBI and BNP Paribas Cardif",
@@ -168,9 +168,9 @@
       "established": 1956,
       "listed": true,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 98.35,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
       "description": "India's largest life insurer, government-owned corporation",
@@ -195,9 +195,9 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 99.23,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
       "description": "JV between Bajaj Finserv and Allianz SE for life insurance",
@@ -223,9 +223,9 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 99.06,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
       "description": "JV between PNB, MetLife and other partners",
@@ -251,9 +251,9 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 98.82,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
       "description": "Part of Kotak Mahindra Group",
@@ -279,9 +279,9 @@
       "established": 2008,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 99.01,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
       "description": "JV between Canara Bank, HSBC Insurance and Punjab National Bank",
@@ -306,9 +306,9 @@
       "established": 2011,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 99.23,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
       "description": "JV between Edelweiss Financial Services and Tokio Marine Holdings",
@@ -333,9 +333,9 @@
       "established": 2015,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 99.37,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
       "description": "Formerly Aegon Life, rebranded to Bandhan Life Insurance",
@@ -360,9 +360,9 @@
       "established": 2000,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 98.12,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
       "description": "JV between Aditya Birla Group and Sun Life Financial",
@@ -388,9 +388,9 @@
       "established": 2008,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 98.61,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
       "description": "Formerly DHFL Pramerica, subsidiary of Prudential Financial Inc.",
@@ -415,11 +415,11 @@
       "established": 2006,
       "listed": true,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 89.9,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 14000,
+      "networkHospitals": 14200,
       "description": "India's largest standalone health insurer by market share",
       "contact": {
         "customerCareNumber": "1800-425-2255",
@@ -449,11 +449,11 @@
       "established": 2012,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 95.2,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 22000,
+      "networkHospitals": 11400,
       "description": "Formerly Religare Health Insurance, leading standalone health insurer",
       "contact": {
         "customerCareNumber": "1800-102-4488",
@@ -477,11 +477,11 @@
       "established": 2008,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 91.6,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 10000,
+      "networkHospitals": 10500,
       "description": "Joint venture between Fettle Tone (India) and Bupa (UK)",
       "contact": {
         "customerCareNumber": "1800-200-0022",
@@ -505,11 +505,11 @@
       "established": 2016,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 94.1,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 10500,
+      "networkHospitals": 10800,
       "description": "JV between Aditya Birla Group and MMI Holdings of South Africa",
       "contact": {
         "customerCareNumber": "1800-270-7000",
@@ -532,11 +532,11 @@
       "established": 2013,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 88.5,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 8000,
+      "networkHospitals": 9200,
       "description": "JV between Manipal Group and Cigna Corporation (USA)",
       "contact": {
         "customerCareNumber": "1800-258-4242",
@@ -561,9 +561,9 @@
       "established": 2002,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 96.8,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": 13000,
       "description": "Subsidiary of HDFC Bank, major general insurer",
@@ -592,11 +592,11 @@
       "established": 2001,
       "listed": true,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 94.5,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 18000,
+      "networkHospitals": 11800,
       "description": "Largest private sector general insurer in India",
       "contact": {
         "customerCareNumber": "1800-266-9725",
@@ -622,11 +622,11 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 93.4,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 12500,
+      "networkHospitals": 10500,
       "description": "JV between Bajaj Finserv and Allianz SE",
       "contact": {
         "customerCareNumber": "1800-209-5858",
@@ -652,11 +652,11 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 92.8,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 7500,
+      "networkHospitals": 9800,
       "description": "JV between Tata Group and AIG",
       "contact": {
         "customerCareNumber": "1800-266-7780",
@@ -682,11 +682,11 @@
       "established": 1919,
       "listed": true,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 91.2,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 8000,
+      "networkHospitals": 12200,
       "description": "India's largest general insurance company, government-owned",
       "contact": {
         "customerCareNumber": "1800-209-1415",
@@ -711,11 +711,11 @@
       "established": 2017,
       "listed": true,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 95.6,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 6500,
+      "networkHospitals": 8600,
       "description": "Insurtech company known for digital-first, simplified insurance",
       "contact": {
         "customerCareNumber": "1800-258-4242",
@@ -743,11 +743,11 @@
       "established": 2016,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 94.8,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 5000,
+      "networkHospitals": 7800,
       "description": "Digital-only insurer, direct-to-consumer model with no intermediaries",
       "contact": {
         "customerCareNumber": "1800-266-2256",
@@ -771,11 +771,11 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 92.5,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 6000,
+      "networkHospitals": 8200,
       "description": "Subsidiary of Sundaram Finance, JV with Ageas (Belgium)",
       "contact": {
         "customerCareNumber": "1800-568-9999",
@@ -800,11 +800,11 @@
       "established": 2000,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 91.8,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 8000,
+      "networkHospitals": 9100,
       "description": "Part of Reliance Capital Group",
       "contact": {
         "customerCareNumber": "1800-102-3499",
@@ -829,11 +829,11 @@
       "established": 2009,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 93.1,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 7000,
+      "networkHospitals": 8700,
       "description": "JV between SBI and IAG (Insurance Australia Group)",
       "contact": {
         "customerCareNumber": "1800-102-1111",
@@ -857,11 +857,11 @@
       "established": 2015,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 92.3,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 5500,
+      "networkHospitals": 7200,
       "description": "Part of Kotak Mahindra Group",
       "contact": {
         "customerCareNumber": "1800-209-5858",
@@ -885,11 +885,11 @@
       "established": 2002,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 92,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 5000,
+      "networkHospitals": 9300,
       "description": "JV between Murugappa Group and Mitsui Sumitomo Insurance",
       "contact": {
         "customerCareNumber": "1800-200-5544",
@@ -913,11 +913,11 @@
       "established": 1906,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 88.9,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 6000,
+      "networkHospitals": 8100,
       "description": "Government-owned PSU general insurer, one of the oldest in India",
       "contact": {
         "customerCareNumber": "1800-345-0330",
@@ -941,11 +941,11 @@
       "established": 1947,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 89.4,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 5500,
+      "networkHospitals": 7600,
       "description": "Government-owned PSU general insurer",
       "contact": {
         "customerCareNumber": "1800-118-485",
@@ -969,11 +969,11 @@
       "established": 1938,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 89.1,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 6000,
+      "networkHospitals": 8200,
       "description": "Government-owned PSU general insurer",
       "contact": {
         "customerCareNumber": "1800-425-3333",

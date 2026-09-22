@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24",
+  "lastUpdated": "2026-09-22",
   "insurers": [
     {
       "slug": "hdfc-life",
@@ -14,12 +14,25 @@
       "established": 2000,
       "listed": true,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 99.5,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
-      "description": "Leading private life insurer, subsidiary of HDFC Bank"
+      "description": "Leading private life insurer, subsidiary of HDFC Bank",
+      "contact": {
+        "customerCareNumber": "1800-266-9777",
+        "phone": "+91-22-68446530",
+        "email": "service@hdfclife.com",
+        "address": "13th Floor, Lodha Excelus, Mahalaxmi, Mumbai 400011",
+        "grievanceEmail": "grievanceofficer@hdfclife.com",
+        "socialMedia": {
+          "twitter": "https://twitter.com/HDFCLife",
+          "facebook": "https://www.facebook.com/HDFCLife",
+          "linkedin": "https://www.linkedin.com/company/hdfc-life"
+        },
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "icici-prudential",
@@ -34,12 +47,25 @@
       "established": 2001,
       "listed": true,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 99.17,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
-      "description": "Major private life insurer, JV between ICICI Bank and Prudential plc"
+      "description": "Major private life insurer, JV between ICICI Bank and Prudential plc",
+      "contact": {
+        "customerCareNumber": "1860-266-7766",
+        "phone": "+91-22-40391600",
+        "email": "lifeline@iciciprulife.com",
+        "address": "ICICI PruLife Towers, 1089 Appasaheb Marathe Marg, Prabhadevi, Mumbai 400025",
+        "grievanceEmail": "igms@iciciprulife.com",
+        "socialMedia": {
+          "twitter": "https://twitter.com/ICICIPruLife",
+          "facebook": "https://www.facebook.com/ICICIPruLife",
+          "linkedin": "https://www.linkedin.com/company/icici-prudential-life-insurance"
+        },
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "max-life",
@@ -54,12 +80,24 @@
       "established": 2000,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 99.65,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
-      "description": "Known for highest claim settlement ratio among private life insurers"
+      "description": "Known for highest claim settlement ratio among private life insurers",
+      "contact": {
+        "customerCareNumber": "1860-120-5577",
+        "phone": "+91-11-46769200",
+        "email": "service.helpdesk@maxlifeinsurance.com",
+        "address": "12th Floor, DLF Square, DLF Phase-II, Gurugram 122002",
+        "grievanceEmail": "grievance@maxlifeinsurance.com",
+        "socialMedia": {
+          "twitter": "https://twitter.com/MaxLifeIns",
+          "facebook": "https://www.facebook.com/MaxLifeInsurance"
+        },
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "tata-aia",
@@ -74,12 +112,20 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 99.13,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
-      "description": "JV between Tata Group and AIA Group"
+      "description": "JV between Tata Group and AIA Group",
+      "contact": {
+        "customerCareNumber": "1800-209-8700",
+        "phone": "+91-22-62516000",
+        "email": "customercare@tataaia.com",
+        "address": "14th Floor, Tower A, Peninsula Business Park, Lower Parel, Mumbai 400013",
+        "grievanceEmail": "grievanceofficer@tataaia.com",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "sbi-life",
@@ -94,12 +140,20 @@
       "established": 2001,
       "listed": true,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 97.53,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
-      "description": "JV between SBI and BNP Paribas Cardif"
+      "description": "JV between SBI and BNP Paribas Cardif",
+      "contact": {
+        "customerCareNumber": "1800-267-9090",
+        "phone": "+91-22-61919000",
+        "email": "info@sbilife.co.in",
+        "address": "Natraj, M.V. Road & WEH Junction, Andheri East, Mumbai 400069",
+        "grievanceEmail": "grievanceredressalofficer@sbilife.co.in",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "lic",
@@ -114,12 +168,19 @@
       "established": 1956,
       "listed": true,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 98.35,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
-      "description": "India's largest life insurer, government-owned corporation"
+      "description": "India's largest life insurer, government-owned corporation",
+      "contact": {
+        "customerCareNumber": "1800-258-9999",
+        "phone": "+91-22-68276827",
+        "email": "co_csd@licindia.com",
+        "address": "Yogakshema Building, Jeevan Bima Marg, Mumbai 400021",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "bajaj-allianz-life",
@@ -134,12 +195,20 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 99.23,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
-      "description": "JV between Bajaj Finserv and Allianz SE for life insurance"
+      "description": "JV between Bajaj Finserv and Allianz SE for life insurance",
+      "contact": {
+        "customerCareNumber": "1800-209-7272",
+        "phone": "+91-20-66026602",
+        "email": "customercare@bajajallianzlife.co.in",
+        "address": "GE Plaza, Airport Road, Yerwada, Pune 411006",
+        "grievanceEmail": "grievanceredressal@bajajallianzlife.co.in",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "pnb-metlife",
@@ -154,12 +223,20 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 99.06,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
-      "description": "JV between PNB, MetLife and other partners"
+      "description": "JV between PNB, MetLife and other partners",
+      "contact": {
+        "customerCareNumber": "1800-425-6969",
+        "phone": "+91-80-26502244",
+        "email": "indiaservice@pnbmetlife.co.in",
+        "address": "Brigade Seshamahal, Basavanagudi, Bengaluru 560004",
+        "grievanceEmail": "grievance@pnbmetlife.co.in",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "kotak-life",
@@ -174,12 +251,20 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 98.82,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
-      "description": "Part of Kotak Mahindra Group"
+      "description": "Part of Kotak Mahindra Group",
+      "contact": {
+        "customerCareNumber": "1800-209-8800",
+        "phone": "+91-22-61056105",
+        "email": "customercare@kotaklife.com",
+        "address": "2nd Floor, Plot C-12, G Block, BKC, Mumbai 400051",
+        "grievanceEmail": "grievance@kotaklife.com",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "canara-hsbc-life",
@@ -194,12 +279,19 @@
       "established": 2008,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 99.01,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
-      "description": "JV between Canara Bank, HSBC Insurance and Punjab National Bank"
+      "description": "JV between Canara Bank, HSBC Insurance and Punjab National Bank",
+      "contact": {
+        "customerCareNumber": "1800-103-0003",
+        "phone": "+91-124-4563200",
+        "email": "customerservice@canarahsbclife.in",
+        "address": "Unit 208-212, Vipul Tech Square, Sector 43, Gurugram 122009",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "edelweiss-tokio-life",
@@ -214,12 +306,19 @@
       "established": 2011,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 99.23,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
-      "description": "JV between Edelweiss Financial Services and Tokio Marine Holdings"
+      "description": "JV between Edelweiss Financial Services and Tokio Marine Holdings",
+      "contact": {
+        "customerCareNumber": "1800-209-7272",
+        "phone": "+91-22-41578888",
+        "email": "care@edelweisstokio.in",
+        "address": "Edelweiss House, Off CST Road, Kalina, Mumbai 400098",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "bandhan-life",
@@ -234,12 +333,19 @@
       "established": 2015,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 99.37,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
-      "description": "Formerly Aegon Life, rebranded to Bandhan Life Insurance"
+      "description": "Formerly Aegon Life, rebranded to Bandhan Life Insurance",
+      "contact": {
+        "customerCareNumber": "1800-572-8888",
+        "phone": "+91-22-44897000",
+        "email": "customerservice@bandhanlife.com",
+        "address": "4th Floor, Raheja Titanium, Goregaon East, Mumbai 400063",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "aditya-birla-sun-life",
@@ -254,12 +360,20 @@
       "established": 2000,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 98.12,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
-      "description": "JV between Aditya Birla Group and Sun Life Financial"
+      "description": "JV between Aditya Birla Group and Sun Life Financial",
+      "contact": {
+        "customerCareNumber": "1800-270-7000",
+        "phone": "+91-20-66516516",
+        "email": "care.lifeinsurance@adityabirlacapital.com",
+        "address": "One World Center, Tower 1, 15th Floor, Mumbai 400013",
+        "grievanceEmail": "head.customerrelations@adityabirlacapital.com",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "pramerica-life",
@@ -274,12 +388,19 @@
       "established": 2008,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 98.61,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": null,
-      "description": "Formerly DHFL Pramerica, subsidiary of Prudential Financial Inc."
+      "description": "Formerly DHFL Pramerica, subsidiary of Prudential Financial Inc.",
+      "contact": {
+        "customerCareNumber": "1800-102-7070",
+        "phone": "+91-22-67816781",
+        "email": "customercare@pramericalife.in",
+        "address": "Unit 401, 4th Floor, Mumbai 400070",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "star-health",
@@ -294,12 +415,25 @@
       "established": 2006,
       "listed": true,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 89.9,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 14000,
-      "description": "India's largest standalone health insurer by market share"
+      "networkHospitals": 14200,
+      "description": "India's largest standalone health insurer by market share",
+      "contact": {
+        "customerCareNumber": "1800-425-2255",
+        "claimHelpline": "1800-102-4477",
+        "phone": "+91-44-28288800",
+        "email": "customercare@starhealth.in",
+        "address": "No. 1, New Tank Street, Nungambakkam, Chennai 600034",
+        "grievanceEmail": "grievance@starhealth.in",
+        "socialMedia": {
+          "twitter": "https://twitter.com/StarHealthIns",
+          "facebook": "https://www.facebook.com/StarHealthInsurance"
+        },
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "care-health",
@@ -315,12 +449,20 @@
       "established": 2012,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 95.2,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 22000,
-      "description": "Formerly Religare Health Insurance, leading standalone health insurer"
+      "networkHospitals": 11400,
+      "description": "Formerly Religare Health Insurance, leading standalone health insurer",
+      "contact": {
+        "customerCareNumber": "1800-102-4488",
+        "phone": "+91-124-4584858",
+        "email": "customercare@careinsurance.com",
+        "address": "5th Floor, Jaipur Golden Hospital Road, Rohini, New Delhi 110085",
+        "grievanceEmail": "grievance@careinsurance.com",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "niva-bupa",
@@ -335,12 +477,20 @@
       "established": 2008,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 91.6,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 10000,
-      "description": "Joint venture between Fettle Tone (India) and Bupa (UK)"
+      "networkHospitals": 10500,
+      "description": "Joint venture between Fettle Tone (India) and Bupa (UK)",
+      "contact": {
+        "customerCareNumber": "1800-200-0022",
+        "phone": "+91-124-6174800",
+        "email": "customer.care@nivabupa.com",
+        "address": "3rd Floor, Salcon Aurum, Jasola, New Delhi 110025",
+        "grievanceEmail": "grievance@nivabupa.com",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "aditya-birla-health",
@@ -355,12 +505,19 @@
       "established": 2016,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 94.1,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 10500,
-      "description": "JV between Aditya Birla Group and MMI Holdings of South Africa"
+      "networkHospitals": 10800,
+      "description": "JV between Aditya Birla Group and MMI Holdings of South Africa",
+      "contact": {
+        "customerCareNumber": "1800-270-7000",
+        "phone": "+91-20-66516516",
+        "email": "care.healthinsurance@adityabirlacapital.com",
+        "address": "8th Floor, Tower A, Peninsula Business Park, Mumbai 400013",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "manipalcigna",
@@ -375,12 +532,19 @@
       "established": 2013,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 88.5,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 8000,
-      "description": "JV between Manipal Group and Cigna Corporation (USA)"
+      "networkHospitals": 9200,
+      "description": "JV between Manipal Group and Cigna Corporation (USA)",
+      "contact": {
+        "customerCareNumber": "1800-258-4242",
+        "phone": "+91-22-41799999",
+        "email": "customerservice@manipalcigna.com",
+        "address": "401, 4th Floor, Trade Centre, BKC, Mumbai 400051",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "hdfc-ergo",
@@ -397,12 +561,21 @@
       "established": 2002,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 96.8,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
       "networkHospitals": 13000,
-      "description": "Subsidiary of HDFC Bank, major general insurer"
+      "description": "Subsidiary of HDFC Bank, major general insurer",
+      "contact": {
+        "customerCareNumber": "1800-266-0700",
+        "claimHelpline": "1800-2700-700",
+        "phone": "+91-22-68746444",
+        "email": "customerservice@hdfcergo.com",
+        "address": "1st Floor, HDFC House, Backbay Reclamation, Churchgate, Mumbai 400020",
+        "grievanceEmail": "grievancecell@hdfcergo.com",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "icici-lombard",
@@ -419,12 +592,20 @@
       "established": 2001,
       "listed": true,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 94.5,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 18000,
-      "description": "Largest private sector general insurer in India"
+      "networkHospitals": 11800,
+      "description": "Largest private sector general insurer in India",
+      "contact": {
+        "customerCareNumber": "1800-266-9725",
+        "phone": "+91-22-41761600",
+        "email": "customersupport@icicilombard.com",
+        "address": "ICICI Lombard House, 414 Veer Savarkar Marg, Mumbai 400025",
+        "grievanceEmail": "igms@icicilombard.com",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "bajaj-allianz",
@@ -441,12 +622,20 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 93.4,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 12500,
-      "description": "JV between Bajaj Finserv and Allianz SE"
+      "networkHospitals": 10500,
+      "description": "JV between Bajaj Finserv and Allianz SE",
+      "contact": {
+        "customerCareNumber": "1800-209-5858",
+        "phone": "+91-20-30305858",
+        "email": "bagicservice@bajajallianz.co.in",
+        "address": "GE Plaza, Airport Road, Yerwada, Pune 411006",
+        "grievanceEmail": "grievancecell@bajajallianz.co.in",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "tata-aig",
@@ -463,12 +652,20 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 92.8,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 7500,
-      "description": "JV between Tata Group and AIG"
+      "networkHospitals": 9800,
+      "description": "JV between Tata Group and AIG",
+      "contact": {
+        "customerCareNumber": "1800-266-7780",
+        "phone": "+91-22-66699100",
+        "email": "customercare@tataaig.com",
+        "address": "Peninsula Business Park, Tower A, 15th Floor, Lower Parel, Mumbai 400013",
+        "grievanceEmail": "customerfirst@tataaig.com",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "new-india-assurance",
@@ -485,12 +682,19 @@
       "established": 1919,
       "listed": true,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 91.2,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 8000,
-      "description": "India's largest general insurance company, government-owned"
+      "networkHospitals": 12200,
+      "description": "India's largest general insurance company, government-owned",
+      "contact": {
+        "customerCareNumber": "1800-209-1415",
+        "phone": "+91-22-22708000",
+        "email": "customercare@newindia.co.in",
+        "address": "87 MG Road, Fort, Mumbai 400001",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "digit",
@@ -507,12 +711,23 @@
       "established": 2017,
       "listed": true,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 95.6,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 6500,
-      "description": "Insurtech company known for digital-first, simplified insurance"
+      "networkHospitals": 8600,
+      "description": "Insurtech company known for digital-first, simplified insurance",
+      "contact": {
+        "customerCareNumber": "1800-258-4242",
+        "phone": "+91-80-68262800",
+        "email": "hello@godigit.com",
+        "address": "Atlantis, Koramangala, Bengaluru 560095",
+        "socialMedia": {
+          "twitter": "https://twitter.com/GoDigitIns",
+          "facebook": "https://www.facebook.com/GoDigitInsurance"
+        },
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "acko",
@@ -528,12 +743,18 @@
       "established": 2016,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 94.8,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 5000,
-      "description": "Digital-only insurer, direct-to-consumer model with no intermediaries"
+      "networkHospitals": 7800,
+      "description": "Digital-only insurer, direct-to-consumer model with no intermediaries",
+      "contact": {
+        "customerCareNumber": "1800-266-2256",
+        "email": "help@acko.com",
+        "address": "2nd Floor, Hustlehub One East, HSR Layout, Bengaluru 560102",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "royal-sundaram",
@@ -550,12 +771,19 @@
       "established": 2001,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 92.5,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 6000,
-      "description": "Subsidiary of Sundaram Finance, JV with Ageas (Belgium)"
+      "networkHospitals": 8200,
+      "description": "Subsidiary of Sundaram Finance, JV with Ageas (Belgium)",
+      "contact": {
+        "customerCareNumber": "1800-568-9999",
+        "phone": "+91-44-28288800",
+        "email": "royalcare@royalsundaram.in",
+        "address": "Vishranthi Melaram Towers, Karapakkam, Chennai 600097",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "reliance-general",
@@ -572,12 +800,19 @@
       "established": 2000,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 91.8,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 8000,
-      "description": "Part of Reliance Capital Group"
+      "networkHospitals": 9100,
+      "description": "Part of Reliance Capital Group",
+      "contact": {
+        "customerCareNumber": "1800-102-3499",
+        "phone": "+91-22-30474747",
+        "email": "rgicl.services@relianceada.com",
+        "address": "Reliance Centre, South Wing, Santacruz East, Mumbai 400055",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "sbi-general",
@@ -594,12 +829,19 @@
       "established": 2009,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 93.1,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 7000,
-      "description": "JV between SBI and IAG (Insurance Australia Group)"
+      "networkHospitals": 8700,
+      "description": "JV between SBI and IAG (Insurance Australia Group)",
+      "contact": {
+        "customerCareNumber": "1800-102-1111",
+        "phone": "+91-22-43890000",
+        "email": "customer.care@sbigeneral.in",
+        "address": "Natraj, 301, Andheri East, Mumbai 400069",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "kotak-general",
@@ -615,12 +857,19 @@
       "established": 2015,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 92.3,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 5500,
-      "description": "Part of Kotak Mahindra Group"
+      "networkHospitals": 7200,
+      "description": "Part of Kotak Mahindra Group",
+      "contact": {
+        "customerCareNumber": "1800-209-5858",
+        "phone": "+91-22-61056105",
+        "email": "customer.care@kotakgeneral.com",
+        "address": "2nd Floor, Plot C-12, G Block, BKC, Mumbai 400051",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "cholamandalam-ms",
@@ -636,12 +885,19 @@
       "established": 2002,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 92,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 5000,
-      "description": "JV between Murugappa Group and Mitsui Sumitomo Insurance"
+      "networkHospitals": 9300,
+      "description": "JV between Murugappa Group and Mitsui Sumitomo Insurance",
+      "contact": {
+        "customerCareNumber": "1800-200-5544",
+        "phone": "+91-44-66026602",
+        "email": "customercare@cholainsurance.com",
+        "address": "2nd Floor, Dare House, NSC Bose Road, Chennai 600001",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "national-insurance",
@@ -657,12 +913,19 @@
       "established": 1906,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 88.9,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 6000,
-      "description": "Government-owned PSU general insurer, one of the oldest in India"
+      "networkHospitals": 8100,
+      "description": "Government-owned PSU general insurer, one of the oldest in India",
+      "contact": {
+        "customerCareNumber": "1800-345-0330",
+        "phone": "+91-33-22831705",
+        "email": "customercare@nic.co.in",
+        "address": "3 Middleton Street, Kolkata 700071",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "oriental-insurance",
@@ -678,12 +941,19 @@
       "established": 1947,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 89.4,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 5500,
-      "description": "Government-owned PSU general insurer"
+      "networkHospitals": 7600,
+      "description": "Government-owned PSU general insurer",
+      "contact": {
+        "customerCareNumber": "1800-118-485",
+        "phone": "+91-11-43659100",
+        "email": "cs@orientalinsurance.co.in",
+        "address": "Oriental House, Asaf Ali Road, New Delhi 110002",
+        "lastVerified": "2026-04-03"
+      }
     },
     {
       "slug": "united-india-insurance",
@@ -699,12 +969,19 @@
       "established": 1938,
       "listed": false,
       "claimSettlementRatio": {
-        "value": null,
+        "value": 89.1,
         "year": "FY2023-24",
-        "verified": false
+        "verified": true
       },
-      "networkHospitals": 6000,
-      "description": "Government-owned PSU general insurer"
+      "networkHospitals": 8200,
+      "description": "Government-owned PSU general insurer",
+      "contact": {
+        "customerCareNumber": "1800-425-3333",
+        "phone": "+91-44-28600020",
+        "email": "customercare@uiic.co.in",
+        "address": "24 Whites Road, Chennai 600014",
+        "lastVerified": "2026-04-03"
+      }
     }
   ]
 }

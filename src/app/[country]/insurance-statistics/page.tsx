@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { BreadcrumbSchema, JsonLd } from "@/components/StructuredData";
 import { registry, robotsFor, statisticsHubVerdict, latest } from "@/lib/registry";
 import { StatisticsBody, periodsOf } from "@/lib/registry/statistics-page";
@@ -63,6 +64,22 @@ export default async function StatisticsHub({ params }: { params: Promise<{ coun
         they were published with. We do not estimate, extrapolate or rank. A figure is shown only for the period it
         describes — historical values are never presented as current.
       </p>
+
+      <div className="mt-6 p-4 rounded-xl border border-primary/20 bg-primary/[0.04] flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <div className="font-semibold text-text-primary text-sm">Interactive Benchmark Explorer</div>
+          <p className="text-xs text-text-secondary mt-0.5">
+            Compare official IRDAI Claim Settlement Ratios, Solvency Margins, and Cashless Hospital Networks across all 34 life and general insurers.
+          </p>
+        </div>
+        <Link
+          href="/tools/claim-settlement-ratio-tracker/"
+          className="shrink-0 inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-primary text-white text-xs font-semibold hover:bg-primary-dark transition-colors shadow-xs"
+        >
+          Open CSR Explorer →
+        </Link>
+      </div>
+
       <StatisticsBody reg={reg} stats={reg.statistics} />
     </div>
   );

@@ -50,6 +50,7 @@ function core(): SitemapEntry[] {
     "/tools/room-rent-deduction-calculator",
     "/tools/human-life-value-calculator",
     "/tools/section-80d-tax-calculator",
+    "/tools/claim-settlement-ratio-tracker",
   ];
   return [
     ...pages.map((path) => ({ path })),
