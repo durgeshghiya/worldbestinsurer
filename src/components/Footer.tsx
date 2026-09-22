@@ -17,6 +17,7 @@ const sections = [
       { name: "Insurance Guides", href: "/learn" },
       { name: "Finance & Claims", href: "/finance" },
       { name: "Room Rent Calculator", href: "/tools/room-rent-deduction-calculator" },
+      { name: "HLV Term Calculator", href: "/tools/human-life-value-calculator" },
       { name: "Market Insights", href: "/insights" },
       { name: "Insurer Directory", href: "/insurers" },
       { name: "Contact Directory", href: "/contact-directory" },

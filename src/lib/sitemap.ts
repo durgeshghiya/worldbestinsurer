@@ -48,6 +48,7 @@ function core(): SitemapEntry[] {
     "/contact-directory", "/faq", "/insurers", "/waitlist", "/developers",
     "/author/editorial-team", "/author/durgesh-ghiya",
     "/tools/room-rent-deduction-calculator",
+    "/tools/human-life-value-calculator",
   ];
   return [
     ...pages.map((path) => ({ path })),
