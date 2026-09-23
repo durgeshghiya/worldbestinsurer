@@ -29,7 +29,7 @@ export function OrganizationSchema(): React.ReactNode {
         "@type": "Organization",
         name: "World Best Insurer",
         url: BASE_URL,
-        logo: `${BASE_URL}/favicon.ico`,
+        logo: `${BASE_URL}/logo.svg`,
         description:
           "The world's insurance comparison platform. Compare health, term life, motor, and travel insurance plans across top insurers with verified data and transparent methodology.",
         sameAs: [],
@@ -162,7 +162,7 @@ export function ArticleSchema({
           url: `${BASE_URL}/`,
           logo: {
             "@type": "ImageObject",
-            url: `${BASE_URL}/favicon.ico`,
+            url: `${BASE_URL}/logo.svg`,
           },
         },
         mainEntityOfPage: {

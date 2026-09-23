@@ -7,6 +7,7 @@ import {
   ArrowRight, Sparkles, Globe, Search,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import Logo from "@/components/Logo";
 
 const categories = [
   { name: "Health", href: "/compare/health", icon: Heart, color: "text-health", bg: "bg-health-light", desc: "Medical & hospitalization" },
@@ -65,19 +66,7 @@ export default function Header() {
       <nav className="mx-auto max-w-[1280px] px-5 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* ── Logo ── */}
-          <Link href="/" className="flex items-center gap-3 group shrink-0">
-            <div className="relative w-8 h-8 rounded-lg overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#1a1a2e] via-primary to-[#1a1a2e] group-hover:from-primary group-hover:via-accent group-hover:to-primary transition-all duration-700" />
-              <span className="relative flex items-center justify-center w-full h-full text-white font-black text-[10px] tracking-[0.05em]">
-                WBI
-              </span>
-            </div>
-            <div className="hidden sm:block">
-              <span className="block whitespace-nowrap text-[15px] font-bold tracking-[-0.03em] text-text-primary leading-none">
-                World Best Insurer
-              </span>
-            </div>
-          </Link>
+          <Logo variant="full" size="md" />
 
           {/* ── Desktop Nav ── */}
           <div className="hidden xl:flex items-center gap-1">

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="wbi-shield-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d3a8c"/>
+      <stop offset="50%" stop-color="#1e2b7a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="wbi-gold-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#c47d2e"/>
+    </linearGradient>
+    <filter id="wbi-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#2d3a8c" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Outer Protective Shield -->
+  <path d="M256 32C340 68 424 82 452 98C452 248 418 368 256 472C94 368 60 248 60 98C88 82 172 68 256 32Z" 
+        fill="url(#wbi-shield-bg)" 
+        stroke="rgba(255, 255, 255, 0.16)" 
+        stroke-width="8"
+        filter="url(#wbi-glow)"/>
+
+  <!-- Subtle Inner Contour -->
+  <path d="M256 68C326 98 395 110 418 122C418 245 390 342 256 430C122 342 94 245 94 122C117 110 186 98 256 68Z" 
+        fill="none" 
+        stroke="#c47d2e" 
+        stroke-width="4" 
+        stroke-opacity="0.35"/>
+
+  <!-- Central Gold W Apex Monogram -->
+  <path d="M152 208L212 344L256 260L300 344L360 208" 
+        stroke="url(#wbi-gold-accent)" 
+        stroke-width="26" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+
+  <!-- Trust Polaris Node -->
+  <circle cx="256" cy="148" r="16" fill="#fbbf24"/>
+</svg>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import Logo from "@/components/Logo";
 
 const sections = [
   {
@@ -66,14 +67,9 @@ export default function Footer() {
         <div className="py-14 grid grid-cols-2 md:grid-cols-6 gap-8 lg:gap-10">
           {/* Brand column */}
           <div className="col-span-2">
-            <Link href="/" className="flex items-center gap-2.5 mb-5">
-              <div className="w-7 h-7 rounded-md bg-gradient-to-br from-white/10 to-white/5 border border-white/10 flex items-center justify-center">
-                <span className="text-white font-black text-[9px] tracking-[0.05em]">WBI</span>
-              </div>
-              <span className="text-[14px] font-bold tracking-[-0.02em] text-white/90">
-                World Best Insurer
-              </span>
-            </Link>
+            <div className="mb-5">
+              <Logo variant="full" size="md" inverted={true} />
+            </div>
             <p className="text-[12px] text-white/30 leading-[1.7] max-w-[260px] mb-5">
               The world&apos;s insurance comparison platform. Transparent data across 12 markets, zero sales pressure.
             </p>
