@@ -47,10 +47,12 @@ function core(): SitemapEntry[] {
     "/", "/about", "/methodology", "/disclaimer", "/privacy-policy", "/contact",
     "/contact-directory", "/faq", "/insurers", "/waitlist", "/developers",
     "/author/editorial-team", "/author/durgesh-ghiya",
+    "/tools",
     "/tools/room-rent-deduction-calculator",
     "/tools/human-life-value-calculator",
     "/tools/section-80d-tax-calculator",
     "/tools/claim-settlement-ratio-tracker",
+    "/tools/no-claim-bonus-calculator",
   ];
   return [
     ...pages.map((path) => ({ path })),

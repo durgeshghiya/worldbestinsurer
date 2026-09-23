@@ -17,7 +17,9 @@ const sections = [
     links: [
       { name: "Insurance Guides", href: "/learn" },
       { name: "Finance & Claims", href: "/finance" },
+      { name: "Insurance Calculators", href: "/tools" },
       { name: "Room Rent Calculator", href: "/tools/room-rent-deduction-calculator" },
+      { name: "NCB Retention Calculator", href: "/tools/no-claim-bonus-calculator" },
       { name: "HLV Term Calculator", href: "/tools/human-life-value-calculator" },
       { name: "Section 80D Calculator", href: "/tools/section-80d-tax-calculator" },
       { name: "Claim Settlement Explorer", href: "/tools/claim-settlement-ratio-tracker" },

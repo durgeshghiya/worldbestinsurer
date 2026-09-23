@@ -166,6 +166,9 @@ export default function Header() {
               )}
             </div>
 
+            <Link href="/tools" className="px-3 py-1.5 text-[13px] font-medium text-text-secondary hover:text-text-primary hover:bg-surface-sunken rounded-lg transition-all">
+              Calculators
+            </Link>
             <Link href="/insurers" className="px-3 py-1.5 text-[13px] font-medium text-text-secondary hover:text-text-primary hover:bg-surface-sunken rounded-lg transition-all">
               Insurers
             </Link>
@@ -262,6 +265,7 @@ export default function Header() {
 
             <div className="space-y-0.5 pt-3 border-t border-border-light mt-3">
               {[
+                { name: "Calculators & Tools", href: "/tools" },
                 { name: "Insurers", href: "/insurers" },
                 { name: "Contact Directory", href: "/contact-directory" },
                 { name: "Learn", href: "/learn" },
