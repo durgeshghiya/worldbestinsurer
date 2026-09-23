@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-22T07:44:35.357Z",
+  "updatedAt": "2026-09-23T07:47:49.186Z",
   "base": "https://worldbestinsurer.com",
   "pages": {
     "https://worldbestinsurer.com/": {
-      "hash": "87af0ed89b6827d239018d2f5a022ba12e719a1a15112c307f6c6d1f74cff829",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "1f48069b95a2b597a2ffbdf06130c6b73df591c229e36cd56cee5893ad7c41bd",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/about/": {
       "hash": "5d08b301f3dbbf357f2d2825b5f85701fe879ab24b87be210b4f52391d799039",
@@ -27,16 +27,16 @@
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/contact-directory/": {
-      "hash": "7fdef19be5a1c272a5d09ce927303a719a1c8ce744de403fc97fb42c4a5f03d2",
-      "lastSubmittedAt": "2026-09-21T08:51:23.889Z"
+      "hash": "67732d6410beaaeac707585825e92fed0f6a2869b279204412f88630dd191e5e",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/faq/": {
       "hash": "bf42d9e2133f0978b332b7fa1010ccf6f15cbeb9076679334893c11417a8b74b",
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/insurers/": {
-      "hash": "fcd9556ea84ebf7d063e214fd41140499fefc7c251d9bf22f8d40920315fbd5b",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "9269ffb2dbf990c32ae8856573fab1bb058ffc2f3bc25fc93c6b9e709f47d4c6",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/waitlist/": {
       "hash": "afb3f14212d0004017eccf014c191962085e5f53c1b56c0290bd3a87353f80e1",
@@ -47,12 +47,28 @@
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/author/editorial-team/": {
-      "hash": "7392ea2866e9f193b39f6d12dfd779e6b3cc0e78808bad6fbca7a580757dc209",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "e5dfb263b334d9f1ad665fb8fbed787d449af06d897bb17aa45d5a47abf4bcf0",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/author/durgesh-ghiya/": {
-      "hash": "25c8a3dc6c4540d404a6c18bd7c7f00e4aec952f8715dd4edff64f11b14a0dc0",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "7c93ed91e5588544c11c3ccbd8cd619b8f0072d5efb68ba08249f4f1a3e45003",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
+    },
+    "https://worldbestinsurer.com/tools/room-rent-deduction-calculator/": {
+      "hash": "b394f43238c316a1495dd199d29d7cf0686531100261a95c1d02e6b6a1730318",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
+    },
+    "https://worldbestinsurer.com/tools/human-life-value-calculator/": {
+      "hash": "b9855cabb7a412d98add3aa3c2e5f0a0635d1c4251bd68bb7194246eba2864d6",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
+    },
+    "https://worldbestinsurer.com/tools/section-80d-tax-calculator/": {
+      "hash": "ef20661b1e4bf36713c2872cd6eca1e042a634c7e97ff3e7843fd3f0fb88af91",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
+    },
+    "https://worldbestinsurer.com/tools/claim-settlement-ratio-tracker/": {
+      "hash": "83425ab96b66b3acae2ae7972ee86e2eb4a43a133d8f7c1cfeb3bc76f37279e3",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/": {
       "hash": "31f3df0698d7ae479b89240e9d03aaaa1fcc9764c9a4ced1f2affd9ae2a0d330",
@@ -103,112 +119,112 @@
       "lastSubmittedAt": "2026-09-21T08:51:23.889Z"
     },
     "https://worldbestinsurer.com/in/insurer/hdfc-life/": {
-      "hash": "5f25a7ee23ec7b2412546ced61a499ee71ce0029ccf75af5a1e7de64e474db04",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "0c8a4e279d2543f34d25c77b1e412302b496344658ce5479124765659cf03190",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/icici-prudential/": {
-      "hash": "7dc03d5db76cf5147d214484d580ee06bd7171f7e92254e8d0bb76a2f30f2a3e",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "bcc36273b9d138ff8e345cc065a668772e8ef08e52efdddd65d46906abce8120",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/max-life/": {
-      "hash": "eb05ab82992894e6c65ccd47526e49e923eb4c10f12166f5690caecde3b2f3e2",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "54a92351ef9ce2b520c368ae1e658dbca59560862f45e77c93d8e5b18fd98f84",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/tata-aia/": {
-      "hash": "69c1eca2da53acd6136a61097c85a8c25d6d28f0b4fe3229bb7fe6e9e26c6734",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "6416bfb2730d78ff7cfde5cbe289f8335db3bc9e39cf15daee0129b2d8911caf",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/sbi-life/": {
-      "hash": "d92823851d8a41b7b931225c85d1b08f81b8abf1365cc6e07bc2801e0c00ad3d",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "95970fc500aaac80a588e761d95c93e64183585730354d2e5299279d1005ee2f",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/lic/": {
-      "hash": "559d2e2b81240c2fd82374edfe1a3a07c62c92e054fa8814b17812681d8b0ce3",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "fb31ba54d9d00e29401d2c16198cadb9a0db3a728715a3200458fc36dcc591d6",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/bajaj-allianz-life/": {
-      "hash": "2c784af421a5fb89e8a46b6fcd7a2f367d7f6b2dc76e4cc1f3c85243a4c55f5b",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "b09e4826d0f2fa23eb43d0656efaca3991bb85f4a2ff46ab0317b742d49bbbb0",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/pnb-metlife/": {
-      "hash": "9d49dbdf595d7fe9660809e98a244a02ec47c6a75ea1c0be5ae3e26ea94971b9",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "85a2e9c9ed10d20c430f13457a2779b24952c5f8a51b1bd33acee9f110b48fad",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/kotak-life/": {
-      "hash": "851bf7280911cf55d9d16adaa91fe4b97a741be86c50bf265fbd03801505d41d",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "6fe8def9f36c9750cd041404768951890eeca431057ddb25d2a57f216700852d",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/star-health/": {
-      "hash": "b477130d406ff836ae047ba56e37abeacba873cff9f83bcd4211199ab9fa498d",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "74d1cc0fc5ee2e675627cd59bf767073aea5e747a16753d91539c81daad365f6",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/care-health/": {
-      "hash": "0349c7ec427a6bdd663c86a436d6e9f0b026fdfa2f78f0b998c532abcca20614",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "cef672b06d8cf07117311f20f94b80c205267d5429be8dc7bc3c5a26626c8e6c",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/niva-bupa/": {
-      "hash": "f52ad4ad6202be86aeeb5479438b28d6fcaae7de62c7bafb45f674aba04e2aca",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "5e98c2ba0896e6c2857ea74a762feeb7dee37e5310c468cb3f30f58c54ddebf1",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/aditya-birla-health/": {
-      "hash": "9c2bb8ce667a14eccb0d50e04af3619544e456270b02688437ca43744f18a6ab",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "fb8f3614239671e5d8c4dc3460b86de865d5ad8dc59eab9cd277d3158a76eb7b",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/manipalcigna/": {
-      "hash": "38056b6ee2d2584eae4ebb6b17f10c1fdb9b97cd04cba6dc44012475aed40cda",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "db93fc135918365874bb57678a47752e6cbeb15db7e91d881c36fef6945cfe30",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/hdfc-ergo/": {
-      "hash": "ba2615d0e6c7aaf87411b18ce716ec5c29988976bac8b7343430f1abfec1f7f2",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "b87e7620403a35385387228039cd71664c5f52339c3784d434080d44b9efd42f",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/icici-lombard/": {
-      "hash": "788f0ad3e299a356abd5b020ff3f4e19a7a944c13ee07d73681e807962d0a77e",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "60fb29b3f79b4a3db95151efe6a039d006ba425f92b5de296dfc7073dbd95f87",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/bajaj-allianz/": {
-      "hash": "e5998f1b9a9d6d302e2bd180ee95df47b2b9ff6da9229812db091b8aea9091ee",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "809477210b0c9b965c210156b703054473285be8898b61516658ff33cf81dda0",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/tata-aig/": {
-      "hash": "cbea2f4d1520a10b69907c48154db57e068947b5e47cff0cfbc7ad317731be99",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "07c8ea2d6fba7b0c20b6c5f833f149de66cae5953ee1b2c3e1c645328a1422b0",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/new-india-assurance/": {
-      "hash": "6fc42445ec0c7c8bd03f6d5b50bf67d7c9227ddd97ce55a8b315de7cd4992b2e",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "a015ae0c0088d69663966cf50fac1c278d1ea7448995a04c04952683b6dfbea7",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/digit/": {
-      "hash": "9c2bba3f2d00909615fcf853c13b7bc7f66c9e9e3e0ed50e3aac5315cdd9cfa0",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "d0553afec99cb87fbc2e185f0a9182effb897a883155039821da274126200383",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/acko/": {
-      "hash": "0031420db756ef053e205cfe4fe12806c467c4459ad8b4763aabaa33dc3ab268",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "27a8b7e94044da5c40ebe3eb55f0c8989ae5b18cd634f5ac31faf8b8490abbbb",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/reliance-general/": {
-      "hash": "06dbdace0ece34b25fd0f66517a828aea0b4af942363f08385df4d7603a17287",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "3b485f68b1f9fac1162444ea8d4961236d1618ce5e22f1c824043fc06cff2c9b",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/sbi-general/": {
-      "hash": "a02fa3e8c1d844ce384afbce7c28b6f63a36b34c2e6344eb7e4aba4d27d05500",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "0c5f7a17424273ea3e3d51c87fc8bb6f3ae06b14f2b945899d9790030dc9df6a",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/kotak-general/": {
-      "hash": "6deb0b75786a33a093b5eea3dd506706f4174014c6004c9094798f99a4e010bd",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "8ab248ca7e0b4940922ee2e0ab3179429e6a3c264bc36d743c3fb9e72b8935ae",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/national-insurance/": {
-      "hash": "602bddc63484fc89bf521ffb84a4036496683983788470d1f6a967bd1d1d83eb",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "15114b4af79dc47905376e80b46ae7e9eac2482067dbc01e529775763b0438ef",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/oriental-insurance/": {
-      "hash": "51e99829641110fd325fcad3804e2ba6c7da124e7e832fd944cc7e0ef86b6a19",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "6f7c54bb57d298e086f9fd86920337a3ecc7503d6bc84311ba6e42caf8046e69",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurer/united-india-insurance/": {
-      "hash": "51c3698d94c078e81242203db8521539f949e7b479b8e99c262e75d536b93774",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "2bb87dbc4ceb1e17375a29c807e52b055cbff7ce196b533bca3be47c7fb8017c",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/us/insurer/aetna/": {
       "hash": "03fe81c64b9f21be1cdba53f3ffd279b2e5c2784c1f11fe473b832f10978eeeb",
@@ -239,24 +255,24 @@
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/us/insurer/transamerica/": {
-      "hash": "b6c8f0f6ab06ebd8dc6ae5fa28c4b556fc55879a62ffde00a1a6d59348ffed43",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "ab381fe8e4145993e11d2b1d9392ae20bc64d579591d2946fed7cc4e3a8234f2",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/us/insurer/protective-life/": {
-      "hash": "f7922037f3821a88e011d41a31d10fe102896ecf9dc41c2c5b840959bf5f388a",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "3ff635f714a7ebaad6b2db9c42c19e60d9057a6f04557215166b54476bc71b01",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/us/insurer/banner-life/": {
-      "hash": "b3558aa26d9bc27d461edb26faab83a9b77c164159ffc0c34b02868653dd9ccb",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "799f238754190464c3efa7dd7a997ce71df80039327d0977ed6f7a09392e6bc1",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/us/insurer/haven-life/": {
-      "hash": "b602caed7b2d119161bb78c2b868bd638dbe5fc0c4cceacb71579a77389a63a1",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "0a2313ec82127113118e21a5dfb21d98aa80cefd626b05f9bf9f235e05ae2c1f",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/us/insurer/ladder/": {
-      "hash": "47c5a68c1bfc6d5031c513e69c1aa540fd2ff19a5c25229ef38732cbeba599ae",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "c4aef5118b2dfebf4ab7b4b753010f5fe6762260afc5c0102efbe2c3d5726a3b",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/us/insurer/state-farm/": {
       "hash": "ea5b4f90f5e177fa1a104d28492c60134733717e6f0bd20a96975b8a5b53760e",
@@ -295,84 +311,84 @@
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/us/insurer/allianz-travel/": {
-      "hash": "f621d514fe813b5ee5a7a893b601efe88f07a5980acd82d13ae2e4af1d0d7eb3",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "3f936af0ef5dd10d45cb9b4b58b725f438f791923b48ee7f8fa9d9371112d968",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/us/insurer/world-nomads/": {
-      "hash": "a69a6f7a5d3c0abca1f74704f620e814a3e5911825a09678a679edff68d08ca2",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "28ff8a3166caead128a4e83dcd2e4daa552f37db95c29aa56c1413b703af6965",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/us/insurer/travel-guard-aig/": {
-      "hash": "e9e9d7ac2254f5489bb63329a28f2a2c646cae97bf9d22dec2b9882102f2534b",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "5d2c3394b9401d46c098ed36b11d64b0627399a89f9f3a184914804e64c8a87c",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/us/insurer/pacific-life/": {
-      "hash": "1d717e28d04495cd8b396ce1b67b29a8913bffc375cf380d0821c9ccc33b0751",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "c7e0952f1d09c9c937df42d46c8372ae50a684a919051b1c601cd55b39d50107",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/uk/insurer/bupa/": {
       "hash": "a51199224d67019d658db1764dc6d5b15c184ff9b766474cc631aa08ebe7f145",
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/uk/insurer/aviva/": {
-      "hash": "7150551a295f641ecba265e21a2d1205143c57a43abf502fd7799ff036075ba4",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "bdce04843b554009b603147a68b836f0e41dcf95866a3fc829d2b9f230f009ff",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/uk/insurer/wpa/": {
-      "hash": "ea0f80a5f760b08591b2e845d27022da23c8a635016c37976f4a10a8ca99c287",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "1776dd279bba0417b77f724e44f3f74f1c10824674517d0d980ac33a79cfdd69",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/uk/insurer/cigna-uk/": {
-      "hash": "aa9f9a7f6ab74116d11084970be02085731c168b7126edeb1a48f5fdd5e614a9",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "3822001337febb9a368b03e983d0b3f644009715c72be5bda288f51d8817b484",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/uk/insurer/legal-and-general/": {
       "hash": "599c05a979a434afed2a87edf563d7ecabd7348dac6d058400c1cfeba012d3ad",
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/uk/insurer/royal-london/": {
-      "hash": "36ea3c99171f97a4daf80f61e918690022399d96f2749b93218a61fa0e9c2818",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "e836a879ef8987eab9335ec97016801540519ddf489f3136de1d3a119954a510",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/uk/insurer/zurich-uk/": {
       "hash": "a674b46f41c8367965ad0d7c59b7ec1bc3cb3f7fecedf298d1a4f85566e948f7",
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/uk/insurer/lv/": {
-      "hash": "d4994453178cf4c3d3e730ab90b3c2514caec021c11f67fa7a6f41916c456dfc",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "823e9d28632e1b7aa1fc1d7490302901a5ad29a3e519583fcbaa92ba3f2574f7",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/uk/insurer/scottish-widows/": {
-      "hash": "af3ad4039268a19674b7c78b261951c77a293fb2c597b94ed1a1783bd423f29d",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "27fbdd47f756c58e0311a43c03d12c0bcc9b0474648f4e5a55f243bfc8f32054",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/uk/insurer/admiral/": {
-      "hash": "7f5f3392d73b2c9120ca351a48de55367046abbb0dad98504c8f08b89f88c6e3",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "4dd03e51474504f8643b1c574d54e548707f79fd029f29cd54a97648234e0c1b",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/uk/insurer/direct-line/": {
-      "hash": "9d70824d77b117a4923ab4335a1d89f3aaf9c53375b7571ca3ecb36ffbc2bddc",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "92b2de14e56d70e265b8fecb1b301f663e6eaad56e91f180bf58371b3f5897f2",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/uk/insurer/churchill/": {
-      "hash": "bbbef78c8d747e9c929dfc1283891f182456ef62f0483f56d41b00087ac5792f",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "15942f8c32b6b8474e3e8af3c301713aed9ce620b9bf3345d001fb90d42b95e9",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/uk/insurer/hastings-direct/": {
-      "hash": "5280dcfceb474eb4079bcefc08f81a1244357be349502a3160e61918bd3f439d",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "c9284549b2a71300c13d43eae267e79a655f1eed6530ade47aba164ca8de06e1",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/uk/insurer/esure/": {
-      "hash": "36c11a53fec98d7e7027dadea59e4961727400ab0de2e6ac21ce817842947a6f",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "6899d29f17357e282e9e7ac7c0cc7ffac0b8d21d6e4211a159cf3efa7f51f278",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/uk/insurer/post-office/": {
-      "hash": "7cf8504db39a2e50e81c488bbd41997fa150bd57baa1f9f9d06fbb68f8009bb6",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "4eeab79ffe083c6d546b2749e4dfd2458975db835edaaba8e6e8a16f98980454",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/uk/insurer/staysure/": {
-      "hash": "3831705590ef5b3b09c3e88de348746c00002f4d4c715ed8f135526e9ac7ae48",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "ed7dc4e7fff88415e2c25f2b8c7e2179a2b46c7075c34b975b21b1395eebc81e",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ae/insurer/daman/": {
       "hash": "511a8c910c51a1cc39747d45067feb868acb987e2316880d3ca4b3caac598a3f",
@@ -391,168 +407,168 @@
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/ae/insurer/adnic/": {
-      "hash": "ff756b5b1be40c245c7a3637a355fe5727c8a6bd323f11f8d66ff89545734808",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "16c58b4d8e3f80f92ca932e9ac1a7f96b6866f3d42fe3763d451b880b39ba974",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ae/insurer/noor-takaful/": {
-      "hash": "b5dd79e5d7f230095d6f7c0a9241831998308d5d4bbb8999529e4466c4eedd14",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "ab1b3db222af69d6f81ef435b5a560714133d3b45e9f65c13e3d303a733344db",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ae/insurer/watania/": {
-      "hash": "67d8ee9b301ffc434b58de6fbb78707cc9ad51d7f4e5dcec6aef93fa27b15eb1",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "417932c9fe1c947b3aa29c5e8c7c801b7041268bd40ebd99e016e560df1990ec",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sg/insurer/great-eastern/": {
       "hash": "5ebec577125994761a776b6d8a1b2acb15728d09df0d075dc539e012de70ef83",
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/sg/insurer/ntuc-income/": {
-      "hash": "5156a64536384d59a257289482a326fc40f5548205a7dd38ccf02203d6ee01db",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "74a7d6822e502f8dc9fcd6a5cdbc365ad9f62a5a81f52636315a6c462c9c5fdc",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sg/insurer/axa-sg/": {
-      "hash": "3e499238152815f05c41ff3c30d3804375324f533477e93b9a9992b1d38dcd7f",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "de498122aca0370c46988eecd5ac0b85cf6a3c712c188efb2764ca3644b3a256",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sg/insurer/singlife/": {
-      "hash": "5b1c255e3955ec148f92fe6d31f991af0c90ee0d1b1bcea9ccce2222ace8ea5e",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "cc08583014ade8b77c8c4912e748effbb6333c9405a6f63728ef59daeb57a0fd",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sg/insurer/manulife-sg/": {
-      "hash": "bab1c6cdbb32d1a2d99c8fcf68e16fe95019ef90112c9663391bed913949cd98",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "8348417537348fd0ed6c403a4233bbcb849b956a1d1fb80e8e231e39882991d3",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sg/insurer/allianz-sg/": {
-      "hash": "5b3bacddb21be83c5e503992963bb296f7d6ccf0a3ad3ff22ab5aec26e8f0901",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "d8e665d7002c2a07b7e90430711d8f0d91c3cfe279ecd3288d80574fe304f3f4",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sg/insurer/raffles-health/": {
-      "hash": "6e4bc77e39629980b7db39a42bd5bedd0125fab64bab45a861dcdd4470dbe69b",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "248d6fd07bfe750f137f02032a9bfce44281be9970308e54e2db6630d6bc8654",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ca/insurer/manulife/": {
       "hash": "e283a1991532632ddafc69beb95394577d9b42f01e16a610f5a23c97aa54cec0",
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/ca/insurer/canada-life/": {
-      "hash": "9cf71bf88a67ba6cdbce4a5635407b5302b6827d796e99cce0c9a54965fbf65e",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "43290ea44522186e7d47aa32d93d4a9786a36a9334b1f5f512869c6f784b0946",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ca/insurer/desjardins/": {
-      "hash": "6292d9473749300ec8253a29d7384bc61e814753c8a9a5335e0c5a0b3a16442a",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "84330c476112ccc3345b8cd5756de1f913193e52638cd42ad0c7f47d2b086796",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ca/insurer/empire-life/": {
-      "hash": "dfed624264d204582239af809ce403acb3abd852e624d63ae04348c62b3cdd10",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "3ce3fdbd2f5a6e801d88f30debce2e7f569d3d29a80beb7278be1dd87231fb97",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ca/insurer/ia-financial/": {
-      "hash": "a1efbbf75ea8229ca33202df41c930c7e3fb2d2e68d3842f6ff935d5baac7b51",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "6269b512996b06bc2e737083dc30798731d7821fc9e8c99173c07925d2befaaf",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ca/insurer/intact/": {
-      "hash": "7a331f7ca0256cf2a69ac9a90c58850d0ef1e330622d0d1db281d458ab91f6b5",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "decb8008d122dd61d2203cf192d07135c52b4934140fc7cb7dfc7a79acf4a66b",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ca/insurer/td-insurance/": {
-      "hash": "6b1a5d0db6b2995c6b941d365896c118da48cfad1a765f423a79a453e6b60df7",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "d5b1df71fa5c93099cb5081fd657ad7aa6d0a1e33f3fefdf657d5c3f6d71f94b",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ca/insurer/cooperators/": {
-      "hash": "8ac7469ff26230737ece17c9f64823f6056146e622f90c98aedcc766f0f8fe33",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "db548432450ce945ca3380bdf98312ff150bc6bf58c72f9f467bd3c0afcd6f01",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ca/insurer/wawanesa/": {
-      "hash": "58f39b0887769cd83bc465fdb9ede9891545c10bb5efd84eeff91cdf4fd4db9e",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "2ae8cc766e8e5437937213d0a60ed62e7510140670d7e06600068f2e39e608cf",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/au/insurer/medibank/": {
       "hash": "a0c0fba8ef4f373764640ff7c0c69634074fb0ea36343c8f8dbdbc8229e182ee",
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/au/insurer/hbf/": {
-      "hash": "ec63828574e861757e04156aefe2271aa1c529d0937a10e118475e3286e1b578",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "976d9568dad4d5557d0cabf8f715ffd1ed64425fa3b2485bc44aaf35b1df3d5c",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/au/insurer/hcf/": {
-      "hash": "8ae48df8bf38e8a1081d788bc2d139d2b84eeda5ca62fe45c04caf5156792afd",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "8a71e42b54ea8e491466c29abc39607cb8ec95b17bc514e9d2f1f360594b36e4",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/au/insurer/nib/": {
       "hash": "55a6dce548cff26ba7dbd515d4bad2447e5bac33204631da555ddd2b51c2152c",
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/au/insurer/tal/": {
-      "hash": "83253c84aa4f33594b51e3cced2a352aa17c991ac8c8fbe8d94208eb12e51e3e",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "52b7d6112860fbb559615b74f8cb874e2238166a378f5aa5278688a2c67a646c",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/au/insurer/mlc-life/": {
-      "hash": "c07fd3c8601cf2985a59c082069a86c80596e7093fc45db7efe0980f1e66d91d",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "e2e0617f5791f89f7f482bb6c870ed996748615f18a397c6ccec975cf5e147a7",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/au/insurer/zurich-au/": {
-      "hash": "64bcfba2f01d207536a7f0e5d1d6e3a18d1793a661f92869afa1a1766e196c05",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "8ad3aadcdc7b3015d1fc581a1acc5840bb31c2e124f54b76a3e7d51a57535a15",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/au/insurer/allianz-au/": {
-      "hash": "0a7a0ffd6579992bb2be78010b62acde73bd5ef8e1aeedddb737e4cca86a53b3",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "4429f2545705df34f6e28fce1d6a9ea6b79ee8c2350b43d811c292e970a157ca",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/au/insurer/aami/": {
-      "hash": "f55d39a14f905ef6e5d71acffa8c92447d7f61702c053e0d631553959361713a",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "8717508083459449a3417c77d87f0bc7ba6e6342f3be6794da7ee9c97841c788",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/au/insurer/nrma/": {
-      "hash": "65163730a70c330e7237b5d7578545b4b899c67efcc84cde162a29e9242e6604",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "783e98478ec70ed187ba32c810f1ff9eda99ab5446ce7d06e255efc7cd30fb85",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/au/insurer/suncorp/": {
-      "hash": "99b50b9cf5b3b79920368895c8b06f3151045057662f82b5c363f4e8e1dc03ab",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "c6132b5559986025e0be9c6c200d0f85a47fa5b6bbfeed10f7de63a7f6c9d6a3",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/au/insurer/budget-direct/": {
-      "hash": "be47fd7a444b58a94d73ca7c2712280724e4cd6404c603f8502fefec6d2f13c9",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "7548619f6847f11bb641054cb11fc5d1e3854c3cad05a050ab91123718f4b2a8",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/de/insurer/allianz-de/": {
       "hash": "84e03a40583099def6a6a71b7bfa1902522f97bf62dbaab0e5078666ade66a9c",
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/de/insurer/ergo/": {
-      "hash": "82e4db7b90b567a04b1f302b0289f9973e2eb29228e6c8c0b9fdd693511f5f64",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "46649077ac89d3bf8c67f8b7c11aba087a1e6a8cd07ac91be114ba4427d19ea4",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/de/insurer/axa-de/": {
-      "hash": "e2a235c81216ce96c1a87c4505002957f7b3a0a7c5fdc368dbdacbb7dce4a2dc",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "df2c0d852f84328066e713b5fb0cd209f4f2e76787da8833aa56cd24ff8c8d94",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/de/insurer/debeka/": {
-      "hash": "98e4f8a37be24e49698b8b7206d4d03194e883a11e8cd42cce9c011b8b330dbd",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "ef2913f07e2795de487bb1efcfb28b1a0931be44351946fcc5add395ac28d5cb",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/de/insurer/signal-iduna/": {
-      "hash": "8a09614fb19b2d12e2f4bcad50f9111868cfaf3acc7410d13d6aeafb5268f962",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "a5b3733a1bd84125772b65ee2ec47b58bedd4a5bbdf2c6c92b7f417ea0a3e52e",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/de/insurer/huk-coburg/": {
-      "hash": "7fb0b598c945f1cf14f8268e937d4b6b9ba4ec1a95533b25a4e6e3a45d2c84b1",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "3f1f5425c15739ba57c241d865df3463b02e107ed930832ec6783e160392ffe0",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/de/insurer/hannoversche/": {
-      "hash": "d0ca4380b4ec983507d7a5de011c2dda78e9f6ad1704a4cb33f7bd300e65455e",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "973566cfc03489c9c8f1be4de1af74f66565ee6812f80dd23849c554af83ce93",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/de/insurer/cosmosdirekt/": {
-      "hash": "e56e6f8f0e199147a64a8dfb05d2b782c66957e48201015e2c1c89d160851db0",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "b1cb666c5b2c11ff5f08106dd716f8139b9aa3d5ca99149db7993b7aa5eb8cc5",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/de/insurer/adac/": {
-      "hash": "de0b3c8a6383919416142ca19e8e1aab8e64c37c1588add03bb3eebb7c267f8c",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "36141f238301b943630a92bfafdfe23de99fab4417b412f14b16a5a23f1efdf0",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/de/insurer/hansemerkur/": {
-      "hash": "6eae9c6612c4557a805b9d0b6b287a2eed3fa02fdc4a85b6c6ebfca165a959f2",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "df41d792e7a5775cd6bf13711a00daca03f9f7fa15b38eda5b0cf9c9bb37b63e",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sa/insurer/bupa-arabia/": {
       "hash": "eb63049840aa12185a87b9c95798ac56251a36f77b8e82333d64c3a33630efff",
@@ -563,20 +579,20 @@
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/sa/insurer/medgulf/": {
-      "hash": "4c82d9734174022296e16dd2e98e0cb6d792e04e9adaed07de65306976e706e4",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "b8521375da1abbdb310dea4d84ffdafa4c5293b3897df99d9aa95f71ed402b08",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sa/insurer/walaa/": {
-      "hash": "1dc781c1899b3f29083b18b793e0b5f2f375007700e03f7c613140a1d1beefe0",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "3cb1aa1c8edd7721ba6be945f98cfdce49406495d32ed6e6453663718b9f0f82",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sa/insurer/malath/": {
-      "hash": "b65b028052facc72650dbb6bcc2fc776a624f341872b6a0ac848ffd6e9b68b9b",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "12fd37891d94e5c1a7a047627b2cae66924d3c5d99797ef545a769e1205f8e5b",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sa/insurer/solidarity-sa/": {
-      "hash": "9b317a0496a3a66b666e80a2c7b2c8f19962375385b09883b91dea40679579fa",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "ad66f788c07291b1cf103fddc3a1bf95a7efe82a3cd6bc7496fa4663ef3bda8a",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/jp/insurer/nippon-life/": {
       "hash": "e42e6b26e12fcf103e4c60880a51b2a3a01ed81f0faf6db40f2f60a87ab87ba2",
@@ -591,28 +607,28 @@
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/jp/insurer/sumitomo-life/": {
-      "hash": "e222e83a2203fed3f00cf5cd32999272008c9d01420aaf8526804641694a0851",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "b939901e84b65d79f0e4b3469157b7fbf4e1e9559af7516075272d08f7148a59",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/jp/insurer/sony-life/": {
-      "hash": "683e6827f6c84df39d57003002c303b0524e12741fea36093826cc3379a5703e",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "417f7622e519a4a030da906d5ece45db4b779ce6523c78b56476fb43d9f0ce39",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/jp/insurer/lifenet/": {
-      "hash": "208128df5fde55974a5e26a989a91c48e7dbd79990f5daf32663e5abe5adfefc",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "d790c2e67e06f8dafab684e0c1d79394a4853d1412eb643e42120faec83ee846",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/jp/insurer/tokio-marine/": {
-      "hash": "17c672a627c79b864f10a442560b9fde6e48c72253e771f412e3bd834845c136",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "a0c8cc3cdf99cb98039e2680eb549946a007ccdb7428f742ab8cabb4ea4c531b",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/jp/insurer/mitsui-sumitomo/": {
-      "hash": "a1ba67253cd88aeb4cc6fdd7ca93ef42b1f5b0074cf90bcf202b1b86b692df99",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "81d0b40b216f16ac7419bd26cfd9fe9145555e965ca8e6bb6d5cac203880306b",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/jp/insurer/zurich-jp/": {
-      "hash": "6f4d0a6613c0301722d3eec33694f16611c9f999dc5761541043f106379ac8cf",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "f16acfdc75fec83b162c8a12c811a3b1111f8c34d7ee0a739817b6275a15b018",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/kr/insurer/samsung-life/": {
       "hash": "d63db3bff47a668515bd4267cc768d0ddadba46c5e1d24075e4acae1ef430c3b",
@@ -623,320 +639,320 @@
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/kr/insurer/kyobo-life/": {
-      "hash": "6da3c9faeb0540f18ab276fc5e24eaa33bcdfbb584581e80c3fa0b97736076e3",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "8c67c704062b7d33acd960656c4dbeebafd84f73c21d772eeb969725754b1a79",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/kr/insurer/db-insurance/": {
-      "hash": "f93c8e843e595c1e9a20166271dbd48b1afb228bd879c7dff1f83f8409b89bb5",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "54ea5965cbaa1db4bf4a41de8b2ec39f8efc97703a3fdd91b278c804f4691b86",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/kr/insurer/kb-insurance/": {
-      "hash": "c4b7e907ae846a43c772a3ac99837991cbf2ebe03bd9fb232468d5a9e330a362",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "de86f99baea274f7247c546df724be6a5f8efab119d999080d508aa4021dc9ec",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/kr/insurer/hyundai-marine/": {
-      "hash": "4a919914395f4dce3536970cc8e8e2c1cb4704ac1263309c2a9e1fdde5d2cbbf",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "6738b27296a0a9edcd93f9c24180797d94fe717994bfa08b2d9198b25af8f8b5",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/kr/insurer/samsung-fire/": {
-      "hash": "9e1ac9f17558aea04be9f9dbfe70030d8d6bdce359badd0ee9ddb9a55e8062ba",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "4f8ef9e50f907785cef870a2bd0d14c03e0054c4e8d8498811f308c7bb5de8a4",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/hk/insurer/aia-hk/": {
       "hash": "ac8dc616f3946eb6af76e24e7e83a3a36411de9789027c80494b87bde43527f3",
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/hk/insurer/prudential-hk/": {
-      "hash": "57bce20d8cedcb2f5e48fa5fe3db1db6ea1cbdb08ca5ca7d2abbe2197d555937",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "72c51dcf5c73751c7186d6d0a9ca700754d1e18bc71254a9e43c0725558b4418",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/hk/insurer/manulife-hk/": {
       "hash": "755f02835aa5fb32eb5afdeb9b5c3a23eb4145e596e7db1ec98302472cb94345",
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/hk/insurer/axa-hk/": {
-      "hash": "d3f8d91ab15532746bed5de8a23d8c09aedb00d96776d407e35d896ca4f6b290",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "c386949f2977adf354268a44b34db0981dd5fd0c8b6a738c8c402366f2f548af",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/hk/insurer/bupa-hk/": {
-      "hash": "a139cdba8a47d576e3143ce9d958904a337bded81096965917680f06bd36d79f",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "9aec7dbcbbe1fe0ef7ab3c9a3e151cb180d5469c65a148639cbfceb10cb8a793",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/hk/insurer/fwd-hk/": {
-      "hash": "4cc19d172833a898fa6fe5bd6c3fc48f082ea0acf8297cbae08bcb29abd7139d",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "09f31be5a290c88c5f4114dc4de1dd1edff466e9f1d50ec61f11bd5874f28d58",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/hk/insurer/cigna-hk/": {
-      "hash": "2e816913a68662ab3f1a6c09fdcc497d5b61f5f7030396a7ec9130d4f848f005",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "beb7fdcd9817c60d420e4587137029115967ba8dc894f0e6f857e8e1d0ce504c",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/hk/insurer/sun-life-hk/": {
-      "hash": "9b2413dcc71f9f421bfa2783db346dc0c28d79d2fab88a66516903a9230d80aa",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "3061b21284684456b4b4747ba110e973347984b235792fa18a7fe628e9c26299",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/hk/insurer/zurich-hk/": {
-      "hash": "f3ff5a79fcd5b73e106c5132aa65dcd6f29635718712e2a1769291e96350f38d",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "59b301a44f349740dcf80112be1d6299fcb600c41f48a6d7497e49818f373698",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/hk/insurer/china-life-hk/": {
-      "hash": "e7433d66bdbe08d331bdac2e8fbfe07d3b793a364b3d3909a63f543cf96b4c02",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "5c39d2f72bf3db075e892f572bf49429770d4e47bae6fa945301f23f6ad92736",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/hk/insurer/msig-hk/": {
-      "hash": "bd5f660c1bb0c31fda05ff9c39fa39d5adbcade4b99ff9d535876bb2c454a83b",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "b29f0b2be7d34b7b569cc604f481343f228dad7ce9719d70b33dbc38322ca3dd",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/hk/insurer/qbe-hk/": {
-      "hash": "8f3663a4259c17f6c79e37d81bb104c541f9841704fd039af1985a99fde95156",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "9939fca9724ad080dda9fc61bfd5a9e8b7b67a520f4a80cef6253bce17397620",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/hdfc-ergo-optima-secure/": {
-      "hash": "36e594050b1a028ffecdfff438ea8eb138db0a51fb1c3019e46e768f4228aa69",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "df624d98eeff5ad929f3510b0b5c28852d8a0c17b645567d16ceb2d6a2ca7a35",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/niva-bupa-reassure-2/": {
-      "hash": "87416f62e8023f3a03e1265ef0a314a6c41a211cc290abb6ea6b4dba3b9e6d7f",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "2ccb73ff6f28c93916743976688e1bad221fec129ef25247ad5992d3d0272b6e",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/care-supreme/": {
-      "hash": "8ee05e6518bf0347892a1cea2df33b100eefad91e2f1beda0a4f4bc91ccfeb35",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "8f89dd524bce0e1ef16a43756695b896474daebe9262d09b6c171d97e3ab2e71",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/bajaj-allianz-health-guard/": {
-      "hash": "7364a9f095d2227752536ffddebb275944b4aef17c9097fa66b71aa3069d162d",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "fe47dd0f11f32a56f575a81c085e433990955721a3f272e53fe5ddaeeb304ebe",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/star-family-health-optima/": {
-      "hash": "8d98d32af939b8649ee146f6eb07a643a613cfd06e0bed6c160e82406c2ce943",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "8f4adfef0df2a06b4e797c7e2f1e905cb380096855e59a2a22520909892b740a",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/manipalcigna-prohealth-plus/": {
-      "hash": "77eb56a3f940c3cc861e4938d08afa09fbeeb94b541c384e24b04c20dfb83130",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "02a26b26b9c5a7f1177e000f49604fe4eb450b26446ac84f166d29504f78658e",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/aditya-birla-activ-one-max/": {
-      "hash": "2e129528b649877d6387f6e4a4f2d1fd21233fa1ecb4afcfe3df48d2d8e621bc",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "b6ccae9910e17230fb120ebee7c6df41adfc69ac816de3b08a46651d46de6af9",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/tata-aig-medicare-select/": {
-      "hash": "0307955c54de293bb5cdb9cc9c48773d78f457d8d7ac24e1da02da67022eb149",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "3f1892d0bf7503c4b64ec2015bd7a40e067782dab945c55f153cd501b6516559",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/icici-lombard-elevate/": {
-      "hash": "a1cd323f70bdd50dab766597e6fba960039984ea00962d1859db87bc7937c4e0",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "4d4742f649e33826983c6818aff8618a7fdcc886b2db8306203a4accd9d174f6",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/digit-health-insurance/": {
-      "hash": "49f28d96ad97b683401c52ced7f2dcf0e39b2f032483d33da3b192e413857e17",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "4f93bd4f8d41b4d84e89b29328419bf8aa0adf431c71095490586dc976554704",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/star-health-comprehensive/": {
-      "hash": "dfd3aef4eb5d666a53bda79b9824c8aff6cb1d013f921dd2359c98728301d95c",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "0830d7c0fd77ead8dff2b9cadc81834ad12709dd3d44559254ac66d07c3d41b7",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/new-india-mediclaim-1-0/": {
-      "hash": "33519be6a4aa1e248ffd7a13273de75985a8d42e8f2481257ee9820800442c6f",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "6fbc09d8682a5f5a7501aba5b7968d4d4852b8ba56d79bfff119e52bee9ac94a",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/oriental-happy-family/": {
-      "hash": "bc003d8ca63067b5d7fe675ed005b38a72902dbf8ee916cfcf6f891e7f158cbf",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "597f5523587eda3fee953684663ccdc95f10296bb3c65f9fe1d95f0bcce920f9",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/united-india-family-medicare/": {
-      "hash": "7303289332cc66e9343f7a2f806349a6a069e63a55f91f500e927c1f7a758c55",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "b5e6c568a13374a72229b2c4596bf3234e7561db027b8d93c3aff0dee0fb314d",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/sbi-arogya-premier/": {
-      "hash": "c6698274b88ec0398e7d8dc674a39c924645e65e4feb521e8fdf044e6d103f12",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "1c12ce408da85064e292e8dc701e59e0d1ebd7c62b72dee8a37d302c5abf3108",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/kotak-health-premier/": {
-      "hash": "d64a7099f5184b6e4289c0c7b2bb9c636c65c8df95441ec2e0e8d7bbb2a9133a",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "13a7070865c98e7425f96f61519440e7c8859669c94d9b8663db4713e02f3a98",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/future-generali-total-health/": {
-      "hash": "bf6f5c6ee270fceab1fdb3105f94ac0c5bbb307fcb5ec879a0e0467d7c16e1bd",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "90da449f714861013da3f039a6f88b961787a9296849ae8ba90af44de1319081",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/acko-platinum-health/": {
-      "hash": "ae128376b6826a46040c3830f3c9dc7f2d93875ae343aefeffd5c9a0438653b4",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "e2dd4f2c6011ddf490b20fb0bac5b473d3fd4fe413e1f879ffbaebc089a0c024",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/reliance-health-gain/": {
-      "hash": "a6d28c7517c8bebd6d262198e1b3d0ec7ac0453387b5ab22789694d558eb516a",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "03552e3db34955bd1f84947c5fa97fdbe9f27dee0b267e8f4db5230072e6d238",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/universal-sompo-complete/": {
-      "hash": "07f9bc737812845e1c508b16dd6a98b4cb7f9f6326ae2bd4ded3a230e0048c2e",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "c432101e2502cd818d178db7ef9c1b0385687c1cef470eff14ca711b3a7f1c1f",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/hdfc-click-2-protect/": {
-      "hash": "d665701078bbb31a1b57d0fb46b5024d1dc9f7aca2ce6c40ceb85c31509d9c2c",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "a8b3739cdb56a27883e06b8dedcd4f951b92d9a78ae0d3721bece8223e20112c",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/max-life-smart-secure-plus/": {
-      "hash": "7eaf3ae011cdcbc75f2b25768e376df7ce4aa1d710dad60b8aa63ecedf992b21",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "73c65c0bcd556c5d32417bf37348d8db0ebe728caa81b4c0d1ce72ddca8c3b08",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/icici-iprotect-smart/": {
-      "hash": "915670e9539f5ea20db5b7a73a173a5af9aba0f8ce6a581451ae45d7649d4770",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "c893767065a3f9b7f014bae2573cc8f79237935e40c34ba999ad3f90778855dc",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/tata-aia-sampoorna-raksha/": {
-      "hash": "8ccffe89000f90d7f81c67d2b15c67361e61be30ab0507056f2e316bc0352875",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "32fecc7269be3022e9dfcce5a801bd6452606be027cb1c6618040c782e716bc9",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/sbi-life-eshield/": {
-      "hash": "a413f1731a35ca18915e262c808d9819447bcdd7206de52182cb6315c501e685",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "ae3a6ea12748e56703ed1f18bdc11e744e86153e9ae2f5e03146f35e7c297eeb",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/lic-tech-term/": {
-      "hash": "e9652d0a3597b5d59b81f3ed18003518b218548d7262554a2bb10a8a5b669074",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "ee30ab7c62443a112c335369b2cf04a87069bd24fe00ffeadb7dec6f8012117e",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/bajaj-allianz-etouch/": {
-      "hash": "f6518b1e088c49cfcda669652d6b6c8a8c32677e08401a882f22afb8cdaa04cf",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "547f22dff4826a61afda82e303c4776a237e54a867bd376c05bb2b953ac24aed",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/kotak-e-term/": {
-      "hash": "54d23c13a0676382b23cd972ff2fce22a89efa1a2f551fab4936f1eb67f37e60",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "98d1d6c8da469550061e4938cb204fd58c9bd2259bcfbe4167b0b543a9e015ed",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/lic-jeevan-amar/": {
-      "hash": "b6fe9e1ff9f9276bac75eaa10102c878481c82d10508f1d2e103852ffe2fecf5",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "82a296d126b5e22dd4359366b2376e40bf673a8f000c85958bb54d5a9d0309b1",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/max-life-online-term-plus/": {
-      "hash": "3c37b2c7358fffe8fcf6fc112c187d9fc8c5dfef20bb44874bfaa55c826c9c03",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "4336b52117b8183d5521dc338a90e627b484cbadc60957024d86ea90f730f146",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/pnb-metlife-mera-term/": {
-      "hash": "c3943c61fe36ea5daa7528a7d08a246b20413dfef5de78e545c189d64312741a",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "0e941e80170652d0f5fc85538d1a88d3a0ac15de4e81bd79f4130c33b1ac8c11",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/aditya-birla-digicare-shield/": {
-      "hash": "ff638ecc4c353a7f99ff2b758582e8b4ce8de5ddd45519a6f3159ab0c7a4560e",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "7d464fe17cf3840235b74735c38a2333678f75e4afcd7e955c2cef332e39af14",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/canara-hsbc-ismart/": {
-      "hash": "aaa8383e50f5413733adcde9c6888a78bfc1993d3cb2e7ee76cdc75e025a8507",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "8821ee78a0dc918d6d0a099b6c5cd27516dc1801697f69070dffb5ccecf5972e",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/bharti-axa-flexi-term/": {
-      "hash": "0a641dc8257a854d86a80f32a9e4402d9aadd266b9955d396c5a4864a5f445a4",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "dc67c12ca4dfc4f6e0db13f8a1247bebcfa04ecd0fdb264842ade0806f1fd4ed",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/exide-life-smart-term/": {
-      "hash": "4f1b62ede970c56779cae8a961fc021fc11ade5a4eee38888eb3fbedb923f7d5",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "e2050c1bdd62f7a15d8b783d738abc829af40fd1627440f812390eac1f4cd2f8",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/hdfc-ergo-motor/": {
-      "hash": "a69576acb3124d5b585271b4942b9df7f63508761e4b0308351c2cb9c94623f3",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "cb942d72b62d65acccd11b5a2a7e7ada607f0d5a0ef00342eeae61e4bf12537d",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/bajaj-allianz-motor/": {
-      "hash": "f558f94e4efb25614622b709efee15fdc7a198c612afdb6ff98b549aa72f5c7b",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "d843feca08838d0944fd1052aac6bb1a3fb511bc81c0dbc897fae04b5eb64a8a",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/icici-lombard-motor/": {
-      "hash": "9f8715d5b041fda3a0a6691066b12a1d8cdced7e1c90c69146e260d6d7cbfca3",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "62915aafbecebf38d3f710c4b9eeab094058dddb8fe82d6fccb6723fc9655888",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/digit-motor/": {
-      "hash": "a9b51b0cb971e42c2c112f166e59117f375342d16724ad7815a591190e39fdae",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "c5cff4edaf31f2fb7fe99431503942cb58dbff42a6b586dba280654662720b5f",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/acko-car-insurance/": {
-      "hash": "036fdc24d066a124419e79e2d4ae64f599f7e66db5bb113396a555fd1f1e0930",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "5ea142b245faeecf41e9fcfa1bbdda1c812a753df2243b5e2d6050448a89d598",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/tata-aig-motor/": {
-      "hash": "e1a6bb67704d8cfc1017be47e463b783715ad3e86384114bb680d1fb5c474b29",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "9117804c1d8db3362dd5d3e3101c542c5f206d46d5cbde07f3a384be38a1d331",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/new-india-motor/": {
-      "hash": "f531ffba70cb550f2c222d94016cf857043e12f3459170c44275899fabb7cd2d",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "4cc796a3cda6df2c6221a82aef1e7256d7b9630aed406bfa907dba63a6193c16",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/national-insurance-motor/": {
-      "hash": "bf287590c2a7cf3226b6f78b3b20cd464448e940f80c2093d9d30b0f3eccebf8",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "fd698dc878f274dc35946673e8e3d728160d714fcebba78cc49703380be66e8a",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/iffco-tokio-motor-gold/": {
-      "hash": "8539f76ef924abb08eae770de63f39bdbfc95e433b854d259f6ed48c67194101",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "6e117d6818686d238286662cdb6f88b6143d5cb52278ef86ac1f6fcf661c200f",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/reliance-motor-comprehensive/": {
-      "hash": "d06247f26992d67cacf30bdb8029b4164795c92cec813e8cfca7a3476a185507",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "5fa5bd26fd659dd8fb98e8ff5c06c4084b3d484910ae4d6050de1ddaf110f0a7",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/liberty-general-motor/": {
-      "hash": "96dd30291ac28981376e5534a0f12f5d00340a615109575aa8d7d0ceab3c0039",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "9ce98941478ad2dec15291570b38259af33142923f9edc733fdf90c72ccb91b2",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/kotak-motor-comprehensive/": {
-      "hash": "cbb58e2e2d6b3acd0155d281c991ea84a3403a4d4574290d7e3150b6494cea4b",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "9cf369156c40f5a512c014312389e665065fb87b0b4ae1668bc5f4083fe52000",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/oriental-motor-comprehensive/": {
-      "hash": "05f01df8be48c7b0ea846386b5bc859815efcfd230c99c4fb98952f4602eba6e",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "aa5e2a12ee44eaccfac438a370ceaf85df4565f2e2d7384d24941b701f030533",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/bharti-axa-motor/": {
-      "hash": "cbd3e32dcee176a91a3327d99f9bedee8ef87a450c6a4cced31b987d1cfc0b1c",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "dc05eba9d1fcf622832161ff5ab54c86019489f33709abebef3ee59e27829fcc",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/sbi-motor-comprehensive/": {
-      "hash": "d9e2badcbf8d92769082be4b7a9211e5388b184bc0bffa26b4afaed2a387b5fc",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "28e4583578f2ce4681181b2948ec5189f71a5e7f9eef4c578c96da58bd3552cf",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/bajaj-allianz-travel/": {
-      "hash": "d646b42ea02e350610d2cf28c54150fc05cf1874670fc9d0efd83914fa0b9376",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "23a03d717958616441fffdaf7b1babdc23b16fc7d0a1b605f7b25aae67220b90",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/hdfc-ergo-travel/": {
-      "hash": "6dd26201d6de32c99074d4ce68d0aa730be5c3b35a900340b1599360c09d2c3e",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "00cf29d2e695dfaaa1fb91f3e202f1f2e596c32d5ce33333787f2427e9e137e1",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/tata-aig-travel/": {
-      "hash": "1cc161805d7981568d713f85c8d54e4fb650040a9bb2658db9cdb6fdc30e564b",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "f55125e9e7a959ced1f2b90de9bd80c6593c30d1b4dc8a6fe172a6238af79684",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/icici-lombard-travel/": {
-      "hash": "1bcbb241bb102eeb1c0193ba3fd4a6cb7272307347708dbdfab06b38e3af5975",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "85635706d5011e958e0cec6130e3a003e47f1c3d8818bb0fbf6b12ee0a30c971",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/digit-travel/": {
-      "hash": "52baa4c3bbab31a8e468b09b3d19dbc35705c35855fae18c1f6c9e369d940f44",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "7d8909c4e10607b2ad512ae516c0e70f94916c77099251010bd96bf75767b4fa",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/star-health-travel/": {
-      "hash": "351e6aab1ab48a38473574d6f25de4a7a08671a6d574cf18cfdf0a06de3cdf35",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "fb8b03e8220b3bf4a295f1eb6fa351d106d4f28b695dec643a6d57f100505f32",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/new-india-travel/": {
-      "hash": "007275cb6843513cbf66919cfc349694ec59eb88a924a65094edcb25a4466d6d",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "abc356c4e1b25828bfa35f5d249c27f6dcaf4e436e5f25e54fbb21995fb128aa",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/reliance-travel-care/": {
-      "hash": "25beef44d39b2d8adeca2923934f04993bea2dd7480f0983716b961d40ea8235",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "b0408716232ca5b1221c07ca24c0cc8839578ee7974c232e25f920704edf94b8",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/united-india-travel/": {
-      "hash": "f6294c33808165937669fbd924ee083f5f807a0dd3b5d50532bdbe0dfba424d0",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "934eefc913ff0b599268f81ebfe7e78b3ef3d1f08659dd1545aff694cc22991c",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/oriental-travel/": {
-      "hash": "4c571f8b5717dca0aa22966e568b9670d842060a3f018ba7f0c197fb62dbaab1",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "cc537b139a5e8200a30bce89e5f393922d4fb15e4d76fb5157f225500166ecea",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/niva-bupa-travel/": {
-      "hash": "088474427322fc25c333cb326c65bea134b77a9b661465c5dcb6710e91dadd8d",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "5b0631b81f8441715fdde4e6c6df9155c120c32007d84a3491ffce74a18c9f33",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/sbi-travel-insurance/": {
-      "hash": "cddad16293664abc7cfeb473a9ee4d8e9b82e623cfe03e1f17f1cf5467fca0f1",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "dc0ab4848264b6e05e0150e165a5e59d755a1b11f0053c500e739c765020aa3e",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/product/manipalcigna-sarvah/": {
       "hash": "bc5d0f9650e06a0453677646c0818b66e70ea6b95d3ec3b799ee5ebd393718eb",
@@ -971,292 +987,292 @@
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/in/insurers/": {
-      "hash": "808131f6f05d05199b58de9a21c181dbe8f52103cb23317b9b14a4ade38763c6",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "546d130887c52bea99e4b1a2289b96025bc536ea3b377f0ba3da657587796c86",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/contact-directory/": {
-      "hash": "deb34c4a09e40f3d31f564d703ed4ff5981b027bfdeaf931a570dc0b44eb7188",
-      "lastSubmittedAt": "2026-09-21T08:51:23.889Z"
+      "hash": "52013914048bf75666ff8f8859c58c6607718c264af0f04db79f34abf02a7121",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/compare/health/": {
-      "hash": "db947e399f609ff071e84a78b24fcc61ff8b46cd7447ccd6983728298abae4d7",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "c8ad84bfa6a57a7000eb7b283de3646de28ebce7da915b4a18fd0b8df1066d26",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/compare/term-life/": {
-      "hash": "52be4f65aca6236581f350b409227364e5c7eaca2b6a3c686080583759ddbf29",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "441cfa49a24f1e236b2c9f2fab2c4b93a06e5695babab46605a59a52173deb77",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/compare/motor/": {
-      "hash": "d671bc1315063e528075882c505982885fdee9e9dc772e9d2b33cb557d11cfc0",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "dfe7b3baca00b4063f7cec411a96015195123f10b261aa4c3ed39197c9276dbb",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/compare/travel/": {
-      "hash": "9cb040c89877ecdb61d583cc1aa743f5c3ef28c6ad956c659c99f59127d8d45f",
-      "lastSubmittedAt": "2026-09-19T22:25:11.973Z"
+      "hash": "1342d3b2433b4fd50551a5ea34ebb441fd383d4d5601e53b9f5bf67f099aa067",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/us/insurers/": {
-      "hash": "adbff00e0ebd3cf0a5004763dba016f50e44e5a4fd55d1811d0de2aeb3b2eea7",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "8f27fa2b7559c9a36cb6311fe15a56d52ba7edeb69fa21403fbc12c66535e7dd",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/us/contact-directory/": {
-      "hash": "399c65fe5f3f23debeb9e9f5325062489a05fc305a1dce18f0f2922c375f150a",
-      "lastSubmittedAt": "2026-09-21T08:51:23.889Z"
+      "hash": "59db91741293b1c97711e89cd3eabd8e4fbd41f139557de5e2a2a86ac1c94e50",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/us/compare/health/": {
-      "hash": "7defe81d83965b5b768af10613b16aa0332a938475f0638b108e8039c0ea6465",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "dac01f61212dc0868b108eef41aed8739d0b777ae06bb5d8893cc40b49686542",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/us/compare/term-life/": {
-      "hash": "4d2cc0d7d78ded5970bbee3c9403ff8c52db1982b24d7b8da9a55ea9f981fb7b",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "c6c5341e3118ac43a12d3679287264816b3396acc274e9285f76e78df70bebf0",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/us/compare/motor/": {
-      "hash": "02d5bb59fda69fd3206ab9438189d987ef939803832aa78a776dbbbca75fff51",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "59f67d564ed6e0f5e0e0136adef843c39eef8392b07777907367b5a5991c7db3",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/us/compare/travel/": {
-      "hash": "6aba31ec898ef92bdf7a560b11234dfb325b448846f50b388e74a96da23dcfc0",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "31dcd0b5c38ccddf05cfaff75110f892288046c8ab3b1c532ab19e7957237255",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/uk/insurers/": {
-      "hash": "e94497d3ff353faa4fd978b8141da0166a13943f30cfac87f2a825dbd155df27",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "6518875c891f5cc636784b7ecc06dc30feedd6154ea76b669cae3c798cdb9084",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/uk/contact-directory/": {
-      "hash": "9e158338f5fbfe42eb6beab62cfb9385c6ca8a1756c962bfa4acf9f527f606d6",
-      "lastSubmittedAt": "2026-09-21T08:51:23.889Z"
+      "hash": "ae5eff4518eb14ee8abeed47712d1c0214203dc2a55857be620689a16eb5c33b",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/uk/compare/health/": {
-      "hash": "a4dd985e2ed3b81a6c3453846b9366f1042fbe21803fb3b6ca7c6cafc637118b",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "275f8c58d06fb7aa8aae361df4ac17c5f34c35165d4a18e07c84b509b031c221",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/uk/compare/term-life/": {
-      "hash": "cec9b204478cd5eefe45fd7dc38cee23a588b1ddd896f20d6e4ee351dd80af85",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "a9a24957e6d9a560709832fcd80b503ad39307a902ab3474eae65d03256c7eff",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/uk/compare/motor/": {
-      "hash": "08af1a12df74103c03585b74131cfce372ff4c6dcdb627693aaaa5e145b96299",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "674ef06f090f33c3e11138372a6f7b8abfe758d54545081aa407b047338edcc5",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/uk/compare/travel/": {
-      "hash": "54a94880d3647593c1f3c668c03a4224c0e36911ad488b245565239fc80895f5",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "e5e2e5867ea76f6c8a3255faea46c46fb56f2eb6b48fc399f0d6334564e60825",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ae/insurers/": {
-      "hash": "858dbf4e14b9609c987eaada113be5232aa7a9f6f0651f3db29ca4917e2c0f90",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "3e99b8847b191aa9fce2ef094a6fbfc870f6a36ccddd078f789555a3a9ed1619",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ae/contact-directory/": {
-      "hash": "6ae9f1df03574633f196f82bbbc97dd5cc00b342781eba74cb66c3c159ccf668",
-      "lastSubmittedAt": "2026-09-21T08:51:23.889Z"
+      "hash": "8b65ac959a0463c1d82f89b37f831ea6dbabc92e2dd298e02594978dab7d94ea",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ae/compare/health/": {
-      "hash": "0ef8a72c1a281e50a4285c97dc56e63ecbe85bc8bcfc21b065d338a3e2640170",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "7c576e49afb7b9b0eecc08f69943ed704b1ef877103a78b5a71494658bcb7b63",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ae/compare/term-life/": {
-      "hash": "fac8288b2b729cca37ac59563879c7259c5609351e9b5a6d71c0abda075feb88",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "e572075f5f1868570b96845db89ae28796b6511df93358b93d2eac8a3f758d03",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ae/compare/motor/": {
-      "hash": "cbcdc90b1a0e4d2e3ef65ebb63ee701f607edd5e37589a74a11db75d1faf93fc",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "275dab6e78d016b789affa4a5efc3047a325b5f1be2e7aee191f9522c8570038",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ae/compare/travel/": {
-      "hash": "3a98a982357124bd95e421db38b91fc521d5ad5e608ac1f5ec8f6957346b1dda",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "f4f20f2e91faa7ded78b18ddc8973d4a2b4e1110dc5ec973d8c95ea872e8acc9",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sg/insurers/": {
-      "hash": "5078b84e54d6ded9e8e9cff385aadc234764b0c2f5c475c34601cd0522408c6d",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "2ce44a0246ef2a958c6f7493bd20d830a41460679eeb7fc6da228227a7b50696",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sg/contact-directory/": {
-      "hash": "01adc4be4488debeeb53fdeb0831c0ca0cd98f346d8c3aa4d9e58c10947c3c01",
-      "lastSubmittedAt": "2026-09-21T08:51:23.889Z"
+      "hash": "0b7e7bd1c3f853f032d02f11deb35b77ae2ee48a8d69ec0f3dc6b389a7452c02",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sg/compare/health/": {
-      "hash": "46b93c9bdee34c0a6f9b612429f258623e26b5413491bf9e36349cab73e25dff",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "abf38dcf533a2ddfad6289d006c7ab3caa516feb916470a22307be67c9a04d6e",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sg/compare/term-life/": {
-      "hash": "a848133179a1b75c925f3202d39230fec6b443e166eb0a9cea6383c6ec4d8684",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "8574a2fad43a727b905aebd7e91fa5ca8eb2b8c2f29935be549b6eac43327f96",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sg/compare/motor/": {
-      "hash": "56defe29d687fea7225326ab7f1188f2a644e5609ab332a223221ebd24597390",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "9fc05cdc5973eabf1ccac4e557f99ac2a1714997b7ad28f6f04262f03af49e2e",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sg/compare/travel/": {
-      "hash": "becddd8af5d346d3cd6de383c70eb32a1af7e97b7503c931b51e76aa4c676777",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "dcf65f3b71751ffc5f20c0a14381cdd76a2f962a6a4aed01505ee642c95fdca5",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ca/insurers/": {
-      "hash": "cf117e88ccea705b3897928c6b4250e9a6882e59f4a5857b53b9452ef21bdf27",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "afb4c8197789a8258c2b53b46b9500099387fe565f5f0617bd6f6e1ba3bf34ec",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ca/contact-directory/": {
-      "hash": "3fc9683eba816cb03d0851c3b62dfbc17673ab150076f06c16a23f94d9c5b0be",
-      "lastSubmittedAt": "2026-09-21T08:51:23.889Z"
+      "hash": "eec029491c15ba4a9dd5ef05e49d96c4dd05621ca304050d9dc32325d150a08c",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ca/compare/health/": {
-      "hash": "ac0238117f5213cda02dc14bebb696a559eb768120d1afd6ade871bb5d79a4a6",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "7f605e5cb28d6ea79515763d7160299c8c8b9c893125ef94e8ef6e9f390c3058",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ca/compare/term-life/": {
-      "hash": "6c9655f272044a04aeb38f1ffdb528994509175f96e6511428470fa3fd763f25",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "3b60db4e9886bcaee697ef775f87407df809f392b0d2aa64f58ab15434f5186b",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ca/compare/motor/": {
-      "hash": "342013fad645f6366b3c544cb6c0e0989e2826512afb089dbdb6535dbf4bade9",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "ec6c1a74cde5df742286230f35cac3266b9f637f4009a0a66eec3451c6311ddc",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/ca/compare/travel/": {
-      "hash": "c9b7e8a5c1b4d18ed748174837ac6d65704f83adb3e740c47675b4f37585e0a5",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "833c09b4b6197a9112f6633ab70e5c1882d5513da56c55b0ff8b70bf01ff8462",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/au/insurers/": {
-      "hash": "ff60f61dfd17f64c70111eb6ab2fc8e21305e1fe2d62a69170704d6f2c9b2a1b",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "d77a21e0097971a827d8b6f17431598757b991eb5d8ff0efdf86fe8bc5efac1f",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/au/contact-directory/": {
-      "hash": "6a774f89a5d553e4bde664a7f49cc4f29ac508b08a169e3eeb1811d49132bc77",
-      "lastSubmittedAt": "2026-09-21T08:51:23.889Z"
+      "hash": "5b9f967f12d0a0f0b5a642008f7b3a549d8591f4109ef4e2beb40c56a92e0381",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/au/compare/health/": {
-      "hash": "8f20e303a0f9ba287ab58103874e8177d64a31d1730a23e82225041ca0f928bf",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "bb37339c8e87b37ae424f6ec374c049004fbbea59969d35c3b38821804ac6224",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/au/compare/term-life/": {
-      "hash": "09f64564ce6de2839752e156bb7e77467102c6db5733b776c70051ceb4f5b7ed",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "f69cfee1425d707962ce09e861e9c5b42a23c2230cbc9f9758d144cfb0890cb5",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/au/compare/motor/": {
-      "hash": "688d5e8949221dbb5b16874bd49d52df5441fdcad447210c4cd72024c2d6b410",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "c8da689b030018ccfd5e33851090337f38b56e92e3ccb3580c35fa97e22ca6c1",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/au/compare/travel/": {
-      "hash": "af09b364c37daf51f089e28c8d8719d7ab3a9c0b7183990eb1f4ebbc16a04b12",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "d2529e274b75ee70c9ac97f4b60b8a2b92dcdb0f57a1ffefc977e422732da446",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/de/insurers/": {
-      "hash": "7e6ced20a261494146148b7b690b1c109e0a821f33b5817073d0f8d223214d48",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "b90f4de78ea6187f675f6697804bfad59e8009ed9bef88f270d9cb843859dd5c",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/de/contact-directory/": {
-      "hash": "7fc4374f00528f158257c2f7b18b9c47f141839a446bd2c91099bc9c80b4cf7e",
-      "lastSubmittedAt": "2026-09-21T08:51:23.889Z"
+      "hash": "734294b835ada0ccd891ebf9c2e729b97efca058ddf1ab569aca5eedff50ec4f",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/de/compare/health/": {
-      "hash": "6508bb6185c130a891117aaadfb89e0b967b6f49708083f2200c0af3c813d196",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "18ed75609ff00487a972126b95bf0b88d72a67e0153b6a24cf63c89058a1f7cb",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/de/compare/term-life/": {
-      "hash": "1ff6da03862a275e05abdd9b699b76f47ca4eb1265d7f59685ec0a204f54635d",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "5483623a0ebf00ac7f2432d0b7fa60d93a1b873be3af6d75defffa34c4178d24",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/de/compare/motor/": {
-      "hash": "09210b0f7d3fb6230bf0fcdc037b95f84b287ecc5457a1d9090e72e65fc52167",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "e8128b2d8ab4e8c9223bc298f12c6006ee669689c6538866af66d30b6b64ad76",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/de/compare/travel/": {
-      "hash": "384b55590e102bf0fd770ff29ff54ca491a8a7d4fe562df7cc64e9ae2e879779",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "901700a047a18309f72e15cd4ffc694a773c72b2ba5610f224118226fb56f546",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sa/insurers/": {
-      "hash": "1cf2ef90899ae0eddaa69b77c3fb1c5e7202ba5a8e8f61d0a37380efbe141eba",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "6a4eb1ae8975fd4e04f5ed164224fa27d1b42471a55c90e2d104c518230c0c2d",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sa/contact-directory/": {
-      "hash": "b87dd8c503fe4a420d5b8f94737867ac19e85b1b688e540ff318a3c159ba29f4",
-      "lastSubmittedAt": "2026-09-21T08:51:23.889Z"
+      "hash": "794e6ad7ed92862d012d35937a3a3b233718bdd0df8af1fe4af82b33227592ac",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sa/compare/health/": {
-      "hash": "e5847b818ef35f904527492f8a21781abc0b228009da6784525340f0147b43f4",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "56656c5119ce769b0709f2bebf03c9a21bfda1e6c9b939579b23021ea7bd9084",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sa/compare/term-life/": {
-      "hash": "2a1f3876287c5399e253dce70abe593a315c60c28267b8cbfb8937ad7a537ea0",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "9d153c857c40114e974c978539ed02954b79101f165ccf09e03c1ef43dfa0d3a",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sa/compare/motor/": {
-      "hash": "46f2d22a82012910b2cd8693eb7cfe778db966b00806a4520225986718ff37de",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "db2170c21aba515915f3cd1e6d644e0a0d9fe4a7dcfdb6fda011a652f5a8d55d",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/sa/compare/travel/": {
-      "hash": "86d1d2b6b4fff8e3cdfdd29e1e02f546926f4d8880ed4793589462c7f83d668c",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "5a4c60026dd0015f7cb11a5cfa53ccf8b975663a589d7f8e850d1d43ec09e875",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/jp/insurers/": {
-      "hash": "86251572dffc384c05dc354c40df5e6a4bf738b762429d50041491aac058344a",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "e2978f9ceaea4c001d0e5a80af5eb4b48eecbd5710f266dee20a63d2604aa489",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/jp/contact-directory/": {
-      "hash": "0e484d9001e5b57d92d6b8100df960876d1751cf6aa74962f6193577b692d5f9",
-      "lastSubmittedAt": "2026-09-21T08:51:23.889Z"
+      "hash": "b686e6fe79d683faa362acad90a552084d81f9a56e7fd322dcc55665860f77c9",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/jp/compare/health/": {
-      "hash": "88eeedb386b90599230a7a64d1369a543752b1c55680c03bee7c90b4ac26dbaa",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "88d4feff13b17154fde6e6d7ec635bb6738d88cc83a2e1ea95a35bcaa2c221cd",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/jp/compare/term-life/": {
-      "hash": "bb5c0dac107839ea9ac5f1d4437e9b17162ff8e74329fe741fdd4fbb784237ee",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "af5ce57f8de241049fa9883a5766e95b443b169def952f41fc1928a8ed855463",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/jp/compare/motor/": {
-      "hash": "281b66da2814314c6fc54bf3cc7784da7b19e0e22a985c613040094cfebe251c",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "3875761a540b97f837335dab926b1d0ee60b6a97cfadb055e87e953418e1333f",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/jp/compare/travel/": {
-      "hash": "7b5d43e61ad303611390732401e7b2353beba8bd7954708028f3b25058b2408d",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "24c0e8d20b5f4d0748a77e18d25aefab074d522cd7f2237352a9d8e012fb4b6a",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/kr/insurers/": {
-      "hash": "aa9fa98016dd65b13e14d3864643f4e5673bd0296fc3aabb6fe6598f2c72f592",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "4182cc3baa5e392f1d5de9b6b24b8df2dc530fa32021e25a45c2d713dfe2055e",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/kr/contact-directory/": {
-      "hash": "ca002a9cb460e3eeebc5cd8254d309d0b88165dbea1b4ee889e91277da0c8196",
-      "lastSubmittedAt": "2026-09-21T08:51:23.889Z"
+      "hash": "5ea6e33bf2e68fe9fe31c87e8f6a37c38a9a97d9e7f8dad580c9d3bfd7d728b7",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/kr/compare/health/": {
-      "hash": "f696bee6174e12840a73a7a08ebfb86c69b73b1f96cf872f19dde18e3bef11c5",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "7925fd699d42bd845dffcd3fb635bf712fe8425e7d041b2bb794218cb9f2ddd2",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/kr/compare/term-life/": {
-      "hash": "69f4861cc45603468baa0251def347248b4d91f5d1a2e1808c094f667261566d",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "1dc946141061cc83f1f987f4b2f0a7f779e75bbb9c01b9b1a8f98248b5f689e5",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/kr/compare/motor/": {
-      "hash": "cd967c6a9964d52c184662afa2475cc2f831a3bc8fa3d9b0cad7c0a69e4559ec",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "1ed6ed2955df827d0bb779cf0edd5f837dc335ab045f569afa9dd791ce985c2f",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/kr/compare/travel/": {
-      "hash": "269c09e4284d78621828098e03017cdcc166e99a14e33c781baa57efa35b1ef2",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "187e7377dffec1e84dfe919d5d61c2427fac76a6b735d7ae279d7e9e70dcd2b5",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/hk/insurers/": {
-      "hash": "6aebb5e164544c17221b7cc18fe14ec079541ddc22a4335c6bcab35627d8495a",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "52cb81816d9699308cdec5a10fba340b3d13469b906739aad16d6d24e8b99775",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/hk/contact-directory/": {
-      "hash": "ad35ec2369f925f34cc086e92b7ca59e9f69ecae2a6153a011e759bd0b06ba01",
-      "lastSubmittedAt": "2026-09-21T08:51:23.889Z"
+      "hash": "5ead2a25904aa3b99cb0acf909e1fa9bf2f07fba1fd9d7c863a46a7f1af52234",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/hk/compare/health/": {
-      "hash": "2a6e659a9689dd15fa351d0712a0706dd231c918268f4dccda7728ad5104b235",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "45f4b3a26664eb5a79ab22f442a3989c319e3ab18e80a13c49a1239b8fa05d92",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/hk/compare/term-life/": {
-      "hash": "901667eb0e03b7cee473930611f842916b80b81ef7d7b7f8118f07e8156eb5a1",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "3e5f44e03e043ecdc741fca6ff65b60b96336ab05eeee506b6db8cf5417480b5",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/hk/compare/motor/": {
-      "hash": "4c530dc1b00b422d5ba1978c1874ee41c569677e4b0e6578242f66046a21eff0",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "a06edfbff785128940ff50450d84350f0b1729f58a1153c7a79a23a3eda14612",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/hk/compare/travel/": {
-      "hash": "0f36022ba7e7361a5b187a37f1d2dce66820c4e9b3d5d71214b26f0cdb1b281d",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "da37e84c63d8aad3cbdfda0552702a9081fe468d443954fa838bba114f82bb35",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/products/": {
       "hash": "d05dbd4dfebb10b6e6b9a04d2f8cd0d0b109bd9516fa99c973cf88759eef680d",
@@ -1271,84 +1287,116 @@
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/insights/": {
-      "hash": "7f62640c21522843dadf0c4f04f5001a0d5dcab04164245a95084c2b22208f2e",
-      "lastSubmittedAt": "2026-09-21T08:51:23.889Z"
+      "hash": "b15e6415f1d99764dba57cfddc979e749ae295a6ab0c38fc485ec98372039d63",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/finance/": {
-      "hash": "de5ffad07abb8f9948b5454df48685ea510f58f011938af9e1a5e368715ff638",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "34060ae7942bcdd162f1d886bfa933a65f9d6bf0b83c3e6c36281495caaaf918",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
+    },
+    "https://worldbestinsurer.com/finance/copay-in-health-insurance-meaning-calculation-zones/": {
+      "hash": "38e390198ab56a1aacc2366b7c9bb66dbcd17d63425d47dddae63a4890b9a199",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
+    },
+    "https://worldbestinsurer.com/finance/critical-illness-vs-health-insurance-vs-term-plan/": {
+      "hash": "e17425291a9291647df7c299bfd296a211ca504125c0ad50e4ff891f5eda6914",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
+    },
+    "https://worldbestinsurer.com/finance/grace-period-health-insurance-india-lapse-revival/": {
+      "hash": "5086a891db8504dd89dcdfe27f4f0acb34d3d14c966ec230d29839ba61db7ee6",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
+    },
+    "https://worldbestinsurer.com/finance/health-insurance-claim-ombudsman-escalation-process-india/": {
+      "hash": "eb647934f4f49d4d040474c34f841779ec0c3a5fd3c1f41b00c3df852346baec",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
+    },
+    "https://worldbestinsurer.com/finance/moratorium-period-health-insurance-india-5-year-rule/": {
+      "hash": "8c9edd89dcfb8c03b4155983ca829b2b625f512a5827f6661eaa164f5d51f720",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
+    },
+    "https://worldbestinsurer.com/finance/schengen-visa-travel-insurance-requirements-checklist-2026/": {
+      "hash": "129456219bf157ccacd2a0227b3b0a60f063f6564749c44253d81b0efd1002c5",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
+    },
+    "https://worldbestinsurer.com/finance/super-top-up-vs-top-up-health-insurance-deductible-explained/": {
+      "hash": "a26e9e569ac0b1b5bb370a2811b4c48b3b88698d82f8cc5602a8d0825e73f2de",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
+    },
+    "https://worldbestinsurer.com/finance/travel-insurance-flight-delay-baggage-loss-claim-rules/": {
+      "hash": "49bd332bac5fe431e0a29115330e330ce5fefaeb0d896548e7a01c55d62f4427",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/finance/deductible-copay-coinsurance-out-of-pocket-maximum-explained/": {
-      "hash": "23bfddf294e6cd0ec5044cbe94e3e2626048b28b9577e16ae57b520ac584ae9a",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "018d0b0206b29351f3e3d0a6d7f5fb5458c8dff6f08cebee8334746c757adb53",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/finance/health-insurance-portability-india-guide/": {
-      "hash": "3bd4e477450db32f43773ea2a335267907a696e9846dcf5fe1de665350b06acb",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "48252b71611649f27e2707db050fcb26c98a0e1e796ee92c4793bb7cc2bbc997",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/finance/hmo-ppo-epo-pos-health-plan-networks-compared/": {
-      "hash": "dfa5e5824993ba1976e1c8bbd8051e01d8e0d8a58e095b7359aa352da1c391d3",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "819059bd404051d823b8cb6e5bb3a8b53bd071fbe4826a7fb0b666333f1bfc75",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/finance/hsa-vs-fsa-vs-hra-2026-2027-limits/": {
-      "hash": "949741fb6e27f0ac4f68987728a210036167b3093f26ecea82d8e829598a16a5",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "b1b768c7eef1d7c99afcf911df758bdabe888aa89c69ba8d1960fe773b3869fd",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/finance/no-claim-bonus-health-insurance-india/": {
-      "hash": "e665e858e67106d95c1d7b4df3fff97ab3e14cab70853120e4f0068c46dd25ed",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "9ffdcb77cae204284302197fcfd4a33689333abbe237f4e4b0fd7cc99eefa621",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/finance/uk-private-medical-insurance-underwriting-moratorium-vs-full/": {
-      "hash": "11a3dce3da16c0da297b7cb0fdcc434161e9b7293cb1104b502767fcc3ef9fbb",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "0d100d1825e1827b20d950be6c2d810cb23276f086ac277d061ae2f6aebb1349",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/finance/uk-travel-insurance-pre-existing-conditions-declaring/": {
-      "hash": "5cbb6b750c4929446448b84943ac6195ad986a2baaee1268291177b940324c78",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "25cc0ab2d2a6833cc8fea90fd95d8bc6dc99474291bf4cc962b01160c12e57f8",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/finance/cashless-vs-reimbursement-claim-india-timelines/": {
-      "hash": "30ee0fd65c8f01f59d749637f8d64e66ea0a1fe08f27d7349eb6a688a87435ae",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "13d74ad86c05f61f686d9d225ec456becea18463aaeff390efc779f341532dc0",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/finance/health-insurance-claim-rejected-india-what-to-do/": {
-      "hash": "d80f12ed560a0728617ac901e26c4318793169ce4c18bc5a00765ef5f6c25769",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "791eaa692138c0cac0750047b1b7b8c024ab47a9532eae4ce504c01b501ef250",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/finance/health-insurance-waiting-periods-india-2026/": {
-      "hash": "181041fe6635a2c5d60816b330c424fbd9562f0139263a3b4475012b57d8395d",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "a7ad0433e1682dacd8efd2f2fcd9a41cb73c144dbbe2c927bde8d1b1fb98b54d",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/finance/room-rent-limit-proportionate-deduction-health-insurance/": {
-      "hash": "d8788185819c93fb4c9128633cbe0830088e83590178e026092582f0f2a2ceb8",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "1de97f62b60a8ae9088b08b28f7fc8bcddc23feec33433f5b52cca5fa3f9c6b9",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/finance/section-80d-health-insurance-tax-deduction/": {
-      "hash": "c3c049b958999fc4d45844ff61b0dc615900fd5f9303f5fc7082bcaefd812673",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "d9f781f0359be15b9ab45605a6bf80025ca33f2ca32ee66fd4453d02e2f39bed",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/reports/": {
       "hash": "28b5416bbe059766f9df8068189101a417ddb41f217ea0f7b8899f7285fbb2ae",
       "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
     },
     "https://worldbestinsurer.com/reports/health-insurance-us-2026/": {
-      "hash": "c93e231ea2b175e2fe262b1c130665cef5344801b01a0228e700d62030917149",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "9649c923d086f6212d87c83e330728f868db0f88df920a438f6960f3e392891d",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/reports/motor-insurance-india-2026/": {
-      "hash": "41382aeb3c7fe387a3f2e2001a5de2f0f51c0184232c51ce5cd7456f75fce409",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "5e74363abc56d2324a63576a73a2cfce62af8c0655a4a73f95109e132b9e5d20",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/reports/travel-insurance-global-2026/": {
-      "hash": "55a01bd9db062a332c17907a376bad7463980265d9863e277183a349696e00de",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "a14597dd8718686850649319583d71f7e878da7810ad9e9affa4413874d65e1a",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/reports/health-insurance-india-2026/": {
-      "hash": "7e1e012a15ca4dd5e5b04717489f3fc2383680e0bddc70156c1f94e1b7d2298c",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "d3b2791a21bc96f20c628644862e2d2e67918a145eae081dd25b8ef2584cff9f",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurance-statistics/": {
-      "hash": "a5f5dc442d9e99d25bc7dc60888c67eff4aa84ab875433fbdda8edba1596fc8d",
-      "lastSubmittedAt": "2026-09-17T21:12:08.000Z"
+      "hash": "f6874f98e8b42b5c6cd8377b38838a28369d3fbafe86d2c2493656d1430b7462",
+      "lastSubmittedAt": "2026-09-23T07:47:49.186Z"
     },
     "https://worldbestinsurer.com/in/insurance-statistics/fy2025-26/": {
       "hash": "8e7227dc8e33f16da4fc41889dbca4441672afad2a5a38b3461913af0bf48224",
