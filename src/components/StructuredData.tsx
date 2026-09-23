@@ -102,7 +102,7 @@ export function ProductSchema({
           name: product.insurerName,
         },
         category: categoryLabels[product.category] ?? product.category,
-        url: `${BASE_URL}/${product.countryCode}/product/${product.id}`,
+        url: `${BASE_URL}/${product.countryCode}/product/${product.id}/`,
         ...(uin && {
           productID: uin,
           identifier: { "@type": "PropertyValue", propertyID: "IRDAI UIN", value: uin },
@@ -150,16 +150,16 @@ export function ArticleSchema({
         "@type": "Article",
         headline: article.title,
         description: article.excerpt,
-        url: `${BASE_URL}/learn/${article.slug}`,
+        url: `${BASE_URL}/learn/${article.slug}/`,
         author: {
           "@type": "Organization",
           name: "World Best Insurer",
-          url: BASE_URL,
+          url: `${BASE_URL}/`,
         },
         publisher: {
           "@type": "Organization",
           name: "World Best Insurer",
-          url: BASE_URL,
+          url: `${BASE_URL}/`,
           logo: {
             "@type": "ImageObject",
             url: `${BASE_URL}/favicon.ico`,
@@ -167,7 +167,7 @@ export function ArticleSchema({
         },
         mainEntityOfPage: {
           "@type": "WebPage",
-          "@id": `${BASE_URL}/learn/${article.slug}`,
+          "@id": `${BASE_URL}/learn/${article.slug}/`,
         },
         articleSection: article.category,
         inLanguage: "en",
