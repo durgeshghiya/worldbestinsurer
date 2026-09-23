@@ -68,7 +68,10 @@ function insurers(): SitemapEntry[] {
         if (!insurerVerdict(ins.slug, reg, site).indexable) continue;
         const ri = reg.insurerBySlug.get(ins.slug);
         out.push({ path: `/in/insurer/${ins.slug}`, lastmod: ri ? day(insurerView(ri, reg).updated) : undefined });
-      } else if (getProductsByInsurer(ins.slug, cc).length > 0) {
+      } else if (
+        getProductsByInsurer(ins.slug, cc).length > 0 ||
+        Boolean(ins.contact?.customerCareNumber || ins.contact?.email || ins.contact?.phone || ins.contact?.claimHelpline)
+      ) {
         out.push({ path: `/${cc}/insurer/${ins.slug}` });
       }
     }

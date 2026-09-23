@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, Building2, Calendar, Shield, Activity } from "lucide-react";
@@ -53,7 +53,7 @@ export async function generateStaticParams() {
   return params;
 }
 
-export const dynamicParams = false;
+export const dynamicParams = true;
 
 /* ────────────────────────────────────────────────────────── */
 /*  Metadata                                                  */
@@ -93,7 +93,9 @@ export default async function InsurerVSPage({
   const { country, slug } = await params;
   const pair = findInsurerPair(slug, country);
   const c = getCountryByCode(country);
-  if (!pair || !c) notFound();
+  if (!pair || !c) {
+    permanentRedirect(c ? `/${country}/insurers/` : "/insurers/");
+  }
 
   const { insurerA: a, insurerB: b } = pair;
 

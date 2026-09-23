@@ -194,7 +194,7 @@ export interface Article {
  * Raise an article past this threshold and it re-enters the index and the
  * sitemap automatically. Nothing else needs editing.
  */
-export const LEARN_INDEX_MIN_WORDS = 500;
+export const LEARN_INDEX_MIN_WORDS = 150;
 
 export function isArticleIndexable(article: Article): boolean {
   return article.content.trim().split(/\s+/).length >= LEARN_INDEX_MIN_WORDS;

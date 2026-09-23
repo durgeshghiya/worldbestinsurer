@@ -14,9 +14,13 @@ export async function generateStaticParams() {
   return getAllProducts().map((p) => ({ id: p.id }));
 }
 
+export const dynamicParams = true;
+
 export default async function LegacyProductPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const product = getProductById(id);
-  if (!product) notFound();
+  if (!product) {
+    permanentRedirect("/in/compare/health/");
+  }
   permanentRedirect(`/${product.countryCode}/product/${product.id}/`);
 }

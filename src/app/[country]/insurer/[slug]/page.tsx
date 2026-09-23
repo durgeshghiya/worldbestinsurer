@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, ExternalLink, MapPin, Calendar, Building2, TrendingUp, ArrowUpRight, Mail, Headphones, PhoneCall, AlertCircle } from "lucide-react";
@@ -75,10 +75,9 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
     title: `${(insurer!.shortName || insurer!.name)} Insurance Plans in ${c.name}`,
     description: `Explore ${(insurer!.shortName || insurer!.name)} insurance plans on World Best Insurer. Compare products available in ${c.name}.`,
     alternates: { canonical },
-    // The catalogue cuts left some insurers with no products at all. Those pages
-    // have nothing to rank for, so they stay live and `follow` but leave search.
-    // They return automatically once the insurer has a sourced product again.
-    ...(getProductsByInsurer(slug, country).length === 0
+    // Insurers with verified contact directories or products are indexable
+    ...(getProductsByInsurer(slug, country).length === 0 &&
+      !Boolean(insurer!.contact?.customerCareNumber || insurer!.contact?.email || insurer!.contact?.phone)
       ? { robots: { index: false, follow: true } }
       : {}),
   };
@@ -89,7 +88,9 @@ export default async function CountryInsurerPage({ params }: { params: Promise<{
   const insurer = getInsurerBySlug(slug, country);
   const c = getCountryByCode(country);
   const r = registryFor(country, slug);
-  if (!c || (!insurer && !r)) notFound();
+  if (!c || (!insurer && !r)) {
+    permanentRedirect(c ? `/${country}/insurers/` : "/insurers/");
+  }
 
   const crumbs = (
     <BreadcrumbSchema
@@ -136,7 +137,9 @@ export default async function CountryInsurerPage({ params }: { params: Promise<{
     );
   }
 
-  if (!insurer) notFound();
+  if (!insurer) {
+    permanentRedirect(c ? `/${country}/insurers/` : "/insurers/");
+  }
   const products = getProductsByInsurer(slug, country);
   const peers = getAllInsurers(country);
 

@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, Check, AlertCircle } from "lucide-react";
@@ -7,9 +7,8 @@ import { formatCompact} from "@/lib/utils";
 import VSEditorial from "@/components/VSEditorial";
 import { AdSlot } from "@/components/AdSlot";
 
-// Only prerendered slugs resolve; unknown slugs 404 at routing (no runtime cost).
-// Kept in lockstep with sitemap.ts so Google never discovers a URL that won't resolve.
-export const dynamicParams = false;
+// Prerender known slugs; unknown slugs redirect to compare hub to prevent 404s.
+export const dynamicParams = true;
 
 export async function generateStaticParams() {
   return generateVSPairs().slice(0, 50).map((p) => ({ slug: p.slug }));
@@ -37,7 +36,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function VSPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const pair = getVSPairBySlug(slug);
-  if (!pair) notFound();
+  if (!pair) {
+    permanentRedirect("/compare/health/");
+  }
 
   const { productA: a, productB: b } = pair;
 

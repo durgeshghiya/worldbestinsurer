@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, Check, AlertCircle } from "lucide-react";
@@ -8,9 +8,8 @@ import { formatCompact } from "@/lib/utils";
 import VSEditorial from "@/components/VSEditorial";
 import { AdSlot } from "@/components/AdSlot";
 
-// Only prerendered slugs resolve; unknown slugs 404 at routing (no runtime cost).
-// Kept in lockstep with sitemap.ts so Google never discovers a URL that won't resolve.
-export const dynamicParams = false;
+// Prerender known slugs; unknown slugs redirect to compare hub to prevent 404s.
+export const dynamicParams = true;
 
 export async function generateStaticParams() {
   const params: { country: string; slug: string }[] = [];
@@ -42,7 +41,9 @@ export default async function CountryVSPage({ params }: { params: Promise<{ coun
   const { country, slug } = await params;
   const pair = getVSPairBySlug(slug, country);
   const c = getCountryByCode(country);
-  if (!pair || !c) notFound();
+  if (!pair || !c) {
+    permanentRedirect(c ? `/${country}/compare/health/` : "/compare/health/");
+  }
 
   const { productA: a, productB: b } = pair;
 

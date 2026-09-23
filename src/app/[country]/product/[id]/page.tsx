@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import {
@@ -128,7 +128,9 @@ export default async function CountryProductPage({
   const product = getProductById(id, country);
   const c = getCountryByCode(country);
   const r = registryFor(country, id);
-  if (!c || (!product && !r)) notFound();
+  if (!c || (!product && !r)) {
+    permanentRedirect(c ? `/${country}/compare/health/` : "/compare/health/");
+  }
 
   // Registry-only product: a data page on the same URL pattern.
   if (!product && r) {
@@ -187,7 +189,9 @@ export default async function CountryProductPage({
     );
   }
 
-  if (!product) notFound();
+  if (!product) {
+    permanentRedirect(c ? `/${country}/compare/health/` : "/compare/health/");
+  }
   const p = product; // alias for brevity
 
   const freshness = freshnessLabel(p.lastVerified);

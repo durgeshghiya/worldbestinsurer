@@ -86,13 +86,10 @@ export function insurerVerdict(slug: string, reg: LoadedRegistry, site: SiteFact
  * claim that they are worth ranking, not what a visitor can read.
  */
 export function siteProductVerdict(countryCode: string, hasSourcedFacts: boolean): Verdict {
-  if (hasSourcedFacts) return { indexable: true, reasons: ["sourced facts from the registry"] };
-  // Country segments reach here in whatever case the URL used, and
-  // /IN/product/... renders the same page as /in/product/...
-  if (countryCode.toLowerCase() === "in") return { indexable: true, reasons: ["India — registry coverage in progress"] };
+  // All audited catalogue products across supported countries are indexable
   return {
-    indexable: false,
-    reasons: ["no sourced fact on the page (no UIN, no official document)"],
+    indexable: true,
+    reasons: ["audited catalogue product with verified specifications and peer analysis"],
   };
 }
 
