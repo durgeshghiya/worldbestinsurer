@@ -18,6 +18,7 @@ import {
   siteFacts,
 } from "@/lib/registry";
 import { DataNotice } from "@/components/registry/RegistryBlocks";
+import { ComparisonSchema, BreadcrumbSchema } from "@/components/StructuredData";
 
 const validCategories = ["health", "term-life", "motor", "travel"];
 
@@ -70,6 +71,14 @@ export default async function CountryComparePage({ params }: { params: Promise<{
 
   return (
     <div>
+      <ComparisonSchema products={products} category={category} />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://worldbestinsurer.com" },
+          { name: c.name, url: `https://worldbestinsurer.com/${country}` },
+          { name: cat?.name ?? category, url: `https://worldbestinsurer.com/${country}/compare/${category}` },
+        ]}
+      />
       <section className="relative overflow-hidden bg-surface-sunken/50">
         <div className="absolute inset-0 bg-grid opacity-30" />
         <div className="relative mx-auto max-w-[1320px] px-5 lg:px-8 py-12 sm:py-16">

@@ -21,6 +21,7 @@ import { formatCompact, freshnessLabel, cn } from "@/lib/utils";
 import { ProductSchema, BreadcrumbSchema, JsonLd } from "@/components/StructuredData";
 import ProductTabs from "./ProductTabs";
 import ProductQuoteForm from "@/components/ProductQuoteForm";
+import ProductFAQ from "@/components/ProductFAQ";
 import ProductEditorial from "@/components/ProductEditorial";
 import { AdSlot } from "@/components/AdSlot";
 import ReviewSection from "@/components/ReviewSection";
@@ -422,6 +423,11 @@ export default async function CountryProductPage({
                 </div>
               </div>
             )}
+            {/* =========================================================== */}
+            {/*  PRODUCT FAQ                                                */}
+            {/* =========================================================== */}
+            <ProductFAQ product={p} />
+
           </div>
 
           {/* ============================================================= */}

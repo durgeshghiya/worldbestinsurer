@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { InsuranceProduct } from "@/lib/types";
 import { formatCompact } from "@/lib/utils";
+import TextAutoLink from "@/components/TextAutoLink";
 
 /**
  * Peer-aware editorial analysis for a single product.
@@ -76,7 +77,7 @@ export default function ProductEditorial({
       </h2>
       <div className="text-[14px] text-text-secondary leading-[1.85] space-y-4">
         {paras.map((para, i) => (
-          <p key={i}>{para}</p>
+          <p key={i}><TextAutoLink>{para}</TextAutoLink></p>
         ))}
       </div>
       <p className="mt-5 text-[11px] text-text-tertiary">
