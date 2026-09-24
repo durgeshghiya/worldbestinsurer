@@ -1,6 +1,6 @@
 # Data-quality report
 
-Generated 2026-09-21 08:46 UTC by `npm run registry -- quality-report`. Registry schema v1, jurisdiction `in`.
+Generated 2026-09-24 08:42 UTC by `npm run registry -- quality-report`. Registry schema v1, jurisdiction `in`.
 
 **VALID** — 0 validation error(s), 0 warning(s), 0 item(s) awaiting review.
 
@@ -39,31 +39,31 @@ confirmed the evidence was present before accepting it.
 
 | Source | Method | robots.txt | Checked |
 | --- | --- | --- | --- |
-| IRDAI | manual | disallowed | 2026-09-16 |
+| IRDAI | manual | disallowed | 2026-09-24 |
 | Government of India Open Government Data Platform | api | not-applicable | 2026-09-16 |
-| Acko official website | crawl | allowed | 2026-09-16 |
-| Bajaj General Insurance Limited official website | crawl | allowed | 2026-09-20 |
-| Bajaj Life Insurance Limited official website | crawl | allowed | 2026-09-20 |
-| Care Health official website | manual | refused | 2026-09-16 |
-| Go Digit official website | crawl | allowed | 2026-09-16 |
-| HDFC ERGO official website | crawl | allowed | 2026-09-16 |
-| HDFC Life official website | manual | refused | 2026-09-16 |
-| ICICI Lombard official website | manual | refused | 2026-09-16 |
-| ICICI Prudential Life official website | manual | refused | 2026-09-16 |
-| LIC official website | crawl | allowed | 2026-09-16 |
-| ManipalCigna official website | crawl | allowed | 2026-09-16 |
-| Axis Max Life Insurance official website | crawl | allowed | 2026-09-16 |
-| National Insurance Company Limited official website | crawl | allowed | 2026-09-20 |
-| New India Assurance official website | crawl | allowed | 2026-09-16 |
-| Niva Bupa official website | crawl | allowed | 2026-09-16 |
-| The Oriental Insurance Company Ltd. official website | crawl | allowed | 2026-09-20 |
-| PNB MetLife official website | crawl | allowed | 2026-09-16 |
-| IndusInd General Insurance official website | crawl | allowed | 2026-09-20 |
-| SBI General Insurance official website | crawl | allowed | 2026-09-20 |
-| SBI Life official website | manual | refused | 2026-09-16 |
-| Star Health official website | manual | refused | 2026-09-16 |
-| Tata AIA Life Insurance official website | crawl | allowed | 2026-09-20 |
-| Tata AIG official website | crawl | allowed | 2026-09-16 |
+| Acko official website | crawl | allowed | 2026-09-24 |
+| Bajaj General Insurance Limited official website | crawl | allowed | 2026-09-24 |
+| Bajaj Life Insurance Limited official website | crawl | allowed | 2026-09-24 |
+| Care Health official website | manual | refused | 2026-09-24 |
+| Go Digit official website | crawl | allowed | 2026-09-24 |
+| HDFC ERGO official website | crawl | allowed | 2026-09-24 |
+| HDFC Life official website | manual | refused | 2026-09-24 |
+| ICICI Lombard official website | manual | refused | 2026-09-24 |
+| ICICI Prudential Life official website | manual | refused | 2026-09-24 |
+| LIC official website | crawl | unreachable | 2026-09-24 |
+| ManipalCigna official website | crawl | allowed | 2026-09-24 |
+| Axis Max Life Insurance official website | crawl | allowed | 2026-09-24 |
+| National Insurance Company Limited official website | crawl | unreachable | 2026-09-24 |
+| New India Assurance official website | crawl | allowed | 2026-09-24 |
+| Niva Bupa official website | crawl | allowed | 2026-09-24 |
+| The Oriental Insurance Company Ltd. official website | crawl | allowed | 2026-09-24 |
+| PNB MetLife official website | crawl | allowed | 2026-09-24 |
+| IndusInd General Insurance official website | crawl | allowed | 2026-09-24 |
+| SBI General Insurance official website | crawl | allowed | 2026-09-24 |
+| SBI Life official website | manual | refused | 2026-09-24 |
+| Star Health official website | manual | allowed | 2026-09-24 |
+| Tata AIA Life Insurance official website | crawl | allowed | 2026-09-24 |
+| Tata AIG official website | crawl | allowed | 2026-09-24 |
 
 ## Job history
 
@@ -71,7 +71,7 @@ confirmed the evidence was present before accepting it.
 | --- | --- | --- | --- |
 | ingest | 2026-09-19 22:19 | yes | 3 accepted, 2 unchanged, 0 held, 0 rejected, 0 documents |
 | check-documents | 2026-09-16 09:13 | yes | 22 ok, 0 changed, 0 unavailable |
-| check-sources | 2026-09-16 09:13 | yes | 18 sources checked, 0 changed, 0 now blocking a crawl source |
+| check-sources | 2026-09-24 08:42 | **no** | 25 sources checked, 3 changed, 2 now blocking a crawl source |
 
 ## Validation
 

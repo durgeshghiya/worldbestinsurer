@@ -13,9 +13,9 @@
       "summary": "22 ok, 0 changed, 0 unavailable"
     },
     "check-sources": {
-      "at": "2026-09-16T09:13:55.968Z",
-      "ok": true,
-      "summary": "18 sources checked, 0 changed, 0 now blocking a crawl source"
+      "at": "2026-09-24T08:42:36.687Z",
+      "ok": false,
+      "summary": "25 sources checked, 3 changed, 2 now blocking a crawl source"
     }
   }
 }
