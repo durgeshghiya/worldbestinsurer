@@ -1974,5 +1974,45 @@
    }
   },
   "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy"
+ },
+ {
+  "at": "2026-09-25T09:02:53.268Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:lic",
+  "field": "robots",
+  "from": "allowed",
+  "to": "disallowed",
+  "sourceUrl": "https://licindia.in/"
+ },
+ {
+  "at": "2026-09-25T09:03:07.581Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:national-insurance",
+  "field": "robots",
+  "from": "allowed",
+  "to": "unreachable",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/"
+ },
+ {
+  "at": "2026-09-25T09:03:37.401Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:niva-bupa",
+  "field": "robots",
+  "from": "allowed",
+  "to": "disallowed",
+  "sourceUrl": "https://www.nivabupa.com/"
+ },
+ {
+  "at": "2026-09-25T09:03:42.594Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:star-health",
+  "field": "robots",
+  "from": "refused",
+  "to": "allowed",
+  "sourceUrl": "https://www.starhealth.in/"
  }
 ]
