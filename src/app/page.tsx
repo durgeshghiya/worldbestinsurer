@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowRight, Check } from "lucide-react";
 import { getAllProducts, getAllInsurers } from "@/lib/data";
 import { getActiveCountries } from "@/lib/countries";
+import { getArticles } from "@/lib/generators";
 import { categories } from "@/lib/data";
 import {
   BreadcrumbSchema,
@@ -93,6 +94,7 @@ export default function HomePage() {
   const totalProducts = getAllProducts().length;
   const totalInsurers = getAllInsurers().length;
   const activeCountries = getActiveCountries();
+  const recentArticles = getArticles().slice(0, 3);
 
   const countByCat: Record<string, number> = {};
   for (const p of getAllProducts()) {
@@ -364,6 +366,57 @@ export default function HomePage() {
                 </span>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Featured Guides ── */}
+      <section className="border-t border-border-light">
+        <div className={`${WRAP} py-14 sm:py-18`}>
+          <p className={EYEBROW}>Featured Guides</p>
+          <h2 className={H2}>Learn from our latest research.</h2>
+          <p className={`mt-4 max-w-[64ch] mb-10 ${PROSE}`}>
+            We continuously publish deeply researched guides on policy mechanics, regulatory changes, and claims strategy to ensure you are fully informed before signing a proposal form.
+          </p>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {recentArticles.map((article) => (
+              <Link
+                key={article.slug}
+                href={`/learn/${article.slug}`}
+                className="group flex flex-col justify-between bg-surface rounded-xl border border-border p-6 hover:border-primary/40 hover:shadow-lg transition-all duration-300"
+              >
+                <div>
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="text-[11px] font-semibold text-primary uppercase tracking-wider bg-primary/10 px-2 py-0.5 rounded">
+                      {article.category}
+                    </span>
+                    <span className="text-[12px] text-text-tertiary">
+                      {article.readTime}
+                    </span>
+                  </div>
+                  <h3 className="text-[16px] font-bold text-text-primary leading-snug mb-3 group-hover:text-primary transition-colors">
+                    {article.title}
+                  </h3>
+                  <p className="text-[14px] text-text-secondary leading-relaxed mb-6 line-clamp-3">
+                    {article.excerpt}
+                  </p>
+                </div>
+                <span className="inline-flex items-center gap-2 text-[13px] font-semibold text-primary">
+                  Read guide
+                  <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                </span>
+              </Link>
+            ))}
+          </div>
+          
+          <div className="mt-10 text-center">
+            <Link
+              href="/learn"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-surface-sunken border border-border text-sm font-semibold text-text-primary hover:bg-surface hover:border-primary/30 transition-all"
+            >
+              View all 121 guides <ArrowRight className="w-4 h-4" />
+            </Link>
           </div>
         </div>
       </section>
