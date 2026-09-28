@@ -1974,5 +1974,305 @@
    }
   },
   "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy"
+ },
+ {
+  "at": "2026-09-28T10:15:51.836Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "d3cb3e1bcd50eddc",
+  "field": "productSlug",
+  "from": "bajaj-allianz-saral-suraksha-bima",
+  "to": "bajaj-allianz-health-guard",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/health-guard-insurance-policy.html"
+ },
+ {
+  "at": "2026-09-28T10:15:51.837Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "d3cb3e1bcd50eddc",
+  "field": "provenance.url",
+  "from": "https://www.bajajgeneralinsurance.com/health-insurance-plans/saral-suraksha-bima-policy.html",
+  "to": "https://www.bajajgeneralinsurance.com/health-insurance-plans/health-guard-insurance-policy.html",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/health-guard-insurance-policy.html"
+ },
+ {
+  "at": "2026-09-28T10:16:09.821Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "d3cb3e1bcd50eddc",
+  "field": "productSlug",
+  "from": "bajaj-allianz-health-guard",
+  "to": "bajaj-allianz-arogya-sanjeevani",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/arogya-sanjeevani-standard-health-insurance-policy.html"
+ },
+ {
+  "at": "2026-09-28T10:16:09.821Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "d3cb3e1bcd50eddc",
+  "field": "provenance.url",
+  "from": "https://www.bajajgeneralinsurance.com/health-insurance-plans/health-guard-insurance-policy.html",
+  "to": "https://www.bajajgeneralinsurance.com/health-insurance-plans/arogya-sanjeevani-standard-health-insurance-policy.html",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/arogya-sanjeevani-standard-health-insurance-policy.html"
+ },
+ {
+  "at": "2026-09-28T10:16:22.204Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "d3cb3e1bcd50eddc",
+  "field": "productSlug",
+  "from": "bajaj-allianz-arogya-sanjeevani",
+  "to": "bajaj-allianz-saral-suraksha-bima",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/saral-suraksha-bima-policy.html"
+ },
+ {
+  "at": "2026-09-28T10:16:22.204Z",
+  "job": "ingest",
+  "kind": "document",
+  "key": "d3cb3e1bcd50eddc",
+  "field": "provenance.url",
+  "from": "https://www.bajajgeneralinsurance.com/health-insurance-plans/arogya-sanjeevani-standard-health-insurance-policy.html",
+  "to": "https://www.bajajgeneralinsurance.com/health-insurance-plans/saral-suraksha-bima-policy.html",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/saral-suraksha-bima-policy.html"
+ },
+ {
+  "at": "2026-09-28T10:19:12.525Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "06bceaa512f17350",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp"
+ },
+ {
+  "at": "2026-09-28T10:19:14.385Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "15fc6f5a5070bdbb",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp"
+ },
+ {
+  "at": "2026-09-28T10:19:14.385Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "16cbd481b7bcbe16",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp"
+ },
+ {
+  "at": "2026-09-28T10:19:17.091Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "212c3f8fe164c911",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy"
+ },
+ {
+  "at": "2026-09-28T10:19:22.720Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "29ddadc5cffbb33a",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy"
+ },
+ {
+  "at": "2026-09-28T10:19:23.583Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "35c22c1d93d5efa3",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp"
+ },
+ {
+  "at": "2026-09-28T10:19:26.585Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "400c15f0bc063200",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy"
+ },
+ {
+  "at": "2026-09-28T10:19:26.612Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "41b7c56212efe74b",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp"
+ },
+ {
+  "at": "2026-09-28T10:19:28.607Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "49371676109afdb4",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy"
+ },
+ {
+  "at": "2026-09-28T10:19:28.608Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "4bf5e3e2aa0e97c7",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy"
+ },
+ {
+  "at": "2026-09-28T10:19:35.333Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "54e6fa1f29a3c23f",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy"
+ },
+ {
+  "at": "2026-09-28T10:19:35.333Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "559032eaa673ce70",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy"
+ },
+ {
+  "at": "2026-09-28T10:19:35.599Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "5e36af8e2d9d939b",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy"
+ },
+ {
+  "at": "2026-09-28T10:19:35.599Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "5fc5733cf1e6029b",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-senior-citizen-mediclaim-policy-nscmp"
+ },
+ {
+  "at": "2026-09-28T10:19:37.609Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "78057c1bbaacf620",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy"
+ },
+ {
+  "at": "2026-09-28T10:19:51.893Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "8922519248745e03",
+  "field": "contentHash",
+  "from": "193417d10fda72111f8e7c45929075020330af619f9bbdcc292f3965a1b1e95a",
+  "to": "a6881a97f66937b31dacf25d83bb6dc1f57a8849ea939e73284d2718a135ffd7",
+  "sourceUrl": "https://www.bajajgeneralinsurance.com/health-insurance-plans/health-guard-insurance-policy.html"
+ },
+ {
+  "at": "2026-09-28T10:20:06.929Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "b9af041fe5513a07",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy"
+ },
+ {
+  "at": "2026-09-28T10:20:06.929Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "bfb5796a9b6cc3bb",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy"
+ },
+ {
+  "at": "2026-09-28T10:20:06.929Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "c787e48c64da1331",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy"
+ },
+ {
+  "at": "2026-09-28T10:20:08.964Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "cf3d06e64c4a1d1d",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy"
+ },
+ {
+  "at": "2026-09-28T10:20:08.964Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "cf790ae09669d5ed",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/base-products/private-car-package-policy"
+ },
+ {
+  "at": "2026-09-28T10:20:13.483Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "eba4c15773de2c40",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy"
+ },
+ {
+  "at": "2026-09-28T10:20:15.524Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "f9cdfa4d18c04730",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/health/national-parivar-mediclaim-plus-policy-floater-policy"
+ },
+ {
+  "at": "2026-09-28T10:20:15.525Z",
+  "job": "check-documents",
+  "kind": "document",
+  "key": "fa3e0d24e5a6db71",
+  "field": "lastStatus",
+  "from": 200,
+  "to": 0,
+  "sourceUrl": "https://nationalinsurance.nic.co.in/products/all-products/travel/national-overseas-travel-policy"
  }
 ]
