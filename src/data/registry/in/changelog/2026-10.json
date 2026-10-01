@@ -1,0 +1,32 @@
+[
+ {
+  "at": "2026-10-01T10:24:15.833Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:lic",
+  "field": "robots",
+  "from": "allowed",
+  "to": "unreachable",
+  "sourceUrl": "https://licindia.in/"
+ },
+ {
+  "at": "2026-10-01T10:24:30.189Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:national-insurance",
+  "field": "robots",
+  "from": "allowed",
+  "to": "unreachable",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/"
+ },
+ {
+  "at": "2026-10-01T10:24:54.507Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:star-health",
+  "field": "robots",
+  "from": "refused",
+  "to": "allowed",
+  "sourceUrl": "https://www.starhealth.in/"
+ }
+]
