@@ -1,6 +1,6 @@
 # Data-quality report
 
-Generated 2026-09-21 08:46 UTC by `npm run registry -- quality-report`. Registry schema v1, jurisdiction `in`.
+Generated 2026-10-01 11:16 UTC by `npm run registry -- quality-report`. Registry schema v1, jurisdiction `in`.
 
 **VALID** — 0 validation error(s), 0 warning(s), 0 item(s) awaiting review.
 
@@ -72,6 +72,7 @@ confirmed the evidence was present before accepting it.
 | ingest | 2026-09-19 22:19 | yes | 3 accepted, 2 unchanged, 0 held, 0 rejected, 0 documents |
 | check-documents | 2026-09-16 09:13 | yes | 22 ok, 0 changed, 0 unavailable |
 | check-sources | 2026-09-16 09:13 | yes | 18 sources checked, 0 changed, 0 now blocking a crawl source |
+| refresh-statistics | 2026-10-01 11:16 | yes | skipped: no API key |
 
 ## Validation
 

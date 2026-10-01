@@ -16,6 +16,11 @@
       "at": "2026-09-16T09:13:55.968Z",
       "ok": true,
       "summary": "18 sources checked, 0 changed, 0 now blocking a crawl source"
+    },
+    "refresh-statistics": {
+      "at": "2026-10-01T11:16:55.227Z",
+      "ok": true,
+      "summary": "skipped: no API key"
     }
   }
 }
