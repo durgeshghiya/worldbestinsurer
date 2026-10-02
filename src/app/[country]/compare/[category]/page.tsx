@@ -39,17 +39,30 @@ export async function generateStaticParams() {
   return params;
 }
 
+import { buildHreflang } from "@/lib/seo";
+
 export async function generateMetadata({ params }: { params: Promise<{ country: string; category: string }> }): Promise<Metadata> {
   const { country, category } = await params;
   const c = getCountryByCode(country);
   const cats = getCategories(country);
   const cat = cats.find((ct) => ct.slug === category);
   if (!c || !cat) return {};
+  
   return {
     title: `Compare ${cat.name} in ${c.name}`,
     description: `Compare ${cat.name.toLowerCase()} plans from ${c.name}'s leading insurers. Side-by-side comparison with verified data.`,
     alternates: {
-      canonical: `https://worldbestinsurer.com/${country}/compare/${category}`,
+      canonical: `https://worldbestinsurer.com/${country}/compare/${category}/`,
+      languages: buildHreflang(
+        (code) => {
+          const checkCountry = getCountryByCode(code);
+          if (checkCountry?.insuranceCategories.includes(category)) {
+            return `/${code}/compare/${category}/`;
+          }
+          return null;
+        },
+        `/compare/${category}/`
+      ),
     },
   };
 }

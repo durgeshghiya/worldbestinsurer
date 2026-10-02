@@ -5,8 +5,16 @@ import Breadcrumb from "@/components/Breadcrumb";
 import { getAllInsurers, getProductsByInsurer } from "@/lib/data";
 import { AdSlot } from "@/components/AdSlot";
 
+import { buildHreflang } from "@/lib/seo";
+
 export const metadata: Metadata = {
-  alternates: { canonical: "https://worldbestinsurer.com/insurers" },
+  alternates: { 
+    canonical: "https://worldbestinsurer.com/insurers/",
+    languages: buildHreflang(
+      (code) => `/${code}/insurers/`,
+      `/insurers/`
+    ),
+  },
   title: "Insurance Companies Directory — 248+ Insurers in 12 Countries",
   description: "Browse 248+ insurance companies across India, US, UK, UAE & 8 more countries. Compare claim settlement ratios, network hospitals, headquarters, and product offerings.",
 };

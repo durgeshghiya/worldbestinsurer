@@ -9,6 +9,8 @@ export async function generateStaticParams() {
   return VALID_COUNTRY_CODES.map((country) => ({ country }));
 }
 
+import { buildHreflang } from "@/lib/seo";
+
 export async function generateMetadata({
   params,
 }: {
@@ -20,7 +22,13 @@ export async function generateMetadata({
   return {
     title: `Insurance Contact Directory — ${c.name}`,
     description: `Phone numbers, emails, claim helplines & contact details for insurance companies in ${c.name}.`,
-    alternates: { canonical: `https://worldbestinsurer.com/${country}/contact-directory` },
+    alternates: {
+      canonical: `https://worldbestinsurer.com/${country}/contact-directory/`,
+      languages: buildHreflang(
+        (code) => `/${code}/contact-directory/`,
+        `/contact-directory/`
+      ),
+    },
   };
 }
 

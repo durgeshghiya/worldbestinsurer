@@ -89,6 +89,9 @@ export async function generateStaticParams() {
   return validCategories.map((category) => ({ category }));
 }
 
+import { buildHreflang } from "@/lib/seo";
+import { getCountryByCode } from "@/lib/countries";
+
 export async function generateMetadata({
   params,
 }: {
@@ -100,7 +103,19 @@ export async function generateMetadata({
   return {
     title: `Compare ${meta.label} — Select Your Country`,
     description: `Compare ${meta.label.toLowerCase()} plans across 12 countries. Select your country to see available plans and insurers.`,
-    alternates: { canonical: `https://worldbestinsurer.com/compare/${category}` },
+    alternates: { 
+      canonical: `https://worldbestinsurer.com/compare/${category}/`,
+      languages: buildHreflang(
+        (code) => {
+          const checkCountry = getCountryByCode(code);
+          if (checkCountry?.insuranceCategories.includes(category)) {
+            return `/${code}/compare/${category}/`;
+          }
+          return null;
+        },
+        `/compare/${category}/`
+      ),
+    },
   };
 }
 

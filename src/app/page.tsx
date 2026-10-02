@@ -12,8 +12,16 @@ import {
 } from "@/components/StructuredData";
 import CompareLauncher from "@/components/CompareLauncher";
 
+import { buildHreflang } from "@/lib/seo";
+
 export const metadata: Metadata = {
-  alternates: { canonical: "https://worldbestinsurer.com" },
+  alternates: { 
+    canonical: "https://worldbestinsurer.com/",
+    languages: buildHreflang(
+      (code) => `/${code}/`,
+      `/`
+    ),
+  },
 };
 
 const CATEGORY_TILES = [

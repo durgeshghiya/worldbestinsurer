@@ -19,6 +19,8 @@ export async function generateStaticParams() {
   return VALID_COUNTRY_CODES.map((country) => ({ country }));
 }
 
+import { buildHreflang } from "@/lib/seo";
+
 export async function generateMetadata({ params }: { params: Promise<{ country: string }> }): Promise<Metadata> {
   const { country } = await params;
   const c = getCountryByCode(country);
@@ -29,7 +31,13 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
       country === "in"
         ? `Directory of insurance companies in India, grouped by IRDAI licence type, with registration numbers and official sources where verified.`
         : `Directory of insurance companies in ${c.name}. Compare insurers and explore their plans.`,
-    alternates: { canonical: `https://worldbestinsurer.com/${country}/insurers` },
+    alternates: { 
+      canonical: `https://worldbestinsurer.com/${country}/insurers/`,
+      languages: buildHreflang(
+        (code) => `/${code}/insurers/`,
+        `/insurers/`
+      ),
+    },
   };
 }
 

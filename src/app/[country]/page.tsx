@@ -13,6 +13,8 @@ export async function generateStaticParams() {
   return VALID_COUNTRY_CODES.map((country) => ({ country }));
 }
 
+import { buildHreflang } from "@/lib/seo";
+
 export async function generateMetadata({ params }: { params: Promise<{ country: string }> }): Promise<Metadata> {
   const { country } = await params;
   const c = getCountryByCode(country);
@@ -20,7 +22,13 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
   return {
     title: `Compare Insurance in ${c.name} — World Best Insurer`,
     description: `Compare health, life, motor, and travel insurance plans in ${c.name}. Transparent data from ${c.name}'s leading insurers.`,
-    alternates: { canonical: `https://worldbestinsurer.com/${country}` },
+    alternates: { 
+      canonical: `https://worldbestinsurer.com/${country}/`,
+      languages: buildHreflang(
+        (code) => `/${code}/`,
+        `/`
+      ),
+    },
   };
 }
 
