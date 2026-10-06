@@ -1,0 +1,32 @@
+[
+ {
+  "at": "2026-10-06T10:41:02.807Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "irdai",
+  "field": "robots",
+  "from": "disallowed",
+  "to": "unreachable",
+  "sourceUrl": "https://irdai.gov.in/"
+ },
+ {
+  "at": "2026-10-06T10:41:25.195Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:national-insurance",
+  "field": "robots",
+  "from": "allowed",
+  "to": "unreachable",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/"
+ },
+ {
+  "at": "2026-10-06T10:41:48.478Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:star-health",
+  "field": "robots",
+  "from": "refused",
+  "to": "allowed",
+  "sourceUrl": "https://www.starhealth.in/"
+ }
+]
