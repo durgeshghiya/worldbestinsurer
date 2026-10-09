@@ -212,7 +212,14 @@ export function sitemapIndexXml(): string {
     const lastmod = latest(entries.map((e) => e.lastmod));
     return `  <sitemap><loc>${SITE}/sitemap-${g}.xml</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ""}</sitemap>`;
   }).join("\n");
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</sitemapindex>\n`;
+  
+  // Append the dynamic hospital sitemaps for India
+  const insurersIn = getAllInsurers("in");
+  const hospitalSitemaps = insurersIn.map(ins => {
+    return `  <sitemap><loc>${SITE}/sitemap-hospitals-${ins.slug}.xml</loc></sitemap>`;
+  }).join("\n");
+
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n${hospitalSitemaps}\n</sitemapindex>\n`;
 }
 
 export function xmlResponse(xml: string): Response {
