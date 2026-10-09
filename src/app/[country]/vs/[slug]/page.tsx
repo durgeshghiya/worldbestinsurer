@@ -12,13 +12,9 @@ import { AdSlot } from "@/components/AdSlot";
 export const dynamicParams = true;
 
 export async function generateStaticParams() {
-  const params: { country: string; slug: string }[] = [];
-  for (const cc of VALID_COUNTRY_CODES) {
-    for (const p of generateVSPairs(cc).slice(0, 50)) {
-      params.push({ country: cc, slug: p.slug });
-    }
-  }
-  return params;
+  // Return empty array to rely entirely on on-demand rendering (dynamicParams = true).
+  // This prevents the build from timing out when trying to statically render 54,000+ combinations.
+  return [];
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ country: string; slug: string }> }): Promise<Metadata> {

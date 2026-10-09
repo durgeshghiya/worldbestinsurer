@@ -11,7 +11,7 @@
 
 import { getAllInsurers, getAllProducts, getProductsByInsurer } from "@/lib/data";
 import { VALID_COUNTRY_CODES } from "@/lib/countries";
-import { getIndexableArticles } from "@/lib/generators";
+import { getIndexableArticles, generateVSPairs, generateInsurerVSPairs } from "@/lib/generators";
 import { getAllFinanceArticles } from "@/lib/finance";
 import { getAllReports } from "@/lib/reports";
 import {
@@ -30,7 +30,7 @@ import {
 
 export const SITE = "https://worldbestinsurer.com";
 
-export const SITEMAP_GROUPS = ["core", "insurers", "products", "categories", "editorial", "statistics"] as const;
+export const SITEMAP_GROUPS = ["core", "insurers", "products", "categories", "editorial", "statistics", "vs-products", "vs-insurers"] as const;
 export type SitemapGroup = (typeof SITEMAP_GROUPS)[number];
 
 export interface SitemapEntry {
@@ -154,8 +154,29 @@ function statistics(): SitemapEntry[] {
   return out;
 }
 
+function vsProducts(): SitemapEntry[] {
+  const out: SitemapEntry[] = [];
+  for (const cc of VALID_COUNTRY_CODES) {
+    for (const p of generateVSPairs(cc)) {
+      // the products in the pair determine the modification date
+      out.push({ path: `/${cc}/vs/${p.slug}`, lastmod: day(latest([p.productA.lastVerified, p.productB.lastVerified])) });
+    }
+  }
+  return out;
+}
+
+function vsInsurers(): SitemapEntry[] {
+  const out: SitemapEntry[] = [];
+  for (const cc of VALID_COUNTRY_CODES) {
+    for (const p of generateInsurerVSPairs(cc)) {
+      out.push({ path: `/${cc}/vs/insurer/${p.slug}` });
+    }
+  }
+  return out;
+}
+
 const BUILDERS: Record<SitemapGroup, () => SitemapEntry[]> = {
-  core, insurers, products, categories, editorial, statistics,
+  core, insurers, products, categories, editorial, statistics, "vs-products": vsProducts, "vs-insurers": vsInsurers
 };
 
 /** Absolute, trailing-slashed, de-duplicated entries for one group. */

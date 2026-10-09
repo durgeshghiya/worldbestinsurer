@@ -43,14 +43,8 @@ function findInsurerPair(slug: string, countryCode: string): InsurerPair | undef
 /* ────────────────────────────────────────────────────────── */
 
 export async function generateStaticParams() {
-  const params: { country: string; slug: string }[] = [];
-  for (const cc of VALID_COUNTRY_CODES) {
-    const pairs = generateInsurerVSPairs(cc).slice(0, 100);
-    for (const pair of pairs) {
-      params.push({ country: cc, slug: pair.slug });
-    }
-  }
-  return params;
+  // Return empty array to rely entirely on on-demand rendering (dynamicParams = true).
+  return [];
 }
 
 export const dynamicParams = true;
