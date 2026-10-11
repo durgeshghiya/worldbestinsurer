@@ -1,0 +1,52 @@
+[
+ {
+  "at": "2026-10-11T10:15:40.378Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "irdai",
+  "field": "robots",
+  "from": "disallowed",
+  "to": "unreachable",
+  "sourceUrl": "https://irdai.gov.in/"
+ },
+ {
+  "at": "2026-10-11T10:15:55.956Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:lic",
+  "field": "robots",
+  "from": "allowed",
+  "to": "disallowed",
+  "sourceUrl": "https://licindia.in/"
+ },
+ {
+  "at": "2026-10-11T10:16:10.283Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:national-insurance",
+  "field": "robots",
+  "from": "allowed",
+  "to": "unreachable",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/"
+ },
+ {
+  "at": "2026-10-11T10:16:35.265Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:niva-bupa",
+  "field": "robots",
+  "from": "allowed",
+  "to": "unreachable",
+  "sourceUrl": "https://www.nivabupa.com/"
+ },
+ {
+  "at": "2026-10-11T10:16:42.847Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:star-health",
+  "field": "robots",
+  "from": "refused",
+  "to": "allowed",
+  "sourceUrl": "https://www.starhealth.in/"
+ }
+]
