@@ -28,9 +28,11 @@ import {
   statisticsPeriodVerdict,
 } from "@/lib/registry";
 
+import { getIndianCities } from "@/lib/cities";
+
 export const SITE = "https://worldbestinsurer.com";
 
-export const SITEMAP_GROUPS = ["core", "insurers", "products", "categories", "editorial", "statistics", "vs-products", "vs-insurers"] as const;
+export const SITEMAP_GROUPS = ["core", "insurers", "products", "categories", "editorial", "statistics", "vs-products", "vs-insurers", "hospitals-1", "hospitals-2"] as const;
 export type SitemapGroup = (typeof SITEMAP_GROUPS)[number];
 
 export interface SitemapEntry {
@@ -175,8 +177,45 @@ function vsInsurers(): SitemapEntry[] {
   return out;
 }
 
+function allHospitals(): SitemapEntry[] {
+  const cities = getIndianCities();
+  const insurers = getAllInsurers("in");
+  const out: SitemapEntry[] = [];
+  for (const ins of insurers) {
+    for (const c of cities) {
+      out.push({ path: `/in/insurer/${ins.slug}/hospitals/${c.slug}` });
+    }
+  }
+  return out;
+}
+
+let cachedHospitals: SitemapEntry[] | null = null;
+function getCachedHospitals(): SitemapEntry[] {
+  if (!cachedHospitals) {
+    cachedHospitals = allHospitals();
+  }
+  return cachedHospitals;
+}
+
+function hospitals1(): SitemapEntry[] {
+  return getCachedHospitals().slice(0, 40000);
+}
+
+function hospitals2(): SitemapEntry[] {
+  return getCachedHospitals().slice(40000);
+}
+
 const BUILDERS: Record<SitemapGroup, () => SitemapEntry[]> = {
-  core, insurers, products, categories, editorial, statistics, "vs-products": vsProducts, "vs-insurers": vsInsurers
+  core,
+  insurers,
+  products,
+  categories,
+  editorial,
+  statistics,
+  "vs-products": vsProducts,
+  "vs-insurers": vsInsurers,
+  "hospitals-1": hospitals1,
+  "hospitals-2": hospitals2,
 };
 
 /** Absolute, trailing-slashed, de-duplicated entries for one group. */
@@ -212,14 +251,8 @@ export function sitemapIndexXml(): string {
     const lastmod = latest(entries.map((e) => e.lastmod));
     return `  <sitemap><loc>${SITE}/sitemap-${g}.xml</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ""}</sitemap>`;
   }).join("\n");
-  
-  // Append the dynamic hospital sitemaps for India
-  const insurersIn = getAllInsurers("in");
-  const hospitalSitemaps = insurersIn.map(ins => {
-    return `  <sitemap><loc>${SITE}/sitemap-hospitals-${ins.slug}.xml</loc></sitemap>`;
-  }).join("\n");
 
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n${hospitalSitemaps}\n</sitemapindex>\n`;
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</sitemapindex>\n`;
 }
 
 export function xmlResponse(xml: string): Response {
