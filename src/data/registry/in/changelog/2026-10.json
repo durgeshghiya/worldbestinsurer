@@ -1,0 +1,42 @@
+[
+ {
+  "at": "2026-10-12T11:17:29.670Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:lic",
+  "field": "robots",
+  "from": "allowed",
+  "to": "unreachable",
+  "sourceUrl": "https://licindia.in/"
+ },
+ {
+  "at": "2026-10-12T11:17:44.076Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:national-insurance",
+  "field": "robots",
+  "from": "allowed",
+  "to": "unreachable",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/"
+ },
+ {
+  "at": "2026-10-12T11:18:08.829Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:niva-bupa",
+  "field": "robots",
+  "from": "allowed",
+  "to": "unreachable",
+  "sourceUrl": "https://www.nivabupa.com/"
+ },
+ {
+  "at": "2026-10-12T11:18:15.126Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:star-health",
+  "field": "robots",
+  "from": "refused",
+  "to": "allowed",
+  "sourceUrl": "https://www.starhealth.in/"
+ }
+]
