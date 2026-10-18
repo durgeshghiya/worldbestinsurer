@@ -60,7 +60,7 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
     <div>
       <BreadcrumbSchema items={[
         { name: "Home", url: "https://worldbestinsurer.com" },
-        { name: c.name, url: `https://worldbestinsurer.com/${country}` },
+        { name: c.name, url: `https://worldbestinsurer.com/${country}/` },
       ]} />
       <FAQSchema questions={faqs} />
       {/* Hero */}

@@ -98,7 +98,7 @@ export async function generateMetadata({
   return {
     title: article.title,
     description: article.excerpt,
-    alternates: { canonical: `https://worldbestinsurer.com/finance/${article.slug}` },
+    alternates: { canonical: `https://worldbestinsurer.com/finance/${article.slug}/` },
     openGraph: {
       title: article.title,
       description: article.excerpt,
@@ -145,7 +145,7 @@ export default async function FinanceArticlePage({
               name: "World Best Insurer",
               url: "https://worldbestinsurer.com",
             },
-            mainEntityOfPage: `https://worldbestinsurer.com/finance/${article.slug}`,
+            mainEntityOfPage: `https://worldbestinsurer.com/finance/${article.slug}/`,
             inLanguage: "en",
             articleSection: article.category,
             keywords: article.tags.join(", "),
@@ -171,8 +171,8 @@ export default async function FinanceArticlePage({
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://worldbestinsurer.com" },
-          { name: "Finance", url: "https://worldbestinsurer.com/finance" },
-          { name: article.title, url: `https://worldbestinsurer.com/finance/${article.slug}` },
+          { name: "Finance", url: "https://worldbestinsurer.com/finance/" },
+          { name: article.title, url: `https://worldbestinsurer.com/finance/${article.slug}/` },
         ]}
       />
 

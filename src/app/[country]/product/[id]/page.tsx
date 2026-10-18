@@ -83,7 +83,7 @@ export async function generateMetadata({
   const c = getCountryByCode(country);
   const r = registryFor(country, id);
   if ((!product && !r) || !c) return {};
-  const canonical = `https://worldbestinsurer.com/${country}/product/${id}`;
+  const canonical = `https://worldbestinsurer.com/${country}/product/${id}/`;
 
   if (!product && r) {
     const v = productView(r.rp, r.reg);
@@ -98,7 +98,7 @@ export async function generateMetadata({
       title,
       description,
       alternates: { canonical },
-      openGraph: { title, description, url: `${canonical}/`, type: "website" },
+      openGraph: { title, description, url: canonical, type: "website" },
       ...robotsFor(productVerdict(id, r.reg, r.site)),
     };
   }

@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: article.title,
     description: article.excerpt,
-    alternates: { canonical: `https://worldbestinsurer.com/learn/${slug}` },
+    alternates: { canonical: `https://worldbestinsurer.com/learn/${slug}/` },
     // Thin articles stay live and linkable but are withheld from search until
     // they are expanded. See LEARN_INDEX_MIN_WORDS.
     ...(isArticleIndexable(article)
@@ -48,8 +48,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://worldbestinsurer.com" },
-          { name: "Insurance Guides", url: "https://worldbestinsurer.com/learn" },
-          { name: article.title, url: `https://worldbestinsurer.com/learn/${article.slug}` },
+          { name: "Insurance Guides", url: "https://worldbestinsurer.com/learn/" },
+          { name: article.title, url: `https://worldbestinsurer.com/learn/${article.slug}/` },
         ]}
       />
       <Link href="/learn" className="inline-flex items-center gap-1.5 text-[13px] text-text-tertiary hover:text-primary mb-6">

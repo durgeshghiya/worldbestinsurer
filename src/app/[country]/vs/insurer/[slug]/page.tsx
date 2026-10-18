@@ -6,7 +6,7 @@ import { getInsurerBySlug, getProductsByInsurer } from "@/lib/data";
 import { getCountryByCode, VALID_COUNTRY_CODES } from "@/lib/countries";
 import { generateInsurerVSPairs, type InsurerPair } from "@/lib/generators";
 import { formatCompact } from "@/lib/utils";
-import { BreadcrumbSchema } from "@/components/StructuredData";
+import { BreadcrumbSchema, VSPairSchema, FAQSchema } from "@/components/StructuredData";
 import InsurerVSEditorial from "@/components/InsurerVSEditorial";
 import { AdSlot } from "@/components/AdSlot";
 
@@ -64,14 +64,38 @@ export async function generateMetadata({
   if (!pair || !c) return {};
 
   const { insurerA: a, insurerB: b } = pair;
+  const canonicalUrl = `https://worldbestinsurer.com/${country}/vs/insurer/${slug}/`;
+  const title = `${(a.shortName || a.name)} vs ${(b.shortName || b.name)} — Insurance Comparison in ${c.name} (2026)`;
+  const description = `Compare ${a.name} and ${b.name} side by side. Claim settlement ratio, products, network hospitals, and more in ${c.name}.`;
+
   return {
-    title: `${(a.shortName || a.name)} vs ${(b.shortName || b.name)} — Insurance Comparison in ${c.name}`,
-    description: `Compare ${a.name} and ${b.name} side by side. Claim settlement ratio, products, network hospitals, and more in ${c.name}.`,
+    title,
+    description,
     alternates: {
-      canonical: `https://worldbestinsurer.com/${country}/vs/insurer/${slug}`,
+      canonical: canonicalUrl,
     },
-    // De-indexed — see docs/index-strategy.md.
-    robots: { index: false, follow: true },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-snippet": -1,
+        "max-image-preview": "large",
+      },
+    },
+    openGraph: {
+      title,
+      description,
+      url: canonicalUrl,
+      type: "website",
+      siteName: "World Best Insurer",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
   };
 }
 
@@ -104,39 +128,34 @@ export default async function InsurerVSPage({
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://worldbestinsurer.com" },
-          { name: c.name, url: `https://worldbestinsurer.com/${country}` },
-          { name: "Insurers", url: `https://worldbestinsurer.com/${country}/insurers` },
-          { name: `${(a.shortName || a.name)} vs ${(b.shortName || b.name)}`, url: `https://worldbestinsurer.com/${country}/vs/insurer/${slug}` },
+          { name: c.name, url: `https://worldbestinsurer.com/${country}/` },
+          { name: "Insurers", url: `https://worldbestinsurer.com/${country}/insurers/` },
+          { name: `${(a.shortName || a.name)} vs ${(b.shortName || b.name)}`, url: `https://worldbestinsurer.com/${country}/vs/insurer/${slug}/` },
         ]}
       />
 
-      {/* FAQ Schema for SEO */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: `Which is better, ${(a.shortName || a.name)} or ${(b.shortName || b.name)}?`,
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: `The better choice depends on your needs. ${(a.shortName || a.name)} has a claim settlement ratio of ${a.claimSettlementRatio?.value ?? "N/A"}% while ${(b.shortName || b.name)} has ${b.claimSettlementRatio?.value ?? "N/A"}%. ${(a.shortName || a.name)} offers ${productsA.length} products and ${(b.shortName || b.name)} offers ${productsB.length} products in ${c.name}. Compare specific plans on World Best Insurer.`,
-                },
-              },
-              {
-                "@type": "Question",
-                name: `How does ${(a.shortName || a.name)} claim settlement compare to ${(b.shortName || b.name)}?`,
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: `${(a.shortName || a.name)} has a claim settlement ratio of ${a.claimSettlementRatio?.value ?? "data not available"}%${a.claimSettlementRatio?.year ? ` (${a.claimSettlementRatio.year})` : ""}. ${(b.shortName || b.name)} has a claim settlement ratio of ${b.claimSettlementRatio?.value ?? "data not available"}%${b.claimSettlementRatio?.year ? ` (${b.claimSettlementRatio.year})` : ""}.`,
-                },
-              },
-            ],
-          }),
-        }}
+      <VSPairSchema
+        title={`${(a.shortName || a.name)} vs ${(b.shortName || b.name)}`}
+        description={`Side-by-side comparison of ${(a.shortName || a.name)} and ${(b.shortName || b.name)} in ${c.name}.`}
+        url={`https://worldbestinsurer.com/${country}/vs/insurer/${slug}/`}
+        itemA={{ name: a.name, url: `https://worldbestinsurer.com/${country}/insurer/${a.slug}/` }}
+        itemB={{ name: b.name, url: `https://worldbestinsurer.com/${country}/insurer/${b.slug}/` }}
+      />
+      <FAQSchema
+        questions={[
+          {
+            q: `Which is better, ${(a.shortName || a.name)} or ${(b.shortName || b.name)}?`,
+            a: `The better choice depends on your needs. ${(a.shortName || a.name)} has a claim settlement ratio of ${a.claimSettlementRatio?.value ?? "N/A"}% while ${(b.shortName || b.name)} has ${b.claimSettlementRatio?.value ?? "N/A"}%. ${(a.shortName || a.name)} offers ${productsA.length} products and ${(b.shortName || b.name)} offers ${productsB.length} products in ${c.name}. Compare specific plans on World Best Insurer.`,
+          },
+          {
+            q: `How does ${(a.shortName || a.name)} claim settlement compare to ${(b.shortName || b.name)}?`,
+            a: `${(a.shortName || a.name)} has a claim settlement ratio of ${a.claimSettlementRatio?.value ?? "data not available"}%${a.claimSettlementRatio?.year ? ` (${a.claimSettlementRatio.year})` : ""}. ${(b.shortName || b.name)} has a claim settlement ratio of ${b.claimSettlementRatio?.value ?? "data not available"}%${b.claimSettlementRatio?.year ? ` (${b.claimSettlementRatio.year})` : ""}.`,
+          },
+          {
+            q: `How do network hospital counts compare between ${(a.shortName || a.name)} and ${(b.shortName || b.name)}?`,
+            a: `${(a.shortName || a.name)} provides ${a.networkHospitals ? `${a.networkHospitals.toLocaleString()}+` : "extensive"} empanelled hospitals, while ${(b.shortName || b.name)} offers ${b.networkHospitals ? `${b.networkHospitals.toLocaleString()}+` : "extensive"} network healthcare facilities.`,
+          },
+        ]}
       />
 
       <Link

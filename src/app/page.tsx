@@ -15,12 +15,39 @@ import CompareLauncher from "@/components/CompareLauncher";
 import { buildHreflang } from "@/lib/seo";
 
 export const metadata: Metadata = {
+  title: "World Best Insurer — Compare Insurance Plans Globally (2026)",
+  description:
+    "The world's independent insurance comparison platform. Compare health, term life, motor, and travel insurance plans across 12 countries with verified statutory data.",
   alternates: { 
     canonical: "https://worldbestinsurer.com/",
     languages: buildHreflang(
       (code) => `/${code}/`,
       `/`
     ),
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+    },
+  },
+  openGraph: {
+    title: "World Best Insurer — Compare Insurance Plans Globally",
+    description:
+      "Compare health, term life, motor, and travel insurance plans across 12 countries with verified statutory regulatory data.",
+    url: "https://worldbestinsurer.com/",
+    type: "website",
+    siteName: "World Best Insurer",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "World Best Insurer — Compare Insurance Plans Globally",
+    description:
+      "Compare health, term life, motor, and travel insurance plans across 12 countries with verified statutory regulatory data.",
   },
 };
 

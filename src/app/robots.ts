@@ -16,6 +16,27 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
         disallow: ["/api/", "/admin/", "/debug/", "/login/", "/private/"],
       },
+      {
+        // Explicitly welcome Generative Engine Optimization (GEO) & AI Search crawlers
+        userAgent: [
+          "Googlebot",
+          "Bingbot",
+          "Applebot",
+          "GPTBot",
+          "ChatGPT-User",
+          "PerplexityBot",
+          "ClaudeBot",
+          "Claude-Web",
+          "Google-Extended",
+          "Amazonbot",
+          "Applebot-Extended",
+          "cohere-ai",
+          "OAI-SearchBot",
+          "Meta-ExternalAgent",
+        ],
+        allow: "/",
+        disallow: ["/api/", "/admin/", "/debug/", "/login/", "/private/"],
+      },
     ],
     sitemap: "https://worldbestinsurer.com/sitemap.xml",
   };

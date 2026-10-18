@@ -88,8 +88,8 @@ export default async function CountryComparePage({ params }: { params: Promise<{
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://worldbestinsurer.com" },
-          { name: c.name, url: `https://worldbestinsurer.com/${country}` },
-          { name: cat?.name ?? category, url: `https://worldbestinsurer.com/${country}/compare/${category}` },
+          { name: c.name, url: `https://worldbestinsurer.com/${country}/` },
+          { name: cat?.name ?? category, url: `https://worldbestinsurer.com/${country}/compare/${category}/` },
         ]}
       />
       <section className="relative overflow-hidden bg-surface-sunken/50">

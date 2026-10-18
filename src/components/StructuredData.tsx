@@ -1,7 +1,8 @@
 import type React from "react";
-import type { InsuranceProduct } from "@/lib/types";
+import type { InsuranceProduct, Insurer } from "@/lib/types";
 import type { Article } from "@/lib/generators";
 import { getCountryByCode } from "@/lib/countries";
+import type { GeoData } from "@/lib/geo";
 
 const BASE_URL = "https://worldbestinsurer.com";
 
@@ -15,7 +16,10 @@ export function JsonLd({ data }: { data: Record<string, unknown> }) {
     <script
       type="application/ld+json"
       dangerouslySetInnerHTML={{
-        __html: JSON.stringify(data).replace(/</g, "\\u003c").replace(/\u2028/g, "\\u2028").replace(/\u2029/g, "\\u2029"),
+        __html: JSON.stringify(data)
+          .replace(/</g, "\\u003c")
+          .replace(/\u2028/g, "\\u2028")
+          .replace(/\u2029/g, "\\u2029"),
       }}
     />
   );
@@ -27,22 +31,51 @@ export function OrganizationSchema(): React.ReactNode {
       data={{
         "@context": "https://schema.org",
         "@type": "Organization",
+        "@id": `${BASE_URL}/#organization`,
         name: "World Best Insurer",
+        legalName: "World Best Insurer Global",
         url: BASE_URL,
-        logo: `${BASE_URL}/logo.svg`,
+        logo: {
+          "@type": "ImageObject",
+          url: `${BASE_URL}/logo.svg`,
+          width: 512,
+          height: 512,
+        },
         description:
-          "The world's insurance comparison platform. Compare health, term life, motor, and travel insurance plans across top insurers with verified data and transparent methodology.",
-        sameAs: [],
+          "The world's insurance comparison and regulatory intelligence platform. Compare health, term life, motor, and travel insurance plans with verified statutory data across 12 countries.",
+        slogan: "Compare Insurance Plans Globally with Verified Regulatory Data",
+        publishingPrinciples: `${BASE_URL}/methodology/`,
+        knowsAbout: [
+          "Health Insurance",
+          "Term Life Insurance",
+          "Motor Insurance",
+          "Travel Insurance",
+          "Claim Settlement Ratio (CSR)",
+          "Incurred Claim Ratio (ICR)",
+          "IRDAI Guidelines",
+          "Cashless Hospital Networks",
+          "Insurance Ombudsman Redressal",
+        ],
         contactPoint: {
           "@type": "ContactPoint",
           contactType: "customer support",
           url: `${BASE_URL}/contact`,
           availableLanguage: ["English", "Hindi", "German", "Japanese", "Korean", "Arabic"],
         },
-        areaServed: {
-          "@type": "Country",
-          name: "Global",
-        },
+        areaServed: [
+          { "@type": "Country", name: "India" },
+          { "@type": "Country", name: "United States" },
+          { "@type": "Country", name: "United Kingdom" },
+          { "@type": "Country", name: "United Arab Emirates" },
+          { "@type": "Country", name: "Singapore" },
+          { "@type": "Country", name: "Canada" },
+          { "@type": "Country", name: "Australia" },
+          { "@type": "Country", name: "Germany" },
+          { "@type": "Country", name: "Saudi Arabia" },
+          { "@type": "Country", name: "Japan" },
+          { "@type": "Country", name: "South Korea" },
+          { "@type": "Country", name: "Hong Kong" },
+        ],
       }}
     />
   );
@@ -54,10 +87,14 @@ export function WebsiteSchema(): React.ReactNode {
       data={{
         "@context": "https://schema.org",
         "@type": "WebSite",
+        "@id": `${BASE_URL}/#website`,
         name: "World Best Insurer",
         url: BASE_URL,
         description:
-          "Compare insurance plans across 12 countries worldwide. Transparent, verified, educational.",
+          "Compare insurance plans across 12 countries worldwide. Transparent, verified, statutory regulatory data.",
+        publisher: {
+          "@id": `${BASE_URL}/#organization`,
+        },
         potentialAction: {
           "@type": "SearchAction",
           target: {
@@ -66,7 +103,211 @@ export function WebsiteSchema(): React.ReactNode {
           },
           "query-input": "required name=search_term_string",
         },
-        inLanguage: "en",
+        inLanguage: ["en", "en-IN", "en-US", "en-GB", "de-DE", "ja-JP", "ko-KR", "en-AE"],
+      }}
+    />
+  );
+}
+
+export function InsurerSchema({
+  insurer,
+  countryCode,
+  irdaiRegNo,
+}: {
+  insurer: Insurer;
+  countryCode: string;
+  irdaiRegNo?: string;
+}): React.ReactNode {
+  const c = getCountryByCode(countryCode);
+  const canonicalUrl = `${BASE_URL}/${countryCode}/insurer/${insurer.slug}/`;
+
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": ["FinancialService", "InsuranceAgency"],
+        "@id": `${canonicalUrl}#insurer`,
+        name: insurer.name,
+        alternateName: insurer.shortName || undefined,
+        description: insurer.description || `${insurer.name} is a licensed insurer in ${c?.name || "India"}.`,
+        url: canonicalUrl,
+        sameAs: insurer.website ? [insurer.website] : [],
+        telephone: insurer.contact?.phone || undefined,
+        email: insurer.contact?.email || undefined,
+        areaServed: {
+          "@type": "Country",
+          name: c?.name || "India",
+        },
+        ...(irdaiRegNo && {
+          identifier: {
+            "@type": "PropertyValue",
+            propertyID: "IRDAI Registration Number",
+            value: irdaiRegNo,
+          },
+        }),
+        ...(insurer.claimSettlementRatio?.value != null && {
+          additionalProperty: [
+            {
+              "@type": "PropertyValue",
+              name: "Claim Settlement Ratio",
+              value: `${insurer.claimSettlementRatio.value}%`,
+              description: `Statutory Claim Settlement Ratio for ${insurer.claimSettlementRatio.year || "latest period"}.`,
+            },
+            ...(insurer.networkHospitals
+              ? [
+                  {
+                    "@type": "PropertyValue",
+                    name: "Cashless Network Hospitals",
+                    value: `${insurer.networkHospitals}+`,
+                  },
+                ]
+              : []),
+          ],
+        }),
+      }}
+    />
+  );
+}
+
+export function HospitalNetworkSchema({
+  insurer,
+  cityName,
+  stateName,
+  geo,
+}: {
+  insurer: Insurer;
+  cityName: string;
+  stateName: string;
+  geo?: GeoData;
+}): React.ReactNode {
+  const pageUrl = `${BASE_URL}/in/insurer/${insurer.slug}/hospitals/${geo?.cityName.toLowerCase().replace(/\s+/g, "-") || cityName.toLowerCase()}/`;
+
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": ["MedicalOrganization", "LocalBusiness"],
+        "@id": `${pageUrl}#hospital-network`,
+        name: `${insurer.name} Cashless Hospital Network — ${cityName}`,
+        description: `Comprehensive directory and claims facilitation guide for ${insurer.name} network hospitals offering cashless treatments in ${cityName}, ${stateName}.`,
+        url: pageUrl,
+        telephone: insurer.contact?.phone || undefined,
+        paymentAccepted: "Cashless health insurance pre-authorization, TPA direct billing",
+        currenciesAccepted: "INR",
+        areaServed: {
+          "@type": "AdministrativeArea",
+          name: cityName,
+          containedInPlace: {
+            "@type": "State",
+            name: stateName,
+          },
+        },
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: cityName,
+          addressRegion: stateName,
+          addressCountry: "IN",
+        },
+        ...(geo && {
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: geo.latitude,
+            longitude: geo.longitude,
+          },
+        }),
+        parentOrganization: {
+          "@type": "FinancialService",
+          name: insurer.name,
+          url: `${BASE_URL}/in/insurer/${insurer.slug}/`,
+        },
+      }}
+    />
+  );
+}
+
+export function VSPairSchema({
+  title,
+  description,
+  url,
+  itemA,
+  itemB,
+}: {
+  title: string;
+  description: string;
+  url: string;
+  itemA: { name: string; brand?: string; url?: string };
+  itemB: { name: string; brand?: string; url?: string };
+}): React.ReactNode {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "ItemPage",
+        name: title,
+        description: description,
+        url: url,
+        mainEntity: {
+          "@type": "ItemList",
+          name: title,
+          numberOfItems: 2,
+          itemListElement: [
+            {
+              "@type": "ListItem",
+              position: 1,
+              name: itemA.name,
+              item: {
+                "@type": "Product",
+                name: itemA.name,
+                brand: itemA.brand ? { "@type": "Brand", name: itemA.brand } : undefined,
+                url: itemA.url,
+              },
+            },
+            {
+              "@type": "ListItem",
+              position: 2,
+              name: itemB.name,
+              item: {
+                "@type": "Product",
+                name: itemB.name,
+                brand: itemB.brand ? { "@type": "Brand", name: itemB.brand } : undefined,
+                url: itemB.url,
+              },
+            },
+          ],
+        },
+      }}
+    />
+  );
+}
+
+export function DatasetSchema({
+  name,
+  description,
+  url,
+  temporalCoverage,
+  spatialCoverage,
+}: {
+  name: string;
+  description: string;
+  url: string;
+  temporalCoverage?: string;
+  spatialCoverage?: string;
+}): React.ReactNode {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        name,
+        description,
+        url,
+        creator: {
+          "@id": `${BASE_URL}/#organization`,
+        },
+        license: "https://creativecommons.org/licenses/by/4.0/",
+        temporalCoverage: temporalCoverage || "2024-2026",
+        spatialCoverage: spatialCoverage || "IN",
+        isAccessibleForFree: true,
       }}
     />
   );
@@ -153,17 +394,11 @@ export function ArticleSchema({
         url: `${BASE_URL}/learn/${article.slug}/`,
         author: {
           "@type": "Organization",
-          name: "World Best Insurer",
-          url: `${BASE_URL}/`,
+          name: "World Best Insurer Editorial Team",
+          url: `${BASE_URL}/about/`,
         },
         publisher: {
-          "@type": "Organization",
-          name: "World Best Insurer",
-          url: `${BASE_URL}/`,
-          logo: {
-            "@type": "ImageObject",
-            url: `${BASE_URL}/logo.svg`,
-          },
+          "@id": `${BASE_URL}/#organization`,
         },
         mainEntityOfPage: {
           "@type": "WebPage",

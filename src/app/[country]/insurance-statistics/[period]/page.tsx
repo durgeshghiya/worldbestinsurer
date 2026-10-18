@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
   return {
     title,
     description,
-    alternates: { canonical: `https://worldbestinsurer.com/in/insurance-statistics/${period}` },
+    alternates: { canonical: `https://worldbestinsurer.com/in/insurance-statistics/${period}/` },
     openGraph: { title, description, url: `https://worldbestinsurer.com/in/insurance-statistics/${period}/`, type: "website" },
     ...robotsFor(statisticsPeriodVerdict(p, reg)),
   };

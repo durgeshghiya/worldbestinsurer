@@ -23,7 +23,7 @@ export async function generateMetadata({
   return {
     title: `${report.title} — World Best Insurer Research`,
     description: report.subtitle,
-    alternates: { canonical: `https://worldbestinsurer.com/reports/${slug}` },
+    alternates: { canonical: `https://worldbestinsurer.com/reports/${slug}/` },
   };
 }
 
@@ -58,7 +58,7 @@ export default async function ReportPage({
               name: "World Best Insurer",
               url: "https://worldbestinsurer.com",
             },
-            url: `https://worldbestinsurer.com/reports/${report.slug}`,
+            url: `https://worldbestinsurer.com/reports/${report.slug}/`,
             about: `${report.category} in ${report.country}`,
             inLanguage: "en",
           }),
@@ -67,8 +67,8 @@ export default async function ReportPage({
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://worldbestinsurer.com" },
-          { name: "Reports", url: "https://worldbestinsurer.com/reports" },
-          { name: report.title, url: `https://worldbestinsurer.com/reports/${report.slug}` },
+          { name: "Reports", url: "https://worldbestinsurer.com/reports/" },
+          { name: report.title, url: `https://worldbestinsurer.com/reports/${report.slug}/` },
         ]}
       />
 

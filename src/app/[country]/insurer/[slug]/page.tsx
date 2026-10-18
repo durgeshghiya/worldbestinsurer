@@ -8,7 +8,7 @@ import { getCountryByCode, VALID_COUNTRY_CODES } from "@/lib/countries";
 import InsurerEditorial from "@/components/InsurerEditorial";
 import { AdSlot } from "@/components/AdSlot";
 import { formatCompact } from "@/lib/utils";
-import { BreadcrumbSchema } from "@/components/StructuredData";
+import { BreadcrumbSchema, InsurerSchema, FAQSchema } from "@/components/StructuredData";
 import RegistryInsurerSection from "@/components/registry/RegistryInsurerSection";
 import {
   INSURER_TYPE_LABEL,
@@ -49,7 +49,7 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
   const c = getCountryByCode(country);
   const r = registryFor(country, slug);
   if ((!insurer && !r) || !c) return {};
-  const canonical = `https://worldbestinsurer.com/${country}/insurer/${slug}`;
+  const canonical = `https://worldbestinsurer.com/${country}/insurer/${slug}/`;
 
   if (r) {
     // Title, description and index decision all derive from the record.
@@ -66,7 +66,7 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
       title,
       description,
       alternates: { canonical },
-      openGraph: { title, description, url: `${canonical}/`, type: "website" },
+      openGraph: { title, description, url: canonical, type: "website" },
       ...robotsFor(insurerVerdict(slug, r.reg, r.site)),
     };
   }
@@ -143,9 +143,26 @@ export default async function CountryInsurerPage({ params }: { params: Promise<{
   const products = getProductsByInsurer(slug, country);
   const peers = getAllInsurers(country);
 
+  const insurerFaqs = [
+    {
+      q: `What insurance categories are offered by ${insurer.shortName || insurer.name} in ${c.name}?`,
+      a: `${insurer.name} offers coverage across ${insurer.categories.map((cat) => cat.replace("-", " ")).join(", ")} insurance, with ${products.length} cataloged products on World Best Insurer.`,
+    },
+    {
+      q: `What is ${insurer.shortName || insurer.name}'s Claim Settlement Ratio?`,
+      a: `${insurer.name}'s official Claim Settlement Ratio is ${insurer.claimSettlementRatio?.value ? `${insurer.claimSettlementRatio.value}%` : "subject to regulatory publication"}${insurer.claimSettlementRatio?.year ? ` (${insurer.claimSettlementRatio.year})` : ""}.`,
+    },
+    {
+      q: `How do I reach ${insurer.shortName || insurer.name} customer service?`,
+      a: `Policyholders can contact ${insurer.name} via ${insurer.contact?.phone ? `helpline ${insurer.contact.phone}` : "their official portal"}${insurer.contact?.email ? ` or email ${insurer.contact.email}` : ""}.`,
+    },
+  ];
+
   return (
     <div className="mx-auto max-w-[1280px] px-5 lg:px-8 py-10">
       {crumbs}
+      <InsurerSchema insurer={insurer} countryCode={country} irdaiRegNo={r?.ri.irdaiRegistrationNumber?.value} />
+      <FAQSchema questions={insurerFaqs} />
       <Link href={`/${country}/insurers`} className="inline-flex items-center gap-1.5 text-[13px] text-text-tertiary hover:text-primary mb-6">
         <ArrowLeft className="w-3.5 h-3.5" /> {c.flag} All insurers in {c.name}
       </Link>
