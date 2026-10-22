@@ -1,0 +1,32 @@
+[
+ {
+  "at": "2026-10-22T08:52:23.519Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:national-insurance",
+  "field": "robots",
+  "from": "allowed",
+  "to": "unreachable",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/"
+ },
+ {
+  "at": "2026-10-22T08:52:43.049Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:star-health",
+  "field": "robots",
+  "from": "refused",
+  "to": "allowed",
+  "sourceUrl": "https://www.starhealth.in/"
+ },
+ {
+  "at": "2026-10-22T08:52:43.112Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:tata-aia",
+  "field": "robots",
+  "from": "allowed",
+  "to": "refused",
+  "sourceUrl": "https://www.tataaia.com/"
+ }
+]
