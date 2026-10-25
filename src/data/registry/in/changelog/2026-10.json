@@ -1,0 +1,72 @@
+[
+ {
+  "at": "2026-10-25T08:40:20.339Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:digit",
+  "field": "robots",
+  "from": "allowed",
+  "to": "refused",
+  "sourceUrl": "https://www.godigit.com/"
+ },
+ {
+  "at": "2026-10-25T08:40:31.403Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:hdfc-ergo",
+  "field": "robots",
+  "from": "allowed",
+  "to": "disallowed",
+  "sourceUrl": "https://www.hdfcergo.com/"
+ },
+ {
+  "at": "2026-10-25T08:40:41.735Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:lic",
+  "field": "robots",
+  "from": "allowed",
+  "to": "disallowed",
+  "sourceUrl": "https://licindia.in/"
+ },
+ {
+  "at": "2026-10-25T08:40:56.162Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:national-insurance",
+  "field": "robots",
+  "from": "allowed",
+  "to": "unreachable",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/"
+ },
+ {
+  "at": "2026-10-25T08:41:24.528Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:niva-bupa",
+  "field": "robots",
+  "from": "allowed",
+  "to": "disallowed",
+  "sourceUrl": "https://www.nivabupa.com/"
+ },
+ {
+  "at": "2026-10-25T08:41:29.306Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:star-health",
+  "field": "robots",
+  "from": "refused",
+  "to": "allowed",
+  "sourceUrl": "https://www.starhealth.in/"
+ },
+ {
+  "at": "2026-10-25T08:41:29.390Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:tata-aia",
+  "field": "robots",
+  "from": "allowed",
+  "to": "refused",
+  "sourceUrl": "https://www.tataaia.com/"
+ }
+]
