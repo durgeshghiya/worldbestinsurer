@@ -1,0 +1,52 @@
+[
+ {
+  "at": "2026-10-28T09:57:22.461Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "irdai",
+  "field": "robots",
+  "from": "disallowed",
+  "to": "unreachable",
+  "sourceUrl": "https://irdai.gov.in/"
+ },
+ {
+  "at": "2026-10-28T09:57:25.702Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:digit",
+  "field": "robots",
+  "from": "allowed",
+  "to": "refused",
+  "sourceUrl": "https://www.godigit.com/"
+ },
+ {
+  "at": "2026-10-28T09:57:42.383Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:national-insurance",
+  "field": "robots",
+  "from": "allowed",
+  "to": "unreachable",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/"
+ },
+ {
+  "at": "2026-10-28T09:58:08.168Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:star-health",
+  "field": "robots",
+  "from": "refused",
+  "to": "allowed",
+  "sourceUrl": "https://www.starhealth.in/"
+ },
+ {
+  "at": "2026-10-28T09:58:08.297Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:tata-aia",
+  "field": "robots",
+  "from": "allowed",
+  "to": "refused",
+  "sourceUrl": "https://www.tataaia.com/"
+ }
+]
