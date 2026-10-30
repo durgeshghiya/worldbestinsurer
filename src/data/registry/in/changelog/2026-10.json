@@ -1,0 +1,52 @@
+[
+ {
+  "at": "2026-10-30T10:22:50.752Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:digit",
+  "field": "robots",
+  "from": "allowed",
+  "to": "refused",
+  "sourceUrl": "https://www.godigit.com/"
+ },
+ {
+  "at": "2026-10-30T10:23:07.486Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:national-insurance",
+  "field": "robots",
+  "from": "allowed",
+  "to": "unreachable",
+  "sourceUrl": "https://nationalinsurance.nic.co.in/"
+ },
+ {
+  "at": "2026-10-30T10:23:17.976Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:new-india-assurance",
+  "field": "robots",
+  "from": "allowed",
+  "to": "unreachable",
+  "sourceUrl": "https://www.newindia.co.in/"
+ },
+ {
+  "at": "2026-10-30T10:23:25.006Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:star-health",
+  "field": "robots",
+  "from": "refused",
+  "to": "allowed",
+  "sourceUrl": "https://www.starhealth.in/"
+ },
+ {
+  "at": "2026-10-30T10:23:25.086Z",
+  "job": "check-sources",
+  "kind": "source",
+  "key": "insurer:tata-aia",
+  "field": "robots",
+  "from": "allowed",
+  "to": "refused",
+  "sourceUrl": "https://www.tataaia.com/"
+ }
+]
