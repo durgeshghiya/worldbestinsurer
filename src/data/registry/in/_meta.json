@@ -3,14 +3,14 @@
   "jurisdiction": "in",
   "lastRun": {
     "ingest": {
-      "at": "2026-09-19T22:19:31.600Z",
-      "ok": true,
-      "summary": "3 accepted, 2 unchanged, 0 held, 0 rejected, 0 documents"
+      "at": "2026-11-16T12:15:48.208Z",
+      "ok": false,
+      "summary": "0 accepted, 41 unchanged, 3 held, 34 rejected, 11 documents"
     },
     "check-documents": {
-      "at": "2026-09-16T09:13:41.697Z",
-      "ok": true,
-      "summary": "22 ok, 0 changed, 0 unavailable"
+      "at": "2026-11-16T12:17:36.920Z",
+      "ok": false,
+      "summary": "45 ok, 10 changed, 26 unavailable"
     },
     "check-sources": {
       "at": "2026-09-16T09:13:55.968Z",
